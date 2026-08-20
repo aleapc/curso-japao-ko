@@ -27,7 +27,7 @@
   async function ouvirFalar(ex: Extract<Exercise, { tipo: 'falar' }>, i: number) {
     falaResultado[i] = null;
     try {
-      const ouvido = await recognizeOnce('es-MX');
+      const ouvido = await recognizeOnce();
       const ok = normalize(ouvido).includes(normalize(ex.alvo));
       falaResultado[i] = { ok, ouvido };
     } catch {
