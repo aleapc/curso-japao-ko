@@ -75,7 +75,20 @@ try {
   /* sem rotas: nada a varrer */
 }
 const app = ler('src', 'app.html');
-const cabecalho = app + '\n' + rotas.join('\n');
+// O MANIFEST DO PWA É CASCA, e foi o último esconderijo do resíduo de clone.
+// Em 2026-08-20 quatro SKUs passaram por este portão com o `manifest` do
+// vite.config.ts ainda do curso de origem: o holanda-de anunciava «¡Dime! —
+// Survival Spanish for Spain» e os japao-ko/zh traziam nome e descrição em
+// INGLÊS, que não é a língua de nenhum dos dois compradores. Nada disso aparece
+// em app.html nem nas rotas — só no ícone e no nome do app JÁ INSTALADO no
+// celular, que é justamente onde ninguém olha depois. Extrai-se só os literais
+// de string do bloco `manifest:`, para não acusar o comentário que explica isto.
+const vite = ler('vite.config.ts');
+const blocoManifest = (/manifest:\s*\{([\s\S]*?)\n\s{6}\}/.exec(vite) || [])[1] || '';
+const manifestTextos = (blocoManifest.match(/(name|short_name|description):\s*'([^']*)'/g) || [])
+  .map((l) => l.replace(/^[^']*'/, '').replace(/'$/, ''))
+  .join('\n');
+const cabecalho = app + '\n' + rotas.join('\n') + '\n' + manifestTextos;
 // O PAÍS DO COMPRADOR NÃO É «OUTRO DESTINO». O curso IT → Espanha diz, com razão,
 // «Spagna e Italia usano l'euro: non serve alcuna conversione» — a Itália ali é a
 // CASA de quem compra, não um destino trocado. A primeira versão deste portão
