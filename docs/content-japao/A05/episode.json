@@ -1,0 +1,353 @@
+{
+  "id": "a05",
+  "nivel": "avancado",
+  "numero": 33,
+  "parte": "A05",
+  "titulo": "The other language",
+  "subtitulo": "A sumimasen before the request, and the English usually turns up on its own — a handful of courtesy words carry this entire part",
+  "cena": "You opened at the counter with your request, you got one flat word back, and the whole story you were told before the trip seemed to confirm itself in a second and a half.",
+  "moldura": "ganha",
+  "frasePiso": "Open first, ask second. The sumimasen that opens the exchange does more work here than any amount of vocabulary.",
+  "moldes": [],
+  "fatosDatados": [
+    {
+      "id": "fr-ef-epi-2025",
+      "afirmacao": "The one usable rough measure of English in Japan is the EF English Proficiency Index, where Japan has for years sat in the 'low proficiency' band, near the bottom of the East-Asian ranking. EF itself states that this is an online survey of self-selected test-takers rather than a statistically valid sample of the population, which biases the result. It supports one claim only — that English at large in Japan is limited and unevenly spread — and it cannot support any percentage of Japanese people who speak English, nor a prediction about the person in front of you.",
+      "fonte": "EF EPI: Japão na faixa «low proficiency» há anos; ressalva da própria EF: «an online survey rather than a statistically valid sampling of the population»",
+      "ano": 2026,
+      "revisarAte": "2027-08-04",
+      "evidencia": "FATO",
+      "risco": "medio",
+      "audioKeys": [
+        "fr-a05-n03",
+        "fr-a05-n04"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-a05-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "You have been told that people here will not speak English to you. Nothing measures that. No survey, no study, nothing."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-a05-n02",
+      "bloco": "corpo",
+      "pt": "What does exist is a ranking, a warning label the publisher prints on it, and an opening move. In that order."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-a05-n03",
+      "bloco": "capsula",
+      "pt": "EF's index puts Japan in its low band, near the bottom of the East-Asian ranking, from people who tested themselves online."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-a05-n04",
+      "pt": "Those people signed themselves up, which EF says in print. So it supports a rough national picture, never a percentage of anyone."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_f",
+      "audioKey": "fr-a05-r01",
+      "receptivo": true,
+      "acao": "You walked up with the request. That flat greeting is the sequence waiting to be started, not a door being shut.",
+      "es": "いらっしゃいませ。",
+      "pt": "Welcome in.",
+      "tts": "いらっしゃいませ。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-a05-n05",
+      "pt": "The best available reading is ritual rather than attitude. Sumimasen opens a small space before you step into someone's attention."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-a05-n06",
+      "pt": "A request arriving without it is an entrance without a knock. That is an interpretation of how openings work here, not a measured result."
+    },
+    {
+      "consulta": [
+        "chegar/entrar",
+        "simpatia/puxar-conversa"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-a05-p01",
+      "promptPt": "You need something from a stranger behind a counter. Do the opening before the request. Speak now.",
+      "audioKey": "fr-a05-t01",
+      "es": "すみません、ちょっとよろしいですか？",
+      "pinyin": "soo-mee-ma-SEN, chot-to yo-ro-shee des-ka",
+      "pt": "Excuse me, do you have a moment?",
+      "tts": "すみません、ちょっとよろしいですか？"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_f",
+      "audioKey": "fr-a05-r02",
+      "receptivo": true,
+      "acao": "Same person, four words later. Nothing about them changed — the order did.",
+      "es": "はい、いらっしゃいませ。どうぞ。",
+      "pt": "Yes, welcome. Please, go ahead.",
+      "tts": "はい、いらっしゃいませ。どうぞ。"
+    },
+    {
+      "consulta": [
+        "reparo/ingles"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-a05-p02",
+      "promptPt": "You have greeted them and now you need the other language. Ask, with the rise at the end. Speak now.",
+      "audioKey": "fr-a05-t02",
+      "es": "英語、話せますか？",
+      "pinyin": "EE-go, ha-na-se-mas-ka",
+      "pt": "Do you speak English?",
+      "tts": "英語、話せますか？"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-a05-r03",
+      "receptivo": true,
+      "acao": "A yes with a condition attached. Slow down and you have your answer.",
+      "es": "少しなら。ゆっくりお願いします。",
+      "pt": "A little. Slowly, please.",
+      "tts": "少しなら。ゆっくりお願いします。"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_f",
+      "audioKey": "fr-a05-r04",
+      "receptivo": true,
+      "acao": "The answer is often a different person. Ten seconds of waiting is usually the whole solution.",
+      "es": "私はちょっと…でも、あの子が話せます。呼んできますね。",
+      "pt": "Not me... but she can. I'll go and get her.",
+      "tts": "私はちょっと…でも、あの子が話せます。呼んできますね。"
+    },
+    {
+      "consulta": [
+        "reparo/ingles",
+        "simpatia/puxar-conversa"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-a05-p03",
+      "promptPt": "Get in ahead of it, before anyone has to be polite about your accent. Speak now.",
+      "audioKey": "fr-a05-t03",
+      "es": "日本語が下手ですみません。",
+      "pinyin": "ni-HON-go ga he-TA de soo-mee-ma-sen",
+      "pt": "Sorry, my Japanese is poor.",
+      "tts": "日本語が下手ですみません。"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-a05-r05",
+      "receptivo": true,
+      "acao": "Do not argue with it. Take the encouragement and carry on.",
+      "es": "いえいえ、大丈夫ですよ。続けてください、わかりますから。",
+      "pt": "Not at all. Carry on, I understand you fine.",
+      "tts": "いえいえ、大丈夫ですよ。続けてください、わかりますから。"
+    },
+    {
+      "consulta": [
+        "reparo/ingles"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-a05-p04",
+      "promptPt": "They switched to English to help you, and you would rather keep going the other way. Offer it. Speak now.",
+      "audioKey": "fr-a05-t04",
+      "es": "よければ、日本語で大丈夫です。",
+      "pinyin": "yo-ke-re-ba, ni-HON-go de dai-JOH-bu des",
+      "pt": "If it's okay, Japanese is fine.",
+      "tts": "よければ、日本語で大丈夫です。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-a05-n07",
+      "pt": "A handful of words carry this whole part: sumimasen, arigatou, onegaishimasu, gomennasai, shitsurei shimasu."
+    },
+    {
+      "consulta": [
+        "simpatia/agradecer",
+        "chegar/sair"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-a05-p05",
+      "promptPt": "You are leaving the shop with what you came for. Close it the way the room closes it. Speak now.",
+      "audioKey": "fr-a05-t05",
+      "es": "ありがとうございました。失礼します。",
+      "pinyin": "a-ri-ga-TOH go-za-i-mash-ta · shee-tsu-REI shee-mas",
+      "pt": "Thank you very much. Goodbye.",
+      "tts": "ありがとうございました。失礼します。"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_f",
+      "audioKey": "fr-a05-r06",
+      "receptivo": true,
+      "acao": "Two closers in a row. Closing is a sequence too, and yours is allowed to be shorter than theirs.",
+      "es": "ありがとうございました。またお越しくださいませ。",
+      "pt": "Thank you very much. Please come again.",
+      "tts": "ありがとうございました。またお越しくださいませ。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-a05-n08",
+      "pt": "One more thing that gets mistaken for another language: the same Japanese at speed, with the middles dropped."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-a05-r07",
+      "receptivo": true,
+      "acao": "Nothing new in there. Wakannai is wakaranai, kiite is kiite mite, acchi is that direction.",
+      "es": "わかんないなあ。あっちの人に聞いてみて。",
+      "pt": "Dunno. Try asking that person over there.",
+      "tts": "わかんないなあ。あっちの人に聞いてみて。"
+    },
+    {
+      "consulta": [
+        "reparo/devagar"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-a05-p06",
+      "promptPt": "That arrived at full speed and you caught two words of it. Ask for it again, slower. Speak now.",
+      "audioKey": "fr-a05-t06",
+      "es": "もう少しゆっくりお願いできますか？",
+      "pinyin": "moh su-ko-shee yook-KOO-ri o-ne-gai de-kee-mas-ka",
+      "pt": "Could you say that a little more slowly?",
+      "tts": "もう少しゆっくりお願いできますか？"
+    },
+    {
+      "consulta": [
+        "reparo/como-se-diz"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-a05-p07",
+      "promptPt": "There is a thing in your hand and no word for it in your head. Point at it and ask. Speak now.",
+      "audioKey": "fr-a05-t07",
+      "es": "これ、日本語で何て言いますか？",
+      "pinyin": "ko-re, ni-HON-go de NAN-te ee-mas-ka",
+      "pt": "How do you say this in Japanese?",
+      "tts": "これ、日本語で何て言いますか？"
+    },
+    {
+      "consulta": [
+        "simpatia/agradecer"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-a05-p08",
+      "promptPt": "Somebody just spent five minutes going slowly for you. Thank them for the thing they actually did. Speak now.",
+      "audioKey": "fr-a05-t08",
+      "es": "ご親切に、ありがとうございます。",
+      "pinyin": "go-SHIN-se-tsu ni, a-ri-ga-TOH go-za-i-mas",
+      "pt": "Thank you for your kindness.",
+      "tts": "ご親切に、ありがとうございます。"
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_fr_f",
+      "audioKey": "fr-a05-s01",
+      "es": "すみません、ちょっとよろしいですか？ 英語、話せますか？ ありがとうございました。",
+      "pinyin": "soo-mee-ma-SEN chot-to yo-ro-shee des-ka · EE-go ha-na-se-mas-ka · a-ri-ga-TOH go-za-i-mash-ta",
+      "pt": "Shadow the sequence itself: opening, then the question, then the closing.",
+      "tts": "すみません、ちょっとよろしいですか？ 英語、話せますか？ ありがとうございました。"
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-a05-n09",
+      "bloco": "recap",
+      "pt": "A05 done. No source measures anyone turning you down. Open first, ask second, and a handful of words carry the rest."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "The sequence, the index, and the courtesy words",
+    "secoes": [
+      {
+        "titulo": "What the number can and cannot say",
+        "corpo": "The EF English Proficiency Index puts Japan in its low band, near the bottom of the East-Asian ranking, from people who tested themselves online. EF prints the caveat itself: the test-takers sign themselves up, so this is a survey of the self-selected rather than a valid sample of the population, and the result is skewed. That makes it usable for exactly one sentence — English at large in Japan is limited and unevenly spread — and useless for any claim about what share of people speak English, or about the person in front of you.",
+        "exemplos": [
+          {
+            "es": "英語、話せますか？",
+            "pt": "Do you speak English?"
+          },
+          {
+            "es": "少しなら。ゆっくりお願いします。",
+            "pt": "A little. Slowly, please."
+          }
+        ]
+      },
+      {
+        "titulo": "The ritual reading, offered as a hypothesis",
+        "corpo": "There is no research measuring a decision not to speak English to visitors, and this course does not assert one. What there is is the ordinary shape of an opening here: sumimasen calls attention, excuses the intrusion and opens a small space before you step into a stranger's attention. Read that way, a request arriving with no opening is an entrance without a knock, and the flatness that comes back is about the missing step. That is an interpretation of how openings work, not a measured result, and it should be held that lightly."
+      },
+      {
+        "titulo": "The courtesy words",
+        "corpo": "Sumimasen, arigatou gozaimasu, onegaishimasu, gomennasai, shitsurei shimasu. They are not vocabulary; they are the frame the exchange happens inside. Said plainly and in the right order they buy far more than a correct sentence dropped in without them, and the whole of this part fits between the first and the last of them."
+      },
+      {
+        "titulo": "Fast Japanese is not another language",
+        "corpo": "Wakannai for wakaranai, teru for te iru, acchi for atchira, dropped particles everywhere. The words stay; the small parts in the middle go, and the speed does the rest. When a sentence sounds like something you have never studied, the odds are it is something you have — delivered at speed. Mou sukoshi yukkuri onegai dekimasu ka is the whole repair, and asking it is normal rather than remarkable."
+      }
+    ]
+  },
+  "slot": "A05",
+  "permissao": "You are allowed to ask for English out loud, in Japanese, without apologising for the trip. Sumimasen, then eigo hanasemasu ka, is a complete and entirely ordinary request — the opening is not a password you are being tested on, it is simply the first half of the exchange.",
+  "permissaoAudioKey": "fr-a05-n05",
+  "espelho": "Anyone who has been approached at work by a stranger who started talking mid-sentence knows the small friction this part describes, and knows it had nothing to do with which language they were using. Being addressed with an opening first is not a national requirement — it is just more visible here.",
+  "fichasCulturais": [
+    {
+      "sinal": "You open at a counter with your request and get one flat word back, or nothing much at all.",
+      "suaLeitura": "They have decided not to speak English to me, exactly as I was warned.",
+      "oQueEAli": "No source measures a decision like that; the claim is a stereotype and this course does not repeat it. The best-supported reading is about sequence: sumimasen opens a small space before you enter a stranger's attention, so a request that arrives without it lands as an entry without a knock. The coolness is about the missing step rather than the language. That reading is an interpretation of how openings work, not a measured finding.",
+      "oQueVoceFaz": "Say sumimasen, wait the half-second, and only then ask — in English if you need to.",
+      "oQueMelhora": "The same person very often produces English, or fetches a colleague who has it. You stop reading a sequence error as a personal one.",
+      "ondeNaoVale": "Not everywhere and not always. At an airport desk, a big hotel or a place built around international traffic the opening is expected but changes little; and plenty of people genuinely have no English, in which case no opening in the world produces it.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "fr-a05-n05",
+        "fr-a05-n06"
+      ]
+    },
+    {
+      "sinal": "You read that Japan ranks low in the world for English and plan your week around it.",
+      "suaLeitura": "That ranking tells me roughly how likely the next person is to speak English to me.",
+      "oQueEAli": "It does not. EF places Japan in its low band from self-selected online test-takers — EF states plainly that the sample is not representative, so the result is skewed. The ranking is evidence of a rough country-level picture and of nothing about any individual counter.",
+      "oQueVoceFaz": "Use it as background, then ask rather than assume — in either direction. Eigo hanasemasu ka after the opening settles it in two seconds.",
+      "oQueMelhora": "You stop being surprised in both directions, which is what makes the first few exchanges feel unpredictable.",
+      "ondeNaoVale": "The ranking cannot be sliced. It says nothing about rural versus urban, older versus younger, or one trade versus another, and treating it as if it could is exactly the error EF warns about.",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "fr-a05-n03",
+        "fr-a05-n04"
+      ]
+    }
+  ]
+}

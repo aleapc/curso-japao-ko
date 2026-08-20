@@ -1,0 +1,96 @@
+{
+  "id": "q-b15",
+  "nivel": "basico",
+  "titulo": "Quiz — Ikura desu ka — the question you ask before you sit down",
+  "subtitulo": "Izakaya, counter, stall and shop — one ending, four prices",
+  "introAudioKey": "fr-b15-q-i",
+  "introPt": "A traveller prices the seat before sitting in it, then takes the same ending to a stall and a shop.",
+  "cenario": "An izakaya at the door, then a market stall and a small shop.",
+  "dialogo": [
+    {
+      "audioKey": "fr-b15-q01",
+      "voz": "target_fr_f",
+      "es": "お通しはいくらですか？",
+      "pt": "How much is the cover dish?",
+      "tts": "お通しはいくらですか？"
+    },
+    {
+      "audioKey": "fr-b15-q02",
+      "voz": "target_fr_m",
+      "es": "お通しは、お一人様三百円です。",
+      "pt": "The cover dish is three hundred yen per person.",
+      "tts": "お通しは、お一人様三百円です。"
+    },
+    {
+      "audioKey": "fr-b15-q03",
+      "voz": "target_fr_f",
+      "es": "これはいくらですか？",
+      "pt": "How much is this?",
+      "tts": "これはいくらですか？"
+    },
+    {
+      "audioKey": "fr-b15-q04",
+      "voz": "target_fr_m",
+      "es": "一パック三百円です。いくつにしますか？",
+      "pt": "Three hundred yen a pack. How many would you like?",
+      "tts": "一パック三百円です。いくつにしますか？"
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "A small dish you never ordered appears at your izakaya seat and is charged per person. What is that?",
+      "opcoes": [
+        "A scam aimed at tourists",
+        "The otoshi — a lawful, normal cover charge in the shape of food",
+        "A mistake you can have removed",
+        "A tip they added"
+      ],
+      "correta": 1,
+      "explica": "お通し runs about 300–500 yen a head; you usually cannot decline it, but you can ask what it costs."
+    },
+    {
+      "pergunta": "Which filling makes ikura desu ka most valuable in Japan?",
+      "opcoes": [
+        "A product on the shelf",
+        "A quantity",
+        "A cover charge — the otoshi or seki-ryo you were never told about",
+        "A day of the week"
+      ],
+      "correta": 2,
+      "explica": "Most prices are posted; the seat charge is the one that appears without anybody saying so."
+    },
+    {
+      "pergunta": "What usually lets you check a price before you even speak?",
+      "opcoes": [
+        "Nothing — you must always ask",
+        "Only the staff's word",
+        "Tax-included figures, plastic food samples and photo menus in the window, and set-meal totals",
+        "The opening hours only"
+      ],
+      "correta": 2,
+      "explica": "食品サンプル and 定食 totals price most things from the pavement; the izakaya cover is what they leave out."
+    },
+    {
+      "pergunta": "You want a bigger jacket in a small shop. What do you say?",
+      "opcoes": [
+        "私のサイズはありますか？",
+        "試着してもいいですか？",
+        "これはいくらですか？",
+        "見ているだけです。"
+      ],
+      "correta": 0,
+      "explica": "Watashi no saizu wa arimasu ka asks whether they have your size; 試着 is trying it on."
+    },
+    {
+      "pergunta": "Somebody comes over the moment you enter and you have decided nothing. What buys you room?",
+      "opcoes": [
+        "Saying nothing and walking on",
+        "Mite iru dake desu — I'm just looking",
+        "これはいくらですか？",
+        "Leaving and coming back later"
+      ],
+      "correta": 1,
+      "explica": "It is the expected answer, not a brush-off, and it usually gets a friendly douzo back."
+    }
+  ]
+}

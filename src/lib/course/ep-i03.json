@@ -1,0 +1,328 @@
+{
+  "id": "i03",
+  "nivel": "intermediario",
+  "numero": 21,
+  "parte": "I03",
+  "titulo": "당신이 시킬 생각조차 없었던 그 접시",
+  "subtitulo": "혼지츠노오스스메는 오늘의 추천 요리이고 빨리 나가며, 지카세이는 집에서 만들었다는 뜻이지만 그 자체로는 아무것도 증명하지 않고, 세트에 뭐가 포함되는지는 그 가게가 정하기 나름이다",
+  "cena": "문 옆에 두 줄짜리 작은 칠판이 있고, 안에는 마흔 가지가 적힌 코팅된 메뉴판이 있는데, 정작 맛있는 건 칠판에 있다.",
+  "moldura": "ganha",
+  "frasePiso": "오늘이 뭔지, 그 안에 뭐가 들었는지 물어라. 질문 두 개면 코팅된 메뉴판만 봐서는 절대 고를 수 없었던 요리를 주문하게 된다.",
+  "decisao": "pedir a recomendação do dia ou a do balcão em vez do prato cujo nome eu já reconheço — e perguntar o que entra na coisa antes de pedir, porque no Japão nem origem nem alérgeno é obrigatório na carta do restaurante",
+  "moldes": [],
+  "fatosDatados": [
+    {
+      "id": "fr-i03-sanchi",
+      "afirmacao": "일본에서 식당 메뉴판에 원산지를 표시하는 것은 의무가 아니다. 소비자청은 2005년에 외식업 식재료 원산지 표시에 관한 자율 지침을 냈지만, 식당에 대해서는 규칙이 아니라 권고일 뿐이다 — 그러니 특정 현(縣)을 명시한 메뉴판은 하나의 선택을 한 것이고, 아무것도 쓰지 않은 메뉴판은 규칙을 어긴 게 아니다. 여행자에게 남는 결론은 이렇다: 요리가 어디서 왔는지는 메뉴판이 보장해 주는 게 아니라 물어봐야 하는 것이다.",
+      "fonte": "消費者庁 (Agência de Assuntos do Consumidor) — «外食における原産地表示に関するガイドライン», de 2005 (原agência: 農林水産省); exibição voluntária no 外食",
+      "ano": 2005,
+      "revisarAte": "2028-08-05",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "fr-i03-n02"
+      ]
+    },
+    {
+      "id": "fr-i03-allergen",
+      "afirmacao": "알레르기 표시가 의무인 것은 포장 식품뿐이고 식당은 해당하지 않는다. 식품표시법(2015년 4월 시행) 아래에서는 지정 알레르기 성분(特定原材料)의 정해진 목록을 포장 제품에 표시해야 하는데, 2023년 개정으로 호두(くるみ)가 의무 항목에 추가되어 목록은 8개로 늘었고 전환 기간은 2025년까지 이어진다. 외식업은 이 의무 밖에 있다 — 알레르기 표시가 하나도 없는 식당 메뉴판이라고 해서 뭔가를 숨기는 게 아니라, 그저 표시 의무가 없을 뿐이다. 그래서 알레르기가 있는 사람은 메뉴판을 읽는 대신 직접 말로 알리는 것이다.",
+      "fonte": "食品表示法 (Lei de Rotulagem de Alimentos), em vigor desde abr/2015; 特定原材料 — 8 itens após くるみ tornar-se obrigatório (revisão de 2023, transição até 2025); 外食 fora da obrigação",
+      "ano": 2015,
+      "revisarAte": "2027-08-05",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "fr-i03-n04"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-i03-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "가게에서 제일 맛있는 접시는 대개 메뉴판에 인쇄되어 있지 않다."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-i03-r01",
+      "receptivo": true,
+      "acao": "그건 이유가 딸린 추천이다. 받아들이거나, 최소한 그게 뭔지 물어보고 나서 정하라.",
+      "es": "今日のおすすめ、よく出ますよ。",
+      "pt": "오늘 추천 메뉴, 잘 나가고 있어요.",
+      "tts": "今日のおすすめ、よく出ますよ。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-i03-n02",
+      "bloco": "corpo",
+      "pt": "요리가 어디서 왔는지는 여기선 법으로 표시하지 않는다. 메뉴판의 원산지는 자율 표시라, 중요하다면 읽는 게 아니라 물어야 한다."
+    },
+    {
+      "consulta": [
+        "mesa/carta",
+        "mesa/comida"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "ARIMASU-KA",
+      "encaixe": "日替わり定食",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-i03-p01",
+      "promptPt": "자리에 앉았고 코팅된 메뉴판이 방금 눈앞에 놓였다. 다른 옵션부터 찾아라. 지금 말하세요.",
+      "audioKey": "fr-i03-t01",
+      "es": "日替わり定食はありますか？",
+      "pinyin": "hi-ga-WA-ri tei-SHO-ku wa a-ri-MAS-ka",
+      "pt": "오늘의 정식 있나요?",
+      "tts": "日替わり定食はありますか？"
+    },
+    {
+      "consulta": [
+        "mesa/comida"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-i03-p02",
+      "promptPt": "된다고 했다. 이제 오늘이 정확히 뭔지 알아내라. 지금 말하세요.",
+      "audioKey": "fr-i03-t02",
+      "es": "本日のおすすめは何ですか？",
+      "pinyin": "HON-jitsu no o-su-su-me wa NAN des-ka",
+      "pt": "오늘의 추천 메뉴가 뭐예요?",
+      "tts": "本日のおすすめは何ですか？"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-i03-r02",
+      "es": "今日は、ぶりの照り焼きです。ご飯とお味噌汁がつきます。",
+      "pt": "오늘은 방어 데리야키예요. 밥이랑 된장국이 같이 나와요.",
+      "tts": "今日は、ぶりの照り焼きです。ご飯とお味噌汁がつきます。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-i03-n03",
+      "pt": "첫 시간에 배운 틀이 그대로 통한다. 와 아리마스카, 그다음에 상대가 갖고 있었으면 하는 걸 말하면 된다."
+    },
+    {
+      "consulta": [
+        "mesa/comida",
+        "simpatia/puxar-conversa"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-i03-p03",
+      "promptPt": "메뉴판에 마흔 줄이 있는데 알아보는 건 여섯 개뿐이다. 아는 사람에게 선택을 넘겨라. 지금 말하세요.",
+      "audioKey": "fr-i03-t03",
+      "es": "何がおすすめですか？",
+      "pinyin": "NA-ni ga o-su-su-me des-ka",
+      "pt": "뭐 추천해 주실 만한 거 있어요?",
+      "tts": "何がおすすめですか？"
+    },
+    {
+      "consulta": [
+        "mesa/comida",
+        "dieta/o-que-tem"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-i03-p04",
+      "promptPt": "칠판에 있는 이름 하나가 당신에겐 아무 뜻도 없다. 질문 하나로 그걸 열어라. 지금 말하세요.",
+      "audioKey": "fr-i03-t04",
+      "es": "これは何が入っていますか？",
+      "pinyin": "ko-RE wa NA-ni ga hait-te-i-mas-ka",
+      "pt": "이건 뭐가 들어가요?",
+      "tts": "これは何が入っていますか？"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-i03-n04",
+      "bloco": "capsula",
+      "pt": "지카세이는 집에서 만들었다는 뜻이지만 판매 문구지 법률 용어는 아니다. 식당은 알레르기 성분을 표시할 의무가 없어서, 없다는 것 자체는 아무것도 증명하지 않는다: 그러니 물어야 한다."
+    },
+    {
+      "consulta": [
+        "mesa/comida",
+        "dieta/o-que-tem"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-i03-p05",
+      "promptPt": "뒤쪽 주방이 실제로 요리를 하는지 궁금하다. 가게가 아니라 그 접시에 대해 물어라. 지금 말하세요.",
+      "audioKey": "fr-i03-t05",
+      "es": "これは手作りですか？",
+      "pinyin": "ko-RE wa te-ZU-ku-ri des-ka",
+      "pt": "이거 여기서 직접 만든 거예요?",
+      "tts": "これは手作りですか？"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-i03-r03",
+      "receptivo": true,
+      "acao": "메뉴판에 표시가 없다고 답이 정해지는 건 아니다. 답은 방금 물어서 얻은 그 문장이다.",
+      "es": "はい、全部うちで作っています。",
+      "pt": "네, 전부 저희가 직접 만들어요.",
+      "tts": "はい、全部うちで作っています。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-i03-n05",
+      "pt": "코스나 세트에는 정해진 정의가 없다. 이 가게가 그걸로 무엇을 뜻하느냐가 오늘의 정의이니, 뭐가 딸려 나오는지 물어라."
+    },
+    {
+      "consulta": [
+        "mesa/carta",
+        "pagar/pedir"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-i03-p06",
+      "promptPt": "칠판에는 세트와 숫자만 적혀 있고 그게 전부다. 그 숫자로 뭘 살 수 있는지 알아내라. 지금 말하세요.",
+      "audioKey": "fr-i03-t06",
+      "es": "このコースには何がつきますか？",
+      "pinyin": "ko-no KOH-su ni wa NA-ni ga tsu-ki-mas-ka",
+      "pt": "이 코스에는 뭐가 딸려 나와요?",
+      "tts": "このコースには何がつきますか？"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-i03-r04",
+      "receptivo": true,
+      "acao": "그건 이 가게만의 정의지 전국 공통이 아니다. 옆 골목의 다음 가게는 선을 다르게 그을 수 있다.",
+      "es": "コースは、前菜とメインとデザートで、三千円です。",
+      "pt": "코스는 전채, 메인, 디저트로 3천 엔이에요.",
+      "tts": "コースは、前菜とメインとデザートで、三千円です。"
+    },
+    {
+      "consulta": [
+        "mesa/comida",
+        "simpatia/elogiar-comida"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "ARIMASU-KA",
+      "encaixe": "この辺の名物",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-i03-p07",
+      "promptPt": "지금 있는 곳에서 멀리 떠나왔고, 여기에만 있는 그것을 원한다. 지금 말하세요.",
+      "audioKey": "fr-i03-t07",
+      "es": "この辺の名物はありますか？",
+      "pinyin": "ko-no HEN no mei-BUTSU wa a-ri-MAS-ka",
+      "pt": "이 근처 명물 요리 있나요?",
+      "tts": "この辺の名物はありますか？"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-i03-n06",
+      "pt": "이제 결정하라. 코레, 방금 설명 들은 그것, 그리고 오네가이시마스면 완전한 주문이자 이 파트 전체의 핵심이다."
+    },
+    {
+      "consulta": [
+        "mesa/comida",
+        "pagar/pedir"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-i03-p08",
+      "promptPt": "설명이 끝났고, 펜을 든 채 기다리고 있다. 짧은 한 문장으로 마무리하라. 지금 말하세요.",
+      "audioKey": "fr-i03-t08",
+      "es": "じゃあ、これをお願いします。",
+      "pinyin": "JAA, ko-RE o o-ne-gai-shi-MAS",
+      "pt": "그럼 이걸로 할게요.",
+      "tts": "じゃあ、これをお願いします。"
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_fr_f",
+      "audioKey": "fr-i03-s01",
+      "es": "日替わり定食はありますか？ これは何が入っていますか？ じゃあ、これをお願いします。",
+      "pinyin": "hi-ga-WA-ri tei-SHO-ku wa a-ri-MAS-ka. ko-RE wa NA-ni ga hait-te-i-mas-ka. JAA, ko-RE o o-ne-gai-shi-MAS",
+      "pt": "코팅된 메뉴판에서 칠판으로 넘어가게 해 주는 세 동작을 따라 말해 보라.",
+      "tts": "日替わり定食はありますか？ これは何が入っていますか？ じゃあ、これをお願いします。",
+      "molde": "ARIMASU-KA"
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-i03-n07",
+      "bloco": "recap",
+      "pt": "I03 완료. 오늘의 정식, 그 안에 뭐가 들었는지, 여기서 만든 건지, 그리고 이 가게에서 코스가 실제로 무엇을 포함하는지."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "칠판 위의 세 단어, 그리고 각각의 가치",
+    "secoes": [
+      {
+        "titulo": "오늘의 정식과 오늘의 추천",
+        "corpo": "니치가와리 테이쇼쿠는 오늘의 정식이고 혼지츠노오스스메는 오늘의 픽이다 — 둘 다 매일 바뀌고 코팅된 메뉴판에는 인쇄되어 있지 않다. 정식에는 와 아리마스카를, 추천에는 난 데스카를 물으면 메뉴판이 보여줄 수 없는 두 가지를 얻는다 — 그리고 정식은 대개 밥과 된장국이 딸려서 나오는데, 그게 바로 정식을 주문하는 이유다.",
+        "exemplos": [
+          {
+            "es": "日替わり定食はありますか？",
+            "pt": "오늘의 정식 있나요?"
+          },
+          {
+            "es": "本日のおすすめは何ですか？",
+            "pt": "오늘의 추천 메뉴가 뭐예요?"
+          }
+        ]
+      },
+      {
+        "titulo": "지카세이와 테즈쿠리는 판매 문구다",
+        "corpo": "지카세이(집에서 만든)와 테즈쿠리(손으로 만든)는 그 주방이 스스로 내세우는 주장을 나타낼 뿐, 정의된 용어도 아니고 증명서가 딸려 있지도 않다. 게다가 식당 메뉴판은 알레르기 성분을 표시할 의무가 전혀 없다 — 식품표시법은 포장 식품을 다루지, 외식업을 다루지 않는다. 그러니 이런 표시가 하나도 없는 메뉴판은 아무것도 말해 주지 않으며, 믿을 수 있는 방법은 배지를 찾아 헤매는 게 아니라 그 특정 접시에 대해 질문하는 것이다."
+      },
+      {
+        "titulo": "코스는 그들이 정한 그것이다",
+        "corpo": "코스와 세트는 전국 공통의 정해진 의미가 없다. 세트는 밥과 국이 딸린 메인, 코스는 정해진 가격에 나오는 여러 접시라는 일반적인 통념은 어디까지나 관행이고, 가게마다 그 선을 다르게 긋는다. 주문 전에 질문 하나면 모호함이 다 사라지고, 그건 다들 이미 익숙하게 받는 질문이다."
+      },
+      {
+        "titulo": "이름 하나를 여는 질문",
+        "corpo": "난가 하잇테이마스카는 지역 이름이든 칠판에 휘갈긴 글씨든 어렴풋이 아는 단어든 뭐든 통한다. 맛있냐고 묻는 것보다 훨씬 쓸모 있는 이유는 답이 구체적이어서 그걸로 판단할 수 있기 때문이다 — 그리고 알레르기가 있다면 메뉴판이 알려 주지 않는 만큼 실제로 당신을 지켜 주는 질문이다."
+      }
+    ]
+  },
+  "slot": "I03",
+  "permissao": "당신은 머릿속에 그려지지 않는 걸 주문해도 된다. 뭐가 들었는지 물어보고 그다음 좋다고 답하는 것은 혼자 감수하는 도박이 아니다 — 서빙하는 사람이 기대하고 있는 순서이고, 애초에 그들이 추천 메뉴를 언급한 이유다.",
+  "permissaoAudioKey": "fr-i03-n06",
+  "espelho": "고향에서 특선 메뉴 칠판이 있는 가게에 갔다가도 코팅된 메뉴판에서 주문해 본 사람이라면 이 거래를 안다. 인쇄된 메뉴판이 안전한 이유는 어디서나 똑같기 때문이고, 바로 그게 그것의 문제이기도 하다.",
+  "fichasCulturais": [
+    {
+      "sinal": "메뉴판 어디에도 알레르기 표시가 없어서, 주방에 당신의 알레르기 성분이 아예 없거나 숨기고 있다고 짐작한다.",
+      "suaLeitura": "표시가 없다는 건 여기서 그 정보를 얻을 수 없다는 뜻이다.",
+      "oQueEAli": "식당은 포장 식품을 다루는 의무적 알레르기 표시 규정 밖에 있다. 모든 요리에 뭐가 들었는지 정확히 아는 주방도 아무것도 인쇄하지 않는 경우가 많다 — 의무가 없기 때문이며, 표시가 없다는 것 자체는 어느 쪽으로도 정보를 주지 않는다.",
+      "oQueVoceFaz": "알레르기를 소리 내어 말하고 그 특정 접시에 대해 물어라: 난가 하잇테이마스카, 그리고 먹을 수 없는 것의 이름을 대라. 있을 의무가 없는 배지를 메뉴판에서 찾지 마라.",
+      "oQueMelhora": "빈칸에서 추측하는 대신 실제 요리에 대한 명확한 문장을 얻게 되고, 그것만이 당신을 안전하게 지켜 주는 유일한 방법이다.",
+      "ondeNaoVale": "답이 애매하다고 해서 안심할 이유는 아니다 — 주방이 정말 모르는 경우엔, 기본편의 해머 문장이 하듯 그 요리에 확실히 '아니오'라고 하는 게 맞는 선택이다.",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "fr-i03-n04"
+      ]
+    },
+    {
+      "sinal": "세트는 어제 숫자 하나에 세 가지가 딸려 나왔는데, 오늘 같은 세트를 시켰더니 두 가지만 나온다.",
+      "suaLeitura": "두 번째 가게가 표준 구성에서 뭔가를 빼먹은 거다.",
+      "oQueEAli": "세트와 코스에는 정해진 정의가 없다. 각 가게가 스스로 정하고, 널리 퍼진 관행은 누구나 지켜야 할 규칙이 아니라 상업적 통념일 뿐이다.",
+      "oQueVoceFaz": "주문하기 전에 세트에 뭐가 포함되는지, 칠판의 다른 것을 물을 때처럼 한 문장으로 물어라.",
+      "oQueMelhora": "물어보기 전에는 비교할 수 없었던 두 가게의 숫자가, 물어본 후에는 비교 가능해진다.",
+      "ondeNaoVale": "칠판에 붙은 가격표 자체는 다르다. 그건 가게가 반드시 지켜야 하는 것이고, 무엇이 딸려 나오는지는 가게 마음이라도 가격 자체는 구속력 있는 약속이다.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "fr-i03-n05"
+      ]
+    }
+  ]
+}

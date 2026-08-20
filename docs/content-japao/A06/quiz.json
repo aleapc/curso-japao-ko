@@ -1,0 +1,96 @@
+{
+  "id": "q-a06",
+  "nivel": "avancado",
+  "titulo": "Quiz — Their calendar",
+  "subtitulo": "Five questions about red dates, long weekends and days off",
+  "introAudioKey": "fr-a06-q-i",
+  "introPt": "A traveller checks four doors and stops guessing from the calendar.",
+  "cenario": "A holiday week, and four different answers on the same street.",
+  "dialogo": [
+    {
+      "audioKey": "fr-a06-q01",
+      "voz": "target_fr_m",
+      "es": "明日は祝日ですけど、うちは普通に営業してますよ。",
+      "pt": "Tomorrow's a holiday, but we're open as usual.",
+      "tts": "明日は祝日ですけど、うちは普通に営業してますよ。"
+    },
+    {
+      "audioKey": "fr-a06-q02",
+      "voz": "target_fr_f",
+      "es": "うちは連休で、月曜までお休みなんです。",
+      "pt": "We're on the long weekend, so we're closed until Monday.",
+      "tts": "うちは連休で、月曜までお休みなんです。"
+    },
+    {
+      "audioKey": "fr-a06-q03",
+      "voz": "target_fr_m",
+      "es": "元日は、どこも閉まってますよ。パン屋さんもね。",
+      "pt": "On New Year's Day, everything's closed. Even the bakery.",
+      "tts": "元日は、どこも閉まってますよ。パン屋さんもね。"
+    },
+    {
+      "audioKey": "fr-a06-q04",
+      "voz": "target_fr_f",
+      "es": "うちは水曜が定休日なんですよ。",
+      "pt": "Our regular day off is Wednesday.",
+      "tts": "うちは水曜が定休日なんですよ。"
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Japanese law lists sixteen national holidays. How many oblige a shop to close?",
+      "opcoes": [
+        "All sixteen",
+        "None — a holiday marks the date, it does not force closure",
+        "Six",
+        "One"
+      ],
+      "correta": 1,
+      "explica": "The 国民の祝日に関する法律 lists sixteen; none obliges a shop to close. Konbini and stations run straight through."
+    },
+    {
+      "pergunta": "The shop next door is open on the same national holiday. What is happening?",
+      "opcoes": [
+        "They are breaking the law",
+        "The holiday obliges nobody to close, so each shop decides",
+        "Their holiday is a different date",
+        "They have a special permit"
+      ],
+      "correta": 1,
+      "explica": "Each door decides separately, which is why you ask the door, not the calendar."
+    },
+    {
+      "pergunta": "The Happy Monday system (ハッピーマンデー制度) means:",
+      "opcoes": [
+        "A holiday moved to any weekday",
+        "Several holidays fixed to a Monday, so a long weekend forms — taking it is each shop's own call",
+        "A regional holiday",
+        "Overtime on a holiday"
+      ],
+      "correta": 1,
+      "explica": "Introduced in 2000 to create three-day weekends; whether a shop takes the whole renkyuu is its own decision."
+    },
+    {
+      "pergunta": "Which windows genuinely slow the whole country?",
+      "opcoes": [
+        "Every national holiday equally",
+        "Only Sundays",
+        "Year-end/New Year (年末年始) and Obon (お盆) in mid-August",
+        "The spring holidays only"
+      ],
+      "correta": 2,
+      "explica": "Banks close by regulation 31 Dec to 3 Jan; Obon empties the big cities. These are the two to plan around."
+    },
+    {
+      "pergunta": "A door sign reads «定休日 水曜». What does it tell you?",
+      "opcoes": [
+        "The whole street is shut on Wednesdays",
+        "This one shop's fixed weekly day off is Wednesday; the next closes on a different day",
+        "The street is being closed for works",
+        "Wednesday trading is prohibited"
+      ],
+      "correta": 1,
+      "explica": "Teikyuubi is one shop's own weekly rest, drawn on the door — one shop, one weekday, its own choice."
+    }
+  ]
+}

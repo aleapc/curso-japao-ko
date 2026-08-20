@@ -1,0 +1,343 @@
+{
+  "id": "a02",
+  "nivel": "avancado",
+  "numero": 30,
+  "parte": "A02",
+  "titulo": "What they laugh at, and the one joke that is yours to make",
+  "subtitulo": "The teasing rhythm runs on a tsukkomi that sounds sharp and means warmth, the regional rivalry belongs to people who earned it, and the joke that always lands is the one about yourself",
+  "cena": "Everyone at the table has just laughed at a flat correction someone threw at someone else, and you cannot tell whether anyone was actually offended.",
+  "moldura": "ganha",
+  "frasePiso": "Laugh at yourself, never at Japan, and stay out of the Tokyo-versus-Osaka argument. Self-deprecation works everywhere; the rest is borrowed.",
+  "moldes": [],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-a02-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "Humour is the last thing a language hands you and the first thing that misfires. This part is mostly listening."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-a02-n02",
+      "bloco": "corpo",
+      "pt": "The rhythm that dominates is the tsukkomi: a flat, sharp-sounding correction thrown at a friend. It sounds like a jab and means closeness."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-a02-r01",
+      "receptivo": true,
+      "acao": "Delivered flat and fast, this is a tease, not a telling-off. Nobody is being scolded here.",
+      "es": "はいはい、すごいすごい。よく言うわ。",
+      "pt": "Yeah yeah, amazing, amazing. Listen to you.",
+      "tts": "はいはい、すごいすごい。よく言うわ。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-a02-n03",
+      "pt": "Sugoi, honto, saikou — said with no lift at all, they can mean the reverse. Listen to the flatness, not the word."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_f",
+      "audioKey": "fr-a02-r02",
+      "receptivo": true,
+      "acao": "A flat, drawn-out hee is polite doubt, not agreement. Do not take it as a yes.",
+      "es": "へえ、そうなんだ。ふーん。",
+      "pt": "Ohh, is that so. Hmm.",
+      "tts": "へえ、そうなんだ。ふーん。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-a02-n04",
+      "bloco": "capsula",
+      "pt": "Second: the tease between people with history. It sounds far harder than it is meant, and it closes with a laugh."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-a02-r03",
+      "receptivo": true,
+      "acao": "Nante ne closes the tease. It is the signal that none of it was meant, and it arrives fast.",
+      "es": "もう、何言ってんの！…なんてね、冗談冗談。",
+      "pt": "Oh come on, what are you saying! ...just kidding, kidding.",
+      "tts": "もう、何言ってんの！…なんてね、冗談冗談。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-a02-n05",
+      "pt": "Nante ne, joudan joudan, uso uso — three ways of saying that was a joke. All three mean closeness, not distance."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_f",
+      "audioKey": "fr-a02-r04",
+      "receptivo": true,
+      "acao": "A story being told between people who share the reference. You are the audience, never the teller.",
+      "es": "ちょっと聞いてや、昨日な、面白いことあってん。",
+      "pt": "Hey listen, yesterday, something funny happened.",
+      "tts": "ちょっと聞いてや、昨日な、面白いことあってん。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-a02-n06",
+      "pt": "That kind of bit belongs to the people who share the reference. A visitor performing one is not joining in — it lands as a verdict."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-a02-r05",
+      "receptivo": true,
+      "acao": "That is somebody's long-running argument about their own country's regions. Laugh, and take no side.",
+      "es": "まあ、東京と大阪はな、もう別もんやから。",
+      "pt": "Well, Tokyo and Osaka, they're just two different worlds.",
+      "tts": "まあ、東京と大阪はな、もう別もんやから。"
+    },
+    {
+      "consulta": [
+        "simpatia/puxar-conversa"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-a02-p01",
+      "promptPt": "The table has turned to you for a verdict on their own regional argument. Decline it, cheerfully. Speak now.",
+      "audioKey": "fr-a02-x01",
+      "es": "いやあ、そこはノーコメントで！",
+      "pinyin": "ee-YAA, so-ko wa NOH-ko-men-to de",
+      "pt": "Ha, on that one, no comment!",
+      "tts": "いやあ、そこはノーコメントで！"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-a02-n07",
+      "pt": "That line is worth memorising. It gets a laugh, it costs nothing, and it keeps you out of every old regional argument."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-a02-n08",
+      "pt": "So what is yours? Make yourself the subject: your Japanese, your chopsticks, the ramen you have eaten every single day."
+    },
+    {
+      "consulta": [
+        "simpatia/puxar-conversa",
+        "reparo/ingles"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-a02-p02",
+      "promptPt": "Get in first about your own Japanese, before anyone else has to be polite about it. Speak now.",
+      "audioKey": "fr-a02-x02",
+      "es": "私の日本語、下手ですみません。",
+      "pinyin": "wa-ta-shi no ni-HON-go, he-TA de soo-mee-ma-sen",
+      "pt": "My Japanese is terrible, sorry.",
+      "tts": "私の日本語、下手ですみません。"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-a02-r06",
+      "receptivo": true,
+      "acao": "The reassurance is quick and warm. Accept it; do not argue with a compliment.",
+      "es": "いやいや、日本語お上手ですよ。",
+      "pt": "Not at all, your Japanese is very good.",
+      "tts": "いやいや、日本語お上手ですよ。"
+    },
+    {
+      "consulta": [
+        "simpatia/puxar-conversa"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-a02-p03",
+      "promptPt": "Confess, proudly, what you have eaten every single day of this trip. Speak now.",
+      "audioKey": "fr-a02-x03",
+      "es": "毎日ラーメンを食べました。後悔してません。",
+      "pinyin": "mai-nichi RAA-men o ta-be-MASH-ta · koh-kai shee-te-ma-sen",
+      "pt": "I've eaten ramen every day. I regret nothing.",
+      "tts": "毎日ラーメンを食べました。後悔してません。"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_f",
+      "audioKey": "fr-a02-r07",
+      "receptivo": true,
+      "acao": "A joke aimed straight at you. Agreement lands far better than a defence.",
+      "es": "餃子も毎回頼んでたでしょ？正直に！",
+      "pt": "And you ordered gyoza every time too, didn't you? Confess!",
+      "tts": "餃子も毎回頼んでたでしょ？正直に！"
+    },
+    {
+      "consulta": [
+        "simpatia/puxar-conversa"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-a02-p04",
+      "promptPt": "Own it instead of explaining yourself, and raise the number. Speak now.",
+      "audioKey": "fr-a02-x04",
+      "es": "はい、犯人です。二杯食べました。",
+      "pinyin": "HAI, han-nin des · ni-HAI ta-be-MASH-ta",
+      "pt": "Guilty as charged. I had two bowls.",
+      "tts": "はい、犯人です。二杯食べました。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-a02-n09",
+      "pt": "That is the whole move. Being teased and agreeing cheerfully is how a table stops handling you carefully."
+    },
+    {
+      "consulta": [
+        "simpatia/puxar-conversa"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-a02-p05",
+      "promptPt": "You got there half a beat late, but you got there. Show it without explaining it. Speak now.",
+      "audioKey": "fr-a02-x05",
+      "es": "あ、からかってますね！",
+      "pinyin": "a, ka-ra-kat-te-mas ne",
+      "pt": "Ah, you're teasing me!",
+      "tts": "あ、からかってますね！"
+    },
+    {
+      "consulta": [
+        "simpatia/puxar-conversa"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-a02-p06",
+      "promptPt": "Name the joke out loud and admit how long it took you. It always gets a laugh. Speak now.",
+      "audioKey": "fr-a02-x06",
+      "es": "今の、冗談ですね。三秒かかりました。",
+      "pinyin": "ee-ma no, joh-dan des ne · san-byoo ka-ka-ri-MASH-ta",
+      "pt": "That was a joke. It took me three seconds.",
+      "tts": "今の、冗談ですね。三秒かかりました。"
+    },
+    {
+      "consulta": [
+        "reparo/como-se-diz",
+        "simpatia/puxar-conversa"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-a02-p07",
+      "promptPt": "Everyone laughed and you have no idea why. Ask, instead of doing the polite laugh. Speak now.",
+      "audioKey": "fr-a02-x07",
+      "es": "今の冗談、わからなかったです。教えてください。",
+      "pinyin": "ee-ma no joh-dan, wa-ka-ra-na-kat-ta des · o-shee-e-te ku-da-sai",
+      "pt": "I didn't get that joke. Explain it to me?",
+      "tts": "今の冗談、わからなかったです。教えてください。"
+    },
+    {
+      "consulta": [
+        "simpatia/puxar-conversa",
+        "simpatia/agradecer"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-a02-p08",
+      "promptPt": "Somebody teased you and you liked it. Say so and hand them the point. Speak now.",
+      "audioKey": "fr-a02-x08",
+      "es": "笑わせてくれますね。そのとおりです。",
+      "pinyin": "wa-ra-wa-se-te ku-re-mas ne · so-no toh-ri des",
+      "pt": "You make me laugh. You're right.",
+      "tts": "笑わせてくれますね。そのとおりです。"
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_fr_f",
+      "audioKey": "fr-a02-s01",
+      "es": "私の日本語、下手ですみません。はい、犯人です。二杯食べました。そこはノーコメントで！",
+      "pinyin": "wa-ta-shi no ni-HON-go he-TA de soo-mee-ma-sen · HAI han-nin des ni-HAI ta-be-MASH-ta · so-ko wa NOH-ko-men-to de",
+      "pt": "Shadow the three that cover it: laugh at yourself, own the tease, decline the argument.",
+      "tts": "私の日本語、下手ですみません。はい、犯人です。二杯食べました。そこはノーコメントで！"
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-a02-n10",
+      "bloco": "recap",
+      "pt": "A02 done. Flat can mean inverted, the teasing is theirs, the regional argument is theirs, and the joke about you is yours."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "Receptive humour, and the one line that is yours",
+    "secoes": [
+      {
+        "titulo": "The tsukkomi rhythm",
+        "corpo": "A lot of casual joking here runs on the two-person comic rhythm of manzai: one person says something off, and the other throws back a flat, sharp correction — the tsukkomi. In friendly talk it sounds like a jab and functions as warmth. Because nothing in the delivery marks it as play, it is invisible to an ear still working on vocabulary, which is why it sits here rather than in the basic module. The reliable tell is that the room laughs and nobody flinches.",
+        "exemplos": [
+          {
+            "es": "はいはい、すごいすごい。",
+            "pt": "Yeah yeah, amazing, amazing."
+          },
+          {
+            "es": "へえ、そうなんだ。ふーん。",
+            "pt": "Ohh, is that so. Hmm."
+          }
+        ]
+      },
+      {
+        "titulo": "The tease, and who is allowed one",
+        "corpo": "Teasing between people with a shared history sounds sharp, and its closing signal is fast and explicit: nante ne, joudan joudan, uso uso. The licence to make one is earned rather than shared with the room — you are being included in the laughter, not in the permission. Being teased back, a few days later, is the sign the permission has arrived. Until then you are the audience, and that is a comfortable place to be."
+      },
+      {
+        "titulo": "The rivalries that are not yours",
+        "corpo": "Tokyo against Osaka, Kanto against Kansai, the capital against everywhere else — these run constantly, and all of them are internal. A visitor repeating one is not participating in a shared game; it reads as an outsider passing judgement on a family argument. Listening is free; retelling is not. The same goes for any joke that takes Japan itself as its target: theirs to make, not yours."
+      },
+      {
+        "titulo": "Soko wa noo-komento de",
+        "corpo": "Learn this one by heart. It means roughly on that one, I'm staying out of it, and it is said lightly, with a small laugh. It gets you a laugh and it gets you out of every conversation where somebody wants a foreigner to settle an argument about their own country. Nothing you could say instead buys as much, and self-deprecation — your Japanese, your chopsticks, your daily ramen — is the one joke that lands everywhere."
+      }
+    ]
+  },
+  "slot": "A02",
+  "permissao": "You are allowed to miss the joke and to say so out loud. Ima no joudan, wakaranakatta desu is a perfectly good sentence half a beat late, and asking what was funny is received far better than the polite laugh, which gives you away anyway.",
+  "permissaoAudioKey": "fr-a02-n01",
+  "espelho": "Anyone who has laughed a half-second behind a group in their own language knows the small panic in this part. Humour is where fluency is really measured, in every language, which is exactly why nobody expects you to be quick at it in your third week.",
+  "fichasCulturais": [
+    {
+      "sinal": "Someone throws a flat, sharp-sounding line at a friend, and the table laughs instead of going quiet.",
+      "suaLeitura": "That was an insult, and I missed why everyone found it acceptable.",
+      "oQueEAli": "It was a tsukkomi — the flat correction half of the manzai rhythm — used here as warmth between people who know each other. Delivered level and fast, it sounds like a jab and functions as closeness, and nothing else in the delivery marks the switch.",
+      "oQueVoceFaz": "Check the room before the words. If the line drew a laugh and no flinch, read it as play aimed between friends, not as conflict.",
+      "oQueMelhora": "You stop bracing for an argument that is not happening, which is most of what makes a lively table feel unreadable in the first days.",
+      "ondeNaoVale": "Not at a counter or with someone you have just met — this register lives between people with history, and a stranger saying something positive to you is very likely just being positive.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "fr-a02-n02",
+        "fr-a02-n03"
+      ]
+    },
+    {
+      "sinal": "The table starts an argument about their own regions — Tokyo against Osaka, the capital against the rest — and then turns to you for an opinion.",
+      "suaLeitura": "I am being invited in, and having a view would show I have been paying attention.",
+      "oQueEAli": "The argument is old, it predates you, and everyone at the table has standing in it that you do not. Being asked is hospitality, and it does not come with a requirement to answer.",
+      "oQueVoceFaz": "Say soko wa noo-komento de, with a small laugh. Then ask one of them what they think, which is the thing they actually wanted.",
+      "oQueMelhora": "You stay a guest rather than becoming a position, and the conversation carries on around you instead of pausing to place you.",
+      "ondeNaoVale": "Not a rule of silence about the country — praising a specific place you liked is welcome and costs nothing. What you are declining is the comparison, not the topic.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "fr-a02-n07"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "id": "q-i04",
+  "nivel": "intermediario",
+  "titulo": "Quiz — One drink named, and the dish you did not order",
+  "subtitulo": "The izakaya seat, the otoshi, and who pays",
+  "introAudioKey": "fr-i04-q-i",
+  "introPt": "Two travellers get through an opening round and a goodbye without a single surprise.",
+  "cenario": "A neighbourhood izakaya at half past eight, full and loud.",
+  "dialogo": [
+    {
+      "audioKey": "fr-i04-q01",
+      "voz": "target_fr_m",
+      "es": "何か飲みますか？ カウンター席もありますよ。",
+      "pt": "Having something to drink? There are counter seats too.",
+      "tts": "何か飲みますか？ カウンター席もありますよ。"
+    },
+    {
+      "audioKey": "fr-i04-q02",
+      "voz": "target_fr_f",
+      "es": "生ビールをお願いします。カードは使えますか？",
+      "pt": "A draught beer, please. Can I use a card?",
+      "tts": "生ビールをお願いします。カードは使えますか？"
+    },
+    {
+      "audioKey": "fr-i04-q03",
+      "voz": "target_fr_m",
+      "es": "すみません、現金のみなんです。",
+      "pt": "Sorry, we're cash only.",
+      "tts": "すみません、現金のみなんです。"
+    },
+    {
+      "audioKey": "fr-i04-q04",
+      "voz": "target_fr_f",
+      "es": "分かりました。ここは私が払います。全部でいくらですか？",
+      "pt": "Understood. This one's on me. How much is it altogether?",
+      "tts": "分かりました。ここは私が払います。全部でいくらですか？"
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "A small dish you never ordered is placed in front of you at the izakaya. It is:",
+      "opcoes": [
+        "A free gift from the house",
+        "The otoshi — a seat/cover charge added to the bill whether you eat it or not",
+        "A mistake to send back",
+        "A tip in food form"
+      ],
+      "correta": 1,
+      "explica": "お通し applies to everyone, usually a few hundred yen a head — the price of the seat, not a trick."
+    },
+    {
+      "pergunta": "The otoshi charge is:",
+      "opcoes": [
+        "Illegal overcharging",
+        "Lawful house practice — a customary seat charge of a few hundred yen a head",
+        "Only done to tourists",
+        "A service charge added at the end"
+      ],
+      "correta": 1,
+      "explica": "It is the cover charge in edible form; knowing it is coming turns a surprise line into a number you expected."
+    },
+    {
+      "pergunta": "A small izakaya is cash only and refuses your card. Is that allowed?",
+      "opcoes": [
+        "No, cards must always be accepted",
+        "Yes — no rule forces a small business to take cards; carry yen",
+        "Only for foreign cards",
+        "Only after 8pm"
+      ],
+      "correta": 1,
+      "explica": "A genkin nomi sign is ordinary and lawful; you usually pay at the register on the way out, and splitting (warikan) is normal."
+    },
+    {
+      "pergunta": "Toriaezu nama is:",
+      "opcoes": [
+        "The final round",
+        "A draught to start with while the table reads the menu",
+        "A food set",
+        "The bill"
+      ],
+      "correta": 1,
+      "explica": "A first draught is the ordinary opening order; nobody expects you to have decided everything at once."
+    },
+    {
+      "pergunta": "When is koko wa watashi ga — this one's on me — best said?",
+      "opcoes": [
+        "After the glasses arrive",
+        "Early, before hands reach for wallets",
+        "Only on the last round",
+        "Never — it is presumptuous"
+      ],
+      "correta": 1,
+      "explica": "Said early it settles the evening; said late it turns into arithmetic. Splitting with betsubetsu de is just as normal."
+    }
+  ]
+}

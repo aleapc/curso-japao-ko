@@ -1,0 +1,336 @@
+{
+  "id": "b16",
+  "nivel": "basico",
+  "numero": 16,
+  "parte": "B16",
+  "titulo": "Sagashite imasu —그러면 프런트 데스크 직원이 당신과 함께 찾기 시작한다",
+  "subtitulo": "높은 층, 조용한 쪽, 늦은 체크아웃은 체크인할 때는 공짜나 다름없지만 짐을 풀고 나면 비싸진다",
+  "cena": "직원이 한 손에는 여권을, 화면에는 객실 목록을 띄운 채 아직 어느 빈 방을 줄지 정하지 못했다.",
+  "moldura": "ganha",
+  "frasePiso": "대상, 그다음 wo sagashite imasu. 세 단어면 그 찾는 일이 더 이상 당신 혼자만의 일이 아니게 된다.",
+  "moldes": [],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-b16-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "체크인은 숙박 전체에서 가장 값싼 순간이다. 지금 물으면 호의가 되고, 내일 물으면 번거로운 일이 된다."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-b16-n02",
+      "bloco": "molde",
+      "pt": "여기 틀이 있다: 대상, 그다음 sagashite imasu. 이곳에 그게 있는지조차 모를 때도 통한다."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_f",
+      "audioKey": "fr-b16-t01",
+      "es": "もっと静かな部屋を探しています。",
+      "pinyin": "mot-to shi-ZU-ka na he-YA o sa-ga-shi-te i-MAS",
+      "pt": "더 조용한 방을 찾고 있어요.",
+      "tts": "もっと静かな部屋を探しています。"
+    },
+    {
+      "consulta": [
+        "quarto/checkin",
+        "quarto/pedir"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "SAGASHITE-IMASU",
+      "encaixe": "もっと静かな部屋",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-b16-p01",
+      "promptPt": "프런트 데스크, 열쇠가 서랍에서 나오기 전이다. 그 벽 너머 반대쪽엔 엘리베이터 통로가 있다. 원하는 걸 말하라. 지금 말하세요.",
+      "audioKey": "fr-b16-t01",
+      "es": "もっと静かな部屋を探しています。",
+      "pinyin": "mot-to shi-ZU-ka na he-YA o sa-ga-shi-te i-MAS",
+      "pt": "더 조용한 방을 찾고 있어요."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-b16-r01",
+      "es": "かしこまりました。上の階に、静かなお部屋がございます。",
+      "pt": "알겠습니다. 위층에 조용한 방이 있습니다.",
+      "tts": "かしこまりました。上の階に、静かなお部屋がございます。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-b16-n03",
+      "bloco": "corpo",
+      "pt": "높은 층, 도로에서 먼 쪽이 바로 조용한 쪽이다 — 그리고 그게 당신이 실제로 요청하던 것이다."
+    },
+    {
+      "consulta": [
+        "quarto/pedir",
+        "quarto/checkin"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "ARIMASU-KA",
+      "encaixe": "上の階の部屋",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-b16-p02",
+      "promptPt": "여전히 데스크 앞. 아래 도로는 버스 노선이고 창문은 얇다. 더 높은 층에 빈 방이 있는지 물어라. 지금 말하세요.",
+      "audioKey": "fr-b16-t02",
+      "es": "上の階の部屋はありますか？",
+      "pinyin": "u-e no KA-i no he-YA wa a-ri-MAS ka",
+      "pt": "높은 층에 방이 있나요?",
+      "tts": "上の階の部屋はありますか？"
+    },
+    {
+      "consulta": [
+        "quarto/mala",
+        "reparo/permissao"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "TE-MO-II",
+      "encaixe": "ここに荷物を置い",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-b16-p03",
+      "promptPt": "아침 11시고 방은 3시나 되어야 준비된다. 손을 자유롭게 쓰고 싶다. 물어라. 지금 말하세요.",
+      "audioKey": "fr-b16-t03",
+      "es": "ここに荷物を置いてもいいですか？",
+      "pinyin": "ko-ko ni ni-MO-tsu o oi-te mo II des ka",
+      "pt": "여기 짐을 맡겨도 될까요?",
+      "tts": "ここに荷物を置いてもいいですか？"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-b16-r02",
+      "es": "はい、フロントでお預かりします。番号札をお渡しします。",
+      "pt": "네, 프런트에서 보관해 드릴게요. 번호표를 드리겠습니다.",
+      "tts": "はい、フロントでお預かりします。番号札をお渡しします。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-b16-n04",
+      "bloco": "capsula",
+      "pt": "같은 틀, 다른 카운터. 여기 그게 있다는 걸 알면, arimasu ka가 대신 그 질문을 해 준다."
+    },
+    {
+      "consulta": [
+        "quarto/pedir",
+        "chegar/conexao"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "ARIMASU-KA",
+      "encaixe": "Wi‑Fi",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-b16-p04",
+      "promptPt": "데이터 요금제가 거의 바닥났고 데스크에는 비밀번호가 적힌 카드도 없다. 물어라. 지금 말하세요.",
+      "audioKey": "fr-b16-t04",
+      "es": "Wi‑Fiはありますか？",
+      "pinyin": "WAI-fai wa a-ri-MAS ka",
+      "pt": "와이파이 있나요?",
+      "tts": "ワイファイはありますか？"
+    },
+    {
+      "consulta": [
+        "quarto/pedir",
+        "cidade/onde"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "SAGASHITE-IMASU",
+      "encaixe": "朝食会場",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-b16-p05",
+      "promptPt": "일곱 시 반, 1층, 표시 없는 문 세 개와 그중 하나에서 나는 커피 냄새. 지금 말하세요.",
+      "audioKey": "fr-b16-t05",
+      "es": "朝食会場を探しています。",
+      "pinyin": "choo-shoku KAI-joo o sa-ga-shi-te i-MAS",
+      "pt": "조식 장소를 찾고 있어요.",
+      "tts": "朝食会場を探しています。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-b16-n05",
+      "pt": "위층에서도 이 틀은 계속 통하고, 복도의 청소 카트를 미는 사람이 대부분을 해결해 줄 수 있다."
+    },
+    {
+      "consulta": [
+        "quarto/pedir",
+        "reparo/permissao"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "TE-MO-II",
+      "encaixe": "もう一枚毛布をもらっ",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-b16-p06",
+      "promptPt": "위층 복도, 하우스키핑 카트가 옆방 앞에 서 있다. 방이 예상보다 추웠다. 지금 말하세요.",
+      "audioKey": "fr-b16-t06",
+      "es": "もう一枚、毛布をもらってもいいですか？",
+      "pinyin": "moo i-chi-MAI, moo-fu o mo-rat-te mo II des ka",
+      "pt": "담요 한 장 더 받을 수 있을까요?",
+      "tts": "もう一枚、毛布をもらってもいいですか？"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_f",
+      "audioKey": "fr-b16-r03",
+      "es": "すぐにお持ちします。",
+      "pt": "바로 가져다드릴게요.",
+      "tts": "すぐにお持ちします。"
+    },
+    {
+      "consulta": [
+        "quarto/checkout",
+        "quarto/pedir"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "ARIMASU-KA",
+      "encaixe": "レイトチェックアウト",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-b16-p07",
+      "promptPt": "다시 프런트 데스크. 기차는 6시인데 방 안 카드에는 11시라고 쓰여 있다. 마지막 아침에 대해 물어라. 지금 말하세요.",
+      "audioKey": "fr-b16-t07",
+      "es": "レイトチェックアウトはありますか？",
+      "pinyin": "REI-to chek-ku-au-to wa a-ri-MAS ka",
+      "pt": "레이트 체크아웃 되나요?",
+      "tts": "レイトチェックアウトはありますか？"
+    },
+    {
+      "consulta": [
+        "cidade/onde",
+        "pagar/dinheiro"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "SAGASHITE-IMASU",
+      "encaixe": "ATM",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-b16-p08",
+      "promptPt": "호텔 밖 거리, 옆 가게 문을 잠그는 사람에게 묻는다. 주머니엔 동전 몇 개뿐이다. 지금 말하세요.",
+      "audioKey": "fr-b16-t08",
+      "es": "ATMを探しています。",
+      "pinyin": "ee-tee-EE-moo o sa-ga-shi-te i-MAS",
+      "pt": "현금인출기를 찾고 있어요.",
+      "tts": "エーティーエムを探しています。"
+    },
+    {
+      "consulta": [
+        "quarto/pedir",
+        "chegar/conexao"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "SAGASHITE-IMASU",
+      "encaixe": "携帯を充電するコンセント",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-b16-p09",
+      "promptPt": "방으로 돌아왔다. 찾을 수 있는 유일한 콘센트는 침대 뒤에 있고, 침대는 움직이지 않는다. 지금 말하세요.",
+      "audioKey": "fr-b16-t09",
+      "es": "携帯を充電するコンセントを探しています。",
+      "pinyin": "kei-tai o joo-DEN su-ru KON-sen-to o sa-ga-shi-te i-MAS",
+      "pt": "휴대폰 충전할 콘센트를 찾고 있어요.",
+      "tts": "携帯を充電するコンセントを探しています。"
+    },
+    {
+      "consulta": [
+        "conversa/agradecer"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-b16-p10",
+      "promptPt": "그가 당신을 옮겨 주고, 짐에 태그를 달고, 콘센트까지 찾아 줬다. 제대로 마무리하라. 지금 말하세요.",
+      "audioKey": "fr-b16-t10",
+      "es": "本当にありがとうございます。助かりました。",
+      "pinyin": "hon-TOU ni a-ri-ga-toh go-za-i-mas. ta-su-ka-ri-MA-shi-ta",
+      "pt": "정말 감사합니다, 큰 도움이 됐어요.",
+      "tts": "本当にありがとうございます。助かりました。"
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_fr_f",
+      "audioKey": "fr-b16-s01",
+      "es": "もっと静かな部屋を探しています。朝食会場を探しています。ATMを探しています。",
+      "pinyin": "mot-to shi-ZU-ka na he-YA o sa-ga-shi-te i-MAS. choo-shoku KAI-joo o sa-ga-shi-te i-MAS. ee-tee-EE-moo o sa-ga-shi-te i-MAS",
+      "pt": "세 가지 다른 검색에서 같은 세 단어를 따라 말하라.",
+      "tts": "もっと静かな部屋を探しています。朝食会場を探しています。エーティーエムを探しています。",
+      "molde": "SAGASHITE-IMASU"
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-b16-n06",
+      "bloco": "recap",
+      "pt": "B16 완료. Sagashite imasu가 프런트 데스크, 복도, 거리까지 열어 줬다 — 세 단어로, 세 가지 다른 검색을."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "찾는 일을 다른 사람에게 넘겨 주는 세 단어",
+    "secoes": [
+      {
+        "titulo": "대상, 그다음 sagashite imasu",
+        "corpo": "끝맺음은 그대로 두고 원하는 것만 바꿔라. 이 건물에 그게 있는지조차 모를 때 쓰는 틀이며, 어느 호텔에서든 첫날 대부분이 그런 상황이다.",
+        "exemplos": [
+          {
+            "es": "もっと静かな部屋を探しています。",
+            "pt": "더 조용한 방을 찾고 있어요."
+          },
+          {
+            "es": "ATMを探しています。",
+            "pt": "현금인출기를 찾고 있어요."
+          }
+        ]
+      },
+      {
+        "titulo": "왜 doko desu ka가 아니라 sagashite imasu인가",
+        "corpo": "Doko desu ka는 이미 존재한다고 믿는 장소를 묻는 말이다 — 出口, 駅. Sagashite imasu는 결과 없이 끝날 수도 있는 탐색을 여는 말이고, 그 차이가 상대방이 그저 손짓하고 돌아서는 대신 그 질문을 함께 떠맡게 만드는 이유다."
+      },
+      {
+        "titulo": "높은 층과 조용한 쪽",
+        "corpo": "소음은 낮은 층, 도로 쪽에서 가장 심하다. 이 파트에서 딱 하나만 기억한다면, 도로에서 먼 높은 층을 기억하라 — 소음이 생기기 전에 미리 답을 마련해 두는 셈이고, 체크인할 때는 아직 열려 있는 화면에서 직원이 클릭 한 번만 하면 된다."
+      },
+      {
+        "titulo": "들어갈 때 물어라, 나갈 때가 아니라",
+        "corpo": "높은 층, 조용한 쪽, 늦은 체크아웃은 모두 당신이 서 있는 동안 아직 열려 있는 화면에서 결정되는 것들이다. 일단 열쇠가 손에 들어오면 같은 세 가지 요청에는 이유가 따라붙어야 하고, 그 이유는 항상 똑같다 — 이미 받은 그 방이다."
+      }
+    ]
+  },
+  "slot": "B16",
+  "permissao": "당신은 방을 보기 전에 그 모양을 정할 수 있다. 체크인할 때 층이나 조용한 쪽을 요청하는 건 평범한 카운터에서의 평범한 요청이고, 답을 내놓는 데 상대방에게 드는 비용은 클릭 한 번뿐이다.",
+  "permissaoAudioKey": "fr-b16-n01",
+  "espelho": "주방 옆 테이블을 받아 본 적 있는 사람이라면 이 모양을 안다: 더 좋은 자리는 분명 있었고, 3초 만에 배정됐으며, 아무도 당신이 뭘 원하는지 묻지 않았다 — 당신이 말하지 않았기 때문이다. 호텔도 정확히 똑같이 돌아간다.",
+  "fichasCulturais": [
+    {
+      "sinal": "데스크에서 뭔가를 요청했는데 설명 없이 짧은 mōshiwake gozaimasen, dekimasen이라는 대답만 돌아온다.",
+      "suaLeitura": "이 사람은 나를 도와주고 싶지 않구나, 그리고 더 밀어붙이면 무례한 일이 되겠지.",
+      "oQueEAli": "일본의 데스크에서 짧은 대답은 대개 그 순간의 객실 목록 상태 — 어느 방이 청소됐는지, 오늘 밤 도착할 손님을 위해 어느 방이 잡혀 있는지 — 에 관한 것이지, 그 요청이나 요청한 사람에 관한 게 아니다. 그 목록은 하루 중에도 바뀌고, 대답도 그에 따라 바뀐다. 거절 앞에 붙는 사과는 진짜 예의이지, 거절의 완곡한 표현이 아니다.",
+      "oQueVoceFaz": "거절을 받아들이고, 시간대를 바꿔서 같은 걸 다시 물어라 — 오늘 저녁, 내일, 청소가 끝난 뒤. Sagashite imasu는 그대로 다시 통한다.",
+      "oQueMelhora": "여섯 시부터라도 조용한 방을 얻게 되고, 그건 애초부터 가능했던 것이다.",
+      "ondeNaoVale": "대답이 이미 두 번 왔고 뒤에 줄이 서 있을 때는 해당하지 않는다 — 세 번째 시도는 대답을 받아들이지 않는 것으로 읽히고, 마지막 아침에 필요할 호의를 깎아 먹는다.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "fr-b16-n03"
+      ]
+    },
+    {
+      "sinal": "데스크에서 영어로 먼저 말을 건넨다. 응대는 효율적이고 정확하지만 눈에 띄게 조심스럽고, 기대했던 따뜻함은 좀처럼 오지 않는다.",
+      "suaLeitura": "이 사람은 외국인을 상대하고 싶지 않은 거겠지.",
+      "oQueEAli": "당신이 느끼는 그 거리감은 대개 직원 자신의 영어 실력에 대한 자신감과, 일본 프런트 데스크의 격식 있는 말투에서 비롯된 것이지, 당신에 대한 꺼림이 아니다. 여기서는 예의가 기본적으로 차갑고 정확하게 흐르며, 짧고 조심스러운 응대는 냉랭한 게 아니라 정상적인 모습이다.",
+      "oQueVoceFaz": "konnichiwa나 sumimasen으로 먼저 말을 걸어 자리 잡게 한 다음, 요청 사항은 당신이 할 수 있는 언어로 말하라 — 시작에 붙는 일본어 몇 마디가 대화 전체를 데워 준다.",
+      "oQueMelhora": "같은 응대가 더 따뜻해지고, 영어를 어느 정도 할 수 있는 직원이라면 그 첫 인사 이후 더 적극적으로 영어를 써 줄 가능성이 높아진다.",
+      "ondeNaoVale": "이건 언어 격차와 말투에 관한 설명이지 방문객에 대한 감정이 아니며, 모든 딱딱한 응대를 설명해 주지도 않는다 — 긴 근무를 마친 사람은 그저 피곤할 때도 있다.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "fr-b16-n02"
+      ]
+    }
+  ]
+}

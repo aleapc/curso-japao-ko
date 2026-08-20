@@ -1,0 +1,96 @@
+{
+  "id": "q-b06",
+  "nivel": "basico",
+  "titulo": "Quiz — Wa arimasu ka, and then whatever you need",
+  "subtitulo": "One frame across four counters",
+  "introAudioKey": "fr-b06-q-i",
+  "introPt": "A traveller crosses the arrivals hall with one opening and seven different needs.",
+  "cenario": "Arrivals hall, the first hour.",
+  "dialogo": [
+    {
+      "audioKey": "fr-b06-q01",
+      "voz": "target_fr_f",
+      "es": "すみません、Wi‑Fiはありますか？",
+      "pt": "Excuse me, do you have wifi?",
+      "tts": "すみません、ワイファイはありますか？"
+    },
+    {
+      "audioKey": "fr-b06-q02",
+      "voz": "target_fr_m",
+      "es": "はい、パスワードはレシートに書いてあります。",
+      "pt": "Yes, the password is written on the receipt.",
+      "tts": "はい、パスワードはレシートに書いてあります。"
+    },
+    {
+      "audioKey": "fr-b06-q03",
+      "voz": "target_fr_f",
+      "es": "小銭はありますか？",
+      "pt": "Do you have change?",
+      "tts": "小銭はありますか？"
+    },
+    {
+      "audioKey": "fr-b06-q04",
+      "voz": "target_fr_m",
+      "es": "いいえ、ここにはありませんが、二階にありますよ。",
+      "pt": "No, not here, but there are some on the second floor.",
+      "tts": "いいえ、ここにはありませんが、二階にありますよ。"
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "What goes before «wa arimasu ka»?",
+      "opcoes": [
+        "A verb in its dictionary form",
+        "The thing you want them to have",
+        "A number",
+        "Your name"
+      ],
+      "correta": 1,
+      "explica": "The frame is a noun plus wa arimasu ka: wifi, a SIM, a charger, a map, change. Nothing else changes shape."
+    },
+    {
+      "pergunta": "Why is «wa arimasu ka» such a cheap frame?",
+      "opcoes": [
+        "It is grammatically the shortest possible sentence",
+        "Japanese folds 'do you have' and 'is there' into one word, aru — so you never choose",
+        "It only works at airports",
+        "It is more formal than the alternatives"
+      ],
+      "correta": 1,
+      "explica": "English keeps two questions apart; aru covers both, so one frame answers most of the arrivals hall."
+    },
+    {
+      "pergunta": "«Iie, koko ni wa arimasen ga, nikai ni arimasu yo.» What should you do?",
+      "opcoes": [
+        "Thank them and walk off",
+        "Ask again more slowly",
+        "Stay one beat — the no carries the address of the yes",
+        "Try a different language"
+      ],
+      "correta": 2,
+      "explica": "Iie, koko ni wa arimasen ga… is the standard shape: no, not here, but… The useful half is the floor above."
+    },
+    {
+      "pergunta": "Your card is refused at a small shop with a posted sign. What does that mean?",
+      "opcoes": [
+        "It is illegal and you can insist",
+        "Japan runs heavily on cash; small places may be cash only, and a posted sign is normal",
+        "Foreign cards are banned nationwide",
+        "Cards work only after noon"
+      ],
+      "correta": 1,
+      "explica": "There is no general rule forcing a small trader to take a card. Konbini and stations take cards and IC cards like Suica; carry some yen."
+    },
+    {
+      "pergunta": "What belongs in front of the frame at every counter?",
+      "opcoes": [
+        "Onegaishimasu",
+        "Gomennasai",
+        "Sumimasen",
+        "Arigatou"
+      ],
+      "correta": 2,
+      "explica": "Sumimasen is the ritual opening. Arriving with the request and no sumimasen is entering without knocking, and the flat answer is easy to misread."
+    }
+  ]
+}

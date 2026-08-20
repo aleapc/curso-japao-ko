@@ -1,0 +1,96 @@
+{
+  "id": "q-b08",
+  "nivel": "basico",
+  "titulo": "Quiz — Doko desu ka, and the answer made small",
+  "subtitulo": "Name the place, then close the question down",
+  "introAudioKey": "fr-b08-q-i",
+  "introPt": "A traveller asks for a place, gets thirty words back, and makes them fit.",
+  "cenario": "Outside a station, a name on the phone and four exits.",
+  "dialogo": [
+    {
+      "audioKey": "fr-b08-q01",
+      "voz": "target_fr_f",
+      "es": "すみません、駅はどこですか？",
+      "pt": "Excuse me, where is the station?",
+      "tts": "すみません、駅はどこですか？"
+    },
+    {
+      "audioKey": "fr-b08-q02",
+      "voz": "target_fr_m",
+      "es": "二つ目の角を右に曲がって、まっすぐです。",
+      "pt": "Second corner, turn right, then straight on.",
+      "tts": "二つ目の角を右に曲がって、まっすぐです。"
+    },
+    {
+      "audioKey": "fr-b08-q03",
+      "voz": "target_fr_f",
+      "es": "こっちですか？遠いですか？",
+      "pt": "Is it this way? Is it far?",
+      "tts": "こっちですか？遠いですか？"
+    },
+    {
+      "audioKey": "fr-b08-q04",
+      "voz": "target_fr_m",
+      "es": "いいえ、歩いて五分です。",
+      "pt": "No, it's five minutes on foot.",
+      "tts": "いいえ、歩いて五分です。"
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "What is the only thing you choose after «wa doko desu ka»?",
+      "opcoes": [
+        "The verb",
+        "The place",
+        "The tense",
+        "The politeness level"
+      ],
+      "correta": 1,
+      "explica": "The ending never moves; the place is the whole of your decision."
+    },
+    {
+      "pergunta": "Which two words both name the toilet?",
+      "opcoes": [
+        "Deguchi and iriguchi",
+        "Eki and basen",
+        "Toire and otearai",
+        "Migi and hidari"
+      ],
+      "correta": 2,
+      "explica": "Toire is the everyday one, otearai a touch politer. Either one dropped into the frame finds it."
+    },
+    {
+      "pergunta": "Why follow up with «kocchi desu ka»?",
+      "opcoes": [
+        "It is more polite",
+        "It can only be answered with a yes, a no or a hand",
+        "It sounds more fluent",
+        "It asks for the distance"
+      ],
+      "correta": 1,
+      "explica": "An open question buys an open answer; a closed one buys something you can still hold at the corner."
+    },
+    {
+      "pergunta": "Which three words are worth catching in any set of directions?",
+      "opcoes": [
+        "Sumimasen, arigatou, konnichiwa",
+        "Migi, hidari, massugu",
+        "Koko, asoko, hai",
+        "Hitotsume, eki, deguchi"
+      ],
+      "correta": 1,
+      "explica": "Right, left, straight on. The rest of the sentence is padding."
+    },
+    {
+      "pergunta": "You open in English and the exchange turns short. What is the likely reading?",
+      "opcoes": [
+        "A refusal to speak English",
+        "You skipped sumimasen, the opening that lets an exchange start",
+        "Dislike of tourists",
+        "Nobody there speaks English"
+      ],
+      "correta": 1,
+      "explica": "Sumimasen works as an opening ritual. That reading is an interpretation of how openings work, not a measured finding."
+    }
+  ]
+}

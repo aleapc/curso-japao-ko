@@ -1,0 +1,353 @@
+{
+  "id": "i05",
+  "nivel": "intermediario",
+  "numero": 23,
+  "parte": "I05",
+  "titulo": "The five questions you will be asked all week",
+  "subtitulo": "Where from, how long, first time, how is your Japanese — and the one question you answer by handing it straight back",
+  "cena": "You have been at the counter four minutes, the coffee is drunk, and the person on the next stool has decided to find out who you are.",
+  "moldura": "ganha",
+  "frasePiso": "Five answers prepared once, and small talk stops being an exam you did not revise for.",
+  "decisao": "fico na conversa ou saio dela — e o que respondo quando a pergunta pede que eu tome partido sobre uma rivalidade interna do país deles",
+  "moldes": [],
+  "fatosDatados": [
+    {
+      "id": "fr-i05-ef-epi",
+      "afirmacao": "In the EF English Proficiency Index 2024, Japan sits in the «low proficiency» band, ranked around 92nd of 116 countries and scoring near 454, and its position has drifted down over recent editions. EF itself states the sample is self-selected and taken online rather than a statistically valid sample of the population, so the figure supports «English proficiency measured this way is low and not improving» and does not support any claim about what share of Japanese people speak English. The counter you are standing at runs in Japanese regardless.",
+      "fonte": "EF EPI 2024 — Japão na faixa «low proficiency», ~92º de 116 países, pontuação ~454. Amostra auto-selecionada e online (declarado pela própria EF)",
+      "ano": 2024,
+      "revisarAte": "2027-08-05",
+      "evidencia": "FATO",
+      "risco": "medio",
+      "audioKeys": [
+        "fr-i05-n05"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-i05-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "The same five questions come at you all week. Answer them once well and you can spend the week on the sixth."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-i05-r01",
+      "receptivo": true,
+      "acao": "Question one, every time. Answer with a city, then send it back.",
+      "es": "どちらからですか？",
+      "pt": "Where are you from?",
+      "tts": "どちらからですか？"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-i05-n02",
+      "pt": "Answer with a city, not a country. A city gives them something to say back; a country ends the exchange."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_f",
+      "audioKey": "fr-i05-t01",
+      "es": "ロンドンから来ました。そちらは？",
+      "pinyin": "RON-don ka-ra ki-MASH-ta. so-CHI-ra wa",
+      "pt": "I'm from London. And you?",
+      "tts": "ロンドンから来ました。そちらは？"
+    },
+    {
+      "consulta": [
+        "simpatia/puxar-conversa"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-i05-p01",
+      "promptPt": "The first question has landed. Give your city and pass the turn back in the same breath. Speak now.",
+      "audioKey": "fr-i05-t01",
+      "es": "ロンドンから来ました。そちらは？",
+      "pinyin": "RON-don ka-ra ki-MASH-ta. so-CHI-ra wa",
+      "pt": "I'm from London. And you?",
+      "tts": "ロンドンから来ました。そちらは？"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-i05-r02",
+      "es": "ああ、ロンドン！どのくらい滞在しますか？",
+      "pt": "Ah, London! And how long are you staying?",
+      "tts": "ああ、ロンドン！どのくらい滞在しますか？"
+    },
+    {
+      "consulta": [
+        "simpatia/puxar-conversa"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-i05-p02",
+      "promptPt": "Question two. Give the length of the trip in one short number. Speak now.",
+      "audioKey": "fr-i05-t02",
+      "es": "五日間います。",
+      "pinyin": "i-tsu-ka-KAN i-mas",
+      "pt": "I'm staying five days.",
+      "tts": "五日間います。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-i05-n03",
+      "bloco": "corpo",
+      "pt": "Question three is whether you have been before. Saying it is your first time is worth more than sounding experienced."
+    },
+    {
+      "consulta": [
+        "simpatia/puxar-conversa"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-i05-p03",
+      "promptPt": "They ask whether you have been to Japan before. Tell them where you stand. Speak now.",
+      "audioKey": "fr-i05-t03",
+      "es": "日本は初めてです。",
+      "pinyin": "ni-HON wa ha-JI-me-te des",
+      "pt": "It's my first time in Japan.",
+      "tts": "日本は初めてです。"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-i05-r03",
+      "receptivo": true,
+      "acao": "This is an offer, not a test. Take it: ask where they would send you.",
+      "es": "初めてなんですね！じゃあ、どこに行くか教えないと。",
+      "pt": "First time! Then someone had better tell you where to go.",
+      "tts": "初めてなんですね！じゃあ、どこに行くか教えないと。"
+    },
+    {
+      "consulta": [
+        "simpatia/puxar-conversa",
+        "mesa/comida"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-i05-p04",
+      "promptPt": "They have just offered to point you somewhere. Take the offer and make them the guide. Speak now.",
+      "audioKey": "fr-i05-t04",
+      "es": "おすすめはどこですか？",
+      "pinyin": "o-su-su-me wa DO-ko des-ka",
+      "pt": "Where do you recommend?",
+      "tts": "おすすめはどこですか？"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-i05-n04",
+      "bloco": "capsula",
+      "pt": "Question four is work or holiday. It is asked to place you, not to check on you, and one clause answers it."
+    },
+    {
+      "consulta": [
+        "simpatia/puxar-conversa"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-i05-p05",
+      "promptPt": "They want to know what brought you over. Say which of the two it is. Speak now.",
+      "audioKey": "fr-i05-t05",
+      "es": "旅行で来ました。",
+      "pinyin": "ryo-KOH de ki-MASH-ta",
+      "pt": "I'm here on holiday.",
+      "tts": "旅行で来ました。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-i05-n05",
+      "pt": "Question five is about your Japanese. Measured English proficiency here is low and flat, and the counter still runs in Japanese."
+    },
+    {
+      "consulta": [
+        "reparo/ingles",
+        "simpatia/puxar-conversa"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-i05-p06",
+      "promptPt": "They ask how your Japanese is. Undersell it, and say it is going somewhere. Speak now.",
+      "audioKey": "fr-i05-t06",
+      "es": "日本語はまだ下手ですが、勉強しています。",
+      "pinyin": "ni-HON-go wa ma-da he-TA des-ga, ben-KYOH shi-te-i-mas",
+      "pt": "My Japanese is still poor, but I'm learning.",
+      "tts": "日本語はまだ下手ですが、勉強しています。"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-i05-r04",
+      "receptivo": true,
+      "acao": "This is encouragement, not an assessment. Say thank you and keep going in Japanese.",
+      "es": "いやいや、日本語お上手ですね！",
+      "pt": "No no, your Japanese is very good!",
+      "tts": "いやいや、日本語お上手ですね！"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-i05-n06",
+      "pt": "Now the sixth question, the one that asks you to take a side. It has a good answer, and it is not an opinion."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-i05-r05",
+      "receptivo": true,
+      "acao": "Do not agree and do not argue. Say what you have seen so far and hand the question back.",
+      "es": "東京なんて、もう日本じゃないですよ。本当の日本は関西です。",
+      "pt": "Tokyo, honestly, isn't Japan any more. The real Japan is Kansai.",
+      "tts": "東京なんて、もう日本じゃないですよ。本当の日本は関西です。"
+    },
+    {
+      "consulta": [
+        "simpatia/puxar-conversa"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-i05-p07",
+      "promptPt": "You are being invited to rank two parts of their country. Decline the ranking without declining the conversation. Speak now.",
+      "audioKey": "fr-i05-t07",
+      "es": "まだ来たばかりで、比べられません。",
+      "pinyin": "ma-da ki-ta ba-KA-ri de, ku-ra-be-ra-re-ma-sen",
+      "pt": "I've only just arrived, I can't compare.",
+      "tts": "まだ来たばかりで、比べられません。"
+    },
+    {
+      "consulta": [
+        "simpatia/puxar-conversa"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-i05-p08",
+      "promptPt": "Turn the comparison into a question about them, which is what they were waiting for anyway. Speak now.",
+      "audioKey": "fr-i05-t08",
+      "es": "こちらのご出身ですか？",
+      "pinyin": "ko-CHI-ra no go-SHUS-shin des-ka",
+      "pt": "Are you from around here?",
+      "tts": "こちらのご出身ですか？"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-i05-r06",
+      "es": "私？いや、東北の出です。もう二十年こっちにいますけどね。",
+      "pt": "Me? No, I'm from Tohoku. Been over here twenty years, mind.",
+      "tts": "私？いや、東北の出です。もう二十年こっちにいますけどね。"
+    },
+    {
+      "consulta": [
+        "chegar/sair",
+        "simpatia/agradecer"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-i05-p09",
+      "promptPt": "The conversation was good and you are due somewhere. Close it without cutting it. Speak now.",
+      "audioKey": "fr-i05-t09",
+      "es": "そろそろ失礼しますが、楽しかったです。",
+      "pinyin": "so-ro-so-ro shi-TSU-rei shi-mas-ga, ta-no-SHI-kat-ta des",
+      "pt": "I have to go, but it was a pleasure.",
+      "tts": "そろそろ失礼しますが、楽しかったです。"
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_fr_f",
+      "audioKey": "fr-i05-s01",
+      "es": "ロンドンから来ました。五日間います。日本は初めてです。",
+      "pinyin": "RON-don ka-ra ki-MASH-ta. i-tsu-ka-KAN i-mas. ni-HON wa ha-JI-me-te des",
+      "pt": "Shadow the three answers that open every conversation of the week.",
+      "tts": "ロンドンから来ました。五日間います。日本は初めてです。"
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-i05-n07",
+      "bloco": "recap",
+      "pt": "I05 done. Where from, how long, first time, why here, how is the Japanese — and a sixth answer that refuses the ranking."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "Five answers, and one refusal",
+    "secoes": [
+      {
+        "titulo": "A city beats a country",
+        "corpo": "London kara kimashita gives the other person a hook — a memory, a match, a trip they took. Igirisu kara, from England, gives them a fact, and a fact ends a turn. Then add sochira wa, which costs two words and moves you from being interviewed to talking.",
+        "exemplos": [
+          {
+            "es": "ロンドンから来ました。そちらは？",
+            "pt": "I'm from London. And you?"
+          },
+          {
+            "es": "こちらのご出身ですか？",
+            "pt": "Are you from around here?"
+          }
+        ]
+      },
+      {
+        "titulo": "First time is an asset",
+        "corpo": "Nihon wa hajimete desu usually gets answered with instructions: where to eat, which district, which day the market runs. Claiming familiarity you do not have closes that door, and there is nothing on the other side of it worth having."
+      },
+      {
+        "titulo": "The compliment is a continuer",
+        "corpo": "Nihongo o-jozu desu ne is said to people who have produced a few words of Japanese. It is not an assessment and it is not irony — it is the standard encouragement to carry on. The only wrong answer is switching to English at that exact moment."
+      },
+      {
+        "titulo": "The question that wants a side",
+        "corpo": "Sooner or later somebody sets two parts of the country against each other — Kanto against Kansai, Tokyo against the countryside, their region against the next — and waits. Whatever you say becomes a verdict from a stranger about their home. Mada kita bakari de, kuraberaremasen is not a dodge; it is true, it is friendly, and it hands the floor to the person who actually has standing to talk about it."
+      },
+      {
+        "titulo": "Leave before you run out",
+        "corpo": "Sorosoro shitsurei shimasu ga, tanoshikatta desu ends the exchange while it is still going well, which is the version they remember. Waiting for a natural gap in a language you are still assembling usually means waiting past one."
+      }
+    ]
+  },
+  "slot": "I05",
+  "permissao": "You are allowed to answer in five words. Nobody at that counter is waiting for a paragraph, the questions are asked to place you rather than to examine you, and a short answer with a question on the end is worth more than a long one with nothing on the end.",
+  "permissaoAudioKey": "fr-i05-n01",
+  "espelho": "Anyone who has been the new person in an office knows this set: where are you from, how long have you been here, how are you finding it. You already have a rhythm for it in your own language — you shorten, you deflect, you ask back. This part is that same rhythm, in five prepared Japanese sentences.",
+  "fichasCulturais": [
+    {
+      "sinal": "Someone tells you, with feeling, that Tokyo is not the real Japan and that Kansai — or wherever you are standing — is.",
+      "suaLeitura": "I am being asked to agree, and agreeing is the friendly thing to do.",
+      "oQueEAli": "The Kanto-Kansai comparison is an argument that belongs to the people having it, and it has been running far longer than your trip. Agreement from a visitor carries no weight and can be repeated later to someone who feels the opposite.",
+      "oQueVoceFaz": "Say you have only just arrived and cannot compare, then ask them about their own place. You keep every bit of the warmth and none of the verdict.",
+      "oQueMelhora": "You get the long, specific answer about where you are — which is the useful half — instead of a topic that can only cool the conversation down.",
+      "ondeNaoVale": "Not when the question is genuinely about your itinerary — what have you seen, where are you going next. That one wants an answer, and giving one is the whole point.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "fr-i05-n06"
+      ]
+    },
+    {
+      "sinal": "You produce a few halting words of Japanese and are told you speak very well.",
+      "suaLeitura": "They are being polite, or gently teasing me, and the honest move is to switch to English.",
+      "oQueEAli": "Nihongo o-jozu desu ne is the standard continuer that follows any attempt in Japanese: an encouragement to keep going, offered at the exact moment most visitors give up. Measured English proficiency here is low and has not been rising — which says nothing about the person in front of you, and the counter you are at still runs in Japanese.",
+      "oQueVoceFaz": "Say arigato and stay in Japanese for one more sentence, even a clumsy one. If you genuinely need English, ask for it rather than sliding into it.",
+      "oQueMelhora": "The exchange stays where it started, which is where the recommendations, the corrections and the small extra help live.",
+      "ondeNaoVale": "Not when the other person has switched to English first and is clearly more comfortable there — insisting on Japanese then makes the conversation about you rather than about what you needed.",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "fr-i05-n05"
+      ]
+    }
+  ]
+}

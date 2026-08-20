@@ -1,0 +1,96 @@
+{
+  "id": "q-b01",
+  "nivel": "basico",
+  "titulo": "Quiz — One beat per kana",
+  "subtitulo": "Equal beats, pure vowels, long vowels, the little tsu, quiet vowels, and pitch",
+  "introAudioKey": "fr-b01-q-i",
+  "introPt": "A traveller orders at a counter and then asks for the back of the room.",
+  "cenario": "A café counter in the morning, one person serving.",
+  "dialogo": [
+    {
+      "audioKey": "fr-b01-q01",
+      "voz": "target_fr_f",
+      "es": "すみません、コーヒーをお願いします。",
+      "pt": "Excuse me, a coffee, please.",
+      "tts": "すみません、コーヒーをお願いします。"
+    },
+    {
+      "audioKey": "fr-b01-q02",
+      "voz": "target_fr_m",
+      "es": "パンもいかがですか？",
+      "pt": "Would you like some bread too?",
+      "tts": "パンもいかがですか？"
+    },
+    {
+      "audioKey": "fr-b01-q03",
+      "voz": "target_fr_f",
+      "es": "以上です。ありがとうございます。",
+      "pt": "That's everything, thank you.",
+      "tts": "以上です。ありがとうございます。"
+    },
+    {
+      "audioKey": "fr-b01-q04",
+      "voz": "target_fr_m",
+      "es": "トイレは奥の右側です。",
+      "pt": "The toilet is at the back, on the right.",
+      "tts": "トイレは奥の右側です。"
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "How does koohii (coffee) sound?",
+      "opcoes": [
+        "KOFF-ee, with one stressed syllable",
+        "Ko-o-hi-i — four equal beats, no English stress",
+        "With a hard k ending",
+        "Two beats, KO-hi"
+      ],
+      "correta": 1,
+      "explica": "Every kana takes the same short length. Koohii is four even beats, not KOFF-ee."
+    },
+    {
+      "pergunta": "What is the difference between biru and biiru?",
+      "opcoes": [
+        "None, they sound the same",
+        "One held beat — biru is a building, biiru is a beer",
+        "Only the stress moves",
+        "Biiru is the plural"
+      ],
+      "correta": 1,
+      "explica": "A long vowel is a real second beat and it changes the word. Obasan/obaasan is the same trick."
+    },
+    {
+      "pergunta": "What is the little tsu in kippu?",
+      "opcoes": [
+        "A doubled p sound",
+        "A held silent beat — stop, hold nothing for one beat, then release",
+        "A stressed syllable",
+        "A glide between vowels"
+      ],
+      "correta": 1,
+      "explica": "The small tsu is an instruction, not a sound. The gap itself is the beat."
+    },
+    {
+      "pergunta": "What happens to the u at the end of desu?",
+      "opcoes": [
+        "It is pronounced clearly as oo",
+        "It goes almost silent — desu comes out dess",
+        "It turns into an o",
+        "It doubles the s"
+      ],
+      "correta": 1,
+      "explica": "Between the soft consonants i and u drop almost to nothing. Sukiyaki starts skiyaki."
+    },
+    {
+      "pergunta": "What carries the accent in a Japanese word?",
+      "opcoes": [
+        "A push in loudness on one syllable",
+        "A small drop in pitch, with the line otherwise flat",
+        "The first kana of every word",
+        "Wherever the kanji is written"
+      ],
+      "correta": 1,
+      "explica": "Japanese rides on pitch, not stress. That flatness is why words feel like they slide past with no edges."
+    }
+  ]
+}

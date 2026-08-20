@@ -1,0 +1,96 @@
+{
+  "id": "q-b18",
+  "nivel": "basico",
+  "titulo": "Quiz — The last day",
+  "subtitulo": "Settle up, park the bag, and the sentence at the door",
+  "introAudioKey": "fr-b18-q-i",
+  "introPt": "A traveller closes the week at the desk and leaves the door open behind them.",
+  "cenario": "Hotel front desk, checkout morning, evening flight.",
+  "dialogo": [
+    {
+      "audioKey": "fr-b18-q01",
+      "voz": "target_fr_f",
+      "es": "全部でいくらですか？",
+      "pt": "How much is it, all together?",
+      "tts": "全部でいくらですか？"
+    },
+    {
+      "audioKey": "fr-b18-q02",
+      "voz": "target_fr_m",
+      "es": "宿泊税を入れて、三万千二百円になります。",
+      "pt": "With the accommodation tax, that comes to thirty-one thousand two hundred yen.",
+      "tts": "宿泊税を入れて、三万千二百円になります。"
+    },
+    {
+      "audioKey": "fr-b18-q03",
+      "voz": "target_fr_f",
+      "es": "五時まで荷物を預けてもいいですか？",
+      "pt": "Can I leave my luggage until five?",
+      "tts": "五時まで荷物を預けてもいいですか？"
+    },
+    {
+      "audioKey": "fr-b18-q04",
+      "voz": "target_fr_m",
+      "es": "もちろんです。番号札をお渡ししますので、お持ちください。",
+      "pt": "Of course. I'll give you a numbered tag, please keep it.",
+      "tts": "もちろんです。番号札をお渡ししますので、お持ちください。"
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "What one line often surprises a visitor on a Japanese hotel bill?",
+      "opcoes": [
+        "Nothing — the total is exactly the booking figure",
+        "An accommodation tax (宿泊税), charged per person per night",
+        "A compulsory tip line",
+        "A mandatory cleaning fee"
+      ],
+      "correta": 1,
+      "explica": "Tokyo, Osaka, Kyoto, Fukuoka and others add one per night, and it is rarely mentioned at check-in. Ask for a 領収書 for expenses."
+    },
+    {
+      "pergunta": "The desk says card is fine, but only from five thousand yen up. Is that allowed?",
+      "opcoes": [
+        "No, cards must be taken for any amount",
+        "Yes — a card minimum is ordinary at a small place, and cash always settles it",
+        "Only outside tourist areas",
+        "Only for foreign cards"
+      ],
+      "correta": 1,
+      "explica": "Nothing obliges a business to take a card; below the minimum, pay in cash."
+    },
+    {
+      "pergunta": "The taxi to the airport quotes one price and leaves the meter off. What is happening?",
+      "opcoes": [
+        "A flat fare set for the airport run in some cities",
+        "A private arrangement",
+        "A luggage surcharge",
+        "A night rate"
+      ],
+      "correta": 0,
+      "explica": "Several cities run flat-fare airport taxis, with a receipt owed — though the train is often cheaper and faster."
+    },
+    {
+      "pergunta": "Which frame asks the total?",
+      "opcoes": [
+        "...te mo ii desu ka",
+        "Zenbu de ikura desu ka",
+        "...o sagashite imasu",
+        "...wa arimasu ka"
+      ],
+      "correta": 1,
+      "explica": "Ikura desu ka — the same ending you used before committing to anything all week."
+    },
+    {
+      "pergunta": "What closes the exchange at the door?",
+      "opcoes": [
+        "Nothing — the bill is paid",
+        "Arigatou gozaimashita, and one more phrase after it",
+        "A handshake",
+        "A tip"
+      ],
+      "correta": 1,
+      "explica": "Iroiro osewa ni narimashita, then arigatou gozaimashita and shitsurei shimasu. There is no tip; the sentence is the thanks."
+    }
+  ]
+}

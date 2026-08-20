@@ -1,0 +1,96 @@
+{
+  "id": "q-i07",
+  "nivel": "intermediario",
+  "titulo": "Quiz — The compliment that reaches the kitchen",
+  "subtitulo": "Both sentences need a noun in them",
+  "introAudioKey": "fr-i07-q-i",
+  "introPt": "A traveller sends praise through to the kitchen, then gets a cold plate sorted in one sentence.",
+  "cenario": "Mid-meal in a small dining room, one good plate and one cold one.",
+  "dialogo": [
+    {
+      "audioKey": "fr-i07-q01",
+      "voz": "target_fr_f",
+      "es": "焼き魚がとても美味しかったです。ごちそうさまでした。",
+      "pt": "The grilled fish was really delicious. Thank you for the meal.",
+      "tts": "焼き魚がとても美味しかったです。ごちそうさまでした。"
+    },
+    {
+      "audioKey": "fr-i07-q02",
+      "voz": "target_fr_m",
+      "es": "ありがとうございます。板前に伝えます。喜びます。",
+      "pt": "Thank you. I'll tell the cook, he'll be pleased.",
+      "tts": "ありがとうございます。板前に伝えます。喜びます。"
+    },
+    {
+      "audioKey": "fr-i07-q03",
+      "voz": "target_fr_f",
+      "es": "すみません、これ、冷たいです。",
+      "pt": "Excuse me, this is cold.",
+      "tts": "すみません、これ、冷たいです。"
+    },
+    {
+      "audioKey": "fr-i07-q04",
+      "voz": "target_fr_m",
+      "es": "あ、失礼しました。すぐ温め直します。",
+      "pt": "Oh sorry, I'll heat it again right away.",
+      "tts": "あ、失礼しました。すぐ温め直します。"
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "What makes praise travel to the kitchen?",
+      "opcoes": [
+        "Saying it loudly",
+        "Naming the dish",
+        "Leaving extra money",
+        "Saying it in English"
+      ],
+      "correta": 1,
+      "explica": "Nobody can carry oishii into a kitchen. They can carry yaki-zakana — the grilled fish."
+    },
+    {
+      "pergunta": "How is the sentence about the cold plate built?",
+      "opcoes": [
+        "Sumimasen, then the fact, then stop",
+        "Apology, the fact, then another apology",
+        "A full account of the evening so far",
+        "Say nothing and write it up later"
+      ],
+      "correta": 0,
+      "explica": "Sumimasen, kore, tsumetai desu — six words is a complete request. The shorter it is, the faster the plate moves."
+    },
+    {
+      "pergunta": "Why does stacking apologies on top backfire?",
+      "opcoes": [
+        "It is considered impolite",
+        "It is too formal for a dining room",
+        "It buries the fact and signals you expect an argument",
+        "It only works in Tokyo"
+      ],
+      "correta": 2,
+      "explica": "A flat, warm, factual sentence is heard as information instead."
+    },
+    {
+      "pergunta": "The reply to your compliment is short — tsutaemasu — and then he walks off. That means:",
+      "opcoes": [
+        "The compliment landed badly",
+        "The reply is brief by convention; the message still goes through",
+        "You should repeat it louder",
+        "You should ask for the chef"
+      ],
+      "correta": 1,
+      "explica": "The part that matters happens out of your sight, in the kitchen. Length of reply measures nothing."
+    },
+    {
+      "pergunta": "The strongest compliment available to you is:",
+      "opcoes": [
+        "Oishii",
+        "A large tip",
+        "A five-star review",
+        "Mata kimasu — we'll be back"
+      ],
+      "correta": 3,
+      "explica": "A room that feeds the same neighbourhood every week measures its work in the people who come back."
+    }
+  ]
+}

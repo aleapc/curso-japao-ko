@@ -1,0 +1,388 @@
+{
+  "id": "b17",
+  "nivel": "basico",
+  "numero": 17,
+  "parte": "B17",
+  "titulo": "Pharmacy, pain, and the numbers that work from any phone",
+  "subtitulo": "Name where it hurts, let the counter choose the box, and know the numbers to dial: 119 and 110",
+  "cena": "Sunday evening, the shutter is down on the pharmacy nearest you, and the drugstore by the station is still lit two streets away.",
+  "moldura": "protege",
+  "frasePiso": "Say where it hurts and let the counter choose. The nearest drugstore is often open far later than the small pharmacy.",
+  "moldes": [],
+  "fatosDatados": [
+    {
+      "id": "fr-b17-112",
+      "afirmacao": "In Japan you dial 119 for fire and ambulance and 110 for police; both are free from any phone, and there is no single 112 line. For non-urgent medical advice, many areas run #7119 (救急安心センター), which helps you decide whether to go to hospital and where. For help in English, the JNTO Japan Visitor Hotline is 24/7 on 050-3816-2787.",
+      "fonte": "Números de emergência do Japão: 119 (bombeiros/ambulância), 110 (polícia); #7119 (救急安心センター) para orientação médica não urgente em muitas regiões; JNTO Japan Visitor Hotline 050-3816-2787.",
+      "ano": 2026,
+      "revisarAte": "2028-08-05",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "fr-b17-n05"
+      ]
+    },
+    {
+      "id": "fr-b17-garde",
+      "afirmacao": "Out of hours you have several routes in Japan: large chain drugstores in cities often stay open late or 24 hours, the local 休日夜間急患センター (holiday and night emergency clinic) covers urgent cases, and #7119 gives medical advice by phone where it operates. A traditional 調剤薬局 that fills prescriptions keeps shorter hours, so for something over the counter at night the drugstore is usually the better bet.",
+      "fonte": "Drogarias de rede abertas até tarde/24h nas cidades; 休日夜間急患センター para urgências fora do horário; #7119 para orientação; 調剤薬局 (farmácia de manipulação/receita) com horário mais curto.",
+      "ano": 2026,
+      "revisarAte": "2027-08-05",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "fr-b17-n04"
+      ]
+    },
+    {
+      "id": "fr-b17-ghic",
+      "afirmacao": "Japan has no reciprocal healthcare agreement with the UK or the EU, so there is no GHIC or EHIC cover here: a visitor pays the full cost of treatment, and hospitals often expect payment upfront, in cash or by card. Costs can be high, and an ambulance ride, though itself free, ends at a bill you owe. Travel insurance that covers Japan, and repatriation, is essential rather than optional.",
+      "fonte": "Japão não tem acordo recíproco de saúde com Reino Unido/UE; visitante paga o custo integral, muitas vezes adiantado; seguro-viagem com cobertura no Japão e repatriação é essencial.",
+      "ano": 2026,
+      "revisarAte": "2027-08-05",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "fr-b17-n06"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-b17-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "This is the one part of the module about the day going sideways. Read it now, while nothing is happening."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-b17-n02",
+      "bloco": "molde",
+      "pt": "Do not translate the illness. Say where it hurts and since when, and let the counter choose the box."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_f",
+      "audioKey": "fr-b17-t01",
+      "es": "開いている薬局を探しています。",
+      "pinyin": "ai-te i-ru yak-KYO-ku o sa-ga-shi-te i-MAS",
+      "pt": "I'm looking for a pharmacy that's open.",
+      "tts": "開いている薬局を探しています。"
+    },
+    {
+      "consulta": [
+        "saude/farmacia",
+        "cidade/onde"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "SAGASHITE-IMASU",
+      "encaixe": "開いている薬局",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-b17-p01",
+      "promptPt": "Sunday, half past eight, the shutter is down and a man is walking his dog past you. Speak now.",
+      "audioKey": "fr-b17-t01",
+      "es": "開いている薬局を探しています。",
+      "pinyin": "ai-te i-ru yak-KYO-ku o sa-ga-shi-te i-MAS",
+      "pt": "I'm looking for a pharmacy that's open."
+    },
+    {
+      "consulta": [
+        "saude/farmacia",
+        "cidade/onde"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "DOKO-DESU-KA",
+      "encaixe": "夜間の薬局",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-b17-p02",
+      "promptPt": "He nods and says somewhere nearby always stays open late. Ask him which. Speak now.",
+      "audioKey": "fr-b17-t02",
+      "es": "夜間の薬局はどこですか？",
+      "pinyin": "ya-KAN no yak-KYO-ku wa DO-ko des ka",
+      "pt": "Where is the night pharmacy?",
+      "tts": "夜間の薬局はどこですか？"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-b17-r01",
+      "receptivo": true,
+      "es": "この辺だと、駅前のドラッグストアが遅くまで開いていますよ。",
+      "pt": "Around here, the drugstore in front of the station is open late.",
+      "tts": "この辺だと、駅前のドラッグストアが遅くまで開いていますよ。",
+      "acao": "Head for the late drugstore by the station rather than walking from one closed pharmacy to the next."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-b17-n04",
+      "bloco": "corpo",
+      "pt": "Late at night the chain drugstore or the night emergency clinic is your route, and many areas run #7119 for phone advice on where to go."
+    },
+    {
+      "consulta": [
+        "saude/sintoma",
+        "saude/farmacia"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "SAGASHITE-IMASU",
+      "encaixe": "咳の薬",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-b17-p03",
+      "promptPt": "You are at the counter of the late drugstore. You have been coughing since the flight. Speak now.",
+      "audioKey": "fr-b17-t03",
+      "es": "咳の薬を探しています。",
+      "pinyin": "se-ki no ku-SU-ri o sa-ga-shi-te i-MAS",
+      "pt": "I'm looking for something for a cough.",
+      "tts": "咳の薬を探しています。"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_f",
+      "audioKey": "fr-b17-r02",
+      "es": "いつからですか？ 夜も咳が出ますか？",
+      "pt": "Since when? And do you cough at night too?",
+      "tts": "いつからですか？ 夜も咳が出ますか？"
+    },
+    {
+      "consulta": [
+        "saude/sintoma"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-b17-p04",
+      "promptPt": "She just asked a couple of things at once. Answer the one that wants a number, and name the sore part. Speak now.",
+      "audioKey": "fr-b17-t04",
+      "es": "二日前から喉が痛いです。",
+      "pinyin": "fu-tsu-ka MAE ka-ra no-do ga i-TAI des",
+      "pt": "My throat has hurt for two days.",
+      "tts": "二日前から喉が痛いです。"
+    },
+    {
+      "consulta": [
+        "saude/sintoma",
+        "reparo/apontar"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-b17-p05",
+      "promptPt": "You do not know the word for the part of you that aches. Put your hand on it and say three words. Speak now.",
+      "audioKey": "fr-b17-t05",
+      "es": "ここが痛いです。",
+      "pinyin": "ko-ko ga i-TAI des",
+      "pt": "It hurts here.",
+      "tts": "ここが痛いです。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-b17-n03",
+      "bloco": "capsula",
+      "pt": "Nuki de is the same frame you used with food. Here it keeps the wrong thing out of the box."
+    },
+    {
+      "consulta": [
+        "saude/alergia",
+        "saude/farmacia"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "NUKI-DE",
+      "encaixe": "イブプロフェン",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-b17-p06",
+      "promptPt": "She reaches for a box. There is one ingredient your doctor at home told you to stay off. Speak now.",
+      "audioKey": "fr-b17-t06",
+      "es": "イブプロフェン抜きで、お願いします。",
+      "pinyin": "i-bu-pu-ro-FEN NU-ki de, o-ne-gai-shi-MAS",
+      "pt": "Without ibuprofen, please.",
+      "tts": "イブプロフェン抜きで、お願いします。"
+    },
+    {
+      "consulta": [
+        "saude/receita",
+        "saude/farmacia"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-b17-p07",
+      "promptPt": "She puts two boxes on the counter and you have no piece of paper from any doctor. Check before she rings it up. Speak now.",
+      "audioKey": "fr-b17-t07",
+      "es": "これは処方箋なしで買えますか？",
+      "pinyin": "ko-re wa sho-HOU-sen na-shi de ka-e-MAS ka",
+      "pt": "Can I buy this without a prescription?",
+      "tts": "これは処方箋なしで買えますか？"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_f",
+      "audioKey": "fr-b17-r03",
+      "es": "こちらは大丈夫です。もう一つは処方箋が必要です。",
+      "pt": "This one is fine. The other needs a prescription.",
+      "tts": "こちらは大丈夫です。もう一つは処方箋が必要です。"
+    },
+    {
+      "consulta": [
+        "saude/alergia",
+        "comer/restricao"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-b17-p08",
+      "promptPt": "Before anything goes in a bag, say the thing that has to be on the record. It is on the card in your wallet. Speak now.",
+      "audioKey": "fr-b17-t08",
+      "es": "ペニシリンアレルギーがあります。",
+      "pinyin": "pe-ni-shi-rin a-re-ru-GII ga a-ri-MAS",
+      "pt": "I'm allergic to penicillin.",
+      "tts": "ペニシリンアレルギーがあります。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-b17-n06",
+      "pt": "There is no reciprocal health cover here. A visitor pays the full cost, often upfront, so travel insurance that covers Japan is the thing that matters."
+    },
+    {
+      "consulta": [
+        "saude/medico",
+        "reparo/ingles"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "SAGASHITE-IMASU",
+      "encaixe": "英語が話せる医者",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-b17-p09",
+      "promptPt": "The pharmacist says this one is past her counter and you will need to be seen. Say what kind of doctor. Speak now.",
+      "audioKey": "fr-b17-t09",
+      "es": "英語が話せる医者を探しています。",
+      "pinyin": "ei-go ga ha-na-se-ru i-SHA o sa-ga-shi-te i-MAS",
+      "pt": "I'm looking for a doctor who speaks English.",
+      "tts": "英語が話せる医者を探しています。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-b17-n05",
+      "pt": "Two numbers to keep: 119 for fire and ambulance, 110 for police. They work from any phone, and there is no 112 here."
+    },
+    {
+      "consulta": [
+        "saude/emergencia"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-b17-p10",
+      "promptPt": "Someone is on the floor in the lobby and the person nearest the phone is frozen. Give the instruction. Speak now.",
+      "audioKey": "fr-b17-t10",
+      "es": "119番に電話してください。",
+      "pinyin": "i-chi i-chi KYUU ban ni den-wa-shi-te ku-da-sai",
+      "pt": "Call 119, please.",
+      "tts": "いちいちきゅうばんに電話してください。"
+    },
+    {
+      "consulta": [
+        "saude/emergencia",
+        "cidade/onde"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "DOKO-DESU-KA",
+      "encaixe": "一番近い病院",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-b17-p11",
+      "promptPt": "You are in a taxi and you need the driver to change destination. One short question. Speak now.",
+      "audioKey": "fr-b17-t11",
+      "es": "一番近い病院はどこですか？",
+      "pinyin": "i-chi-ban chi-KAI byoo-in wa DO-ko des ka",
+      "pt": "Where is the nearest hospital?",
+      "tts": "一番近い病院はどこですか？"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-b17-r04",
+      "receptivo": true,
+      "es": "そのまま切らずにお待ちください。今、どちらにいますか？",
+      "pt": "Stay on the line, don't hang up. Where are you right now?",
+      "tts": "そのまま切らずにお待ちください。今、どちらにいますか？",
+      "acao": "Stay on the line and say the street or the name of the nearest building and the number on the door."
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_fr_f",
+      "audioKey": "fr-b17-s01",
+      "es": "咳の薬を探しています。ここが痛いです。夜間の薬局はどこですか？",
+      "pinyin": "se-ki no ku-SU-ri o sa-ga-shi-te i-MAS. ko-ko ga i-TAI des. ya-KAN no yak-KYO-ku wa DO-ko des ka",
+      "pt": "Shadow the three sentences that do the most work at a counter.",
+      "tts": "咳の薬を探しています。ここが痛いです。夜間の薬局はどこですか？"
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-b17-n07",
+      "bloco": "recap",
+      "pt": "B17 done. Doko desu ka, sagashite imasu, nuki de, koko ga itai, and 119 — enough to be seen without a shared language."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "The counter that diagnoses, and the drugstore that stays lit",
+    "secoes": [
+      {
+        "titulo": "Itai plus the place",
+        "corpo": "The whole grammar of pain here is one word and a body part: nodo ga itai, atama ga itai, onaka ga itai. If the word is gone, koko ga itai desu and a hand does the same job, and nobody at a Japanese counter treats pointing as a failure.",
+        "exemplos": [
+          {
+            "es": "二日前から喉が痛いです。",
+            "pt": "My throat has hurt for two days."
+          },
+          {
+            "es": "ここが痛いです。",
+            "pt": "It hurts here."
+          }
+        ]
+      },
+      {
+        "titulo": "The drugstore, the clinic and #7119",
+        "corpo": "At night a chain drugstore in a city is often open late or around the clock, and it is the place for something over the counter. For an urgent case there is the 休日夜間急患センター, the holiday and night emergency clinic, and where it operates #7119 gives phone advice on whether to go and where. A traditional 調剤薬局 that fills prescriptions keeps shorter hours."
+      },
+      {
+        "titulo": "119, and the number beside it",
+        "corpo": "119 reaches fire and ambulance; 110 reaches the police. Both are free from any phone, and there is no single 112 line as in Europe. When you call, they will ask where you are — have the street, or the name of the nearest building and the number on the door, ready to say."
+      },
+      {
+        "titulo": "There is no GHIC here",
+        "corpo": "Japan has no reciprocal healthcare agreement with the UK or the EU, so there is no card that gets you treated on local terms. A visitor pays the full cost, hospitals often expect payment upfront, and the bill can be large — the ambulance ride is free but ends at a charge for the care. Travel insurance that covers Japan and repatriation is what carries this, and it is essential, not optional."
+      }
+    ]
+  },
+  "slot": "B17",
+  "permissao": "You do not need the vocabulary of a medical exam. A body part, a number of days and a hand on the sore place is a complete presentation at a Japanese pharmacy counter, and the person behind it is trained to take it from there.",
+  "permissaoAudioKey": "fr-b17-n02",
+  "espelho": "Anyone who has stood in a chemist at home describing symptoms rather than naming a drug already knows this move. The only new part is that here the drugstore is used to being the first stop rather than the last one.",
+  "fichasCulturais": [
+    {
+      "sinal": "The pharmacy nearest you has its shutter down and there is no roster taped in the window telling you where to go.",
+      "suaLeitura": "It is shut, so I will have to walk around until I find one that is open.",
+      "oQueEAli": "Japan does not run the closed-pharmacy roster you might expect from Europe. Instead the late-opening chain drugstore, often near a station, is the usual answer at night, and #7119 gives medical advice by phone in many areas about where to go and whether you need to.",
+      "oQueVoceFaz": "Ask a passer-by or your hotel for the nearest late drugstore, or call #7119 for advice before walking anywhere. For an urgent case, the 休日夜間急患センター is the night clinic.",
+      "oQueMelhora": "You walk once, to a place that is actually open, instead of from one closed shutter to the next.",
+      "ondeNaoVale": "Coverage varies by area — #7119 does not operate everywhere, and a small town may have far fewer late options than a city. If it is urgent, 119 is the line, not a drugstore.",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "fr-b17-n04"
+      ]
+    }
+  ]
+}

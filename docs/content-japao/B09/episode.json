@@ -1,0 +1,356 @@
+{
+  "id": "b09",
+  "nivel": "basico",
+  "numero": 9,
+  "parte": "B09",
+  "titulo": "The ticket, and whether this one needs a limited-express ticket too",
+  "subtitulo": "On JR a fast train needs two tickets, not one — and a visitor rides exactly the trains where that bites",
+  "cena": "Ticket in hand, a row of gates ahead that may or may not let this ticket through, and four minutes before departure.",
+  "moldura": "ganha",
+  "frasePiso": "One question settles it before you board, and it is short: tokkyuuken wa irimasu ka?",
+  "moldes": [],
+  "fatosDatados": [
+    {
+      "id": "fr-fim-compostagem",
+      "afirmacao": "On JR, a Shinkansen or a limited-express (tokkyuu) train needs two tickets, not one: a basic fare ticket (joushaken) plus a limited-express surcharge ticket (tokkyuuken). Ordinary local and rapid trains need only the fare, or a tap of an IC card. At the gate the two tickets often go in together and both come back out. This trips visitors because the fast trains — the ones they most want — are exactly the ones with the second ticket.",
+      "fonte": "JR: Shinkansen e trens tokkyuu (limited express) exigem dois bilhetes — 乗車券 (fare) + 特急券 (surcharge). Trens locais/rápidos: só a tarifa, ou toque de cartão IC. No portão, os dois bilhetes entram juntos.",
+      "ano": 2026,
+      "revisarAte": "2027-08-05",
+      "evidencia": "FATO",
+      "risco": "medio",
+      "audioKeys": [
+        "fr-b09-n02"
+      ]
+    },
+    {
+      "id": "fr-multa-validacao",
+      "afirmacao": "If you reach the exit gate having paid too little — you rode further than your ticket covers, or your IC balance fell short — the gate simply does not open. This is not a fine: you settle the difference at a fare-adjustment machine (seisanki, marked norikoshi seisan) or at the window before the gate, and walk through. Honest underpayment is treated as a top-up, not a penalty, which is very different from a European on-the-spot fine.",
+      "fonte": "Portão de saída não abre com tarifa insuficiente; acerta-se a diferença no 精算機 (norikoshi seisan) ou no guichê antes da saída. Subpagamento honesto = acerto, não multa.",
+      "ano": 2026,
+      "revisarAte": "2027-08-05",
+      "evidencia": "FATO",
+      "risco": "medio",
+      "audioKeys": [
+        "fr-b09-n03"
+      ]
+    },
+    {
+      "id": "fr-paris-fim-carnet",
+      "afirmacao": "On a limited-express or Shinkansen the cars are split into non-reserved (jiyuuseki) and reserved (shiteiseki): with only the basic surcharge you sit in the non-reserved cars, and a reserved seat costs a little more and guarantees the place. The Japan Rail Pass rose in price in October 2023, and since then Pass holders can ride the fastest services, Nozomi and Mizuho, only by paying a separate supplement — the Pass alone still does not cover them.",
+      "fonte": "Limited express/Shinkansen: carros 自由席 (não reservado) e 指定席 (reservado). Japan Rail Pass subiu de preço em out/2023; desde então, Nozomi e Mizuho exigem suplemento pago à parte, não cobertos só pelo Pass.",
+      "ano": 2025,
+      "revisarAte": "2027-08-05",
+      "evidencia": "FATO",
+      "risco": "medio",
+      "audioKeys": [
+        "fr-b09-n05"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-b09-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "Buying the ticket is the simple part. What varies is whether one ticket is enough, or this train wants a second."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_f",
+      "audioKey": "fr-b09-t01",
+      "es": "特急券は要りますか？",
+      "pinyin": "tok-KYOH-ken wa i-ri-mass-ka",
+      "pt": "Do I need a limited-express ticket?",
+      "tts": "特急券は要りますか？"
+    },
+    {
+      "consulta": [
+        "transporte/bilhete"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-b09-p01",
+      "promptPt": "You have a basic ticket and the train at the platform is a fast one. Ask the agent by the gate before you board. Speak now.",
+      "audioKey": "fr-b09-t01",
+      "es": "特急券は要りますか？",
+      "pinyin": "tok-KYOH-ken wa i-ri-mass-ka",
+      "pt": "Do I need a limited-express ticket?",
+      "tts": "特急券は要りますか？"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-b09-r01",
+      "receptivo": true,
+      "es": "新幹線は要ります。でも普通電車なら要りませんよ。",
+      "pt": "On the Shinkansen, yes. But on a local train, no.",
+      "tts": "新幹線は要ります。でも普通電車なら要りませんよ。",
+      "acao": "Hear the train type, not a general rule. Shinkansen and tokkyuu need the second ticket; local and rapid trains do not."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-b09-n02",
+      "bloco": "corpo",
+      "pt": "On JR a Shinkansen or limited express needs two tickets: fare plus limited-express. A local or rapid needs only the fare or IC."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-b09-n03",
+      "pt": "If the exit gate won't open, you're not fined — you underpaid. Settle it at the fare-adjustment machine before the gate."
+    },
+    {
+      "consulta": [
+        "transporte/bilhete",
+        "transporte/plataforma"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "DOKO-DESU-KA",
+      "encaixe": "精算機",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-b09-p02",
+      "promptPt": "You have reached the exit and the gate flap stayed shut — your IC ran short. Find the machine that fixes it. Speak now.",
+      "audioKey": "fr-b09-t02",
+      "es": "精算機はどこですか？",
+      "pinyin": "sei-SAN-ki wa DO-ko des-ka",
+      "pt": "Where is the fare-adjustment machine?",
+      "tts": "精算機はどこですか？"
+    },
+    {
+      "consulta": [
+        "transporte/bilhete"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-b09-p03",
+      "promptPt": "At the ticket window. One traveller, and the name you want on the board is Kyoto. Keep it to the destination and the courtesy. Speak now.",
+      "audioKey": "fr-b09-t03",
+      "es": "京都まで一枚お願いします。",
+      "pinyin": "KYOH-to made i-chi-mai o-ne-gai-shi-mass",
+      "pt": "One ticket to Kyoto, please.",
+      "tts": "京都まで一枚お願いします。"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-b09-r02",
+      "receptivo": true,
+      "es": "十二番線、十四時三十五分発です。",
+      "pt": "Platform twelve, departure at fourteen thirty-five.",
+      "tts": "十二番線、十四時三十五分発です。",
+      "acao": "Bansen is the platform. Take the number and the time and let the sentence around them go."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-b09-n04",
+      "bloco": "capsula",
+      "pt": "Times come on the twenty-four hour clock. Juuyoji sanjuugofun is twenty-five to three in the afternoon."
+    },
+    {
+      "consulta": [
+        "transporte/plataforma"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "DOKO-DESU-KA",
+      "encaixe": "十二番線",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-b09-p04",
+      "promptPt": "You have the number but the concourse signs jump from nine to fifteen. Speak now.",
+      "audioKey": "fr-b09-t04",
+      "es": "十二番線はどこですか？",
+      "pinyin": "JOO-ni-ban-sen wa DO-ko des-ka",
+      "pt": "Where is platform twelve?",
+      "tts": "十二番線はどこですか？"
+    },
+    {
+      "consulta": [
+        "transporte/qual-trem"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-b09-p05",
+      "promptPt": "Two trains are standing at the same platform and the display is showing neither. Check with the person by the door. Speak now.",
+      "audioKey": "fr-b09-t05",
+      "es": "この電車は京都に行きますか？",
+      "pinyin": "ko-no den-sha wa KYOH-to ni i-ki-mass-ka",
+      "pt": "Does this train go to Kyoto?",
+      "tts": "この電車は京都に行きますか？"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-b09-r03",
+      "es": "はい、でも新大阪で乗り換えです。",
+      "pt": "Yes, but you change at Shin-Osaka.",
+      "tts": "はい、でも新大阪で乗り換えです。"
+    },
+    {
+      "consulta": [
+        "transporte/qual-trem"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-b09-p06",
+      "promptPt": "You heard a station name you were not expecting in the middle of that. Turn it into a yes or a no. Speak now.",
+      "audioKey": "fr-b09-t06",
+      "es": "乗り換えが必要ですか？",
+      "pinyin": "no-ri-ka-e ga hi-tsu-YOH des-ka",
+      "pt": "Do I have to change?",
+      "tts": "乗り換えが必要ですか？"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-b09-n05",
+      "pt": "On a fast train, cars are non-reserved or reserved. The surcharge seats you non-reserved; a reserved seat costs a bit more."
+    },
+    {
+      "consulta": [
+        "transporte/bilhete"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "DOKO-DESU-KA",
+      "encaixe": "みどりの窓口",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-b09-p07",
+      "promptPt": "The machines in this hall all show a queue and a screen you cannot read from here. You want the staffed JR office. Speak now.",
+      "audioKey": "fr-b09-t07",
+      "es": "みどりの窓口はどこですか？",
+      "pinyin": "mi-do-ri no ma-DO-gu-chi wa DO-ko des-ka",
+      "pt": "Where is the ticket office?",
+      "tts": "みどりの窓口はどこですか？"
+    },
+    {
+      "consulta": [
+        "transporte/bilhete",
+        "pagar/pedir"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-b09-p08",
+      "promptPt": "First morning in Japan, ten days ahead of you, and you would rather tap one card than feed paper into every gate. Speak now.",
+      "audioKey": "fr-b09-t08",
+      "es": "ウェルカムスイカをお願いします。",
+      "pinyin": "we-ru-ka-mu-SU-i-ka o o-ne-gai-shi-mass",
+      "pt": "A Welcome Suica, please.",
+      "tts": "ウェルカムスイカをお願いします。"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-b09-r04",
+      "es": "切符を拝見します。",
+      "pt": "Ticket check, please.",
+      "tts": "切符を拝見します。",
+      "receptivo": true,
+      "acao": "Have the ticket or the card in your hand before you are asked, and hand it over without explaining anything."
+    },
+    {
+      "consulta": [
+        "transporte/placas"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "DOKO-DESU-KA",
+      "encaixe": "出口",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-b09-p09",
+      "promptPt": "You are off the train, underground, and the corridors go four ways. Speak now.",
+      "audioKey": "fr-b09-t09",
+      "es": "出口はどこですか？",
+      "pinyin": "de-GUCHI wa DO-ko des-ka",
+      "pt": "Where is the exit?",
+      "tts": "出口はどこですか？"
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_fr_f",
+      "audioKey": "fr-b09-s01",
+      "es": "特急券は要りますか？ 精算機はどこですか？ この電車は京都に行きますか？ 乗り換えが必要ですか？",
+      "pinyin": "tok-KYOH-ken wa i-ri-mass-ka · sei-SAN-ki wa DO-ko des-ka · ko-no den-sha wa KYOH-to ni i-ki-mass-ka · no-ri-ka-e ga hi-tsu-YOH des-ka",
+      "pt": "Shadow the four questions that settle a platform before it moves.",
+      "tts": "特急券は要りますか？ 精算機はどこですか？ この電車は京都に行きますか？ 乗り換えが必要ですか？"
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-b09-n06",
+      "bloco": "recap",
+      "pt": "B09 done. Tokkyuuken, the fare machine, the platform, the train and the change — four minutes, five questions."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "One ticket, or two",
+    "secoes": [
+      {
+        "titulo": "The two-ticket system",
+        "corpo": "On JR the fast trains want two tickets, not one: a basic fare ticket that covers the distance, and a limited-express ticket on top for the Shinkansen or a tokkyuu. Ordinary local and rapid trains need only the fare, or a tap of an IC card. At the gate the fare ticket and the express ticket usually go into the slot together and both come back out the other side — take them both."
+      },
+      {
+        "titulo": "The gate that will not open, and the machine that fixes it",
+        "corpo": "If the exit gate stays shut, the usual reason is honest underpayment — you rode past the fare your ticket covered, or your IC balance fell short. This is not a penalty. You go to the fare-adjustment machine, marked norikoshi seisan, or to the window beside the gate, pay the difference, and walk through. Settling short fares this way is ordinary and expected, not something you get fined for.",
+        "exemplos": [
+          {
+            "es": "特急券は要りますか？",
+            "pt": "Do I need a limited-express ticket?"
+          },
+          {
+            "es": "精算機はどこですか？",
+            "pt": "Where is the fare-adjustment machine?"
+          }
+        ]
+      },
+      {
+        "titulo": "Reserved, non-reserved and the Pass",
+        "corpo": "A limited express or Shinkansen splits its cars into non-reserved (jiyuuseki) and reserved (shiteiseki). With just the fare and the surcharge you sit in the non-reserved cars, first come first served; a reserved seat costs a little more and guarantees the place, which is worth it at busy times. The Japan Rail Pass went up in price in October 2023, and Pass holders can ride the fastest Nozomi and Mizuho services only by paying a separate supplement — the Pass by itself does not cover them."
+      },
+      {
+        "titulo": "Numbers, in the ear only",
+        "corpo": "You do not need to say platform numbers or times — you need to catch them. Bansen means the platform track. Times come on the twenty-four hour clock: juuyoji is two in the afternoon, juuhachiji is six in the evening. Listening for the number and the word bansen, and ignoring the rest of the announcement, is the whole skill."
+      }
+    ]
+  },
+  "slot": "B09",
+  "permissao": "Asking whether you need a limited-express ticket is not the question of someone who has not done their homework — the answer genuinely depends on the train, and staff answer it all day. A few words spent before boarding is the cheapest thing you will buy in Japan.",
+  "espelho": "Every rail network in the world has one of these — the barrier that opens, the card you tap, the surcharge nobody warned you about. The only unfamiliar part here is that the fast train wants a second ticket, and the ordinary one does not.",
+  "permissaoAudioKey": "fr-b09-n01",
+  "fichasCulturais": [
+    {
+      "sinal": "Someone tells you to just tap your Suica for everything, and you try to tap onto a Shinkansen platform and the gate rejects you.",
+      "suaLeitura": "The card is broken, or I have done something wrong.",
+      "oQueEAli": "An IC card like Suica covers ordinary local, rapid and city trains, where a tap in and a tap out is the whole transaction. The Shinkansen and limited-express trains run on a different ticket system — a fare ticket plus a limited-express ticket — and a plain IC tap does not open that gate by default.",
+      "oQueVoceFaz": "Before a fast train, ask tokkyuuken wa irimasu ka, and buy the tickets at the machine or the staffed office, the midori no madoguchi.",
+      "oQueMelhora": "You stop carrying a rule that is true for the trains you take around the city and wrong for the fast ones you take between cities, and the gate stops surprising you.",
+      "ondeNaoVale": "Not on ordinary local and rapid trains, where the IC tap really is all there is — hunting for a paper ticket there just wastes the minutes you had.",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "fr-b09-n02",
+        "fr-b09-n03"
+      ]
+    },
+    {
+      "sinal": "You take an empty seat on a limited express and part way along someone arrives holding a ticket for that exact seat.",
+      "suaLeitura": "They are trying to take my seat, or the train is overbooked.",
+      "oQueEAli": "The cars are split into reserved and non-reserved. A reserved seat belongs to whoever booked it, and the non-reserved cars are the free-for-all. If you sat in a reserved car without a reservation, the person with the ticket has the seat, and the fix is simply to move to a non-reserved car.",
+      "oQueVoceFaz": "Look for the jiyuuseki, non-reserved, cars unless you actually reserved a seat — the car type is shown on the platform and on the doors. If you want a guaranteed place at a busy time, reserve one at the office.",
+      "oQueMelhora": "You stop reading a valid reservation as someone jumping your seat, and you know which cars are yours to sit in without booking.",
+      "ondeNaoVale": "Not on ordinary local trains, which have no reserved seats at all — there every seat is first come, and none of this applies.",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "fr-b09-n05"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "id": "q-b12",
+  "nivel": "basico",
+  "titulo": "Quiz — Nuki de — the two syllables that make the dish editable",
+  "subtitulo": "Subtracting instead of describing",
+  "introAudioKey": "fr-b12-q-i",
+  "introPt": "A traveller edits one dish at the moment of ordering, and takes the on-the-side version when out is impossible.",
+  "cenario": "A sushi counter at lunchtime.",
+  "dialogo": [
+    {
+      "audioKey": "fr-b12-q01",
+      "voz": "target_fr_f",
+      "es": "わさび抜きで、お願いします。",
+      "pt": "Without wasabi, please.",
+      "tts": "わさび抜きで、お願いします。"
+    },
+    {
+      "audioKey": "fr-b12-q02",
+      "voz": "target_fr_m",
+      "es": "わさび抜きですね。承知しました。ソースは？",
+      "pt": "Without wasabi, understood. And the sauce?",
+      "tts": "わさび抜きですね。承知しました。ソースは？"
+    },
+    {
+      "audioKey": "fr-b12-q03",
+      "voz": "target_fr_f",
+      "es": "ソースは別でお願いします。魚介抜きはできますか？",
+      "pt": "The sauce on the side, please. Can it be done without seafood?",
+      "tts": "ソースは別でお願いします。魚介抜きはできますか？"
+    },
+    {
+      "audioKey": "fr-b12-q04",
+      "voz": "target_fr_m",
+      "es": "厨房で聞いてきます。出汁は魚ですが、大丈夫ですか？",
+      "pt": "I'll ask in the kitchen. The stock is fish, though — is that all right?",
+      "tts": "厨房で聞いてきます。出汁は魚ですが、大丈夫ですか？"
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "How is nuki de used?",
+      "opcoes": [
+        "It changes shape with the ingredient",
+        "The ingredient goes in plain, then nuki de after it, unchanged",
+        "It only works in questions",
+        "It has to start the sentence"
+      ],
+      "correta": 1,
+      "explica": "Wasabi nuki de, koori nuki de, satou nuki de — the phrase never moves and never changes."
+    },
+    {
+      "pergunta": "When is the request easiest to satisfy?",
+      "opcoes": [
+        "When the plate arrives",
+        "At the moment of ordering",
+        "When you ask for the bill",
+        "After the first bite"
+      ],
+      "correta": 1,
+      "explica": "A kitchen assembling to order can leave a thing out; a built plate can usually only be rearranged."
+    },
+    {
+      "pergunta": "The staff say sousu wa mou haitte imasu, betsu no osara ni shimashou ka? That is:",
+      "opcoes": [
+        "A refusal",
+        "A request for payment",
+        "An offer of the on-the-side version",
+        "A warning about an allergen"
+      ],
+      "correta": 2,
+      "explica": "Betsu de moves it to the side of the plate instead of out of the dish."
+    },
+    {
+      "pergunta": "You avoid meat and order a plain-looking vegetable dish. What is the hidden risk?",
+      "opcoes": [
+        "It may be simmered in dashi — fish stock — so no meat is not no fish",
+        "Nothing, vegetables are always safe",
+        "It will contain pork by law",
+        "The price will double"
+      ],
+      "correta": 0,
+      "explica": "Dashi from bonito and kelp is under a huge share of cooking; the reliable question is dashi wa sakana desu ka."
+    },
+    {
+      "pergunta": "You have a real allergy. Is nuki de enough?",
+      "opcoes": [
+        "Yes, it is the same request",
+        "Yes, if you say it twice",
+        "No — an allergy gets its own sentence and a written card",
+        "No, you should avoid restaurants"
+      ],
+      "correta": 2,
+      "explica": "Preference and allergy are two different conversations, and the second one is the next part."
+    }
+  ]
+}

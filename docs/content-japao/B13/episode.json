@@ -1,0 +1,427 @@
+{
+  "id": "b13",
+  "nivel": "basico",
+  "numero": 13,
+  "parte": "B13",
+  "titulo": "Arerugii ga arimasu — the sentence you say before anything else",
+  "subtitulo": "One hammer sentence, one written card, and the phrase from part twelve that turns almost any dish into a version you can eat",
+  "cena": "The staff have the pad open, three of you are ordering at once, and the ingredient that would put you in hospital has not been named by anybody at the table.",
+  "moldura": "protege",
+  "frasePiso": "You will say the allergy sentence in Japanese, out loud, before the order is written. Most travellers with an allergy hold up a phone screen and hope.",
+  "moldes": [],
+  "fatosDatados": [
+    {
+      "id": "fr-112-numeros",
+      "afirmacao": "In Japan the emergency numbers are 119 for fire and ambulance and 110 for police; both are free from any phone. There is no single 112 line as in Europe. For help in English, the JNTO Japan Visitor Hotline runs 24 hours a day on 050-3816-2787, and the AMDA International Medical Information Center helps find English-speaking doctors and can assist with interpretation.",
+      "fonte": "Números de emergência do Japão: 119 (bombeiros/ambulância) e 110 (polícia); JNTO Japan Visitor Hotline 050-3816-2787, 24h, multilíngue; AMDA International Medical Information Center.",
+      "ano": 2026,
+      "revisarAte": "2028-08-01",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "fr-b13-n08"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-b13-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "Part thirteen. One sentence today has to land unmistakably. Everything else here hangs off it."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-b13-n02",
+      "bloco": "cena",
+      "pt": "The pad is open, three of you are ordering at once, and nobody has named what is in the stock or the sauce."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_f",
+      "audioKey": "fr-b13-t01",
+      "es": "ピーナッツアレルギーがあります。命に関わります。",
+      "pinyin": "pee-NAT-tsu a-re-ru-GII ga a-ri-MAS. i-no-chi ni ka-ka-wa-ri-MAS",
+      "pt": "I have a peanut allergy. It is life-threatening.",
+      "tts": "ピーナッツアレルギーがあります。命に関わります。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-b13-n03",
+      "bloco": "molde",
+      "pt": "Two halves. The allergy, then how serious it is. The second half is what sends somebody to the kitchen."
+    },
+    {
+      "consulta": [
+        "dieta/dizer",
+        "saude/minha-alergia"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-b13-p01",
+      "promptPt": "You have just sat down and the menus have not arrived. Say the peanut sentence, both halves. Speak now.",
+      "audioKey": "fr-b13-t01",
+      "es": "ピーナッツアレルギーがあります。命に関わります。",
+      "pinyin": "pee-NAT-tsu a-re-ru-GII ga a-ri-MAS. i-no-chi ni ka-ka-wa-ri-MAS",
+      "pt": "I have a peanut allergy. It is life-threatening."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-b13-r01",
+      "receptivo": true,
+      "es": "厨房で確認してきます。それまで注文しないでください。",
+      "pt": "I'll go and check in the kitchen. Please don't order anything before that.",
+      "tts": "厨房で確認してきます。それまで注文しないでください。",
+      "acao": "Wait. Do not order until they come back with the kitchen's answer."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-b13-n04",
+      "pt": "That reply is the one you want. The kitchen holds the list; the dining room does not."
+    },
+    {
+      "consulta": [
+        "dieta/nao-levam-a-serio",
+        "saude/minha-alergia"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-b13-p02",
+      "promptPt": "Somebody at the table is offering you a taste, just a small one. Draw the line in one sentence. Speak now.",
+      "audioKey": "fr-b13-t02",
+      "es": "アレルギーで、好き嫌いではありません。",
+      "pinyin": "a-re-ru-GII de, su-ki-ki-RAI de wa a-ri-ma-SEN",
+      "pt": "It's an allergy, not fussiness.",
+      "tts": "アレルギーで、好き嫌いではありません。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-b13-n05",
+      "bloco": "corpo",
+      "pt": "Now the frame from part twelve does the rest of the work. The thing you cannot have, then nuki de."
+    },
+    {
+      "consulta": [
+        "dieta/sem"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "NUKI-DE",
+      "encaixe": "ピーナッツ",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-b13-p03",
+      "promptPt": "The waiter is back with the pen down on the pad. Repeat it as a rule for everything you order. Speak now.",
+      "audioKey": "fr-b13-t03",
+      "es": "ピーナッツ抜きで、とても大切です。",
+      "pinyin": "pee-NAT-tsu NU-ki de, to-te-mo tai-SE-tsu des",
+      "pt": "Without peanuts — it's very important.",
+      "tts": "ピーナッツ抜きで、とても大切です。"
+    },
+    {
+      "consulta": [
+        "dieta/sem"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "NUKI-DE",
+      "encaixe": "小麦",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-b13-p04",
+      "promptPt": "A bakery counter, and you are choosing for the person waiting outside. Speak now.",
+      "audioKey": "fr-b13-t04",
+      "es": "小麦抜きで、お願いします。",
+      "pinyin": "ko-MU-gi NU-ki de, o-ne-gai-shi-MAS",
+      "pt": "Without wheat, please.",
+      "tts": "小麦抜きで、お願いします。"
+    },
+    {
+      "consulta": [
+        "dieta/sem",
+        "mesa/comida"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "NUKI-DE",
+      "encaixe": "魚介",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-b13-p05",
+      "promptPt": "A seafood restaurant, and half the board is shellfish. Set your condition before you choose. Speak now.",
+      "audioKey": "fr-b13-t05",
+      "es": "魚介抜きで、お願いします。",
+      "pinyin": "gyo-KAI NU-ki de, o-ne-gai-shi-MAS",
+      "pt": "Without seafood, please.",
+      "tts": "魚介抜きで、お願いします。"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_f",
+      "audioKey": "fr-b13-r02",
+      "es": "本日の定食には入っています。鶏肉のほうになさいますか？",
+      "pt": "Today's set has some in it. Would you have the chicken one instead?",
+      "tts": "本日の定食には入っています。鶏肉のほうになさいますか？"
+    },
+    {
+      "consulta": [
+        "dieta/sem"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "NUKI-DE",
+      "encaixe": "乳製品",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-b13-p06",
+      "promptPt": "The dish you want comes with cream. Ask whether a version exists that does not. Speak now.",
+      "audioKey": "fr-b13-t06",
+      "es": "乳製品抜きはできますか？",
+      "pinyin": "nyoo-SEI-hin NU-ki wa de-ki-MAS ka",
+      "pt": "Can it be done without dairy?",
+      "tts": "乳製品抜きはできますか？"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-b13-n06",
+      "bloco": "capsula",
+      "pt": "Three syllables widen it: dekimasu ka turns a flat no into a question the kitchen can go and solve."
+    },
+    {
+      "consulta": [
+        "dieta/sem"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "NUKI-DE",
+      "encaixe": "バター",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-b13-p07",
+      "promptPt": "The vegetables arrive glossy and you can see why. Ask for the other version. Speak now.",
+      "audioKey": "fr-b13-t07",
+      "es": "バター抜きはできますか？",
+      "pinyin": "ba-TAA NU-ki wa de-ki-MAS ka",
+      "pt": "Can it be done without butter?",
+      "tts": "バター抜きはできますか？"
+    },
+    {
+      "consulta": [
+        "dieta/sem"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "NUKI-DE",
+      "encaixe": "卵",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-b13-p08",
+      "promptPt": "You are at a sweets counter choosing something for later. Set the condition. Speak now.",
+      "audioKey": "fr-b13-t08",
+      "es": "卵抜きはできますか？",
+      "pinyin": "ta-ma-GO NU-ki wa de-ki-MAS ka",
+      "pt": "Can it be done without egg?",
+      "tts": "卵抜きはできますか？"
+    },
+    {
+      "consulta": [
+        "dieta/sem"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "NUKI-DE",
+      "encaixe": "豚肉",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-b13-p09",
+      "promptPt": "A sandwich counter at a station, and the fillings are all in Japanese. State what you do not eat. Speak now.",
+      "audioKey": "fr-b13-t09",
+      "es": "豚肉抜きで、お願いします。",
+      "pinyin": "bu-ta-NI-ku NU-ki de, o-ne-gai-shi-MAS",
+      "pt": "Without pork, please.",
+      "tts": "豚肉抜きで、お願いします。"
+    },
+    {
+      "consulta": [
+        "dieta/o-que-tem"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-b13-p10",
+      "promptPt": "A pastry is in front of you and the top layer is unidentifiable. Ask about the one thing you need to know. Speak now.",
+      "audioKey": "fr-b13-t10",
+      "es": "これにナッツは入っていますか？",
+      "pinyin": "ko-re ni NAT-tsu wa hait-te i-MAS ka",
+      "pt": "Does this contain nuts?",
+      "tts": "これにナッツは入っていますか？"
+    },
+    {
+      "consulta": [
+        "dieta/cartao"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-b13-p11",
+      "promptPt": "The room is loud and you have said it twice already. Hand over the written version. Speak now.",
+      "audioKey": "fr-b13-t11",
+      "es": "アレルギーのカードです。日本語で書いてあります。",
+      "pinyin": "a-re-ru-GII no KAA-do des. ni-HON-go de kai-te a-ri-MAS",
+      "pt": "Here is my allergy card, written in Japanese.",
+      "tts": "アレルギーのカードです。日本語で書いてあります。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-b13-n07",
+      "pt": "The card is the backup, never the opener. You say it out loud first, then hand it across."
+    },
+    {
+      "consulta": [
+        "dieta/dizer"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-b13-p12",
+      "promptPt": "The answer you got was a shrug. Send the question to the person who cooked it. Speak now.",
+      "audioKey": "fr-b13-t12",
+      "es": "厨房で確認してもらえますか？",
+      "pinyin": "choo-BOU de ka-KU-nin shi-te mo-ra-e-MAS ka",
+      "pt": "Could you check in the kitchen?",
+      "tts": "厨房で確認してもらえますか？"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-b13-r03",
+      "receptivo": true,
+      "es": "料理長が確認しました。こちらは大丈夫です。",
+      "pt": "The chef checked. This one, you can have.",
+      "tts": "料理長が確認しました。こちらは大丈夫です。",
+      "acao": "That is a checked answer, not a guess. It is the one you accept."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-b13-n08",
+      "pt": "And the number, once, so it is already in your mouth: one one nine reaches fire and ambulance, one one zero the police. There is no 112 here."
+    },
+    {
+      "consulta": [
+        "saude/112",
+        "apuro/112"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-b13-p13",
+      "promptPt": "It is happening, and somebody near you has a phone in their hand. Give the instruction. Speak now.",
+      "audioKey": "fr-b13-t13",
+      "es": "119番に電話してください。",
+      "pinyin": "i-chi i-chi KYUU ban ni den-wa-shi-te ku-da-sai",
+      "pt": "Call 119, please.",
+      "tts": "いちいちきゅうばんに電話してください。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-b13-n09",
+      "bloco": "permissao",
+      "pt": "You are allowed to stop the ordering to say it. Saying it twice costs nothing and buys the whole meal."
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_fr_f",
+      "audioKey": "fr-b13-s01",
+      "es": "ピーナッツアレルギーがあります。命に関わります。ピーナッツ抜きで、とても大切です。厨房で確認してもらえますか？",
+      "pinyin": "pee-NAT-tsu a-re-ru-GII ga a-ri-MAS. i-no-chi ni ka-ka-wa-ri-MAS. pee-NAT-tsu NU-ki de, to-te-mo tai-SE-tsu des. choo-BOU de ka-KU-nin shi-te mo-ra-e-MAS ka",
+      "pt": "Shadow the three sentences that do the whole job, in order.",
+      "tts": "ピーナッツアレルギーがあります。命に関わります。ピーナッツ抜きで、とても大切です。厨房で確認してもらえますか？",
+      "molde": "NUKI-DE"
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-b13-n10",
+      "bloco": "recap",
+      "pt": "B13 done. The hammer sentence, nuki de plus the thing, the kitchen question, the card, and one one nine."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "Said out loud, then written down",
+    "secoes": [
+      {
+        "titulo": "Why the second half matters",
+        "corpo": "Arerugii ga arimasu on its own can be heard as a preference. Inochi ni kakawarimasu — it is life-threatening — or arerugii de, sukikirai de wa arimasen, an allergy and not fussiness, is what moves the question from the table to the kitchen. Both halves, every time, in the same breath.",
+        "exemplos": [
+          {
+            "es": "ピーナッツアレルギーがあります。命に関わります。",
+            "pt": "I have a peanut allergy. It is life-threatening."
+          },
+          {
+            "es": "アレルギーで、好き嫌いではありません。",
+            "pt": "It's an allergy, not fussiness."
+          }
+        ]
+      },
+      {
+        "titulo": "Nuki de, and then dekimasu ka",
+        "corpo": "The thing plus nuki de is the whole request. Adding dekimasu ka turns it from a demand into an opening: the kitchen can then tell you which dish works rather than telling you which one does not.",
+        "exemplos": [
+          {
+            "es": "乳製品抜きはできますか？",
+            "pt": "Can it be done without dairy?"
+          },
+          {
+            "es": "魚介抜きで、お願いします。",
+            "pt": "Without seafood, please."
+          }
+        ]
+      },
+      {
+        "titulo": "The card is a second copy, not a first move",
+        "corpo": "Write your allergy in Japanese on a card and keep it in the pocket you can reach with one hand. Hand it over after you have said the sentence, not instead of it — a card arriving cold makes somebody read while you wait, and a sentence arriving first makes them act while they read. Note too that Japan's mandatory allergen labelling covers eight items on packaged food, not restaurant plates, so at a counter the spoken question still does the work."
+      },
+      {
+        "titulo": "The numbers, once",
+        "corpo": "119 reaches the fire service and ambulance; 110 reaches the police. Both are free from any phone, and there is no single 112 line as in Europe. For help in English the JNTO Japan Visitor Hotline runs 24 hours on 050-3816-2787, and the AMDA International Medical Information Center can help find an English-speaking doctor."
+      }
+    ]
+  },
+  "slot": "B13",
+  "permissao": "You do not have to wait for a gap in the conversation. Interrupting the order to say the allergy sentence is ordinary here, and repeating it to the person who actually carries the plate is ordinary too — nobody at that table is scoring you on how smoothly you did it.",
+  "permissaoAudioKey": "fr-b13-n09",
+  "espelho": "The habit worth leaving at home is saying a preference and an allergy in the same tone of voice. At home the two sentences sound alike and both get a polite nod; in a Japanese kitchen they set off two completely different amounts of work, and only one of them ends with somebody checking.",
+  "fichasCulturais": [
+    {
+      "sinal": "You say you have an allergy and the waiter does not answer — he turns and walks towards the kitchen.",
+      "suaLeitura": "He does not know his own menu, and I am being handed off to somebody else.",
+      "oQueEAli": "The person who plated the dish is the one who can confirm what went into it, so the question travels to the kitchen rather than being answered at the table. Walking away is the answer arriving, not the answer being avoided.",
+      "oQueVoceFaz": "Stop ordering and wait. When he comes back, order only from what he names.",
+      "oQueMelhora": "You get an answer somebody actually checked, instead of a reassurance somebody guessed at, and the rest of the meal is quiet.",
+      "ondeNaoVale": "Not at a counter selling pre-wrapped food, where nobody is going anywhere and the label on the packet is the answer — there you read, you do not ask.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "fr-b13-r01",
+        "fr-b13-n04"
+      ]
+    },
+    {
+      "sinal": "You said piinattsu nuki de once, at the beginning, and a later dish arrives with a sauce nobody mentioned.",
+      "suaLeitura": "They forgot, or they did not believe me.",
+      "oQueEAli": "The condition was attached to the order that was being written at that moment. A dish chosen later, or brought by a different member of staff, was never inside that sentence.",
+      "oQueVoceFaz": "Say it again at each new choice — dessert, the extra plate, the thing somebody offers you. The thing plus nuki de, every time.",
+      "oQueMelhora": "The condition follows the meal instead of the first minute of it, and you stop having to inspect what arrives.",
+      "ondeNaoVale": "Not where the kitchen has already given you a checked list of dishes you can eat — repeating the condition there is fine, but the work has been done and the list is the safer thing to rely on.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "fr-b13-n05"
+      ]
+    }
+  ]
+}

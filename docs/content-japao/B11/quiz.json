@@ -1,0 +1,96 @@
+{
+  "id": "q-b11",
+  "nivel": "basico",
+  "titulo": "Quiz — Onegai shimasu — the ending that orders the first round",
+  "subtitulo": "One ending, the whole first round",
+  "introAudioKey": "fr-b11-q-i",
+  "introPt": "A traveller names the thing, finishes with onegai shimasu, and gets the water and tea that cost nothing.",
+  "cenario": "A small café counter in the late afternoon.",
+  "dialogo": [
+    {
+      "audioKey": "fr-b11-q01",
+      "voz": "target_fr_f",
+      "es": "コーヒーをお願いします。",
+      "pt": "A coffee, please.",
+      "tts": "コーヒーをお願いします。"
+    },
+    {
+      "audioKey": "fr-b11-q02",
+      "voz": "target_fr_m",
+      "es": "コーヒーですね。店内でお召し上がりですか？",
+      "pt": "One coffee. Are you having it here, or taking it away?",
+      "tts": "コーヒーですね。店内でお召し上がりですか？"
+    },
+    {
+      "audioKey": "fr-b11-q03",
+      "voz": "target_fr_f",
+      "es": "店内で。お水もお願いします。",
+      "pt": "For here. And some water as well, please.",
+      "tts": "店内で。お水もお願いします。"
+    },
+    {
+      "audioKey": "fr-b11-q04",
+      "voz": "target_fr_m",
+      "es": "かしこまりました。お水はサービスです。",
+      "pt": "Certainly. The water is free.",
+      "tts": "かしこまりました。お水はサービスです。"
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "What can go before onegai shimasu?",
+      "opcoes": [
+        "Only a drink",
+        "A thing or a noun-action, unchanged — a coffee, the menu, a booking",
+        "Only a noun with a number in front of it",
+        "Only a question"
+      ],
+      "correta": 1,
+      "explica": "Koohii, menyuu, o-mizu, yoyaku — the ending never changes, and the politeness is already inside it."
+    },
+    {
+      "pergunta": "Water arrives free at your table without being asked. That is:",
+      "opcoes": [
+        "A mistake — they brought the cheap thing",
+        "How it works — water and often tea come free, with a wet towel",
+        "A priced bottle you must pay for",
+        "A sign you should tip"
+      ],
+      "correta": 1,
+      "explica": "O-mizu and tea come free as a matter of course; refills cost nothing."
+    },
+    {
+      "pergunta": "The number printed on the menu is:",
+      "opcoes": [
+        "Before tax — tax is added at the till",
+        "A rough guide only",
+        "Tax-included, so normally the number you pay — though eating in is taxed higher than takeaway",
+        "Only the food, not the drink"
+      ],
+      "correta": 2,
+      "explica": "Total-price display is required by law; the wrinkle is 8% to go, 10% for here."
+    },
+    {
+      "pergunta": "You leave a few coins on the table as a tip. What happens?",
+      "opcoes": [
+        "The staff keep it gratefully",
+        "The staff often chase after you to return it — there is no tipping",
+        "A service charge is waived",
+        "You get a discount next time"
+      ],
+      "correta": 1,
+      "explica": "There is no tipping in Japan; the bill is the whole amount. Say gochisousama deshita instead."
+    },
+    {
+      "pergunta": "How do you get a staff member's attention to order?",
+      "opcoes": [
+        "Click your fingers",
+        "Raise your hand and whistle",
+        "Say sumimasen — it is the door the order walks through",
+        "Wait silently until noticed"
+      ],
+      "correta": 2,
+      "explica": "Sumimasen calls the staff politely; then the thing, then onegai shimasu."
+    }
+  ]
+}

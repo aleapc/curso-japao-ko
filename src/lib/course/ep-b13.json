@@ -1,0 +1,427 @@
+{
+  "id": "b13",
+  "nivel": "basico",
+  "numero": 13,
+  "parte": "B13",
+  "titulo": "Arerugii ga arimasu —무엇보다 먼저 말해야 하는 문장",
+  "subtitulo": "핵심 문장 하나, 적어 둔 카드 한 장, 그리고 12부에서 나온 표현이 거의 모든 요리를 먹을 수 있는 버전으로 바꿔 준다",
+  "cena": "직원이 주문판을 펼쳐 들고 있고, 셋이 동시에 주문하는 중인데, 병원에 갈 수도 있는 그 재료를 테이블의 아무도 아직 말하지 않았다.",
+  "moldura": "protege",
+  "frasePiso": "당신은 주문이 적히기 전에 알레르기 문장을 일본어로, 소리 내어 말할 것이다. 알레르기가 있는 여행자 대부분은 휴대폰 화면을 들어 보이며 그저 바랄 뿐이다.",
+  "moldes": [],
+  "fatosDatados": [
+    {
+      "id": "fr-112-numeros",
+      "afirmacao": "일본의 긴급 번호는 화재·구급차용 119와 경찰용 110이며, 어떤 전화에서든 무료로 걸 수 있다. 유럽처럼 하나로 통합된 112 번호는 없다. 영어로 도움이 필요할 때는 JNTO 재팬 비지터 핫라인이 050-3816-2787번으로 24시간 운영되며, AMDA 국제의료정보센터는 영어를 하는 의사를 찾아 주고 통역도 도와준다.",
+      "fonte": "Números de emergência do Japão: 119 (bombeiros/ambulância) e 110 (polícia); JNTO Japan Visitor Hotline 050-3816-2787, 24h, multilíngue; AMDA International Medical Information Center.",
+      "ano": 2026,
+      "revisarAte": "2028-08-01",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "fr-b13-n08"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-b13-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "13부. 오늘은 문장 하나가 확실하게 전달되어야 한다. 여기 나머지 전부가 거기에 달려 있다."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-b13-n02",
+      "bloco": "cena",
+      "pt": "주문판이 펼쳐져 있고, 셋이 동시에 주문하고 있는데, 육수나 소스에 뭐가 들어가는지 아무도 말하지 않았다."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_f",
+      "audioKey": "fr-b13-t01",
+      "es": "ピーナッツアレルギーがあります。命に関わります。",
+      "pinyin": "pee-NAT-tsu a-re-ru-GII ga a-ri-MAS. i-no-chi ni ka-ka-wa-ri-MAS",
+      "pt": "저는 땅콩 알레르기가 있어요. 생명에 관련된 문제예요.",
+      "tts": "ピーナッツアレルギーがあります。命に関わります。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-b13-n03",
+      "bloco": "molde",
+      "pt": "두 부분으로 되어 있다. 알레르기, 그다음 얼마나 심각한지. 두 번째 부분이 주방으로 사람을 보내게 만드는 부분이다."
+    },
+    {
+      "consulta": [
+        "dieta/dizer",
+        "saude/minha-alergia"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-b13-p01",
+      "promptPt": "방금 자리에 앉았고 메뉴는 아직 오지 않았다. 땅콩 문장을 두 부분 다 말하라. 지금 말하세요.",
+      "audioKey": "fr-b13-t01",
+      "es": "ピーナッツアレルギーがあります。命に関わります。",
+      "pinyin": "pee-NAT-tsu a-re-ru-GII ga a-ri-MAS. i-no-chi ni ka-ka-wa-ri-MAS",
+      "pt": "저는 땅콩 알레르기가 있어요. 생명에 관련된 문제예요."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-b13-r01",
+      "receptivo": true,
+      "es": "厨房で確認してきます。それまで注文しないでください。",
+      "pt": "주방에 가서 확인하고 오겠습니다. 그때까지 주문은 하지 말아 주세요.",
+      "tts": "厨房で確認してきます。それまで注文しないでください。",
+      "acao": "기다려라. 주방의 답을 갖고 돌아올 때까지 주문하지 마라."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-b13-n04",
+      "pt": "그 대답이 바로 당신이 원하는 대답이다. 목록은 주방이 갖고 있지, 홀이 갖고 있지 않다."
+    },
+    {
+      "consulta": [
+        "dieta/nao-levam-a-serio",
+        "saude/minha-alergia"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-b13-p02",
+      "promptPt": "테이블에서 누군가 한 입만 맛보라고 권한다. 한 문장으로 선을 그어라. 지금 말하세요.",
+      "audioKey": "fr-b13-t02",
+      "es": "アレルギーで、好き嫌いではありません。",
+      "pinyin": "a-re-ru-GII de, su-ki-ki-RAI de wa a-ri-ma-SEN",
+      "pt": "이건 알레르기예요, 그냥 가려 먹는 게 아니에요.",
+      "tts": "アレルギーで、好き嫌いではありません。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-b13-n05",
+      "bloco": "corpo",
+      "pt": "이제 12부에서 나온 틀이 나머지를 해결해 준다. 먹을 수 없는 것, 그다음 nuki de."
+    },
+    {
+      "consulta": [
+        "dieta/sem"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "NUKI-DE",
+      "encaixe": "ピーナッツ",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-b13-p03",
+      "promptPt": "웨이터가 펜을 주문판에 대고 돌아왔다. 앞으로 주문하는 모든 것에 적용될 규칙으로 다시 말하라. 지금 말하세요.",
+      "audioKey": "fr-b13-t03",
+      "es": "ピーナッツ抜きで、とても大切です。",
+      "pinyin": "pee-NAT-tsu NU-ki de, to-te-mo tai-SE-tsu des",
+      "pt": "땅콩 빼고요 — 이건 아주 중요해요.",
+      "tts": "ピーナッツ抜きで、とても大切です。"
+    },
+    {
+      "consulta": [
+        "dieta/sem"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "NUKI-DE",
+      "encaixe": "小麦",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-b13-p04",
+      "promptPt": "빵집 카운터, 밖에서 기다리는 사람을 위해 고르는 중이다. 지금 말하세요.",
+      "audioKey": "fr-b13-t04",
+      "es": "小麦抜きで、お願いします。",
+      "pinyin": "ko-MU-gi NU-ki de, o-ne-gai-shi-MAS",
+      "pt": "밀가루 빼고, 부탁드려요.",
+      "tts": "小麦抜きで、お願いします。"
+    },
+    {
+      "consulta": [
+        "dieta/sem",
+        "mesa/comida"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "NUKI-DE",
+      "encaixe": "魚介",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-b13-p05",
+      "promptPt": "해산물 식당, 메뉴판 절반이 갑각류다. 고르기 전에 조건을 먼저 말하라. 지금 말하세요.",
+      "audioKey": "fr-b13-t05",
+      "es": "魚介抜きで、お願いします。",
+      "pinyin": "gyo-KAI NU-ki de, o-ne-gai-shi-MAS",
+      "pt": "해산물 빼고, 부탁드려요.",
+      "tts": "魚介抜きで、お願いします。"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_f",
+      "audioKey": "fr-b13-r02",
+      "es": "本日の定食には入っています。鶏肉のほうになさいますか？",
+      "pt": "오늘의 정식에는 들어 있어요. 대신 닭고기로 하시겠어요?",
+      "tts": "本日の定食には入っています。鶏肉のほうになさいますか？"
+    },
+    {
+      "consulta": [
+        "dieta/sem"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "NUKI-DE",
+      "encaixe": "乳製品",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-b13-p06",
+      "promptPt": "원하는 요리에 크림이 들어간다. 크림 없는 버전이 있는지 물어라. 지금 말하세요.",
+      "audioKey": "fr-b13-t06",
+      "es": "乳製品抜きはできますか？",
+      "pinyin": "nyoo-SEI-hin NU-ki wa de-ki-MAS ka",
+      "pt": "유제품 빼고 가능할까요?",
+      "tts": "乳製品抜きはできますか？"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-b13-n06",
+      "bloco": "capsula",
+      "pt": "세 음절이 문을 넓혀 준다: dekimasu ka는 딱 잘라 안 된다는 대답을, 주방이 가서 풀어볼 수 있는 질문으로 바꿔 준다."
+    },
+    {
+      "consulta": [
+        "dieta/sem"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "NUKI-DE",
+      "encaixe": "バター",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-b13-p07",
+      "promptPt": "채소가 윤기 나게 나왔고 이유는 보면 안다. 다른 버전을 요청하라. 지금 말하세요.",
+      "audioKey": "fr-b13-t07",
+      "es": "バター抜きはできますか？",
+      "pinyin": "ba-TAA NU-ki wa de-ki-MAS ka",
+      "pt": "버터 빼고 가능할까요?",
+      "tts": "バター抜きはできますか？"
+    },
+    {
+      "consulta": [
+        "dieta/sem"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "NUKI-DE",
+      "encaixe": "卵",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-b13-p08",
+      "promptPt": "디저트 코너에서 나중에 먹을 걸 고르고 있다. 조건을 정하라. 지금 말하세요.",
+      "audioKey": "fr-b13-t08",
+      "es": "卵抜きはできますか？",
+      "pinyin": "ta-ma-GO NU-ki wa de-ki-MAS ka",
+      "pt": "계란 빼고 가능할까요?",
+      "tts": "卵抜きはできますか？"
+    },
+    {
+      "consulta": [
+        "dieta/sem"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "NUKI-DE",
+      "encaixe": "豚肉",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-b13-p09",
+      "promptPt": "역에 있는 샌드위치 코너, 속 재료가 전부 일본어로 쓰여 있다. 못 먹는 것을 말하라. 지금 말하세요.",
+      "audioKey": "fr-b13-t09",
+      "es": "豚肉抜きで、お願いします。",
+      "pinyin": "bu-ta-NI-ku NU-ki de, o-ne-gai-shi-MAS",
+      "pt": "돼지고기 빼고, 부탁드려요.",
+      "tts": "豚肉抜きで、お願いします。"
+    },
+    {
+      "consulta": [
+        "dieta/o-que-tem"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-b13-p10",
+      "promptPt": "눈앞에 있는 페이스트리, 윗부분이 뭔지 알 수가 없다. 꼭 알아야 할 그 한 가지를 물어라. 지금 말하세요.",
+      "audioKey": "fr-b13-t10",
+      "es": "これにナッツは入っていますか？",
+      "pinyin": "ko-re ni NAT-tsu wa hait-te i-MAS ka",
+      "pt": "이거 견과류 들어 있나요?",
+      "tts": "これにナッツは入っていますか？"
+    },
+    {
+      "consulta": [
+        "dieta/cartao"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-b13-p11",
+      "promptPt": "가게 안이 시끄럽고 벌써 두 번이나 말했다. 적어 둔 것을 건네라. 지금 말하세요.",
+      "audioKey": "fr-b13-t11",
+      "es": "アレルギーのカードです。日本語で書いてあります。",
+      "pinyin": "a-re-ru-GII no KAA-do des. ni-HON-go de kai-te a-ri-MAS",
+      "pt": "제 알레르기 카드예요. 일본어로 적혀 있어요.",
+      "tts": "アレルギーのカードです。日本語で書いてあります。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-b13-n07",
+      "pt": "카드는 보조 수단이지, 절대 첫 수가 아니다. 먼저 소리 내어 말하고, 그다음에 건넨다."
+    },
+    {
+      "consulta": [
+        "dieta/dizer"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-b13-p12",
+      "promptPt": "돌아온 대답이 그저 어깨를 으쓱하는 것뿐이었다. 만든 사람에게 질문을 보내라. 지금 말하세요.",
+      "audioKey": "fr-b13-t12",
+      "es": "厨房で確認してもらえますか？",
+      "pinyin": "choo-BOU de ka-KU-nin shi-te mo-ra-e-MAS ka",
+      "pt": "주방에서 확인해 주실 수 있나요?",
+      "tts": "厨房で確認してもらえますか？"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-b13-r03",
+      "receptivo": true,
+      "es": "料理長が確認しました。こちらは大丈夫です。",
+      "pt": "셰프가 확인했습니다. 이건 드셔도 됩니다.",
+      "tts": "料理長が確認しました。こちらは大丈夫です。",
+      "acao": "이건 확인된 대답이지, 추측이 아니다. 받아들여도 되는 대답이다."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-b13-n08",
+      "pt": "그리고 번호, 한 번만, 입에 이미 붙어 있도록: 119는 소방과 구급차, 110은 경찰이다. 여기엔 112가 없다."
+    },
+    {
+      "consulta": [
+        "saude/112",
+        "apuro/112"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-b13-p13",
+      "promptPt": "지금 일이 벌어지고 있고, 옆에 있는 누군가 손에 전화를 들고 있다. 지시를 내려라. 지금 말하세요.",
+      "audioKey": "fr-b13-t13",
+      "es": "119番に電話してください。",
+      "pinyin": "i-chi i-chi KYUU ban ni den-wa-shi-te ku-da-sai",
+      "pt": "119에 전화해 주세요.",
+      "tts": "いちいちきゅうばんに電話してください。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-b13-n09",
+      "bloco": "permissao",
+      "pt": "이 말을 하기 위해 주문을 멈춰도 된다. 두 번 말한다고 손해 볼 건 없고, 식사 전체를 지켜 준다."
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_fr_f",
+      "audioKey": "fr-b13-s01",
+      "es": "ピーナッツアレルギーがあります。命に関わります。ピーナッツ抜きで、とても大切です。厨房で確認してもらえますか？",
+      "pinyin": "pee-NAT-tsu a-re-ru-GII ga a-ri-MAS. i-no-chi ni ka-ka-wa-ri-MAS. pee-NAT-tsu NU-ki de, to-te-mo tai-SE-tsu des. choo-BOU de ka-KU-nin shi-te mo-ra-e-MAS ka",
+      "pt": "전체 일을 해내는 세 문장을 순서대로 따라 말하라.",
+      "tts": "ピーナッツアレルギーがあります。命に関わります。ピーナッツ抜きで、とても大切です。厨房で確認してもらえますか？",
+      "molde": "NUKI-DE"
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-b13-n10",
+      "bloco": "recap",
+      "pt": "B13 완료. 핵심 문장, nuki de와 그 대상, 주방에 묻는 질문, 카드, 그리고 119."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "먼저 소리 내어, 그다음 글로",
+    "secoes": [
+      {
+        "titulo": "두 번째 부분이 왜 중요한가",
+        "corpo": "Arerugii ga arimasu 만으로는 그냥 취향처럼 들릴 수 있다. Inochi ni kakawarimasu — 생명에 관련된 문제다 — 또는 arerugii de, sukikirai de wa arimasen, 알레르기지 가려 먹는 게 아니라는 말이 바로 그 질문을 테이블에서 주방으로 옮겨 준다. 두 부분 다, 매번, 한 호흡에.",
+        "exemplos": [
+          {
+            "es": "ピーナッツアレルギーがあります。命に関わります。",
+            "pt": "저는 땅콩 알레르기가 있어요. 생명에 관련된 문제예요."
+          },
+          {
+            "es": "アレルギーで、好き嫌いではありません。",
+            "pt": "이건 알레르기예요, 그냥 가려 먹는 게 아니에요."
+          }
+        ]
+      },
+      {
+        "titulo": "Nuki de, 그다음 dekimasu ka",
+        "corpo": "그 대상에 nuki de를 붙이면 요청은 그걸로 끝난다. 거기에 dekimasu ka를 더하면 요구가 아니라 물음이 된다: 그러면 주방은 안 되는 요리를 말해 주는 대신 되는 요리를 말해 줄 수 있다.",
+        "exemplos": [
+          {
+            "es": "乳製品抜きはできますか？",
+            "pt": "유제품 빼고 가능할까요?"
+          },
+          {
+            "es": "魚介抜きで、お願いします。",
+            "pt": "해산물 빼고, 부탁드려요."
+          }
+        ]
+      },
+      {
+        "titulo": "카드는 두 번째 사본이지, 첫 수가 아니다",
+        "corpo": "알레르기를 일본어로 카드에 적어서 한 손으로 닿는 주머니에 넣어 두라. 문장을 말한 뒤에 건네고, 대신 건네지는 마라 — 카드만 불쑥 내밀면 상대는 읽는 동안 당신은 기다리게 되지만, 문장을 먼저 말하면 상대는 읽으면서 동시에 움직인다. 또한 일본의 알레르겐 표시 의무는 포장 식품의 8개 품목에 적용되는 것이지 식당 접시에는 적용되지 않으므로, 카운터에서는 여전히 말로 하는 질문이 일을 해낸다."
+      },
+      {
+        "titulo": "번호, 한 번만",
+        "corpo": "119는 소방서와 구급차로, 110은 경찰로 연결된다. 둘 다 어떤 전화로도 무료이며, 유럽처럼 하나의 112 번호는 여기 없다. 영어 도움이 필요하면 JNTO 재팬 비지터 핫라인이 050-3816-2787번으로 24시간 운영되고, AMDA 국제의료정보센터는 영어를 하는 의사를 찾는 데 도움을 준다."
+      }
+    ]
+  },
+  "slot": "B13",
+  "permissao": "대화가 끊기길 기다릴 필요는 없다. 알레르기 문장을 말하려고 주문을 끊는 것은 여기서 흔한 일이고, 실제로 접시를 나르는 사람에게 다시 말하는 것도 흔한 일이다 — 그 테이블에서 아무도 당신이 얼마나 매끄럽게 말했는지 점수를 매기지 않는다.",
+  "permissaoAudioKey": "fr-b13-n09",
+  "espelho": "집에 두고 와야 할 습관은 취향과 알레르기를 같은 어조로 말하는 것이다. 고국에서는 두 문장이 비슷하게 들리고 둘 다 정중한 끄덕임을 받지만, 일본 주방에서는 이 둘이 완전히 다른 양의 일을 일으키며, 그중 하나만 누군가의 확인으로 끝난다.",
+  "fichasCulturais": [
+    {
+      "sinal": "알레르기가 있다고 말했는데 웨이터가 대답 없이 몸을 돌려 주방 쪽으로 걸어간다.",
+      "suaLeitura": "자기 메뉴도 모르는구나, 그리고 나는 다른 사람에게 떠넘겨지는 거구나.",
+      "oQueEAli": "요리를 담은 사람이 그 안에 뭐가 들어갔는지 확인해 줄 수 있는 사람이므로, 질문은 테이블에서 답해지는 대신 주방으로 옮겨 간다. 자리를 뜨는 것은 대답을 피하는 게 아니라 대답이 오고 있다는 뜻이다.",
+      "oQueVoceFaz": "주문을 멈추고 기다려라. 그가 돌아오면, 그가 말해 준 것 안에서만 주문하라.",
+      "oQueMelhora": "누군가 추측한 안심의 말 대신, 실제로 확인한 대답을 얻게 되고, 이후 식사는 조용히 흘러간다.",
+      "ondeNaoVale": "미리 포장된 음식을 파는 카운터에서는 해당하지 않는다. 거기서는 아무도 어디로 가지 않고, 포장지의 표시가 답이다 — 거기서는 묻는 게 아니라 읽는다.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "fr-b13-r01",
+        "fr-b13-n04"
+      ]
+    },
+    {
+      "sinal": "처음에 piinattsu nuki de라고 한 번 말했는데, 나중에 나온 요리에 아무도 언급하지 않은 소스가 얹혀 나온다.",
+      "suaLeitura": "잊어버렸거나, 내 말을 안 믿었구나.",
+      "oQueEAli": "그 조건은 그 순간에 작성되고 있던 주문에만 붙어 있었다. 나중에 고른 요리, 또는 다른 직원이 가져온 요리는 애초에 그 문장 안에 들어 있지 않았다.",
+      "oQueVoceFaz": "새로 뭔가를 고를 때마다 다시 말하라 — 디저트, 추가 요리, 누군가 권하는 것. 대상 다음에 nuki de, 매번.",
+      "oQueMelhora": "조건이 식사의 첫 순간이 아니라 식사 전체를 따라오게 되고, 나오는 음식을 일일이 검사하지 않아도 된다.",
+      "ondeNaoVale": "주방이 이미 먹을 수 있는 요리 목록을 확인해서 준 곳에서는 해당하지 않는다 — 거기서 조건을 반복해도 괜찮지만, 일은 이미 끝났고 그 목록이 더 안전하게 의지할 대상이다.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "fr-b13-n05"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,392 @@
+{
+  "id": "b15",
+  "nivel": "basico",
+  "numero": 15,
+  "parte": "B15",
+  "titulo": "Ikura desu ka — know the price before you're in",
+  "subtitulo": "One question puts the price in your hands before you commit — the seat fee an izakaya can add the moment you sit, and the same at a market stall and a shop till",
+  "cena": "You are half-lowered onto a stool at an izakaya, the staff are already crossing towards you, and a small dish you did not order is about to appear at your place.",
+  "moldura": "ganha",
+  "frasePiso": "The thing, plus wa ikura desu ka. Most people who spend a week in Japan discover the seat charge once, at the end, on the bill.",
+  "moldes": [
+    "IKURA"
+  ],
+  "clique": {
+    "contagem": [
+      "the izakaya",
+      "the counter",
+      "the market stall",
+      "the clothes shop"
+    ],
+    "desconto": "Nobody handed you a different question for the izakaya, the counter, the stall and the till. You kept one ending and changed only the thing before it.",
+    "piso": "Next time a price feels assumed rather than said out loud, you will not wait to be told it. You will ask, before you commit, while asking is still free."
+  },
+  "fatosDatados": [
+    {
+      "id": "fr-comptoir-salle-terrasse",
+      "afirmacao": "At many izakaya a small dish you did not order — お通し (otoshi), also called 突き出し — is placed at your seat and charged as a per-person cover, commonly 300–500 yen. It is lawful and normal, effectively a seating charge, and it is not a scam even though you never asked for the dish. Some places instead post a 席料 or チャージ (table/cover charge). You cannot usually decline the otoshi, but you can ask what it costs.",
+      "fonte": "お通し／突き出し em izakaya: pequeno prato-couvert cobrado por pessoa (tipicamente 300–500 ienes), lícito e comum; alguns locais cobram 席料/チャージ.",
+      "ano": 2026,
+      "revisarAte": "2028-08-01",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "fr-b15-n04"
+      ]
+    },
+    {
+      "id": "fr-afixacao-exterior",
+      "afirmacao": "Prices are easy to check before you commit in Japan: displayed figures include tax by law, many restaurants show realistic plastic food samples (食品サンプル) and photo menus in the window, and set meals (定食) list the total. What is not always posted outside is the izakaya cover charge, which is exactly why asking is worth it.",
+      "fonte": "Preços exibidos incluem imposto (総額表示); 食品サンプル e menus com foto na vitrine; 定食 com preço total. A cobrança de お通し nem sempre está afixada fora.",
+      "ano": 2026,
+      "revisarAte": "2028-08-01",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "fr-b15-n05"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-b15-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "Part fifteen. One ending today, and it answers for you at an izakaya, a counter, a stall and a till."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-b15-n02",
+      "bloco": "cena",
+      "pt": "You are half onto a stool at an izakaya, they are already crossing towards you, and a small charged dish is about to land at your place."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-b15-n03",
+      "bloco": "molde",
+      "pt": "Here is the frame: the thing, then wa ikura desu ka. The ending holds; only what comes before it moves."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_f",
+      "audioKey": "fr-b15-t01",
+      "es": "お通しはいくらですか？",
+      "pinyin": "o-TOO-shi wa i-ku-ra des ka",
+      "pt": "How much is the cover dish?",
+      "tts": "お通しはいくらですか？"
+    },
+    {
+      "consulta": [
+        "compras/quanto",
+        "mesa/mesa"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "IKURA",
+      "encaixe": "お通し",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-b15-p01",
+      "promptPt": "You are one second from sitting at the izakaya and a small dish is coming you did not order. Ask before the stool takes your weight. Speak now.",
+      "audioKey": "fr-b15-t01",
+      "es": "お通しはいくらですか？",
+      "pinyin": "o-TOO-shi wa i-ku-ra des ka",
+      "pt": "How much is the cover dish?",
+      "tts": "お通しはいくらですか？"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-b15-r01",
+      "receptivo": true,
+      "es": "お通しは、お一人様三百円です。",
+      "pt": "The cover dish is three hundred yen per person.",
+      "tts": "お通しは、お一人様三百円です。",
+      "acao": "Now it is a choice you made rather than one that happened to you. The dish is charged and you cannot usually decline it, but you knew the number before you sat."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-b15-n04",
+      "bloco": "corpo",
+      "pt": "The otoshi is a small dish placed at your seat and charged per person — a legal cover, not a scam, even though you never ordered it."
+    },
+    {
+      "consulta": [
+        "compras/quanto",
+        "chegar/balcao"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "IKURA",
+      "encaixe": "席料",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-b15-p02",
+      "promptPt": "There is a small sign by the door you could not read. Ask about the seat charge before you commit. Speak now.",
+      "audioKey": "fr-b15-t02",
+      "es": "席料はいくらですか？",
+      "pinyin": "se-ki-RYOO wa i-ku-ra des ka",
+      "pt": "How much is the seat charge?",
+      "tts": "席料はいくらですか？"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-b15-n05",
+      "pt": "Prices are easy to check first: they include tax, many windows show plastic food samples and photos, and set meals list the total."
+    },
+    {
+      "consulta": [
+        "compras/quanto",
+        "mesa/comida"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "IKURA",
+      "encaixe": "日替わり定食",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-b15-p03",
+      "promptPt": "Standing outside, reading the board, and one line has no figure beside it. Speak now.",
+      "audioKey": "fr-b15-t03",
+      "es": "日替わり定食はいくらですか？",
+      "pinyin": "hi-ga-WA-ri tei-shoku wa i-ku-ra des ka",
+      "pt": "How much is the daily set meal?",
+      "tts": "日替わり定食はいくらですか？"
+    },
+    {
+      "consulta": [
+        "compras/quanto",
+        "compras/balcao"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "IKURA",
+      "encaixe": "これ",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-b15-p04",
+      "promptPt": "At the market stall, your finger over a tray of something orange, no ticket anywhere on it. Speak now.",
+      "audioKey": "fr-b15-t04",
+      "es": "これはいくらですか？",
+      "pinyin": "ko-re wa i-ku-ra des ka",
+      "pt": "How much is this?",
+      "tts": "これはいくらですか？"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_f",
+      "audioKey": "fr-b15-r02",
+      "es": "一パック三百円です。いくつにしますか？",
+      "pt": "Three hundred yen a pack. How many would you like?",
+      "tts": "一パック三百円です。いくつにしますか？"
+    },
+    {
+      "consulta": [
+        "compras/quanto"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "ARIMASU-KA",
+      "encaixe": "私のサイズ",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-b15-p05",
+      "promptPt": "In the clothes shop, the jacket you like, and the only one on the rail is plainly too small. Speak now.",
+      "audioKey": "fr-b15-t05",
+      "es": "私のサイズはありますか？",
+      "pinyin": "wa-ta-shi no SAI-zu wa a-ri-MAS ka",
+      "pt": "Do you have my size?",
+      "tts": "私のサイズはありますか？"
+    },
+    {
+      "consulta": [
+        "compras/quanto"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "TE-MO-II",
+      "encaixe": "試着し",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-b15-p06",
+      "promptPt": "She has come back from the stockroom holding the right one. Ask for the next step. Speak now.",
+      "audioKey": "fr-b15-t06",
+      "es": "試着してもいいですか？",
+      "pinyin": "shi-CHA-ku shi-te mo II des ka",
+      "pt": "Can I try it on?",
+      "tts": "試着してもいいですか？"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-b15-n06",
+      "bloco": "capsula",
+      "pt": "In a small shop you open with sumimasen and ask second. Asking the price is not rude — it is the ordinary next word."
+    },
+    {
+      "consulta": [
+        "compras/quanto"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "IKURA",
+      "encaixe": "こちら",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-b15-p07",
+      "promptPt": "Two almost identical things behind glass and one shared ticket between them. Point and ask. Speak now.",
+      "audioKey": "fr-b15-t07",
+      "es": "こちらはいくらですか？",
+      "pinyin": "ko-chi-ra wa i-ku-ra des ka",
+      "pt": "How much is this one?",
+      "tts": "こちらはいくらですか？"
+    },
+    {
+      "consulta": [
+        "compras/balcao",
+        "compras/pagar"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "ONEGAI-SHIMASU",
+      "encaixe": "これ",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-b15-p08",
+      "promptPt": "You have heard the figure and you want it. Close the thing. Speak now.",
+      "audioKey": "fr-b15-t08",
+      "es": "これをお願いします。",
+      "pinyin": "ko-re o o-ne-gai-shi-MAS",
+      "pt": "I'll take this one, please.",
+      "tts": "これをお願いします。"
+    },
+    {
+      "consulta": [
+        "compras/pagar",
+        "pagar/cartao"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "TE-MO-II",
+      "encaixe": "カードで払っ",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-b15-p09",
+      "promptPt": "The till has no card stickers on it and you have only a few coins. Check before she wraps it. Speak now.",
+      "audioKey": "fr-b15-t09",
+      "es": "カードで払ってもいいですか？",
+      "pinyin": "KAA-do de ha-RAT-te mo II des ka",
+      "pt": "Can I pay by card?",
+      "tts": "カードで払ってもいいですか？"
+    },
+    {
+      "consulta": [
+        "compras/so-olhando"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-b15-p10",
+      "promptPt": "Somebody has come over to help and you have not decided anything yet. Buy yourself the room. Speak now.",
+      "audioKey": "fr-b15-t10",
+      "es": "見ているだけです。",
+      "pinyin": "mi-te i-ru da-ke des",
+      "pt": "I'm just looking.",
+      "tts": "見ているだけです。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-b15-n07",
+      "bloco": "permissao",
+      "pt": "Nobody behind a Japanese counter finds ikura desu ka odd, and nobody is marking how you phrased it."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-b15-n08",
+      "bloco": "clique",
+      "pt": "You have just priced the izakaya, the counter, the market stall and the clothes shop. Nobody gave you four questions — you kept one ending."
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_fr_f",
+      "audioKey": "fr-b15-s01",
+      "es": "お通しはいくらですか？ 日替わり定食はいくらですか？ これはいくらですか？",
+      "pinyin": "o-TOO-shi wa i-ku-ra des ka. hi-ga-WA-ri tei-shoku wa i-ku-ra des ka. ko-re wa i-ku-ra des ka",
+      "pt": "Shadow the same ending across three different commitments.",
+      "tts": "お通しはいくらですか？ 日替わり定食はいくらですか？ これはいくらですか？",
+      "molde": "IKURA"
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-b15-n09",
+      "bloco": "recap",
+      "pt": "B15 done. Ikura desu ka covers the cover dish, the set meal, the stall and the shop — always before you commit."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "One ending, four counters",
+    "secoes": [
+      {
+        "titulo": "The thing, plus ikura desu ka",
+        "corpo": "Keep the ending and change what comes before it: an item, a charge, a pointed finger. The most valuable filling in Japan is not a product at all — it is the otoshi, the seat dish, because that is the price that appears without anybody saying so.",
+        "exemplos": [
+          {
+            "es": "お通しはいくらですか？",
+            "pt": "How much is the cover dish?"
+          },
+          {
+            "es": "これはいくらですか？",
+            "pt": "How much is this?"
+          }
+        ]
+      },
+      {
+        "titulo": "Otoshi, seki-ryo, charge",
+        "corpo": "At an izakaya a small dish — お通し, sometimes 突き出し — arrives at your seat and is charged per person, usually 300 to 500 yen. It is lawful and ordinary, a cover in the shape of food, and you cannot normally decline it. Some places instead post a 席料 or チャージ. None of this is a scam; it is simply the seat being a priced thing, which is worth one question before you sit."
+      },
+      {
+        "titulo": "The window tells you a lot before you speak",
+        "corpo": "Displayed prices include tax, so the figure is the figure. Many restaurants show plastic food samples and photo menus in the window, and set meals — 定食 — list the total. What is not always posted is the izakaya cover, so the board prices most things for you from the pavement, and the one thing it leaves out is exactly the one worth asking about."
+      },
+      {
+        "titulo": "Saizu, shichaku, and just looking",
+        "corpo": "Saizu is a size and 試着 is trying on. Mite iru dake desu — just looking — is the sentence that buys you space in a small shop where somebody comes over the moment you walk in. It is not a brush-off, it is the expected answer, and it is usually met with a friendly douzo."
+      },
+      {
+        "titulo": "Sumimasen first, question second",
+        "corpo": "In a small shop sumimasen opens the interaction and the question comes after it. This is a sequence, not a scoring system: sumimasen is how you get attention and step into someone's space, and it costs one word. The frankness of what follows — ikura desu ka, no padding — is not the rude part."
+      }
+    ]
+  },
+  "slot": "B15",
+  "permissao": "You are allowed to ask the price of the seat before you sit, and to ask it of a cover dish rather than a product. Nobody behind a Japanese counter thinks ikura desu ka is small or suspicious. The only version of this moment that gets awkward is the one where you did not ask.",
+  "permissaoAudioKey": "fr-b15-n07",
+  "espelho": "The habit worth leaving at home is sitting down first and finding out afterwards. That works where the seat is free; here the seat can be a priced thing with a dish attached, and the half-second before you sit is the whole window in which the question is still free.",
+  "fichasCulturais": [
+    {
+      "sinal": "You sit at an izakaya, a small dish you did not order appears, and later there is a per-person charge for it on the bill.",
+      "suaLeitura": "They slipped an item onto my bill because I am a tourist.",
+      "oQueEAli": "That dish is the otoshi, a cover charge in the shape of food, applied per person at many izakaya and entirely lawful. It is not aimed at visitors and it is not an error; it is the price of the seat, and it typically runs three to five hundred yen a head.",
+      "oQueVoceFaz": "Ask otoshi wa ikura desu ka, or check for a posted seki-ryo or charge, before you sit. Then decide whether this is the place you want.",
+      "oQueMelhora": "The charge stops being something done to you and becomes something you knew about, which is also the only version you can act on.",
+      "ondeNaoVale": "Not every place has one — cafés, family restaurants and many lunch spots do not, and a charge is far more an izakaya thing than a daytime one. The variable is the kind of place, not who is serving you.",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "fr-b15-n04",
+        "fr-b15-r01"
+      ]
+    },
+    {
+      "sinal": "You walk into a small shop, go straight to the shelf, and the person behind the till says nothing at all for the rest of your visit.",
+      "suaLeitura": "They have decided not to serve me, probably because I am foreign.",
+      "oQueEAli": "In a small Japanese shop the exchange opens with a greeting — irasshaimase from them, and sumimasen from you when you want attention. Going straight to the shelf leaves the sequence unopened, and the quiet that follows is not coldness aimed at you; it is an exchange that has not formally started.",
+      "oQueVoceFaz": "Catch attention with sumimasen before your question, and a small nod or arigatou gozaimasu on the way out. Then ask with no padding at all.",
+      "oQueMelhora": "The same shop becomes helpful, and the question you were going to ask gets a longer answer than you expected.",
+      "ondeNaoVale": "Not in a convenience store or a big chain, where nobody expects a back-and-forth at the door and the ritual belongs at the till. This is a description of how small-shop openings work, not a measured survey of how anyone feels about you.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "fr-b15-n06"
+      ]
+    }
+  ]
+}

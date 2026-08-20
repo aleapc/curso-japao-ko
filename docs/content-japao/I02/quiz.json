@@ -1,0 +1,96 @@
+{
+  "id": "q-i02",
+  "nivel": "intermediario",
+  "titulo": "Quiz — The order of the moves",
+  "subtitulo": "Sumimasen first, and the counter opens",
+  "introAudioKey": "fr-i02-q-i",
+  "introPt": "A traveller runs the whole counter in four moves, greeting to door.",
+  "cenario": "Three deep at a stand-up coffee counter, mid-morning.",
+  "dialogo": [
+    {
+      "audioKey": "fr-i02-q01",
+      "voz": "target_fr_m",
+      "es": "いらっしゃいませ！ご注文はお決まりですか？",
+      "pt": "Welcome! Are you ready to order?",
+      "tts": "いらっしゃいませ！ご注文はお決まりですか？"
+    },
+    {
+      "audioKey": "fr-i02-q02",
+      "voz": "target_fr_f",
+      "es": "すみません、コーヒーをお願いします。",
+      "pt": "Excuse me, a coffee, please.",
+      "tts": "すみません、コーヒーをお願いします。"
+    },
+    {
+      "audioKey": "fr-i02-q03",
+      "voz": "target_fr_m",
+      "es": "店内でお召し上がりですか、お持ち帰りですか？",
+      "pt": "Eating in, or taking away?",
+      "tts": "店内でお召し上がりですか、お持ち帰りですか？"
+    },
+    {
+      "audioKey": "fr-i02-q04",
+      "voz": "target_fr_f",
+      "es": "店内でお願いします。ごちそうさまでした。",
+      "pt": "Eating in, please. Thanks for the meal.",
+      "tts": "店内でお願いします。ごちそうさまでした。"
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "The first move at a counter is:",
+      "opcoes": [
+        "Your order",
+        "The opening — sumimasen",
+        "Asking whether they speak English",
+        "Pointing at what you want"
+      ],
+      "correta": 1,
+      "explica": "Sumimasen comes before the coffee, before the question, and before any English. You do not answer irasshaimase."
+    },
+    {
+      "pergunta": "Tennai or omochikaeri — eat in or take away — is a question about:",
+      "opcoes": [
+        "Only where you sit",
+        "Where you eat and what you pay",
+        "Whether you want sugar",
+        "Whether you are paying by card"
+      ],
+      "correta": 1,
+      "explica": "Since October 2019 takeaway is taxed 8% and eating in 10%, so the answer changes the price."
+    },
+    {
+      "pergunta": "A long, careful, apologetic English sentence at a busy counter:",
+      "opcoes": [
+        "Reads as more polite",
+        "Reads as a longer turn — the politeness is already in sumimasen and onegai shimasu",
+        "Is always required",
+        "Gets you served first"
+      ],
+      "correta": 1,
+      "explica": "Short is not rude. Sumimasen and onegai shimasu carry the courtesy."
+    },
+    {
+      "pergunta": "You open in English with no sumimasen and get a short, flat answer. The defensible reading is:",
+      "opcoes": [
+        "A refusal to speak English",
+        "A step of the opening sequence was skipped",
+        "A measured national attitude",
+        "A sign you should leave"
+      ],
+      "correta": 1,
+      "explica": "This is grounded in how greeting rituals work, not a measured fact — and it is the one you can act on."
+    },
+    {
+      "pergunta": "The sequence closes with:",
+      "opcoes": [
+        "Nothing — you just leave",
+        "Gochisousama deshita and arigatou on the way out",
+        "A tip on the counter",
+        "A handshake"
+      ],
+      "correta": 1,
+      "explica": "It closes the way it opened, said to the room, on the way through the door. There is no tip."
+    }
+  ]
+}

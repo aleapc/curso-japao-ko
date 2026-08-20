@@ -1,0 +1,339 @@
+{
+  "id": "b18",
+  "nivel": "basico",
+  "numero": 18,
+  "parte": "B18",
+  "titulo": "마지막 날 — 계산하고, 짐을 맡기고, 그들이 기억할 그 한 문장을 말하라",
+  "subtitulo": "체크아웃은 서류 작업이다. 작별 인사가 다음번에 당신이 어떻게 맞이받을지를 결정하는 부분이다",
+  "cena": "열쇠는 이미 데스크에 있고, 비행기는 오늘 밤 아홉 시이며, 그 사이 열한 시간 동안 당신과 캐리어 하나가 남아 있다.",
+  "moldura": "ganha",
+  "frasePiso": "계산하고, 짐을 맡기고, 그다음 일주일 내내 당신을 위해 문제를 해결해 준 사람에게 한 문장을 쓰라.",
+  "moldes": [],
+  "fatosDatados": [
+    {
+      "id": "fr-b18-note",
+      "afirmacao": "일본의 호텔 계산서는 으레 인쇄되어 나오며, 경비 처리용 정식 영수증인 領収書를 요청할 수 있고, 직원이 적을 이름을 물어볼 수 있다. 한 줄이 여행자를 놀라게 할 수 있다: 도쿄, 오사카, 교토, 후쿠오카를 포함한 여러 도시가 숙박세(宿泊税)를 부과하는데, 이는 인당·박당 청구되며 체크인할 때 언급되지 않는 경우가 많다.",
+      "fonte": "Contas de hotel impressas normalmente; 領収書 (recibo formal) a pedido; imposto de hospedagem (宿泊税) cobrado por pessoa/noite em cidades como Tóquio, Osaka, Quioto e Fukuoka.",
+      "ano": 2026,
+      "revisarAte": "2027-08-05",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "fr-b18-n03"
+      ]
+    },
+    {
+      "id": "fr-b18-especes",
+      "afirmacao": "일본에서는 현금이 언제나 계산을 끝내 주며, 작은 가게는 여전히 현금만 받을 수 있다. 마지막 날에 도움이 되는 두 가지가 있다: 면세(免税) 허가를 받은 매장에서는 여권을 지참하면 당일 5,000엔 이상 구매 시 소비세를 면제받을 수 있고, 짐 배송(宅配便/宅急便) 서비스는 캐리어를 호텔에서 공항으로 다음 날 도착하게 보내 줘서 시내를 돌아다닐 때 들고 다닐 필요가 없다.",
+      "fonte": "Dinheiro sempre liquida a conta; compras isentas (免税) para turistas a partir de 5.000 ienes no mesmo dia com passaporte; serviço de encomenda de bagagem (宅配便) do hotel ao aeroporto.",
+      "ano": 2026,
+      "revisarAte": "2028-08-05",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "fr-b18-n04"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-b18-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "마지막 아침은 두 부분으로 되어 있다: 서류 작업과 그 한 문장. 그중 하나만 기억에 남는다."
+    },
+    {
+      "consulta": [
+        "quarto/mala",
+        "reparo/permissao"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "TE-MO-II",
+      "encaixe": "五時まで荷物を預け",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-b18-p01",
+      "promptPt": "방은 열한 시에 나가야 하고 비행기는 오늘 밤이다. 그 사이의 시간을 해결하라. 지금 말하세요.",
+      "audioKey": "fr-b18-t01",
+      "es": "五時まで荷物を預けてもいいですか？",
+      "pinyin": "go-JI ma-de ni-MO-tsu o a-zu-ke-te mo II des ka",
+      "pt": "다섯 시까지 짐을 맡겨도 될까요?",
+      "tts": "五時まで荷物を預けてもいいですか？"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-b18-r01",
+      "es": "もちろんです。番号札をお渡ししますので、お持ちください。",
+      "pt": "물론이죠. 번호표를 드릴 테니 가지고 계세요.",
+      "tts": "もちろんです。番号札をお渡ししますので、お持ちください。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-b18-n02",
+      "bloco": "corpo",
+      "pt": "무언가를 건네받기 전에 총액부터 물어라. 물건을 살 때 썼던 것과 같은 틀이다."
+    },
+    {
+      "consulta": [
+        "pagar/conta",
+        "quarto/checkout"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "IKURA",
+      "encaixe": "全部で",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-b18-p02",
+      "promptPt": "나흘 밤, 조식 두 번, 그리고 체크인할 때 아무도 말해 주지 않은 숙박세. 지금 말하세요.",
+      "audioKey": "fr-b18-t02",
+      "es": "全部でいくらですか？",
+      "pinyin": "ZEN-bu de i-ku-ra des ka",
+      "pt": "전부 합해서 얼마예요?",
+      "tts": "全部でいくらですか？"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-b18-n03",
+      "pt": "호텔 계산서는 인쇄되어 나온다. 정식 영수증이 필요하면 領収書를 요청하라. 숙박세를 눈여겨보라 — 일부 도시는 박당 요금을 추가한다."
+    },
+    {
+      "consulta": [
+        "pagar/cartao",
+        "reparo/permissao"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "TE-MO-II",
+      "encaixe": "カードで払っ",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-b18-p03",
+      "promptPt": "데스크에 결제 로고가 있는데 최소 금액에 대한 안내 스티커는 없다. 총액이 찍히기 전에 물어라. 지금 말하세요.",
+      "audioKey": "fr-b18-t03",
+      "es": "カードで払ってもいいですか？",
+      "pinyin": "KAA-do de ha-RAT-te mo II des ka",
+      "pt": "카드로 계산해도 될까요?",
+      "tts": "カードで払ってもいいですか？"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-b18-r02",
+      "receptivo": true,
+      "es": "カードは大丈夫ですが、五千円からになります。",
+      "pt": "카드는 괜찮은데, 오천 엔 이상부터 가능해요.",
+      "tts": "カードは大丈夫ですが、五千円からになります。",
+      "acao": "명시된 최소 금액보다 적으면 현금으로 결제하라 — 작은 가게에서 카드 최소 금액은 흔한 일이고, 현금은 언제나 계산을 끝내 준다."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-b18-n04",
+      "bloco": "capsula",
+      "pt": "현금은 여기서 언제나 통한다. 그리고 마지막 날에 도움이 되는 두 가지: 여권으로 하는 면세 쇼핑, 그리고 택큐빈으로 캐리어를 공항까지 보내는 것."
+    },
+    {
+      "consulta": [
+        "pagar/conta",
+        "reparo/permissao"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "TE-MO-II",
+      "encaixe": "領収書をもらっ",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-b18-p04",
+      "promptPt": "회사에서는 종이를 원하는데 단말기는 삑 소리만 냈다. 자리를 뜨기 전에 정식 영수증을 요청하라. 지금 말하세요.",
+      "audioKey": "fr-b18-t04",
+      "es": "領収書をもらってもいいですか？",
+      "pinyin": "ryoo-SHOO-sho o mo-rat-te mo II des ka",
+      "pt": "정식 영수증을 받을 수 있을까요?",
+      "tts": "領収書をもらってもいいですか？"
+    },
+    {
+      "consulta": [
+        "taxi/destino",
+        "reparo/permissao"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "TE-MO-II",
+      "encaixe": "ここからタクシーを呼ん",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-b18-p05",
+      "promptPt": "다섯 시, 짐은 다시 손에 들려 있고, 휴대폰 앱은 로딩을 멈췄다. 지금 말하세요.",
+      "audioKey": "fr-b18-t05",
+      "es": "ここからタクシーを呼んでもいいですか？",
+      "pinyin": "ko-ko ka-ra tak-SHEE o yon-de mo II des ka",
+      "pt": "여기서 택시를 불러도 될까요?",
+      "tts": "ここからタクシーを呼んでもいいですか？"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-b18-r03",
+      "es": "空港までですか？ 定額料金になりますよ。",
+      "pt": "공항까지요? 정액 요금이 적용될 거예요.",
+      "tts": "空港までですか？ 定額料金になりますよ。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-b18-n05",
+      "pt": "일부 도시는 공항행 정액 택시를 운영하고, 기사가 영수증을 준다 — 다만 대개는 기차가 어느 쪽보다 더 싸고 빠르다."
+    },
+    {
+      "consulta": [
+        "taxi/destino",
+        "pagar/conta"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "IKURA",
+      "encaixe": "空港まで",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-b18-p06",
+      "promptPt": "트렁크는 열려 있고 짐은 아직 안에 들어가지 않았다. 먼저 숫자를 소리 내어 듣게 하라. 지금 말하세요.",
+      "audioKey": "fr-b18-t06",
+      "es": "空港までいくらですか？",
+      "pinyin": "koo-KOO ma-de i-ku-ra des ka",
+      "pt": "공항까지 얼마예요?",
+      "tts": "空港までいくらですか？"
+    },
+    {
+      "consulta": [
+        "conversa/elogiar",
+        "conversa/agradecer"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-b18-p07",
+      "promptPt": "첫날 밤 방을 옮겨 주고 오늘 짐도 맡아 준 바로 그 사람이다. 예의상 하는 말이 아니라 진심을 말하라. 지금 말하세요.",
+      "audioKey": "fr-b18-t07",
+      "es": "いろいろお世話になりました。",
+      "pinyin": "i-ro-i-ro o-SE-wa ni na-ri-MA-shi-ta",
+      "pt": "여러모로 신세 많이 졌어요.",
+      "tts": "いろいろお世話になりました。"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-b18-r04",
+      "es": "こちらこそ、ありがとうございました。またお越しください。",
+      "pt": "저야말로 감사했습니다. 또 오세요.",
+      "tts": "こちらこそ、ありがとうございました。またお越しください。"
+    },
+    {
+      "consulta": [
+        "conversa/despedir"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-b18-p08",
+      "promptPt": "그가 방금 당신을 위해 문을 열어 두었다. 칭찬이 아니라 계획으로 답하라. 지금 말하세요.",
+      "audioKey": "fr-b18-t08",
+      "es": "また必ず来ます。",
+      "pinyin": "ma-ta ka-na-ra-zu ki-MAS",
+      "pt": "꼭 다시 올게요.",
+      "tts": "また必ず来ます。"
+    },
+    {
+      "consulta": [
+        "conversa/despedir"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-b18-p09",
+      "promptPt": "손에는 짐, 한 발은 이미 밖에 있다. 이 만남을 제대로 마무리하라. 지금 말하세요.",
+      "audioKey": "fr-b18-t09",
+      "es": "ありがとうございました。失礼します。",
+      "pinyin": "a-ri-ga-toh go-za-i-ma-shi-ta. shi-tsu-REI shi-mas",
+      "pt": "정말 감사했습니다. 이만 가 볼게요.",
+      "tts": "ありがとうございました。失礼します。"
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_fr_f",
+      "audioKey": "fr-b18-s01",
+      "es": "全部でいくらですか？ 五時まで荷物を預けてもいいですか？ いろいろお世話になりました。",
+      "pinyin": "ZEN-bu de i-ku-ra des ka. go-JI ma-de ni-MO-tsu o a-zu-ke-te mo II des ka. i-ro-i-ro o-SE-wa ni na-ri-MA-shi-ta",
+      "pt": "마지막 아침을 이루는 세 문장을 따라 말하라.",
+      "tts": "全部でいくらですか？ 五時まで荷物を預けてもいいですか？ いろいろお世話になりました。"
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-b18-n06",
+      "bloco": "recap",
+      "pt": "B18 완료. 짐을 맡기고, 총액을 묻고, 요금을 정하고, 그리고 문 앞에 남기고 온 진심 한 문장."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "서류 작업, 그리고 그 뒤에 남는 것",
+    "secoes": [
+      {
+        "titulo": "두 틀이 여행을 마무리한다",
+        "corpo": "Te mo ii desu ka는 마지막 아침의 허락을 구하는 모든 일 — 짐, 카드, 영수증, 택시 — 을 처리한다. Ikura desu ka는 중요한 두 숫자, 총액과 요금을 처리한다. 마지막 날에 새로 배울 건 없다 — 공항에서부터 써 온 그 두 가지 시작말 그대로다.",
+        "exemplos": [
+          {
+            "es": "五時まで荷物を預けてもいいですか？",
+            "pt": "다섯 시까지 짐을 맡겨도 될까요?"
+          },
+          {
+            "es": "全部でいくらですか？",
+            "pt": "전부 합해서 얼마예요?"
+          }
+        ]
+      },
+      {
+        "titulo": "계산서, 영수증, 그리고 도시세",
+        "corpo": "호텔 계산서는 기본적으로 인쇄되어 나온다. 경비 처리용 정식 영수증이 필요하면 이름을 대고 領収書를 요청하고, 적을 이름을 준비해 두라. 숙박세를 눈여겨보라 — 도쿄, 오사카, 교토, 후쿠오카 등 여러 도시가 인당·박당 요금을 추가하는데, 체크인할 때 거의 언급되지 않기 때문에 놓치기 쉽다."
+      },
+      {
+        "titulo": "현금, 카드, 그리고 마지막 날에 도움이 되는 두 가지",
+        "corpo": "현금은 언제나 계산을 끝내 주고, 작은 가게는 카드 최소 금액을 두거나 현금만 받을 수 있다. 마지막 날을 수월하게 해 주는 두 가지가 있다: 허가받은 免税 매장에서는 여권을 지참하면 당일 5,000엔 이상 구매를 소비세 없이 할 수 있고, 택큐빈 짐 배송 서비스는 캐리어를 호텔에서 공항으로 다음 날 도착하게 보내 줘서, 마지막 시간을 손이 자유로운 채로 보낼 수 있다."
+      },
+      {
+        "titulo": "문 앞의 한 문장",
+        "corpo": "Iroiro osewa ni narimashita, 그다음 arigatou gozaimashita와 shitsurei shimasu. 몇 초밖에 걸리지 않지만, 그것이 데스크가 실제로 기억하는 그 주의 부분이며, 전혀 비용이 들지 않는다 — 그래서 이 모듈 전체에서 가장 수익률 높은 문장이다. 팁은 없다. 그 문장이 곧 감사의 표현이다."
+      }
+    ]
+  },
+  "slot": "B18",
+  "permissao": "당신은 팁 대신 한 문장으로 그 주를 마무리해도 된다. 그 데스크에서 감사 인사를 지나치다고 여기는 사람은 아무도 없고, 작은 작별 인사는 여기서 교류를 끝맺는 평범한 방식이지, 당신이 위에 더 얹는 특별한 것이 아니다.",
+  "permissaoAudioKey": "fr-b18-n01",
+  "espelho": "같은 식당에 두 번 가 본 사람이라면 이 원리를 안다: 두 번째 환대는 처음 방문이 어떻게 시작됐는지가 아니라 어떻게 끝났는지로 결정된다. 마지막 몇 초야말로 당신이 완전히 통제할 수 있는 부분이다.",
+  "fichasCulturais": [
+    {
+      "sinal": "기사가 미터기를 켜는 대신 공항까지 가는 전체 요금을 숫자 하나로 말한다.",
+      "suaLeitura": "내가 캐리어 두 개를 든 여행자라서 값을 지어낸 거구나.",
+      "oQueEAli": "여러 도시가 공항행 정액 택시를 운영한다 — 미리 정해진 고정 요금이므로, 미터기가 꺼져 있는 것이 지름길이 아니라 올바른 방식일 수 있고, 마지막에는 영수증을 받을 권리가 있다. 다만 대개는 공항철도가 어떤 택시보다 더 싸고 빠르다.",
+      "oQueVoceFaz": "짐이 트렁크에 실리기 전에 요금을 소리 내어 듣고, 영수증을 요청하고, 결정하기 전에 머릿속으로 기차와 비교해 보라.",
+      "oQueMelhora": "타기 전에 숫자를 알게 되고, 결국 기차가 더 나은 선택이었다는 걸 자주 발견하게 된다.",
+      "ondeNaoVale": "공항 정액 요금은 전국 규칙이 아니라 도시별로 다른 제도이며, 시내 일반 구간은 미터기로 운행된다. 표시된 수치는 바뀌기 마련이니, 숫자는 몇 달 전에 쓰인 코스가 아니라 항상 기사에게서 직접 확인하라.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "fr-b18-n05"
+      ]
+    },
+    {
+      "sinal": "계산을 마치고 짐을 들고 아무 말 없이 밖으로 나간다.",
+      "suaLeitura": "거래는 끝났으니 더 할 말이 없다.",
+      "oQueEAli": "일본에서는 시작과 끝맺음이 짝을 이루는 작은 의례다: 인사가 교류 안으로 들어가는 문이라면, osewa ni narimashita, arigatou gozaimashita, shitsurei shimasu는 그것을 되돌려주는 문이다. 그 뒷부분 없이 자리를 뜨는 것은, 인사 없이 들어오는 것이 시작을 미완의 박자로 여는 것과 마찬가지로, 교류를 미완의 박자로 끝내는 셈이다.",
+      "oQueVoceFaz": "Arigatou gozaimashita라고 말하고 한마디를 더 붙여라 — 숙박 후라면 osewa ni narimashita, 나가면서는 shitsurei shimasu.",
+      "oQueMelhora": "교류가 제자리에서 마무리되고, 그 건물에서 다음에 겪는 교류가 더 따뜻하게 열린다.",
+      "ondeNaoVale": "이건 하나의 관례를 설명하는 것이지 누군가의 감정을 설명하는 게 아니다. 상대가 통화 중이거나 이미 다른 손님을 응대하고 있을 때는 해당하지 않는다 — 그럴 때는 고개를 살짝 숙이고 조용히 arigatou라고 말하는 것만으로 충분한 마무리다.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "fr-b18-n06"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "id": "q-a04",
+  "nivel": "avancado",
+  "titulo": "Quiz — The old argument",
+  "subtitulo": "One line, running under everything",
+  "introAudioKey": "fr-a04-q-i",
+  "introPt": "A traveller asks instead of ranking.",
+  "cenario": "A conversation about the capital and everywhere else.",
+  "dialogo": [
+    {
+      "audioKey": "fr-a04-q01",
+      "voz": "target_fr_m",
+      "es": "東京は日本じゃないですよ。それは覚えといたほうがいい。",
+      "pt": "Tokyo isn't Japan. You should know that.",
+      "tts": "東京は日本じゃないですよ。それは覚えといたほうがいい。"
+    },
+    {
+      "audioKey": "fr-a04-q02",
+      "voz": "target_fr_m",
+      "es": "私？二十歳で上京して、四十で地元に戻ってきました。",
+      "pt": "Me? I went up to Tokyo at twenty. I came back home at forty.",
+      "tts": "私？二十歳で上京して、四十で地元に戻ってきました。"
+    },
+    {
+      "audioKey": "fr-a04-q03",
+      "voz": "target_fr_f",
+      "es": "まだよく知らないので、何とも言えません。",
+      "pt": "I don't know enough yet to say.",
+      "tts": "まだよく知らないので、何とも言えません。"
+    },
+    {
+      "audioKey": "fr-a04-q04",
+      "voz": "target_fr_f",
+      "es": "ここでは、とてもよくしてもらいました。",
+      "pt": "Here, I've been treated very well.",
+      "tts": "ここでは、とてもよくしてもらいました。"
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "The concentration of people and jobs in Tokyo (東京一極集中) is:",
+      "opcoes": [
+        "A local complaint with nothing behind it",
+        "Documented — a large share of population and economy, targeted by a 2014 law",
+        "A recent invention of the media",
+        "Unmeasured folklore"
+      ],
+      "correta": 1,
+      "explica": "The greater Tokyo area holds a very large share of the country; the 2014 まち・ひと・しごと創生法 was written to counter it."
+    },
+    {
+      "pergunta": "«Joukyou shite, jimoto ni modotte kita» is usually:",
+      "opcoes": [
+        "A party political position",
+        "A family and working history",
+        "A joke",
+        "A geography lesson"
+      ],
+      "correta": 1,
+      "explica": "The verbs carry a career, a rent and a return far more often than a policy view."
+    },
+    {
+      "pergunta": "The move that ends the conversation is:",
+      "opcoes": [
+        "Asking what has changed here",
+        "Ranking the capital against the rest of the country",
+        "Saying you don't know enough",
+        "Saying you were well received here"
+      ],
+      "correta": 1,
+      "explica": "A verdict from a guest costs you the rest of the evening."
+    },
+    {
+      "pergunta": "«Mada yoku shiranai node, nantomo iemasen» is heard as:",
+      "opcoes": [
+        "Evasion",
+        "Good sense, and an accurate answer",
+        "Rudeness",
+        "Agreement with them"
+      ],
+      "correta": 1,
+      "explica": "After three weeks in a country it is simply true, and it reads as good sense."
+    },
+    {
+      "pergunta": "Which one is always safe to say?",
+      "opcoes": [
+        "The regions are friendlier than Tokyo",
+        "Tokyo works better than anywhere else",
+        "Here, I've been treated very well",
+        "Neither half of the country works"
+      ],
+      "correta": 2,
+      "explica": "Experience is allowed anywhere; comparison is the part that costs."
+    }
+  ]
+}

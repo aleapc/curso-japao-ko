@@ -1,0 +1,307 @@
+{
+  "id": "i02",
+  "nivel": "intermediario",
+  "numero": 20,
+  "parte": "I02",
+  "titulo": "스미마센이 먼저, 그러면 카운터가 열린다",
+  "subtitulo": "한 단어가 인사와 양해와 감사를 다 처리한다 — 그리고 그것이 앞에 붙으면 나머지는 네 단어로 충분한 거래가 된다",
+  "cena": "서서 마시는 커피 카운터에 세 명이 줄 서 있고, 기계는 요란하게 돌아가고, 직원의 시선이 당신에게 닿는 순간은 딱 2초뿐이다.",
+  "moldura": "ganha",
+  "frasePiso": "스미마센, 그다음 대상, 그다음 오네가이시마스. 순서만 맞추면 문장의 길이는 더 이상 문제가 안 된다.",
+  "decisao": "abrir com すみません antes de qualquer outra coisa, e depois pedir em quatro palavras em vez de construir uma frase longa e desculpada em inglês",
+  "moldes": [],
+  "fatosDatados": [
+    {
+      "id": "fr-i02-keigenzeiritsu",
+      "afirmacao": "2019년 10월 1일 소비세 인상 이후 일본은 음식과 음료에 두 가지 세율을 적용한다: 포장(모치카에리)은 경감 8퍼센트, 매장 취식(텐나이)은 표준 10퍼센트다. 카운터에서 계산 전에 tennai de meshiagari desu ka, omochikaeri desu ka를 묻는 실질적인 이유가 이것이다 — 답에 따라 세율이, 곧 가격이 달라지니, 자리 문제만큼이나 돈 문제이기도 하다.",
+      "fonte": "軽減税率制度 (taxa reduzida), em vigor desde 01/10/2019 — Agência Nacional de Tributos do Japão (国税庁): 8% para お持ち帰り, 10% para 店内",
+      "ano": 2019,
+      "revisarAte": "2028-08-05",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "fr-i02-n05"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-i02-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "카운터에는 정해진 순서가 있고, 그 첫 동작은 당신의 주문이 아니다."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-i02-r01",
+      "receptivo": true,
+      "acao": "그들이 당신에게 문을 열었다. 이랏샤이마세에 대답하지 말고, 스미마센과 주문으로 바로 들어가라.",
+      "es": "いらっしゃいませ！ご注文はお決まりですか？",
+      "pt": "어서 오세요! 주문 정하셨어요?",
+      "tts": "いらっしゃいませ！ご注文はお決まりですか？"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-i02-n02",
+      "bloco": "corpo",
+      "pt": "스미마센은 매번 제일 먼저 온다: 커피보다, 질문보다, 어떤 영어보다도 앞선다. 한 단어가 주의를 끌고, 양해를 구하고, 감사까지 전한다."
+    },
+    {
+      "consulta": [
+        "chegar/balcao",
+        "mesa/bebida"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-i02-p01",
+      "promptPt": "카운터 맨 앞에 도착했고 당신 차례다. 먼저 열고, 그다음 원하는 걸 말하라. 지금 말하세요.",
+      "audioKey": "fr-i02-t01",
+      "es": "すみません、コーヒーをお願いします。",
+      "pinyin": "su-mi-ma-SEN, KOH-hii o o-ne-gai-shi-MAS",
+      "pt": "저기요, 커피 하나 부탁드려요.",
+      "tts": "すみません、コーヒーをお願いします。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-i02-n03",
+      "pt": "대화를 시작하는 것은 누군가의 공간에 발을 들이는 일이다. 스미마센은 지나갈 통로를 부탁하는 말이기도 해서, 어깨가 길을 막을 때도 '실례합니다'로 쓰인다."
+    },
+    {
+      "consulta": [
+        "chegar/balcao",
+        "reparo/apontar"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "SUMIMASEN",
+      "encaixe": "通ります",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-i02-p02",
+      "promptPt": "계산대까지 가는 길에 어깨가 하나 있고 돌아갈 틈이 없다. 지금 말하세요.",
+      "audioKey": "fr-i02-t02",
+      "es": "すみません、通ります。",
+      "pinyin": "su-mi-ma-SEN, TOH-ri-mas",
+      "pt": "실례합니다, 지나갈게요.",
+      "tts": "すみません、通ります。"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-i02-r02",
+      "receptivo": true,
+      "acao": "이 질문이 어디에 앉을지와 얼마를 낼지를 결정한다. 두 단어로 바로 답하라.",
+      "es": "店内でお召し上がりですか、お持ち帰りですか？",
+      "pt": "매장에서 드세요, 아니면 포장이세요?",
+      "tts": "店内でお召し上がりですか、お持ち帰りですか？"
+    },
+    {
+      "consulta": [
+        "chegar/balcao",
+        "mesa/mesa"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-i02-p03",
+      "promptPt": "방금 들은 그 질문을 받았고, 앉고 싶다. 지금 말하세요.",
+      "audioKey": "fr-i02-t03",
+      "es": "店内でお願いします。",
+      "pinyin": "TEN-nai de o-ne-gai-shi-MAS",
+      "pt": "매장에서 먹을게요.",
+      "tts": "店内でお願いします。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-i02-n04",
+      "bloco": "capsula",
+      "pt": "여기선 짧다고 무례한 게 아니다. 스미마센, 대상, 오네가이시마스면 완전하고 정중한 한 차례가 된다: 예의는 오네가이시마스가 다 짊어진다."
+    },
+    {
+      "consulta": [
+        "mesa/bebida",
+        "mesa/agua-pao"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-i02-p04",
+      "promptPt": "커피 한 잔과 물 한 잔을, 사과 없이 한숨에 말하라. 지금 말하세요.",
+      "audioKey": "fr-i02-t04",
+      "es": "コーヒーとお水をお願いします。",
+      "pinyin": "KOH-hii to o-MI-zu o o-ne-gai-shi-MAS",
+      "pt": "커피랑 물 부탁드려요.",
+      "tts": "コーヒーとお水をお願いします。"
+    },
+    {
+      "consulta": [
+        "reparo/devagar"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "SUMIMASEN",
+      "encaixe": "聞き取れませんでした",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-i02-p05",
+      "promptPt": "뭔가 빠르게 돌아왔는데 하나도 못 알아들었다. 영어로 넘어가지 말고 그대로 말하라. 지금 말하세요.",
+      "audioKey": "fr-i02-t05",
+      "es": "すみません、聞き取れませんでした。",
+      "pinyin": "su-mi-ma-SEN, ki-ki-to-re-ma-sen-de-shi-ta",
+      "pt": "죄송해요, 못 들었어요.",
+      "tts": "すみません、聞き取れませんでした。"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-i02-r03",
+      "es": "大丈夫ですよ。コーヒー、店内で。承知しました。",
+      "pt": "괜찮아요. 커피, 매장에서 드시는 걸로. 알겠습니다.",
+      "tts": "大丈夫ですよ。コーヒー、店内で。承知しました。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-i02-n05",
+      "pt": "2019년 이후 매장 취식과 포장은 세율이 다르게 매겨져서 텐나이인지 오모치카에리인지 묻는 것이다. 이건 정해진 사실이 아니라 맥락으로 읽는 것이다."
+    },
+    {
+      "consulta": [
+        "reparo/devagar"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "SUMIMASEN",
+      "encaixe": "もう一度お願いします",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-i02-p06",
+      "promptPt": "기계 소리가 시끄러워서 가격을 못 들었다. 다시 말해 달라고 부탁하라. 지금 말하세요.",
+      "audioKey": "fr-i02-t06",
+      "es": "すみません、もう一度お願いします。",
+      "pinyin": "su-mi-ma-SEN, moh i-CHI-do o-ne-gai-shi-MAS",
+      "pt": "죄송해요, 한 번 더 말씀해 주시겠어요?",
+      "tts": "すみません、もう一度お願いします。"
+    },
+    {
+      "consulta": [
+        "chegar/balcao",
+        "simpatia/agradecer"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-i02-p07",
+      "promptPt": "누군가 카운터의 빈자리에 당신과 정확히 같은 순간 도착했다. 두 단어면 정리된다. 지금 말하세요.",
+      "audioKey": "fr-i02-t07",
+      "es": "お先にどうぞ。",
+      "pinyin": "o-SA-ki ni DOH-zo",
+      "pt": "먼저 가세요.",
+      "tts": "お先にどうぞ。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-i02-n06",
+      "pt": "그리고 시작할 때처럼 마무리한다. 나가는 길에 고치소사마와 아리가토를, 아무도 없는 데가 아니라 그 공간을 향해 말해라."
+    },
+    {
+      "consulta": [
+        "simpatia/agradecer",
+        "chegar/sair"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-i02-p08",
+      "promptPt": "컵은 비었고, 트레이는 치웠고, 손은 문에 닿아 있다. 마무리하라. 지금 말하세요.",
+      "audioKey": "fr-i02-t08",
+      "es": "ごちそうさまでした。ありがとうございました。",
+      "pinyin": "go-chi-soh-sa-ma-DESH-ta. a-ri-ga-toh go-za-i-MASH-ta",
+      "pt": "잘 먹었습니다. 정말 감사합니다.",
+      "tts": "ごちそうさまでした。ありがとうございました。"
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_fr_f",
+      "audioKey": "fr-i02-s01",
+      "es": "すみません、コーヒーをお願いします。店内でお願いします。ごちそうさまでした。",
+      "pinyin": "su-mi-ma-SEN, KOH-hii o o-ne-gai-shi-MAS. TEN-nai de o-ne-gai-shi-MAS. go-chi-soh-sa-ma-DESH-ta",
+      "pt": "카운터 전체를, 입구부터 문까지, 세 문장으로 따라 말해 보라.",
+      "tts": "すみません、コーヒーをお願いします。店内でお願いします。ごちそうさまでした。",
+      "molde": "SUMIMASEN"
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-i02-n07",
+      "bloco": "recap",
+      "pt": "I02 완료. 스미마센, 대상, 오네가이시마스, 텐나이, 그리고 나가는 길의 고치소사마 — 카운터를 네 동작으로."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "동작의 순서",
+    "secoes": [
+      {
+        "titulo": "스미마센, 요청, 감사",
+        "corpo": "동작들은 고정되어 있고 바뀌는 건 가운데 하나뿐이다. 일단 이 순서를 타면 요청 자체는 명사 하나와 오네가이시마스만큼 짧아도 완전하게 들린다.",
+        "exemplos": [
+          {
+            "es": "すみません、コーヒーをお願いします。",
+            "pt": "저기요, 커피 하나 부탁드려요."
+          },
+          {
+            "es": "ごちそうさまでした。",
+            "pt": "잘 먹었습니다."
+          }
+        ]
+      },
+      {
+        "titulo": "한 단어가 세 가지 일을 한다",
+        "corpo": "스미마센은 주의를 끌고, 침범을 양해받고, 심지어 감사도 전한다 — 그래서 이 나라 거의 모든 카운터 대화가 이 말로 열린다. 직원에게 신호를 보내는 방법(손을 혼자 들거나 손가락을 튕기지 않는다), 어깨 사이를 지나가는 방법, 정정을 부드럽게 만드는 방법이 모두 이 한 단어다. 앞에 놓으면 한 차례가 성립하고, 빼면 돌아오는 무뚝뚝한 대답이 비협조가 아니라 순서 문제였다는 걸 놓치기 쉽다."
+      },
+      {
+        "titulo": "매장 취식이냐 포장이냐가 계산서를 바꾼다",
+        "corpo": "2019년 10월 이후 포장 음식은 경감 8퍼센트, 매장 취식은 표준 10퍼센트를 적용받아서, 텐나이인지 오모치카에리인지는 자리 문제만큼 돈 문제이기도 하다. 반사적으로가 아니라 신경 써서 답하고, 압박이 아니라 평범한 질문으로 받아들여라."
+      },
+      {
+        "titulo": "지나친 정중함은 소음으로 들린다",
+        "corpo": "바쁜 카운터에서 길고 사과 섞인 영어 서두는 더 정중하게 들리지 않는다 — 그저 더 긴 차례로 들릴 뿐이다. 정중함은 이미 스미마센과 오네가이시마스가 짊어지고 있고, 둘 다 당신의 네 단어 안에 들어 있다."
+      }
+    ]
+  },
+  "slot": "I02",
+  "permissao": "당신은 짧아도 된다. 스미마센, 대상, 오네가이시마스는 진짜 문장을 축약한 버전이 아니다 — 카운터에서는 그 자체가 진짜 문장이고, 그 뒤에 있는 사람은 당신이 더 긴 문장을 만들기를 기다리지 않는다.",
+  "permissaoAudioKey": "fr-i02-n04",
+  "espelho": "고향에서 바쁜 계산대에 있다가 누군가 인사도 없이 대화 중간에 끼어드는 걸 겪어 본 사람이라면 그 작은 마찰을 안다. 아무 말도 나오지 않지만 서비스는 그대로 이루어지되, 딱 한 단계쯤 더 차가워진다. 같은 메커니즘이고, 고치는 방법은 단 한 단어다.",
+  "fichasCulturais": [
+    {
+      "sinal": "다가가서 영어로 바로 요청을 시작했는데, 짧고 무뚝뚝한 대답이 돌아와서 마치 문이 닫히는 느낌이 든다.",
+      "suaLeitura": "나한테 영어로 말하기 싫은가 보다.",
+      "oQueEAli": "일본에서 스미마센은 카운터를 여는 의례적 표현이다 — 주의를 끌고, 누군가의 공간에 들어가도 된다고 만들어 준다. 요청부터 바로 시작하면 그 서두를 건너뛰게 되고, 이어지는 중립적이고 조심스러운 어조는 언어에 대한 거리낌으로 읽기 쉽지만 실은 순서의 문제다.",
+      "oQueVoceFaz": "스미마센을 혼자서 말하고 반 박자 기다린 다음, 그제야 물어라 — 할 수 있으면 일본어로, 안 되면 영어로.",
+      "oQueMelhora": "대화가 예상된 발판 위에서 시작되고, 영어를 조금 할 줄 아는 직원이라면 서두가 지나간 뒤 훨씬 더 기꺼이 영어로 응해 준다.",
+      "ondeNaoVale": "이건 태도에 관한 측정된 발견이 아니라 인사 의례의 작동 방식에 기반한 것이며, 모든 차가운 카운터를 설명해 주지는 않는다. 긴 근무 끝에 뒤에 줄이 늘어선 직원이라면 그냥 그런 순간일 수도 있다.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "fr-i02-n02"
+      ]
+    },
+    {
+      "sinal": "커피 한 잔을 시키려고 길고 조심스럽고 사과 섞인 문장을 만들었는데, 돌아오는 건 한 단어와 기계로 돌아서는 몸짓뿐이다.",
+      "suaLeitura": "정중하게 했는데 아무 반응도 못 받았으니, 그 정중함이 헛되거나 반갑지 않았던 거구나.",
+      "oQueEAli": "카운터에서 기대되는 차례는 짧다: 스미마센, 대상, 오네가이시마스. 돌아오는 한 단어는 당신의 문장에 대한 평가가 아니라 거래가 진행되는 소리다. 거기서 정중함을 옮기는 건 길이가 아니다.",
+      "oQueVoceFaz": "압축하라. 노력은 스미마센과 오네가이시마스에 담고, 가운데는 명사 하나로 두어라.",
+      "oQueMelhora": "2초짜리 틈 안에 긴 문장을 끝내려 애쓰지 않게 되어, 더 이상 쫓기는 느낌이 들지 않는다.",
+      "ondeNaoVale": "평범한 거래 밖의 것 — 부탁, 예외, 카운터 뒤에 두고 온 가방 같은 것 — 을 요청할 때는 다르다. 거기서는 더 길고 조심스러운 형태가 정확히 제 역할을 한다.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "fr-i02-n04"
+      ]
+    }
+  ]
+}

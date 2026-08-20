@@ -1,0 +1,382 @@
+{
+  "id": "b11",
+  "nivel": "basico",
+  "numero": 11,
+  "parte": "B11",
+  "titulo": "Onegai shimasu — the ending that orders the first round",
+  "subtitulo": "One ending carries a coffee, a glass of water, the menu and tonight's table, and the politeness is already inside it",
+  "cena": "You are at a small place where the counter is close, the staff are moving fast between tables, and you have about three seconds to say what you want.",
+  "moldura": "ganha",
+  "frasePiso": "The thing, then wo onegai shimasu. The politeness is already inside the word.",
+  "moldes": [
+    "ONEGAI-SHIMASU"
+  ],
+  "clique": {
+    "contagem": [
+      "the café counter",
+      "the table",
+      "the restaurant taking tonight's booking"
+    ],
+    "desconto": "Nobody taught you a separate sentence for the coffee, the water, the menu and the table for tonight. You kept one ending and changed what came before it.",
+    "piso": "Next time you have three seconds and a member of staff going past, you will not point and hope. You will name the thing and finish it with onegai shimasu."
+  },
+  "fatosDatados": [
+    {
+      "id": "fr-b11-affichage",
+      "afirmacao": "Since April 2021 Japan requires tax-included total-price display (総額表示) to consumers: the figure shown to you already contains the consumption tax, so the number on the menu is normally the number you pay. Note one wrinkle that touches meals: the tax rate is 8% for takeaway food and 10% for eating in, so the same item can be priced differently 'to go' and 'for here'.",
+      "fonte": "Agência Nacional de Impostos do Japão (総額表示義務, obrigatório desde abr/2021); alíquota reduzida de 8% para levar e 10% para consumir no local.",
+      "ano": 2026,
+      "revisarAte": "2028-08-05",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "fr-b11-n04"
+      ]
+    },
+    {
+      "id": "fr-b11-service-compris",
+      "afirmacao": "There is no tipping custom in Japan, and staff will often chase you down to return money left on the table. Water (お冷や or お水) and often tea are brought free without being asked, along with a wet towel (おしぼり). A minority of places do add a service charge (サービス料) or, at an izakaya, a seating charge (お通し / 席料); when they do it is a posted item, not a tip you decide.",
+      "fonte": "Ausência de cultura de gorjeta no Japão; água/chá e おしぼり servidos gratuitamente; サービス料 e お通し, quando existem, são cobrança fixa informada, não gorjeta.",
+      "ano": 2026,
+      "revisarAte": "2028-08-05",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "fr-b11-n05"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-b11-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "The first round is where pointing stops working. One ending does the ordering, and it is already the polite one."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-b11-n02",
+      "bloco": "molde",
+      "pt": "The frame is the thing, then onegai shimasu. Name it — a coffee, the menu, the water — and onegai shimasu does the courtesy."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_f",
+      "audioKey": "fr-b11-t01",
+      "es": "コーヒーをお願いします。",
+      "pinyin": "KOH-hee o o-ne-gai-shi-MAS",
+      "pt": "A coffee, please.",
+      "tts": "コーヒーをお願いします。"
+    },
+    {
+      "consulta": [
+        "mesa/bebida"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "ONEGAI-SHIMASU",
+      "encaixe": "コーヒー",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-b11-p01",
+      "promptPt": "You are at the counter, it is nine in the morning, and it is your turn. Speak now.",
+      "audioKey": "fr-b11-t01",
+      "es": "コーヒーをお願いします。",
+      "pinyin": "KOH-hee o o-ne-gai-shi-MAS",
+      "pt": "A coffee, please."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-b11-r01",
+      "receptivo": true,
+      "es": "コーヒーですね。店内でお召し上がりですか？",
+      "pt": "One coffee. Are you having it here, or taking it away?",
+      "tts": "コーヒーですね。店内でお召し上がりですか？",
+      "acao": "That question decides the tax — eight per cent to go, ten per cent for here — and sometimes the cup. Answer before you pick a seat."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-b11-n04",
+      "bloco": "corpo",
+      "pt": "Prices on the menu already include tax by law, so the number is the number you pay — except that eating in is taxed higher than taking away."
+    },
+    {
+      "consulta": [
+        "mesa/mesa"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "ARIMASU-KA",
+      "encaixe": "二人の席",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-b11-p02",
+      "promptPt": "There are two of you and the place looks nearly full. Ask whether they have room. Speak now.",
+      "audioKey": "fr-b11-t02",
+      "es": "二人ですが、席はありますか？",
+      "pinyin": "fu-ta-RI des ga, se-ki wa a-ri-MAS ka",
+      "pt": "There are two of us — do you have a table?",
+      "tts": "二人ですが、席はありますか？"
+    },
+    {
+      "consulta": [
+        "mesa/carta"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "ONEGAI-SHIMASU",
+      "encaixe": "メニュー",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-b11-p03",
+      "promptPt": "You are seated and nothing has been handed to you yet. Speak now.",
+      "audioKey": "fr-b11-t03",
+      "es": "メニューをお願いします。",
+      "pinyin": "ME-nyoo o o-ne-gai-shi-MAS",
+      "pt": "The menu, please.",
+      "tts": "メニューをお願いします。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-b11-n06",
+      "bloco": "capsula",
+      "pt": "Water and often tea come free, with a wet towel. Asking for more water is completely ordinary at any table."
+    },
+    {
+      "consulta": [
+        "mesa/agua-pao"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "ONEGAI-SHIMASU",
+      "encaixe": "お水",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-b11-p04",
+      "promptPt": "It is hot and your glass has been empty for a while. Speak now.",
+      "audioKey": "fr-b11-t04",
+      "es": "お水をお願いします。",
+      "pinyin": "o-MI-zu o o-ne-gai-shi-MAS",
+      "pt": "Some water, please.",
+      "tts": "お水をお願いします。"
+    },
+    {
+      "consulta": [
+        "mesa/bebida"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "ONEGAI-SHIMASU",
+      "encaixe": "赤ワイン",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-b11-p05",
+      "promptPt": "Evening, and you want a single glass of the house red rather than a bottle. Speak now.",
+      "audioKey": "fr-b11-t05",
+      "es": "赤ワインをグラスでお願いします。",
+      "pinyin": "a-ka-WA-in o gu-RA-su de o-ne-gai-shi-MAS",
+      "pt": "A glass of red, please.",
+      "tts": "赤ワインをグラスでお願いします。"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-b11-r02",
+      "receptivo": true,
+      "es": "赤ワインですね。かしこまりました。お連れ様は？",
+      "pt": "A glass of red, certainly. And for the other guest?",
+      "tts": "赤ワインですね。かしこまりました。お連れ様は？",
+      "acao": "Kashikomarimashita means it is ordered. The table's turn has moved on to whoever you are with."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-b11-n03",
+      "pt": "Onegai shimasu also carries an action as a noun: yoyaku o onegai shimasu, chumon o onegai shimasu — same ending, longer reach."
+    },
+    {
+      "consulta": [
+        "mesa/mesa"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "ONEGAI-SHIMASU",
+      "encaixe": "今夜の予約",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-b11-p06",
+      "promptPt": "You walk past a restaurant at noon and want to lock in a place before it fills. Speak now.",
+      "audioKey": "fr-b11-t06",
+      "es": "今夜、二人で予約をお願いします。",
+      "pinyin": "KON-ya, fu-ta-RI de yo-YA-ku o o-ne-gai-shi-MAS",
+      "pt": "A booking for two tonight, please.",
+      "tts": "今夜、二人で予約をお願いします。"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-b11-r03",
+      "receptivo": true,
+      "es": "今夜は満席です。明日の夜八時はいかがですか？",
+      "pt": "Tonight we're full. How about eight tomorrow evening?",
+      "tts": "今夜は満席です。明日の夜八時はいかがですか？",
+      "acao": "Manseki means full, and the alternative arrived in the same breath. Say yes or ask for another evening."
+    },
+    {
+      "consulta": [
+        "mesa/comida"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "ARIMASU-KA",
+      "encaixe": "日替わり",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-b11-p07",
+      "promptPt": "Lunchtime, and you want whatever the day's set is. Speak now.",
+      "audioKey": "fr-b11-t07",
+      "es": "日替わりはありますか？",
+      "pinyin": "hi-ga-WA-ri wa a-ri-MAS ka",
+      "pt": "Do you have a dish of the day?",
+      "tts": "日替わりはありますか？"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-b11-n05",
+      "pt": "No tipping here; staff will run after you to return coins. A service charge, where it exists, is a posted line, not one you add."
+    },
+    {
+      "consulta": [
+        "mesa/carta"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "ONEGAI-SHIMASU",
+      "encaixe": "注文",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-b11-p08",
+      "promptPt": "You decided five minutes ago and nobody has come back. Catch the next pass. Speak now.",
+      "audioKey": "fr-b11-t08",
+      "es": "注文をお願いします。",
+      "pinyin": "choo-MON o o-ne-gai-shi-MAS",
+      "pt": "I'd like to order, please.",
+      "tts": "注文をお願いします。"
+    },
+    {
+      "consulta": [
+        "mesa/comida"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "ONEGAI-SHIMASU",
+      "encaixe": "同じもの",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-b11-p09",
+      "promptPt": "The person you are with just ordered something that sounded good and you want that too. Speak now.",
+      "audioKey": "fr-b11-t09",
+      "es": "同じものをお願いします。",
+      "pinyin": "o-NA-ji mo-no o o-ne-gai-shi-MAS",
+      "pt": "I'll have the same, please.",
+      "tts": "同じものをお願いします。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-b11-n07",
+      "pt": "You call the staff with sumimasen, not a raised hand or a click. Sumimasen is the door; the order walks through it."
+    },
+    {
+      "consulta": [
+        "chegar/balcao"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-b11-p10",
+      "promptPt": "You have just reached the counter and need to get someone's attention, then ask for two coffees. Speak now.",
+      "audioKey": "fr-b11-t10",
+      "es": "すみません、コーヒーを二つお願いします。",
+      "pinyin": "soo-mee-ma-SEN, KOH-hee o fu-ta-TSU o-ne-gai-shi-MAS",
+      "pt": "Excuse me — two coffees, please.",
+      "tts": "すみません、コーヒーを二つお願いします。"
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_fr_f",
+      "audioKey": "fr-b11-s01",
+      "es": "コーヒーをお願いします。メニューをお願いします。今夜の予約をお願いします。",
+      "pinyin": "KOH-hee o o-ne-gai-shi-MAS. ME-nyoo o o-ne-gai-shi-MAS. KON-ya no yo-YA-ku o o-ne-gai-shi-MAS",
+      "pt": "Shadow the same ending across a drink, an object and an action.",
+      "tts": "コーヒーをお願いします。メニューをお願いします。今夜の予約をお願いします。",
+      "molde": "ONEGAI-SHIMASU"
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-b11-n08",
+      "bloco": "recap",
+      "pt": "B11 done. Onegai shimasu carried a coffee, some water, a glass, the menu and tonight's booking."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "One ending, the whole first round",
+    "secoes": [
+      {
+        "titulo": "Onegai shimasu takes a thing or a noun-action",
+        "corpo": "After the thing you put wo onegai shimasu: koohii, o-mizu, onaji mono. It also carries an action when that action is a noun — yoyaku o onegai shimasu, chumon o onegai shimasu. Nothing conjugates, the ending never changes, which is why it survives being said quickly.",
+        "exemplos": [
+          {
+            "es": "お水をお願いします。",
+            "pt": "Some water, please."
+          },
+          {
+            "es": "今夜、二人で予約をお願いします。",
+            "pt": "A booking for two tonight, please."
+          }
+        ]
+      },
+      {
+        "titulo": "The water and the towel are free",
+        "corpo": "Water — o-mizu or o-hiya — and often tea arrive without being asked, and so does a wet towel, the oshibori. None of it is an upsell and none of it earns a tip. Asking for a refill of water is ordinary; there is no bottle with a price hiding behind the request."
+      },
+      {
+        "titulo": "The price already includes the tax",
+        "corpo": "By law the figure shown to you includes consumption tax, so the number on the menu is the number you pay. The one thing to watch is that eating in is taxed at ten per cent and taking away at eight, so the same coffee can carry two prices depending on the answer to 'for here or to go?'"
+      },
+      {
+        "titulo": "No tip, and the rare posted charge",
+        "corpo": "There is no tipping in Japan and no line to fill in. Leave coins on the table and someone will run after you with them. Where a place does add something — a サービス料 service charge, or お通し at an izakaya — it is a posted, fixed item, a different thing entirely from a tip, and it is covered later in the course."
+      }
+    ]
+  },
+  "slot": "B11",
+  "permissao": "You are allowed to take the whole three seconds. The thing, then onegai shimasu, is a complete order anywhere in the country, and staff who have taken four hundred of them today are not weighing your accent against anyone's.",
+  "permissaoAudioKey": "fr-b11-n02",
+  "espelho": "Anyone who has stood at a busy counter at home rehearsing their order while the queue moves knows this pressure exactly. The only difference is that here the polite part is already built into the ending, so the rehearsal is one word shorter than you feared.",
+  "fichasCulturais": [
+    {
+      "sinal": "You leave a few coins on the table as a tip and the waiter hurries after you to give them back.",
+      "suaLeitura": "I offended them, or they think I forgot my change.",
+      "oQueEAli": "There is no tipping custom in Japan. Money left behind reads as forgotten change, not as a reward, so returning it is the correct and caring thing for the staff to do. The bill you were given is the whole amount owed, and good service is already inside the price.",
+      "oQueVoceFaz": "Pay the figure on the bill and nothing on top. If you genuinely want to express thanks, say gochisousama deshita on the way out — that is the currency here.",
+      "oQueMelhora": "You stop creating small awkward chases at the door, and the thanks you leave is the kind that actually lands.",
+      "ondeNaoVale": "A few places aimed at visitors, or with a posted サービス料, work differently, and a ryokan may have its own customs — but as a default, no tip is the safe reading.",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "fr-b11-n05"
+      ]
+    },
+    {
+      "sinal": "You ask for water and a glass of tap water arrives immediately, free, without anyone mentioning a bottle.",
+      "suaLeitura": "They must have misunderstood and brought the cheap thing by mistake.",
+      "oQueEAli": "Water at a table comes free as a matter of course in Japan, often with tea and a wet towel, and topping it up costs nothing. There is no default priced bottle waiting to be ordered instead; the free glass is simply how it works.",
+      "oQueVoceFaz": "Take it, and ask for more the same way — o-mizu o onegai shimasu. If you specifically want sparkling or bottled, you have to name that, because it is the exception, not the rule.",
+      "oQueMelhora": "You stop bracing for an upsell that is not coming and drink as much water as you like.",
+      "ondeNaoVale": "Not at a counter or takeaway window with no table service, and a bar may only bring water alongside a drink order — but asking is still ordinary.",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "fr-b11-n06"
+      ]
+    }
+  ]
+}

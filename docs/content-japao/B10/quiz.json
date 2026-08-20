@@ -1,0 +1,96 @@
+{
+  "id": "q-b10",
+  "nivel": "basico",
+  "titulo": "Quiz — The katakana that looks English — マンション, サービス, コンセント",
+  "subtitulo": "Five words that are not what they look like",
+  "introAudioKey": "fr-b10-q-i",
+  "introPt": "A traveller reads three lines of katakana, hears one word that lies, and opens a search before trusting the resemblance.",
+  "cenario": "A small street in the early afternoon, in front of a sign written in katakana.",
+  "dialogo": [
+    {
+      "audioKey": "fr-b10-q01",
+      "voz": "target_fr_f",
+      "es": "すみません、薬局を探しています。",
+      "pt": "Excuse me, I'm looking for a pharmacy.",
+      "tts": "すみません、薬局を探しています。"
+    },
+    {
+      "audioKey": "fr-b10-q02",
+      "voz": "target_fr_m",
+      "es": "薬局ですか？ この先のドラッグストアにもありますよ。",
+      "pt": "A pharmacy? There's also a drugstore just up ahead.",
+      "tts": "薬局ですか？ この先のドラッグストアにもありますよ。"
+    },
+    {
+      "audioKey": "fr-b10-q03",
+      "voz": "target_fr_f",
+      "es": "開いていますか？ お昼は休憩ですか？",
+      "pt": "Is it open? Do you close in the afternoon?",
+      "tts": "開いていますか？ お昼は休憩ですか？"
+    },
+    {
+      "audioKey": "fr-b10-q04",
+      "voz": "target_fr_m",
+      "es": "今は休憩です。二時から開きます。",
+      "pt": "It's on a break right now. It opens again at two.",
+      "tts": "今は休憩です。二時から開きます。"
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "A sign reads マンション. What is it?",
+      "opcoes": [
+        "A grand mansion",
+        "An ordinary apartment building",
+        "A luxury hotel",
+        "A museum"
+      ],
+      "correta": 1,
+      "explica": "マンション is just a regular block of flats, not a mansion."
+    },
+    {
+      "pergunta": "A shopkeeper hands you something and says サービス. That means:",
+      "opcoes": [
+        "It's free, on the house",
+        "A service charge has been added",
+        "You must tip",
+        "It needs repair"
+      ],
+      "correta": 0,
+      "explica": "サービス from a shopkeeper means free — not a service charge."
+    },
+    {
+      "pergunta": "You ask where the コンセント is. You want:",
+      "opcoes": [
+        "To give consent",
+        "A power socket to plug in",
+        "A concert hall",
+        "A cash desk"
+      ],
+      "correta": 1,
+      "explica": "コンセント is a wall socket, nothing to do with consent."
+    },
+    {
+      "pergunta": "You need a prescription filled. Which word points to the right counter?",
+      "opcoes": [
+        "ドラッグストア",
+        "コンビニ",
+        "薬局",
+        "スーパー"
+      ],
+      "correta": 2,
+      "explica": "A 薬局 has a pharmacist; a ドラッグストア is the everyday shop with an OTC shelf."
+    },
+    {
+      "pergunta": "Your foreign card was refused at a bank ATM. Where should you draw cash?",
+      "opcoes": [
+        "Another bank branch",
+        "The convenience store or post office ATM",
+        "A currency exchange only",
+        "Wait for the bank to open"
+      ],
+      "correta": 1,
+      "explica": "Seven Bank and Japan Post Bank ATMs take foreign cards around the clock, in English."
+    }
+  ]
+}

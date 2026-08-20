@@ -1,0 +1,96 @@
+{
+  "id": "q-a03",
+  "nivel": "avancado",
+  "titulo": "Quiz — Who they think they are",
+  "subtitulo": "A clock, a law and a running joke",
+  "introAudioKey": "fr-a03-q-i",
+  "introPt": "A traveller asks instead of agreeing.",
+  "cenario": "The end of a long lunch, with the owner still standing at the table.",
+  "dialogo": [
+    {
+      "audioKey": "fr-a03-q01",
+      "voz": "target_fr_m",
+      "es": "うちは全部手作りです。お味噌だけは近所の蔵のを使ってますけど。",
+      "pt": "We make everything here. Only the miso is from the local brewery.",
+      "tts": "うちは全部手作りです。お味噌だけは近所の蔵のを使ってますけど。"
+    },
+    {
+      "audioKey": "fr-a03-q02",
+      "voz": "target_fr_f",
+      "es": "この辺の名物は何ですか？",
+      "pt": "What's the local specialty here?",
+      "tts": "この辺の名物は何ですか？"
+    },
+    {
+      "audioKey": "fr-a03-q03",
+      "voz": "target_fr_m",
+      "es": "昔はもっと静かな町だったんですけどねえ。",
+      "pt": "This town used to be much quieter, you know.",
+      "tts": "昔はもっと静かな町だったんですけどねえ。"
+    },
+    {
+      "audioKey": "fr-a03-q04",
+      "voz": "target_fr_f",
+      "es": "この町、何が変わりましたか？",
+      "pt": "What's changed in this town?",
+      "tts": "この町、何が変わりましたか？"
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "The GI mark (地理的表示) on a Japanese product is:",
+      "opcoes": [
+        "A marketing phrase with no rules behind it",
+        "A label with a legal definition under the 2014 Act, in force since 2015",
+        "A regional label from Kansai only",
+        "A star rating"
+      ],
+      "correta": 1,
+      "explica": "The 地理的表示法, enacted 2014 and in force from June 2015, defines it: a product tied to a place and a traditional method."
+    },
+    {
+      "pergunta": "A product with no GI mark next to it tells you:",
+      "opcoes": [
+        "It is industrial",
+        "Nothing — registration is voluntary",
+        "It is frozen",
+        "It is more expensive"
+      ],
+      "correta": 1,
+      "explica": "Registration under the GI law is voluntary, so the absence of the mark proves nothing."
+    },
+    {
+      "pergunta": "At one in the afternoon, NHK time-use data shows:",
+      "opcoes": [
+        "Most people are working through",
+        "Lunch is clustered tightly around noon, and the window is collective",
+        "Lunch is spread evenly across the day",
+        "Nobody has started"
+      ],
+      "correta": 1,
+      "explica": "NHK's 国民生活時間調査 shows lunch clustered around noon; arriving mid-afternoon means arriving after the hour."
+    },
+    {
+      "pergunta": "Someone jokes that Japanese people apologise for everything. The move is:",
+      "opcoes": [
+        "Agree and add an example of your own",
+        "Laugh, and leave the line where they put it",
+        "Contradict them politely",
+        "Change the subject fast"
+      ],
+      "correta": 1,
+      "explica": "Self-mockery stays theirs; the same line from a visitor reads as a verdict."
+    },
+    {
+      "pergunta": "Which sentence keeps the subject open?",
+      "opcoes": [
+        "Yes, it really was quieter before",
+        "You're wrong, things have improved",
+        "What's changed in this town?",
+        "Japan has the same trouble everywhere"
+      ],
+      "correta": 2,
+      "explica": "A question about their experience buys the story; agreement and argument both close it."
+    }
+  ]
+}

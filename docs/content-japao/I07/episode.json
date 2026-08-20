@@ -1,0 +1,300 @@
+{
+  "id": "i07",
+  "nivel": "intermediario",
+  "numero": 25,
+  "parte": "I07",
+  "titulo": "The compliment that reaches the kitchen, and the flat sentence that gets it changed",
+  "subtitulo": "Name the dish and the praise travels; name the fact and the plate is swapped, both in about six words",
+  "cena": "The grilled fish was genuinely superb, the bowl before it came out cold, and you have ten seconds to do something useful with either fact.",
+  "moldura": "ganha",
+  "frasePiso": "Name the thing. Praise with a noun in it reaches the kitchen; a sentence with a fact in it gets acted on.",
+  "decisao": "elogiar nomeando o prato e dizer o fato em voz calma na hora, em vez de dizer «美味しい» a tudo e reclamar depois no hotel",
+  "moldes": [],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-i07-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "Two sentences, opposite jobs, one rule: name the thing. Vague praise stops at the table."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-i07-n02",
+      "bloco": "corpo",
+      "pt": "Praise first. Oishii on its own is polite noise. Name the dish and it becomes a message someone repeats to the kitchen."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_f",
+      "audioKey": "fr-i07-t01",
+      "es": "焼き魚がとても美味しかったです。ごちそうさまでした。",
+      "pinyin": "ya-ki-za-KA-na ga to-TE-mo o-i-shi-KAT-ta des. go-chi-soh-sa-ma-DESH-ta",
+      "pt": "The grilled fish was really delicious. Thank you for the meal.",
+      "tts": "焼き魚がとても美味しかったです。ごちそうさまでした。"
+    },
+    {
+      "consulta": [
+        "conversa/elogiar",
+        "comer/pedido"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-i07-p01",
+      "promptPt": "One plate was better than the rest. Praise it by name and send it through. Speak now.",
+      "audioKey": "fr-i07-t01",
+      "es": "焼き魚がとても美味しかったです。ごちそうさまでした。",
+      "pinyin": "ya-ki-za-KA-na ga to-TE-mo o-i-shi-KAT-ta des. go-chi-soh-sa-ma-DESH-ta",
+      "pt": "The grilled fish was really delicious. Thank you for the meal.",
+      "tts": "焼き魚がとても美味しかったです。ごちそうさまでした。"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-i07-r01",
+      "receptivo": true,
+      "acao": "Stay seated a beat. The reply is short, and the compliment still goes to the kitchen.",
+      "es": "ありがとうございます。板前に伝えます。喜びます。",
+      "pt": "Thank you. I'll tell the cook, he'll be pleased.",
+      "tts": "ありがとうございます。板前に伝えます。喜びます。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-i07-n03",
+      "pt": "Oishii, saiko, zeppin. All three are ordinary words here and all three beat a plain very good."
+    },
+    {
+      "consulta": [
+        "conversa/elogiar"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-i07-p02",
+      "promptPt": "Praise the house rather than the plate, on your way past the counter. Speak now.",
+      "audioKey": "fr-i07-t02",
+      "es": "ここは、本当に美味しいですね。",
+      "pinyin": "ko-KO wa, hon-TOH ni o-i-shi-i des-ne",
+      "pt": "The food here is really good.",
+      "tts": "ここは、本当に美味しいですね。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-i07-n04",
+      "bloco": "capsula",
+      "pt": "Now the other one. Sumimasen, then the fact, then stop talking. No story, no apology stacked on top."
+    },
+    {
+      "consulta": [
+        "reparo/reclamar",
+        "comer/pedido"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "SUMIMASEN",
+      "encaixe": "冷たいです",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-i07-p03",
+      "promptPt": "The bowl arrived cold. Say only that, in a level voice. Speak now.",
+      "audioKey": "fr-i07-t03",
+      "es": "すみません、これ、冷たいです。",
+      "pinyin": "su-mi-ma-SEN, ko-RE, tsu-me-TA-i des",
+      "pt": "Excuse me, this is cold.",
+      "tts": "すみません、これ、冷たいです。"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-i07-r02",
+      "es": "あ、失礼しました。すぐ温め直します。",
+      "pt": "Oh sorry, I'll heat it again right away.",
+      "tts": "あ、失礼しました。すぐ温め直します。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-i07-n05",
+      "pt": "That worked because there was a fact in it. Padding it with apologies gives them nothing to act on."
+    },
+    {
+      "consulta": [
+        "reparo/reclamar"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "SUMIMASEN",
+      "encaixe": "魚を頼みました",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-i07-p04",
+      "promptPt": "A different dish landed in front of you. Name the one you actually asked for. Speak now.",
+      "audioKey": "fr-i07-t04",
+      "es": "すみません、魚を頼んだんですが。",
+      "pinyin": "su-mi-ma-SEN, sa-KA-na o ta-non-da-n-des-ga",
+      "pt": "Excuse me, I ordered the fish.",
+      "tts": "すみません、魚を頼んだんですが。"
+    },
+    {
+      "consulta": [
+        "reparo/reclamar",
+        "comer/pedido"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-i07-p05",
+      "promptPt": "The glass is chipped. Ask for the swap, no explanation attached. Speak now.",
+      "audioKey": "fr-i07-t05",
+      "es": "これ、変えてもらえますか？",
+      "pinyin": "ko-RE, ka-e-te mo-ra-e-mas-ka",
+      "pt": "Could you change this for me?",
+      "tts": "これ、変えてもらえますか？"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-i07-n06",
+      "pt": "Sumimasen comes first, always. It is the knock on the door, and what follows it lands as normal."
+    },
+    {
+      "consulta": [
+        "reparo/reclamar"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "SUMIMASEN",
+      "encaixe": "まだかかりますか",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-i07-p06",
+      "promptPt": "Forty minutes have gone by. Ask about the wait without accusing anyone. Speak now.",
+      "audioKey": "fr-i07-t06",
+      "es": "すみません、まだかかりますか？",
+      "pinyin": "su-mi-ma-SEN, ma-da ka-ka-ri-mas-ka",
+      "pt": "Excuse me, is it still a while?",
+      "tts": "すみません、まだかかりますか？"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-i07-r03",
+      "receptivo": true,
+      "acao": "Two minutes means the plate is nearly up. Stay at the table.",
+      "es": "もう少しで来ます、二分ほどで。今夜は少し混んでいまして。",
+      "pt": "It's coming, two minutes. We're a bit busy tonight.",
+      "tts": "もう少しで来ます、二分ほどで。今夜は少し混んでいまして。"
+    },
+    {
+      "consulta": [
+        "conversa/agradecer"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-i07-p07",
+      "promptPt": "They sorted it in a minute. Close the loop so the table stays warm. Speak now.",
+      "audioKey": "fr-i07-t07",
+      "es": "ありがとうございます、助かります。",
+      "pinyin": "a-ri-ga-toh go-za-i-mas, ta-su-ka-ri-mas",
+      "pt": "Thank you very much, that helps a lot.",
+      "tts": "ありがとうございます、助かります。"
+    },
+    {
+      "consulta": [
+        "conversa/elogiar",
+        "conversa/despedir"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-i07-p08",
+      "promptPt": "On the way out, say the strongest compliment there is. Speak now.",
+      "audioKey": "fr-i07-t08",
+      "es": "また来ます。",
+      "pinyin": "ma-ta ki-mas",
+      "pt": "We'll be back.",
+      "tts": "また来ます。"
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_fr_f",
+      "audioKey": "fr-i07-s01",
+      "es": "焼き魚がとても美味しかったです。すみません、これ、冷たいです。ありがとうございます、助かります。",
+      "pinyin": "ya-ki-za-KA-na ga to-TE-mo o-i-shi-KAT-ta des. su-mi-ma-SEN, ko-RE, tsu-me-TA-i des. a-ri-ga-toh go-za-i-mas, ta-su-ka-ri-mas",
+      "pt": "Shadow the praise, the fact, and the close that keeps the room warm.",
+      "tts": "焼き魚がとても美味しかったです。すみません、これ、冷たいです。ありがとうございます、助かります。",
+      "molde": "SUMIMASEN"
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-i07-n07",
+      "bloco": "recap",
+      "pt": "I07 done. Name the dish to praise it, name the fact to get it changed, and close warmly either way."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "Both sentences need a noun",
+    "secoes": [
+      {
+        "titulo": "Named praise travels",
+        "corpo": "Naming the dish is what makes a compliment repeatable — nobody can carry «everything was lovely» into a kitchen, but they can carry «the grilled fish». Attach gochisosama deshita and the message has both the thing and the thanks in it, which is all it needs to reach the cook.",
+        "exemplos": [
+          {
+            "es": "焼き魚がとても美味しかったです。",
+            "pt": "The grilled fish was really delicious."
+          },
+          {
+            "es": "ここは、本当に美味しいですね。",
+            "pt": "The food here is really good."
+          }
+        ]
+      },
+      {
+        "titulo": "Sumimasen plus the fact",
+        "corpo": "Kore, tsumetai desu. Sakana o tanonda n desu ga. Mada kakarimasu ka. Three sentences, no adjectives, no account of how your day has gone. The shorter it is, the faster the plate moves."
+      },
+      {
+        "titulo": "Why the over-apology backfires",
+        "corpo": "Stacking apology on top of a fact buries the one piece of information the other person needs, and it signals that you are braced for an argument. A flat, warm, factual sentence is heard as information instead."
+      },
+      {
+        "titulo": "The strongest compliment is coming back",
+        "corpo": "Mata kimasu outranks any adjective. A place that feeds the same neighbourhood every week measures its work in the people who return, not in what gets typed into a phone afterwards."
+      }
+    ]
+  },
+  "slot": "I07",
+  "permissao": "You are allowed to say that a plate is cold. Sumimasen, kore, tsumetai desu is an ordinary sentence in a Japanese dining room, it is heard as information rather than as an attack, and the version where you eat it cold and grumble about it in the hotel helps nobody, least of all you.",
+  "permissaoAudioKey": "fr-i07-n04",
+  "espelho": "Anyone who has eaten a wrong order at home rather than flag it, and then complained about it in the car, already knows this reflex. It is not about Japanese — it is the belief that saying something makes you difficult, which is exactly backwards.",
+  "fichasCulturais": [
+    {
+      "sinal": "You praise a dish warmly and get a short «tsutaemasu» and nothing else — no held smile, no follow-up question.",
+      "suaLeitura": "The compliment landed badly, or they did not care about it.",
+      "oQueEAli": "At the table the reply to praise is usually brief and professional; the part that matters happens out of your sight, in the kitchen. Length of reply is not a measure of how the message was received.",
+      "oQueVoceFaz": "Say it once, name the dish, and let the short answer be the whole answer. Do not repeat it louder or add a second version.",
+      "oQueMelhora": "The compliment gets passed on and the exchange stays the size it was meant to be, which is also what makes it comfortable to do again the next night.",
+      "ondeNaoVale": "Not when what you actually want is a change to the plate — praise carries no request inside it, and the request needs its own sentence, starting with sumimasen.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "fr-i07-n02"
+      ]
+    },
+    {
+      "sinal": "You open with the problem straight away — «this is cold» — and the reply comes back clipped, even though the fact was true.",
+      "suaLeitura": "They resent being told, and complaining here is not worth it.",
+      "oQueEAli": "Opening formulas like sumimasen are described in pragmatics as rituals that soften the entry into someone's space; skipping them starts the exchange without that step, and the coolness that follows is about the opening rather than about the content.",
+      "oQueVoceFaz": "Put sumimasen in front of every one of these sentences, then the fact, then silence. Six words total is a complete, well-formed request.",
+      "oQueMelhora": "The same fact gets a different reception, and you stop reading a sequencing gap as hostility toward you.",
+      "ondeNaoVale": "Not as a claim that the opener guarantees a warm answer — a place that is genuinely swamped will be brisk with everyone, and that is what «konde imashite» is telling you.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "fr-i07-n06"
+      ]
+    }
+  ]
+}

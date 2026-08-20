@@ -1,0 +1,323 @@
+{
+  "id": "b04",
+  "nivel": "basico",
+  "numero": 4,
+  "parte": "B04",
+  "titulo": "비행기 타기 전에 만료되는 네 가지",
+  "subtitulo": "여행자 보험, 이제 그냥 집을 수 없게 된 교통카드, 실제로 필요할 현금, 그리고 휴대폰이 꺼져도 살아남는 예약",
+  "cena": "부엌 식탁, 출국 열흘 전 — 이 모든 걸 아직 공짜로 고칠 수 있는 마지막 순간이다.",
+  "moldura": "protege",
+  "frasePiso": "오늘 밤 집에서 정리해 두면, 그중 어느 것도 일본의 어떤 카운터에서도 틀어질 수 없다.",
+  "moldes": [],
+  "fatosDatados": [
+    {
+      "id": "fr-b04-ghic",
+      "afirmacao": "일본은 영국이나 EU와 상호 의료 협정이 없어서, 방문객은 어떤 국가 의료 제도로도 보호받지 못하고 치료비 전액을 부담하며, 보통은 선불이다 — 병원이 치료 전에 결제나 카드를 요구하는 일이 실제로 있다. 의료 보장이 포함된 여행자 보험이 이 빈틈을 메워 주는 것이고, 이 목록에서 선택 사항이 아닌 유일한 항목이다. 이건 유럽과 다르다: 여기서 뭔가를 해 주는 GHIC나 EHIC 같은 건 존재하지 않는다.",
+      "fonte": "Sem acordo recíproco de saúde entre Japão e Reino Unido/UE; visitante paga custo integral, em geral adiantado (orientação FCDO britânica: contratar seguro de viagem com cobertura médica para o Japão). GHIC/EHIC não têm validade no Japão.",
+      "ano": 2026,
+      "revisarAte": "2027-08-05",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "fr-b04-n02"
+      ]
+    },
+    {
+      "id": "fr-b04-carnet",
+      "afirmacao": "반도체 품귀 현상 때문에 JR East를 비롯한 여러 사업자가 2023년부터 등록되지 않은 일반 Suica와 Pasmo 카드 판매를 중단했고, 그래서 도착해서 그냥 발매기에서 하나 집으면 된다고 더는 믿을 수 없다. 대신 방문객은 공항에서 Welcome Suica — 28일 유효, 보증금 없음 — 를 구입하거나 휴대폰에 Suica를 추가할 수 있다. IC 카드는 대부분의 전철, 버스, 편의점, 자판기에서 전국적으로 쓰이고, 지역별 열 개의 카드는 대부분의 네트워크에서 서로 통용된다.",
+      "fonte": "Escassez de semicondutores levou JR East e outros a suspender, desde 2023, a venda do Suica/Pasmo comum não registrado; alternativa para turista: Welcome Suica (28 dias, sem caução) no aeroporto, ou Suica no celular. Interoperabilidade dos dez cartões IC regionais na maioria das redes.",
+      "ano": 2025,
+      "revisarAte": "2027-08-05",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "fr-b04-n03"
+      ]
+    },
+    {
+      "id": "fr-b04-especie",
+      "afirmacao": "일본은 여전히 현금 중심으로 돌아가고, 외국에서 발급된 카드가 모든 ATM에서 통하는 건 아니다: 믿을 만한 곳은 7-Eleven(Seven Bank)과 일본우체국(Yucho)의 기기로, 이곳은 24시간 해외 카드를 받는다. 많은 일반 은행 ATM은 해외 카드를 거절하거나 밤에는 문을 닫는다. 기억해 둘 만한 뉘앙스: 이건 현금 소지에 대한 법적 상한이 아니라 어디서 뽑을 수 있느냐의 제약이니, 아무 기기나 다 되겠거니 하지 말고 얼마나 가져갈지 또는 미리 뽑을지 대략 정해 두어라.",
+      "fonte": "Japão fortemente baseado em dinheiro; caixas que aceitam cartão estrangeiro de forma confiável: 7-Eleven (Seven Bank) e Japan Post (Yucho), 24h. Muitos ATMs de banco comum recusam cartão estrangeiro ou fecham à noite. Não é teto legal de espécie: é limite de onde se saca.",
+      "ano": 2026,
+      "revisarAte": "2027-08-05",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "fr-b04-n04"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-b04-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "오늘 밤 목록은 짧고, 만료된다. 네 가지, 모두 일본의 어떤 카운터에서보다 집에서 고치는 게 더 싸다."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-b04-n02",
+      "bloco": "corpo",
+      "pt": "하나: 의료 보장이 포함된 여행자 보험. 일본은 상호 협정이 없어서 방문객이 청구서 전액을 선불로 낸다. 유럽 카드는 도움이 안 된다."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-b04-n03",
+      "pt": "둘: 교통카드. 반도체 품귀로 일반 Suica 판매가 멈췄다 — 공항에서 Welcome Suica를 받거나 휴대폰에 Suica를 넣어라."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-b04-n04",
+      "pt": "셋: 현금. 지금 금액을 정해라 — 외국 카드는 여기 일부 ATM에서만 되고, 믿을 만한 건 7-Eleven과 일본우체국의 기기다."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-b04-n05",
+      "bloco": "capsula",
+      "pt": "넷: 예약, 신호가 없어도 되는 곳에 저장해 둔 것. 일본어로 된 전체 주소, 전화번호, 돌아오는 항공권."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-b04-r01",
+      "es": "はい、ホテルさくら、でございます。",
+      "pt": "네, 호텔 사쿠라입니다.",
+      "tts": "はい、ホテルさくら、でございます。"
+    },
+    {
+      "consulta": [
+        "quarto/checkin"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-b04-p01",
+      "promptPt": "출발 일주일 전, 호텔에 전화를 건다. 용건을 한 줄로 열어라. 지금 말하세요.",
+      "audioKey": "fr-b04-t01",
+      "es": "予約の確認をお願いしたいのですが。",
+      "pinyin": "yo-ya-ku no ka-KU-nin o o-ne-gai shi-tai no des ga",
+      "pt": "예약 확인을 부탁드리고 싶은데요.",
+      "tts": "予約の確認をお願いしたいのですが。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-b04-n06",
+      "pt": "호텔 이름은 목적지가 아니다. 기사도, 오프라인 지도도 주소가 필요하다 — 일본 주소는 거리가 아니라 블록으로 표시된다."
+    },
+    {
+      "consulta": [
+        "taxi/destino",
+        "quarto/checkin"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-b04-p02",
+      "promptPt": "예약 페이지에는 브랜드명과 지구명만 있다. 기사가 실제로 찾아갈 수 있는 것을 받아 두어라. 지금 말하세요.",
+      "audioKey": "fr-b04-t02",
+      "es": "住所を教えてもらえますか？",
+      "pinyin": "JOO-sho o o-shi-e-te mo-ra-e-mass-ka",
+      "pt": "주소를 알려주시겠어요?",
+      "tts": "住所を教えてもらえますか？"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-b04-r02",
+      "es": "中央区銀座一丁目二番三号です。",
+      "pt": "주오구, 긴자, 1-2-3입니다.",
+      "tts": "中央区銀座一丁目二番三号です。"
+    },
+    {
+      "consulta": [
+        "reparo/escreve"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-b04-p03",
+      "promptPt": "그걸 머릿속에 담고 있을 리 없고, 앱 안의 초록색 체크 표시가 증거도 아니다. 다른 방식으로 요청하라. 지금 말하세요.",
+      "audioKey": "fr-b04-t03",
+      "es": "メールで送ってもらえますか？",
+      "pinyin": "MEH-ru de o-KUT-te mo-ra-e-mass-ka",
+      "pt": "이메일로 보내주시겠어요?",
+      "tts": "メールで送ってもらえますか？"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-b04-n07",
+      "pt": "늦은 도착은 소리 내어 말해 둘 만한 유일한 세부 사항이다. 작은 프런트는 밤에 늘 사람이 있는 게 아니다."
+    },
+    {
+      "consulta": [
+        "quarto/checkin"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-b04-p04",
+      "promptPt": "비행기는 아홉 시에 도착하고 열차로 한 시간 더 걸린다. 언제 도착할지 알려라. 지금 말하세요.",
+      "audioKey": "fr-b04-t04",
+      "es": "夜の十時ごろ着きます。",
+      "pinyin": "yo-ru no JOO-ji go-ro tsu-ki-mass",
+      "pt": "밤 열 시쯤 도착해요.",
+      "tts": "夜の十時ごろ着きます。"
+    },
+    {
+      "consulta": [
+        "quarto/checkin"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-b04-p05",
+      "promptPt": "이제 그 시각에 문을 밀 때 누군가 있을지 확인하라. 지금 말하세요.",
+      "audioKey": "fr-b04-t05",
+      "es": "その時間、フロントは開いていますか？",
+      "pinyin": "so-no ji-KAN, FU-ron-to wa a-i-te i-mass-ka",
+      "pt": "그 시간에 프런트가 열려 있나요?",
+      "tts": "その時間、フロントは開いていますか？"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-b04-r03",
+      "es": "はい、フロントは二十四時間開いております。",
+      "pt": "네, 프런트는 24시간 열려 있습니다.",
+      "tts": "はい、フロントは二十四時間開いております。",
+      "receptivo": true,
+      "acao": "그 대답을 주소 옆에, 같은 오프라인 메모에 적어 두어라."
+    },
+    {
+      "consulta": [
+        "pagar/cartao"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-b04-p06",
+      "promptPt": "현금을 얼마나 가져갈지 정하기 전에, 이곳이 어떤 결제를 원하는지 알아보라. 지금 말하세요.",
+      "audioKey": "fr-b04-t06",
+      "es": "カードは使えますか？",
+      "pinyin": "KAH-do wa tsu-ka-e-mass-ka",
+      "pt": "카드 되나요?",
+      "tts": "カードは使えますか？"
+    },
+    {
+      "consulta": [
+        "quarto/checkin",
+        "reparo/escreve"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-b04-p07",
+      "promptPt": "휴대폰이 꺼졌을 때 도착장 공중전화에서 걸 수 있는 걸 받아 두어라. 지금 말하세요.",
+      "audioKey": "fr-b04-t07",
+      "es": "ホテルの電話番号を教えてください。",
+      "pinyin": "HO-te-ru no den-wa-ban-goh o o-shi-e-te ku-da-sai",
+      "pt": "호텔 전화번호를 알려주세요.",
+      "tts": "ホテルの電話番号を教えてください。"
+    },
+    {
+      "consulta": [
+        "simpatia/agradecer"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-b04-p08",
+      "promptPt": "통화를 열었던 방식 그대로 마무리하라 — 따뜻하고, 끝맺음 있게. 지금 말하세요.",
+      "audioKey": "fr-b04-t08",
+      "es": "わかりました。ありがとうございます。よろしくお願いします。",
+      "pinyin": "wa-ka-ri-MASH-ta, a-ri-ga-TOH go-za-i-mass, yo-ro-shi-ku o-ne-gai-shi-mass",
+      "pt": "알겠습니다. 감사합니다. 잘 부탁드려요.",
+      "tts": "わかりました。ありがとうございます。よろしくお願いします。"
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_fr_f",
+      "audioKey": "fr-b04-s01",
+      "es": "予約の確認をお願いしたいのですが。住所を教えてもらえますか？ メールで送ってもらえますか？",
+      "pinyin": "yo-ya-ku no ka-KU-nin o o-ne-gai shi-tai no des ga · JOO-sho o o-shi-e-te mo-ra-e-mass-ka · MEH-ru de o-KUT-te mo-ra-e-mass-ka",
+      "pt": "출국 전 통화 전체를 한 번에 따라 말해 보라.",
+      "tts": "予約の確認をお願いしたいのですが。住所を教えてもらえますか？ メールで送ってもらえますか？"
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-b04-n08",
+      "bloco": "recap",
+      "pt": "B04 완료. 보험 가입, 교통카드 계획, 현금 결정, 주소를 손에 쥔 채 예약 확인까지."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "더는 저렴하지 않게 되는 목록",
+    "secoes": [
+      {
+        "titulo": "보험, 안전망이 없기 때문에",
+        "corpo": "일본은 영국이나 EU와 상호 의료 협정이 없어서, 방문객은 모든 국가 의료 제도 밖에 있고 보통 선불로 치료비 전액을 낸다 — 병원이 치료 전에 결제나 카드를 요구할 수도 있다. 의료 보장이 포함된 여행자 보험이 유럽에서라면 들고 다녔을 건강보험 카드를 대신하는 것이고, 이 목록에서 선택 사항이 아닌 유일한 항목이다. 비행기를 타기 전에 가입하고, 오프라인으로도 확인할 수 있는 곳에 보험 증권 번호를 보관하라."
+      },
+      {
+        "titulo": "이제 그냥 집을 수 없게 된 교통카드",
+        "corpo": "반도체 품귀로 JR East를 비롯한 여러 사업자가 2023년부터 등록되지 않은 일반 Suica와 Pasmo 판매를 중단했고, 그래서 도착해서 발매기에서 하나 사면 된다는 예전 계획은 믿을 수 없다. 대신 방문객은 공항역에서 Welcome Suica — 28일 유효, 보증금 없음 — 를 사거나, 출국 전 휴대폰에 Suica를 추가할 수 있다. 충전되면 IC 카드는 대부분의 전철, 버스, 편의점, 자판기에서 전국적으로 쓰이고, 지역별 열 개의 카드는 대부분의 네트워크에서 서로 통용된다."
+      },
+      {
+        "titulo": "현금은 얼마나, 그리고 왜 숫자가 필요한가",
+        "corpo": "일본은 여전히 현금 중심으로 돌아가고, 외국에서 발급된 카드가 모든 ATM에서 되는 건 아니다. 믿을 만한 건 Seven Bank를 통한 7-Eleven과 일본우체국이고, 둘 다 24시간 해외 카드를 받는다. 많은 일반 은행 기기는 외국 카드를 거절하거나 밤에는 문을 닫는다. 이건 현금 소지에 대한 법적 상한이 아니라 어디서 뽑을 수 있느냐의 제약이고, 바로 그래서 아무 기기나 다 되겠거니 하는 것보다 자기 집 식탁에서 미리 금액을 정해 두는 편이 낫다."
+      },
+      {
+        "titulo": "통화는 질문 네 개면 된다",
+        "corpo": "여기서의 일본어는 서류 목록이 아니다. 전화 한 통으로 아직 고칠 수 있을 때 예약의 취약한 빈틈을 메워 준다: 확인하고, 정확한 주소를 받고, 서면으로 받고, 도착 시각을 알려라.",
+        "exemplos": [
+          {
+            "es": "予約の確認をお願いしたいのですが。",
+            "pt": "예약 확인을 부탁드리고 싶은데요."
+          },
+          {
+            "es": "住所を教えてもらえますか？",
+            "pt": "주소를 알려주시겠어요?"
+          }
+        ]
+      }
+    ]
+  },
+  "slot": "B04",
+  "permissao": "이 파트 하나만큼은 지나치게 준비해도 된다. 이미 있는 예약을 재확인하거나 아마 다시 볼 일 없을 주소를 저장해 두는 건 불안이 아니다 — 자기 식탁에서 오 분 쓰는 게 배터리 방전과 사람 없는 문 앞에 대비하는 진짜 보험이 되는, 여행에서 유일한 구간이다.",
+  "permissaoAudioKey": "fr-b04-n01",
+  "espelho": "항공사 앱이 멈출까 봐 탑승권을 캡처해 둔 적 있는 사람이라면 이미 이 본능을 문서 하나에 적용하고 있는 것이다. B04는 같은 오프라인 습관을 세 가지 더 요청할 뿐이다 — 익숙한 조심성을 확장한 것이지, 새로운 게 아니다.",
+  "fichasCulturais": [
+    {
+      "sinal": "도착해서 호텔을 찾으려 지도를 여는데 신호가 안 잡히고 브랜드명 말고는 저장해 둔 게 없다.",
+      "suaLeitura": "로밍 요금제를 샀어야 했는데, 여행이 나쁘게 시작됐어.",
+      "oQueEAli": "호텔 이름은 길찾기가 안 되고, 일본 주소는 거리 이름과 번호가 순서대로 이어지는 방식이 아니다 — 구, 지구, 블록으로 이뤄져 있어서 기억만으로 기사에게 전해 주기가 어렵다. 택시 기사들은 보통 호텔 전화번호를 차량 내비게이션에 바로 입력하기 때문에, 전화번호도 주소만큼이나 쓸모 있다.",
+      "oQueVoceFaz": "비행기를 타기 전에 일본어 주소와 전화번호를 서면으로 받아 두고, 예약 앱 안뿐만이 아니라 연결 없이도 열리는 곳에 둘 다 보관하라.",
+      "oQueMelhora": "기사는 전화번호를 내비게이션에 넣고 바로 출발할 수 있고, 당신은 아무도 길을 찾을 수 없는 브랜드명을 들고 도착장에 서 있지 않아도 된다.",
+      "ondeNaoVale": "예약 자체를 확인하는 걸 대신하지는 못한다 — 완벽한 주소가 붙어 있어도 애초에 확정되지 않은 예약이라면 여전히 방 없는 밤이다.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "fr-b04-n06"
+      ]
+    },
+    {
+      "sinal": "집에서처럼 작동할 거라 기대하고 병원이나 의사가 필요한데, 그 자리에서 전액을 결제하라는 요청을 받는다.",
+      "suaLeitura": "뭔가 잘못됐거나, 외국인이라고 바가지를 씌우는 거야.",
+      "oQueEAli": "아무것도 잘못되지 않았다. 일본은 영국이나 EU와 상호 의료 협정이 없어서 방문객은 어떤 국가 의료 제도로도 보호받지 못하고, 보통 선불로 전액을 청구받는다 — 카드나 유럽 건강보험 서류는 여기서 아무 소용이 없다.",
+      "oQueVoceFaz": "의료 보장이 포함된 여행자 보험을 들고, 보험 증권 정보를 오프라인으로도 보관하고, 나중에 청구하기 위해 영수증을 전부 챙겨라.",
+      "ondeNaoVale": "보험을 건너뛰고 요행을 바랄 이유는 아니다 — 일본에서 보험 없는 병원 입원은 같은 오후가 훨씬 더 비싸지는 버전이다.",
+      "oQueMelhora": "청구서가 손실이 아니라 돌려받을 청구 건이 되고, 유럽식 반사 반응을 국경 넘어까지 그대로 들고 다니던 습관을 멈추게 된다.",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "fr-b04-n02"
+      ]
+    }
+  ]
+}

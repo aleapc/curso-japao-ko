@@ -1,0 +1,96 @@
+{
+  "id": "q-a05",
+  "nivel": "avancado",
+  "titulo": "Quiz — The other language",
+  "subtitulo": "The sequence, the index, and the courtesy words",
+  "introAudioKey": "fr-a05-q-i",
+  "introPt": "A traveller greets first and asks second.",
+  "cenario": "A counter, twice: once opened with the request, once opened with sumimasen.",
+  "dialogo": [
+    {
+      "audioKey": "fr-a05-q01",
+      "voz": "target_fr_f",
+      "es": "いらっしゃいませ。",
+      "pt": "Welcome in.",
+      "tts": "いらっしゃいませ。"
+    },
+    {
+      "audioKey": "fr-a05-q02",
+      "voz": "target_fr_f",
+      "es": "すみません、ちょっとよろしいですか？",
+      "pt": "Excuse me, do you have a moment?",
+      "tts": "すみません、ちょっとよろしいですか？"
+    },
+    {
+      "audioKey": "fr-a05-q03",
+      "voz": "target_fr_m",
+      "es": "私はちょっと…でも、あの子が話せます。呼んできますね。",
+      "pt": "Not me... but she can. I'll go and get her.",
+      "tts": "私はちょっと…でも、あの子が話せます。呼んできますね。"
+    },
+    {
+      "audioKey": "fr-a05-q04",
+      "voz": "target_fr_f",
+      "es": "ありがとうございました。失礼します。",
+      "pt": "Thank you very much. Goodbye.",
+      "tts": "ありがとうございました。失礼します。"
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "The claim that people in Japan will not speak English to visitors is:",
+      "opcoes": [
+        "Measured by the EF index",
+        "A stereotype with no source behind it",
+        "Confirmed by a government survey",
+        "Japanese government policy"
+      ],
+      "correta": 1,
+      "explica": "Nothing measures it. The course does not repeat it."
+    },
+    {
+      "pergunta": "The EF EPI figure placing Japan in the low band supports:",
+      "opcoes": [
+        "A percentage of Japanese people who speak English",
+        "A rough country-level picture, because the sample is self-selected",
+        "A prediction about the next counter",
+        "A comparison of rural and urban Japan"
+      ],
+      "correta": 1,
+      "explica": "EF states it is an online survey of self-selected test-takers, biased and not representative."
+    },
+    {
+      "pergunta": "The ritual reading of the flat greeting is offered as:",
+      "opcoes": [
+        "A measured research finding",
+        "An interpretive hypothesis about opening rituals",
+        "A legal rule",
+        "A survey result"
+      ],
+      "correta": 1,
+      "explica": "It fits how openings work here and it is actionable, but it is not a measurement."
+    },
+    {
+      "pergunta": "The order that works at a counter is:",
+      "opcoes": [
+        "Request first, greeting after",
+        "Sumimasen, half a beat, then the question",
+        "Greeting only, no question",
+        "English first, Japanese if it fails"
+      ],
+      "correta": 1,
+      "explica": "The opening is the first half of the exchange, not a password."
+    },
+    {
+      "pergunta": "«Wakannai naa. Acchi no hito ni kiite mite» is:",
+      "opcoes": [
+        "A regional language",
+        "Ordinary Japanese at speed, with the middles dropped",
+        "Slang you should avoid",
+        "A different grammar"
+      ],
+      "correta": 1,
+      "explica": "Wakaranai, kiite mite, atchira — same Japanese, delivered fast."
+    }
+  ]
+}

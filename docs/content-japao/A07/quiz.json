@@ -1,0 +1,96 @@
+{
+  "id": "q-a07",
+  "nivel": "avancado",
+  "titulo": "Quiz — Welcome, wait, and time to go",
+  "subtitulo": "Five questions about the signals that arrive before the words",
+  "introAudioKey": "fr-a07-q-i",
+  "introPt": "A visitor reads four signals and gets each one right on the first beat.",
+  "cenario": "A long table, a counter, and a doorway.",
+  "dialogo": [
+    {
+      "audioKey": "fr-a07-q01",
+      "voz": "target_fr_f",
+      "es": "どうぞ、お先に。",
+      "pt": "Please, go ahead.",
+      "tts": "どうぞ、お先に。"
+    },
+    {
+      "audioKey": "fr-a07-q02",
+      "voz": "target_fr_m",
+      "es": "もう敬語はいいですよ。楽にしましょう。",
+      "pt": "You can drop the formal speech now. Let's be relaxed.",
+      "tts": "もう敬語はいいですよ。楽にしましょう。"
+    },
+    {
+      "audioKey": "fr-a07-q03",
+      "voz": "target_fr_f",
+      "es": "うーん、それはちょっと難しいですね…",
+      "pt": "Hmm, that one's a little difficult...",
+      "tts": "うーん、それはちょっと難しいですね…"
+    },
+    {
+      "audioKey": "fr-a07-q04",
+      "voz": "target_fr_m",
+      "es": "そろそろ、失礼しようかな。",
+      "pt": "Well, I should probably be getting going.",
+      "tts": "そろそろ、失礼しようかな。"
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Someone says douzo, osaki ni. What does that ask of you?",
+      "opcoes": [
+        "A thank-you and a question to confirm",
+        "Movement — the space is yours, so take it",
+        "An apology",
+        "A reply in the same words"
+      ],
+      "correta": 1,
+      "explica": "It is a green light, not a politeness that needs answering. Asking again slows everyone down."
+    },
+    {
+      "pergunta": "When do you drop keigo (desu/masu) with someone?",
+      "opcoes": [
+        "After about an hour of conversation",
+        "When they are younger than you",
+        "When it is offered — and only with that person",
+        "As soon as you know their name"
+      ],
+      "correta": 2,
+      "explica": "The casual register is offered, not taken. Keigo stays with everyone who has not made the offer, including their colleagues."
+    },
+    {
+      "pergunta": "You are offered the switch to casual speech. Best answer?",
+      "opcoes": [
+        "Decline politely — it is safer",
+        "Hai, zehi, and use it with that person",
+        "Accept and use plain form with the whole room",
+        "Ignore it and carry on with keigo"
+      ],
+      "correta": 1,
+      "explica": "Accept warmly, keep the scope narrow. That is the version that never misfires."
+    },
+    {
+      "pergunta": "A trailing chotto muzukashii desu ne. What is the useful next move?",
+      "opcoes": [
+        "Ask again in different words",
+        "Apologise at length",
+        "Thank them, then ask where it can be done instead",
+        "Walk away without answering"
+      ],
+      "correta": 2,
+      "explica": "The unfinished chotto closes that one request. The second question is what produces the other counter or address."
+    },
+    {
+      "pergunta": "Sorosoro, said with a glance at the middle distance. What is it?",
+      "opcoes": [
+        "A new topic starting",
+        "The first stage of the goodbye",
+        "Mild disagreement",
+        "A request for a drink"
+      ],
+      "correta": 1,
+      "explica": "Sorosoro is the wrap-up word. Standing up on the first one reads as easy company."
+    }
+  ]
+}

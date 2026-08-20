@@ -1,0 +1,359 @@
+{
+  "id": "a06",
+  "nivel": "avancado",
+  "numero": 34,
+  "parte": "A06",
+  "titulo": "Sixteen public holidays, and the days that actually empty the street",
+  "subtitulo": "A red date on the calendar does not shut the shops here; the konbini stays lit through all of them, and one question the night before beats any list you could memorise",
+  "cena": "A holiday Thursday: the hotel is open, the konbini is open, and the little place you crossed the city for has a handwritten card taped to the door.",
+  "moldura": "ganha",
+  "frasePiso": "Ask the door, not the calendar. Ashita wa aitemasu ka, said the evening before, is worth more than every holiday list ever printed.",
+  "moldes": [],
+  "fatosDatados": [
+    {
+      "id": "fr-a06-feries",
+      "afirmacao": "Japanese law lists national holidays in the 国民の祝日に関する法律 (sixteen as of 2026). Under the ハッピーマンデー制度 introduced in 2000, several of them were fixed to a Monday to create three-day weekends. Crucially for a visitor, a holiday does not oblige a shop to close: convenience stores, stations, department stores and many restaurants routinely open on national holidays, so closures fall business by business — often on each shop's own weekly day off (定休日) rather than on the holiday itself.",
+      "fonte": "国民の祝日に関する法律 (16 feriados nacionais em 2026); ハッピーマンデー制度 (2000) fixou alguns numa segunda-feira; feriado não obriga o comércio a fechar",
+      "ano": 2026,
+      "revisarAte": "2028-08-05",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "fr-a06-n02",
+        "fr-a06-n04"
+      ]
+    },
+    {
+      "id": "fr-a06-dimanche",
+      "afirmacao": "Two windows genuinely slow the whole country: 年末年始 (year-end and New Year) and お盆 (mid-August). Banks are closed by regulation from 31 December to 3 January, and many public offices and small businesses follow the same pattern; a great deal of ordinary retail closes for at least part of the year-end run. お盆, around 13–16 August, empties the big cities as people travel to their family regions, though stations, airports and resort areas are at their busiest in exactly those days.",
+      "fonte": "年末年始 (fim de ano/Ano-Novo) e お盆 (meados de agosto): bancos fechados por lei de 31/12 a 3/1; grande parte do comércio e repartições também; お盆 esvazia as cidades grandes",
+      "ano": 2026,
+      "revisarAte": "2028-08-05",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "fr-a06-n07",
+        "fr-a06-n08"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-a06-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "A holiday here is not a national off switch. Sixteen of them exist, and the konbini stays lit through every one."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-a06-n02",
+      "bloco": "corpo",
+      "pt": "A national holiday does not force a shop to close. Convenience stores, stations and department stores mostly just work."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-a06-r01",
+      "receptivo": true,
+      "acao": "Take that as the answer for this shop only. The one next door decided separately, so ask it separately.",
+      "es": "明日は祝日ですけど、うちは普通に営業してますよ。",
+      "pt": "Tomorrow's a holiday, but we're open as usual.",
+      "tts": "明日は祝日ですけど、うちは普通に営業してますよ。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-a06-n03",
+      "pt": "So the useful question is never what the calendar says. It is what this particular door does tomorrow."
+    },
+    {
+      "consulta": [
+        "compras/balcao"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-a06-p01",
+      "promptPt": "You are at the bakery counter on the eve of a red date, and you want to know about the morning after. Speak now.",
+      "audioKey": "fr-a06-t01",
+      "es": "明日は開いてますか？",
+      "pinyin": "a-shee-ta wa a-i-te-mas-ka",
+      "pt": "Is it open tomorrow?",
+      "tts": "明日は開いてますか？"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_f",
+      "audioKey": "fr-a06-r02",
+      "receptivo": true,
+      "acao": "That is the long weekend. Ask when they open again, and move that errand onto another day.",
+      "es": "うちは連休で、月曜までお休みなんです。",
+      "pt": "We're on the long weekend, so we're closed until Monday.",
+      "tts": "うちは連休で、月曜までお休みなんです。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-a06-n04",
+      "bloco": "capsula",
+      "pt": "The Happy Monday system pins several holidays to a Monday, so a renkyuu, a run of days off, forms. Taking it is each shop's own call."
+    },
+    {
+      "consulta": [
+        "compras/balcao"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-a06-p02",
+      "promptPt": "They have just told you the shutter stays down for the long weekend. Find out when it goes up again. Speak now.",
+      "audioKey": "fr-a06-t02",
+      "es": "いつから営業ですか？",
+      "pinyin": "ee-tsu ka-ra ei-GYOH des-ka",
+      "pt": "When do you reopen?",
+      "tts": "いつから営業ですか？"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-a06-n05",
+      "pt": "Two windows behave the way the guidebooks promise the holidays do. Those are year-end into New Year, and Obon in mid-August."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-a06-r03",
+      "receptivo": true,
+      "acao": "Buy your food the day before. Over the New Year run, plan as though very little opens.",
+      "es": "元日は、どこも閉まってますよ。パン屋さんもね。",
+      "pt": "On New Year's Day, everything's closed. Even the bakery.",
+      "tts": "元日は、どこも閉まってますよ。パン屋さんもね。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-a06-n06",
+      "pt": "Shop before the year-end run. It is the single stretch of the Japanese calendar worth planning a day around."
+    },
+    {
+      "consulta": [
+        "quarto/pedir"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-a06-p03",
+      "promptPt": "It is the twenty-ninth of December and you are at the hotel desk, thinking a few days ahead. Speak now.",
+      "audioKey": "fr-a06-t03",
+      "es": "元日は営業してますか？",
+      "pinyin": "gan-JI-tsu wa ei-GYOH shee-te-mas-ka",
+      "pt": "Are you open on New Year's Day?",
+      "tts": "元日は営業してますか？"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-a06-n07",
+      "pt": "The other pattern is the weekly day off. Rest is decided shop by shop, and it is drawn on a sign by the door."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_f",
+      "audioKey": "fr-a06-r04",
+      "receptivo": true,
+      "acao": "Teikyuubi is this shop's fixed day off. Read the sign, and the shop two doors down closes on a different day.",
+      "es": "うちは水曜が定休日なんですよ。",
+      "pt": "Our regular day off is Wednesday.",
+      "tts": "うちは水曜が定休日なんですよ。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-a06-n08",
+      "pt": "Year-end and Obon are the wide windows. A teikyuubi is the narrow one — one shop, one weekday, its own choice."
+    },
+    {
+      "consulta": [
+        "compras/balcao"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-a06-p04",
+      "promptPt": "Saturday evening, and you want to know how the shop handles the day after. Ask about the hour. Speak now.",
+      "audioKey": "fr-a06-t04",
+      "es": "日曜は何時からですか？",
+      "pinyin": "nee-chee-YOH wa NAN-ji ka-ra des-ka",
+      "pt": "What time do you open on Sunday?",
+      "tts": "日曜は何時からですか？",
+      "molde": "NAN-JI",
+      "encaixe": "日曜"
+    },
+    {
+      "consulta": [
+        "compras/balcao"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-a06-p05",
+      "promptPt": "Three shutters down in a row on the same street, and you still want breakfast. Ask a passer-by. Speak now.",
+      "audioKey": "fr-a06-t05",
+      "es": "開いてるパン屋を探しているんですが。",
+      "pinyin": "a-i-te-ru pan-ya o sa-ga-SHEE-te-ee-run des ga",
+      "pt": "I'm looking for a bakery that's open.",
+      "tts": "開いてるパン屋を探しているんですが。"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-a06-r05",
+      "receptivo": true,
+      "acao": "That card is this shop's year-end break, not the country's. Read the reopening date and walk on.",
+      "es": "年末年始は十二月三十日から一月四日までお休みです。",
+      "pt": "Closed for New Year from the thirtieth of December to the fourth of January.",
+      "tts": "年末年始は十二月三十日から一月四日までお休みです。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-a06-n09",
+      "pt": "In a city centre over Obon in August, streets empty. At the coast and in the mountains, the same weeks are the year's busiest."
+    },
+    {
+      "consulta": [
+        "compras/balcao"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-a06-p06",
+      "promptPt": "You want the food stalls, and you have no idea which morning they take over the square. Ask. Speak now.",
+      "audioKey": "fr-a06-t06",
+      "es": "朝市はどこですか？",
+      "pinyin": "a-sa-ee-chee wa DO-ko des-ka",
+      "pt": "Where's the morning market?",
+      "tts": "朝市はどこですか？"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-a06-n10",
+      "pt": "Morning markets keep their own calendar, and they often run on exactly the mornings the shops keep the shutter down."
+    },
+    {
+      "consulta": [
+        "compras/balcao"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-a06-p07",
+      "promptPt": "Late afternoon on a red date, one errand left, and you would rather not cross town for nothing. Speak now.",
+      "audioKey": "fr-a06-t07",
+      "es": "何時まで開いてますか？",
+      "pinyin": "NAN-ji ma-de a-i-te-mas-ka",
+      "pt": "How late is it open?",
+      "tts": "何時まで開いてますか？",
+      "molde": "NAN-JI",
+      "encaixe": "何時まで開いて"
+    },
+    {
+      "consulta": [
+        "simpatia/agradecer"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-a06-p08",
+      "promptPt": "A stranger just saved you a pointless trip across the city. Close it warmly. Speak now.",
+      "audioKey": "fr-a06-t08",
+      "es": "教えてくれて、ありがとうございます。",
+      "pinyin": "o-shee-e-te ku-re-te, a-ri-ga-TOH go-za-i-mas",
+      "pt": "Thanks for letting me know.",
+      "tts": "教えてくれて、ありがとうございます。"
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_fr_f",
+      "audioKey": "fr-a06-s01",
+      "es": "明日は開いてますか？ いつから営業ですか？ 何時まで開いてますか？",
+      "pinyin": "a-shee-ta wa a-i-te-mas-ka · ee-tsu ka-ra ei-GYOH des-ka · NAN-ji ma-de a-i-te-mas-ka",
+      "pt": "Shadow the three that cover a whole calendar: tomorrow, again, and until when.",
+      "tts": "明日は開いてますか？ いつから営業ですか？ 何時まで開いてますか？",
+      "molde": "NAN-JI"
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-a06-n11",
+      "bloco": "recap",
+      "pt": "A06 done. Sixteen dates, two windows that truly stop, an optional long weekend, a weekly day off by the door. Ask the door the evening before."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "Sixteen dates, two windows, and a sign by the door",
+    "secoes": [
+      {
+        "titulo": "Sixteen, and none of them forces a shop shut",
+        "corpo": "The 国民の祝日に関する法律 lists sixteen national holidays. A holiday marks the date, but it does not oblige a café, a konbini or a bakery to pull the shutter down — convenience stores and stations run straight through, and department stores often treat a holiday as a busy day. This is the point that catches visitors, because in many countries the holiday and the closure travel together.",
+        "exemplos": [
+          {
+            "es": "明日は開いてますか？",
+            "pt": "Is it open tomorrow?"
+          },
+          {
+            "es": "いつから営業ですか？",
+            "pt": "When do you reopen?"
+          }
+        ]
+      },
+      {
+        "titulo": "Happy Monday, and the long weekend",
+        "corpo": "The ハッピーマンデー制度 fixed several holidays to a Monday, so a renkyuu — a run of days off — forms around them. Whether an individual shop takes the whole run is its own decision, so a holiday week can look closed on one side of a street and normal on the other. Nobody is being inconsistent: many small decisions are simply being taken many different ways."
+      },
+      {
+        "titulo": "Year-end and Obon are the real stops",
+        "corpo": "Two windows genuinely slow the country. Over 年末年始, banks close by regulation from 31 December to 3 January and a great deal of retail and officialdom follows; plan those days as though little opens. お盆, mid-August, empties the big cities as people travel to family regions — while stations, airports and resort towns hit their busiest days of the year. It runs in opposite directions depending on where you are standing."
+      },
+      {
+        "titulo": "Teikyuubi is a sign, not a rule",
+        "corpo": "Beyond the two big windows, the everyday closure is the teikyuubi — a shop's fixed weekly day off, written on a sign by the door. One place rests on Wednesday, the next on Monday. A card in a window over the New Year period is one owner's break with the reopening date on it, not a national event. Reading the door, the evening before, settles all of it."
+      }
+    ]
+  },
+  "slot": "A06",
+  "permissao": "You are allowed to ask about opening hours as often as you like, in the plainest words you have. Ashita wa aitemasu ka is a normal counter question, asked constantly by people who live there, precisely because the answer changes shop by shop and nobody expects you to have worked it out on your own.",
+  "espelho": "Anyone who has driven to a garden centre on a bank holiday at home and found the car park empty knows this shape already. The difference is only that here each shop decides for itself, so the trip you save is the one you asked about the evening before.",
+  "permissaoAudioKey": "fr-a06-n03",
+  "fichasCulturais": [
+    {
+      "sinal": "The calendar says tomorrow is a national holiday, and the café downstairs is open with the tables already out.",
+      "suaLeitura": "Either my calendar is wrong or this place is breaking a rule.",
+      "oQueEAli": "Sixteen national holidays are listed in the 国民の祝日に関する法律, and none of them forces a shop to close. The date is marked without obliging anyone to stop, so cafés, konbini and small shops often work straight through.",
+      "oQueVoceFaz": "Stop reading the date and start asking the door. One question the evening before — ashita wa aitemasu ka — settles it for the place you actually need.",
+      "oQueMelhora": "You stop writing off whole days as lost and stop being surprised when a small shop is shut on an ordinary weekday instead — its teikyuubi.",
+      "ondeNaoVale": "Not over the year-end run, where the rule runs the other way and closure is the safe assumption for banks, offices and much of retail.",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "fr-a06-n02",
+        "fr-a06-n05"
+      ]
+    },
+    {
+      "sinal": "A card in a shop window gives a New Year closing range and a reopening date, and the street feels half asleep.",
+      "suaLeitura": "The whole country shuts down and this trip was badly timed.",
+      "oQueEAli": "Two windows genuinely slow things: the year-end run, when banks close by regulation from 31 December to 3 January and much of retail follows, and Obon in mid-August. Both are real enough to plan around, but they are business by business, and the card normally carries the reopening day.",
+      "oQueVoceFaz": "Read the reopening line, walk one more block, and let the konbini and the morning market rather than the small shops carry your day.",
+      "oQueMelhora": "These windows stop being a wall and become a redistribution: quieter city centres, and everything else happening somewhere else.",
+      "ondeNaoVale": "Completely inverted at the coast and in the mountains over Obon, where these are the fullest weeks of the year and the problem is finding a table rather than an open door.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "fr-a06-n09"
+      ]
+    }
+  ]
+}

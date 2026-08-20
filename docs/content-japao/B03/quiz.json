@@ -1,0 +1,96 @@
+{
+  "id": "q-b03",
+  "nivel": "basico",
+  "titulo": "Quiz — Sumimasen, and then the thing you need",
+  "subtitulo": "One opener, four different needs",
+  "introAudioKey": "fr-b03-q-i",
+  "introPt": "A traveller loses a price at a counter and gets it back in three moves.",
+  "cenario": "A konbini counter, mid-morning, one person serving and a short queue.",
+  "dialogo": [
+    {
+      "audioKey": "fr-b03-q01",
+      "voz": "target_fr_f",
+      "es": "すみません、わかりませんでした。",
+      "pt": "Sorry, I didn't understand.",
+      "tts": "すみません、わかりませんでした。"
+    },
+    {
+      "audioKey": "fr-b03-q02",
+      "voz": "target_fr_m",
+      "es": "あ、失礼しました。二百四十円です。",
+      "pt": "Oh, sorry — it's two hundred forty yen.",
+      "tts": "あ、失礼しました。二百四十円です。"
+    },
+    {
+      "audioKey": "fr-b03-q03",
+      "voz": "target_fr_f",
+      "es": "すみません、ゆっくりお願いします。",
+      "pt": "Sorry, slowly, please.",
+      "tts": "すみません、ゆっくりお願いします。"
+    },
+    {
+      "audioKey": "fr-b03-q04",
+      "voz": "target_fr_m",
+      "es": "二百、四十円です。はい、どうぞ。",
+      "pt": "Two hundred, forty yen. Here you go.",
+      "tts": "二百、四十円です。はい、どうぞ。"
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "What goes into the hole after sumimasen?",
+      "opcoes": [
+        "A conjugated verb you work out first",
+        "The thing you need from that person",
+        "Their name",
+        "An apology for your Japanese"
+      ],
+      "correta": 1,
+      "explica": "The opener never changes. Only what follows it does — the repeat, the slow version, the way through."
+    },
+    {
+      "pergunta": "You already asked for a repeat and still missed it. What next?",
+      "opcoes": [
+        "Ask for another repeat",
+        "Ask for it slowly — yukkuri onegai shimasu",
+        "Switch to English mid-sentence",
+        "Nod and work it out later"
+      ],
+      "correta": 1,
+      "explica": "Mou ichido gets the same sentence again. Yukkuri gets it stretched out, which is the different result you need."
+    },
+    {
+      "pergunta": "It is a platform number you cannot afford to guess. Which request wins?",
+      "opcoes": [
+        "Ask them to repeat it",
+        "Ask them to say it slowly",
+        "Ask them to write it down — kaite moraemasu ka",
+        "Ask someone else instead"
+      ],
+      "correta": 2,
+      "explica": "Numbers and names survive on paper and not in the air. Writing solves in one move what three repeats will not."
+    },
+    {
+      "pergunta": "The train is packed and your stop is next. What do you say?",
+      "opcoes": [
+        "Sumimasen, toorimasu",
+        "Sumimasen, ima nanji desu ka",
+        "Sumimasen, eigo wa hanasemasu ka",
+        "Arigatou, tasukarimashita"
+      ],
+      "correta": 0,
+      "explica": "Same opener, different ending. It is the frame doing the work, not four separate sentences."
+    },
+    {
+      "pergunta": "How many jobs does the single word sumimasen do?",
+      "opcoes": [
+        "Only one — it apologises",
+        "Two — it apologises and asks a question",
+        "Three — it calls attention, excuses the intrusion, and can even thank",
+        "It changes depending on who you are talking to"
+      ],
+      "correta": 2,
+      "explica": "One word does the work English splits across excuse me, sorry and thanks. You never change it for who you are talking to."
+    }
+  ]
+}

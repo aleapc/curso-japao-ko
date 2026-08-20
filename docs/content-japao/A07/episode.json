@@ -1,0 +1,337 @@
+{
+  "id": "a07",
+  "nivel": "avancado",
+  "numero": 35,
+  "parte": "A07",
+  "titulo": "Douzo, keigo, chotto, sorosoro — the four signals that arrive before the sentence",
+  "subtitulo": "Welcome sounds like permission handed over, dropping the polite speech is offered rather than taken, a no often arrives as a trailing chotto, and the goodbye starts before anyone stands up",
+  "cena": "Two hours at the table, plates cleared, and someone has just said sorosoro while nobody has moved yet.",
+  "moldura": "ganha",
+  "frasePiso": "Leave on the first sorosoro, not the third. Reading the exit signal buys you more goodwill than any sentence you could add.",
+  "moldes": [],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-a07-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "Most of what a room tells you here arrives before the sentence does. This part is mostly ears."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-a07-n02",
+      "bloco": "corpo",
+      "pt": "Start with welcome. It sounds like permission being handed over, and it is very short."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_f",
+      "audioKey": "fr-a07-r01",
+      "receptivo": true,
+      "acao": "That is a yes with room inside it. Move — do not ask a second time to be sure.",
+      "es": "どうぞ、お先に。",
+      "pt": "Please, go ahead.",
+      "tts": "どうぞ、お先に。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-a07-n03",
+      "pt": "Douzo, osaki ni, douzo douzo. All of them hand you the space for a moment. Take it."
+    },
+    {
+      "consulta": [
+        "simpatia/agradecer"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-a07-p01",
+      "promptPt": "You and someone else reach a narrow doorway in the same second, and you would rather they went. Speak now.",
+      "audioKey": "fr-a07-t01",
+      "es": "どうぞ、お先に。",
+      "pinyin": "DOH-zo, o-sa-ki ni",
+      "pt": "Please, after you.",
+      "tts": "どうぞ、お先に。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-a07-n04",
+      "pt": "Second signal, and it is the one visitors miss entirely: the drop from polite speech to casual. It is given, never taken."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-a07-r02",
+      "receptivo": true,
+      "acao": "That is an invitation, and it is about this person only. Accept it warmly and keep desu and masu with everyone else.",
+      "es": "もう敬語はいいですよ。楽にしましょう。",
+      "pt": "You can drop the formal speech now. Let's be relaxed.",
+      "tts": "もう敬語はいいですよ。楽にしましょう。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-a07-n05",
+      "bloco": "capsula",
+      "pt": "Until that sentence arrives, desu and masu with every adult you have just met. Waiting for it costs you nothing at all."
+    },
+    {
+      "consulta": [
+        "simpatia/puxar-conversa"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-a07-p02",
+      "promptPt": "Someone has just invited you to drop the formal speech. Take the offer, and sound pleased about it. Speak now.",
+      "audioKey": "fr-a07-t02",
+      "es": "はい、ぜひ。嬉しいです。",
+      "pinyin": "HAI, ze-hee · u-re-shee des",
+      "pt": "Yes, gladly! I'm happy to.",
+      "tts": "はい、ぜひ。嬉しいです。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-a07-n06",
+      "pt": "Third signal: the no. It often arrives not as a flat non but as a trailing chotto, left unfinished on purpose."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_f",
+      "audioKey": "fr-a07-r03",
+      "receptivo": true,
+      "acao": "The chotto that trails off is the whole answer. Do not wait for a clearer no — thank them and ask where it can be done instead.",
+      "es": "うーん、それはちょっと難しいですね…",
+      "pt": "Hmm, that one's a little difficult...",
+      "tts": "うーん、それはちょっと難しいですね…"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-a07-n07",
+      "pt": "Chotto muzukashii closes that one request and nothing else. Pressing for a clearer yes is what turns the counter cold."
+    },
+    {
+      "consulta": [
+        "simpatia/agradecer"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-a07-p03",
+      "promptPt": "The answer trailed off and you were not expecting it. Accept it and keep the person on your side. Speak now.",
+      "audioKey": "fr-a07-t03",
+      "es": "わかりました。でも、ありがとうございます。",
+      "pinyin": "wa-ka-ri-MASH-ta · de-mo, a-ri-ga-TOH go-za-i-mas",
+      "pt": "All right, I understand. Thanks anyway.",
+      "tts": "わかりました。でも、ありがとうございます。"
+    },
+    {
+      "consulta": [
+        "chegar/entrar"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-a07-p04",
+      "promptPt": "There is free space at the end of a shared bench, and the person already on it has not looked up. Speak now.",
+      "audioKey": "fr-a07-t04",
+      "es": "すみません、ここに座ってもいいですか？",
+      "pinyin": "soo-mee-ma-SEN, ko-ko ni su-wat-te mo ee des-ka",
+      "pt": "Excuse me, may I sit here?",
+      "tts": "すみません、ここに座ってもいいですか？",
+      "molde": "SUMIMASEN",
+      "encaixe": "ここに座ってもいいですか"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-a07-n08",
+      "pt": "Distance and volume are the quiet half of all this. Indoors, and on the train, the room usually sits a step below what you expect."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-a07-r04",
+      "receptivo": true,
+      "acao": "Drop your volume instead of explaining yourself. Rooms and carriages here run quieter than the ones you learned on.",
+      "es": "恐れ入りますが、もう少しお静かに…",
+      "pt": "Excuse me, a little quieter, please...",
+      "tts": "恐れ入りますが、もう少しお静かに…"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-a07-n09",
+      "pt": "Matching the room is the whole adjustment, and it takes about one evening. Nobody is asking for silence."
+    },
+    {
+      "consulta": [
+        "simpatia/puxar-conversa"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-a07-p05",
+      "promptPt": "You notice your group has been the loudest thing in the room for ten minutes. Own it lightly. Speak now.",
+      "audioKey": "fr-a07-t05",
+      "es": "すみません、うるさくしてしまって。",
+      "pinyin": "soo-mee-ma-SEN, u-ru-sa-ku shee-te shee-mat-te",
+      "pt": "Sorry, we're being too loud.",
+      "tts": "すみません、うるさくしてしまって。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-a07-n10",
+      "pt": "Last signal, and the most useful of the four: the exit. It starts long before anyone reaches for a coat."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_f",
+      "audioKey": "fr-a07-r05",
+      "receptivo": true,
+      "acao": "That is the first sorosoro. Start your goodbye here, instead of opening one more story.",
+      "es": "そろそろ、失礼しようかな。",
+      "pt": "Well, I should probably be getting going.",
+      "tts": "そろそろ、失礼しようかな。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-a07-n11",
+      "pt": "Sorosoro and soro-soro ne are the wrap-up words. The first one is your cue, not the third."
+    },
+    {
+      "consulta": [
+        "simpatia/agradecer"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-a07-p06",
+      "promptPt": "The other person has just given the conversation its closing signal. Match it rather than reopening. Speak now.",
+      "audioKey": "fr-a07-t06",
+      "es": "では、失礼します。",
+      "pinyin": "de-wa, shee-tsu-REI shee-mas",
+      "pt": "Well then, I'll let you go.",
+      "tts": "では、失礼します。"
+    },
+    {
+      "consulta": [
+        "simpatia/agradecer"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-a07-p07",
+      "promptPt": "The shop is a few minutes from shutting and the assistant is standing near the door. Speak now.",
+      "audioKey": "fr-a07-t07",
+      "es": "お閉めのところ、すみません。ありがとうございました。",
+      "pinyin": "o-shee-me no to-ko-ro, soo-mee-ma-sen · a-ri-ga-TOH go-za-i-mash-ta",
+      "pt": "Sorry to keep you at closing. Thank you.",
+      "tts": "お閉めのところ、すみません。ありがとうございました。"
+    },
+    {
+      "consulta": [
+        "reparo/devagar"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-a07-p08",
+      "promptPt": "You started talking over someone without meaning to. Hand the floor straight back. Speak now.",
+      "audioKey": "fr-a07-t08",
+      "es": "すみません、話をさえぎってしまって。どうぞ。",
+      "pinyin": "soo-mee-ma-SEN, ha-na-shee o sa-e-git-te shee-mat-te · DOH-zo",
+      "pt": "Sorry, I cut you off. Go ahead.",
+      "tts": "すみません、話をさえぎってしまって。どうぞ。",
+      "molde": "SUMIMASEN",
+      "encaixe": "話をさえぎってしまって"
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_fr_f",
+      "audioKey": "fr-a07-s01",
+      "es": "どうぞ、お先に。わかりました、ありがとうございます。では、失礼します。",
+      "pinyin": "DOH-zo o-sa-ki ni · wa-ka-ri-MASH-ta a-ri-ga-TOH go-za-i-mas · de-wa shee-tsu-REI shee-mas",
+      "pt": "Shadow the three that answer the signals: welcome, the soft no, and the cue to leave.",
+      "tts": "どうぞ、お先に。わかりました、ありがとうございます。では、失礼します。"
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-a07-n12",
+      "bloco": "recap",
+      "pt": "A07 done. Douzo is welcome, casual speech is offered, the no is a trailing chotto, and sorosoro is the cue to start leaving."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "Four signals, read in order",
+    "secoes": [
+      {
+        "titulo": "Welcome sounds like permission",
+        "corpo": "Douzo, osaki ni and douzo douzo all mean the same thing: the space, the seat, the turn or the doorway is yours for a moment. They are said quickly and quietly, and the mistake visitors make is treating them as politeness that needs a reply rather than as a green light that needs a movement.",
+        "exemplos": [
+          {
+            "es": "どうぞ、お先に。",
+            "pt": "Please, after you."
+          },
+          {
+            "es": "すみません、ここに座ってもいいですか？",
+            "pt": "Excuse me, may I sit here?"
+          }
+        ]
+      },
+      {
+        "titulo": "Casual speech is offered, and keigo costs nothing",
+        "corpo": "With any adult you do not know, and in every commercial setting, the polite desu and masu are the safe register, always. The move to casual, plain-form speech is normally proposed out loud — mou keigo wa ii desu yo — and it applies to that one relationship, not to the room. Looking for a precise rule about when to switch is a guaranteed dead end: age, setting, mood and history all move it, which is exactly why the offer exists. Being offered it is a small event worth noticing; going first is the only version that can misfire."
+      },
+      {
+        "titulo": "The soft no, and the second half of the answer",
+        "corpo": "A refusal here often arrives with no flat non at all: chotto muzukashii desu ne, trailing off, or a slow suck of breath. The unfinished chotto is the complete answer. Read it as being about the request rather than about you, take it once, and then ask where it is possible instead. Waiting for a clearer no, or asking again in slightly different words, is the move that actually damages the exchange."
+      },
+      {
+        "titulo": "Sorosoro is the cue",
+        "corpo": "Conversations here close in stages, and the first stage is a single word: sorosoro — it's about that time. Someone saying sorosoro and glancing at the middle distance has begun the goodbye. Standing up on the first one reads as easy company; needing the third makes the other person do the work of ending it. This is the single most useful thing in the part, because it applies to a dinner, a doorstep and a shop counter without changing shape."
+      }
+    ]
+  },
+  "slot": "A07",
+  "permissao": "You are allowed to keep saying desu and masu for the whole trip. Nobody reads it as coldness from a visitor, no door closes because of it, and the day someone wants the casual register they will say so out loud — which is the only signal you actually need to be able to hear.",
+  "espelho": "Anyone who has stayed twenty minutes too long at someone's house at home knows this exact discomfort from the other side: the host who has already started closing, and the guest who keeps finding one more thing to say. Every culture runs this negotiation; only the cue word changes.",
+  "permissaoAudioKey": "fr-a07-n05",
+  "fichasCulturais": [
+    {
+      "sinal": "After an hour of talking, someone drops the polite speech, or invites you to.",
+      "suaLeitura": "The formal speech was a barrier and it has finally come down, so I can use the casual register from now on.",
+      "oQueEAli": "Desu and masu are the standing register with any adult you do not know and in any commercial exchange. The move to casual speech is normally offered explicitly, and it is a property of that one relationship rather than a level you have reached.",
+      "oQueVoceFaz": "Accept warmly — hai, zehi — and carry on with desu and masu everywhere else, including with the person's colleagues, family and the shop on the corner.",
+      "oQueMelhora": "You get the warmth of the offer without the awkwardness of extending it to people who never made it, which is the version visitors usually get wrong.",
+      "ondeNaoVale": "Not a rule you can run in reverse to predict anything: age, region, setting and mood all move the line, and there is no precise rule. Waiting to be offered is reliable exactly because the prediction is not.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "fr-a07-n04",
+        "fr-a07-n05"
+      ]
+    },
+    {
+      "sinal": "You ask for something ordinary and get a slow chotto muzukashii desu ne that trails off, with no clear no.",
+      "suaLeitura": "They haven't actually refused, so if I ask again more clearly it might still be possible.",
+      "oQueEAli": "The trailing chotto is the refusal. A no here is often delivered by leaving the sentence unfinished rather than by saying the word, and the information is complete: this thing, here, now, is not going to happen.",
+      "oQueVoceFaz": "Say wakarimashita, arigatou gozaimasu — then ask where it can be done. That second question is the one that produces the address, the other counter or the machine that takes cards.",
+      "oQueMelhora": "You get the useful half of the exchange instead of pressing on a soft no, and the person stays willing to help you.",
+      "ondeNaoVale": "Not when an alternative was offered in the same breath — that was a redirection, not a refusal, and treating it as a knock-back means missing the answer you were given.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "fr-a07-n06",
+        "fr-a07-n07"
+      ]
+    }
+  ]
+}

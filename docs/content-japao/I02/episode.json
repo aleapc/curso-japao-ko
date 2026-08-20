@@ -1,0 +1,307 @@
+{
+  "id": "i02",
+  "nivel": "intermediario",
+  "numero": 20,
+  "parte": "I02",
+  "titulo": "Sumimasen first, and the counter opens",
+  "subtitulo": "The one word does the greeting, the excuse and the thanks — and once it is in front, four words are enough for the whole transaction",
+  "cena": "Three people deep at a stand-up coffee counter, the machine roaring, and you have about two seconds of the server's attention when it reaches you.",
+  "moldura": "ganha",
+  "frasePiso": "Sumimasen, then the thing, then onegai shimasu. Get the order of the moves right and the length of your sentence stops mattering.",
+  "decisao": "abrir com すみません antes de qualquer outra coisa, e depois pedir em quatro palavras em vez de construir uma frase longa e desculpada em inglês",
+  "moldes": [],
+  "fatosDatados": [
+    {
+      "id": "fr-i02-keigenzeiritsu",
+      "afirmacao": "Since the consumption-tax rise of 1 October 2019 Japan applies two rates to food and drink: a reduced 8 percent for takeaway (mochikaeri) and the standard 10 percent for eating in (tennai). That is the practical reason the counter asks tennai de meshiagari desu ka, omochikaeri desu ka before ringing you up — the answer changes the tax and therefore the price, so it is a question about money as much as about seating.",
+      "fonte": "軽減税率制度 (taxa reduzida), em vigor desde 01/10/2019 — Agência Nacional de Tributos do Japão (国税庁): 8% para お持ち帰り, 10% para 店内",
+      "ano": 2019,
+      "revisarAte": "2028-08-05",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "fr-i02-n05"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-i02-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "The counter has an order of operations, and the first move in it is not your order."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-i02-r01",
+      "receptivo": true,
+      "acao": "They have opened for you. You do not answer irasshaimase — you step in with sumimasen and your order.",
+      "es": "いらっしゃいませ！ご注文はお決まりですか？",
+      "pt": "Welcome! Are you ready to order?",
+      "tts": "いらっしゃいませ！ご注文はお決まりですか？"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-i02-n02",
+      "bloco": "corpo",
+      "pt": "Sumimasen comes first, every time: before the coffee, the question, any English. It calls attention, excuses, and thanks in one word."
+    },
+    {
+      "consulta": [
+        "chegar/balcao",
+        "mesa/bebida"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-i02-p01",
+      "promptPt": "You have reached the front of the counter and it is your turn. Open, then say what you came for. Speak now.",
+      "audioKey": "fr-i02-t01",
+      "es": "すみません、コーヒーをお願いします。",
+      "pinyin": "su-mi-ma-SEN, KOH-hii o o-ne-gai-shi-MAS",
+      "pt": "Excuse me, a coffee, please.",
+      "tts": "すみません、コーヒーをお願いします。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-i02-n03",
+      "pt": "Opening an interaction steps into someone's space. Sumimasen asks for passage, and doubles as excuse me when a shoulder is in your way."
+    },
+    {
+      "consulta": [
+        "chegar/balcao",
+        "reparo/apontar"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "SUMIMASEN",
+      "encaixe": "通ります",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-i02-p02",
+      "promptPt": "There is a shoulder between you and the till and no room to go around it. Speak now.",
+      "audioKey": "fr-i02-t02",
+      "es": "すみません、通ります。",
+      "pinyin": "su-mi-ma-SEN, TOH-ri-mas",
+      "pt": "Excuse me, coming through.",
+      "tts": "すみません、通ります。"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-i02-r02",
+      "receptivo": true,
+      "acao": "This question decides where you stand and what you pay. Answer it in two words, immediately.",
+      "es": "店内でお召し上がりですか、お持ち帰りですか？",
+      "pt": "Eating in, or taking away?",
+      "tts": "店内でお召し上がりですか、お持ち帰りですか？"
+    },
+    {
+      "consulta": [
+        "chegar/balcao",
+        "mesa/mesa"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-i02-p03",
+      "promptPt": "You have just been asked the question you heard a second ago, and you want to sit down. Speak now.",
+      "audioKey": "fr-i02-t03",
+      "es": "店内でお願いします。",
+      "pinyin": "TEN-nai de o-ne-gai-shi-MAS",
+      "pt": "Eating in, please.",
+      "tts": "店内でお願いします。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-i02-n04",
+      "bloco": "capsula",
+      "pt": "Short is not rude here. Sumimasen, the thing, onegai shimasu is a complete, polite turn: onegai shimasu carries the courtesy."
+    },
+    {
+      "consulta": [
+        "mesa/bebida",
+        "mesa/agua-pao"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-i02-p04",
+      "promptPt": "A coffee and a glass of water, in one breath, with no apology attached to either. Speak now.",
+      "audioKey": "fr-i02-t04",
+      "es": "コーヒーとお水をお願いします。",
+      "pinyin": "KOH-hii to o-MI-zu o o-ne-gai-shi-MAS",
+      "pt": "A coffee and a water, please.",
+      "tts": "コーヒーとお水をお願いします。"
+    },
+    {
+      "consulta": [
+        "reparo/devagar"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "SUMIMASEN",
+      "encaixe": "聞き取れませんでした",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-i02-p05",
+      "promptPt": "Something came back at you fast and none of it landed. Say so, without going into English. Speak now.",
+      "audioKey": "fr-i02-t05",
+      "es": "すみません、聞き取れませんでした。",
+      "pinyin": "su-mi-ma-SEN, ki-ki-to-re-ma-sen-de-shi-ta",
+      "pt": "Sorry, I didn't catch that.",
+      "tts": "すみません、聞き取れませんでした。"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-i02-r03",
+      "es": "大丈夫ですよ。コーヒー、店内で。承知しました。",
+      "pt": "No problem. One coffee, eating in. Got it.",
+      "tts": "大丈夫ですよ。コーヒー、店内で。承知しました。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-i02-n05",
+      "pt": "Since 2019 eat-in and takeaway are taxed differently, so they ask tennai or omochikaeri. It is a reading from context, not a fixed fact."
+    },
+    {
+      "consulta": [
+        "reparo/devagar"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "SUMIMASEN",
+      "encaixe": "もう一度お願いします",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-i02-p06",
+      "promptPt": "The machine is loud and the price went past you. Ask for it again. Speak now.",
+      "audioKey": "fr-i02-t06",
+      "es": "すみません、もう一度お願いします。",
+      "pinyin": "su-mi-ma-SEN, moh i-CHI-do o-ne-gai-shi-MAS",
+      "pt": "Sorry, could you say that again?",
+      "tts": "すみません、もう一度お願いします。"
+    },
+    {
+      "consulta": [
+        "chegar/balcao",
+        "simpatia/agradecer"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-i02-p07",
+      "promptPt": "Somebody arrives at the free spot at the counter at exactly the same moment you do. Two words settle it. Speak now.",
+      "audioKey": "fr-i02-t07",
+      "es": "お先にどうぞ。",
+      "pinyin": "o-SA-ki ni DOH-zo",
+      "pt": "After you.",
+      "tts": "お先にどうぞ。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-i02-n06",
+      "pt": "And the sequence closes as it opened. Gochisosama and arigato on the way out, said to the room, not to nobody."
+    },
+    {
+      "consulta": [
+        "simpatia/agradecer",
+        "chegar/sair"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-i02-p08",
+      "promptPt": "Cup empty, tray cleared, hand on the door. Close it. Speak now.",
+      "audioKey": "fr-i02-t08",
+      "es": "ごちそうさまでした。ありがとうございました。",
+      "pinyin": "go-chi-soh-sa-ma-DESH-ta. a-ri-ga-toh go-za-i-MASH-ta",
+      "pt": "Thanks for the meal. Thank you very much.",
+      "tts": "ごちそうさまでした。ありがとうございました。"
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_fr_f",
+      "audioKey": "fr-i02-s01",
+      "es": "すみません、コーヒーをお願いします。店内でお願いします。ごちそうさまでした。",
+      "pinyin": "su-mi-ma-SEN, KOH-hii o o-ne-gai-shi-MAS. TEN-nai de o-ne-gai-shi-MAS. go-chi-soh-sa-ma-DESH-ta",
+      "pt": "Shadow the whole counter, opening to door, in three lines.",
+      "tts": "すみません、コーヒーをお願いします。店内でお願いします。ごちそうさまでした。",
+      "molde": "SUMIMASEN"
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-i02-n07",
+      "bloco": "recap",
+      "pt": "I02 done. Sumimasen, the thing, onegai shimasu, tennai, and gochisosama on the way out: the counter in four moves."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "The order of the moves",
+    "secoes": [
+      {
+        "titulo": "Sumimasen, request, thanks",
+        "corpo": "The moves are fixed and the middle one is the only one that changes. Once you are running the sequence, the request itself can be as short as a noun and onegai shimasu, and it will land as complete.",
+        "exemplos": [
+          {
+            "es": "すみません、コーヒーをお願いします。",
+            "pt": "Excuse me, a coffee, please."
+          },
+          {
+            "es": "ごちそうさまでした。",
+            "pt": "Thanks for the meal."
+          }
+        ]
+      },
+      {
+        "titulo": "One word doing three jobs",
+        "corpo": "Sumimasen calls attention, excuses an intrusion, and can even thank — which is why it opens almost every counter exchange in the country. It is how you flag the staff (you do not raise a hand alone or click your fingers), how you ask to get past a shoulder, and how you soften a correction. Put it in front and the turn works; leave it off and the flat answer you get is easy to misread as unwillingness rather than sequence."
+      },
+      {
+        "titulo": "Eat-in or takeaway changes the bill",
+        "corpo": "Since October 2019 takeaway food carries the reduced 8 percent rate and eating in the standard 10 percent, so tennai or omochikaeri is a question about money as much as about seating. Answer it deliberately rather than by reflex, and read it as the routine question it is, not as pressure."
+      },
+      {
+        "titulo": "Hyper-politeness reads as noise",
+        "corpo": "A long apologetic English preamble does not read as more polite at a busy counter; it reads as a longer turn. The politeness is carried by sumimasen and by onegai shimasu, both of which are already inside your four words."
+      }
+    ]
+  },
+  "slot": "I02",
+  "permissao": "You are allowed to be brief. Sumimasen, the thing, onegai shimasu is not a stripped-down version of a real sentence — at a counter it is the real sentence, and nobody behind it is waiting for you to build a longer one.",
+  "permissaoAudioKey": "fr-i02-n04",
+  "espelho": "Anyone who has been at a busy till at home and had somebody arrive mid-question with no hello knows the small friction it causes. Nothing is said about it and the service still happens, just a degree cooler. This is the same mechanism, with one word as the fix.",
+  "fichasCulturais": [
+    {
+      "sinal": "You walk up and open in English with your request, and get a short, flat answer that feels like a door closing.",
+      "suaLeitura": "They would rather not speak English to me.",
+      "oQueEAli": "In Japan sumimasen is the ritual opening at a counter — it calls attention and makes it acceptable to enter someone's space. Starting straight with the request skips that opening, and the neutral, reserved tone that follows is easy to read as reluctance about language when it is really about sequence.",
+      "oQueVoceFaz": "Say sumimasen on its own, wait half a beat, and only then ask — in Japanese if you have it, in English if you do not.",
+      "oQueMelhora": "The exchange starts on the expected footing, and staff who do have some English are far more likely to offer it once the opening has happened.",
+      "ondeNaoVale": "This rests on how greeting rituals work, not a measured finding about attitudes, and it does not explain every cool counter. Someone at the end of a long shift with a queue behind you is sometimes just that.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "fr-i02-n02"
+      ]
+    },
+    {
+      "sinal": "You build a long, careful, apologetic sentence to order a coffee, and the response is a single word and a turn to the machine.",
+      "suaLeitura": "I was polite and got nothing back, so the politeness was wasted or unwelcome.",
+      "oQueEAli": "At a counter the expected turn is short: sumimasen, item, onegai shimasu. The single word back is the transaction moving, not a verdict on your sentence. Length is not what carries politeness there.",
+      "oQueVoceFaz": "Compress. Put the effort into the sumimasen and the onegai shimasu, and let the middle be a noun.",
+      "oQueMelhora": "You stop feeling rushed, because you are no longer trying to finish a long sentence inside a two-second window.",
+      "ondeNaoVale": "Not when you are asking for something outside the ordinary transaction — a favour, an exception, a bag left behind the counter. There the longer, more careful form is exactly what does the work.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "fr-i02-n04"
+      ]
+    }
+  ]
+}

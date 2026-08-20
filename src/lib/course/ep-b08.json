@@ -1,0 +1,325 @@
+{
+  "id": "b08",
+  "nivel": "basico",
+  "numero": 8,
+  "parte": "B08",
+  "titulo": "도코데스카 — 대답이 머릿속에 다 들어오는 질문",
+  "subtitulo": "장소를 말하고, 뒤이은 질문의 모양을 잡아서 대답이 예, 아니오, 아니면 가리키는 손으로 돌아오게 만들어라",
+  "cena": "휴대폰에 적힌 이름 하나를 들고 역에서 나왔는데, 앞에는 출구가 네 개고, 처음 물어보는 사람은 전속력으로 대답할 것이다.",
+  "moldura": "ganha",
+  "frasePiso": "장소를 말하고 wa doko desu ka. 그다음 예, 아니오, 손짓으로만 답할 수 있는 질문을 하나 더.",
+  "moldes": [
+    "DOKO-DESU-KA"
+  ],
+  "clique": {
+    "contagem": [
+      "역사",
+      "역 밖 거리",
+      "카페 카운터",
+      "박물관 입구"
+    ],
+    "desconto": "역사, 역 밖 거리, 카페 카운터, 박물관 입구마다 다른 문구를 배운 게 아니다. 어미 하나는 그대로 두고 그 앞의 장소만 바꿨을 뿐이다.",
+    "piso": "다음에 출구 네 개 앞에서 이름 하나만 들고 서 있을 때, 지도를 열고 막연히 바라지 않는다. 물어보고, 그다음 그 대답을 들고 다닐 수 있을 만큼 작게 만든다."
+  },
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-b08-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "물어보는 건 쉬운 절반이다. 어려운 절반은 모퉁이에 도착할 때까지 머리에 남아 있을 만큼 짧은 대답을 받아내는 것이다."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-b08-n02",
+      "bloco": "molde",
+      "pt": "틀은 이렇다: 장소, 그다음 wa doko desu ka. 당신이 고르는 건 장소뿐이고 어미는 절대 안 바뀐다."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_f",
+      "audioKey": "fr-b08-t01",
+      "es": "すみません、駅はどこですか？",
+      "pinyin": "soo-mee-ma-SEN, E-ki wa DO-ko des-ka",
+      "pt": "실례합니다, 역은 어디인가요?",
+      "tts": "すみません、駅はどこですか？"
+    },
+    {
+      "consulta": [
+        "transporte/placas",
+        "reparo/apontar"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "DOKO-DESU-KA",
+      "encaixe": "駅",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-b08-p01",
+      "promptPt": "열차 시간까지 20분 남았는데 선로가 어느 쪽인지 감이 안 온다. 먼저 말을 걸고, 그다음 물어봐라. 지금 말하세요.",
+      "audioKey": "fr-b08-t01",
+      "es": "すみません、駅はどこですか？",
+      "pinyin": "soo-mee-ma-SEN, E-ki wa DO-ko des-ka",
+      "pt": "실례합니다, 역은 어디인가요?",
+      "tts": "すみません、駅はどこですか？"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-b08-r01",
+      "receptivo": true,
+      "es": "二つ目の角を右に曲がって、まっすぐです。ここから五分くらいですよ。",
+      "pt": "두 번째 모퉁이에서 오른쪽으로 돌아서 쭉 가세요. 여기서 5분 정도예요.",
+      "tts": "二つ目の角を右に曲がって、まっすぐです。ここから五分くらいですよ。",
+      "acao": "세 단어만 잡고 나머지는 흘려보내라: futatsume, migi, massugu. 두 번째, 오른쪽, 직진."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-b08-n03",
+      "bloco": "corpo",
+      "pt": "잡을 수 있는 것보다 더 빠르게 돌아왔다. 그러니 예, 아니오, 손짓으로만 답할 수 있는 모양으로 다시 물어봐라."
+    },
+    {
+      "consulta": [
+        "reparo/apontar"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-b08-p02",
+      "promptPt": "방금 그 절반쯤밖에 못 알아들었다. 한 방향을 가리키고 맞는지 확인시켜라. 지금 말하세요.",
+      "audioKey": "fr-b08-t02",
+      "es": "こっちですか？",
+      "pinyin": "KOT-chi des-ka",
+      "pt": "이쪽인가요?",
+      "tts": "こっちですか？"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-b08-r02",
+      "es": "はい、そうです。まっすぐです。",
+      "pt": "네, 맞아요. 쭉 가시면 돼요.",
+      "tts": "はい、そうです。まっすぐです。"
+    },
+    {
+      "consulta": [
+        "transporte/placas"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "DOKO-DESU-KA",
+      "encaixe": "出口",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-b08-p03",
+      "promptPt": "지하 역사 안이고 통로가 네 방향으로 뻗어 있는데 햇빛은 어디에도 안 보인다. 지금 말하세요.",
+      "audioKey": "fr-b08-t03",
+      "es": "出口はどこですか？",
+      "pinyin": "de-GUCHI wa DO-ko des-ka",
+      "pt": "출구는 어디인가요?",
+      "tts": "出口はどこですか？"
+    },
+    {
+      "consulta": [
+        "taxi/parar"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "DOKO-DESU-KA",
+      "encaixe": "タクシー乗り場",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-b08-p04",
+      "promptPt": "비가 오고 있고 역 밖에 서 있는데, 택시들은 한 곳에서만 태우기 때문에 계속 그냥 지나간다. 지금 말하세요.",
+      "audioKey": "fr-b08-t04",
+      "es": "タクシー乗り場はどこですか？",
+      "pinyin": "ta-ku-SHII no-ri-ba wa DO-ko des-ka",
+      "pt": "택시 승강장은 어디인가요?",
+      "tts": "タクシー乗り場はどこですか？"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-b08-n04",
+      "bloco": "capsula",
+      "pt": "가장 많이 찾게 될 곳은 이름이 두 개다: toire, 그리고 좀 더 정중한 otearai. 둘 다 통하고, 서두를 때 가장 많이 묻는 말이기도 하다."
+    },
+    {
+      "consulta": [
+        "chegar/entrar"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "DOKO-DESU-KA",
+      "encaixe": "トイレ",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-b08-p05",
+      "promptPt": "카페 안에 있는데 안쪽에 표시 없는 문이 세 개 있다. 카운터 직원에게 물어봐라. 지금 말하세요.",
+      "audioKey": "fr-b08-t05",
+      "es": "トイレはどこですか？",
+      "pinyin": "TOH-i-re wa DO-ko des-ka",
+      "pt": "화장실은 어디인가요?",
+      "tts": "トイレはどこですか？"
+    },
+    {
+      "consulta": [
+        "transporte/placas"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-b08-p06",
+      "promptPt": "손으로 가리켜 줬다. 이번엔 걸어서 2분 거리인지 버스를 타야 하는지, 세 음절로 알아내라. 지금 말하세요.",
+      "audioKey": "fr-b08-t06",
+      "es": "遠いですか？",
+      "pinyin": "TOH-i des-ka",
+      "pt": "먼가요?",
+      "tts": "遠いですか？"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-b08-r03",
+      "es": "いいえ、歩いて五分です。",
+      "pt": "아니요, 걸어서 5분이에요.",
+      "tts": "いいえ、歩いて五分です。"
+    },
+    {
+      "consulta": [
+        "chegar/entrar"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "DOKO-DESU-KA",
+      "encaixe": "入口",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-b08-p07",
+      "promptPt": "박물관 한쪽을 다 걸었는데 지금까지 문마다 단체 전용이라고 쓰여 있었다. 지금 말하세요.",
+      "audioKey": "fr-b08-t07",
+      "es": "入口はどこですか？",
+      "pinyin": "i-ri-GUCHI wa DO-ko des-ka",
+      "pt": "입구는 어디인가요?",
+      "tts": "入口はどこですか？"
+    },
+    {
+      "consulta": [
+        "transporte/placas",
+        "reparo/apontar"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "ARIMASU-KA",
+      "encaixe": "地図",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-b08-p08",
+      "promptPt": "박물관 매표소에서. 휴대폰 배터리가 나갔고 카운터 뒤에 접힌 종이 뭉치가 보인다. 지금 말하세요.",
+      "audioKey": "fr-b08-t08",
+      "es": "地図はありますか？",
+      "pinyin": "CHI-zu wa a-ri-MAS-ka",
+      "pt": "지도 있나요?",
+      "tts": "地図はありますか？"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-b08-n05",
+      "pt": "너무 빠르게 대답이 돌아올 때는, 전체 답을 다시 천천히 받아낼 수 있는 문장이 하나 있다."
+    },
+    {
+      "consulta": [
+        "reparo/devagar"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "SUMIMASEN",
+      "encaixe": "もう一度お願いします",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-b08-p09",
+      "promptPt": "대답 전체가 2초 만에 스쳐 지나갔다. 다시 말해 달라고 해봐라. 지금 말하세요.",
+      "audioKey": "fr-b08-t09",
+      "es": "すみません、もう一度お願いします。",
+      "pinyin": "soo-mee-ma-SEN, MOH i-chi-do o-ne-gai-shi-mass",
+      "pt": "죄송해요, 한 번 더 말씀해 주세요.",
+      "tts": "すみません、もう一度お願いします。"
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_fr_f",
+      "audioKey": "fr-b08-s01",
+      "es": "駅はどこですか？ 出口はどこですか？ こっちですか？ 遠いですか？",
+      "pinyin": "E-ki wa DO-ko des-ka · de-GUCHI wa DO-ko des-ka · KOT-chi des-ka · TOH-i des-ka",
+      "pt": "짝을 따라 말해봐라: 장소를 먼저, 그다음 작게 줄인 질문을 뒤에.",
+      "tts": "駅はどこですか？ 出口はどこですか？ こっちですか？ 遠いですか？",
+      "molde": "DOKO-DESU-KA"
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-b08-n06",
+      "bloco": "recap",
+      "pt": "B08 완료. 이 틀로 역, 출구, 택시 승강장, 화장실, 입구를 다 찾았다 — 그리고 후속 질문 두 개가 대답을 들고 다닐 수 있게 해줬다."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "크게 묻고, 그다음 작게 물어라",
+    "secoes": [
+      {
+        "titulo": "Wa doko desu ka와 장소",
+        "corpo": "어미는 하나고, 당신이 고르는 건 장소뿐이다. 긴 존댓말 dochira deshou ka가 아니라 doko desu ka를 쓰는 이유는 te mo ii desu ka를 존댓말 버전 대신 쓰는 이유와 같다: 짧은 쪽이 급할 때 실제로 나오는 형태고, 긴 쪽은 사람들이 말하다가 도중에 포기하는 형태다.",
+        "exemplos": [
+          {
+            "es": "出口はどこですか？",
+            "pt": "출구는 어디인가요?"
+          },
+          {
+            "es": "タクシー乗り場はどこですか？",
+            "pt": "택시 승강장은 어디인가요?"
+          }
+        ]
+      },
+      {
+        "titulo": "한 곳을 가리키는 두 단어",
+        "corpo": "화장실은 이름이 둘이다 — 일상적으로 쓰는 toire, 그리고 조금 더 정중한 otearai. 둘 중 뭘 틀에 넣어도 통하고, 서두를 때 가장 많이 쓰게 될 질문이니 미리 준비해 두는 게 좋다."
+      },
+      {
+        "titulo": "대답을 딱 맞게 만들어라",
+        "corpo": "열린 질문은 빠른 속도로 열린 대답을 불러온다. 그러니 그 뒤에 닫힌 질문을 붙여라: 팔을 뻗으며 kocchi desu ka, 그리고 tooi desu ka. 둘 다 예, 아니오, 혹은 손짓으로만 돌아올 수 있고 — 손짓은 주변 단어를 하나도 못 알아들어도 바로 행동할 수 있는 대답이다."
+      },
+      {
+        "titulo": "잡아둘 만한 단어 세 개",
+        "corpo": "일본어의 길 안내는 몇 개의 단어에 몰려 있다: migi, hidari, massugu — 오른쪽, 왼쪽, 직진 — 그리고 몇 번째 모퉁이인지 알려주는 hitotsume, futatsume. 문장의 나머지는 다 여백이다. 서른 단어 대신 다섯 단어만 들으면 빠른 대답도 쓸 수 있는 대답으로 바뀐다."
+      }
+    ]
+  },
+  "slot": "B08",
+  "permissao": "대답을 못 알아들어도 괜찮다. 더 작은 모양으로 다시 묻는 건 첫 시도의 실패가 아니라 — 이 기술의 나머지 절반이고, 앞사람은 그냥 손으로 가리켜 줄 것이다.",
+  "espelho": "고향에서 길을 알려줘 본 사람이라면 세 번째 설명쯤에서 상대 눈이 흐려지는 걸 보고 결국 '그냥 저쪽이에요'라고 말해 본 적이 있을 것이다. 그 반사작용은 어느 언어에나 있다; 당신은 그저 그게 더 일찍 일어나도록 만들 뿐이다.",
+  "permissaoAudioKey": "fr-b08-n03",
+  "fichasCulturais": [
+    {
+      "sinal": "뭔가 어디 있는지 물었는데, 상대가 그냥 가리키기만 하지 않고 직접 걷기 시작하며 따라오라고 손짓한다.",
+      "suaLeitura": "내가 폐를 끼쳤고, 이제 이 딱한 관광객을 데려다줘야 한다고 느끼는 것 같다.",
+      "oQueEAli": "길 잃은 낯선 사람을 일부, 혹은 문 앞까지 데려다주는 건 일본에서 흔한 배려이지 짜증의 표시가 아니다. 가리키는 것만으로는 부족하다고 판단해 직접 데려다주기로 한 것은, 번거로움에 대한 불만이 아니라 순수한 도움의 제공이다.",
+      "oQueVoceFaz": "잠시 함께 걸어가고, 헤어질 때 진심으로 감사를 표해라 — 또렷한 doumo arigatou gozaimasu와 가벼운 목례로.",
+      "oQueMelhora": "설명 반쪽만 듣고 마는 대신 목적지에 도착하게 되고, 그 행동을 자신이 끼친 폐가 아니라 있는 그대로의 친절로 받아들이게 된다.",
+      "ondeNaoVale": "기대하거나 당연히 여길 일은 아니다 — 특히 바쁠 때는 많은 사람이 그냥 손으로 가리키기만 할 것이고, 그것도 완전한 대답이다.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "fr-b08-n01"
+      ]
+    },
+    {
+      "sinal": "뭔가 어디 있는지 물었는데 한 번도 들어본 적 없는 거리 이름과 랜드마크가 섞인 서른 단어짜리 대답이 전속력으로 돌아온다.",
+      "suaLeitura": "내 일본어 실력이 이 정도는 안 되니, 그만 물어보고 휴대폰을 써야겠다.",
+      "oQueEAli": "길을 알려주는 사람은 경로 전체를 설명해 준다, 질문이 그걸 물었기 때문이다. 대답의 길이는 질문의 성질일 뿐, 당신 발음에 대한 평가가 아니다.",
+      "oQueVoceFaz": "처음 두세 단어만 잡고, 질문을 좁혀라: 손가락으로 가리키며 kocchi desu ka라고 말하고, 이어서 tooi desu ka.",
+      "oQueMelhora": "긴 설명 대신 손짓과 '예'를 얻고, 다음 모퉁이까지 계속 기억할 수 있는 것을 손에 쥐고 대화를 끝낸다.",
+      "ondeNaoVale": "여러 번 꺾어야 하거나 노선을 갈아타야 하는 등 방향이 아니라 진짜 경로가 필요할 때는 다르다. 그럴 땐 정직하게 지도에 표시해 달라고 하거나 이름을 적어 달라고 하는 게 맞다.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "fr-b08-n03"
+      ]
+    }
+  ]
+}

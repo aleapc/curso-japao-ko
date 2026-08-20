@@ -1,0 +1,96 @@
+{
+  "id": "q-b05",
+  "nivel": "basico",
+  "titulo": "Quiz — Mokuteki, nannichi, doko",
+  "subtitulo": "Three answers and the booking does the rest",
+  "introAudioKey": "fr-b05-q-i",
+  "introPt": "A traveller clears the border desk in four short answers.",
+  "cenario": "The border desk, first hour after landing.",
+  "dialogo": [
+    {
+      "audioKey": "fr-b05-q01",
+      "voz": "target_fr_m",
+      "es": "こんにちは。旅行の目的は何ですか？",
+      "pt": "Hello. What is the purpose of your trip?",
+      "tts": "こんにちは。旅行の目的は何ですか？"
+    },
+    {
+      "audioKey": "fr-b05-q02",
+      "voz": "target_fr_f",
+      "es": "観光です。",
+      "pt": "Sightseeing.",
+      "tts": "観光です。"
+    },
+    {
+      "audioKey": "fr-b05-q03",
+      "voz": "target_fr_m",
+      "es": "どこに泊まりますか？",
+      "pt": "Where are you staying?",
+      "tts": "どこに泊まりますか？"
+    },
+    {
+      "audioKey": "fr-b05-q04",
+      "voz": "target_fr_f",
+      "es": "東京の、ホテルです。はい、これです。",
+      "pt": "In Tokyo, in a hotel. Yes, here it is.",
+      "tts": "東京の、ホテルです。はい、これです。"
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "«Ryokou no mokuteki wa nan desu ka?» — what is being asked?",
+      "opcoes": [
+        "How long you are staying",
+        "Why you have come",
+        "Where you are sleeping",
+        "Whether you are travelling alone"
+      ],
+      "correta": 1,
+      "explica": "Mokuteki is the purpose. Duration and address are separate questions with separate answers."
+    },
+    {
+      "pergunta": "What does «kore desu» do?",
+      "opcoes": [
+        "Asks for a moment",
+        "Says you did not understand",
+        "Hands over the document — 'here it is'",
+        "Asks where to go next"
+      ],
+      "correta": 2,
+      "explica": "Three syllables and an open hand. It moves the exchange off your memory and onto your evidence."
+    },
+    {
+      "pergunta": "The officer asks one short question. What is the best-shaped answer?",
+      "opcoes": [
+        "The full itinerary, so nothing looks hidden",
+        "Only what was asked, then stop",
+        "A long friendly explanation",
+        "Silence and the passport"
+      ],
+      "correta": 1,
+      "explica": "The desk is working through matched pairs. An answer that runs past its question reads as material to check, not as warmth."
+    },
+    {
+      "pergunta": "You did not catch what was said. What do you say?",
+      "opcoes": [
+        "Hai",
+        "Sumimasen, wakarimasen deshita",
+        "Yoi go-ryokou o",
+        "Tooka-kan desu"
+      ],
+      "correta": 1,
+      "explica": "Say it once, plainly. Guessing at a border desk costs more time than asking."
+    },
+    {
+      "pergunta": "Why is «kankou desu» enough, rather than «kankou» alone?",
+      "opcoes": [
+        "It is a rule of Japanese grammar that every noun needs it",
+        "It makes officers friendlier",
+        "The -desu ending is what keeps a one-word reply polite",
+        "It shows you speak Japanese"
+      ],
+      "correta": 2,
+      "explica": "Politeness rides on the -desu ending and a small nod, not on a longer sentence. Kankou alone is bare; kankou desu is complete and courteous."
+    }
+  ]
+}

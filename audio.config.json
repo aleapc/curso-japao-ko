@@ -1,0 +1,33 @@
+{
+  "_comentario": "KO → Japão: voz-guia COREANA (Chaerin f + KyungHoon m), fala-alvo JAPONESA (Rina f + Taro m, sotaque padrão/Tóquio) — 100% REUSADA do curso-japao (EN→Japão), mesmos voiceId em target_fr_*. INV-5: guia nunca fala japonês, nativa nunca fala coreano. Guia flash, alvo multilingual_v2. DERIVAÇÃO: só a camada de guia é nova; o áudio-alvo é herdado sem regravar.",
+  "_casting": "Chaerin e KyungHoon são as vozes coreanas já usadas em curso-italia-ko e curso-espanha-ko — reuso de casting entre corredores, mesmo par em toda a coluna KO do catálogo.",
+  "_fonetica_do_par": "Coreano → japonês: o par tipologicamente mais próximo do catálogo. Ambas as línguas são SOV com partículas pós-posicionais, sistemas de honoríficos paralelos, e boa parte do léxico sino-coreano/sino-japonês é cognato (漢字語/한자어). CHEGA COM: ordem de frase, noção de partícula gramatical, registro de polidez. PRECISA APRENDER: o inventário fonético japonês é MENOR que o coreano (5 vogais puras, sem coda consonantal exceto ん/っ) — o erro típico do coreano é inserir vogais extras ao final de sílaba fechada (empréstimo do coreano, que aceita coda). A pronúncia tende a ser mais fácil para o coreano do que para o falante ocidental médio; o risco maior é achar por semelhança lexical que uma palavra sino-japonesa significa o mesmo que sua contraparte sino-coreana quando o sentido divergiu.",
+  "guideModel": "eleven_flash_v2_5",
+  "targetModel": "eleven_multilingual_v2",
+  "roles": {
+    "guide_en_us_f": {
+      "voiceId": "0acaXyU36iMbRS9PXzmk",
+      "languageCode": "ko",
+      "name": "Chaerin"
+    },
+    "guide_en_us_m": {
+      "voiceId": "JsyP5NIpAZhfPw5mwSP0",
+      "languageCode": "ko",
+      "name": "KyungHoon"
+    },
+    "target_fr_f": {
+      "voiceId": "lxNssjs8lZzgD44uVifH",
+      "languageCode": "ja",
+      "name": "Rina"
+    },
+    "target_fr_m": {
+      "voiceId": "ku6tlRNlVa98Jhz5xz1B",
+      "languageCode": "ja",
+      "name": "Taro"
+    }
+  },
+  "_g14": {
+    "guiaLingua": "ko",
+    "alvoLingua": "ja"
+  }
+}

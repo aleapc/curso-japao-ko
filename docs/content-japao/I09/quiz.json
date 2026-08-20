@@ -1,0 +1,96 @@
+{
+  "id": "q-i09",
+  "nivel": "intermediario",
+  "titulo": "Quiz — The closing day, and the places that keep their own calendar",
+  "subtitulo": "Rest is scheduled, not random, and each place posts its own day",
+  "introAudioKey": "fr-i09-q-i",
+  "introPt": "A morning at the market, and the question that turns a stranger into a guide.",
+  "cenario": "A market stall before noon, a dark museum across the street.",
+  "dialogo": [
+    {
+      "audioKey": "fr-i09-q01",
+      "voz": "target_fr_f",
+      "es": "朝市を探しています。今日は開いていますか？",
+      "pt": "I'm looking for a morning market. Is it open today?",
+      "tts": "朝市を探しています。今日は開いていますか？"
+    },
+    {
+      "audioKey": "fr-i09-q02",
+      "voz": "target_fr_m",
+      "es": "朝市は朝のうちですよ。お昼には終わります。",
+      "pt": "The morning market is early. It packs up by lunchtime.",
+      "tts": "朝市は朝のうちですよ。お昼には終わります。"
+    },
+    {
+      "audioKey": "fr-i09-q03",
+      "voz": "target_fr_f",
+      "es": "美術館は？ 今日は開いていますか？",
+      "pt": "And the museum? Is it open today?",
+      "tts": "美術館は？ 今日は開いていますか？"
+    },
+    {
+      "audioKey": "fr-i09-q04",
+      "voz": "target_fr_m",
+      "es": "今日は月曜なので休みです。でも、隣町のは開いてますよ。",
+      "pt": "It's Monday, so it's closed. But the next town's is open.",
+      "tts": "今日は月曜なので休みです。でも、隣町のは開いてますよ。"
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Why is one door dark while the next one along is open?",
+      "opcoes": [
+        "It closes at random",
+        "Each place keeps its own teikyubi — a fixed weekly closing day",
+        "Closing days rotate between districts",
+        "It only happens in summer"
+      ],
+      "correta": 1,
+      "explica": "There is no single national day off; the calendar is per-establishment, and the little sign by the door is usually that calendar."
+    },
+    {
+      "pergunta": "Museums in Japan mostly close on:",
+      "opcoes": [
+        "Sundays",
+        "Mondays — shifting to the next day when Monday is a public holiday",
+        "Wednesdays",
+        "They never close"
+      ],
+      "correta": 1,
+      "explica": "Check the closing day before you walk twenty minutes to a dark door."
+    },
+    {
+      "pergunta": "When should you get to a morning market?",
+      "opcoes": [
+        "Mid-afternoon",
+        "After lunch, when it fills up",
+        "In the morning — it packs up by lunchtime",
+        "Any time, they run all day"
+      ],
+      "correta": 2,
+      "explica": "Asa-ichi wa asa no uchi — the whole planning rule for the morning."
+    },
+    {
+      "pergunta": "You want to try something before buying half a kilo of it. You say:",
+      "opcoes": [
+        "Ajimi shite mo ii desu ka?",
+        "Nothing — you help yourself to a piece",
+        "You point and hope",
+        "You buy it and find out"
+      ],
+      "correta": 0,
+      "explica": "The seller picks it up and cuts the piece — self-service is not the done thing at a stall."
+    },
+    {
+      "pergunta": "Which question gets you an actual afternoon plan?",
+      "opcoes": [
+        "What is there to see here?",
+        "Is this the best museum?",
+        "Yasumi no hi wa nani o shimasu ka?",
+        "Where do tourists go?"
+      ],
+      "correta": 2,
+      "explica": "It asks about their day rather than your itinerary, so the answer comes back with a place and an hour in it."
+    }
+  ]
+}

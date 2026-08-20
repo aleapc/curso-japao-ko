@@ -1,0 +1,382 @@
+{
+  "id": "b11",
+  "nivel": "basico",
+  "numero": 11,
+  "parte": "B11",
+  "titulo": "오네가이시마스 — 첫 잔을 주문하는 어미",
+  "subtitulo": "이 어미 하나로 커피 한 잔, 물 한 잔, 메뉴판, 오늘 밤 테이블까지 해결된다, 예의는 이미 그 안에 들어 있다",
+  "cena": "카운터가 가까운 작은 가게에 있는데, 직원들은 테이블 사이를 빠르게 오가고, 원하는 걸 말할 시간은 3초쯤밖에 없다.",
+  "moldura": "ganha",
+  "frasePiso": "물건, 그다음 wo onegai shimasu. 예의는 이미 그 말 안에 들어 있다.",
+  "moldes": [
+    "ONEGAI-SHIMASU"
+  ],
+  "clique": {
+    "contagem": [
+      "카페 카운터",
+      "테이블",
+      "오늘 밤 예약을 받는 레스토랑"
+    ],
+    "desconto": "커피, 물, 메뉴판, 오늘 밤 테이블마다 따로 문장을 배운 게 아니다. 어미 하나는 그대로 두고 그 앞에 오는 것만 바꿨다.",
+    "piso": "다음에 3초가 주어지고 직원이 지나갈 때, 손가락으로 가리키고 바라기만 하지 않는다. 원하는 걸 이름 대고 onegai shimasu로 마무리한다."
+  },
+  "fatosDatados": [
+    {
+      "id": "fr-b11-affichage",
+      "afirmacao": "2021년 4월부터 일본은 소비자에게 세금 포함 총액 표시(総額表示)를 의무화했다: 눈앞에 보이는 숫자에는 이미 소비세가 포함돼 있으므로, 메뉴판의 숫자가 대체로 실제로 내는 금액이다. 식사와 관련해 한 가지 주의할 점이 있다: 포장은 8%, 매장 내 취식은 10%의 세율이 적용되므로, 같은 메뉴라도 '포장'과 '매장'의 가격이 다를 수 있다.",
+      "fonte": "Agência Nacional de Impostos do Japão (総額表示義務, obrigatório desde abr/2021); alíquota reduzida de 8% para levar e 10% para consumir no local.",
+      "ano": 2026,
+      "revisarAte": "2028-08-05",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "fr-b11-n04"
+      ]
+    },
+    {
+      "id": "fr-b11-service-compris",
+      "afirmacao": "일본에는 팁 문화가 없고, 테이블에 남겨둔 돈을 직원이 쫓아와서 돌려주는 일도 흔하다. 물(お冷や 또는 お水)과 종종 차는 요청하지 않아도 물수건(おしぼり)과 함께 공짜로 나온다. 일부 가게는 서비스료(サービス料)를 붙이거나, 이자카야에서는 자릿세(お通し / 席料)를 받기도 하는데, 그럴 때는 당신이 정하는 팁이 아니라 미리 안내된 고정 항목이다.",
+      "fonte": "Ausência de cultura de gorjeta no Japão; água/chá e おしぼり servidos gratuitamente; サービス料 e お通し, quando existem, são cobrança fixa informada, não gorjeta.",
+      "ano": 2026,
+      "revisarAte": "2028-08-05",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "fr-b11-n05"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-b11-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "첫 주문에서는 손가락으로 가리키는 게 더 이상 안 통한다. 어미 하나가 주문을 다 해내고, 그건 이미 정중한 어미다."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-b11-n02",
+      "bloco": "molde",
+      "pt": "틀은 물건, 그다음 onegai shimasu. 이름만 대면 — 커피, 메뉴, 물 — 예의는 onegai shimasu가 알아서 해준다."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_f",
+      "audioKey": "fr-b11-t01",
+      "es": "コーヒーをお願いします。",
+      "pinyin": "KOH-hee o o-ne-gai-shi-MAS",
+      "pt": "커피 한 잔 부탁드려요.",
+      "tts": "コーヒーをお願いします。"
+    },
+    {
+      "consulta": [
+        "mesa/bebida"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "ONEGAI-SHIMASU",
+      "encaixe": "コーヒー",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-b11-p01",
+      "promptPt": "카운터 앞이고, 아침 9시고, 당신 차례다. 지금 말하세요.",
+      "audioKey": "fr-b11-t01",
+      "es": "コーヒーをお願いします。",
+      "pinyin": "KOH-hee o o-ne-gai-shi-MAS",
+      "pt": "커피 한 잔 부탁드려요."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-b11-r01",
+      "receptivo": true,
+      "es": "コーヒーですね。店内でお召し上がりですか？",
+      "pt": "커피 한 잔이시죠. 매장에서 드시나요, 포장이신가요?",
+      "tts": "コーヒーですね。店内でお召し上がりですか？",
+      "acao": "그 질문이 세율을 정한다 — 포장은 8%, 매장은 10% — 그리고 가끔은 컵 종류도 결정된다. 자리에 앉기 전에 대답해라."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-b11-n04",
+      "bloco": "corpo",
+      "pt": "메뉴판 가격은 법에 따라 이미 세금이 포함되어 있으니, 그 숫자가 실제로 내는 금액이다 — 다만 매장 내 취식이 포장보다 세율이 더 높다."
+    },
+    {
+      "consulta": [
+        "mesa/mesa"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "ARIMASU-KA",
+      "encaixe": "二人の席",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-b11-p02",
+      "promptPt": "일행이 둘인데 가게가 거의 꽉 찬 것 같다. 자리가 있는지 물어봐라. 지금 말하세요.",
+      "audioKey": "fr-b11-t02",
+      "es": "二人ですが、席はありますか？",
+      "pinyin": "fu-ta-RI des ga, se-ki wa a-ri-MAS ka",
+      "pt": "두 명인데, 자리 있나요?",
+      "tts": "二人ですが、席はありますか？"
+    },
+    {
+      "consulta": [
+        "mesa/carta"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "ONEGAI-SHIMASU",
+      "encaixe": "メニュー",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-b11-p03",
+      "promptPt": "자리에 앉았는데 아직 아무것도 받지 못했다. 지금 말하세요.",
+      "audioKey": "fr-b11-t03",
+      "es": "メニューをお願いします。",
+      "pinyin": "ME-nyoo o o-ne-gai-shi-MAS",
+      "pt": "메뉴판 부탁드려요.",
+      "tts": "メニューをお願いします。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-b11-n06",
+      "bloco": "capsula",
+      "pt": "물과 종종 차는 물수건과 함께 공짜로 나온다. 물을 더 달라고 하는 건 어느 테이블에서나 완전히 자연스러운 일이다."
+    },
+    {
+      "consulta": [
+        "mesa/agua-pao"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "ONEGAI-SHIMASU",
+      "encaixe": "お水",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-b11-p04",
+      "promptPt": "덥고 컵이 비워진 지 한참 됐다. 지금 말하세요.",
+      "audioKey": "fr-b11-t04",
+      "es": "お水をお願いします。",
+      "pinyin": "o-MI-zu o o-ne-gai-shi-MAS",
+      "pt": "물 좀 부탁드려요.",
+      "tts": "お水をお願いします。"
+    },
+    {
+      "consulta": [
+        "mesa/bebida"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "ONEGAI-SHIMASU",
+      "encaixe": "赤ワイン",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-b11-p05",
+      "promptPt": "저녁이고, 병째가 아니라 하우스 레드와인 한 잔만 원한다. 지금 말하세요.",
+      "audioKey": "fr-b11-t05",
+      "es": "赤ワインをグラスでお願いします。",
+      "pinyin": "a-ka-WA-in o gu-RA-su de o-ne-gai-shi-MAS",
+      "pt": "레드와인 한 잔 부탁드려요.",
+      "tts": "赤ワインをグラスでお願いします。"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-b11-r02",
+      "receptivo": true,
+      "es": "赤ワインですね。かしこまりました。お連れ様は？",
+      "pt": "레드와인이시죠. 알겠습니다. 일행분은요?",
+      "tts": "赤ワインですね。かしこまりました。お連れ様は？",
+      "acao": "kashikomarimashita는 주문이 접수됐다는 뜻이다. 이제 테이블의 차례는 함께 온 사람에게 넘어갔다."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-b11-n03",
+      "pt": "Onegai shimasu는 명사가 된 동작도 실어 나른다: yoyaku o onegai shimasu, chumon o onegai shimasu — 어미는 같은데 닿는 범위가 더 넓어진다."
+    },
+    {
+      "consulta": [
+        "mesa/mesa"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "ONEGAI-SHIMASU",
+      "encaixe": "今夜の予約",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-b11-p06",
+      "promptPt": "정오에 레스토랑 앞을 지나가다가 자리가 차기 전에 예약해 두고 싶다. 지금 말하세요.",
+      "audioKey": "fr-b11-t06",
+      "es": "今夜、二人で予約をお願いします。",
+      "pinyin": "KON-ya, fu-ta-RI de yo-YA-ku o o-ne-gai-shi-MAS",
+      "pt": "오늘 밤 두 명 예약 부탁드려요.",
+      "tts": "今夜、二人で予約をお願いします。"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-b11-r03",
+      "receptivo": true,
+      "es": "今夜は満席です。明日の夜八時はいかがですか？",
+      "pt": "오늘 밤은 만석이에요. 내일 저녁 8시는 어떠세요?",
+      "tts": "今夜は満席です。明日の夜八時はいかがですか？",
+      "acao": "manseki는 만석이라는 뜻이고, 대안이 곧바로 함께 나왔다. 예라고 하거나 다른 저녁을 물어봐라."
+    },
+    {
+      "consulta": [
+        "mesa/comida"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "ARIMASU-KA",
+      "encaixe": "日替わり",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-b11-p07",
+      "promptPt": "점심시간이고, 오늘의 세트 메뉴를 원한다. 지금 말하세요.",
+      "audioKey": "fr-b11-t07",
+      "es": "日替わりはありますか？",
+      "pinyin": "hi-ga-WA-ri wa a-ri-MAS ka",
+      "pt": "오늘의 메뉴 있나요?",
+      "tts": "日替わりはありますか？"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-b11-n05",
+      "pt": "여기서는 팁을 안 준다; 동전을 두고 나오면 직원이 쫓아와서 돌려준다. 서비스료가 있는 곳이라면 그건 안내된 항목이지 당신이 더하는 게 아니다."
+    },
+    {
+      "consulta": [
+        "mesa/carta"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "ONEGAI-SHIMASU",
+      "encaixe": "注文",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-b11-p08",
+      "promptPt": "5분 전에 이미 정했는데 아무도 다시 오지 않는다. 다음에 지나갈 때 잡아라. 지금 말하세요.",
+      "audioKey": "fr-b11-t08",
+      "es": "注文をお願いします。",
+      "pinyin": "choo-MON o o-ne-gai-shi-MAS",
+      "pt": "주문할게요.",
+      "tts": "注文をお願いします。"
+    },
+    {
+      "consulta": [
+        "mesa/comida"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "ONEGAI-SHIMASU",
+      "encaixe": "同じもの",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-b11-p09",
+      "promptPt": "함께 온 사람이 방금 맛있어 보이는 걸 주문했고 그것도 먹고 싶다. 지금 말하세요.",
+      "audioKey": "fr-b11-t09",
+      "es": "同じものをお願いします。",
+      "pinyin": "o-NA-ji mo-no o o-ne-gai-shi-MAS",
+      "pt": "같은 걸로 부탁드려요.",
+      "tts": "同じものをお願いします。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-b11-n07",
+      "pt": "직원을 부를 땐 손을 들거나 손가락을 튕기는 게 아니라 sumimasen이다. Sumimasen은 문이고, 주문은 그 문을 통해 들어간다."
+    },
+    {
+      "consulta": [
+        "chegar/balcao"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-b11-p10",
+      "promptPt": "방금 카운터에 도착했고 누군가의 주의를 끈 다음 커피 두 잔을 주문해야 한다. 지금 말하세요.",
+      "audioKey": "fr-b11-t10",
+      "es": "すみません、コーヒーを二つお願いします。",
+      "pinyin": "soo-mee-ma-SEN, KOH-hee o fu-ta-TSU o-ne-gai-shi-MAS",
+      "pt": "저기요, 커피 두 잔 부탁드려요.",
+      "tts": "すみません、コーヒーを二つお願いします。"
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_fr_f",
+      "audioKey": "fr-b11-s01",
+      "es": "コーヒーをお願いします。メニューをお願いします。今夜の予約をお願いします。",
+      "pinyin": "KOH-hee o o-ne-gai-shi-MAS. ME-nyoo o o-ne-gai-shi-MAS. KON-ya no yo-YA-ku o o-ne-gai-shi-MAS",
+      "pt": "음료, 물건, 동작에 걸쳐 같은 어미를 따라 말해봐라.",
+      "tts": "コーヒーをお願いします。メニューをお願いします。今夜の予約をお願いします。",
+      "molde": "ONEGAI-SHIMASU"
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-b11-n08",
+      "bloco": "recap",
+      "pt": "B11 완료. Onegai shimasu가 커피, 물, 와인 한 잔, 메뉴판, 오늘 밤 예약까지 다 실어 날랐다."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "어미 하나로 첫 주문 전체를",
+    "secoes": [
+      {
+        "titulo": "Onegai shimasu는 물건이나 명사화된 동작을 받는다",
+        "corpo": "물건 뒤에 wo onegai shimasu를 붙인다: koohii, o-mizu, onaji mono. 동작이 명사 형태일 때도 그 동작을 실어 나른다 — yoyaku o onegai shimasu, chumon o onegai shimasu. 아무것도 활용되지 않고 어미도 절대 안 바뀌니, 빠르게 말해도 살아남는다.",
+        "exemplos": [
+          {
+            "es": "お水をお願いします。",
+            "pt": "물 좀 부탁드려요."
+          },
+          {
+            "es": "今夜、二人で予約をお願いします。",
+            "pt": "오늘 밤 두 명 예약 부탁드려요."
+          }
+        ]
+      },
+      {
+        "titulo": "물과 물수건은 공짜다",
+        "corpo": "물 — o-mizu 혹은 o-hiya — 과 종종 차는 요청하지 않아도 나오고, 물수건 oshibori도 마찬가지다. 어느 것도 추가 판매가 아니고 어느 것도 팁을 요구하지 않는다. 물을 더 달라고 하는 건 자연스러운 일이다; 그 요청 뒤에 가격표 붙은 병이 숨어 있지 않다."
+      },
+      {
+        "titulo": "가격에는 이미 세금이 포함되어 있다",
+        "corpo": "법에 따라 눈앞에 보이는 숫자에는 소비세가 포함되어 있으므로, 메뉴판의 숫자가 실제로 내는 금액이다. 주의할 건 매장 내 취식이 10%, 포장이 8%로 세율이 다르다는 점이다, 그래서 같은 커피도 '매장이세요, 포장이세요?'라는 질문의 대답에 따라 가격이 두 개일 수 있다."
+      },
+      {
+        "titulo": "팁은 없고, 드물게 안내된 요금만",
+        "corpo": "일본에는 팁이 없고 채워 넣을 팁 란도 없다. 테이블에 동전을 두고 가면 누군가 그걸 들고 쫓아올 것이다. サービス料 서비스료나 이자카야의 お通し처럼 뭔가 추가되는 곳이라면, 그건 안내된 고정 항목이지 팁과는 완전히 다른 것이며, 이 과정 뒤쪽에서 따로 다룬다."
+      }
+    ]
+  },
+  "slot": "B11",
+  "permissao": "3초를 다 써도 괜찮다. 물건, 그다음 onegai shimasu는 이 나라 어디서든 완전한 주문이고, 오늘 이미 400번쯤 이 말을 들은 직원은 당신 발음을 누구와도 비교하지 않는다.",
+  "permissaoAudioKey": "fr-b11-n02",
+  "espelho": "고향에서 줄이 줄어드는 동안 주문을 속으로 연습해 본 사람이라면 이 압박감을 정확히 안다. 유일한 차이는 여기서는 정중한 부분이 이미 어미 안에 내장돼 있어서, 연습이 걱정했던 것보다 한 단어 더 짧다는 것뿐이다.",
+  "fichasCulturais": [
+    {
+      "sinal": "테이블에 동전 몇 개를 팁으로 남겼는데 직원이 서둘러 쫓아와 돌려준다.",
+      "suaLeitura": "내가 실례를 저질렀거나, 거스름돈을 두고 갔다고 생각하는 것 같다.",
+      "oQueEAli": "일본에는 팁 문화가 없다. 두고 간 돈은 보상이 아니라 잊고 간 거스름돈으로 읽히니, 그걸 돌려주는 게 직원 입장에서 올바르고 배려 있는 행동이다. 받은 청구서가 지불할 전액이고, 좋은 서비스는 이미 가격 안에 들어 있다.",
+      "oQueVoceFaz": "청구서에 적힌 금액만 내고 그 위에 아무것도 더하지 마라. 진심으로 감사를 전하고 싶다면 나가면서 gochisousama deshita라고 말해라 — 여기서는 그게 통화다.",
+      "oQueMelhora": "문 앞에서 벌어지는 작고 어색한 추격전이 사라지고, 남기는 감사가 실제로 전달되는 종류의 감사가 된다.",
+      "ondeNaoVale": "관광객을 겨냥한 일부 가게나 サービス料가 안내된 곳은 다르게 작동하고, 료칸은 자체 관습이 있을 수도 있다 — 하지만 기본적으로는 팁 없음이 안전한 해석이다.",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "fr-b11-n05"
+      ]
+    },
+    {
+      "sinal": "물을 달라고 했더니 아무도 병에 대해 언급하지 않고 수돗물 한 잔이 즉시, 공짜로 나온다.",
+      "suaLeitura": "오해해서 실수로 저렴한 걸 가져다준 것 같다.",
+      "oQueEAli": "일본에서 테이블의 물은 당연하게 공짜로 나오고, 종종 차와 물수건도 함께 나오며, 리필도 비용이 없다. 대신 주문해야 할 유료 병이 기본으로 대기하고 있는 게 아니다; 무료 잔이 그냥 여기서 일하는 방식이다.",
+      "oQueVoceFaz": "그냥 받아들이고, 더 필요하면 같은 방식으로 요청해라 — o-mizu o onegai shimasu. 탄산수나 병물을 구체적으로 원한다면 그건 예외이니 따로 이름을 대야 한다.",
+      "oQueMelhora": "오지도 않을 추가 판매를 경계할 필요가 없어지고, 원하는 만큼 물을 마시게 된다.",
+      "ondeNaoVale": "테이블 서비스가 없는 카운터나 포장 창구에서는 다르고, 바에서는 음료 주문과 함께만 물을 줄 수도 있다 — 하지만 요청 자체는 여전히 자연스럽다.",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "fr-b11-n06"
+      ]
+    }
+  ]
+}

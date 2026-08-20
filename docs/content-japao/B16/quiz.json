@@ -1,0 +1,96 @@
+{
+  "id": "q-b16",
+  "nivel": "basico",
+  "titulo": "Quiz — Sagashite imasu — and the front desk starts looking with you",
+  "subtitulo": "One frame, three counters, and the minute when asking is still free",
+  "introAudioKey": "fr-b16-q-i",
+  "introPt": "A traveller checks in, improves the room, and finds two things nobody had mentioned.",
+  "cenario": "Hotel front desk, late morning, room not ready.",
+  "dialogo": [
+    {
+      "audioKey": "fr-b16-q01",
+      "voz": "target_fr_f",
+      "es": "もっと静かな部屋を探しています。",
+      "pt": "I'm looking for a quieter room.",
+      "tts": "もっと静かな部屋を探しています。"
+    },
+    {
+      "audioKey": "fr-b16-q02",
+      "voz": "target_fr_m",
+      "es": "かしこまりました。上の階に、静かなお部屋がございます。",
+      "pt": "Certainly. We have a quieter room on a higher floor.",
+      "tts": "かしこまりました。上の階に、静かなお部屋がございます。"
+    },
+    {
+      "audioKey": "fr-b16-q03",
+      "voz": "target_fr_f",
+      "es": "ここに荷物を置いてもいいですか？",
+      "pt": "Can I leave my luggage here?",
+      "tts": "ここに荷物を置いてもいいですか？"
+    },
+    {
+      "audioKey": "fr-b16-q04",
+      "voz": "target_fr_m",
+      "es": "はい、フロントでお預かりします。番号札をお渡しします。",
+      "pt": "Yes, we'll keep it at the front desk. I'll give you a numbered tag.",
+      "tts": "はい、フロントでお預かりします。番号札をお渡しします。"
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "What goes after sagashite imasu?",
+      "opcoes": [
+        "A verb you have to change",
+        "The thing or the place you are after",
+        "A time",
+        "A number"
+      ],
+      "correta": 1,
+      "explica": "Motto shizuka na heya, chooshoku kaijoo, ATM — the opening never moves."
+    },
+    {
+      "pergunta": "In a hotel, the quiet room is usually on which side?",
+      "opcoes": [
+        "Low down, facing the street",
+        "A higher floor, away from the road",
+        "Next to the lift shaft",
+        "By the breakfast room"
+      ],
+      "correta": 1,
+      "explica": "Noise is worst low down and facing the street; the higher floor away from the road is the answer before the noise happens."
+    },
+    {
+      "pergunta": "When is a higher floor or a later checkout cheapest to ask for?",
+      "opcoes": [
+        "At check-in, while the room list is still open",
+        "After the first night",
+        "On the last morning",
+        "By email after you leave"
+      ],
+      "correta": 0,
+      "explica": "The same request costs one click at the desk and needs a reason attached afterwards."
+    },
+    {
+      "pergunta": "You know the hotel has wifi. Which opening fits better?",
+      "opcoes": [
+        "Wi-Fi o sagashite imasu",
+        "Wi-Fi wa arimasu ka",
+        "Wi-Fi wa doko desu ka",
+        "Wi-Fi o onegai"
+      ],
+      "correta": 1,
+      "explica": "Arimasu ka asks what they have; sagashite imasu opens a search that might come back empty."
+    },
+    {
+      "pergunta": "The desk says mooshiwake gozaimasen, dekimasen. What is the useful next move?",
+      "opcoes": [
+        "Ask the same thing about a different time — this evening, tomorrow",
+        "Ask a third time straight away",
+        "Say nothing and take the room",
+        "Change hotel"
+      ],
+      "correta": 0,
+      "explica": "The no is about the room list at that hour, and the list changes through the day."
+    }
+  ]
+}

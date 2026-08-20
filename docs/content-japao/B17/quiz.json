@@ -1,0 +1,96 @@
+{
+  "id": "q-b17",
+  "nivel": "basico",
+  "titulo": "Quiz — Pharmacy, pain, and the numbers that work from any phone",
+  "subtitulo": "The late drugstore, the counter that chooses, and 119",
+  "introAudioKey": "fr-b17-q-i",
+  "introPt": "A traveller finds the drugstore still open and gets seen without a shared language.",
+  "cenario": "Sunday evening, the nearest pharmacy closed.",
+  "dialogo": [
+    {
+      "audioKey": "fr-b17-q01",
+      "voz": "target_fr_f",
+      "es": "開いている薬局を探しています。",
+      "pt": "I'm looking for a pharmacy that's open.",
+      "tts": "開いている薬局を探しています。"
+    },
+    {
+      "audioKey": "fr-b17-q02",
+      "voz": "target_fr_m",
+      "es": "この辺だと、駅前のドラッグストアが遅くまで開いていますよ。",
+      "pt": "Around here, the drugstore in front of the station is open late.",
+      "tts": "この辺だと、駅前のドラッグストアが遅くまで開いていますよ。"
+    },
+    {
+      "audioKey": "fr-b17-q03",
+      "voz": "target_fr_f",
+      "es": "ありがとう。二日前から喉が痛いです。",
+      "pt": "Thank you. My throat has hurt for two days.",
+      "tts": "ありがとう。二日前から喉が痛いです。"
+    },
+    {
+      "audioKey": "fr-b17-q04",
+      "voz": "target_fr_f",
+      "es": "こちらは大丈夫です。もう一つは処方箋が必要です。",
+      "pt": "This one is fine. The other needs a prescription.",
+      "tts": "こちらは大丈夫です。もう一つは処方箋が必要です。"
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Which number do you dial for an ambulance in Japan?",
+      "opcoes": [
+        "110",
+        "119",
+        "112",
+        "911"
+      ],
+      "correta": 1,
+      "explica": "119 reaches fire and ambulance, 110 the police. There is no single 112 line as in Europe."
+    },
+    {
+      "pergunta": "The pharmacy nearest you is closed at night. Where do you go?",
+      "opcoes": [
+        "The late-opening chain drugstore, often near a station",
+        "The town hall",
+        "Nowhere — you walk until you find one",
+        "The nearest hotel's front desk only"
+      ],
+      "correta": 0,
+      "explica": "Japan has no closed-pharmacy roster; the late chain drugstore is the usual night answer, and #7119 gives phone advice."
+    },
+    {
+      "pergunta": "Which number gives non-urgent medical advice on whether to go to hospital, where it operates?",
+      "opcoes": [
+        "119",
+        "#7119",
+        "110",
+        "112"
+      ],
+      "correta": 1,
+      "explica": "#7119 (救急安心センター) helps you decide whether and where to go; for English help, JNTO runs 050-3816-2787."
+    },
+    {
+      "pergunta": "As a visitor to Japan, what covers your medical costs?",
+      "opcoes": [
+        "A GHIC or EHIC card, as in Europe",
+        "Travel insurance that covers Japan — there is no reciprocal cover",
+        "The Japanese state, free of charge",
+        "The ambulance service"
+      ],
+      "correta": 1,
+      "explica": "Japan has no reciprocal agreement; you pay the full cost, often upfront. The ambulance is free but the care is not."
+    },
+    {
+      "pergunta": "You do not know the Japanese word for the part that aches. What do you say?",
+      "opcoes": [
+        "Nothing, and wait for English",
+        "Koko ga itai desu, with a hand on it",
+        "The English word, louder",
+        "Ask for the strongest box"
+      ],
+      "correta": 1,
+      "explica": "A body part, a number of days, or a hand and koko ga itai is a complete presentation at that counter."
+    }
+  ]
+}

@@ -1,0 +1,357 @@
+{
+  "id": "b07",
+  "nivel": "basico",
+  "numero": 7,
+  "parte": "B07",
+  "titulo": "Te mo ii desu ka — ask, and the yes is yours",
+  "subtitulo": "One opener unlocks the terminal to the pillow — pay, buy, board, sit, top up the phone — because the rule changes with the building",
+  "cena": "Your bag is on the trolley, three ways into town are signposted, and each of them has a condition you have not been told.",
+  "moldura": "ganha",
+  "frasePiso": "The action in its te-form, then te mo ii desu ka. One opener, and every counter between the plane and the pillow becomes answerable.",
+  "moldes": [
+    "TE-MO-II"
+  ],
+  "clique": {
+    "contagem": [
+      "the ticket machine",
+      "the taxi",
+      "the hotel desk"
+    ],
+    "desconto": "Nobody gave you a different sentence for the machine, the taxi and the desk. You kept one ending and swapped only the action in front of it.",
+    "piso": "Next time you are unsure whether something is allowed here, you will not guess and hope. You will ask, with the action plus te mo ii desu ka."
+  },
+  "fatosDatados": [
+    {
+      "id": "fr-carte-refus",
+      "afirmacao": "In Japan there is no legal obligation to accept a card, and many small, older or family-run places are cash-only — usually signposted at the door or till. Konbini, chains, department stores, major transport and most hotels do take cards and IC cards such as Suica. Contactless and QR payments (PayPay and similar) spread fast after the government's cashless push, but they have not reached everywhere, so a cash-only ramen counter or shrine stall is normal, not a snub.",
+      "fonte": "Sem obrigação legal de aceitar cartão no Japão; muitos estabelecimentos pequenos/antigos são somente-dinheiro, em geral sinalizado. Konbini, redes, lojas de departamento, transporte e maioria dos hotéis aceitam cartão e IC. Expansão do cashless (PayPay etc.) após incentivo governamental, mas não universal.",
+      "ano": 2026,
+      "revisarAte": "2028-08-05",
+      "evidencia": "FATO",
+      "risco": "medio",
+      "audioKeys": [
+        "fr-b07-n03"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-b07-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "Between the plane and the bed there are four counters, and each one has its own rule about what you may do there."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-b07-n02",
+      "bloco": "molde",
+      "pt": "The frame: action in te-form, then te mo ii desu ka — may I, then the job. The ending never moves; learn the verb already in te-form."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_f",
+      "audioKey": "fr-b07-t01",
+      "es": "カードで払ってもいいですか？",
+      "pinyin": "KAH-do de ha-RAT-te mo ii des-ka",
+      "pt": "Can I pay by card?",
+      "tts": "カードで払ってもいいですか？"
+    },
+    {
+      "consulta": [
+        "pagar/cartao",
+        "transporte/bilhete"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "TE-MO-II",
+      "encaixe": "カードで払っ",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-b07-p01",
+      "promptPt": "You are at the ticket machine in arrivals and the only notes in your pocket are the wrong currency. Ask before you queue. Speak now.",
+      "audioKey": "fr-b07-t01",
+      "es": "カードで払ってもいいですか？",
+      "pinyin": "KAH-do de ha-RAT-te mo ii des-ka",
+      "pt": "Can I pay by card?",
+      "tts": "カードで払ってもいいですか？"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-b07-r01",
+      "receptivo": true,
+      "es": "すみません、うちは現金のみなんです。",
+      "pt": "Sorry, we're cash only here.",
+      "tts": "すみません、うちは現金のみなんです。",
+      "acao": "Look for the cash-only sign. Konbini and chains take cards; small and older places often do not, and it is posted, not personal."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-b07-n03",
+      "bloco": "corpo",
+      "pt": "No business here must take a card; many small places are cash-only. Konbini, chains and transport take cards and IC; yen always works."
+    },
+    {
+      "consulta": [
+        "pagar/dinheiro"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "TE-MO-II",
+      "encaixe": "現金で払っ",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-b07-p02",
+      "promptPt": "Same machine, and the sign says cash only. You have coins and notes. Offer the other way. Speak now.",
+      "audioKey": "fr-b07-t02",
+      "es": "現金で払ってもいいですか？",
+      "pinyin": "gen-KIN de ha-RAT-te mo ii des-ka",
+      "pt": "Can I pay in cash?",
+      "tts": "現金で払ってもいいですか？"
+    },
+    {
+      "consulta": [
+        "transporte/bilhete"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "TE-MO-II",
+      "encaixe": "ここで切符を買っ",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-b07-p03",
+      "promptPt": "You are at a small counter and you cannot tell whether it sells anything or only gives information. Speak now.",
+      "audioKey": "fr-b07-t03",
+      "es": "ここで切符を買ってもいいですか？",
+      "pinyin": "ko-ko de KIP-pu o kat-te mo ii des-ka",
+      "pt": "Can I buy a ticket here?",
+      "tts": "ここで切符を買ってもいいですか？"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-b07-r02",
+      "es": "はい、あちらの券売機でも買えますよ。",
+      "pt": "Yes, or at the ticket machine over there.",
+      "tts": "はい、あちらの券売機でも買えますよ。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-b07-n04",
+      "pt": "Same opener, different problem. You change the action in front of it and nothing else."
+    },
+    {
+      "consulta": [
+        "transporte/bagagem"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "TE-MO-II",
+      "encaixe": "荷物を持って乗っ",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-b07-p04",
+      "promptPt": "The train to town is at the platform, the doors are narrow and you have a big case beside you. Check with the agent. Speak now.",
+      "audioKey": "fr-b07-t04",
+      "es": "荷物を持って乗ってもいいですか？",
+      "pinyin": "ni-MOTS o mot-te not-te mo ii des-ka",
+      "pt": "Can I get on with my luggage?",
+      "tts": "荷物を持って乗ってもいいですか？"
+    },
+    {
+      "consulta": [
+        "taxi/destino",
+        "pagar/errado"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "TE-MO-II",
+      "encaixe": "領収書をもらっ",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-b07-p05",
+      "promptPt": "The taxi has stopped at your hotel and you have just paid. There is a piece of paper the driver owes you. Ask for it. Speak now.",
+      "audioKey": "fr-b07-t05",
+      "es": "領収書をもらってもいいですか？",
+      "pinyin": "ryoh-SHOO-sho o mo-rat-te mo ii des-ka",
+      "pt": "Can I have a receipt?",
+      "tts": "領収書をもらってもいいですか？"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-b07-r03",
+      "es": "はい、どうぞ。空港からは定額なんですよ。",
+      "pt": "Of course. From the airport it's a flat fare.",
+      "tts": "はい、どうぞ。空港からは定額なんですよ。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-b07-n05",
+      "bloco": "capsula",
+      "pt": "Some airport runs have a fixed fare to ask for; otherwise the meter. Either way, no tipping, and the receipt is yours for the asking."
+    },
+    {
+      "consulta": [
+        "quarto/mala"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "TE-MO-II",
+      "encaixe": "ここに荷物を置い",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-b07-p06",
+      "promptPt": "You reach the hotel desk four hours before the room is ready and you would like your hands back. Speak now.",
+      "audioKey": "fr-b07-t06",
+      "es": "ここに荷物を置いてもいいですか？",
+      "pinyin": "ko-ko ni ni-MOTS o oi-te mo ii des-ka",
+      "pt": "Can I leave my luggage here?",
+      "tts": "ここに荷物を置いてもいいですか？"
+    },
+    {
+      "consulta": [
+        "chegar/entrar"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "TE-MO-II",
+      "encaixe": "ここに座っ",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-b07-p07",
+      "promptPt": "There is one free armchair in the hotel lobby and someone's coat on the next one. Check first. Speak now.",
+      "audioKey": "fr-b07-t07",
+      "es": "ここに座ってもいいですか？",
+      "pinyin": "ko-ko ni su-WAT-te mo ii des-ka",
+      "pt": "Can I sit here?",
+      "tts": "ここに座ってもいいですか？"
+    },
+    {
+      "consulta": [
+        "quarto/pedir"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "TE-MO-II",
+      "encaixe": "ここで充電し",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-b07-p08",
+      "promptPt": "Four percent of battery, the booking is on the screen, and there is a socket behind the desk. Speak now.",
+      "audioKey": "fr-b07-t08",
+      "es": "ここで充電してもいいですか？",
+      "pinyin": "ko-ko de JOO-den shi-te mo ii des-ka",
+      "pt": "Can I charge my phone here?",
+      "tts": "ここで充電してもいいですか？"
+    },
+    {
+      "consulta": [
+        "reparo/apontar"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "TE-MO-II",
+      "encaixe": "通っ",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-b07-p09",
+      "promptPt": "The carriage is packed, your stop is next and there are three people between you and the door. Speak now.",
+      "audioKey": "fr-b07-t09",
+      "es": "通ってもいいですか？",
+      "pinyin": "TOH-t-te mo ii des-ka",
+      "pt": "Can I get past?",
+      "tts": "通ってもいいですか？"
+    },
+    {
+      "consulta": [
+        "simpatia/agradecer"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-b07-p10",
+      "promptPt": "The driver got you to the door and it is late. Say the two things you say on the way out. Speak now.",
+      "audioKey": "fr-b07-t10",
+      "es": "ありがとうございます。おやすみなさい。",
+      "pinyin": "a-ri-ga-TOH go-za-i-mass, o-ya-su-mi-na-SAI",
+      "pt": "Thank you very much, good night.",
+      "tts": "ありがとうございます。おやすみなさい。"
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_fr_f",
+      "audioKey": "fr-b07-s01",
+      "es": "カードで払ってもいいですか？ 荷物を持って乗ってもいいですか？ ここに荷物を置いてもいいですか？",
+      "pinyin": "KAH-do de ha-RAT-te mo ii des-ka · ni-MOTS o mot-te not-te mo ii des-ka · ko-ko ni ni-MOTS o oi-te mo ii des-ka",
+      "pt": "Shadow the same ending through three different actions.",
+      "tts": "カードで払ってもいいですか？ 荷物を持って乗ってもいいですか？ ここに荷物を置いてもいいですか？",
+      "molde": "TE-MO-II"
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-b07-n06",
+      "bloco": "recap",
+      "pt": "B07 done. The frame covered the machine, the platform, the taxi, the desk and the seat — one ending, nine actions."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "One opener, the whole route into town",
+    "secoes": [
+      {
+        "titulo": "Te mo ii desu ka plus the te-form",
+        "corpo": "Keep te mo ii desu ka and change only the action in front. You learn the verb as a memorised chunk already in its te-form — haratte, suwatte, oite — and never conjugate anything under pressure, which is what makes this the cheapest frame you own. It is deliberately the short te mo ii desu ka and not the longer keigo te mo yoroshii deshou ka: the short form is the one that comes out at a counter.",
+        "exemplos": [
+          {
+            "es": "カードで払ってもいいですか？",
+            "pt": "Can I pay by card?"
+          },
+          {
+            "es": "ここに荷物を置いてもいいですか？",
+            "pt": "Can I leave my luggage here?"
+          }
+        ]
+      },
+      {
+        "titulo": "The card is not guaranteed",
+        "corpo": "Japan runs heavily on cash, and accepting a card is a business decision, not a legal duty. Small, older and family-run places are often cash-only, usually with a sign, and that is normal rather than a refusal aimed at you. Konbini, chains, department stores, hotels and major transport take cards and IC cards like Suica, and contactless and QR payments have spread fast — but not everywhere. Cash in yen, on the other hand, is always taken."
+      },
+      {
+        "titulo": "The airport taxi",
+        "corpo": "Between the main airports and the city some routes have a fixed fare you can ask for; otherwise a Japanese taxi runs on the meter. Either way there is no tipping — it is simply not done — and the driver will give a receipt on request. One more thing about the taxi: the rear passenger door is opened and closed by the driver, so you wait for it rather than reaching for the handle."
+      },
+      {
+        "titulo": "Why asking beats knowing",
+        "corpo": "Whether you can pay by card, bring the case aboard or leave it at the desk varies by company, by building and by hour. A memorised rule gives you one answer. The frame gives you the answer everywhere, including in the places nobody wrote a guide about."
+      }
+    ]
+  },
+  "slot": "B07",
+  "permissao": "You do not need a different sentence for the machine, the platform, the cab and the desk. The action, te mo ii desu ka, and a rising tone is a complete request anywhere on that route, and nobody there is grading the phrasing.",
+  "permissaoAudioKey": "fr-b07-n02",
+  "espelho": "Anyone landing in an unfamiliar airport at home already runs this triage without noticing — money, ticket, bag, somewhere to sit. The only new part is doing it with one ending that never changes.",
+  "fichasCulturais": [
+    {
+      "sinal": "You reach for the taxi door to open it, and the driver looks put out, or the door swings on its own before you touch it.",
+      "suaLeitura": "The door is broken, or the driver is being controlling about his cab.",
+      "oQueEAli": "The rear passenger door of a Japanese taxi is operated by the driver and opens and closes automatically. You are not meant to touch it — reaching for the handle is what reads as odd, not waiting for it. It is a fixture of the cab, not a comment on you.",
+      "oQueVoceFaz": "Stand back a step, let the door open and close itself, and get in or out without touching it. And do not tip — the fare on the meter or the sign is the whole amount.",
+      "oQueMelhora": "The small friction at both ends of the ride disappears, and you stop reading a standard fitting as the driver's mood.",
+      "ondeNaoVale": "Not the front door or the boot, which you may need to handle yourself, and not every private-hire car — the automatic door is a feature of the metered taxi, not of every vehicle you might ride in.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "fr-b07-n05"
+      ]
+    },
+    {
+      "sinal": "A small restaurant or ticket counter waves your card away and points at a handwritten sign.",
+      "suaLeitura": "They are refusing my card because it is foreign.",
+      "oQueEAli": "There is no legal duty in Japan to take a card, and many small or older places are cash-only, usually with the condition posted at the door or till. The sign being pointed at is the whole of the explanation — the same thing happens to local customers.",
+      "oQueVoceFaz": "Carry enough yen for the first day, and read the door before you commit to a queue. Konbini and chains will take the card and an IC card; a cash-only ramen counter will not.",
+      "oQueMelhora": "You stop reading a posted policy as a personal decision, and you stop being caught at the front of a queue with nothing that works.",
+      "ondeNaoVale": "Not for cash in yen, which is always accepted. And the mix is shifting fast toward cards, IC and QR in the cities, so cash-only is a reason to carry a cushion, not to assume cards never work.",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "fr-b07-n03"
+      ]
+    }
+  ]
+}

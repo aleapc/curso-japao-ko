@@ -1,0 +1,96 @@
+{
+  "id": "q-a02",
+  "nivel": "avancado",
+  "titulo": "Quiz — What they laugh at",
+  "subtitulo": "Five questions about flat delivery and borrowed jokes",
+  "introAudioKey": "fr-a02-q-i",
+  "introPt": "A table teases, a traveller agrees cheerfully, and stays out of the old argument.",
+  "cenario": "A long lunch, four people, and one visitor.",
+  "dialogo": [
+    {
+      "audioKey": "fr-a02-q01",
+      "voz": "target_fr_m",
+      "es": "はいはい、すごいすごい。よく言うわ。",
+      "pt": "Yeah yeah, amazing, amazing. Listen to you.",
+      "tts": "はいはい、すごいすごい。よく言うわ。"
+    },
+    {
+      "audioKey": "fr-a02-q02",
+      "voz": "target_fr_f",
+      "es": "毎日ラーメンでしょ？正直に！",
+      "pt": "Ramen every day, right? Confess!",
+      "tts": "毎日ラーメンでしょ？正直に！"
+    },
+    {
+      "audioKey": "fr-a02-q03",
+      "voz": "target_fr_f",
+      "es": "はい、犯人です。二杯食べました。",
+      "pt": "Guilty as charged. I had two bowls.",
+      "tts": "はい、犯人です。二杯食べました。"
+    },
+    {
+      "audioKey": "fr-a02-q04",
+      "voz": "target_fr_f",
+      "es": "いやあ、そこはノーコメントで！",
+      "pt": "Ha, on that one, no comment!",
+      "tts": "いやあ、そこはノーコメントで！"
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Sugoi sugoi, said in a completely level voice. What was meant?",
+      "opcoes": [
+        "Genuine praise",
+        "The opposite of praise",
+        "A request",
+        "A greeting"
+      ],
+      "correta": 1,
+      "explica": "The tsukkomi inverts by tone alone. The tell is the flatness, not the word."
+    },
+    {
+      "pergunta": "Someone teases a friend in front of you and adds nante ne. What is that phrase doing?",
+      "opcoes": [
+        "Starting an argument",
+        "Closing the tease and marking it as affection",
+        "Asking you to join in",
+        "Apologising to you"
+      ],
+      "correta": 1,
+      "explica": "Nante ne, joudan joudan and uso uso all close the same move."
+    },
+    {
+      "pergunta": "The table is telling jokes about a neighbouring country. What is your part?",
+      "opcoes": [
+        "Tell one back — it shows you are comfortable",
+        "Object to it",
+        "Laugh; do not collect it to retell",
+        "Change the subject"
+      ],
+      "correta": 2,
+      "explica": "The genre is internal. Retold by a visitor it lands as a verdict, not as joining in."
+    },
+    {
+      "pergunta": "They ask you to settle their Tokyo-versus-Osaka argument. Best move?",
+      "opcoes": [
+        "Give the honest answer",
+        "Soko wa noo-komento de — then ask what they think",
+        "Say you have no opinion on anything",
+        "Leave the table"
+      ],
+      "correta": 1,
+      "explica": "Being asked is hospitality, not a requirement to answer. Declining the comparison keeps you a guest."
+    },
+    {
+      "pergunta": "Which joke reliably works in your mouth?",
+      "opcoes": [
+        "One about Kanto or Kansai",
+        "One about their politics",
+        "One about yourself — your Japanese, your appetite, your daily ramen",
+        "One you heard at the next table"
+      ],
+      "correta": 2,
+      "explica": "Self-deprecation is the only licence that comes with you on day one."
+    }
+  ]
+}

@@ -1,0 +1,327 @@
+{
+  "id": "a08",
+  "nivel": "avancado",
+  "numero": 36,
+  "parte": "A08",
+  "titulo": "The last minute with each of them, and the card in your pocket",
+  "subtitulo": "Name the person, name the thing they did, name the season you are coming back — and then the openings that carried the whole trip",
+  "cena": "The last morning: the same four faces behind the same counters, and about a minute with each of them.",
+  "moldura": "ganha",
+  "frasePiso": "Thank, name what it was, say when. Three clauses on the way out, one minute per person, and the door stays open.",
+  "moldes": [],
+  "fatosDatados": [
+    {
+      "id": "fr-a08-dyst",
+      "afirmacao": "Japan has spent years building up its inbound-tourism reception under the Japan Tourism Agency (観光庁, established in 2008), including omotenashi-hospitality and multilingual-service training aimed at frontline staff in hotels, shops and stations as visitor numbers were pushed toward national targets. Like any such programme it is addressed to the counter rather than to the traveller, and it measures nothing about how any individual will actually behave toward you.",
+      "fonte": "観光庁 (Agência de Turismo do Japão, criada em 2008): formação em おもてなし e atendimento multilíngue para o balcão, no esforço de turismo receptivo (inbound)",
+      "ano": 2026,
+      "revisarAte": "2027-12-31",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "fr-a08-n05",
+        "fr-a08-n06"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-a08-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "You opened this trip by greeting people before you wanted anything. The last day is the same move, in reverse."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-a08-n02",
+      "bloco": "corpo",
+      "pt": "The goodbye has three parts: the person, the one specific thing, and when you are back. Skip the middle and it is just manners."
+    },
+    {
+      "consulta": [
+        "simpatia/elogiar-comida"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-a08-p01",
+      "promptPt": "The woman at the bakery has handed you the same thing every morning for a week, and this is the last one. Speak now.",
+      "audioKey": "fr-a08-t01",
+      "es": "いろいろ、ありがとうございました。旅で一番のパンでした。",
+      "pinyin": "ee-ro-ee-ro, a-ri-ga-TOH go-za-i-mash-ta · ta-bee de ee-chee-ban no pan desh-ta",
+      "pt": "Thank you for everything. The best bread of the trip.",
+      "tts": "いろいろ、ありがとうございました。旅で一番のパンでした。"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_f",
+      "audioKey": "fr-a08-r01",
+      "receptivo": true,
+      "acao": "Answer with a season, never with a maybe. That is the whole difference here.",
+      "es": "あら、嬉しい。またぜひ来てくださいね。",
+      "pt": "Oh, how kind. Do come again, won't you.",
+      "tts": "あら、嬉しい。またぜひ来てくださいね。"
+    },
+    {
+      "consulta": [
+        "simpatia/puxar-conversa"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-a08-p02",
+      "promptPt": "Answer the invitation with a season and a commitment, not with a vague one day. Speak now.",
+      "audioKey": "fr-a08-t02",
+      "es": "来年の春に。約束します。",
+      "pinyin": "rai-nen no ha-ru ni · ya-ku-soku shee-mas",
+      "pt": "Next year, in spring. That's a promise.",
+      "tts": "来年の春に。約束します。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-a08-n03",
+      "pt": "A vague tabun closes the door politely. A season and a promise leaves it open, and people genuinely remember."
+    },
+    {
+      "consulta": [
+        "simpatia/agradecer"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-a08-p03",
+      "promptPt": "The family who had you over for dinner are seeing you off at their door. Speak now.",
+      "audioKey": "fr-a08-t03",
+      "es": "今日の晩ごはん、忘れません。本当にお世話になりました。",
+      "pinyin": "kyoh no ban-go-han, wa-su-re-ma-sen · hon-TOH ni o-se-wa ni na-ri-mash-ta",
+      "pt": "We won't forget tonight's dinner. Thank you for everything.",
+      "tts": "今日の晩ごはん、忘れません。本当にお世話になりました。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-a08-n04",
+      "pt": "One thing worth knowing on the way out: the other side of the counter has been thinking about this exchange too."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-a08-r02",
+      "receptivo": true,
+      "acao": "Answer with one concrete thing you liked. Hai, tanoshikatta desu ends it; a detail keeps it going.",
+      "es": "良いご旅行でしたか？そう言っていただけると嬉しいです。",
+      "pt": "Did you have a good trip? We're glad to hear it.",
+      "tts": "良いご旅行でしたか？そう言っていただけると嬉しいです。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-a08-n05",
+      "bloco": "capsula",
+      "pt": "For years Japan has coached hotel, shop and station staff in omotenashi and multilingual service to receive visitors."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-a08-n06",
+      "pt": "It runs one way, towards the counter, and it measures nothing. What it shows is that both sides have been trying."
+    },
+    {
+      "consulta": [
+        "simpatia/elogiar-lugar"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-a08-p04",
+      "promptPt": "Give them the one detail you will actually still remember in a year, instead of a polite general answer. Speak now.",
+      "audioKey": "fr-a08-t04",
+      "es": "土曜の朝市。ずっと忘れません。",
+      "pinyin": "do-YOH no a-sa-ee-chee · ZOOT-to wa-su-re-ma-sen",
+      "pt": "The Saturday morning market. I'll never forget it.",
+      "tts": "土曜の朝市。ずっと忘れません。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-a08-n07",
+      "pt": "Then the pocket card. A few openings carried the whole trip, and every one of them came from the first module."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_f",
+      "audioKey": "fr-a08-r03",
+      "receptivo": true,
+      "acao": "Say these out loud once before you land next time. They answer most of an ordinary day.",
+      "es": "すみません。席はありますか？カードで払ってもいいですか？出口はどこですか？コーヒーをお願いします。いくらですか？",
+      "pt": "Excuse me. Is there a table? Can I pay by card? Where is the exit? A coffee, please. How much is it?",
+      "tts": "すみません。席はありますか？カードで払ってもいいですか？出口はどこですか？コーヒーをお願いします。いくらですか？"
+    },
+    {
+      "consulta": [
+        "reparo/devagar"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-a08-p05",
+      "promptPt": "The reply came back at full speed and you caught about a third of it. This is the sentence that rescues the rest. Speak now.",
+      "audioKey": "fr-a08-t05",
+      "es": "すみません、わかりませんでした。もう一度お願いします。",
+      "pinyin": "soo-mee-ma-SEN, wa-ka-ri-ma-sen-DESH-ta · moh ee-chee-DO o-ne-gai-shee-mas",
+      "pt": "Sorry, I didn't catch that. Once more, please.",
+      "tts": "すみません、わかりませんでした。もう一度お願いします。",
+      "molde": "SUMIMASEN",
+      "encaixe": "もう一度お願いします"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-a08-n08",
+      "pt": "That one is the real product. The rest you can look up on a phone; this one has to arrive without you fetching it."
+    },
+    {
+      "consulta": [
+        "simpatia/agradecer"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-a08-p06",
+      "promptPt": "You are handing back the key, and the man on reception never once switched to English on you, however long a sentence took. Speak now.",
+      "audioKey": "fr-a08-t06",
+      "es": "下手な日本語に、お付き合いありがとうございました。",
+      "pinyin": "he-TA na ni-HON-go ni, o-tsu-kee-ai a-ri-ga-TOH go-za-i-mash-ta",
+      "pt": "Thank you for bearing with my clumsy Japanese.",
+      "tts": "下手な日本語に、お付き合いありがとうございました。"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-a08-r04",
+      "receptivo": true,
+      "acao": "Do not argue with the compliment. Take it, and hand one straight back.",
+      "es": "いえいえ、お上手ですよ！お気をつけて。",
+      "pt": "Not at all, you're very good! Take care on your way.",
+      "tts": "いえいえ、お上手ですよ！お気をつけて。"
+    },
+    {
+      "consulta": [
+        "simpatia/agradecer"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-a08-p07",
+      "promptPt": "They have just wished you well for the journey. Hand one back and mean it. Speak now.",
+      "audioKey": "fr-a08-t07",
+      "es": "ありがとうございます。そちらも、お元気で。",
+      "pinyin": "a-ri-ga-TOH go-za-i-mas · so-chee-ra mo, o-GEN-ki de",
+      "pt": "Thank you, you too. All the best.",
+      "tts": "ありがとうございます。そちらも、お元気で。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-a08-n09",
+      "pt": "O-genki de is for someone whose life carries on without you. It is warm, and it closes cleanly."
+    },
+    {
+      "consulta": [
+        "simpatia/agradecer"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-a08-p08",
+      "promptPt": "Last sentence of the trip, said at a door, to someone you fully intend to see again. Speak now.",
+      "audioKey": "fr-a08-t08",
+      "es": "また来ます。失礼します。",
+      "pinyin": "ma-ta kee-mas · shee-tsu-REI shee-mas",
+      "pt": "I'll come again. Goodbye.",
+      "tts": "また来ます。失礼します。"
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_fr_f",
+      "audioKey": "fr-a08-s01",
+      "es": "いろいろ、ありがとうございました。来年の春に、約束します。また来ます。",
+      "pinyin": "ee-ro-ee-ro a-ri-ga-TOH go-za-i-mash-ta · rai-nen no ha-ru ni ya-ku-soku shee-mas · ma-ta kee-mas",
+      "pt": "Shadow the three clauses of the goodbye: the thanks, the season, and the next time.",
+      "tts": "いろいろ、ありがとうございました。来年の春に、約束します。また来ます。"
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-a08-n10",
+      "bloco": "recap",
+      "pt": "That is the course. A few openings, one repair sentence, and a goodbye with a date inside it. Yoi tabi o."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "The pocket card",
+    "secoes": [
+      {
+        "titulo": "The openings",
+        "corpo": "Sumimasen. …wa arimasu ka? …te mo ii desu ka? …wa doko desu ka? …wo onegaishimasu. …wa ikura desu ka? Between them they open the exchange, check what a place has, ask permission, find a room or a street, place an order and protect your money. Everything else in the course hangs off these, and all of them came out of the first module.",
+        "exemplos": [
+          {
+            "es": "すみません、わかりませんでした。もう一度お願いします。",
+            "pt": "Sorry, I didn't catch that. Once more, please."
+          },
+          {
+            "es": "また来ます。",
+            "pt": "I'll come again."
+          }
+        ]
+      },
+      {
+        "titulo": "The repair sentence is the product",
+        "corpo": "Wakarimasen deshita, mou ichido onegaishimasu is the one that has to be automatic, because it is what keeps all those openings usable when the answer comes back at full speed. A traveller who can ask a question but cannot ask for it again has half a tool. This is the sentence to rehearse on the plane."
+      },
+      {
+        "titulo": "Three clauses, one minute each",
+        "corpo": "Thank the person, name the specific thing — the bread, the market on Saturday, the directions on the second day — and say when you are back. The middle clause is what makes the difference, because it proves you noticed. A season and a promise is enough of a commitment: nobody is holding you to a date, and the form is what is expected."
+      },
+      {
+        "titulo": "Mata means see you again",
+        "corpo": "The everyday goodbyes here keep the return built into the word: mata kimasu, mata ne, mata itsuka. Sayounara, the one that carries a note of real finality, has largely dropped out of casual use between people who expect to meet again. Ending on the open form is not sentimentality — it is simply the shape the language already has."
+      }
+    ]
+  },
+  "slot": "A08",
+  "permissao": "You are allowed to promise a return you are not certain of. Naming a season instead of saying tabun is not a contract anybody will hold you to — it is the shape the goodbye takes here, and it is why the person behind that counter recognises you a year later.",
+  "espelho": "Anyone who has left a place they loved with a wave, and then spent the flight home composing the sentence they did not say, knows what this last part is for. It costs a minute per person, and it is the only stretch of a trip you can still improve on the way out.",
+  "permissaoAudioKey": "fr-a08-n03",
+  "fichasCulturais": [
+    {
+      "sinal": "Someone at a counter you used every day asks when you are coming back, and the honest answer is that you have no idea.",
+      "suaLeitura": "Saying a date I cannot guarantee would be a small lie, so tabun is the truthful answer.",
+      "oQueEAli": "The question is the closing half of a ritual rather than a request for a plan, and the expected answer has a shape: a season, sometimes a year, and a word like yakusoku or promise. Nobody is booking anything, and everybody knows it.",
+      "oQueVoceFaz": "Give a season and a promise — rainen no haru ni, yakusoku shimasu — and let it be as loose as it obviously is.",
+      "oQueMelhora": "The exchange finishes the way both of you wanted, and the recognition next time is real: counters remember the people who answered that question properly.",
+      "ondeNaoVale": "Not with someone you met once. From a stranger the same question is small talk, and a full promise back lands as more weight than was offered.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "fr-a08-n03"
+      ]
+    },
+    {
+      "sinal": "The shopkeeper switches into careful English before you have finished your first word.",
+      "suaLeitura": "They heard my accent and decided my Japanese was not worth the trouble.",
+      "oQueEAli": "For years Japan has coached frontline staff in hotels, shops and stations in omotenashi hospitality and multilingual service, under the Japan Tourism Agency, as visitor numbers were pushed toward national targets. The English is preparation aimed at them, not a verdict aimed at you, and none of it measures how any individual actually behaves.",
+      "oQueVoceFaz": "Open in Japanese anyway — sumimasen first — and then let the exchange settle into whichever language moves faster. Either outcome is a good one.",
+      "oQueMelhora": "The switch stops registering as rejection, which is the reading that makes visitors give up on the language somewhere around day three.",
+      "ondeNaoVale": "Not a claim that any particular counter was trained under any programme. Most of the English you meet is simply somebody being helpful, and plenty of places have had no such training at all.",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "fr-a08-n05",
+        "fr-a08-n06"
+      ]
+    }
+  ]
+}

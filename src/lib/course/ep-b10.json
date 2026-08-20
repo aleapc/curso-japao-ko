@@ -1,0 +1,386 @@
+{
+  "id": "b10",
+  "nivel": "basico",
+  "numero": 10,
+  "parte": "B10",
+  "titulo": "영어처럼 보이는 가타카나 — サービス, マンション, コンセント",
+  "subtitulo": "가타카나로 쓰인 간판은 언뜻 보면 영어를 빌려온 것처럼 읽히는데, 바로 그래서 몇 개는 당신을 엉뚱한 곳으로 보낸다",
+  "cena": "가타카나 세 줄이 적힌 간판 앞에 서 있는데, 전부 아는 영어 단어처럼 보이고, 다음 한 시간은 그중 무엇을 실제로 믿느냐에 달려 있다.",
+  "moldura": "ganha",
+  "frasePiso": "단어를 읽어라, 그 단어와 비슷하게 들리는 영어 단어가 아니라. 여기 그게 있는지 확신이 안 서면 〜を探しています로 말을 열어라.",
+  "moldes": [
+    "SAGASHITE-IMASU"
+  ],
+  "fatosDatados": [
+    {
+      "id": "fr-b10-midi",
+      "afirmacao": "일본은 편의점으로 돌아간다. 세븐일레븐, 패밀리마트, 로손 이 세 대형 체인만 해도 전국에 5만 5천 개가 넘는 지점이 있고, 대부분 24시간 운영되며, 현금 인출, 공과금 납부, 티켓 구매, 택배 발송을 겸한다. 여행자에게 유용한 결론은, '못 찾겠다'는 게 거의 문제가 되지 않는다는 것이다; 편의점은 자잘한 것들을 찾아 헤맬 때의 기본 답이다.",
+      "fonte": "Japan Franchise Association (JFA), estatística de lojas de conveniência: as três maiores redes somam mais de 55 mil lojas no Japão, a maioria 24h, funcionando também como ponto de saque, pagamento de contas e retirada de encomendas.",
+      "ano": 2026,
+      "revisarAte": "2028-08-05",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "fr-b10-n05"
+      ]
+    },
+    {
+      "id": "fr-b10-dimanche",
+      "afirmacao": "찾는 현금 인출기는 보통 편의점 안에 있다. 세븐일레븐 안의 세븐은행 ATM과 유초은행(Japan Post Bank) ATM은 화면에 영어가 뜨고 하루 종일 많은 외국 발급 카드를 받아주는 반면, 은행 지점 자체 ATM은 해외 카드를 아예 안 받는 경우가 많다. 실용적인 규칙: 현금이 필요하면 은행이 아니라 편의점이나 우체국을 찾아라.",
+      "fonte": "Seven Bank e Japan Post Bank: caixas eletrônicos que aceitam cartões estrangeiros 24h com menu em inglês; ATMs de agências bancárias comuns frequentemente recusam cartões emitidos fora do Japão.",
+      "ano": 2026,
+      "revisarAte": "2028-08-05",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "fr-b10-n08"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-b10-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "일본은 많은 간판을 가타카나로 쓰는데, 당신이 안다고 생각하는 단어들이다. 대부분은 무난하다. 몇 개는 당신을 엉뚱한 곳으로 보낸다."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-b10-n02",
+      "bloco": "molde",
+      "pt": "틀은 이렇다: 물건, 그다음 wo sagashite imasu — 찾고 있어요. 함정: マンション은 대저택이 아니라 그냥 아파트 건물이다."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_f",
+      "audioKey": "fr-b10-t01",
+      "es": "薬局を探しています。",
+      "pinyin": "yak-KYO-ku o sa-ga-shi-te i-MAS",
+      "pt": "약국을 찾고 있어요.",
+      "tts": "薬局を探しています。"
+    },
+    {
+      "consulta": [
+        "compras/balcao"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "SAGASHITE-IMASU",
+      "encaixe": "薬局",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-b10-p01",
+      "promptPt": "음료 진열대 말고, 처방전을 조제해줄 진짜 약국이 필요하다. 찾는 걸 말해봐라. 지금 말하세요.",
+      "audioKey": "fr-b10-t01",
+      "es": "薬局を探しています。",
+      "pinyin": "yak-KYO-ku o sa-ga-shi-te i-MAS",
+      "pt": "약국을 찾고 있어요."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-b10-r01",
+      "receptivo": true,
+      "es": "薬局ですか？ この先のドラッグストアにもありますよ。",
+      "pt": "약국이요? 이쪽 앞에 드럭스토어에도 있어요.",
+      "tts": "薬局ですか？ この先のドラッグストアにもありますよ。",
+      "acao": "방금 서로 다른 가게 두 종류가 언급됐다. 薬局는 처방전을 조제해주고, ドラッグストア는 일상용품 가게다. 필요한 것에 맞는 단어 쪽으로 가라."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-b10-n03",
+      "bloco": "corpo",
+      "pt": "틀은 그대로, 물건만 바꿔라. 그리고 サービス를 조심해라: 가게 주인이나 영수증에서 쓰이면 공짜, 서비스라는 뜻이지 요금이 아니다."
+    },
+    {
+      "consulta": [
+        "pagar/dinheiro"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "SAGASHITE-IMASU",
+      "encaixe": "ATM",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-b10-p02",
+      "promptPt": "지갑이 비었고 지나쳤던 유일한 기계는 외국 카드를 거절했다. 카운터에서 찾기 시작해라. 지금 말하세요.",
+      "audioKey": "fr-b10-t02",
+      "es": "ATMを探しています。",
+      "pinyin": "ee-tee-EE-moo o sa-ga-shi-te i-MAS",
+      "pt": "ATM을 찾고 있어요.",
+      "tts": "エーティーエムを探しています。"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-b10-r02",
+      "receptivo": true,
+      "es": "コンビニのATMなら海外のカードも使えますよ。すぐそこです。",
+      "pt": "편의점 ATM이면 해외 카드도 쓸 수 있어요. 바로 저기예요.",
+      "tts": "コンビニのエーティーエムなら海外のカードも使えますよ。すぐそこです。",
+      "acao": "이건 은행 지점이 아니라 편의점 안에 있는 기계 이야기다. 은행 문이 아니라 편의점으로 향해라."
+    },
+    {
+      "consulta": [
+        "pagar/dinheiro"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-b10-p03",
+      "promptPt": "카드가 통과됐고, 숨겨진 수수료가 없는지 확실히 하고 싶다. 갖고 있는 걸 담백하게 말해라. 지금 말하세요.",
+      "audioKey": "fr-b10-t03",
+      "es": "すみません、現金しかないんです。",
+      "pinyin": "soo-mee-ma-SEN, gen-KIN shi-ka NAI-n des",
+      "pt": "죄송해요, 현금밖에 없어요.",
+      "tts": "すみません、現金しかないんです。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-b10-n04",
+      "pt": "コンセント는 동의가 아니라 콘센트다. コンセント가 어디냐고 묻는 건 어디에 꽂을 수 있냐는 뜻일 뿐, 그 이상은 없다."
+    },
+    {
+      "consulta": [
+        "transporte/placas"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "DOKO-DESU-KA",
+      "encaixe": "入口",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-b10-p04",
+      "promptPt": "건물 이쪽의 모든 문에는 出口, 출구라고 표시돼 있다. 반대쪽을 물어봐라. 지금 말하세요.",
+      "audioKey": "fr-b10-t04",
+      "es": "入口はどこですか？",
+      "pinyin": "i-ri-GU-chi wa DO-ko des ka",
+      "pt": "입구는 어디인가요?",
+      "tts": "入口はどこですか？"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-b10-n05",
+      "pt": "편의점이 이런 검색의 절반을 해결해 준다. 3대 체인만 해도 5만 5천 개가 넘는 지점이 있고, 대부분 하루 종일 연다."
+    },
+    {
+      "consulta": [
+        "transporte/placas"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-b10-p05",
+      "promptPt": "작은 식당이 열려 있는 것 같은데 조명이 반쯤 꺼져 있고 오후 3시다. 영업시간 사이 공백에 대해 물어봐라. 지금 말하세요.",
+      "audioKey": "fr-b10-t05",
+      "es": "お昼は休憩ですか？",
+      "pinyin": "o-HI-ru wa kyoo-KEI des ka",
+      "pt": "낮에는 브레이크타임인가요?",
+      "tts": "お昼は休憩ですか？"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-b10-r03",
+      "receptivo": true,
+      "es": "はい、二時から五時まで休憩です。夜は五時からです。",
+      "pt": "네, 2시부터 5시까지 브레이크타임이에요. 저녁은 5시부터예요.",
+      "tts": "はい、二時から五時まで休憩です。夜は五時からです。",
+      "acao": "다시 여는 시간을 적어두고 그때 다시 오거나, 지금 열려 있는 곳에서 먹어라."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-b10-n06",
+      "bloco": "capsula",
+      "pt": "ビル는 계산서가 아니라 건물이다. 그리고 식당 간판의 バイキング은 무제한 뷔페일 뿐, 바이킹과는 아무 상관 없다."
+    },
+    {
+      "consulta": [
+        "saude/algo-para"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "SAGASHITE-IMASU",
+      "encaixe": "咳の薬",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-b10-p06",
+      "promptPt": "드럭스토어 카운터에서, 마른기침이 있는데 상자 이름을 전혀 모른다. 지금 말하세요.",
+      "audioKey": "fr-b10-t06",
+      "es": "咳の薬を探しています。",
+      "pinyin": "se-ki no ku-SU-ri o sa-ga-shi-te i-MAS",
+      "pt": "기침약을 찾고 있어요.",
+      "tts": "咳の薬を探しています。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-b10-n07",
+      "pt": "クレーム는 크림이 아니라 불만·컴플레인이다. 간판이 クレーム 창구를 가리킨다면 거기는 문제를 접수하는 곳이지 디저트 코너가 아니다."
+    },
+    {
+      "consulta": [
+        "taxi/locadora"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "TE-MO-II",
+      "encaixe": "ここで充電し",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-b10-p07",
+      "promptPt": "테이블 옆 벽에 콘센트가 보이고 휴대폰 배터리는 4퍼센트다. 써도 되는지 물어봐라. 지금 말하세요.",
+      "audioKey": "fr-b10-t07",
+      "es": "ここで充電してもいいですか？",
+      "pinyin": "ko-ko de joo-DEN shi-te mo II des ka",
+      "pt": "여기서 충전해도 될까요?",
+      "tts": "ここで充電してもいいですか？"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-b10-n08",
+      "pt": "현금이 필요하면 은행이 아니라 편의점이나 우체국을 이용해라. 그곳 기계는 하루 종일 영어로 외국 카드를 받아주지만, 은행은 대체로 안 받는다."
+    },
+    {
+      "consulta": [
+        "reparo/apontar"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "SUMIMASEN",
+      "encaixe": "何時に開きますか",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-b10-p08",
+      "promptPt": "안에 누군가 있고 불은 켜져 있는데 셔터는 아직 내려가 있다. 정중하게 말을 걸고 오픈 시간을 물어봐라. 지금 말하세요.",
+      "audioKey": "fr-b10-t08",
+      "es": "すみません、何時に開きますか？",
+      "pinyin": "soo-mee-ma-SEN, NAN-ji ni a-ki-MAS ka",
+      "pt": "죄송해요, 몇 시에 여나요?",
+      "tts": "すみません、何時に開きますか？"
+    },
+    {
+      "consulta": [
+        "compras/pagar"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "DOKO-DESU-KA",
+      "encaixe": "レジ",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-b10-p09",
+      "promptPt": "고른 물건을 손에 들고 있는데 계산대가 세 곳 있고 어디가 결제하는 곳인지 확실치 않다. 지금 말하세요.",
+      "audioKey": "fr-b10-t09",
+      "es": "レジはどこですか？",
+      "pinyin": "RE-ji wa DO-ko des ka",
+      "pt": "계산대는 어디인가요?",
+      "tts": "レジはどこですか？"
+    },
+    {
+      "consulta": [
+        "compras/so-olhando"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "TE-MO-II",
+      "encaixe": "見",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-b10-p10",
+      "promptPt": "들어가자마자 누군가 다가오는데 아직 아무것도 정하지 못했다. 지금 말하세요.",
+      "audioKey": "fr-b10-t10",
+      "es": "ちょっと見てもいいですか？",
+      "pinyin": "chot-to MI-te mo II des ka",
+      "pt": "그냥 구경해도 될까요?",
+      "tts": "ちょっと見てもいいですか？"
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_fr_f",
+      "audioKey": "fr-b10-s01",
+      "es": "薬局を探しています。入口はどこですか？ お昼は休憩ですか？",
+      "pinyin": "yak-KYO-ku o sa-ga-shi-te i-MAS. i-ri-GU-chi wa DO-ko des ka. o-HI-ru wa kyoo-KEI des ka",
+      "pt": "간판 문구를 통과하게 해주는 세 문장을 따라 말해봐라.",
+      "tts": "薬局を探しています。入口はどこですか？ お昼は休憩ですか？",
+      "molde": "SAGASHITE-IMASU"
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-b10-n09",
+      "bloco": "recap",
+      "pt": "B10 완료. マンション, サービス, コンセント, ビル, バイキング — 이제 이 다섯 가타카나 단어가 실제로 뜻하는 걸 말해준다."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "보이는 것과 다른 가타카나 단어 다섯 개",
+    "secoes": [
+      {
+        "titulo": "오후 한나절을 날릴 뻔한 다섯 단어",
+        "corpo": "マンション은 대저택이 아니라 평범한 아파트 건물이다. サービス는 가게 주인이 쓰면 공짜, 무료 서비스라는 뜻이다. コンセント는 전기 콘센트다. ビル는 건물이다. バイキング은 무제한 뷔페다. 근처에 그게 있는지 확신이 안 서면, 곧바로 장소를 묻기보다 〜を探しています로 말을 열어라.",
+        "exemplos": [
+          {
+            "es": "薬局を探しています。",
+            "pt": "약국을 찾고 있어요."
+          },
+          {
+            "es": "ATMを探しています。",
+            "pt": "ATM을 찾고 있어요."
+          }
+        ]
+      },
+      {
+        "titulo": "探しています는 검색을 열고, どこですか는 장소를 묻는다",
+        "corpo": "〜はどこですか는 이미 거기 있다고 믿는 장소를 묻는다 — 出口, トイレ, 駅. 〜を探しています는 빈손으로 끝날 수도 있는 검색을 여는데, 이 거리에 약국이 아예 있는지조차 모를 때 정직한 표현 방식이다. 조사 を와 어미 探しています는 그대로 두고, 그 앞의 것만 바뀐다."
+      },
+      {
+        "titulo": "薬局, ドラッグストア, 그리고 기침",
+        "corpo": "薬局에는 약사가 있고 처방전을 조제해준다; ドラッグストア는 화장품, 과자, 일반의약품을 파는 큰 일상 매장이다. 기침이나 감기라면 둘 다 통하고 어떤 상자를 줄지는 직원이 골라준다 — 약 이름이 아니라 증상, 咳の薬나 風邪薬라고 말하면 된다."
+      },
+      {
+        "titulo": "현금은 편의점과 우체국에서",
+        "corpo": "일본은 여전히 현금 중심 사회이고, 외국 카드를 받아주는 기계는 대개 은행 지점이 아니라 편의점이나 우체국 안에 있다. 세븐은행과 유초은행 ATM은 영어 메뉴로 하루 종일 작동한다. 은행 지점 자체 ATM은 해외 카드를 아예 거부하는 경우가 많은데, 이는 카드가 아니라 그 기계의 특성이다."
+      }
+    ]
+  },
+  "slot": "B10",
+  "permissao": "간판을 잘못 읽어도 괜찮다. 제2언어를 읽는 사람은 누구나 모국어를 통해 읽게 되고, 해결책은 단어장이 아니라 — 속이는 가타카나 단어 몇 개를 아는 것, 그리고 다음 것은 〜を探しています로 소리 내어 물어보는 것이다.",
+  "permissaoAudioKey": "fr-b10-n01",
+  "espelho": "자기 나라에서 오후에 내려진 셔터 앞에 서서, 휴대폰을 든 채 이게 브레이크타임인지 아예 문을 닫은 건지 가늠해 본 사람이라면 이 느낌을 이미 안다. 새로운 건 여기서는 간판이 영어에서 빌려온 것처럼 보이는 단어로 그걸 알려준다는 점뿐이다.",
+  "fichasCulturais": [
+    {
+      "sinal": "薬局를 찾는다고 했는데 화장품과 과자로 가득한 크고 밝은 가게, 안쪽에 약 선반이 있는 곳으로 안내받는다.",
+      "suaLeitura": "내 발음 때문에 오해를 산 것 같다.",
+      "oQueEAli": "단어는 제대로 전달됐다. 薬局에는 약사와 처방 창구가 있고, ドラッグストア는 일반의약품도 파는 일상 매장이다. 잘못된 건 없고 단지 어떤 단어를 택했는지의 문제였을 뿐이며, 기침이라면 드럭스토어가 어차피 맞는 곳인 경우가 많다.",
+      "oQueVoceFaz": "필요한 것에 맞는 단어를 골라라: 처방전을 조제하려면 薬局, 일반의약품이면 ドラッグストア나 그냥 咳の薬を探しています. 근처에 있는지 확신이 안 서면 探しています로 말을 열어라.",
+      "oQueMelhora": "제대로 된 대답을 실패로 여기지 않게 되고, 처음부터 맞는 창구에 도착하게 된다.",
+      "ondeNaoVale": "명확한 경계는 아니다 — 많은 드럭스토어 안에 薬局 창구가 있고, 작은 약국도 일상용품을 함께 파는 경우가 많다. 이 단어는 약사가 근무 중인지를 알려줄 뿐, 반창고를 파는지 여부를 알려주는 건 아니다.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "fr-b10-n02"
+      ]
+    },
+    {
+      "sinal": "현금을 뽑으러 갔는데 모퉁이 은행 기계는 카드를 거부하고, 편의점 안의 기계는 문제없이 작동한다.",
+      "suaLeitura": "내 카드에 문제가 있거나, 외국인이라서 그런 것 같다.",
+      "oQueEAli": "일본은 여전히 현금에 크게 의존하고, 외국 카드용으로 세팅된 기계는 편의점 쪽이다 — 세븐일레븐 안의 세븐은행, 그리고 유초은행 — 영어 메뉴로 하루 종일 돌아간다. 은행 지점 자체 ATM은 해외 카드를 아예 안 받는 경우가 흔하다. 이건 기계의 차이일 뿐, 당신에 대한 판단이 아니다.",
+      "oQueVoceFaz": "현금이 필요하면 은행 대신 편의점이나 우체국을 찾아라. 간 김에 조금 넉넉히 뽑아두면 좋다, 작은 가게는 현금만 받을 수도 있으니까.",
+      "oQueMelhora": "이런 순간을 위한 약간의 현금 여유분을 계속 챙기게 되고, 기계의 거절을 개인적인 것으로 받아들이지 않게 된다.",
+      "ondeNaoVale": "모든 은행 ATM이 외국 카드를 거부하는 건 아니고, 대도시에서는 캐시리스 결제가 빠르게 퍼지고 있다. 이건 편의점 기계 위치를 알아두라는 이유이지, 은행이 절대 안 통한다고 단정할 이유는 아니다.",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "fr-b10-n08"
+      ]
+    }
+  ],
+  "clique": {
+    "contagem": [
+      "약국",
+      "드럭스토어",
+      "현금 인출기"
+    ],
+    "desconto": "찾아다닌 것마다 단어 하나씩 배운 게 아니다. 여는 말 하나는 그대로 두고 그 뒤에 오는 것만 바꿨다 — 그리고 그 여는 말은 당신을 속인 가타카나 단어들 앞에서도 그대로 살아남았다.",
+    "piso": "다음에 간판이 영어처럼 보일 때, 그 닮은꼴을 믿지 않는다. 뭘 찾고 있는지 말하고, 단어는 상대가 고쳐주게 둔다."
+  }
+}

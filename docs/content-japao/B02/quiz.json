@@ -1,0 +1,96 @@
+{
+  "id": "q-b02",
+  "nivel": "basico",
+  "titulo": "Quiz — The greeting first, everything else second",
+  "subtitulo": "The ten words, the opener, and the way out",
+  "introAudioKey": "fr-b02-q-i",
+  "introPt": "A traveller walks into a small shop, buys one thing and leaves.",
+  "cenario": "A small neighbourhood shop, one owner behind the counter.",
+  "dialogo": [
+    {
+      "audioKey": "fr-b02-q01",
+      "voz": "target_fr_f",
+      "es": "こんにちは。",
+      "pt": "Hello.",
+      "tts": "こんにちは。"
+    },
+    {
+      "audioKey": "fr-b02-q02",
+      "voz": "target_fr_m",
+      "es": "いらっしゃいませ！",
+      "pt": "Welcome!",
+      "tts": "いらっしゃいませ！"
+    },
+    {
+      "audioKey": "fr-b02-q03",
+      "voz": "target_fr_f",
+      "es": "はい、お願いします。ありがとうございます。",
+      "pt": "Yes, please. Thank you.",
+      "tts": "はい、お願いします。ありがとうございます。"
+    },
+    {
+      "audioKey": "fr-b02-q04",
+      "voz": "target_fr_m",
+      "es": "ありがとうございました。またお越しくださいませ。",
+      "pt": "Thank you. Please come again.",
+      "tts": "ありがとうございました。またお越しくださいませ。"
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "What comes first when you walk into a small shop?",
+      "opcoes": [
+        "Your question, so as not to waste their time",
+        "Konnichiwa, before anything else",
+        "A wave, and then the question in English",
+        "Nothing until you are at the counter"
+      ],
+      "correta": 1,
+      "explica": "The greeting opens the visit. The question goes after it — in English if that is what you have."
+    },
+    {
+      "pergunta": "When does konnichiwa become konbanwa?",
+      "opcoes": [
+        "At six o'clock exactly",
+        "At sunset, by convention",
+        "There is no fixed hour — it goes by the light and the room",
+        "Only after the shops close"
+      ],
+      "correta": 2,
+      "explica": "No official cut-off exists. Copy whichever one reaches you first; konnichiwa is the safe daylight default."
+    },
+    {
+      "pergunta": "A voice calls out irasshaimase as you enter. What is it?",
+      "opcoes": [
+        "A question you must answer",
+        "A set store-greeting aimed at you that needs no reply — a small nod is plenty",
+        "A request to leave",
+        "Something only said in the morning"
+      ],
+      "correta": 1,
+      "explica": "Irasshaimase is called to every customer and asks for nothing verbal back. Your own opener is sumimasen."
+    },
+    {
+      "pergunta": "What does douzo mean when it comes back at you?",
+      "opcoes": [
+        "Please wait",
+        "Go ahead, please do",
+        "I do not understand",
+        "Pay at the till"
+      ],
+      "correta": 1,
+      "explica": "Douzo means 'go ahead', 'please do'. You will hear it constantly."
+    },
+    {
+      "pergunta": "What does the EF index actually show about English in Japan?",
+      "opcoes": [
+        "The exact percentage of Japanese people who speak English",
+        "A general level — low on the index — read as a direction, not a headcount",
+        "That English is spoken everywhere outside Tokyo",
+        "That the ranking is legally certified"
+      ],
+      "correta": 1,
+      "explica": "The sample is self-selected and online, so it is evidence of a level, not a count of speakers, and says nothing about the staff you meet."
+    }
+  ]
+}

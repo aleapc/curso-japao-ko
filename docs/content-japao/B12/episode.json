@@ -1,0 +1,374 @@
+{
+  "id": "b12",
+  "nivel": "basico",
+  "numero": 12,
+  "parte": "B12",
+  "titulo": "Nuki de — the two syllables that make the dish editable",
+  "subtitulo": "Wasabi out, ice out, sauce on the side: the dish arrives the way you wanted it, and you only had to add nuki de",
+  "cena": "The dish exists on the menu exactly as the kitchen wrote it, the staff are holding a pad, and there is one ingredient in it you would rather not meet.",
+  "moldura": "ganha",
+  "frasePiso": "The thing you do not want, then nuki de — said while ordering, not after it lands.",
+  "moldes": [
+    "NUKI-DE"
+  ],
+  "clique": {
+    "contagem": [
+      "the ramen counter",
+      "the sushi place",
+      "the café at breakfast"
+    ],
+    "desconto": "Nobody gave you a sentence for each dish you wanted changed. You put nuki de after the ingredient and the rest of the order stayed as it was.",
+    "piso": "Next time a dish is nearly right, you will not eat around it. You will say the word before it is made."
+  },
+  "fatosDatados": [
+    {
+      "id": "fr-b12-fait-maison",
+      "afirmacao": "Dashi — stock made from bonito flakes (かつおだし) and kelp — is the base of an enormous share of Japanese cooking, including dishes that look purely vegetable: miso soup, simmered vegetables, many sauces and dressings. Two things follow for a traveller. 'No meat' does not mean no fish, because katsuo dashi is fish; and asking 'is the stock fish?' (出汁は魚ですか) is the reliable question, not scanning for visible meat.",
+      "fonte": "O dashi de かつお (bonito) e 昆布 (kombu) é base ampla da culinária japonesa, presente em pratos aparentemente vegetais (missoshiru, legumes cozidos, molhos); 'sem carne' não implica 'sem peixe'.",
+      "ano": 2026,
+      "revisarAte": "2028-08-05",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "fr-b12-n05"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-b12-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "You can already order. This is the phrase that changes what actually arrives."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-b12-n02",
+      "bloco": "molde",
+      "pt": "The frame is the thing you do not want, then nuki de. Wasabi, ice, sauce, sugar — the ingredient first, then nuki de after it."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_f",
+      "audioKey": "fr-b12-t01",
+      "es": "わさび抜きで、お願いします。",
+      "pinyin": "wa-SA-bi NU-ki de, o-ne-gai-shi-MAS",
+      "pt": "Without wasabi, please.",
+      "tts": "わさび抜きで、お願いします。"
+    },
+    {
+      "consulta": [
+        "dieta/sem"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "NUKI-DE",
+      "encaixe": "わさび",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-b12-p01",
+      "promptPt": "At the sushi counter you have just ordered, and the wasabi goes in by default between the fish and the rice. Speak now.",
+      "audioKey": "fr-b12-t01",
+      "es": "わさび抜きで、お願いします。",
+      "pinyin": "wa-SA-bi NU-ki de, o-ne-gai-shi-MAS",
+      "pt": "Without wasabi, please."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-b12-r01",
+      "receptivo": true,
+      "es": "わさび抜きですね。承知しました。",
+      "pt": "Without wasabi, understood.",
+      "tts": "わさび抜きですね。承知しました。",
+      "acao": "Shouchi shimashita means it reached the pad. Nothing more is needed from you."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-b12-n03",
+      "bloco": "corpo",
+      "pt": "Nuki de goes at the end of the order or stands alone. Wasabi nuki de is a complete sentence at a counter."
+    },
+    {
+      "consulta": [
+        "mesa/bebida"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "NUKI-DE",
+      "encaixe": "氷",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-b12-p02",
+      "promptPt": "At the café at breakfast you order a cola and you know the glass will come half full of cubes. Speak now.",
+      "audioKey": "fr-b12-t02",
+      "es": "コーラを氷抜きで、お願いします。",
+      "pinyin": "KOH-ra o koo-ri NU-ki de, o-ne-gai-shi-MAS",
+      "pt": "A cola without ice, please.",
+      "tts": "コーラを氷抜きで、お願いします。"
+    },
+    {
+      "consulta": [
+        "dieta/sem"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "NUKI-DE",
+      "encaixe": "マヨネーズ",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-b12-p03",
+      "promptPt": "At the counter they are about to reach for the mayonnaise, which goes on almost everything here. Speak now.",
+      "audioKey": "fr-b12-t03",
+      "es": "マヨネーズ抜きで、お願いします。",
+      "pinyin": "ma-yo-NEE-zu NU-ki de, o-ne-gai-shi-MAS",
+      "pt": "Without mayonnaise, please.",
+      "tts": "マヨネーズ抜きで、お願いします。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-b12-n04",
+      "pt": "Say it while ordering. Once a dish is built, a kitchen can move things around but not unmake them."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-b12-r02",
+      "receptivo": true,
+      "es": "ソースはもう入っています。別のお皿にしましょうか？",
+      "pt": "The sauce is already in it. Shall I put some on a separate plate for you?",
+      "tts": "ソースはもう入っています。別のお皿にしましょうか？",
+      "acao": "That is not a refusal, it is an offer. Take the on-the-side version or say no thank you."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-b12-n06",
+      "bloco": "capsula",
+      "pt": "Betsu de is the other half. Sauce betsu de means on the side instead of out; sukuname means a little less of it."
+    },
+    {
+      "consulta": [
+        "mesa/comida"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-b12-p04",
+      "promptPt": "He has just offered you a way to keep it separate, and you want to take it. Speak now.",
+      "audioKey": "fr-b12-t04",
+      "es": "ソースは別でお願いします。",
+      "pinyin": "SOH-su wa BE-tsu de o-ne-gai-shi-MAS",
+      "pt": "The sauce on the side, please.",
+      "tts": "ソースは別でお願いします。"
+    },
+    {
+      "consulta": [
+        "mesa/bebida"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "NUKI-DE",
+      "encaixe": "砂糖",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-b12-p05",
+      "promptPt": "Morning, café at breakfast, and you drink your tea plain. Speak now.",
+      "audioKey": "fr-b12-t05",
+      "es": "紅茶を砂糖抜きで、お願いします。",
+      "pinyin": "koo-CHA o sa-TOH NU-ki de, o-ne-gai-shi-MAS",
+      "pt": "A tea without sugar, please.",
+      "tts": "紅茶を砂糖抜きで、お願いします。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-b12-n05",
+      "pt": "Watch the stock. Dashi is fish, and it hides in dishes that look purely vegetable, so no meat is not the same as no fish."
+    },
+    {
+      "consulta": [
+        "dieta/sem"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "NUKI-DE",
+      "encaixe": "ねぎ",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-b12-p06",
+      "promptPt": "Back at the ramen counter, the bowl comes piled with spring onion you would rather skip. Speak now.",
+      "audioKey": "fr-b12-t06",
+      "es": "ねぎ抜きで、お願いします。",
+      "pinyin": "ne-gi NU-ki de, o-ne-gai-shi-MAS",
+      "pt": "Without spring onion, please.",
+      "tts": "ねぎ抜きで、お願いします。"
+    },
+    {
+      "consulta": [
+        "dieta/sem"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "NUKI-DE",
+      "encaixe": "豚肉",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-b12-p07",
+      "promptPt": "You are scanning a board of set meals and one whole family of them is out for you. Speak now.",
+      "audioKey": "fr-b12-t07",
+      "es": "豚肉抜きで、お願いします。",
+      "pinyin": "bu-ta-NI-ku NU-ki de, o-ne-gai-shi-MAS",
+      "pt": "Without pork, please.",
+      "tts": "豚肉抜きで、お願いします。"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-b12-r03",
+      "receptivo": true,
+      "es": "それでしたら、鶏肉の定食はいかがですか？",
+      "pt": "In that case, how about the chicken set instead?",
+      "tts": "それでしたら、鶏肉の定食はいかがですか？",
+      "acao": "You were handed a replacement, not a refusal. Take it or ask what else is on the board."
+    },
+    {
+      "consulta": [
+        "dieta/o-que-tem"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "NUKI-DE",
+      "encaixe": "グルテン",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-b12-p08",
+      "promptPt": "You cannot eat wheat. You are pointing at one dish and you need to know before you order it. Speak now.",
+      "audioKey": "fr-b12-t08",
+      "es": "グルテン抜きはできますか？",
+      "pinyin": "gu-RU-ten NU-ki wa de-ki-MAS ka",
+      "pt": "Can you do it without gluten?",
+      "tts": "グルテン抜きはできますか？"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-b12-n07",
+      "pt": "Okawari means a refill. It gets you more rice without building a new sentence, and it is often free."
+    },
+    {
+      "consulta": [
+        "mesa/agua-pao"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-b12-p09",
+      "promptPt": "Your rice bowl is empty and there is still food on your plate. Speak now.",
+      "audioKey": "fr-b12-t09",
+      "es": "ご飯のおかわり、お願いします。",
+      "pinyin": "go-HAN no o-KA-wa-ri, o-ne-gai-shi-MAS",
+      "pt": "Another bowl of rice, please.",
+      "tts": "ご飯のおかわり、お願いします。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-b12-n08",
+      "pt": "This is preference, not allergy. An allergy gets its own sentence and its own written card, in the next part."
+    },
+    {
+      "consulta": [
+        "mesa/bebida"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "NUKI-DE",
+      "encaixe": "乳製品",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-b12-p10",
+      "promptPt": "At the café counter you want the milky one, but not with dairy. Ask whether it can be done. Speak now.",
+      "audioKey": "fr-b12-t10",
+      "es": "乳製品抜きはできますか？",
+      "pinyin": "nyoo-SEI-hin NU-ki wa de-ki-MAS ka",
+      "pt": "Can it be done without dairy?",
+      "tts": "乳製品抜きはできますか？"
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_fr_f",
+      "audioKey": "fr-b12-s01",
+      "es": "わさび抜きで、お願いします。コーラを氷抜きで。紅茶を砂糖抜きで。",
+      "pinyin": "wa-SA-bi NU-ki de, o-ne-gai-shi-MAS. KOH-ra o koo-ri NU-ki de. koo-CHA o sa-TOH NU-ki de",
+      "pt": "Shadow the same phrase after three different ingredients.",
+      "tts": "わさび抜きで、お願いします。コーラを氷抜きで。紅茶を砂糖抜きで。",
+      "molde": "NUKI-DE"
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-b12-n09",
+      "bloco": "recap",
+      "pt": "B12 done. Nuki de took out the wasabi, the ice, the mayo, the sugar and the spring onion — the same two syllables every time."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "Subtracting instead of describing",
+    "secoes": [
+      {
+        "titulo": "The ingredient plus nuki de",
+        "corpo": "The ingredient goes in plain and nuki de follows it, unchanged: wasabi nuki de, koori nuki de, satou nuki de. It works stuck onto the order, standing alone as an answer, or turned into a question with dekimasu ka — 'can it be done without?'.",
+        "exemplos": [
+          {
+            "es": "コーラを氷抜きで、お願いします。",
+            "pt": "A cola without ice, please."
+          },
+          {
+            "es": "グルテン抜きはできますか？",
+            "pt": "Can you do it without gluten?"
+          }
+        ]
+      },
+      {
+        "titulo": "Betsu de, sukuname, okawari",
+        "corpo": "The three companions of nuki de. Betsu de moves a thing to the side of the plate instead of out; sukuname asks for less of it rather than none; okawari asks for a refill of what is already there, most often rice, and it is frequently free. Between them they cover almost every edit a traveller wants to make."
+      },
+      {
+        "titulo": "Timing beats phrasing",
+        "corpo": "The same request is easy at the moment of ordering and awkward once the dish is in front of you. A kitchen assembling to order can leave an ingredient out; a dish that arrives already built can usually only have things moved, not removed. At a sushi counter, wasabi nuki de before the piece is made is effortless; picking it out afterwards is not."
+      },
+      {
+        "titulo": "The fish stock that hides in the vegetables",
+        "corpo": "Dashi, the stock made from bonito flakes and kelp, is under an enormous share of Japanese cooking — miso soup, simmered vegetables, dressings, dipping sauces — including dishes that look entirely vegetable. So 'no meat' is not the same as 'no fish'. The dependable question is about the stock itself: dashi wa sakana desu ka, is the stock fish?"
+      }
+    ]
+  },
+  "slot": "B12",
+  "permissao": "You are allowed to change the dish. Saying nuki de is an ordinary part of ordering, not a demand or a complication, and the person taking it down has written it fifty times this week without thinking about it once.",
+  "espelho": "Anyone who has ever said no pickles, sauce on the side, or no ice at a counter at home has already done this exact thing in their own language. The only new part is that here the whole edit fits into two syllables placed after the ingredient.",
+  "permissaoAudioKey": "fr-b12-n02",
+  "fichasCulturais": [
+    {
+      "sinal": "You ask for the dish without one ingredient and get a flat dekimasen, with no softening around it.",
+      "suaLeitura": "He cannot be bothered, or he has decided to make this difficult for me.",
+      "oQueEAli": "That word is usually a statement about the kitchen rather than about you. A dish assembled to order can lose an ingredient; one that arrives pre-made, or reheated as a whole, physically cannot. The flatness is the register of a working service, not a verdict on the request.",
+      "oQueVoceFaz": "Ask at the moment of ordering, and carry the fallback with you: betsu de. If out is impossible, on the side very often is, and offering that yourself turns a no into an arrangement.",
+      "oQueMelhora": "You leave with the dish you wanted, or a better replacement, instead of a stand-off.",
+      "ondeNaoVale": "This does not apply to an allergy. An allergy is not a preference, does not take a maybe, and does not travel on nuki de alone — that is a different conversation, with a written card, and it is the next part of the course.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "fr-b12-n04"
+      ]
+    },
+    {
+      "sinal": "You order what looks like a plain vegetable dish because you are avoiding meat, and later learn it was simmered in fish stock.",
+      "suaLeitura": "They slipped meat into a vegetarian dish, or did not listen.",
+      "oQueEAli": "Nothing was slipped in. Dashi — bonito and kelp stock — is the base of a huge amount of Japanese cooking, including dishes with no visible meat or fish at all. To a Japanese kitchen it is a background flavour, not an ingredient anybody would think to mention, so a vegetable dish carrying fish stock is ordinary rather than deceptive.",
+      "oQueVoceFaz": "Ask about the stock, not the toppings: dashi wa sakana desu ka. If you avoid fish entirely, say so plainly and ask whether a version without it exists.",
+      "oQueMelhora": "You catch the invisible ingredient before it arrives, and you stop judging a dish by what you can see on top of it.",
+      "ondeNaoVale": "Not every dish uses fish dashi — kombu-only stock and vegetarian temple food (shojin ryori) exist — but as a default assumption, treating stock as fish keeps you safe.",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "fr-b12-n05"
+      ]
+    }
+  ]
+}

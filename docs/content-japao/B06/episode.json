@@ -1,0 +1,340 @@
+{
+  "id": "b06",
+  "nivel": "basico",
+  "numero": 6,
+  "parte": "B06",
+  "titulo": "Wa arimasu ka — and then whatever you need",
+  "subtitulo": "Four counters in the first hour, and every one of them answers the same ending",
+  "cena": "Arrivals: the belt has stopped, the eSIM has not connected, and there are four counters between you and being able to sit down.",
+  "moldura": "ganha",
+  "frasePiso": "The thing, plus wa arimasu ka. One frame, and the whole arrivals hall becomes answerable.",
+  "moldes": [
+    "ARIMASU-KA"
+  ],
+  "clique": {
+    "contagem": [
+      "the airport café",
+      "the phone shop",
+      "the konbini",
+      "the information desk"
+    ],
+    "desconto": "Nobody handed you a different sentence for each of those counters. You kept one ending and changed only the thing before it.",
+    "piso": "Next time you need something and do not know whether the place stocks it, you will not mime it. You will ask in three words."
+  },
+  "fatosDatados": [
+    {
+      "id": "fr-b06-carte",
+      "afirmacao": "Japan still runs heavily on cash. Many small and family-run places accept cash only, and a posted 'cash only' sign is normal — there is no general rule forcing a small trader to take a card. Convenience stores, stations and larger shops do take cards and IC cards such as Suica or Pasmo, which also work on trains and at most vending machines. The useful corollary: carrying some yen and topping up an IC card covers almost every counter in the arrivals hall.",
+      "fonte": "No Japão o dinheiro em espécie ainda é amplamente esperado, sobretudo em estabelecimentos pequenos e familiares, muitos deles somente-dinheiro; não há regra geral que obrigue o comerciante a aceitar cartão. Konbini, estações e lojas maiores aceitam cartão e cartões IC (Suica/Pasmo), que também rodam em trens e máquinas. Recomendação prática de guias de viagem oficiais (JNTO): levar iene em espécie e carregar um cartão IC.",
+      "ano": 2026,
+      "revisarAte": "2027-08-05",
+      "evidencia": "FATO",
+      "risco": "medio",
+      "audioKeys": [
+        "fr-b06-n06"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-b06-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "Your first hour is four counters and four small questions. In Japan they all end the same way."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-b06-n02",
+      "bloco": "molde",
+      "pt": "Here is the frame: the thing, then wa arimasu ka. Do you have — and does it even exist here."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_f",
+      "audioKey": "fr-b06-t01",
+      "es": "すみません、Wi‑Fiはありますか？",
+      "pinyin": "soo-mee-ma-SEN, WAI-fai wa a-ri-MAS-ka",
+      "pt": "Excuse me, do you have wifi?",
+      "tts": "すみません、ワイファイはありますか？"
+    },
+    {
+      "consulta": [
+        "chegar/balcao"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "ARIMASU-KA",
+      "encaixe": "Wi‑Fi",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-b06-p01",
+      "promptPt": "At the airport café, your eSIM still has not connected and you need the network. Ask. Speak now.",
+      "audioKey": "fr-b06-t01",
+      "es": "すみません、Wi‑Fiはありますか？",
+      "pinyin": "soo-mee-ma-SEN, WAI-fai wa a-ri-MAS-ka",
+      "pt": "Excuse me, do you have wifi?",
+      "tts": "すみません、ワイファイはありますか？"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-b06-r01",
+      "es": "はい、パスワードはレシートに書いてあります。",
+      "pt": "Yes, the password is written on the receipt.",
+      "tts": "はい、パスワードはレシートに書いてあります。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-b06-n03",
+      "bloco": "corpo",
+      "pt": "Notice what the frame asks: not the grammar, just whether this place has the thing. The particle wa and the ending arimasu ka never change."
+    },
+    {
+      "consulta": [
+        "chegar/balcao",
+        "compras/quanto"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "ARIMASU-KA",
+      "encaixe": "SIMカード",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-b06-p02",
+      "promptPt": "At the phone shop past the gates, you want a local number for the week. Ask. Speak now.",
+      "audioKey": "fr-b06-t02",
+      "es": "SIMカードはありますか？",
+      "pinyin": "SHEE-moo KAH-do wa a-ri-MAS-ka",
+      "pt": "Do you have a SIM card?",
+      "tts": "SIMカードはありますか？"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-b06-n04",
+      "pt": "Sumimasen comes first, every single time. Arriving with the request and no sumimasen is entering without knocking."
+    },
+    {
+      "consulta": [
+        "chegar/balcao",
+        "reparo/apontar"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "ARIMASU-KA",
+      "encaixe": "充電器",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-b06-p03",
+      "promptPt": "Back at the phone shop, your battery is at four percent and yours is in the hold. Ask. Speak now.",
+      "audioKey": "fr-b06-t03",
+      "es": "充電器はありますか？",
+      "pinyin": "joo-DEN-kee wa a-ri-MAS-ka",
+      "pt": "Do you have a charger?",
+      "tts": "充電器はありますか？"
+    },
+    {
+      "consulta": [
+        "transporte/bilhete"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "ARIMASU-KA",
+      "encaixe": "ICカード",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-b06-p04",
+      "promptPt": "At the konbini by the exit you want an IC card for the trains, and the machines have a long queue. Ask. Speak now.",
+      "audioKey": "fr-b06-t04",
+      "es": "ICカードはありますか？",
+      "pinyin": "ai-SHEE KAH-do wa a-ri-MAS-ka",
+      "pt": "Do you have an IC card?",
+      "tts": "ICカードはありますか？"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-b06-n05",
+      "bloco": "capsula",
+      "pt": "The frame does not care what the thing is. Wifi, a SIM, a charger, an IC card, change, a map."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-b06-n06",
+      "pt": "Cash is still king here. Small places may be cash only, while konbini and stations take cards and Suica."
+    },
+    {
+      "consulta": [
+        "pagar/dinheiro"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "ARIMASU-KA",
+      "encaixe": "小銭",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-b06-p05",
+      "promptPt": "The drinks machine at the airport café takes coins only and all you have is a note. Ask at the konbini. Speak now.",
+      "audioKey": "fr-b06-t05",
+      "es": "小銭はありますか？",
+      "pinyin": "ko-ZE-nee wa a-ri-MAS-ka",
+      "pt": "Do you have change?",
+      "tts": "小銭はありますか？"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-b06-r02",
+      "es": "いいえ、ここにはありませんが、二階にありますよ。",
+      "pt": "No, not here, but there are some on the second floor.",
+      "tts": "いいえ、ここにはありませんが、二階にありますよ。",
+      "receptivo": true,
+      "acao": "Stay for the second half — the no arrives with the address of the yes attached."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-b06-n07",
+      "pt": "A no usually comes with the address of the yes attached. Stay one beat past the iie."
+    },
+    {
+      "consulta": [
+        "chegar/balcao"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "ARIMASU-KA",
+      "encaixe": "地図",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-b06-p06",
+      "promptPt": "At the information desk, paper survives a flat battery and your battery is nearly flat. Ask. Speak now.",
+      "audioKey": "fr-b06-t06",
+      "es": "地図はありますか？",
+      "pinyin": "CHEE-zoo wa a-ri-MAS-ka",
+      "pt": "Do you have a map?",
+      "tts": "地図はありますか？"
+    },
+    {
+      "consulta": [
+        "chegar/balcao"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "ARIMASU-KA",
+      "encaixe": "トイレ",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-b06-p07",
+      "promptPt": "Back at the airport café, before the train and the long ride into town. Ask. Speak now.",
+      "audioKey": "fr-b06-t07",
+      "es": "トイレはありますか？",
+      "pinyin": "TOH-ee-reh wa a-ri-MAS-ka",
+      "pt": "Do you have a toilet?",
+      "tts": "トイレはありますか？"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-b06-r03",
+      "es": "はい、奥の右側です。",
+      "pt": "Yes, at the back on the right.",
+      "tts": "はい、奥の右側です。"
+    },
+    {
+      "consulta": [
+        "simpatia/agradecer"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-b06-p08",
+      "promptPt": "They sorted you out in ten seconds. Close it the way people close things here. Speak now.",
+      "audioKey": "fr-b06-t08",
+      "es": "どうもありがとうございます。",
+      "pinyin": "DOH-mo a-ri-ga-TOH go-za-i-mas",
+      "pt": "Thank you very much.",
+      "tts": "どうもありがとうございます。"
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_fr_f",
+      "audioKey": "fr-b06-s01",
+      "es": "Wi‑Fiはありますか？ SIMカードはありますか？ 小銭はありますか？",
+      "pinyin": "WAI-fai wa a-ri-MAS-ka. SHEE-moo KAH-do wa a-ri-MAS-ka. ko-ZE-nee wa a-ri-MAS-ka",
+      "pt": "Shadow the same ending across three completely different counters.",
+      "tts": "ワイファイはありますか？ SIMカードはありますか？ 小銭はありますか？",
+      "molde": "ARIMASU-KA"
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-b06-n08",
+      "bloco": "recap",
+      "pt": "B06 done. One frame, four counters, and the whole first hour answered with a noun and wa arimasu ka."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "One ending, seven problems",
+    "secoes": [
+      {
+        "titulo": "The thing plus wa arimasu ka",
+        "corpo": "Keep wa arimasu ka and put anything before it that a person behind a counter could physically have. Nothing conjugates, the particle wa stays put, and arimasu ka is identical at every counter — which is why it is the cheapest frame in the course.",
+        "exemplos": [
+          {
+            "es": "Wi‑Fiはありますか？",
+            "pt": "Do you have wifi?"
+          },
+          {
+            "es": "小銭はありますか？",
+            "pt": "Do you have change?"
+          }
+        ]
+      },
+      {
+        "titulo": "What they have, not the grammar",
+        "corpo": "English keeps two questions apart — do you have and is there — and Japanese folds both into one word, aru. At a counter wa arimasu ka covers do you have this and is there any, so you never choose between them. That single frame answers most of the arrivals hall, and it is the difference between sounding like a phrasebook and sounding like someone who has done this before."
+      },
+      {
+        "titulo": "Sumimasen is the door, not the doormat",
+        "corpo": "Sumimasen is a ritual: one word that calls attention, excuses the intrusion, and can even thank. Put it in front of the frame and the frame works; leave it off and you get a flat answer that is easy to misread as unwillingness rather than sequence."
+      },
+      {
+        "titulo": "Cash, cards and the IC card",
+        "corpo": "Japan still leans on cash. Small and family-run places may take cash only, and a posted sign to that effect is normal, not a snub. Convenience stores, stations and vending machines take cards and IC cards such as Suica or Pasmo. Carry a little yen and top up an IC card, and almost every counter is covered."
+      },
+      {
+        "titulo": "The no that carries an address",
+        "corpo": "Iie, koko ni wa arimasen ga… is the standard shape: no, not here, but… Walking away on the first word leaves the useful half on the counter — the floor above, the other terminal, the machine that does take notes."
+      }
+    ]
+  },
+  "slot": "B06",
+  "permissao": "You do not need a different sentence for each counter in that hall, and nobody there is grading your grammar. Sumimasen, the thing, wa arimasu ka, and a rising tone is a complete request anywhere in the building — and you are allowed to use the identical ending at all four counters without varying it to sound better.",
+  "permissaoAudioKey": "fr-b06-n02",
+  "espelho": "Anyone landing in an unfamiliar airport at home already runs this exact triage without naming it — signal, money, ticket, somewhere to stand. The only new part is doing it in three words that never change.",
+  "fichasCulturais": [
+    {
+      "sinal": "You walk up to a counter, open in English with your request, and get a short flat answer that feels like a door closing.",
+      "suaLeitura": "They would rather not speak English to me.",
+      "oQueEAli": "In Japan sumimasen is the ritual opening at a counter — it calls attention, excuses the intrusion, and makes it acceptable to enter someone's space. Starting straight with the request skips that opening, and the neutral, reserved tone that follows is easy to read as reluctance about language when it is really about sequence.",
+      "oQueVoceFaz": "Say sumimasen on its own, wait half a beat, and only then ask — in Japanese if you have it, in English if you do not.",
+      "oQueMelhora": "The exchange starts on the expected footing, and staff who do have some English are far more likely to offer it once the opening has happened.",
+      "ondeNaoVale": "This rests on how greeting rituals work, not a measured finding about attitudes, and it does not explain every cool counter. Someone at the end of a long shift with a queue behind you is sometimes just that.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "fr-b06-n04"
+      ]
+    },
+    {
+      "sinal": "You reach the till with a card, and the card is refused or you are told cash only.",
+      "suaLeitura": "That cannot be allowed, or they are singling me out as a visitor.",
+      "oQueEAli": "Japan still runs heavily on cash, and many small or family-run places accept cash only — a posted cash-only sign is normal and lawful, with no general rule forcing a small trader to take a card. Convenience stores, stations and larger shops do take cards and IC cards like Suica or Pasmo.",
+      "oQueVoceFaz": "Keep a float of yen for small places, and top up a Suica or Pasmo for konbini, trains and vending machines. Look for a card or IC logo before you commit at the till.",
+      "oQueMelhora": "You keep a small cash cushion for exactly these moments and stop reading a displayed policy as a personal refusal.",
+      "ondeNaoVale": "Not every place is cash only, and in the big cities the mix is shifting fast toward cards and IC. This is a reason to carry a cash cushion, not to assume cards never work.",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "fr-b06-n06"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,342 @@
+{
+  "id": "b01",
+  "nivel": "basico",
+  "numero": 1,
+  "parte": "B01",
+  "titulo": "One beat per kana, and keep it flat",
+  "subtitulo": "Japanese gives every kana the same length and rides on pitch, not stress — six moves that make the words you already half-know land",
+  "cena": "The konbini line moves fast, you have one word ready, and the vowel you would stretch in English is exactly the one that has to stay short.",
+  "moldura": "ganha",
+  "frasePiso": "Give every kana the same short beat, keep the line flat, and hold the long vowels and the little tsu a full beat. That is enough to be understood on day one.",
+  "moldes": [],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-b01-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "Japanese gives every kana equal length and rides on pitch, not stress. Six moves, and half-known words start landing."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-b01-n02",
+      "gesto": 1,
+      "bloco": "corpo",
+      "pt": "Your hand does this: one even tap per kana, same size, gliding flat. English bumps one syllable; Japanese never does."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-b01-n03",
+      "pt": "Move one: every kana is one equal beat. Ko-o-hi-i is four beats, not KOFF-ee. Tap them level as you say it."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_f",
+      "audioKey": "fr-b01-t01",
+      "es": "すみません、コーヒーをお願いします。",
+      "pinyin": "soo-mee-ma-SEN, KOH-hee o o-ne-gai-shi-mass",
+      "pt": "Excuse me, a coffee, please. Koohii is four even beats, and the u of shimasu goes quiet.",
+      "tts": "すみません、コーヒーをお願いします。"
+    },
+    {
+      "consulta": [
+        "chegar/entrar",
+        "mesa/bebida"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-b01-p01",
+      "promptPt": "At the counter, open with sumimasen and then order one coffee. Speak now.",
+      "audioKey": "fr-b01-t01",
+      "es": "すみません、コーヒーをお願いします。",
+      "pinyin": "soo-mee-ma-SEN, KOH-hee o o-ne-gai-shi-mass",
+      "pt": "Excuse me, a coffee, please.",
+      "tts": "すみません、コーヒーをお願いします。"
+    },
+    {
+      "consulta": [
+        "simpatia/agradecer"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-b01-p02",
+      "promptPt": "She hands it over. Thank her, and let the u at the end go almost silent. Speak now.",
+      "audioKey": "fr-b01-t02",
+      "es": "ありがとうございます。",
+      "pinyin": "a-ri-ga-TOH go-za-i-mass",
+      "pt": "Thank you very much.",
+      "tts": "ありがとうございます。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-b01-n04",
+      "pt": "Move two: the five vowels are pure and never glide. A is ah, i is ee, u is oo, e is eh, o is oh — the same every time."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-b01-t03",
+      "es": "ホテルまでお願いします。",
+      "pinyin": "ho-TE-roo ma-de o-ne-gai-shi-mass",
+      "pt": "To the hotel, please. Hoteru is ho-te-ru, three clean vowels, not the English hoh-TELL.",
+      "tts": "ホテルまでお願いします。"
+    },
+    {
+      "consulta": [
+        "taxi/destino"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_m",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-b01-p03",
+      "promptPt": "You get into a taxi with the address already on your phone. Tell him where. Speak now.",
+      "audioKey": "fr-b01-t03",
+      "es": "ホテルまでお願いします。",
+      "pinyin": "ho-TE-roo ma-de o-ne-gai-shi-mass",
+      "pt": "To the hotel, please.",
+      "tts": "ホテルまでお願いします。"
+    },
+    {
+      "consulta": [
+        "transporte/bilhete"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-b01-p04",
+      "promptPt": "The board just changed and you need the new departure time. Speak now.",
+      "audioKey": "fr-b01-t04",
+      "es": "何時ですか？",
+      "pinyin": "NAN-ji des-ka",
+      "pt": "What time?",
+      "tts": "何時ですか？"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-b01-n05",
+      "pt": "Move three: a long vowel is a real second beat that changes the word. Biru is a building, biiru is a beer — one beat longer."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_f",
+      "audioKey": "fr-b01-r01",
+      "receptivo": true,
+      "es": "ビル — ビール · おばさん — おばあさん",
+      "pinyin": "BEE-roo — BEE-roo (long) · o-BA-san — o-BAA-san",
+      "pt": "Two pairs. English folds each pair into one word; Japanese keeps them apart by one held beat, and they are different words — building/beer, aunt/grandmother.",
+      "tts": "ビル、ビール。おばさん、おばあさん。",
+      "acao": "Listen twice before you copy. The second word in each pair simply holds the vowel one beat longer — nothing else moves."
+    },
+    {
+      "consulta": [
+        "compras/balcao"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-b01-p05",
+      "promptPt": "At the bakery, ask for one bread. Give each kana its own beat. Speak now.",
+      "audioKey": "fr-b01-t05",
+      "es": "パンをください。",
+      "pinyin": "PAN o ku-da-SAI",
+      "pt": "Bread, please.",
+      "tts": "パンをください。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-b01-n06",
+      "bloco": "capsula",
+      "pt": "Move four: the little tsu is a held silent beat. In kitte or kippu, hold one silent beat, then release."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-b01-t06",
+      "es": "切符を二枚お願いします。",
+      "pinyin": "KIP-pu o ni-mai o-ne-gai-shi-mass",
+      "pt": "Two tickets, please. Kippu has a held stop in the middle — ki, silent beat, pu.",
+      "tts": "切符を二枚お願いします。"
+    },
+    {
+      "consulta": [
+        "compras/balcao"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_m",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-b01-p06",
+      "promptPt": "Same counter, at the ticket window. Order two, and hold the little stop in the middle of kippu. Speak now.",
+      "audioKey": "fr-b01-t06",
+      "es": "切符を二枚お願いします。",
+      "pinyin": "KIP-pu o ni-mai o-ne-gai-shi-mass",
+      "pt": "Two tickets, please.",
+      "tts": "切符を二枚お願いします。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-b01-n07",
+      "pt": "Move five: i and u go nearly silent between soft consonants. Desu is dess, sukiyaki starts skiyaki. Written, not sounded."
+    },
+    {
+      "consulta": [
+        "compras/balcao",
+        "pagar/pedir"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-b01-p07",
+      "promptPt": "She asks whether you want anything else. Close the order — that is all. Speak now.",
+      "audioKey": "fr-b01-t07",
+      "es": "以上です。ありがとうございます。",
+      "pinyin": "i-JOH dess, a-ri-ga-TOH go-za-i-mass",
+      "pt": "That's everything, thank you.",
+      "tts": "以上です。ありがとうございます。"
+    },
+    {
+      "consulta": [
+        "chegar/entrar"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-b01-p08",
+      "promptPt": "You are inside a café and you need the back of the room. Ask. Speak now.",
+      "audioKey": "fr-b01-t08",
+      "es": "トイレはどこですか？",
+      "pinyin": "TOH-i-re wa DO-ko des-ka",
+      "pt": "Where is the toilet?",
+      "tts": "トイレはどこですか？"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-b01-r02",
+      "es": "奥の右側です。",
+      "pt": "At the back, on the right.",
+      "tts": "奥の右側です。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-b01-n08",
+      "pt": "Move six: r is a light tap between English r, l and d; accent is a pitch drop, not loudness — words slide past edgeless."
+    },
+    {
+      "consulta": [
+        "compras/balcao"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-b01-p09",
+      "promptPt": "The shutter is half up and someone is moving about inside. Ask before you walk in. Speak now.",
+      "audioKey": "fr-b01-t09",
+      "es": "すみません、開いていますか？",
+      "pinyin": "soo-mee-ma-SEN, a-i-te i-mass-ka",
+      "pt": "Excuse me, are you open?",
+      "tts": "すみません、開いていますか？"
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_fr_f",
+      "audioKey": "fr-b01-s01",
+      "es": "すみません、コーヒーをお願いします。パンをください。トイレはどこですか？ ありがとうございます。",
+      "pinyin": "soo-mee-ma-SEN KOH-hee o o-ne-gai-shi-mass · PAN o ku-da-SAI · TOH-i-re wa DO-ko des-ka · a-ri-ga-TOH go-za-i-mass",
+      "pt": "Shadow all six moves in one run. Flat hand, one even beat per kana, long vowels and the little tsu held a full beat.",
+      "tts": "すみません、コーヒーをお願いします。パンをください。トイレはどこですか？ ありがとうございます。"
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-b01-n09",
+      "bloco": "recap",
+      "pt": "B01 done. One beat per kana, five pure vowels, long vowels held, little tsu silent, i and u dropped, pitch not stress."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "The sound model this course uses",
+    "secoes": [
+      {
+        "titulo": "The beat is the unit, not the syllable",
+        "corpo": "Japanese runs on the mora: every kana takes the same short length, and the rhythm is that string of equal beats. That is the whole difficulty of this pair. Hundreds of words came into Japanese from English, so the eye recognises them and offers an English rhythm the ear will not accept. The fix is even timing, not effort — same size on every beat.",
+        "exemplos": [
+          {
+            "es": "コーヒー",
+            "pt": "ko-o-hi-i — four equal beats, not KOFF-ee"
+          },
+          {
+            "es": "ホテル",
+            "pt": "ho-te-ru — three clean vowels, not hoh-TELL"
+          }
+        ]
+      },
+      {
+        "titulo": "The long vowel is a whole extra beat",
+        "corpo": "A doubled vowel is not a stressed vowel — it is a second beat of the same sound, and it carries meaning. Biru is a building and biiru is a beer; obasan is an aunt and obaasan is a grandmother. English has no habit of holding a vowel to change a word, so this is the beat most likely to go missing.",
+        "exemplos": [
+          {
+            "es": "ビル / ビール",
+            "pt": "biru / biiru — building / beer"
+          },
+          {
+            "es": "おばさん / おばあさん",
+            "pt": "obasan / obaasan — aunt / grandmother"
+          }
+        ]
+      },
+      {
+        "titulo": "The little tsu is a silent beat",
+        "corpo": "In kitte or kippu the small tsu on the page is an instruction, not a sound: stop, hold one beat of nothing, then release the next consonant. English speakers run straight through the gap and the word arrives as something shorter and different. The pause is the sound."
+      },
+      {
+        "titulo": "Quiet vowels and the light r",
+        "corpo": "Between the voiceless consonants i and u often drop almost to nothing: desu is heard as dess, sukiyaki starts as skiyaki, and the polite -mashita ending loses its i. And the r is a single light tap, closer to a soft d than to an English r or l. Neither of these is sloppy speech — they are how the standard register sounds."
+      },
+      {
+        "titulo": "Permission to sound foreign",
+        "corpo": "A perfect pitch accent you cannot yet place is not a travel problem. Giving every kana its own beat, holding the long vowels and the small tsu, and keeping the line flat buy far more intelligibility than performing an accent. The target is understood the first time, not mistaken for a local."
+      }
+    ]
+  },
+  "slot": "B01",
+  "permissao": "You are allowed to sound foreign. Nobody at that counter is grading your pitch accent, and nobody is waiting for a perfect r. Give every kana its own beat, hold the long vowels, and the sentence arrives — which is the entire job on day one.",
+  "permissaoAudioKey": "fr-b01-n07",
+  "espelho": "English does the same trick in the other direction: nobody says every letter of Wednesday, Leicester or comfortable, and nobody thinks of that as difficult. You already own the habit of letting sounds behave against the spelling — this part just moves it to a different set of beats.",
+  "fichasCulturais": [
+    {
+      "sinal": "You say a word you are completely sure of — coffee, beer, hotel, taxi — and the person waits a beat, or does not catch it.",
+      "suaLeitura": "My accent is so bad that even the words we share do not work.",
+      "oQueEAli": "Those words came into Japanese with every vowel given its own beat, the stress flattened out and some vowels doubled — koohii, biiru, hoteru, takushii. Said the English way, with one stressed syllable and the endings swallowed, they arrive as words the listener does not have, rather than as an accented version of words they do.",
+      "oQueVoceFaz": "Say it again with even beats and no English stress: ko-o-hi-i, not KOFF-ee; bi-i-ru, not BEER.",
+      "oQueMelhora": "The hundreds of loanwords you already half-know stop being the ones that fail first, and the conversation stays in Japanese a little longer.",
+      "ondeNaoVale": "Not at an airport counter, a big station or a hotel desk used to international guests, where staff decode accented Japanese all day and will get you the first time either way.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "fr-b01-n03",
+        "fr-b01-n06"
+      ]
+    },
+    {
+      "sinal": "You follow single words in a shop, then someone says a whole sentence and you cannot find where any word begins.",
+      "suaLeitura": "They are speaking too fast for me.",
+      "oQueEAli": "Speed is only part of it. Japanese runs as an even stream of equal beats with the little grammar words — wa, o, no, desu — blurred in between, and there is no stress bump to mark where each word starts. The gap you are hunting for was never in the signal.",
+      "oQueVoceFaz": "Stop listening for word edges and listen for the content word plus the small drop in pitch near the end. Ask for one repeat and let the second pass find the shape instead of the seams.",
+      "oQueMelhora": "You start catching the noun that carries the answer — the place, the price, the platform — instead of trying to parse the whole stream.",
+      "ondeNaoVale": "Not with numbers and addresses, where the pieces really are separate and asking for it written down works better than another listen.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "fr-b01-n08"
+      ]
+    }
+  ]
+}

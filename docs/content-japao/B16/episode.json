@@ -1,0 +1,336 @@
+{
+  "id": "b16",
+  "nivel": "basico",
+  "numero": 16,
+  "parte": "B16",
+  "titulo": "Sagashite imasu — and the person at the front desk starts looking with you",
+  "subtitulo": "The higher floor, the quieter side and the later checkout are cheap at check-in and expensive once you have unpacked",
+  "cena": "The clerk has your passport in one hand and the room list on the screen, and has not yet decided which of the free rooms is yours.",
+  "moldura": "ganha",
+  "frasePiso": "The thing, then wo sagashite imasu. Three words, and the search stops being yours alone.",
+  "moldes": [],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-b16-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "Check-in is the cheapest minute of the whole stay. Ask now and it is a favour. Ask tomorrow and it is a move."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-b16-n02",
+      "bloco": "molde",
+      "pt": "Here is the frame: the thing, then sagashite imasu. It works even when you do not know the place has one."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_f",
+      "audioKey": "fr-b16-t01",
+      "es": "もっと静かな部屋を探しています。",
+      "pinyin": "mot-to shi-ZU-ka na he-YA o sa-ga-shi-te i-MAS",
+      "pt": "I'm looking for a quieter room.",
+      "tts": "もっと静かな部屋を探しています。"
+    },
+    {
+      "consulta": [
+        "quarto/checkin",
+        "quarto/pedir"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "SAGASHITE-IMASU",
+      "encaixe": "もっと静かな部屋",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-b16-p01",
+      "promptPt": "At the front desk, before the key is out of the drawer. There is a lift shaft the other side of that wall. Say what you are after. Speak now.",
+      "audioKey": "fr-b16-t01",
+      "es": "もっと静かな部屋を探しています。",
+      "pinyin": "mot-to shi-ZU-ka na he-YA o sa-ga-shi-te i-MAS",
+      "pt": "I'm looking for a quieter room."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-b16-r01",
+      "es": "かしこまりました。上の階に、静かなお部屋がございます。",
+      "pt": "Certainly. We have a quieter room on a higher floor.",
+      "tts": "かしこまりました。上の階に、静かなお部屋がございます。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-b16-n03",
+      "bloco": "corpo",
+      "pt": "A higher floor, away from the street, is the quiet side — and that is what you were actually asking for."
+    },
+    {
+      "consulta": [
+        "quarto/pedir",
+        "quarto/checkin"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "ARIMASU-KA",
+      "encaixe": "上の階の部屋",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-b16-p02",
+      "promptPt": "Still at the desk. The street below is a bus route and the window is thin. Ask whether anything is free higher up. Speak now.",
+      "audioKey": "fr-b16-t02",
+      "es": "上の階の部屋はありますか？",
+      "pinyin": "u-e no KA-i no he-YA wa a-ri-MAS ka",
+      "pt": "Do you have a room on a higher floor?",
+      "tts": "上の階の部屋はありますか？"
+    },
+    {
+      "consulta": [
+        "quarto/mala",
+        "reparo/permissao"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "TE-MO-II",
+      "encaixe": "ここに荷物を置い",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-b16-p03",
+      "promptPt": "It is eleven in the morning and the room is not ready until three. You want your hands free. Ask. Speak now.",
+      "audioKey": "fr-b16-t03",
+      "es": "ここに荷物を置いてもいいですか？",
+      "pinyin": "ko-ko ni ni-MO-tsu o oi-te mo II des ka",
+      "pt": "Can I leave my luggage here?",
+      "tts": "ここに荷物を置いてもいいですか？"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-b16-r02",
+      "es": "はい、フロントでお預かりします。番号札をお渡しします。",
+      "pt": "Yes, we'll keep it at the front desk. I'll give you a numbered tag.",
+      "tts": "はい、フロントでお預かりします。番号札をお渡しします。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-b16-n04",
+      "bloco": "capsula",
+      "pt": "Same frame, different counter. When you know the thing exists here, arimasu ka does the asking instead."
+    },
+    {
+      "consulta": [
+        "quarto/pedir",
+        "chegar/conexao"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "ARIMASU-KA",
+      "encaixe": "Wi‑Fi",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-b16-p04",
+      "promptPt": "Your data plan is nearly gone and there is no card on the desk with a password on it. Ask. Speak now.",
+      "audioKey": "fr-b16-t04",
+      "es": "Wi‑Fiはありますか？",
+      "pinyin": "WAI-fai wa a-ri-MAS ka",
+      "pt": "Do you have wifi?",
+      "tts": "ワイファイはありますか？"
+    },
+    {
+      "consulta": [
+        "quarto/pedir",
+        "cidade/onde"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "SAGASHITE-IMASU",
+      "encaixe": "朝食会場",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-b16-p05",
+      "promptPt": "Half past seven, ground floor, three unmarked doors and a smell of coffee coming from one of them. Speak now.",
+      "audioKey": "fr-b16-t05",
+      "es": "朝食会場を探しています。",
+      "pinyin": "choo-shoku KAI-joo o sa-ga-shi-te i-MAS",
+      "pt": "I'm looking for the breakfast room.",
+      "tts": "朝食会場を探しています。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-b16-n05",
+      "pt": "Upstairs the frame keeps working, and the person with the cleaning cart in the corridor can solve most of it."
+    },
+    {
+      "consulta": [
+        "quarto/pedir",
+        "reparo/permissao"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "TE-MO-II",
+      "encaixe": "もう一枚毛布をもらっ",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-b16-p06",
+      "promptPt": "In the corridor upstairs, housekeeping cart parked outside the next door. The room was colder than you expected. Speak now.",
+      "audioKey": "fr-b16-t06",
+      "es": "もう一枚、毛布をもらってもいいですか？",
+      "pinyin": "moo i-chi-MAI, moo-fu o mo-rat-te mo II des ka",
+      "pt": "Can I have another blanket?",
+      "tts": "もう一枚、毛布をもらってもいいですか？"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_f",
+      "audioKey": "fr-b16-r03",
+      "es": "すぐにお持ちします。",
+      "pt": "I'll bring it right up.",
+      "tts": "すぐにお持ちします。"
+    },
+    {
+      "consulta": [
+        "quarto/checkout",
+        "quarto/pedir"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "ARIMASU-KA",
+      "encaixe": "レイトチェックアウト",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-b16-p07",
+      "promptPt": "Back at the front desk. Your train is at six and the card in the room says eleven. Ask about the last morning. Speak now.",
+      "audioKey": "fr-b16-t07",
+      "es": "レイトチェックアウトはありますか？",
+      "pinyin": "REI-to chek-ku-au-to wa a-ri-MAS ka",
+      "pt": "Do you have late checkout?",
+      "tts": "レイトチェックアウトはありますか？"
+    },
+    {
+      "consulta": [
+        "cidade/onde",
+        "pagar/dinheiro"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "SAGASHITE-IMASU",
+      "encaixe": "ATM",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-b16-p08",
+      "promptPt": "On the street outside the hotel, asking the person locking up the shop next door. You have a few coins in your pocket. Speak now.",
+      "audioKey": "fr-b16-t08",
+      "es": "ATMを探しています。",
+      "pinyin": "ee-tee-EE-moo o sa-ga-shi-te i-MAS",
+      "pt": "I'm looking for a cash machine.",
+      "tts": "エーティーエムを探しています。"
+    },
+    {
+      "consulta": [
+        "quarto/pedir",
+        "chegar/conexao"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "SAGASHITE-IMASU",
+      "encaixe": "携帯を充電するコンセント",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-b16-p09",
+      "promptPt": "Back in the room. The only socket you can find is behind the bed, and the bed does not move. Speak now.",
+      "audioKey": "fr-b16-t09",
+      "es": "携帯を充電するコンセントを探しています。",
+      "pinyin": "kei-tai o joo-DEN su-ru KON-sen-to o sa-ga-shi-te i-MAS",
+      "pt": "I'm looking for a socket to charge my phone.",
+      "tts": "携帯を充電するコンセントを探しています。"
+    },
+    {
+      "consulta": [
+        "conversa/agradecer"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-b16-p10",
+      "promptPt": "He moved you, tagged the bag and found the socket. Close it properly. Speak now.",
+      "audioKey": "fr-b16-t10",
+      "es": "本当にありがとうございます。助かりました。",
+      "pinyin": "hon-TOU ni a-ri-ga-toh go-za-i-mas. ta-su-ka-ri-MA-shi-ta",
+      "pt": "Thank you so much, you've really helped.",
+      "tts": "本当にありがとうございます。助かりました。"
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_fr_f",
+      "audioKey": "fr-b16-s01",
+      "es": "もっと静かな部屋を探しています。朝食会場を探しています。ATMを探しています。",
+      "pinyin": "mot-to shi-ZU-ka na he-YA o sa-ga-shi-te i-MAS. choo-shoku KAI-joo o sa-ga-shi-te i-MAS. ee-tee-EE-moo o sa-ga-shi-te i-MAS",
+      "pt": "Shadow the same three words across three different searches.",
+      "tts": "もっと静かな部屋を探しています。朝食会場を探しています。エーティーエムを探しています。",
+      "molde": "SAGASHITE-IMASU"
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-b16-n06",
+      "bloco": "recap",
+      "pt": "B16 done. Sagashite imasu opened the desk, the corridor and the street — three words, three different searches."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "Three words that hand the search to someone else",
+    "secoes": [
+      {
+        "titulo": "The thing, plus sagashite imasu",
+        "corpo": "Keep the ending and change only what you are after. It is the frame for the case where you do not yet know whether this building has one, which is most of the first day in any hotel.",
+        "exemplos": [
+          {
+            "es": "もっと静かな部屋を探しています。",
+            "pt": "I'm looking for a quieter room."
+          },
+          {
+            "es": "ATMを探しています。",
+            "pt": "I'm looking for a cash machine."
+          }
+        ]
+      },
+      {
+        "titulo": "Why sagashite imasu and not doko desu ka",
+        "corpo": "Doko desu ka asks for a place you already believe exists — 出口, 駅. Sagashite imasu opens a search that might come back empty, and that difference is what makes the other person take the question on instead of pointing and turning away."
+      },
+      {
+        "titulo": "The higher floor and the quiet side",
+        "corpo": "Noise is worst low down and facing the street. If you remember one request from this part, remember the higher floor away from the road — it is the answer to noise before the noise has happened, and at check-in it costs the clerk one click on a screen that is still open."
+      },
+      {
+        "titulo": "Ask on the way in, not on the way out",
+        "corpo": "A higher floor, the quiet side and a later checkout are all decided by a screen that is still open while you are standing there. Once the key is in your hand the same three requests need a reason attached, and the reason is always the same one: the room you already have."
+      }
+    ]
+  },
+  "slot": "B16",
+  "permissao": "You are allowed to shape the room before you see it. Asking for a floor or a quieter side at check-in is an ordinary request at an ordinary counter, and the answer costs the person on the other side one click.",
+  "permissaoAudioKey": "fr-b16-n01",
+  "espelho": "Anyone who has ever been given a table by the kitchen door knows the shape of this: the good version was available, it was allocated in three seconds, and nobody asked what you wanted because you did not say. Hotels work exactly the same way.",
+  "fichasCulturais": [
+    {
+      "sinal": "You ask for something at the desk and get a short mōshiwake gozaimasen, dekimasen, with no explanation attached.",
+      "suaLeitura": "He does not want to help me, and pushing would be rude.",
+      "oQueEAli": "At a Japanese desk the short answer is usually about the state of the room list at that moment — which rooms are cleaned, which are held for tonight's arrivals — and not about the request or the person making it. The list changes through the day, and so does the answer, and the apology in front of the no is genuine politeness, not a brush-off.",
+      "oQueVoceFaz": "Take the no, then ask the same thing about a different slot in time: this evening, tomorrow, after the cleaning round. Sagashite imasu works again, unchanged.",
+      "oQueMelhora": "You get the quiet room from six o'clock instead of not at all, which is what was on offer the whole time.",
+      "ondeNaoVale": "Not when the answer has already come twice and there is a queue behind you — a third round reads as not accepting an answer, and it costs you the goodwill you will want on the last morning.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "fr-b16-n03"
+      ]
+    },
+    {
+      "sinal": "You open in English at the desk. The exchange is efficient and correct but noticeably careful, and the warmth you expected does not quite arrive.",
+      "suaLeitura": "He would rather not deal with a foreigner.",
+      "oQueEAli": "The reserve you are reading is usually about the staff's own confidence in English and the formal register of a Japanese front desk, not reluctance about you. Politeness here runs cool and precise by default, and a short careful exchange is the normal shape, not a cold one.",
+      "oQueVoceFaz": "Open with konnichiwa or sumimasen and let it land before your request, then say what you need in whatever language you have — a few Japanese words at the start warm the whole exchange.",
+      "oQueMelhora": "The same exchange runs warmer, and staff who do have some English are more likely to offer it once the opening has happened.",
+      "ondeNaoVale": "This describes a register and a language gap, not how anyone feels about visitors, and it does not explain every brisk exchange — someone at the end of a long shift is sometimes just tired.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "fr-b16-n02"
+      ]
+    }
+  ]
+}

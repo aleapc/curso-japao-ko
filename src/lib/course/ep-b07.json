@@ -1,0 +1,357 @@
+{
+  "id": "b07",
+  "nivel": "basico",
+  "numero": 7,
+  "parte": "B07",
+  "titulo": "테모 이이데스카 — 물어보면, 허락은 이미 당신 것이다",
+  "subtitulo": "한 마디면 공항 터미널에서 베개까지 다 풀린다 — 결제하고, 사고, 타고, 앉고, 충전하고 — 건물마다 규칙이 다르기 때문이다",
+  "cena": "가방은 카트 위에 있고, 시내로 가는 길 세 개가 표지판에 적혀 있는데, 그 각각에 당신이 듣지 못한 조건이 붙어 있다.",
+  "moldura": "ganha",
+  "frasePiso": "동작을 te형으로 바꾸고, 그 뒤에 te mo ii desu ka. 이 한 마디로 비행기에서 베개까지 만나는 모든 카운터에 답을 얻을 수 있다.",
+  "moldes": [
+    "TE-MO-II"
+  ],
+  "clique": {
+    "contagem": [
+      "발권기",
+      "택시",
+      "프런트 데스크"
+    ],
+    "desconto": "발권기, 택시, 프런트 데스크마다 다른 문장을 배운 게 아니다. 어미 하나는 그대로 두고 그 앞의 동작만 바꿨을 뿐이다.",
+    "piso": "다음에 여기서 뭔가 해도 되는지 헷갈릴 때, 짐작하고 바라기만 하지 않는다. 동작에 te mo ii desu ka를 붙여서 물어보면 된다."
+  },
+  "fatosDatados": [
+    {
+      "id": "fr-carte-refus",
+      "afirmacao": "일본에는 카드를 받아야 한다는 법적 의무가 없고, 작거나 오래되거나 가족이 운영하는 가게 중에는 현금만 받는 곳이 많다 — 보통 입구나 계산대에 안내가 붙어 있다. 편의점, 체인점, 백화점, 주요 대중교통과 대부분의 호텔은 카드와 Suica 같은 IC 카드를 받는다. 정부의 캐시리스 추진 이후 PayPay 같은 QR·비접촉 결제가 빠르게 퍼졌지만 아직 모든 곳에 닿지는 않았으니, 현금만 받는 라멘집이나 신사 노점은 흔한 일이지 당신을 무시하는 게 아니다.",
+      "fonte": "Sem obrigação legal de aceitar cartão no Japão; muitos estabelecimentos pequenos/antigos são somente-dinheiro, em geral sinalizado. Konbini, redes, lojas de departamento, transporte e maioria dos hotéis aceitam cartão e IC. Expansão do cashless (PayPay etc.) após incentivo governamental, mas não universal.",
+      "ano": 2026,
+      "revisarAte": "2028-08-05",
+      "evidencia": "FATO",
+      "risco": "medio",
+      "audioKeys": [
+        "fr-b07-n03"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-b07-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "비행기와 침대 사이에는 카운터가 네 곳 있고, 각각 거기서 뭘 해도 되는지에 대한 규칙이 따로 있다."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-b07-n02",
+      "bloco": "molde",
+      "pt": "틀은 이렇다: 동작을 te형으로, 그다음 te mo ii desu ka — 해도 되나요, 그다음 할 일. 어미는 절대 안 바뀐다; 동사를 아예 te형인 채로 통째로 외워라."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_f",
+      "audioKey": "fr-b07-t01",
+      "es": "カードで払ってもいいですか？",
+      "pinyin": "KAH-do de ha-RAT-te mo ii des-ka",
+      "pt": "카드로 결제해도 될까요?",
+      "tts": "カードで払ってもいいですか？"
+    },
+    {
+      "consulta": [
+        "pagar/cartao",
+        "transporte/bilhete"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "TE-MO-II",
+      "encaixe": "カードで払っ",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-b07-p01",
+      "promptPt": "입국장 발권기 앞이고 주머니에 있는 지폐는 죄다 다른 나라 돈이다. 줄 서기 전에 먼저 물어봐라. 지금 말하세요.",
+      "audioKey": "fr-b07-t01",
+      "es": "カードで払ってもいいですか？",
+      "pinyin": "KAH-do de ha-RAT-te mo ii des-ka",
+      "pt": "카드로 결제해도 될까요?",
+      "tts": "カードで払ってもいいですか？"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-b07-r01",
+      "receptivo": true,
+      "es": "すみません、うちは現金のみなんです。",
+      "pt": "죄송해요, 저희는 현금만 받아요.",
+      "tts": "すみません、うちは現金のみなんです。",
+      "acao": "현금만 받는다는 안내판을 찾아봐라. 편의점과 체인점은 카드를 받지만, 작고 오래된 가게는 안 받는 경우가 많고, 이는 안내된 규칙이지 당신 개인에 대한 게 아니다."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-b07-n03",
+      "bloco": "corpo",
+      "pt": "여기서는 어떤 가게도 카드를 받아야 할 의무가 없다; 작은 가게 중엔 현금만 받는 곳이 많다. 편의점, 체인점, 대중교통은 카드와 IC를 받는다; 엔화 현금은 언제나 통한다."
+    },
+    {
+      "consulta": [
+        "pagar/dinheiro"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "TE-MO-II",
+      "encaixe": "現金で払っ",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-b07-p02",
+      "promptPt": "같은 발권기인데, 표지판에 현금만이라고 쓰여 있다. 동전과 지폐가 있다. 다른 방법을 제안해 봐라. 지금 말하세요.",
+      "audioKey": "fr-b07-t02",
+      "es": "現金で払ってもいいですか？",
+      "pinyin": "gen-KIN de ha-RAT-te mo ii des-ka",
+      "pt": "현금으로 내도 될까요?",
+      "tts": "現金で払ってもいいですか？"
+    },
+    {
+      "consulta": [
+        "transporte/bilhete"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "TE-MO-II",
+      "encaixe": "ここで切符を買っ",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-b07-p03",
+      "promptPt": "작은 창구 앞인데, 뭘 팔긴 하는 건지 안내만 하는 건지 알 수가 없다. 지금 말하세요.",
+      "audioKey": "fr-b07-t03",
+      "es": "ここで切符を買ってもいいですか？",
+      "pinyin": "ko-ko de KIP-pu o kat-te mo ii des-ka",
+      "pt": "여기서 표를 사도 될까요?",
+      "tts": "ここで切符を買ってもいいですか？"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-b07-r02",
+      "es": "はい、あちらの券売機でも買えますよ。",
+      "pt": "네, 아니면 저쪽 발권기에서도 사실 수 있어요.",
+      "tts": "はい、あちらの券売機でも買えますよ。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-b07-n04",
+      "pt": "여는 말은 같고, 문제만 다르다. 앞의 동작만 바꾸고 나머지는 그대로다."
+    },
+    {
+      "consulta": [
+        "transporte/bagagem"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "TE-MO-II",
+      "encaixe": "荷物を持って乗っ",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-b07-p04",
+      "promptPt": "시내로 가는 열차가 플랫폼에 서 있고, 문은 좁은데 옆에는 큰 캐리어가 있다. 직원에게 확인해 봐라. 지금 말하세요.",
+      "audioKey": "fr-b07-t04",
+      "es": "荷物を持って乗ってもいいですか？",
+      "pinyin": "ni-MOTS o mot-te not-te mo ii des-ka",
+      "pt": "짐을 들고 타도 될까요?",
+      "tts": "荷物を持って乗ってもいいですか？"
+    },
+    {
+      "consulta": [
+        "taxi/destino",
+        "pagar/errado"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "TE-MO-II",
+      "encaixe": "領収書をもらっ",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-b07-p05",
+      "promptPt": "택시가 호텔 앞에 섰고 방금 결제를 마쳤다. 기사님이 줘야 할 종이 한 장이 있다. 달라고 해봐라. 지금 말하세요.",
+      "audioKey": "fr-b07-t05",
+      "es": "領収書をもらってもいいですか？",
+      "pinyin": "ryoh-SHOO-sho o mo-rat-te mo ii des-ka",
+      "pt": "영수증 받을 수 있을까요?",
+      "tts": "領収書をもらってもいいですか？"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-b07-r03",
+      "es": "はい、どうぞ。空港からは定額なんですよ。",
+      "pt": "네, 그럼요. 공항에서는 정액 요금이거든요.",
+      "tts": "はい、どうぞ。空港からは定額なんですよ。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-b07-n05",
+      "bloco": "capsula",
+      "pt": "공항 노선 중에는 요청할 수 있는 정액 요금이 있는 경우가 있고, 그 외엔 미터 요금이다. 어느 쪽이든 팁은 필요 없고, 영수증은 달라고 하면 받을 수 있다."
+    },
+    {
+      "consulta": [
+        "quarto/mala"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "TE-MO-II",
+      "encaixe": "ここに荷物を置い",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-b07-p06",
+      "promptPt": "방이 준비되기 네 시간 전에 호텔 프런트에 도착했고, 손을 자유롭게 두고 싶다. 지금 말하세요.",
+      "audioKey": "fr-b07-t06",
+      "es": "ここに荷物を置いてもいいですか？",
+      "pinyin": "ko-ko ni ni-MOTS o oi-te mo ii des-ka",
+      "pt": "여기에 짐을 놓아도 될까요?",
+      "tts": "ここに荷物を置いてもいいですか？"
+    },
+    {
+      "consulta": [
+        "chegar/entrar"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "TE-MO-II",
+      "encaixe": "ここに座っ",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-b07-p07",
+      "promptPt": "호텔 로비에 빈 안락의자가 하나 있고, 옆자리엔 누군가의 코트가 놓여 있다. 먼저 확인해 봐라. 지금 말하세요.",
+      "audioKey": "fr-b07-t07",
+      "es": "ここに座ってもいいですか？",
+      "pinyin": "ko-ko ni su-WAT-te mo ii des-ka",
+      "pt": "여기 앉아도 될까요?",
+      "tts": "ここに座ってもいいですか？"
+    },
+    {
+      "consulta": [
+        "quarto/pedir"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "TE-MO-II",
+      "encaixe": "ここで充電し",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-b07-p08",
+      "promptPt": "배터리는 4퍼센트 남았고, 예약 확인 화면은 열려 있는데, 프런트 뒤에 콘센트가 보인다. 지금 말하세요.",
+      "audioKey": "fr-b07-t08",
+      "es": "ここで充電してもいいですか？",
+      "pinyin": "ko-ko de JOO-den shi-te mo ii des-ka",
+      "pt": "여기서 충전해도 될까요?",
+      "tts": "ここで充電してもいいですか？"
+    },
+    {
+      "consulta": [
+        "reparo/apontar"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "TE-MO-II",
+      "encaixe": "通っ",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-b07-p09",
+      "promptPt": "객차는 꽉 찼고, 다음이 내릴 역인데, 문까지 세 사람이 서 있다. 지금 말하세요.",
+      "audioKey": "fr-b07-t09",
+      "es": "通ってもいいですか？",
+      "pinyin": "TOH-t-te mo ii des-ka",
+      "pt": "지나가도 될까요?",
+      "tts": "通ってもいいですか？"
+    },
+    {
+      "consulta": [
+        "simpatia/agradecer"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-b07-p10",
+      "promptPt": "기사님이 문 앞까지 데려다줬고 밤이 늦었다. 내리면서 하는 두 마디를 말해봐라. 지금 말하세요.",
+      "audioKey": "fr-b07-t10",
+      "es": "ありがとうございます。おやすみなさい。",
+      "pinyin": "a-ri-ga-TOH go-za-i-mass, o-ya-su-mi-na-SAI",
+      "pt": "정말 감사합니다. 안녕히 주무세요.",
+      "tts": "ありがとうございます。おやすみなさい。"
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_fr_f",
+      "audioKey": "fr-b07-s01",
+      "es": "カードで払ってもいいですか？ 荷物を持って乗ってもいいですか？ ここに荷物を置いてもいいですか？",
+      "pinyin": "KAH-do de ha-RAT-te mo ii des-ka · ni-MOTS o mot-te not-te mo ii des-ka · ko-ko ni ni-MOTS o oi-te mo ii des-ka",
+      "pt": "같은 어미를 세 가지 다른 동작으로 따라 말해봐라.",
+      "tts": "カードで払ってもいいですか？ 荷物を持って乗ってもいいですか？ ここに荷物を置いてもいいですか？",
+      "molde": "TE-MO-II"
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-b07-n06",
+      "bloco": "recap",
+      "pt": "B07 완료. 이 틀 하나로 발권기, 플랫폼, 택시, 프런트, 좌석까지 다 해결했다 — 어미 하나, 동작 아홉 개."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "여는 말 하나로 시내까지 가는 길 전부",
+    "secoes": [
+      {
+        "titulo": "Te mo ii desu ka와 te형",
+        "corpo": "te mo ii desu ka는 그대로 두고 앞의 동작만 바꾼다. 동사는 이미 te형으로 된 하나의 덩어리로 외운다 — haratte, suwatte, oite — 그러면 급할 때 활용을 따로 고민할 필요가 없고, 그래서 이게 가장 값싸게 챙길 수 있는 틀이다. 일부러 긴 존댓말인 te mo yoroshii deshou ka가 아니라 짧은 te mo ii desu ka를 쓰는 이유도 그것이다: 짧은 쪽이 카운터 앞에서 실제로 입 밖에 나오는 형태다.",
+        "exemplos": [
+          {
+            "es": "カードで払ってもいいですか？",
+            "pt": "카드로 결제해도 될까요?"
+          },
+          {
+            "es": "ここに荷物を置いてもいいですか？",
+            "pt": "여기에 짐을 놓아도 될까요?"
+          }
+        ]
+      },
+      {
+        "titulo": "카드가 항상 통하는 건 아니다",
+        "corpo": "일본은 여전히 현금 중심 사회이고, 카드를 받을지는 법적 의무가 아니라 각 가게의 결정이다. 작고 오래되고 가족이 운영하는 가게는 대체로 현금만 받으며, 보통 안내판이 붙어 있는데 이는 흔한 일이지 당신을 겨냥한 거절이 아니다. 편의점, 체인점, 백화점, 호텔, 주요 대중교통은 카드와 Suica 같은 IC 카드를 받고, 비접촉·QR 결제도 빠르게 퍼졌지만 아직 모든 곳은 아니다. 반면 엔화 현금은 어디서나 통한다."
+      },
+      {
+        "titulo": "공항 택시",
+        "corpo": "주요 공항과 시내 사이 일부 노선에는 요청할 수 있는 정액 요금이 있고, 그 외엔 미터 요금으로 달린다. 어느 쪽이든 팁은 필요 없다 — 그냥 그런 문화가 아니다 — 그리고 요청하면 영수증도 받을 수 있다. 택시에 대해 하나 더: 뒷좌석 문은 기사님이 열고 닫아주니, 손잡이를 잡으려 하지 말고 그냥 기다리면 된다."
+      },
+      {
+        "titulo": "아는 것보다 물어보는 게 나은 이유",
+        "corpo": "카드로 결제할 수 있는지, 캐리어를 갖고 탈 수 있는지, 프런트에 짐을 맡길 수 있는지는 회사마다, 건물마다, 시간대마다 다르다. 외운 규칙 하나는 답 하나만 준다. 이 틀은 아무도 가이드북에 써놓지 않은 곳에서도 답을 준다."
+      }
+    ]
+  },
+  "slot": "B07",
+  "permissao": "발권기, 플랫폼, 택시, 프런트마다 다른 문장이 필요하지 않다. 동작에 te mo ii desu ka를 붙이고 끝을 살짝 올리면 그 경로 어디서든 완전한 요청이 되고, 거기서 아무도 당신의 표현을 채점하지 않는다.",
+  "permissaoAudioKey": "fr-b07-n02",
+  "espelho": "낯선 공항에 도착해 본 사람이라면 누구나 이 순서를 의식하지 않고 이미 밟아왔다 — 돈, 표, 짐, 앉을 자리. 새로운 건 그걸 절대 바뀌지 않는 어미 하나로 해낸다는 점뿐이다.",
+  "fichasCulturais": [
+    {
+      "sinal": "택시 문을 직접 열려고 손을 뻗는데, 기사님이 언짢은 표정을 짓거나, 손대기도 전에 문이 저절로 열린다.",
+      "suaLeitura": "문이 고장 났거나, 기사님이 자기 차에 유난히 예민한 것 같다.",
+      "oQueEAli": "일본 택시의 뒷좌석 문은 기사님이 조작하는 자동문이다. 당신이 손댈 일이 아니다 — 오히려 손잡이를 잡으려 하는 쪽이 이상하게 보이고, 기다리는 게 정상이다. 이건 그냥 차의 기본 사양이지 당신에 대한 반응이 아니다.",
+      "oQueVoceFaz": "한 걸음 물러서서 문이 스스로 열리고 닫히게 두고, 손대지 않은 채로 타고 내려라. 그리고 팁은 주지 마라 — 미터기나 표시된 요금이 전액이다.",
+      "oQueMelhora": "탑승과 하차 양쪽에서 생기던 작은 마찰이 사라지고, 표준 사양을 기사님의 기분으로 오해하는 일이 없어진다.",
+      "ondeNaoVale": "앞문이나 트렁크는 직접 다뤄야 할 수도 있고, 모든 대절 차량이 그런 것도 아니다 — 자동문은 미터 택시의 사양이지, 당신이 탈 모든 차의 특징은 아니다.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "fr-b07-n05"
+      ]
+    },
+    {
+      "sinal": "작은 식당이나 매표소에서 카드를 손으로 밀어내며 손글씨 안내판을 가리킨다.",
+      "suaLeitura": "내 카드가 외국 카드라서 거절하는 거구나.",
+      "oQueEAli": "일본에는 카드를 받아야 한다는 법적 의무가 없고, 작거나 오래된 가게 중에는 현금만 받는 곳이 많으며 보통 입구나 계산대에 그 조건이 안내되어 있다. 가리키고 있는 그 안내판이 설명의 전부다 — 현지 손님에게도 똑같이 적용된다.",
+      "oQueVoceFaz": "첫날은 엔화 현금을 넉넉히 챙기고, 줄을 서기 전에 입구를 먼저 살펴봐라. 편의점과 체인점은 카드와 IC 카드를 받지만, 현금만 받는 라멘집은 받지 않는다.",
+      "oQueMelhora": "안내된 방침을 개인적인 결정으로 오해하지 않게 되고, 줄 맨 앞에서 쓸 수 있는 게 아무것도 없는 상황에 놓이지 않게 된다.",
+      "ondeNaoVale": "엔화 현금에는 해당하지 않는다 — 그건 어디서나 받아준다. 그리고 도시에서는 카드, IC, QR 결제 비중이 빠르게 늘고 있으니, 현금만 받는 가게가 있다는 건 여유분을 챙길 이유이지, 카드가 아예 안 통한다고 단정할 이유는 아니다.",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "fr-b07-n03"
+      ]
+    }
+  ]
+}

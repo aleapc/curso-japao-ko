@@ -1,0 +1,410 @@
+{
+  "id": "b14",
+  "nivel": "basico",
+  "numero": 14,
+  "parte": "B14",
+  "titulo": "O-kaikei — the number you see is already the whole number",
+  "subtitulo": "Tax sits inside the price by Japanese law, there is no tip to work out, and you usually settle up at the register on the way out, not at the table",
+  "cena": "The bowls have been cleared, the counter is full behind you, and nobody is going to bring you anything at all until you ask for it.",
+  "moldura": "ganha",
+  "frasePiso": "You will ask for the bill, choose how you settle it and walk out with the receipt, all in Japanese. Most people at that table wave for a pen in the air.",
+  "moldes": [],
+  "fatosDatados": [
+    {
+      "id": "fr-service-compris",
+      "afirmacao": "In Japan the consumption tax is inside the displayed price by law (総額表示), so the figure on the menu is normally the figure you pay, and there is no tipping. A minority of places add a posted service charge (サービス料), typically at hotels or higher-end restaurants; when they do, it is shown in advance, not a tip you decide.",
+      "fonte": "総額表示義務 (obrigatório desde abr/2021); ausência de cultura de gorjeta; サービス料, quando existe, é informada previamente.",
+      "ano": 2026,
+      "revisarAte": "2028-08-01",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "fr-b14-n03"
+      ]
+    },
+    {
+      "id": "fr-note-25-euros",
+      "afirmacao": "At most Japanese restaurants and cafés you pay at the register on the way out, not at the table. The staff leave a slip (伝票) on or near your table; you carry it to the register (レジ) and settle there. Trying to pay at the table, or waving for the bill, often just gets you directed to the front.",
+      "fonte": "Costume japonês: pagamento na レジ (caixa) na saída, levando o 伝票, em vez de pagar na mesa.",
+      "ano": 2026,
+      "revisarAte": "2028-08-01",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "fr-b14-n04"
+      ]
+    },
+    {
+      "id": "fr-ticket-caisse-2023",
+      "afirmacao": "Two kinds of paper exist. A レシート is the ordinary till receipt, printed automatically. A 領収書 is a formal receipt you ask for by name, usually for expenses or reimbursement, and staff may ask for the name to write on it (or 上様 as a placeholder). Asking for a 領収書 is completely routine.",
+      "fonte": "Distinção entre レシート (cupom fiscal comum) e 領収書 (recibo formal para despesas), pedido pelo nome; costume comum no Japão.",
+      "ano": 2026,
+      "revisarAte": "2027-08-01",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "fr-b14-n05"
+      ]
+    },
+    {
+      "id": "fr-cartao-recusavel",
+      "afirmacao": "Cash is still widely expected in Japan, and many small or family-run places accept cash only, with a posted sign that is normal and lawful. There is no general rule forcing a business to take a card. Cashless payment — cards, IC cards like Suica, and QR codes like PayPay — is spreading fast in cities and at chains, but yen in cash always settles the bill.",
+      "fonte": "Dinheiro ainda amplamente esperado, muitos estabelecimentos somente-dinheiro; sem regra que obrigue aceitar cartão; pagamento sem contato (cartão, IC, QR) cresce nas cidades.",
+      "ano": 2026,
+      "revisarAte": "2027-08-01",
+      "evidencia": "CONSENSO",
+      "risco": "medio",
+      "audioKeys": [
+        "fr-b14-n06"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-b14-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "Part fourteen. The bill, and the good news is that the arithmetic was done before you sat down."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-b14-n02",
+      "bloco": "cena",
+      "pt": "The bowls are gone, the counter is full behind you, and nothing happens next until you ask."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_f",
+      "audioKey": "fr-b14-t01",
+      "es": "お会計をお願いします。",
+      "pinyin": "o-KAI-kei o o-ne-gai-shi-MAS",
+      "pt": "The bill, please.",
+      "tts": "お会計をお願いします。"
+    },
+    {
+      "consulta": [
+        "pagar/pedir",
+        "mesa/conta"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "ONEGAI-SHIMASU",
+      "encaixe": "お会計",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-b14-p01",
+      "promptPt": "A member of staff passes your table carrying two glasses and catches your eye for half a second. Speak now.",
+      "audioKey": "fr-b14-t01",
+      "es": "お会計をお願いします。",
+      "pinyin": "o-KAI-kei o o-ne-gai-shi-MAS",
+      "pt": "The bill, please."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-b14-r01",
+      "es": "かしこまりました。お会計はあちらのレジでお願いします。",
+      "pt": "Certainly. Please pay at the register over there.",
+      "tts": "かしこまりました。お会計はあちらのレジでお願いします。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-b14-n03",
+      "bloco": "corpo",
+      "pt": "Tax is inside the price here by law, and there is no tip. A service charge, where a place has one, is a posted line — not something you add."
+    },
+    {
+      "consulta": [
+        "pagar/gorjeta",
+        "mesa/conta"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-b14-p02",
+      "promptPt": "The place looks a little formal and you want to know if anything is added on top. Speak now.",
+      "audioKey": "fr-b14-t02",
+      "es": "サービス料は入っていますか？",
+      "pinyin": "SAA-bi-su ryoo wa hait-te i-MAS ka",
+      "pt": "Is a service charge included?",
+      "tts": "サービス料は入っていますか？"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-b14-r02",
+      "receptivo": true,
+      "es": "うちはサービス料はありません。表示の金額だけです。",
+      "pt": "We have no service charge. Just the displayed amount.",
+      "tts": "うちはサービス料はありません。表示の金額だけです。",
+      "acao": "Take that at face value. The total in front of you is the whole total, and there is no tip on top of it."
+    },
+    {
+      "consulta": [
+        "pagar/rachar",
+        "mesa/conta"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-b14-p03",
+      "promptPt": "Four of you, one slip, and somebody wants the figure out loud. Speak now.",
+      "audioKey": "fr-b14-t03",
+      "es": "全部でいくらですか？",
+      "pinyin": "ZEN-bu de i-ku-ra des ka",
+      "pt": "How much is it altogether?",
+      "tts": "全部でいくらですか？"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-b14-n04",
+      "pt": "You pay at the register, not the table. The slip on your table is the 伝票 — carry it to the front and settle there."
+    },
+    {
+      "consulta": [
+        "pagar/pedir",
+        "compras/pagar"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "ONEGAI-SHIMASU",
+      "encaixe": "領収書",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-b14-p04",
+      "promptPt": "Dinner for three, and somebody at work is going to want the paperwork. Ask for the formal receipt. Speak now.",
+      "audioKey": "fr-b14-t04",
+      "es": "領収書をお願いします。",
+      "pinyin": "ryoo-SHOO-sho o o-ne-gai-shi-MAS",
+      "pt": "A formal receipt, please.",
+      "tts": "領収書をお願いします。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-b14-n05",
+      "pt": "Two papers: a レシート is the ordinary till slip, a 領収書 is the formal receipt for expenses. Ask for the 領収書 by name."
+    },
+    {
+      "consulta": [
+        "pagar/cartao"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "ONEGAI-SHIMASU",
+      "encaixe": "カード",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-b14-p05",
+      "promptPt": "You are at the register and your wallet only has plastic in it. Say how you are settling. Speak now.",
+      "audioKey": "fr-b14-t05",
+      "es": "カードでお願いします。",
+      "pinyin": "KAA-do de o-ne-gai-shi-MAS",
+      "pt": "By card, please.",
+      "tts": "カードでお願いします。"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-b14-r03",
+      "receptivo": true,
+      "es": "申し訳ありません、当店は現金のみです。",
+      "pt": "I'm sorry, we're cash only.",
+      "tts": "申し訳ありません、当店は現金のみです。",
+      "acao": "Read the door and the register on the way in, not the slip on the way out. Small places are often cash only, and it is lawful."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-b14-n06",
+      "bloco": "capsula",
+      "pt": "Cash always works; a card does not have to be taken. Cashless is spreading in the cities, but small places may still be cash only."
+    },
+    {
+      "consulta": [
+        "pagar/cartao",
+        "compras/pagar"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-b14-p06",
+      "promptPt": "You are at the door of a small place, before ordering, and there is no card sticker anywhere. Speak now.",
+      "audioKey": "fr-b14-t06",
+      "es": "カードは使えますか？",
+      "pinyin": "KAA-do wa tsu-ka-e-MAS ka",
+      "pt": "Can I use a card?",
+      "tts": "カードは使えますか？"
+    },
+    {
+      "consulta": [
+        "pagar/rachar"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "ONEGAI-SHIMASU",
+      "encaixe": "別々",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-b14-p07",
+      "promptPt": "Two of you, two wallets, one slip. Say it before they start ringing it up as one. Speak now.",
+      "audioKey": "fr-b14-t07",
+      "es": "別々でお願いします。",
+      "pinyin": "be-tsu-BE-tsu de o-ne-gai-shi-MAS",
+      "pt": "Separately, please.",
+      "tts": "別々でお願いします。"
+    },
+    {
+      "consulta": [
+        "pagar/pedir",
+        "mesa/bebida"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-b14-p08",
+      "promptPt": "One line on the slip is a figure you did not expect for the last round. Ask about that item. Speak now.",
+      "audioKey": "fr-b14-t08",
+      "es": "コーヒーはいくらですか？",
+      "pinyin": "KOH-hee wa i-ku-ra des ka",
+      "pt": "How much is the coffee?",
+      "tts": "コーヒーはいくらですか？"
+    },
+    {
+      "consulta": [
+        "compras/pagar",
+        "pagar/cartao"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-b14-p09",
+      "promptPt": "The card machine beeps and they are about to bin the little slip. Speak now.",
+      "audioKey": "fr-b14-t09",
+      "es": "レシートをお願いします。",
+      "pinyin": "re-SHEE-to o o-ne-gai-shi-MAS",
+      "pt": "The receipt, please.",
+      "tts": "レシートをお願いします。",
+      "molde": "ONEGAI-SHIMASU",
+      "encaixe": "レシート"
+    },
+    {
+      "consulta": [
+        "pagar/gorjeta",
+        "simpatia/agradecer"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-b14-p10",
+      "promptPt": "Two hours at that table, a good meal, and no tip is expected. Close it the way people close a meal here. Speak now.",
+      "audioKey": "fr-b14-t10",
+      "es": "ごちそうさまでした。",
+      "pinyin": "go-chi-soo-sa-ma-DE-shi-ta",
+      "pt": "Thank you for the meal.",
+      "tts": "ごちそうさまでした。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-b14-n07",
+      "bloco": "permissao",
+      "pt": "There is no percentage to work out and nothing extra is owed. The thing you leave behind is a sentence, not a coin."
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_fr_f",
+      "audioKey": "fr-b14-s01",
+      "es": "お会計をお願いします。全部でいくらですか？ カードでお願いします。",
+      "pinyin": "o-KAI-kei o o-ne-gai-shi-MAS. ZEN-bu de i-ku-ra des ka. KAA-do de o-ne-gai-shi-MAS",
+      "pt": "Shadow the three moves of the ending, in the order they happen.",
+      "tts": "お会計をお願いします。全部でいくらですか？ カードでお願いします。",
+      "molde": "ONEGAI-SHIMASU"
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-b14-n08",
+      "bloco": "recap",
+      "pt": "B14 done. Ask for it, hear the total, name your method, take the receipt — and the tax was already in the number, with no tip on top."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "The total was finished before you sat down",
+    "secoes": [
+      {
+        "titulo": "Tax in, tip out",
+        "corpo": "By law the displayed price already includes consumption tax, so the figure next to the dish is the figure you pay for it, and there is no tipping to add. Where a place charges a サービス料, it is posted in advance. The practical effect is one sentence long: the number you see is the number you owe.",
+        "exemplos": [
+          {
+            "es": "サービス料は入っていますか？",
+            "pt": "Is a service charge included?"
+          },
+          {
+            "es": "全部でいくらですか？",
+            "pt": "How much is it altogether?"
+          }
+        ]
+      },
+      {
+        "titulo": "You pay at the register, not the table",
+        "corpo": "The slip left on your table is the 伝票. In most restaurants and cafés you pick it up, carry it to the register at the front, and settle there. Waving for the bill at the table often just gets you pointed towards the register — so the move is to stand, take the slip, and pay on the way out."
+      },
+      {
+        "titulo": "Two different pieces of paper",
+        "corpo": "A レシート is the ordinary till receipt, printed for you automatically. A 領収書 is the formal receipt for expenses, asked for by name; staff may ask what name to write, and 上様 works as a placeholder. Ask for the one you actually need; asking for both is normal and costs nothing.",
+        "exemplos": [
+          {
+            "es": "領収書をお願いします。",
+            "pt": "A formal receipt, please."
+          },
+          {
+            "es": "レシートをお願いします。",
+            "pt": "The receipt, please."
+          }
+        ]
+      },
+      {
+        "titulo": "Card, cash, and the sign by the door",
+        "corpo": "Nothing obliges a business in Japan to take a card, and small or family-run places are often cash only, with a posted sign that is normal and lawful. Cashless payment — cards, IC cards like Suica, QR apps like PayPay — is spreading fast in cities and chains. The useful habit is to glance at the register on the way in; yen in cash always settles the bill."
+      },
+      {
+        "titulo": "No tip, and the sentence that replaces it",
+        "corpo": "There is no published percentage for a tip in Japan because there is no tip — any figure you read online is invented, and coins left on the table will be chased after you as forgotten change. What closes a meal instead is gochisousama deshita, said on the way out. It costs nothing and it is the part that gets remembered."
+      }
+    ]
+  },
+  "slot": "B14",
+  "permissao": "You are allowed to ask for the bill the moment you want it, and to ask whether a service charge is included even though most places have none. Neither question is a challenge to anybody. The table stays yours until you ask, which means the asking is the part you control.",
+  "permissaoAudioKey": "fr-b14-n07",
+  "espelho": "The habit worth noticing is waiting for the bill to be brought to the table. At home it often lands with the last plates; here you carry the slip to the register yourself, so a table that seems to be ignoring you is usually a table that has been left to you.",
+  "fichasCulturais": [
+    {
+      "sinal": "The register shows the exact total, there is no tip line, and the staff member simply waits for you to hand over the money.",
+      "suaLeitura": "There is no tip option, so I am expected to work out a percentage and add coins.",
+      "oQueEAli": "Tax is inside the price by law, so the total on the screen is already complete, and there is no tipping in Japan. Any percentage circulating online is invented, and the register is not waiting for one — coins left behind will be returned to you as forgotten change.",
+      "oQueVoceFaz": "Pay the figure shown and nothing on top. If you want to express thanks, say gochisousama deshita on the way out — that is the currency here.",
+      "oQueMelhora": "The end of the meal stops being a calculation and becomes a goodbye, which is the part that gets you a warm welcome next time.",
+      "ondeNaoVale": "Not where a サービス料 is posted, at some hotels and higher-end restaurants — there the higher total is the stated charge, shown in advance, not a tip and not an error.",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "fr-b14-n03",
+        "fr-b14-n07"
+      ]
+    },
+    {
+      "sinal": "You reach the register with a card and are told, politely, that the place is cash only.",
+      "suaLeitura": "That cannot be allowed, or they are singling me out as a visitor.",
+      "oQueEAli": "Japan still runs heavily on cash, and many small or family-run places accept cash only — a posted cash-only sign is normal and lawful, with no general rule forcing a business to take a card. Cities and chains increasingly take cards, IC cards and QR apps, but the small counter often does not.",
+      "oQueVoceFaz": "Keep a float of yen for small places, and glance at the register or door for a card logo before you commit. If in doubt, ask kaado wa tsukaemasu ka before you order.",
+      "oQueMelhora": "You keep a small cash cushion for exactly these moments and stop reading a displayed policy as a personal refusal.",
+      "ondeNaoVale": "Not everywhere is cash only, and in the big cities the mix is shifting fast toward cashless. This is a reason to carry a cash cushion, not to assume cards never work.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "fr-b14-n06",
+        "fr-b14-r03"
+      ]
+    }
+  ]
+}

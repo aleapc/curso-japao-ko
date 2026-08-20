@@ -1,0 +1,96 @@
+{
+  "id": "q-b04",
+  "nivel": "basico",
+  "titulo": "Quiz — Four things that expire before you fly",
+  "subtitulo": "The pre-flight call, and the deadlines behind it",
+  "introAudioKey": "fr-b04-q-i",
+  "introPt": "A traveller closes the gaps in a booking a week before departure.",
+  "cenario": "A phone call to the hotel, from the kitchen table.",
+  "dialogo": [
+    {
+      "audioKey": "fr-b04-q01",
+      "voz": "target_fr_f",
+      "es": "予約の確認をお願いしたいのですが。",
+      "pt": "Hello, I'd like to confirm my booking.",
+      "tts": "予約の確認をお願いしたいのですが。"
+    },
+    {
+      "audioKey": "fr-b04-q02",
+      "voz": "target_fr_m",
+      "es": "中央区銀座一丁目二番三号です。",
+      "pt": "Chuo ward, Ginza, one-two-three.",
+      "tts": "中央区銀座一丁目二番三号です。"
+    },
+    {
+      "audioKey": "fr-b04-q03",
+      "voz": "target_fr_f",
+      "es": "メールで送ってもらえますか？",
+      "pt": "Can you send it to me by email?",
+      "tts": "メールで送ってもらえますか？"
+    },
+    {
+      "audioKey": "fr-b04-q04",
+      "voz": "target_fr_m",
+      "es": "はい、メールでお送りします。",
+      "pt": "Of course, I'll send it to you by email.",
+      "tts": "はい、メールでお送りします。"
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "What does a European health card (GHIC or EHIC) buy you in Japan?",
+      "opcoes": [
+        "Full cover, the same as travel insurance",
+        "Nothing — Japan has no reciprocal scheme, so you pay the full cost, usually up front",
+        "A free private clinic",
+        "The flight home if you are unwell"
+      ],
+      "correta": 1,
+      "explica": "There is no GHIC/EHIC equivalent in Japan. Travel insurance with medical cover is the one document that is not optional."
+    },
+    {
+      "pergunta": "You planned to grab a plain Suica at a machine on arrival. What now?",
+      "opcoes": [
+        "They are always available at any station",
+        "A chip shortage suspended plain Suica/Pasmo sales since 2023 — buy a Welcome Suica at the airport, or Suica on your phone",
+        "Paper tickets are the only option",
+        "You must order one from home months ahead"
+      ],
+      "correta": 1,
+      "explica": "The Welcome Suica is valid 28 days with no deposit; once loaded, an IC card works nationwide on most trains, buses and konbini."
+    },
+    {
+      "pergunta": "Why ask for the exact address in Japanese before flying?",
+      "opcoes": [
+        "It is politer than asking on arrival",
+        "A hotel name is not routable — a driver or an offline map needs the ward, district and block",
+        "Hotels charge less if you confirm",
+        "It is required by the booking site"
+      ],
+      "correta": 1,
+      "explica": "The name is a brand. Japanese addresses go by block, and drivers usually key the hotel's phone number into the nav, so get both in writing."
+    },
+    {
+      "pergunta": "What is «meeru de okutte moraemasu ka» / asking for it in writing for?",
+      "opcoes": [
+        "Asking for the bill",
+        "Asking someone to speak more slowly",
+        "Getting the address in writing so it survives your memory and a dead phone",
+        "Asking for a different room"
+      ],
+      "correta": 2,
+      "explica": "An address said down a phone line does not survive the walk to the taxi rank. Written down, offline, it does."
+    },
+    {
+      "pergunta": "Cash in Japan — what is the real constraint for a visitor?",
+      "opcoes": [
+        "A legal cap on how much cash you may carry",
+        "Nothing — every ATM takes foreign cards",
+        "Not a legal cap but where you can withdraw — 7-Eleven (Seven Bank) and Japan Post are the reliable ones",
+        "Cards are refused everywhere"
+      ],
+      "correta": 2,
+      "explica": "Japan runs heavily on cash and many bank ATMs reject foreign cards or close at night. Decide the amount at home rather than assuming any machine will serve you."
+    }
+  ]
+}

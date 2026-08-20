@@ -1,0 +1,306 @@
+{
+  "id": "i01",
+  "nivel": "intermediario",
+  "numero": 19,
+  "parte": "I01",
+  "titulo": "Their clock, and the hour the kitchen actually closes",
+  "subtitulo": "The last order shuts the kitchen long before the room, and the last train is a wall with a real number on it — two hours that decide where you eat and how you get home",
+  "cena": "It is twenty past two, you have finally sat down, and the waiter is explaining that the last order went in half an hour ago.",
+  "moldura": "ganha",
+  "frasePiso": "Ask the hours before you walk. Last order, last train — the two numbers that decide the whole evening are the two you can just ask for.",
+  "decisao": "comer nos horários deles em vez dos meus — pegar a ラストオーダー antes de a cozinha fechar e sair antes do 終電 — em vez de descobrir a cozinha fechada e o último trem já ido",
+  "moldes": [],
+  "fatosDatados": [
+    {
+      "id": "fr-i01-shuden",
+      "afirmacao": "Japanese cities run on a strict last-train clock. In its March 2021 timetable revision JR East moved the last trains on many Tokyo-area lines earlier — the first large 終電 (last train) pull-back of its kind — so that the last departures on central lines now typically fall around or before midnight rather than after it. For an evening out this brackets the night at both ends: the kitchen stops at its ラストオーダー (last order), often set well before closing, and the 終電 is a hard wall on getting home, with a taxi as the only alternative after it.",
+      "fonte": "JR East, revisão de horários de mar/2021 (繰り上げ do 終電 na área de Tóquio); prática de ラストオーダー em restaurantes japoneses",
+      "ano": 2021,
+      "revisarAte": "2027-08-05",
+      "evidencia": "FATO",
+      "risco": "medio",
+      "audioKeys": [
+        "fr-i01-n02",
+        "fr-i01-n04"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-i01-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "Japan runs on a tighter clock than visitors expect, and the kitchen closes on its own schedule, not the room's."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-i01-r01",
+      "receptivo": true,
+      "acao": "Do not read the full room as luck. The last order has already gone in — come earlier tomorrow.",
+      "es": "すみません、ラストオーダーが終わりました。",
+      "pt": "Sorry, the last order has already closed.",
+      "tts": "すみません、ラストオーダーが終わりました。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-i01-n02",
+      "bloco": "corpo",
+      "pt": "Last order shuts the kitchen before the room empties. Ask with wa nan-ji desu ka: the thing, then what time. That ending never changes."
+    },
+    {
+      "consulta": [
+        "mesa/comida",
+        "chegar/entrar"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-i01-p01",
+      "promptPt": "You are outside a place you like the look of and it is nearly two. Find out how long the kitchen keeps taking food. Speak now.",
+      "audioKey": "fr-i01-t01",
+      "es": "ラストオーダーは何時ですか？",
+      "pinyin": "RA-su-to-OH-daa wa nan-JI des-ka",
+      "pt": "What time is last order?",
+      "tts": "ラストオーダーは何時ですか？",
+      "molde": "NAN-JI",
+      "encaixe": "ラストオーダー"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-i01-r02",
+      "receptivo": true,
+      "acao": "There is a break in the middle of the afternoon. Plan around it instead of walking into it.",
+      "es": "ランチは14時まで、夜は17時からです。",
+      "pt": "Lunch is until two, dinner from five.",
+      "tts": "ランチは14時まで、夜は17時からです。"
+    },
+    {
+      "consulta": [
+        "mesa/comida"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-i01-p02",
+      "promptPt": "You are at the door and the last plates are going out. One short question decides your afternoon. Speak now.",
+      "audioKey": "fr-i01-t02",
+      "es": "まだ大丈夫ですか？",
+      "pinyin": "ma-DA dai-JOH-bu des-ka",
+      "pt": "Are you still serving?",
+      "tts": "まだ大丈夫ですか？"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-i01-n03",
+      "pt": "The frame is the thing, then wa nan-ji desu ka. Between lunch and dinner the kitchen is shut, not slow; the naka-yasumi break is real.",
+      "bloco": "molde"
+    },
+    {
+      "consulta": [
+        "mesa/comida",
+        "chegar/entrar"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-i01-p03",
+      "promptPt": "You are planning tomorrow and want the midday window confirmed, both ends of it. Ask. Speak now.",
+      "audioKey": "fr-i01-t03",
+      "es": "ランチは何時から何時までですか？",
+      "pinyin": "RAN-chi wa nan-JI ka-ra nan-JI ma-de des-ka",
+      "pt": "What time is lunch, from when to when?",
+      "tts": "ランチは何時から何時までですか？",
+      "molde": "NAN-JI",
+      "encaixe": "ランチ"
+    },
+    {
+      "consulta": [
+        "mesa/mesa"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "ONEGAI-SHIMASU",
+      "encaixe": "今夜の予約",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-i01-p04",
+      "promptPt": "You are standing there in the afternoon with the place to yourself. Take the evening now, in one polite request. Speak now.",
+      "audioKey": "fr-i01-t04",
+      "es": "今夜の予約をお願いします。",
+      "pinyin": "KON-ya no yo-YA-ku o o-ne-gai-shi-MAS",
+      "pt": "A booking for tonight, please.",
+      "tts": "今夜の予約をお願いします。"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-i01-r03",
+      "es": "19時と20時、どちらがよろしいですか？",
+      "pt": "Seven or eight?",
+      "tts": "19時と20時、どちらがよろしいですか？"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-i01-n04",
+      "bloco": "capsula",
+      "pt": "The other wall is the last train. The shuden is a hard number: miss it and home is a taxi. Ask the hour."
+    },
+    {
+      "consulta": [
+        "mesa/mesa"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "ONEGAI-SHIMASU",
+      "encaixe": "20時の予約",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-i01-p05",
+      "promptPt": "They offered you two times. Take the later one, in one sentence. Speak now.",
+      "audioKey": "fr-i01-t05",
+      "es": "20時の予約をお願いします。",
+      "pinyin": "ni-JU-ji no yo-YA-ku o o-ne-gai-shi-MAS",
+      "pt": "A booking at eight, please.",
+      "tts": "20時の予約をお願いします。"
+    },
+    {
+      "consulta": [
+        "mesa/comida"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-i01-p06",
+      "promptPt": "A new place, a new evening. Ask when the dinner service starts. Speak now.",
+      "audioKey": "fr-i01-t06",
+      "es": "夜は何時からですか？",
+      "pinyin": "YO-ru wa nan-JI ka-ra des-ka",
+      "pt": "What time does dinner start?",
+      "tts": "夜は何時からですか？",
+      "molde": "NAN-JI",
+      "encaixe": "夜"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-i01-n05",
+      "pt": "Ask what time the last train is, not whether you have time. The first question hands you an hour to build the night around."
+    },
+    {
+      "consulta": [
+        "transporte/bilhete",
+        "chegar/entrar"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-i01-p07",
+      "promptPt": "It is getting late and your line home stops running at some point tonight. Ask the one hour that ends the evening. Speak now.",
+      "audioKey": "fr-i01-t07",
+      "es": "終電は何時ですか？",
+      "pinyin": "SHU-den wa nan-JI des-ka",
+      "pt": "What time is the last train?",
+      "tts": "終電は何時ですか？",
+      "molde": "NAN-JI",
+      "encaixe": "終電"
+    },
+    {
+      "consulta": [
+        "mesa/mesa"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-i01-p08",
+      "promptPt": "The booking is at eight and you would rather walk another hour first. Ask whether a later start is fine. Speak now.",
+      "audioKey": "fr-i01-t08",
+      "es": "もう少し遅くても大丈夫ですか？",
+      "pinyin": "moh su-KO-shi o-SO-ku-te-mo dai-JOH-bu des-ka",
+      "pt": "Is a bit later all right?",
+      "tts": "もう少し遅くても大丈夫ですか？"
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_fr_f",
+      "audioKey": "fr-i01-s01",
+      "es": "ラストオーダーは何時ですか？ 終電は何時ですか？ 20時の予約をお願いします。",
+      "pinyin": "RA-su-to-OH-daa wa nan-JI des-ka. SHU-den wa nan-JI des-ka. ni-JU-ji no yo-YA-ku o o-ne-gai-shi-MAS",
+      "pt": "Shadow the two hours that fix a whole evening, and the booking that sits between them.",
+      "tts": "ラストオーダーは何時ですか？ 終電は何時ですか？ 20時の予約をお願いします。",
+      "molde": "NAN-JI"
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-i01-n06",
+      "bloco": "recap",
+      "pt": "I01 done. Last order, the two o'clock edge, the last train, and a booking that lands you between them."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "Two numbers and one gap",
+    "secoes": [
+      {
+        "titulo": "Last order closes the kitchen",
+        "corpo": "The ラストオーダー is the time the kitchen stops taking food, and it is routinely set well before the shutters come down. That is why the room can be half full of people finishing while the answer to you is that the kitchen is closed — everyone ordered before last order, and you did not. Ask ラストオーダーは何時ですか before you commit to the walk.",
+        "exemplos": [
+          {
+            "es": "ラストオーダーは何時ですか？",
+            "pt": "What time is last order?"
+          },
+          {
+            "es": "まだ大丈夫ですか？",
+            "pt": "Are you still serving?"
+          }
+        ]
+      },
+      {
+        "titulo": "The kitchen closes, the afternoon has a hole in it",
+        "corpo": "Many places run lunch and dinner as two separate services with a naka-yasumi break between them, often roughly two to five in the afternoon. In the gap the kitchen is shut, not slow. Asking about ランチ and 夜 rather than just whether they are open gets you the answer that matters: which window you are actually inside."
+      },
+      {
+        "titulo": "The last train is a wall",
+        "corpo": "The 終電 is the hardest number in the Japanese evening. JR East pulled last trains earlier across the Tokyo area in its 2021 revision, so a night that used to end at one now often ends nearer midnight, and after it the only way home is a taxi. 終電は何時ですか is the question that turns a vague lateness into a plan."
+      },
+      {
+        "titulo": "The wording of the question",
+        "corpo": "何時ですか asks for an hour and gets one back. Attach it to anything that opens, closes, starts or is served — ラストオーダー, 終電, 開店, チェックアウト, 朝ごはん — and the particle wa and the ending nan-ji desu ka stay put while the noun in front of them changes."
+      }
+    ]
+  },
+  "slot": "I01",
+  "permissao": "You are allowed to plan the night around their clock. Waiting for dinner service and catching the last train is not a test of stamina — it is simply when the kitchen is cooking and when the line stops running, and both hours are yours to ask for before you commit to anything.",
+  "permissaoAudioKey": "fr-i01-n04",
+  "espelho": "Anyone who has landed somewhere and gone looking for dinner at half past two, or missed the last connection home by ten minutes, knows this gap. The only new part is doing it in three words that never change, asked before the walk rather than after.",
+  "fichasCulturais": [
+    {
+      "sinal": "You arrive at twenty past two, the room is still half full of people finishing, and you are told last order has closed.",
+      "suaLeitura": "They can see there are people eating, so they are refusing to serve me.",
+      "oQueEAli": "Those plates were ordered inside the window. The kitchen stops at its last order and reopens for the evening service; the seated customers are the tail of lunch, not proof that food is still available now.",
+      "oQueVoceFaz": "Ask ラストオーダーは何時ですか before you commit to the walk, and if you have missed it, sit for a coffee or a drink and book the evening while you are there.",
+      "oQueMelhora": "You stop spending the middle of the afternoon hunting for a hot plate and start using it for the thing the afternoon is good for.",
+      "ondeNaoVale": "Not at family restaurants, konbini and chains with continuous service, which exist precisely to cover the gap — there the kitchen really does keep going.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "fr-i01-n03"
+      ]
+    },
+    {
+      "sinal": "It is getting late, the table is still warm, and you realise you do not know when your line home stops running.",
+      "suaLeitura": "There will be trains for a while yet, like at home — I can leave whenever.",
+      "oQueEAli": "The last train is a fixed hour and a hard one, and JR East moved many of them earlier in 2021, so central Tokyo lines often stop around or before midnight. Miss it and the alternative is a taxi at several times the fare, or waiting for the first train.",
+      "oQueVoceFaz": "Ask 終電は何時ですか early in the evening, not at the end of it, and set the booking and the walk home against that number.",
+      "oQueMelhora": "You keep the last hour of the night as a choice rather than a scramble, and the taxi stays a decision instead of an accident.",
+      "ondeNaoVale": "Not a single national time — lines and cities differ, and the first train the next morning is another option if the night is meant to run long. Ask locally rather than assuming a figure.",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "fr-i01-n04"
+      ]
+    }
+  ]
+}

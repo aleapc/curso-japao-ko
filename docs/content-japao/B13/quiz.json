@@ -1,0 +1,96 @@
+{
+  "id": "q-b13",
+  "nivel": "basico",
+  "titulo": "Quiz — Arerugii ga arimasu — the sentence you say before anything else",
+  "subtitulo": "The hammer sentence, then nuki de plus the thing",
+  "introAudioKey": "fr-b13-q-i",
+  "introPt": "A traveller says the allergy sentence before the order is written, and the question goes to the kitchen.",
+  "cenario": "A neighbourhood restaurant, early evening, menus not yet handed out.",
+  "dialogo": [
+    {
+      "audioKey": "fr-b13-q01",
+      "voz": "target_fr_f",
+      "es": "ピーナッツアレルギーがあります。命に関わります。",
+      "pt": "I have a peanut allergy. It is life-threatening.",
+      "tts": "ピーナッツアレルギーがあります。命に関わります。"
+    },
+    {
+      "audioKey": "fr-b13-q02",
+      "voz": "target_fr_m",
+      "es": "厨房で確認してきます。それまで注文しないでください。",
+      "pt": "I'll go and check in the kitchen. Please don't order anything before that.",
+      "tts": "厨房で確認してきます。それまで注文しないでください。"
+    },
+    {
+      "audioKey": "fr-b13-q03",
+      "voz": "target_fr_f",
+      "es": "ピーナッツ抜きで、とても大切です。",
+      "pt": "Without peanuts — it's very important.",
+      "tts": "ピーナッツ抜きで、とても大切です。"
+    },
+    {
+      "audioKey": "fr-b13-q04",
+      "voz": "target_fr_m",
+      "es": "料理長が確認しました。こちらは大丈夫です。",
+      "pt": "The chef checked. This one, you can have.",
+      "tts": "料理長が確認しました。こちらは大丈夫です。"
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Why is inochi ni kakawarimasu attached to the allergy sentence?",
+      "opcoes": [
+        "It is the polite ending Japanese sentences need",
+        "It is what separates a medical allergy from a preference",
+        "It means the dish is expensive",
+        "It asks for the manager"
+      ],
+      "correta": 1,
+      "explica": "The second half is what sends somebody to the kitchen rather than nodding at the table."
+    },
+    {
+      "pergunta": "The waiter turns and walks towards the kitchen without answering. What is happening?",
+      "opcoes": [
+        "He is fetching the answer from the person who cooked it",
+        "He is ignoring you",
+        "He is getting the bill",
+        "He is finding somebody who speaks English"
+      ],
+      "correta": 0,
+      "explica": "The pass holds the list. Walking away is the answer arriving, not the answer being dodged."
+    },
+    {
+      "pergunta": "How do you turn nyuuseihin nuki de into an opening rather than a demand?",
+      "opcoes": [
+        "Say it twice",
+        "Add onegai shimasu only",
+        "Add dekimasu ka",
+        "Say it in English first"
+      ],
+      "correta": 2,
+      "explica": "Nyuuseihin nuki wa dekimasu ka lets the kitchen tell you what does work."
+    },
+    {
+      "pergunta": "When do you hand over the written allergy card?",
+      "opcoes": [
+        "Instead of speaking, to avoid mispronouncing it",
+        "After you have said the sentence out loud",
+        "Only at the till when paying",
+        "Never — the card replaces the sentence"
+      ],
+      "correta": 1,
+      "explica": "Sentence first, card second. The card is the second copy, not the opening move."
+    },
+    {
+      "pergunta": "Which number do you ask somebody to call for an ambulance?",
+      "opcoes": [
+        "112",
+        "110",
+        "050-3816-2787",
+        "119"
+      ],
+      "correta": 3,
+      "explica": "119 reaches fire and ambulance, 110 the police. There is no single 112 line as in Europe."
+    }
+  ]
+}

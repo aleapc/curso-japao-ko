@@ -1,0 +1,356 @@
+{
+  "id": "b09",
+  "nivel": "basico",
+  "numero": 9,
+  "parte": "B09",
+  "titulo": "표, 그리고 이 열차엔 특급권도 필요한지",
+  "subtitulo": "JR에서는 빠른 열차일수록 표가 한 장이 아니라 두 장 필요하다 — 그리고 방문객이 타고 싶어 하는 게 바로 그런 열차다",
+  "cena": "표는 손에 있고, 앞에는 이 표를 통과시켜 줄지 모를 개찰구가 줄지어 있고, 출발까지 4분 남았다.",
+  "moldura": "ganha",
+  "frasePiso": "탑승 전에 이 짧은 질문 하나면 해결된다: tokkyuuken wa irimasu ka?",
+  "moldes": [],
+  "fatosDatados": [
+    {
+      "id": "fr-fim-compostagem",
+      "afirmacao": "JR에서 신칸센이나 특급(tokkyuu) 열차는 표가 한 장이 아니라 두 장 필요하다: 기본 승차권(joushaken)에 특급 요금권(tokkyuuken)이 추가로 붙는다. 보통 보통열차나 쾌속열차는 승차권만 있으면 되고, IC 카드 태그로도 충분하다. 개찰구에서는 이 두 장이 함께 들어갔다가 둘 다 다시 나오는 경우가 많다. 방문객이 걸려 넘어지는 지점이 바로 여기다 — 가장 타고 싶어 하는 빠른 열차가 하필 두 번째 표가 필요한 열차이기 때문이다.",
+      "fonte": "JR: Shinkansen e trens tokkyuu (limited express) exigem dois bilhetes — 乗車券 (fare) + 特急券 (surcharge). Trens locais/rápidos: só a tarifa, ou toque de cartão IC. No portão, os dois bilhetes entram juntos.",
+      "ano": 2026,
+      "revisarAte": "2027-08-05",
+      "evidencia": "FATO",
+      "risco": "medio",
+      "audioKeys": [
+        "fr-b09-n02"
+      ]
+    },
+    {
+      "id": "fr-multa-validacao",
+      "afirmacao": "출구 개찰구에 도착했을 때 요금을 덜 낸 상태라면 — 표가 커버하는 거리보다 더 멀리 탔거나 IC 잔액이 부족했다면 — 게이트는 그냥 열리지 않는다. 이건 벌금이 아니다: 개찰구 앞의 정산기(seisanki, norikoshi seisan이라고 표시됨)나 창구에서 차액을 정산하고 지나가면 된다. 정직한 초과 탑승은 벌칙이 아니라 추가 결제로 취급되는데, 이는 유럽식 현장 벌금과는 아주 다르다.",
+      "fonte": "Portão de saída não abre com tarifa insuficiente; acerta-se a diferença no 精算機 (norikoshi seisan) ou no guichê antes da saída. Subpagamento honesto = acerto, não multa.",
+      "ano": 2026,
+      "revisarAte": "2027-08-05",
+      "evidencia": "FATO",
+      "risco": "medio",
+      "audioKeys": [
+        "fr-b09-n03"
+      ]
+    },
+    {
+      "id": "fr-paris-fim-carnet",
+      "afirmacao": "특급이나 신칸센의 객차는 자유석(jiyuuseki)과 지정석(shiteiseki)으로 나뉜다: 기본 요금권만 있으면 자유석에 앉을 수 있고, 지정석은 조금 더 내면 자리를 보장받는다. Japan Rail Pass는 2023년 10월에 가격이 올랐고, 그 이후로 패스 소지자가 가장 빠른 노조미와 미즈호를 타려면 별도 추가 요금을 내야 한다 — 패스만으로는 여전히 커버되지 않는다.",
+      "fonte": "Limited express/Shinkansen: carros 自由席 (não reservado) e 指定席 (reservado). Japan Rail Pass subiu de preço em out/2023; desde então, Nozomi e Mizuho exigem suplemento pago à parte, não cobertos só pelo Pass.",
+      "ano": 2025,
+      "revisarAte": "2027-08-05",
+      "evidencia": "FATO",
+      "risco": "medio",
+      "audioKeys": [
+        "fr-b09-n05"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-b09-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "표를 사는 건 간단한 부분이다. 달라지는 건 표 한 장으로 충분한지, 아니면 이 열차가 한 장을 더 원하는지다."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_f",
+      "audioKey": "fr-b09-t01",
+      "es": "特急券は要りますか？",
+      "pinyin": "tok-KYOH-ken wa i-ri-mass-ka",
+      "pt": "특급권이 필요한가요?",
+      "tts": "特急券は要りますか？"
+    },
+    {
+      "consulta": [
+        "transporte/bilhete"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-b09-p01",
+      "promptPt": "기본 승차권만 있는데 플랫폼에 서 있는 열차는 빠른 열차다. 타기 전에 개찰구 옆 직원에게 물어봐라. 지금 말하세요.",
+      "audioKey": "fr-b09-t01",
+      "es": "特急券は要りますか？",
+      "pinyin": "tok-KYOH-ken wa i-ri-mass-ka",
+      "pt": "특급권이 필요한가요?",
+      "tts": "特急券は要りますか？"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-b09-r01",
+      "receptivo": true,
+      "es": "新幹線は要ります。でも普通電車なら要りませんよ。",
+      "pt": "신칸센은 필요해요. 하지만 보통열차라면 필요 없어요.",
+      "tts": "新幹線は要ります。でも普通電車なら要りませんよ。",
+      "acao": "일반적인 규칙이 아니라 열차 종류를 들어라. 신칸센과 특급은 두 번째 표가 필요하고, 보통열차와 쾌속열차는 필요 없다."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-b09-n02",
+      "bloco": "corpo",
+      "pt": "JR에서 신칸센이나 특급은 표가 두 장 필요하다: 승차권과 특급권. 보통열차나 쾌속열차는 승차권이나 IC만 있으면 된다."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-b09-n03",
+      "pt": "출구 게이트가 안 열리면, 벌금을 낸 게 아니라 요금을 덜 낸 것이다. 게이트 앞 정산기에서 정산하면 된다."
+    },
+    {
+      "consulta": [
+        "transporte/bilhete",
+        "transporte/plataforma"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "DOKO-DESU-KA",
+      "encaixe": "精算機",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-b09-p02",
+      "promptPt": "출구에 도착했는데 게이트 문이 닫힌 채로 있다 — IC 잔액이 부족했다. 해결해 줄 기계를 찾아봐라. 지금 말하세요.",
+      "audioKey": "fr-b09-t02",
+      "es": "精算機はどこですか？",
+      "pinyin": "sei-SAN-ki wa DO-ko des-ka",
+      "pt": "정산기는 어디인가요?",
+      "tts": "精算機はどこですか？"
+    },
+    {
+      "consulta": [
+        "transporte/bilhete"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-b09-p03",
+      "promptPt": "매표 창구에서. 여행자 한 명이고, 표에 적힐 이름은 교토다. 목적지와 인사말만으로 간단하게. 지금 말하세요.",
+      "audioKey": "fr-b09-t03",
+      "es": "京都まで一枚お願いします。",
+      "pinyin": "KYOH-to made i-chi-mai o-ne-gai-shi-mass",
+      "pt": "교토까지 한 장 부탁드려요.",
+      "tts": "京都まで一枚お願いします。"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-b09-r02",
+      "receptivo": true,
+      "es": "十二番線、十四時三十五分発です。",
+      "pt": "12번 승강장, 14시 35분 출발입니다.",
+      "tts": "十二番線、十四時三十五分発です。",
+      "acao": "bansen은 승강장이다. 숫자와 시간만 잡고 그 주변 문장은 흘려보내라."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-b09-n04",
+      "bloco": "capsula",
+      "pt": "시간은 24시간제로 나온다. Juuyoji sanjuugofun은 오후 2시 35분이다."
+    },
+    {
+      "consulta": [
+        "transporte/plataforma"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "DOKO-DESU-KA",
+      "encaixe": "十二番線",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-b09-p04",
+      "promptPt": "번호는 알고 있는데 역사 안내판이 9번에서 15번으로 건너뛴다. 지금 말하세요.",
+      "audioKey": "fr-b09-t04",
+      "es": "十二番線はどこですか？",
+      "pinyin": "JOO-ni-ban-sen wa DO-ko des-ka",
+      "pt": "12번 승강장은 어디인가요?",
+      "tts": "十二番線はどこですか？"
+    },
+    {
+      "consulta": [
+        "transporte/qual-trem"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-b09-p05",
+      "promptPt": "같은 승강장에 열차 두 대가 서 있는데 전광판엔 둘 다 안 뜬다. 문 옆에 있는 사람에게 확인해 봐라. 지금 말하세요.",
+      "audioKey": "fr-b09-t05",
+      "es": "この電車は京都に行きますか？",
+      "pinyin": "ko-no den-sha wa KYOH-to ni i-ki-mass-ka",
+      "pt": "이 열차는 교토로 가나요?",
+      "tts": "この電車は京都に行きますか？"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-b09-r03",
+      "es": "はい、でも新大阪で乗り換えです。",
+      "pt": "네, 하지만 신오사카에서 환승하셔야 해요.",
+      "tts": "はい、でも新大阪で乗り換えです。"
+    },
+    {
+      "consulta": [
+        "transporte/qual-trem"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-b09-p06",
+      "promptPt": "그 말 중간에 예상 못한 역 이름이 들렸다. 예, 아니오로 바꿔서 물어봐라. 지금 말하세요.",
+      "audioKey": "fr-b09-t06",
+      "es": "乗り換えが必要ですか？",
+      "pinyin": "no-ri-ka-e ga hi-tsu-YOH des-ka",
+      "pt": "환승이 필요한가요?",
+      "tts": "乗り換えが必要ですか？"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-b09-n05",
+      "pt": "빠른 열차의 객차는 자유석 아니면 지정석이다. 요금권만 있으면 자유석에 앉고, 지정석은 조금 더 낸다."
+    },
+    {
+      "consulta": [
+        "transporte/bilhete"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "DOKO-DESU-KA",
+      "encaixe": "みどりの窓口",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-b09-p07",
+      "promptPt": "이 홀의 기계들은 다 줄이 있고 화면도 여기서는 안 보인다. 직원이 있는 JR 창구를 찾고 싶다. 지금 말하세요.",
+      "audioKey": "fr-b09-t07",
+      "es": "みどりの窓口はどこですか？",
+      "pinyin": "mi-do-ri no ma-DO-gu-chi wa DO-ko des-ka",
+      "pt": "미도리노마도구치는 어디인가요?",
+      "tts": "みどりの窓口はどこですか？"
+    },
+    {
+      "consulta": [
+        "transporte/bilhete",
+        "pagar/pedir"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-b09-p08",
+      "promptPt": "일본에서 맞는 첫 아침, 앞으로 열흘이 남았고, 게이트마다 종이 표를 넣느니 카드 한 장을 태그하고 싶다. 지금 말하세요.",
+      "audioKey": "fr-b09-t08",
+      "es": "ウェルカムスイカをお願いします。",
+      "pinyin": "we-ru-ka-mu-SU-i-ka o o-ne-gai-shi-mass",
+      "pt": "웰컴 스이카 주세요.",
+      "tts": "ウェルカムスイカをお願いします。"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-b09-r04",
+      "es": "切符を拝見します。",
+      "pt": "표 좀 확인하겠습니다.",
+      "tts": "切符を拝見します。",
+      "receptivo": true,
+      "acao": "물어보기 전에 표나 카드를 손에 들고 있다가, 아무 설명 없이 그냥 건네라."
+    },
+    {
+      "consulta": [
+        "transporte/placas"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "DOKO-DESU-KA",
+      "encaixe": "出口",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-b09-p09",
+      "promptPt": "열차에서 내렸고, 지하이고, 통로가 네 방향으로 뻗어 있다. 지금 말하세요.",
+      "audioKey": "fr-b09-t09",
+      "es": "出口はどこですか？",
+      "pinyin": "de-GUCHI wa DO-ko des-ka",
+      "pt": "출구는 어디인가요?",
+      "tts": "出口はどこですか？"
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_fr_f",
+      "audioKey": "fr-b09-s01",
+      "es": "特急券は要りますか？ 精算機はどこですか？ この電車は京都に行きますか？ 乗り換えが必要ですか？",
+      "pinyin": "tok-KYOH-ken wa i-ri-mass-ka · sei-SAN-ki wa DO-ko des-ka · ko-no den-sha wa KYOH-to ni i-ki-mass-ka · no-ri-ka-e ga hi-tsu-YOH des-ka",
+      "pt": "열차가 출발하기 전에 승강장을 정리해 주는 네 질문을 따라 말해봐라.",
+      "tts": "特急券は要りますか？ 精算機はどこですか？ この電車は京都に行きますか？ 乗り換えが必要ですか？"
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-b09-n06",
+      "bloco": "recap",
+      "pt": "B09 완료. 특급권, 정산기, 승강장, 열차, 환승까지 — 4분, 질문 다섯 개."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "표 한 장, 아니면 두 장",
+    "secoes": [
+      {
+        "titulo": "표 두 장 체계",
+        "corpo": "JR의 빠른 열차는 표가 한 장이 아니라 두 장 필요하다: 거리를 커버하는 기본 승차권, 그리고 신칸센이나 특급을 위한 특급권이 그 위에 더해진다. 보통열차나 쾌속열차는 승차권만 있으면 되고, IC 카드 태그로도 충분하다. 개찰구에서는 승차권과 특급권을 보통 함께 넣고 둘 다 반대편으로 다시 나온다 — 둘 다 챙겨라."
+      },
+      {
+        "titulo": "안 열리는 게이트, 그리고 그걸 해결해 주는 기계",
+        "corpo": "출구 게이트가 안 열린다면 보통 이유는 정직한 초과 탑승이다 — 표가 커버하는 요금보다 더 멀리 탔거나 IC 잔액이 부족했던 것이다. 이건 벌칙이 아니다. norikoshi seisan이라고 표시된 정산기나 게이트 옆 창구로 가서 차액을 내고 지나가면 된다. 이런 식으로 부족한 요금을 정산하는 건 흔하고 당연한 일이지, 벌금을 무는 일이 아니다.",
+        "exemplos": [
+          {
+            "es": "特急券は要りますか？",
+            "pt": "특급권이 필요한가요?"
+          },
+          {
+            "es": "精算機はどこですか？",
+            "pt": "정산기는 어디인가요?"
+          }
+        ]
+      },
+      {
+        "titulo": "지정석, 자유석, 그리고 패스",
+        "corpo": "특급이나 신칸센은 객차가 자유석(jiyuuseki)과 지정석(shiteiseki)으로 나뉜다. 승차권과 요금권만 있으면 자유석에 선착순으로 앉을 수 있고, 지정석은 조금 더 내면 자리를 보장받는데 붐비는 시간대엔 그만한 가치가 있다. Japan Rail Pass는 2023년 10월에 가격이 올랐고, 패스 소지자가 가장 빠른 노조미와 미즈호를 타려면 별도 추가 요금을 내야 한다 — 패스만으로는 커버되지 않는다."
+      },
+      {
+        "titulo": "숫자는 귀로만",
+        "corpo": "승강장 번호나 시간을 직접 말할 필요는 없다 — 알아들어야 할 뿐이다. bansen은 승강장을 뜻한다. 시간은 24시간제로 나온다: juuyoji는 오후 2시, juuhachiji는 저녁 6시다. 숫자와 bansen이라는 단어만 듣고 나머지 안내방송은 무시하는 것, 그게 이 기술의 전부다."
+      }
+    ]
+  },
+  "slot": "B09",
+  "permissao": "특급권이 필요한지 묻는 건 준비를 안 해 온 사람의 질문이 아니다 — 답은 정말로 열차에 따라 달라지고, 직원들은 하루 종일 이 질문에 답한다. 탑승 전에 몇 마디 쓰는 건 일본에서 살 수 있는 가장 값싼 것이다.",
+  "espelho": "세상 어느 철도망에도 이런 게 하나쯤 있다 — 열리는 개찰구, 태그하는 카드, 아무도 미리 알려주지 않은 추가 요금. 여기서 낯선 부분은 오직 빠른 열차만 두 번째 표를 원하고, 보통 열차는 원하지 않는다는 점뿐이다.",
+  "permissaoAudioKey": "fr-b09-n01",
+  "fichasCulturais": [
+    {
+      "sinal": "누군가 그냥 Suica를 어디든 태그하면 된다고 알려줬는데, 신칸센 승강장에서 태그하려 하자 게이트가 거부한다.",
+      "suaLeitura": "카드가 고장 났거나, 내가 뭔가 잘못한 것 같다.",
+      "oQueEAli": "Suica 같은 IC 카드는 보통열차, 쾌속열차, 시내 열차를 커버하고, 거기서는 태그인·태그아웃이 거래의 전부다. 신칸센과 특급열차는 다른 표 체계로 운영된다 — 승차권에 특급권이 더해진 체계 — 그래서 단순한 IC 태그로는 기본적으로 그 게이트가 열리지 않는다.",
+      "oQueVoceFaz": "빠른 열차를 타기 전에 tokkyuuken wa irimasu ka라고 물어보고, 발권기나 직원이 있는 창구 midori no madoguchi에서 표를 사라.",
+      "oQueMelhora": "시내를 오갈 때는 맞지만 도시 간 빠른 열차에는 틀린 규칙을 계속 들고 다니지 않게 되고, 게이트가 더 이상 당신을 놀라게 하지 않는다.",
+      "ondeNaoVale": "보통열차나 쾌속열차에는 해당하지 않는다 — 거기서는 IC 태그가 정말로 전부다. 거기서 종이 표를 찾느라 시간을 쓰는 건 낭비일 뿐이다.",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "fr-b09-n02",
+        "fr-b09-n03"
+      ]
+    },
+    {
+      "sinal": "특급열차의 빈자리에 앉았는데 가는 도중에 누군가 그 자리 표를 들고 나타난다.",
+      "suaLeitura": "내 자리를 뺏으려는 것이거나, 열차가 예약 초과인 것 같다.",
+      "oQueEAli": "객차는 지정석과 자유석으로 나뉜다. 지정석은 예약한 사람의 것이고, 자유석 객차는 누구나 앉을 수 있다. 예약 없이 지정석 객차에 앉았다면 표를 든 사람이 그 자리의 주인이고, 해결책은 그냥 자유석 객차로 옮기는 것뿐이다.",
+      "oQueVoceFaz": "실제로 좌석을 예약하지 않았다면 자유석(jiyuuseki) 객차를 찾아라 — 객차 종류는 승강장과 출입문에 표시되어 있다. 붐비는 시간대에 자리를 확실히 잡고 싶다면 창구에서 예약해라.",
+      "oQueMelhora": "정당한 예약을 자리 뺏기로 오해하지 않게 되고, 예약 없이 앉을 수 있는 객차가 어디인지 알게 된다.",
+      "ondeNaoVale": "지정석이 아예 없는 보통열차에는 해당하지 않는다 — 거기서는 모든 자리가 선착순이고, 이 이야기가 적용되지 않는다.",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "fr-b09-n05"
+      ]
+    }
+  ]
+}

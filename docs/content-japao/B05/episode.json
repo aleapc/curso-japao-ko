@@ -1,0 +1,297 @@
+{
+  "id": "b05",
+  "nivel": "basico",
+  "numero": 5,
+  "parte": "B05",
+  "titulo": "Mokuteki, nannichi, doko — three answers and you are through",
+  "subtitulo": "Why you came, how long you stay, where you sleep — short, true, and the booking carries the rest",
+  "cena": "The queue at immigration, the officer's eyes already sliding to the next passport in the line.",
+  "moldura": "ganha",
+  "frasePiso": "Answer the question that was asked, then stop. The booking carries everything else.",
+  "moldes": [],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-b05-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "The desk is three questions, not a Japanese exam. Why you came, how long, where you sleep."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-b05-r01",
+      "es": "こんにちは。旅行の目的は何ですか？",
+      "pt": "Hello. What is the purpose of your trip?",
+      "tts": "こんにちは。旅行の目的は何ですか？",
+      "receptivo": true,
+      "acao": "Answer the purpose only. Leave the itinerary out of it."
+    },
+    {
+      "consulta": [
+        "chegar/entrar"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-b05-p01",
+      "promptPt": "You are here to walk around, eat well and go home. Say it in one word. Speak now.",
+      "audioKey": "fr-b05-t01",
+      "es": "観光です。",
+      "pinyin": "kan-KOH dess",
+      "pt": "Sightseeing.",
+      "tts": "観光です。"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-b05-r02",
+      "es": "何日間、滞在しますか？",
+      "pt": "How many days are you staying?",
+      "tts": "何日間、滞在しますか？"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-b05-n02",
+      "bloco": "corpo",
+      "pt": "Use your own number, not the one in this lesson. The shape stays exactly as short either way."
+    },
+    {
+      "consulta": [
+        "chegar/entrar"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-b05-p02",
+      "promptPt": "Give the length of the stay and nothing else. Two words. Speak now.",
+      "audioKey": "fr-b05-t02",
+      "es": "十日間です。",
+      "pinyin": "TOH-ka-kan dess",
+      "pt": "Ten days.",
+      "tts": "十日間です。"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-b05-r03",
+      "es": "どこに泊まりますか？",
+      "pt": "Where are you staying?",
+      "tts": "どこに泊まりますか？",
+      "receptivo": true,
+      "acao": "Name the city and the kind of place. Stop there."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-b05-n03",
+      "pt": "Not the story of how you found the place. City, kind of place, full stop."
+    },
+    {
+      "consulta": [
+        "chegar/entrar",
+        "quarto/checkin"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-b05-p03",
+      "promptPt": "Say where you sleep, briefly — the city and the kind of place. Speak now.",
+      "audioKey": "fr-b05-t03",
+      "es": "東京の、ホテルです。",
+      "pinyin": "TOH-kyoh no, HO-te-ru dess",
+      "pt": "In Tokyo, in a hotel.",
+      "tts": "東京の、ホテルです。"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-b05-r04",
+      "es": "予約はありますか？",
+      "pt": "Do you have the booking?",
+      "tts": "予約はありますか？"
+    },
+    {
+      "consulta": [
+        "chegar/entrar"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-b05-p04",
+      "promptPt": "Hand over the offline copy you saved last night, and let the document do the talking. Speak now.",
+      "audioKey": "fr-b05-t04",
+      "es": "はい、これです。",
+      "pinyin": "HAI, ko-re dess",
+      "pt": "Yes, here it is.",
+      "tts": "はい、これです。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-b05-n04",
+      "bloco": "capsula",
+      "pt": "Kore desu is the entire sentence. Three syllables and an open hand outrun any paragraph."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-b05-n05",
+      "pt": "If you did not catch the question, say so once and plainly. Asking beats guessing at a desk."
+    },
+    {
+      "consulta": [
+        "reparo/devagar"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "SUMIMASEN",
+      "encaixe": "わかりませんでした",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-b05-p05",
+      "promptPt": "It went past you too fast. Say so cleanly, without apologising twice. Speak now.",
+      "audioKey": "fr-b05-t05",
+      "es": "すみません、わかりませんでした。",
+      "pinyin": "soo-mee-ma-SEN, wa-ka-ri-ma-sen-DESH-ta",
+      "pt": "Sorry, I didn't understand.",
+      "tts": "すみません、わかりませんでした。"
+    },
+    {
+      "consulta": [
+        "chegar/entrar"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-b05-p06",
+      "promptPt": "Nobody is with you on this trip. Say it in three words. Speak now.",
+      "audioKey": "fr-b05-t06",
+      "es": "一人で旅行しています。",
+      "pinyin": "hi-TO-ri de ryo-KOH shi-te i-mass",
+      "pt": "I'm travelling alone.",
+      "tts": "一人で旅行しています。"
+    },
+    {
+      "consulta": [
+        "chegar/entrar",
+        "transporte/bilhete"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-b05-p07",
+      "promptPt": "They ask whether you are seeing anywhere else. Answer truthfully and briefly. Speak now.",
+      "audioKey": "fr-b05-t07",
+      "es": "その後、京都に行きます。",
+      "pinyin": "so-no a-to, KYOH-to ni i-ki-mass",
+      "pt": "After that I'm going to Kyoto.",
+      "tts": "その後、京都に行きます。"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-b05-r05",
+      "es": "はい、大丈夫です。良いご旅行を。",
+      "pt": "Fine, that's all in order. Enjoy your trip.",
+      "tts": "はい、大丈夫です。良いご旅行を。"
+    },
+    {
+      "consulta": [
+        "simpatia/agradecer"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-b05-p08",
+      "promptPt": "Three words, take the passport, walk. Speak now.",
+      "audioKey": "fr-b05-t08",
+      "es": "ありがとうございます。",
+      "pinyin": "a-ri-ga-TOH go-za-i-mass",
+      "pt": "Thank you.",
+      "tts": "ありがとうございます。"
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_fr_f",
+      "audioKey": "fr-b05-s01",
+      "es": "観光です。十日間です。東京の、ホテルです。はい、これです。",
+      "pinyin": "kan-KOH dess · TOH-ka-kan dess · TOH-kyoh no HO-te-ru dess · HAI ko-re dess",
+      "pt": "Shadow the three answers, with a clean stop after each one.",
+      "tts": "観光です。十日間です。東京の、ホテルです。はい、これです。"
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-b05-n06",
+      "bloco": "recap",
+      "pt": "B05 done. Purpose, length, place, kore desu. Short is not evasive — short means the answer matched the question."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "The desk is a matching task",
+    "secoes": [
+      {
+        "titulo": "True beats fluent",
+        "corpo": "Never repeat this lesson's ten days when your own ticket says something else. Swap the number for the truth; the sentence stays the same length and the same shape."
+      },
+      {
+        "titulo": "One question, one payload",
+        "corpo": "Purpose, length and place are three separate answers, not one speech. Stacking all three before you were asked for them is the most common way a thirty-second exchange becomes a three-minute one."
+      },
+      {
+        "titulo": "Let the paper talk",
+        "corpo": "Kore desu moves the exchange off your memory and onto your evidence. It is the shortest useful sentence in the whole module and it does more work than any explanation you could assemble under pressure.",
+        "exemplos": [
+          {
+            "es": "予約はありますか？",
+            "pt": "Do you have the booking?"
+          },
+          {
+            "es": "はい、これです。",
+            "pt": "Yes, here it is."
+          }
+        ]
+      },
+      {
+        "titulo": "Polite and short, both at once",
+        "corpo": "The -desu ending is not decoration bolted onto the answer — it is what keeps a one-word reply polite. Kankou desu is complete and courteous; kankou alone is bare. You do not need a longer sentence to be respectful at this desk, you need the ending and a small nod, and then the stop."
+      },
+      {
+        "titulo": "The rules move, so check them close to departure",
+        "corpo": "This part teaches the conversation at the desk, not the entry rules behind it. Visa-waiver terms and the length of stay they allow change, and a course file is the wrong place to read them from — check the official source for your own passport shortly before you fly."
+      }
+    ]
+  },
+  "slot": "B05",
+  "permissao": "You are allowed to answer in three words and stop. A short true answer is not evasive; over-explaining, filling the pause with detail nobody asked for, or trying to sound friendlier than the question calls for is what actually slows a border desk down — and you are permitted to simply not do it.",
+  "permissaoAudioKey": "fr-b05-n01",
+  "espelho": "Anyone who has over-answered an officer at home, volunteering the whole itinerary to a question about one night, knows the instinct this part corrects. It is not a Japanese phenomenon — it is the nervous habit of filling a silence with more words than the question needed, and it reads identically on either side of any border.",
+  "fichasCulturais": [
+    {
+      "sinal": "The officer asks one short question and you hear yourself adding an explanation nobody requested — why this trip, what you did last time, how much you are looking forward to it.",
+      "suaLeitura": "More detail sounds open and friendly, and proves I have nothing to hide.",
+      "oQueEAli": "The desk is working through a queue of short matched answers, and much of your information is already on the landing card you filled in. A reply that runs past the question it answered reads as material to check, not as warmth, and the queue behind you is part of the officer's afternoon.",
+      "oQueVoceFaz": "Answer only the payload of the question you were actually asked, then stop and wait for the next one.",
+      "oQueMelhora": "The exchange moves at the rhythm the desk is already set up for, and you are through faster rather than slower.",
+      "ondeNaoVale": "Not when the officer asks a compound question or explicitly invites more. Then answering everything they asked is the match, and a clipped reply is the mismatch.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "fr-b05-n01"
+      ]
+    },
+    {
+      "sinal": "You step up to the desk, the officer's tone is flat and formal, and the whole exchange feels colder than you expected.",
+      "suaLeitura": "They would rather not deal with a foreigner, or they resent being spoken to in English.",
+      "oQueEAli": "A Japanese immigration desk runs on a neutral, procedural register by default — the flat tone is the setting for the task, not a signal aimed at you. Politeness here is carried by the -desu ending and a small bow, not by warmth in the voice, and staff keep the same tone with everyone in the line.",
+      "oQueVoceFaz": "Match it: a small nod, the polite ending on your answers, and no attempt to warm the officer up. Kankou desu, tooka-kan desu, and wait.",
+      "oQueMelhora": "You stop reading procedure as hostility, and the exchange stays exactly as brief and smooth as it is meant to be.",
+      "ondeNaoVale": "This is a reading of a default register, not a claim about anyone's feelings — and a tired desk at the end of a long shift is sometimes just a tired desk.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "fr-b05-t01"
+      ]
+    }
+  ]
+}

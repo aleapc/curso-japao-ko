@@ -1,0 +1,340 @@
+{
+  "id": "i06",
+  "nivel": "intermediario",
+  "numero": 24,
+  "parte": "I06",
+  "titulo": "Yesterday, told out loud",
+  "subtitulo": "One past ending, a handful of verbs that carry any day, and a trip that becomes a story your host wants to continue",
+  "cena": "Somebody has just asked what you did yesterday, and every sentence you own is standing in the present tense.",
+  "moldura": "ganha",
+  "frasePiso": "You do not need the whole past tense of the language. You need a few verbs you already know, each ending the same way.",
+  "decisao": "contar o dia de ontem em duas ou três frases no passado, em vez de responder no presente e virar a pessoa que só diz que sim",
+  "moldes": [],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-i06-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "The moment you can say what you did yesterday, you stop ordering things and become someone with a trip."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-i06-r01",
+      "receptivo": true,
+      "acao": "This is the opening of every conversation this week. Answer with where you went, not with a yes.",
+      "es": "昨日は何をしましたか？",
+      "pt": "So, what did you do yesterday?",
+      "tts": "昨日は何をしましたか？"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-i06-n02",
+      "bloco": "molde",
+      "pt": "The frame is the verb landing on -mashita. Ikimashita, I went. Tabemashita, I ate. That -mashita ending is the whole past."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_f",
+      "audioKey": "fr-i06-t01",
+      "es": "昨日、京都に行きました。",
+      "pinyin": "ki-NOH, KYOH-to ni i-ki-MASH-ta",
+      "pt": "Yesterday I went to Kyoto.",
+      "tts": "昨日、京都に行きました。"
+    },
+    {
+      "consulta": [
+        "simpatia/puxar-conversa"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-i06-p01",
+      "promptPt": "Start with the move: one city, one sentence, and the day before this one. Speak now.",
+      "audioKey": "fr-i06-t01",
+      "es": "昨日、京都に行きました。",
+      "pinyin": "ki-NOH, KYOH-to ni i-ki-MASH-ta",
+      "pt": "Yesterday I went to Kyoto.",
+      "tts": "昨日、京都に行きました。",
+      "molde": "MASHITA",
+      "encaixe": "京都に行きました"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-i06-n03",
+      "pt": "The particle does the work: ni for where you went, de for where you did it, o for what you did. The verb only ends in -mashita."
+    },
+    {
+      "consulta": [
+        "simpatia/puxar-conversa",
+        "compras/balcao"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-i06-p02",
+      "promptPt": "Say where you went this morning, one place, one sentence. Speak now.",
+      "audioKey": "fr-i06-t02",
+      "es": "今朝、市場に行きました。",
+      "pinyin": "KE-sa, i-CHI-ba ni i-ki-MASH-ta",
+      "pt": "I went to the market this morning.",
+      "tts": "今朝、市場に行きました。",
+      "molde": "MASHITA",
+      "encaixe": "市場に行きました"
+    },
+    {
+      "consulta": [
+        "mesa/comida",
+        "simpatia/puxar-conversa"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-i06-p03",
+      "promptPt": "Now the meal. Say where you ate, and make the place small rather than famous. Speak now.",
+      "audioKey": "fr-i06-t03",
+      "es": "小さいお店で食べました。",
+      "pinyin": "chi-i-sa-i o-MI-se de ta-be-MASH-ta",
+      "pt": "I ate at a tiny little place.",
+      "tts": "小さいお店で食べました。",
+      "molde": "MASHITA",
+      "encaixe": "小さいお店で食べました"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-i06-r02",
+      "receptivo": true,
+      "acao": "Doo deshita ka is not doubt. It is an invitation to give one more detail.",
+      "es": "へえ、どうでしたか？",
+      "pt": "Oh really? And how was it?",
+      "tts": "へえ、どうでしたか？"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-i06-n04",
+      "bloco": "capsula",
+      "pt": "How was it takes -katta desu for feelings: oishikatta, tanoshikatta. Keep those endings whole; carry them, do not build them."
+    },
+    {
+      "consulta": [
+        "simpatia/elogiar-comida"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-i06-p04",
+      "promptPt": "They asked how it was. Answer the food, in three words, with the middle one carrying the weight. Speak now.",
+      "audioKey": "fr-i06-t04",
+      "es": "とても美味しかったです。",
+      "pinyin": "to-TE-mo o-i-shi-KAT-ta des",
+      "pt": "It was really delicious.",
+      "tts": "とても美味しかったです。"
+    },
+    {
+      "consulta": [
+        "simpatia/elogiar-lugar"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-i06-p05",
+      "promptPt": "Two words for the whole day, and they carry more warmth than any long sentence you could build. Speak now.",
+      "audioKey": "fr-i06-t05",
+      "es": "最高でした。",
+      "pinyin": "sai-KOH de-shi-ta",
+      "pt": "It was the best.",
+      "tts": "最高でした。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-i06-n05",
+      "pt": "A story needs more than one thing that happened. Two sentences and a soshite already sound like an account."
+    },
+    {
+      "consulta": [
+        "transporte/bilhete",
+        "simpatia/puxar-conversa"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-i06-p06",
+      "promptPt": "Say how you travelled and when, in one short line. Speak now.",
+      "audioKey": "fr-i06-t06",
+      "es": "今朝、電車に乗りました。",
+      "pinyin": "KE-sa, den-SHA ni no-ri-MASH-ta",
+      "pt": "I took the train this morning.",
+      "tts": "今朝、電車に乗りました。",
+      "molde": "MASHITA",
+      "encaixe": "電車に乗りました"
+    },
+    {
+      "consulta": [
+        "simpatia/puxar-conversa"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-i06-p07",
+      "promptPt": "Put two of them together — how the day was spent, walking and eating. Speak now.",
+      "audioKey": "fr-i06-t07",
+      "es": "一日中歩いて、美味しいものを食べました。",
+      "pinyin": "i-chi-ni-chi-JUU a-ru-i-te, o-i-shi-i mo-no o ta-be-MASH-ta",
+      "pt": "We walked all day and ate well.",
+      "tts": "一日中歩いて、美味しいものを食べました。",
+      "molde": "MASHITA",
+      "encaixe": "一日中歩きました"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-i06-n06",
+      "pt": "One thing that did not land makes the rest believable. A day where everything was wonderful sounds assembled."
+    },
+    {
+      "consulta": [
+        "simpatia/puxar-conversa"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-i06-p08",
+      "promptPt": "Name the part of the day that did nothing for you, lightly, and move on. Speak now.",
+      "audioKey": "fr-i06-t08",
+      "es": "美術館は、あまり好きじゃなかったです。",
+      "pinyin": "bi-JU-tsu-kan wa, a-ma-ri su-ki ja-na-KAT-ta des",
+      "pt": "The museum, I didn't much like.",
+      "tts": "美術館は、あまり好きじゃなかったです。",
+      "molde": "MASHITA",
+      "encaixe": "あまり好きじゃなかった"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-i06-r03",
+      "es": "ああ、そう言う人、多いですよ！",
+      "pt": "Ah, you're not the first to say that!",
+      "tts": "ああ、そう言う人、多いですよ！"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-i06-n07",
+      "pt": "End on tomorrow. It moves the story forward and turns a report into a conversation with a question in it."
+    },
+    {
+      "consulta": [
+        "simpatia/puxar-conversa"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-i06-p09",
+      "promptPt": "Say where you are headed next and ask whether they know it. Speak now.",
+      "audioKey": "fr-i06-t09",
+      "es": "明日は大阪に行きます。ご存知ですか？",
+      "pinyin": "a-SHI-ta wa OH-sa-ka ni i-ki-mas. go-ZON-ji des-ka",
+      "pt": "Tomorrow we're going to Osaka. Do you know it?",
+      "tts": "明日は大阪に行きます。ご存知ですか？"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-i06-r04",
+      "receptivo": true,
+      "acao": "The recommendation is arriving. Have something to write on.",
+      "es": "大阪ね！ちょっと待って、お店を教えますよ。",
+      "pt": "Osaka, yes! Hang on, I'll tell you a place.",
+      "tts": "大阪ね！ちょっと待って、お店を教えますよ。"
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_fr_f",
+      "audioKey": "fr-i06-s01",
+      "es": "昨日、京都に行きました。小さいお店で食べました。とても美味しかったです。",
+      "pinyin": "ki-NOH, KYOH-to ni i-ki-MASH-ta. chi-i-sa-i o-MI-se de ta-be-MASH-ta. to-TE-mo o-i-shi-KAT-ta des",
+      "pt": "Shadow the three sentences in the order a story wants them: where, what, how it landed.",
+      "tts": "昨日、京都に行きました。小さいお店で食べました。とても美味しかったです。",
+      "molde": "MASHITA"
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-i06-n08",
+      "bloco": "recap",
+      "pt": "I06 done. Kyoto ni ikimashita, tabemashita, oishikatta desu, and a question about tomorrow on the end."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "One ending, and a handful of verbs",
+    "secoes": [
+      {
+        "titulo": "The -mashita ending",
+        "corpo": "The past is not a rule to apply, it is a set of verbs you already half-know, each carried whole with -mashita on the end: ikimashita, tabemashita, norimashita, kaimashita, mimashita. Say the verb, land on -mashita, and the sentence is in the past. That is the entire mechanism you need for telling a day.",
+        "exemplos": [
+          {
+            "es": "昨日、京都に行きました。",
+            "pt": "Yesterday I went to Kyoto."
+          },
+          {
+            "es": "今朝、電車に乗りました。",
+            "pt": "I took the train this morning."
+          }
+        ]
+      },
+      {
+        "titulo": "The particle carries the meaning",
+        "corpo": "Kyoto ni ikimashita, chiisai omise de tabemashita, densha ni norimashita. Ni marks where you went, de marks where you did the thing, o marks what you did. Get the particle roughly right and the verb ending stays identical — that is the trade that lets one ending cover a whole trip."
+      },
+      {
+        "titulo": "-katta desu, kept whole",
+        "corpo": "How was it is answered with a past feeling: oishikatta desu, tanoshikatta desu, yokatta desu. Treat the -katta desu as one small block rather than a tense and you skip an entire grammar chapter. It attaches to the natural answer to doo deshita ka, and saikou deshita covers the whole day in two words."
+      },
+      {
+        "titulo": "One thing that did not land",
+        "corpo": "Amari suki ja nakatta desu is soft — not too keen, rather than a complaint — and it is what makes the rest of the account sound like something you lived instead of something you compiled. The soft negative also tends to produce the best replies, because it gives the other person somewhere to agree or disagree with you."
+      },
+      {
+        "titulo": "Finish on tomorrow",
+        "corpo": "Ashita wa … ni ikimasu, go-zonji desu ka costs a few words and hands the turn over. That is usually the moment the notebook comes out and you get the place nobody puts online."
+      }
+    ]
+  },
+  "slot": "I06",
+  "permissao": "You are allowed to get the verb slightly wrong. The version of this part where you wait until every ending is solid is the version where you never tell anyone about your day, and that trade is a bad one at any level of accuracy.",
+  "permissaoAudioKey": "fr-i06-n02",
+  "espelho": "Anyone who has answered a friendly how was your day with a flat fine, because assembling the real answer felt like more work than it was worth, knows exactly the reflex this part is aimed at. It is not a grammar problem. It is the cost of building a sentence being higher than the reward, right up until it is not.",
+  "fichasCulturais": [
+    {
+      "sinal": "You say something about your day and the reply is a raised hee or a soo desu ka, and nothing more.",
+      "suaLeitura": "They doubt me, or they think what I said was odd.",
+      "oQueEAli": "Hee and doo deshita ka are the standard continuers: they register what you said and ask for the next detail. They arrive after good news and bad news alike, and stopping there leaves the conversation half-built.",
+      "oQueVoceFaz": "Answer with one specific — the dish, the street, the hour, the price. Then put a question on the end.",
+      "oQueMelhora": "You get the second half of the exchange, which is where the recommendation lives, instead of a polite silence you read as disapproval.",
+      "ondeNaoVale": "Not when it is said flatly while the person is turning back to their work — there it is closing the topic, and the right answer is to let it close.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "fr-i06-n04"
+      ]
+    },
+    {
+      "sinal": "You describe your day as entirely wonderful and the conversation goes quiet.",
+      "suaLeitura": "Enthusiasm was the wrong register and I overdid it.",
+      "oQueEAli": "An account with no low point gives the listener nothing to answer. Naming one thing that did nothing for you opens a door — agreement, contradiction, a better suggestion — and all three keep the exchange alive.",
+      "oQueVoceFaz": "Keep the praise, then add one soft negative: amari suki ja nakatta desu. Say it lightly and move straight on to tomorrow.",
+      "oQueMelhora": "The other person starts talking about their own city with detail rather than politeness, which is the whole reason to be standing there.",
+      "ondeNaoVale": "Not about something the person in front of you made or chose — the cook, the host, the shopkeeper who recommended it. There the low point stays in your head and the praise stays out loud.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "fr-i06-n06"
+      ]
+    }
+  ]
+}

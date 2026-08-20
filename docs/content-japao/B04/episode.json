@@ -1,0 +1,323 @@
+{
+  "id": "b04",
+  "nivel": "basico",
+  "numero": 4,
+  "parte": "B04",
+  "titulo": "Four things that expire before you fly",
+  "subtitulo": "The travel insurance, the transport card you can no longer just grab, the cash you will actually need and a booking that survives a dead phone",
+  "cena": "The kitchen table, ten days out — the last moment any of this is still free to fix.",
+  "moldura": "protege",
+  "frasePiso": "Sorted at home tonight, none of it can go sideways at a counter in Japan.",
+  "moldes": [],
+  "fatosDatados": [
+    {
+      "id": "fr-b04-ghic",
+      "afirmacao": "Japan has no reciprocal healthcare agreement with the UK or the EU, so a visitor is not covered by any state scheme and pays the full cost of treatment, usually up front — hospitals can and do ask for payment or a card before treating. Travel insurance with medical cover is the thing that fills this gap, and it is the one document that is not optional. This is different from Europe: there is no GHIC or EHIC equivalent that does anything here.",
+      "fonte": "Sem acordo recíproco de saúde entre Japão e Reino Unido/UE; visitante paga custo integral, em geral adiantado (orientação FCDO britânica: contratar seguro de viagem com cobertura médica para o Japão). GHIC/EHIC não têm validade no Japão.",
+      "ano": 2026,
+      "revisarAte": "2027-08-05",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "fr-b04-n02"
+      ]
+    },
+    {
+      "id": "fr-b04-carnet",
+      "afirmacao": "A chip shortage led JR East and other operators to suspend sales of the plain unregistered Suica and Pasmo cards from 2023, so you can no longer count on simply grabbing one at a machine on arrival. A visitor can instead buy a Welcome Suica — valid 28 days, no deposit — at the airport, or add Suica to a phone. IC cards work nationwide on most trains, buses, konbini and vending machines, and the ten regional cards are mutually accepted across most networks.",
+      "fonte": "Escassez de semicondutores levou JR East e outros a suspender, desde 2023, a venda do Suica/Pasmo comum não registrado; alternativa para turista: Welcome Suica (28 dias, sem caução) no aeroporto, ou Suica no celular. Interoperabilidade dos dez cartões IC regionais na maioria das redes.",
+      "ano": 2025,
+      "revisarAte": "2027-08-05",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "fr-b04-n03"
+      ]
+    },
+    {
+      "id": "fr-b04-especie",
+      "afirmacao": "Japan runs heavily on cash and foreign-issued cards do not work in every ATM: the reliable ones are the machines at 7-Eleven (Seven Bank) and at Japan Post (Yucho), which accept overseas cards around the clock. Many ordinary bank ATMs reject them or close at night. The nuance worth carrying: this is not a legal cap on cash, it is a limit on where you can get cash, so decide roughly how much to bring or draw early rather than assuming any machine will serve you.",
+      "fonte": "Japão fortemente baseado em dinheiro; caixas que aceitam cartão estrangeiro de forma confiável: 7-Eleven (Seven Bank) e Japan Post (Yucho), 24h. Muitos ATMs de banco comum recusam cartão estrangeiro ou fecham à noite. Não é teto legal de espécie: é limite de onde se saca.",
+      "ano": 2026,
+      "revisarAte": "2027-08-05",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "fr-b04-n04"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-b04-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "Tonight's list is short and it expires. Four things, all cheaper to fix at home than at a counter in Japan."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-b04-n02",
+      "bloco": "corpo",
+      "pt": "One: travel insurance with medical cover. Japan has no reciprocal scheme, so a visitor pays the full bill up front. No European card helps."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-b04-n03",
+      "pt": "Two: the transport card. A chip shortage stopped plain Suica sales — get a Welcome Suica at the airport, or Suica on your phone."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-b04-n04",
+      "pt": "Three: cash. Decide the amount now — foreign cards only work in some ATMs here, reliably the ones at 7-Eleven and Japan Post."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-b04-n05",
+      "bloco": "capsula",
+      "pt": "Four: the booking, saved where no signal is needed. Full address in Japanese, phone number, return ticket."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-b04-r01",
+      "es": "はい、ホテルさくら、でございます。",
+      "pt": "Yes, Hotel Sakura speaking.",
+      "tts": "はい、ホテルさくら、でございます。"
+    },
+    {
+      "consulta": [
+        "quarto/checkin"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-b04-p01",
+      "promptPt": "You are ringing the hotel a week before the flight. Open with the job, in one line. Speak now.",
+      "audioKey": "fr-b04-t01",
+      "es": "予約の確認をお願いしたいのですが。",
+      "pinyin": "yo-ya-ku no ka-KU-nin o o-ne-gai shi-tai no des ga",
+      "pt": "I'd like to confirm my booking.",
+      "tts": "予約の確認をお願いしたいのですが。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-b04-n06",
+      "pt": "A hotel name is not a destination. A driver and an offline map both need the address — Japanese addresses go by block, not street."
+    },
+    {
+      "consulta": [
+        "taxi/destino",
+        "quarto/checkin"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-b04-p02",
+      "promptPt": "The booking page shows a brand name and a district. Get the thing a driver can actually navigate to. Speak now.",
+      "audioKey": "fr-b04-t02",
+      "es": "住所を教えてもらえますか？",
+      "pinyin": "JOO-sho o o-shi-e-te mo-ra-e-mass-ka",
+      "pt": "Could you tell me the address?",
+      "tts": "住所を教えてもらえますか？"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-b04-r02",
+      "es": "中央区銀座一丁目二番三号です。",
+      "pt": "Chuo ward, Ginza, one-two-three.",
+      "tts": "中央区銀座一丁目二番三号です。"
+    },
+    {
+      "consulta": [
+        "reparo/escreve"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-b04-p03",
+      "promptPt": "You will not hold that in your head, and a green tick in an app is not proof. Ask for it another way. Speak now.",
+      "audioKey": "fr-b04-t03",
+      "es": "メールで送ってもらえますか？",
+      "pinyin": "MEH-ru de o-KUT-te mo-ra-e-mass-ka",
+      "pt": "Could you send it by email?",
+      "tts": "メールで送ってもらえますか？"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-b04-n07",
+      "pt": "Late arrival is the one detail worth saying out loud. Small front desks are not always staffed at night."
+    },
+    {
+      "consulta": [
+        "quarto/checkin"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-b04-p04",
+      "promptPt": "Your flight lands at nine and the train takes an hour. Tell them when to expect you. Speak now.",
+      "audioKey": "fr-b04-t04",
+      "es": "夜の十時ごろ着きます。",
+      "pinyin": "yo-ru no JOO-ji go-ro tsu-ki-mass",
+      "pt": "I arrive around ten at night.",
+      "tts": "夜の十時ごろ着きます。"
+    },
+    {
+      "consulta": [
+        "quarto/checkin"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-b04-p05",
+      "promptPt": "Now check that somebody will be standing there when you push the door. Speak now.",
+      "audioKey": "fr-b04-t05",
+      "es": "その時間、フロントは開いていますか？",
+      "pinyin": "so-no ji-KAN, FU-ron-to wa a-i-te i-mass-ka",
+      "pt": "Is the front desk open at that hour?",
+      "tts": "その時間、フロントは開いていますか？"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-b04-r03",
+      "es": "はい、フロントは二十四時間開いております。",
+      "pt": "Yes, the front desk is open twenty-four hours.",
+      "tts": "はい、フロントは二十四時間開いております。",
+      "receptivo": true,
+      "acao": "Write the answer next to the address, in the same offline note."
+    },
+    {
+      "consulta": [
+        "pagar/cartao"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-b04-p06",
+      "promptPt": "Before you decide how much cash to bring, find out how this place wants to be paid. Speak now.",
+      "audioKey": "fr-b04-t06",
+      "es": "カードは使えますか？",
+      "pinyin": "KAH-do wa tsu-ka-e-mass-ka",
+      "pt": "Do you take card?",
+      "tts": "カードは使えますか？"
+    },
+    {
+      "consulta": [
+        "quarto/checkin",
+        "reparo/escreve"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-b04-p07",
+      "promptPt": "Get something you can dial from a payphone at arrivals if the handset is dead. Speak now.",
+      "audioKey": "fr-b04-t07",
+      "es": "ホテルの電話番号を教えてください。",
+      "pinyin": "HO-te-ru no den-wa-ban-goh o o-shi-e-te ku-da-sai",
+      "pt": "What is the hotel's phone number?",
+      "tts": "ホテルの電話番号を教えてください。"
+    },
+    {
+      "consulta": [
+        "simpatia/agradecer"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-b04-p08",
+      "promptPt": "Close the call the way it opened — warm, and finished. Speak now.",
+      "audioKey": "fr-b04-t08",
+      "es": "わかりました。ありがとうございます。よろしくお願いします。",
+      "pinyin": "wa-ka-ri-MASH-ta, a-ri-ga-TOH go-za-i-mass, yo-ro-shi-ku o-ne-gai-shi-mass",
+      "pt": "Understood, thank you very much. I look forward to it.",
+      "tts": "わかりました。ありがとうございます。よろしくお願いします。"
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_fr_f",
+      "audioKey": "fr-b04-s01",
+      "es": "予約の確認をお願いしたいのですが。住所を教えてもらえますか？ メールで送ってもらえますか？",
+      "pinyin": "yo-ya-ku no ka-KU-nin o o-ne-gai shi-tai no des ga · JOO-sho o o-shi-e-te mo-ra-e-mass-ka · MEH-ru de o-KUT-te mo-ra-e-mass-ka",
+      "pt": "Shadow the whole pre-flight call in one run.",
+      "tts": "予約の確認をお願いしたいのですが。住所を教えてもらえますか？ メールで送ってもらえますか？"
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-b04-n08",
+      "bloco": "recap",
+      "pt": "B04 done. Insurance bought, transport card planned, cash decided, booking confirmed with an address in hand."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "A list that stops being cheap",
+    "secoes": [
+      {
+        "titulo": "Insurance, because there is no safety net",
+        "corpo": "Japan has no reciprocal healthcare agreement with the UK or the EU, so a visitor is outside every state scheme and pays the full cost of care, normally up front — a hospital may ask for payment or a card before it treats you. Travel insurance with medical cover is what stands in for the health card you would carry in Europe, and it is the one item on this list that is not optional. Buy it before you fly and keep the policy number where you can reach it offline."
+      },
+      {
+        "titulo": "The transport card you can no longer just grab",
+        "corpo": "A semiconductor shortage pushed JR East and other operators to suspend sales of the plain unregistered Suica and Pasmo from 2023, so the old plan of buying one at a machine on arrival is not reliable. A visitor can buy a Welcome Suica instead — valid 28 days, no deposit — at the airport station, or add Suica to a phone before leaving home. Once loaded, an IC card works nationwide on most trains, buses, konbini and vending machines, and the ten regional cards are accepted across most networks."
+      },
+      {
+        "titulo": "How much cash, and why there is a number",
+        "corpo": "Japan still runs heavily on cash, and foreign-issued cards do not work in every ATM. The dependable ones are at 7-Eleven, through Seven Bank, and at Japan Post — both accept overseas cards around the clock. Plenty of ordinary bank machines reject foreign cards or shut at night. This is not a legal cap on cash, it is a limit on where you can get it, which is exactly why deciding an amount at your own table beats assuming any machine will serve you."
+      },
+      {
+        "titulo": "The call is four questions long",
+        "corpo": "The Japanese here is not a document list. It closes the fragile gaps in the booking while a phone call still fixes them: confirm it, get the exact address, get it in writing, and say what time you land.",
+        "exemplos": [
+          {
+            "es": "予約の確認をお願いしたいのですが。",
+            "pt": "I'd like to confirm my booking."
+          },
+          {
+            "es": "住所を教えてもらえますか？",
+            "pt": "Could you tell me the address?"
+          }
+        ]
+      }
+    ]
+  },
+  "slot": "B04",
+  "permissao": "You are allowed to over-prepare this one part. Confirming a booking you already have, or saving an address you will probably never read, is not anxiety — it is the single stretch of the trip where five minutes at your own table buys real cover against a flat battery and an unstaffed door.",
+  "permissaoAudioKey": "fr-b04-n01",
+  "espelho": "Anyone who has ever screenshotted a boarding pass in case the airline app hangs is already running this instinct, just on one document. B04 asks for the same offline habit on three more — the familiar caution, extended, not a new one.",
+  "fichasCulturais": [
+    {
+      "sinal": "You land, open the map to find the hotel, and there is no signal and nothing saved beyond a brand name.",
+      "suaLeitura": "I should have paid for roaming, and this trip has started badly.",
+      "oQueEAli": "A hotel name is not routable, and Japanese addresses are not a street plus a number running in sequence — they are a ward, a district and a block, which is hard to hand a driver from memory. Taxi drivers usually key the hotel's phone number straight into the car's navigation, so the number is as useful as the address.",
+      "oQueVoceFaz": "Before flying, get the address in Japanese and the phone number in writing, and keep both somewhere that opens with no connection — not only inside a booking app.",
+      "oQueMelhora": "A driver can put the phone number into the nav and go, instead of you standing at arrivals holding a brand name nobody can route.",
+      "ondeNaoVale": "Not a substitute for confirming the reservation itself — a perfect address attached to a booking that was never held is still a night without a room.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "fr-b04-n06"
+      ]
+    },
+    {
+      "sinal": "You need a doctor or a hospital, expecting it to work like it does at home, and you are asked to pay the full amount on the spot.",
+      "suaLeitura": "Something has gone wrong, or they are overcharging the foreigner.",
+      "oQueEAli": "Nothing has gone wrong. Japan has no reciprocal healthcare arrangement with the UK or the EU, so a visitor is not inside any state scheme and is billed the full cost, commonly up front — a card or European health document does nothing here.",
+      "oQueVoceFaz": "Carry travel insurance with medical cover, keep the policy details offline, and keep every receipt to claim the cost back afterwards.",
+      "ondeNaoVale": "Not a reason to skip insurance and hope — an uninsured hospital stay in Japan is the far more expensive version of the same afternoon.",
+      "oQueMelhora": "The bill becomes a claim you get back rather than a loss, and you stop treating a European reflex as if it crossed the border with you.",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "fr-b04-n02"
+      ]
+    }
+  ]
+}

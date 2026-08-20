@@ -1,0 +1,96 @@
+{
+  "id": "q-i05",
+  "nivel": "intermediario",
+  "titulo": "Quiz — The five questions you will be asked all week",
+  "subtitulo": "Five answers, and one refusal",
+  "introAudioKey": "fr-i05-q-i",
+  "introPt": "A traveller gets through the standard set at a counter, and stays out of the one argument that was never theirs.",
+  "cenario": "A counter mid-morning, one stool away from a regular.",
+  "dialogo": [
+    {
+      "audioKey": "fr-i05-q01",
+      "voz": "target_fr_m",
+      "es": "どちらからですか？ どのくらい滞在しますか？",
+      "pt": "Where are you from? And how long are you staying?",
+      "tts": "どちらからですか？ どのくらい滞在しますか？"
+    },
+    {
+      "audioKey": "fr-i05-q02",
+      "voz": "target_fr_f",
+      "es": "ロンドンから来ました。五日間います。日本は初めてです。",
+      "pt": "I'm from London. I'm staying five days. It's my first time in Japan.",
+      "tts": "ロンドンから来ました。五日間います。日本は初めてです。"
+    },
+    {
+      "audioKey": "fr-i05-q03",
+      "voz": "target_fr_m",
+      "es": "東京なんて、もう日本じゃないですよ。本当の日本は関西です。",
+      "pt": "Tokyo, honestly, isn't Japan any more. The real Japan is Kansai.",
+      "tts": "東京なんて、もう日本じゃないですよ。本当の日本は関西です。"
+    },
+    {
+      "audioKey": "fr-i05-q04",
+      "voz": "target_fr_f",
+      "es": "まだ来たばかりで、比べられません。こちらのご出身ですか？",
+      "pt": "I've only just arrived, I can't compare. Are you from around here?",
+      "tts": "まだ来たばかりで、比べられません。こちらのご出身ですか？"
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Why answer with a city rather than a country?",
+      "opcoes": [
+        "It is more accurate",
+        "A city gives the other person something to say back",
+        "Countries are considered rude",
+        "It shortens the sentence"
+      ],
+      "correta": 1,
+      "explica": "A fact ends a turn; a city hands over a hook. Then add sochira wa."
+    },
+    {
+      "pergunta": "Saying nihon wa hajimete desu — my first time — usually gets you:",
+      "opcoes": [
+        "Higher prices",
+        "Instructions — where to eat, which district, which day the market runs",
+        "A switch to English",
+        "A shorter conversation"
+      ],
+      "correta": 1,
+      "explica": "Claiming familiarity you do not have closes that door, and there is nothing worth having on the other side."
+    },
+    {
+      "pergunta": "Nihongo o-jozu desu ne, said after four words of Japanese, is:",
+      "opcoes": [
+        "An assessment of your level",
+        "The standard encouragement to keep going",
+        "Gentle mockery",
+        "A hint to switch to English"
+      ],
+      "correta": 1,
+      "explica": "The only wrong answer is switching to English at exactly that moment."
+    },
+    {
+      "pergunta": "Someone insists the capital is not the real country. Your move:",
+      "opcoes": [
+        "Agree warmly, it is friendlier",
+        "Say you are still discovering it and cannot compare, then ask about theirs",
+        "Argue the other side",
+        "Change the subject to the weather"
+      ],
+      "correta": 1,
+      "explica": "The Kanto-Kansai argument long predates your trip. Agreement from a visitor carries no weight and travels badly."
+    },
+    {
+      "pergunta": "What does the EF index actually support about English in Japan?",
+      "opcoes": [
+        "That a specific percentage of people speak English",
+        "That measured proficiency is low and not improving",
+        "That English is spoken at every counter",
+        "Nothing at all"
+      ],
+      "correta": 1,
+      "explica": "The sample is self-selected and online, by EF's own admission, so it cannot be read as a share of the population."
+    }
+  ]
+}

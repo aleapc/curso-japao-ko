@@ -1,0 +1,96 @@
+{
+  "id": "q-b07",
+  "nivel": "basico",
+  "titulo": "Quiz — Te mo ii desu ka, and then whatever you need to do",
+  "subtitulo": "One opener from the terminal to the pillow",
+  "introAudioKey": "fr-b07-q-i",
+  "introPt": "A traveller crosses four counters between the plane and the bed with one opening.",
+  "cenario": "Arrivals hall, then the taxi, then the hotel desk.",
+  "dialogo": [
+    {
+      "audioKey": "fr-b07-q01",
+      "voz": "target_fr_f",
+      "es": "カードで払ってもいいですか？",
+      "pt": "Can I pay by card?",
+      "tts": "カードで払ってもいいですか？"
+    },
+    {
+      "audioKey": "fr-b07-q02",
+      "voz": "target_fr_m",
+      "es": "すみません、うちは現金のみなんです。",
+      "pt": "Sorry, we're cash only here.",
+      "tts": "すみません、うちは現金のみなんです。"
+    },
+    {
+      "audioKey": "fr-b07-q03",
+      "voz": "target_fr_f",
+      "es": "領収書をもらってもいいですか？",
+      "pt": "Can I have a receipt?",
+      "tts": "領収書をもらってもいいですか？"
+    },
+    {
+      "audioKey": "fr-b07-q04",
+      "voz": "target_fr_m",
+      "es": "はい、どうぞ。空港からは定額なんですよ。",
+      "pt": "Of course. From the airport it's a flat fare.",
+      "tts": "はい、どうぞ。空港からは定額なんですよ。"
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "What comes after the te-form of the verb?",
+      "opcoes": [
+        "A noun on its own",
+        "Te mo ii desu ka — the ending that never moves",
+        "A name",
+        "A number"
+      ],
+      "correta": 1,
+      "explica": "Haratte mo ii desu ka, suwatte mo ii desu ka, oite mo ii desu ka — you learn the verb as a chunk already in te-form."
+    },
+    {
+      "pergunta": "A small shop in Japan waves your card away and points at a sign. What is happening?",
+      "opcoes": [
+        "It is illegal and you can insist",
+        "There is no legal duty to accept a card, and cash-only is normal, usually posted",
+        "Foreign cards are banned",
+        "They only take cards at lunchtime"
+      ],
+      "correta": 1,
+      "explica": "Small, older and family-run places are often cash-only; the same thing happens to local customers. Konbini, chains and transport take cards and IC."
+    },
+    {
+      "pergunta": "What always works as payment?",
+      "opcoes": [
+        "Cash in yen",
+        "Any debit card",
+        "A cheque",
+        "A foreign phone wallet"
+      ],
+      "correta": 0,
+      "explica": "Cash in yen is always taken; the card is the business's choice."
+    },
+    {
+      "pergunta": "The airport taxi driver quotes a set price and opens the rear door himself. Why?",
+      "opcoes": [
+        "He is improvising and being controlling",
+        "Some airport runs have a flat fare, and the rear door is driver-operated — and there is no tipping",
+        "The meter is broken",
+        "He wants cash only"
+      ],
+      "correta": 1,
+      "explica": "A receipt is yours for the asking, tipping is simply not done, and reaching for the automatic door is what reads as odd."
+    },
+    {
+      "pergunta": "Which of these does NOT use the frame?",
+      "opcoes": [
+        "Can I charge my phone here",
+        "Can I leave my luggage here",
+        "Where is the exit",
+        "Can I get past"
+      ],
+      "correta": 2,
+      "explica": "That one needs doko desu ka, which is the next part."
+    }
+  ]
+}

@@ -1,0 +1,361 @@
+{
+  "id": "a03",
+  "nivel": "avancado",
+  "numero": 31,
+  "parte": "A03",
+  "titulo": "Who they think they are",
+  "subtitulo": "The clock, the season on the plate and a label that a law defines — plus the joke about themselves, which is theirs to tell and yours to enjoy",
+  "cena": "Someone has just told you, with real conviction, how a thing is done here — and stopped, as though you were now supposed to have a view about it.",
+  "moldura": "ganha",
+  "frasePiso": "Ask what is theirs and say what you liked. Curiosity is welcome anywhere; agreeing with a verdict about the country is not.",
+  "moldes": [],
+  "fatosDatados": [
+    {
+      "id": "fr-insee-repas",
+      "afirmacao": "Mealtimes in Japan are strongly synchronised rather than spread across the day. NHK's national time-use survey (国民生活時間調査) documents lunch clustered tightly around noon and the evening meal concentrated in the early evening, with much less variation across the population than in many Western countries. The practical corollary for a visitor is narrow: the lunch window is collective and many kitchens close between services, so arriving mid-afternoon often means arriving after the hour rather than during it.",
+      "fonte": "NHK «国民生活時間調査» (pesquisa de uso do tempo): refeições fortemente concentradas — almoço em torno do meio-dia, jantar no início da noite",
+      "ano": 2026,
+      "revisarAte": "2028-08-04",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "fr-a03-n03"
+      ]
+    },
+    {
+      "id": "fr-fait-maison",
+      "afirmacao": "The Geographical Indication mark (地理的表示・GI) is a legally defined label, not a marketing phrase: under the Act on Geographical Indications (地理的表示法, enacted 2014 and in force from June 2015), a food tied to a place and a traditional method may carry the registered GI mark, and names such as 神戸ビーフ and 夕張メロン are registered under it. Two limits matter to a visitor: registration is voluntary, so the absence of the mark proves nothing, and the mark certifies the link between a product and its region, not that a given dish on a menu was cooked from scratch on the premises.",
+      "fonte": "地理的表示法 (Lei de Indicações Geográficas), promulgada em 2014, em vigor desde junho de 2015; marca GI (登録標章); ex.: 神戸ビーフ, 夕張メロン",
+      "ano": 2026,
+      "revisarAte": "2028-08-04",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "fr-a03-n04",
+        "fr-a03-n05"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-a03-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "Every country tells a story about itself. A lot of this one sits on a table, at a fixed hour, and changes with the season."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-a03-r01",
+      "receptivo": true,
+      "acao": "Not aimed at you. It is a description of how the day is built here.",
+      "es": "うちはね、パソコンの前では食べないの。ちゃんと座ってね。",
+      "pt": "Here, we don't eat in front of a computer. We sit down properly.",
+      "tts": "うちはね、パソコンの前では食べないの。ちゃんと座ってね。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-a03-n02",
+      "bloco": "corpo",
+      "pt": "Lunch has an hour rather than a window, and many kitchens shut between services. That shapes your whole day."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-a03-n03",
+      "bloco": "capsula",
+      "pt": "This part is measured. Time-use surveys show mealtimes here bunched tight — lunch around noon, dinner in the early evening, everyone at once."
+    },
+    {
+      "consulta": [
+        "mesa/comida",
+        "simpatia/puxar-conversa"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-a03-p01",
+      "promptPt": "The room emptied at two and you want to know when it fills again. Ask the person clearing the table. Speak now.",
+      "audioKey": "fr-a03-t01",
+      "es": "お昼は何時に食べますか？",
+      "pinyin": "o-hee-ru wa NAN-ji ni ta-be-mas-ka",
+      "pt": "What time do you eat lunch?",
+      "tts": "お昼は何時に食べますか？",
+      "molde": "NAN-JI",
+      "encaixe": "お昼"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_f",
+      "audioKey": "fr-a03-r02",
+      "receptivo": true,
+      "acao": "One arrival time for everybody. That is what the survey number looks like from inside.",
+      "es": "お昼は十二時ごろ、みんないっせいに来ますよ。",
+      "pt": "At noon, everyone comes in at once.",
+      "tts": "お昼は十二時ごろ、みんないっせいに来ますよ。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-a03-n04",
+      "pt": "There is a law defining a food label — the GI mark — tying a product to a place and a method, with a registered symbol attached."
+    },
+    {
+      "consulta": [
+        "mesa/comida"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-a03-p02",
+      "promptPt": "A dish on the board looks good and you want to know how it got to the plate. Ask. Speak now.",
+      "audioKey": "fr-a03-t02",
+      "es": "これは手作りですか？",
+      "pinyin": "ko-re wa te-ZOOK-ri des-ka",
+      "pt": "Is this homemade?",
+      "tts": "これは手作りですか？"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-a03-r03",
+      "receptivo": true,
+      "acao": "The answer arrives with the exception named. That precision is the interesting part.",
+      "es": "うちは全部手作りです。お味噌だけは近所の蔵のを使ってますけど。",
+      "pt": "We make everything here. Only the miso is from the local brewery.",
+      "tts": "うちは全部手作りです。お味噌だけは近所の蔵のを使ってますけど。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-a03-n05",
+      "pt": "The GI mark is voluntary, so no mark proves nothing. Asking beats hunting for a symbol on the menu."
+    },
+    {
+      "consulta": [
+        "mesa/comida",
+        "simpatia/puxar-conversa"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-a03-p03",
+      "promptPt": "You want the thing this town claims as its own, not the thing on every menu in the country. Ask. Speak now.",
+      "audioKey": "fr-a03-t03",
+      "es": "この辺の名物は何ですか？",
+      "pinyin": "ko-no HEN no mei-BU-tsu wa nan des-ka",
+      "pt": "What's the local specialty here?",
+      "tts": "この辺の名物は何ですか？"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_f",
+      "audioKey": "fr-a03-r04",
+      "receptivo": true,
+      "acao": "The claim is local before it is national. Follow the town, not the country.",
+      "es": "ここはやっぱりお蕎麦ですね。よそとは出汁が違うんですよ。",
+      "pt": "Here it's really the soba. The broth is different from elsewhere.",
+      "tts": "ここはやっぱりお蕎麦ですね。よそとは出汁が違うんですよ。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-a03-n06",
+      "pt": "Now the other half of the story: the running joke people here make about themselves."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-a03-r05",
+      "receptivo": true,
+      "acao": "A joke about themselves, and it stays theirs. Laugh with it; do not add a line of your own.",
+      "es": "日本人はね、すぐ「すみません」って謝るんですよ。癖でね。",
+      "pt": "We Japanese apologise with sumimasen at the drop of a hat. It's a habit.",
+      "tts": "日本人はね、すぐ「すみません」って謝るんですよ。癖でね。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-a03-n07",
+      "pt": "The same goes for the this-town-used-to-be-quieter line. Agreeing with it is the one move that lands badly."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_f",
+      "audioKey": "fr-a03-r06",
+      "receptivo": true,
+      "acao": "You are not being asked to agree. You are being handed a subject.",
+      "es": "昔はもっと静かな町だったんですけどねえ。",
+      "pt": "This town used to be much quieter, you know.",
+      "tts": "昔はもっと静かな町だったんですけどねえ。"
+    },
+    {
+      "consulta": [
+        "simpatia/puxar-conversa"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-a03-p04",
+      "promptPt": "They have just told you it was all better before. Do not agree and do not argue — ask them. Speak now.",
+      "audioKey": "fr-a03-t04",
+      "es": "この町、何が変わりましたか？",
+      "pinyin": "ko-no ma-CHEE, na-ni ga ka-wa-ri-MASH-ta ka",
+      "pt": "What's changed in this town?",
+      "tts": "この町、何が変わりましたか？"
+    },
+    {
+      "consulta": [
+        "reparo/como-se-diz",
+        "simpatia/puxar-conversa"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-a03-p05",
+      "promptPt": "They name something everyone here grew up with and you have never heard of it. Say so and hand them the floor. Speak now.",
+      "audioKey": "fr-a03-t05",
+      "es": "知らないので、教えてください。",
+      "pinyin": "shee-ra-nai no-de, o-shee-e-te ku-da-sai",
+      "pt": "I don't know it, please tell me.",
+      "tts": "知らないので、教えてください。"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-a03-r07",
+      "receptivo": true,
+      "acao": "That is the sentence you were fishing for. Sit down; the next twenty minutes are free.",
+      "es": "ああ、それはね、話すと長いですよ。まあ座って。",
+      "pt": "Ah, that one — it's a long story. Here, sit down.",
+      "tts": "ああ、それはね、話すと長いですよ。まあ座って。"
+    },
+    {
+      "consulta": [
+        "simpatia/elogiar-comida"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-a03-p06",
+      "promptPt": "The meal was better than you expected. Say it as your own experience, without comparing it to anywhere. Speak now.",
+      "audioKey": "fr-a03-t06",
+      "es": "ここで、とてもおいしくいただきました。本当に。",
+      "pinyin": "ko-ko de, to-te-mo o-ee-shee-ku ee-ta-da-ki-MASH-ta · hon-TOH ni",
+      "pt": "I ate very well here. Really.",
+      "tts": "ここで、とてもおいしくいただきました。本当に。"
+    },
+    {
+      "consulta": [
+        "reparo/como-se-diz"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-a03-p07",
+      "promptPt": "They used a word for the dish that you want to keep. Ask for it, pointing at the plate. Speak now.",
+      "audioKey": "fr-a03-t07",
+      "es": "これ、日本語で何て言うんですか？",
+      "pinyin": "ko-re, ni-HON-go de NAN-te yoo-n des-ka",
+      "pt": "How do you say this in Japanese?",
+      "tts": "これ、日本語で何て言うんですか？"
+    },
+    {
+      "consulta": [
+        "simpatia/agradecer"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-a03-p08",
+      "promptPt": "You have had twenty minutes of somebody's time and their whole subject. Close it properly. Speak now.",
+      "audioKey": "fr-a03-t08",
+      "es": "ありがとうございます。とても勉強になります。",
+      "pinyin": "a-ri-ga-TOH go-za-i-mas · to-te-mo ben-KYOH ni na-ri-mas",
+      "pt": "Thank you, I'm learning a lot from you.",
+      "tts": "ありがとうございます。とても勉強になります。"
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_fr_f",
+      "audioKey": "fr-a03-s01",
+      "es": "これは手作りですか？ この辺の名物は何ですか？ 知らないので、教えてください。",
+      "pinyin": "ko-re wa te-ZOOK-ri des-ka · ko-no HEN no mei-BU-tsu wa nan des-ka · shee-ra-nai no-de o-shee-e-te ku-da-sai",
+      "pt": "Shadow the three questions that open the subject without taking a position in it.",
+      "tts": "これは手作りですか？ この辺の名物は何ですか？ 知らないので、教えてください。"
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-a03-n08",
+      "bloco": "recap",
+      "pt": "A03 done. The clock is measured, the GI mark is legal, and the joke about themselves stays theirs."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "A clock, a law and a running joke",
+    "secoes": [
+      {
+        "titulo": "The hour is real and it is measured",
+        "corpo": "Time-use surveys show mealtimes here bunched tightly — lunch around noon, the evening meal in the early evening — with much less spread across the population than a visitor is used to. The practical consequence is narrow and expensive to ignore: the lunch window is collective, and many kitchens close between services. Arriving at half past two is not a preference problem — it is arriving after the hour.",
+        "exemplos": [
+          {
+            "es": "お昼は何時に食べますか？",
+            "pt": "What time do you eat lunch?"
+          },
+          {
+            "es": "お昼は十二時ごろ、みんないっせいに来ますよ。",
+            "pt": "At noon, everyone comes in at once."
+          }
+        ]
+      },
+      {
+        "titulo": "The GI mark is a legal term",
+        "corpo": "Since 2015 a food may carry the Geographical Indication mark only if it is tied to a place and a traditional production method registered under the 地理的表示法 — names like 神戸ビーフ and 夕張メロン sit on that register. Two caveats matter more than the mark: registration is voluntary, so its absence proves nothing at all, and it certifies the product-to-region link rather than whether a particular dish on a menu was made from scratch on the premises. For that last question, te-zukuri desu ka does more work than any symbol."
+      },
+      {
+        "titulo": "The claim is local before it is national",
+        "corpo": "Ask what the meibutsu of a place is and you rarely get an answer about the country. You get a town, a valley, a broth made one way here and another way two prefectures over, and often a remark about how they do it wrong somewhere else. Following that down to the local level is the single most productive question in this part, and it costs a handful of words."
+      },
+      {
+        "titulo": "The joke about themselves is not shared property",
+        "corpo": "Nihonjin wa sugu ayamaru — we apologise for everything — and mukashi wa motto shizuka datta — it used to be quieter — are said constantly and cheerfully by people about their own country and town. Repeating either one back is a different act: the first was self-mockery, the second becomes a foreigner's verdict. Laughing is free. Adding your own line is not, and the drop in temperature is immediate."
+      }
+    ]
+  },
+  "slot": "A03",
+  "permissao": "You are allowed to know nothing and to say so out loud. Shiranai node, oshiete kudasai is not an admission of failure in this conversation — it is the sentence that turns a three-word exchange into twenty minutes, and it works on any subject in this part.",
+  "permissaoAudioKey": "fr-a03-n06",
+  "espelho": "Anyone who has heard a visitor confidently explain their own country back to them knows the exact feeling this part is protecting you from. The material here is not hard; it only asks you to stay a guest one sentence longer than instinct wants.",
+  "fichasCulturais": [
+    {
+      "sinal": "A menu or a shop sign shows a GI mark on some products and nothing on the others.",
+      "suaLeitura": "The ones without the mark are industrial, so I should choose only from the marked list.",
+      "oQueEAli": "The Geographical Indication mark has a legal definition — a product tied to a place and a registered traditional method — but registration is voluntary. A producer who does everything the traditional way may carry no mark at all. The mark also certifies the product-region link, not that a dish on the menu was cooked from scratch here.",
+      "oQueVoceFaz": "Stop reading the mark as a scoreboard and ask instead: kore wa te-zukuri desu ka. The answer usually arrives with the exceptions named, which tells you far more than the symbol.",
+      "oQueMelhora": "You end up choosing by what the kitchen actually does rather than by which producers bothered to register.",
+      "ondeNaoVale": "Not a reason to treat the mark as meaningless where it does appear — where it is shown it carries a legal definition behind it. What proves nothing is its absence.",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "fr-a03-n04",
+        "fr-a03-n05"
+      ]
+    },
+    {
+      "sinal": "Someone takes their own country or town apart in front of you, cheerfully, and pauses.",
+      "suaLeitura": "We agree, so joining in shows I understand the place.",
+      "oQueEAli": "Self-mockery said by someone about their own country and the same line said by a visitor are two different speech acts. The pause is usually rhetorical rather than a request for a second opinion, and the second version reads as a verdict delivered by a guest.",
+      "oQueVoceFaz": "Laugh, and replace the agreement with a question about their experience — kono machi, nani ga kawarimashita ka.",
+      "oQueMelhora": "You get the story instead of a cooling room, and the subject stays open for the rest of the meal.",
+      "ondeNaoVale": "Not a rule of silence. Saying what you liked, naming a specific place or dish, is welcome and costs nothing — what you are declining is the verdict, not the topic.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "fr-a03-n06",
+        "fr-a03-n07"
+      ]
+    }
+  ]
+}

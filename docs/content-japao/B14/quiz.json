@@ -1,0 +1,96 @@
+{
+  "id": "q-b14",
+  "nivel": "basico",
+  "titulo": "Quiz — O-kaikei — the number you see is already the whole number",
+  "subtitulo": "Tax inside the price, the register by the door, no tip to work out",
+  "introAudioKey": "fr-b14-q-i",
+  "introPt": "A traveller closes a meal: asks for the bill, hears the total, names the method and carries the slip to the register.",
+  "cenario": "The end of dinner at a full counter.",
+  "dialogo": [
+    {
+      "audioKey": "fr-b14-q01",
+      "voz": "target_fr_f",
+      "es": "お会計をお願いします。",
+      "pt": "The bill, please.",
+      "tts": "お会計をお願いします。"
+    },
+    {
+      "audioKey": "fr-b14-q02",
+      "voz": "target_fr_m",
+      "es": "かしこまりました。お会計はあちらのレジでお願いします。",
+      "pt": "Certainly. Please pay at the register over there.",
+      "tts": "かしこまりました。お会計はあちらのレジでお願いします。"
+    },
+    {
+      "audioKey": "fr-b14-q03",
+      "voz": "target_fr_f",
+      "es": "カードでお願いします。",
+      "pt": "By card, please.",
+      "tts": "カードでお願いします。"
+    },
+    {
+      "audioKey": "fr-b14-q04",
+      "voz": "target_fr_m",
+      "es": "申し訳ありません、当店は現金のみです。",
+      "pt": "I'm sorry, we're cash only.",
+      "tts": "申し訳ありません、当店は現金のみです。"
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "What does the price shown on the menu mean for you?",
+      "opcoes": [
+        "Tax will be added at the register",
+        "The tax is already inside the displayed price, so it is normally the figure you pay",
+        "You must add a tip on top",
+        "It applies only at the counter"
+      ],
+      "correta": 1,
+      "explica": "Total-price display is required by law; a サービス料, where a place has one, is posted in advance."
+    },
+    {
+      "pergunta": "In most restaurants and cafés, where do you settle the bill?",
+      "opcoes": [
+        "At the table, by waving for a pen",
+        "At the register on the way out, carrying the 伝票 slip",
+        "Online afterwards",
+        "You do not — service is prepaid"
+      ],
+      "correta": 1,
+      "explica": "The slip is left on your table; you carry it to the レジ at the front and pay there."
+    },
+    {
+      "pergunta": "You need paperwork for work expenses. Which do you ask for?",
+      "opcoes": [
+        "The レシート, which is enough",
+        "Nothing — the card statement counts",
+        "A 領収書, the formal receipt, asked for by name",
+        "A photo of the menu"
+      ],
+      "correta": 2,
+      "explica": "A レシート is the ordinary till slip; a 領収書 is the formal receipt, and staff may ask what name to write."
+    },
+    {
+      "pergunta": "A small place has a posted cash-only sign and refuses your card. Is that allowed?",
+      "opcoes": [
+        "Yes — nothing obliges a business to take a card, and cash always settles the bill",
+        "No, cards must be taken for any amount",
+        "Only outside Tokyo",
+        "Only if they also take IC cards"
+      ],
+      "correta": 0,
+      "explica": "Many small or family-run places are cash only, which is normal and lawful; keep a float of yen."
+    },
+    {
+      "pergunta": "What percentage should you tip in Japan?",
+      "opcoes": [
+        "Ten per cent",
+        "Fifteen per cent",
+        "Five per cent at lunch, ten at dinner",
+        "None — there is no tipping; coins left behind get chased after you"
+      ],
+      "correta": 3,
+      "explica": "There is no tip. What closes a meal is gochisousama deshita on the way out."
+    }
+  ]
+}

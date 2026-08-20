@@ -1,0 +1,339 @@
+{
+  "id": "b18",
+  "nivel": "basico",
+  "numero": 18,
+  "parte": "B18",
+  "titulo": "The last day — settle up, park the bag, and say the sentence they remember",
+  "subtitulo": "Checkout is paperwork. The goodbye is the part that decides how you get greeted the next time you walk in",
+  "cena": "Your key is on the desk, your flight is at nine tonight, and there are eleven hours between you and the airport with a suitcase in the middle of them.",
+  "moldura": "ganha",
+  "frasePiso": "Pay, park the bag, then spend one sentence on the person who has been solving things for you all week.",
+  "moldes": [],
+  "fatosDatados": [
+    {
+      "id": "fr-b18-note",
+      "afirmacao": "Hotel bills in Japan are printed as a matter of course, and you can ask for a formal receipt — 領収書 — for expenses; staff may ask what name to write. One line can surprise a visitor: several cities levy an accommodation tax (宿泊税), among them Tokyo, Osaka, Kyoto and Fukuoka, charged per person per night and often not mentioned at check-in.",
+      "fonte": "Contas de hotel impressas normalmente; 領収書 (recibo formal) a pedido; imposto de hospedagem (宿泊税) cobrado por pessoa/noite em cidades como Tóquio, Osaka, Quioto e Fukuoka.",
+      "ano": 2026,
+      "revisarAte": "2027-08-05",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "fr-b18-n03"
+      ]
+    },
+    {
+      "id": "fr-b18-especes",
+      "afirmacao": "Cash always settles a bill in Japan, and small places may still be cash only. Two things help on the last day: at licensed tax-free (免税) shops, visitors can buy consumption-tax-free on same-day purchases from 5,000 yen with a passport; and luggage forwarding (宅配便 / 宅急便) can send a suitcase from the hotel to the airport for the next day, so you need not carry it around town.",
+      "fonte": "Dinheiro sempre liquida a conta; compras isentas (免税) para turistas a partir de 5.000 ienes no mesmo dia com passaporte; serviço de encomenda de bagagem (宅配便) do hotel ao aeroporto.",
+      "ano": 2026,
+      "revisarAte": "2028-08-05",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "fr-b18-n04"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-b18-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "The last morning has two halves: the paperwork and the sentence. Only one of them gets remembered."
+    },
+    {
+      "consulta": [
+        "quarto/mala",
+        "reparo/permissao"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "TE-MO-II",
+      "encaixe": "五時まで荷物を預け",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-b18-p01",
+      "promptPt": "The room goes at eleven and your flight is tonight. Solve the hours in between. Speak now.",
+      "audioKey": "fr-b18-t01",
+      "es": "五時まで荷物を預けてもいいですか？",
+      "pinyin": "go-JI ma-de ni-MO-tsu o a-zu-ke-te mo II des ka",
+      "pt": "Can I leave my luggage until five?",
+      "tts": "五時まで荷物を預けてもいいですか？"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-b18-r01",
+      "es": "もちろんです。番号札をお渡ししますので、お持ちください。",
+      "pt": "Of course. I'll give you a numbered tag, please keep it.",
+      "tts": "もちろんです。番号札をお渡ししますので、お持ちください。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-b18-n02",
+      "bloco": "corpo",
+      "pt": "Ask for the total before anything is handed over. It is the same frame you used to buy things."
+    },
+    {
+      "consulta": [
+        "pagar/conta",
+        "quarto/checkout"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "IKURA",
+      "encaixe": "全部で",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-b18-p02",
+      "promptPt": "Four nights, two breakfasts and an accommodation tax nobody mentioned at check-in. Speak now.",
+      "audioKey": "fr-b18-t02",
+      "es": "全部でいくらですか？",
+      "pinyin": "ZEN-bu de i-ku-ra des ka",
+      "pt": "How much is it, all together?",
+      "tts": "全部でいくらですか？"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-b18-n03",
+      "pt": "The hotel bill is printed for you; ask for the 領収書 if you need the formal one. Watch for an accommodation tax — some cities add one per night."
+    },
+    {
+      "consulta": [
+        "pagar/cartao",
+        "reparo/permissao"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "TE-MO-II",
+      "encaixe": "カードで払っ",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-b18-p03",
+      "promptPt": "There is a payment logo at the desk but no sticker about minimum amounts. Ask before the total is rung up. Speak now.",
+      "audioKey": "fr-b18-t03",
+      "es": "カードで払ってもいいですか？",
+      "pinyin": "KAA-do de ha-RAT-te mo II des ka",
+      "pt": "Can I pay by card?",
+      "tts": "カードで払ってもいいですか？"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-b18-r02",
+      "receptivo": true,
+      "es": "カードは大丈夫ですが、五千円からになります。",
+      "pt": "Card is fine, but from five thousand yen up.",
+      "tts": "カードは大丈夫ですが、五千円からになります。",
+      "acao": "Below the stated minimum, pay in cash — a card minimum is ordinary at a small place, and cash always settles it."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-b18-n04",
+      "bloco": "capsula",
+      "pt": "Cash always works here. And two last-day helps: tax-free shopping with a passport, and forwarding your suitcase to the airport by takkyubin."
+    },
+    {
+      "consulta": [
+        "pagar/conta",
+        "reparo/permissao"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "TE-MO-II",
+      "encaixe": "領収書をもらっ",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-b18-p04",
+      "promptPt": "Your employer wants paper and the machine has only beeped. Ask for the formal receipt before you step away. Speak now.",
+      "audioKey": "fr-b18-t04",
+      "es": "領収書をもらってもいいですか？",
+      "pinyin": "ryoo-SHOO-sho o mo-rat-te mo II des ka",
+      "pt": "Can I have a formal receipt?",
+      "tts": "領収書をもらってもいいですか？"
+    },
+    {
+      "consulta": [
+        "taxi/destino",
+        "reparo/permissao"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "TE-MO-II",
+      "encaixe": "ここからタクシーを呼ん",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-b18-p05",
+      "promptPt": "Five o'clock, bag back in your hand, and the app on your phone has stopped loading. Speak now.",
+      "audioKey": "fr-b18-t05",
+      "es": "ここからタクシーを呼んでもいいですか？",
+      "pinyin": "ko-ko ka-ra tak-SHEE o yon-de mo II des ka",
+      "pt": "Can I call a taxi from here?",
+      "tts": "ここからタクシーを呼んでもいいですか？"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-b18-r03",
+      "es": "空港までですか？ 定額料金になりますよ。",
+      "pt": "To the airport? It's a fixed fare.",
+      "tts": "空港までですか？ 定額料金になりますよ。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-b18-n05",
+      "pt": "Some cities run flat-fare airport taxis, and the driver gives you a receipt — though the train is often cheaper and faster than either."
+    },
+    {
+      "consulta": [
+        "taxi/destino",
+        "pagar/conta"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "IKURA",
+      "encaixe": "空港まで",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-b18-p06",
+      "promptPt": "The boot is open and the bag is not in it yet. Get the number said out loud first. Speak now.",
+      "audioKey": "fr-b18-t06",
+      "es": "空港までいくらですか？",
+      "pinyin": "koo-KOO ma-de i-ku-ra des ka",
+      "pt": "How much is it to the airport?",
+      "tts": "空港までいくらですか？"
+    },
+    {
+      "consulta": [
+        "conversa/elogiar",
+        "conversa/agradecer"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-b18-p07",
+      "promptPt": "Same person who moved your room on the first night and kept your bag today. Say the true thing, not the polite one. Speak now.",
+      "audioKey": "fr-b18-t07",
+      "es": "いろいろお世話になりました。",
+      "pinyin": "i-ro-i-ro o-SE-wa ni na-ri-MA-shi-ta",
+      "pt": "Thank you for everything you've done.",
+      "tts": "いろいろお世話になりました。"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-b18-r04",
+      "es": "こちらこそ、ありがとうございました。またお越しください。",
+      "pt": "Thank you, truly. Please come again.",
+      "tts": "こちらこそ、ありがとうございました。またお越しください。"
+    },
+    {
+      "consulta": [
+        "conversa/despedir"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-b18-p08",
+      "promptPt": "He has just left the door open for you. Answer it with a plan rather than a compliment. Speak now.",
+      "audioKey": "fr-b18-t08",
+      "es": "また必ず来ます。",
+      "pinyin": "ma-ta ka-na-ra-zu ki-MAS",
+      "pt": "I'll definitely be back.",
+      "tts": "また必ず来ます。"
+    },
+    {
+      "consulta": [
+        "conversa/despedir"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-b18-p09",
+      "promptPt": "Bag in hand, one foot already outside. Close the exchange properly. Speak now.",
+      "audioKey": "fr-b18-t09",
+      "es": "ありがとうございました。失礼します。",
+      "pinyin": "a-ri-ga-toh go-za-i-ma-shi-ta. shi-tsu-REI shi-mas",
+      "pt": "Thank you very much. Goodbye.",
+      "tts": "ありがとうございました。失礼します。"
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_fr_f",
+      "audioKey": "fr-b18-s01",
+      "es": "全部でいくらですか？ 五時まで荷物を預けてもいいですか？ いろいろお世話になりました。",
+      "pinyin": "ZEN-bu de i-ku-ra des ka. go-JI ma-de ni-MO-tsu o a-zu-ke-te mo II des ka. i-ro-i-ro o-SE-wa ni na-ri-MA-shi-ta",
+      "pt": "Shadow the three sentences the last morning is made of.",
+      "tts": "全部でいくらですか？ 五時まで荷物を預けてもいいですか？ いろいろお世話になりました。"
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-b18-n06",
+      "bloco": "recap",
+      "pt": "B18 done. Bag parked, total asked, fare fixed, and one true sentence left behind you at the door."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "The paperwork, and then the part that lasts",
+    "secoes": [
+      {
+        "titulo": "Two frames close the trip",
+        "corpo": "Te mo ii desu ka handles the permissions of the last morning — the bag, the card, the receipt, the taxi. Ikura desu ka handles the two numbers that matter, the total and the fare. Nothing new is needed on the final day; it is the same two openings you have been using since the airport.",
+        "exemplos": [
+          {
+            "es": "五時まで荷物を預けてもいいですか？",
+            "pt": "Can I leave my luggage until five?"
+          },
+          {
+            "es": "全部でいくらですか？",
+            "pt": "How much is it, all together?"
+          }
+        ]
+      },
+      {
+        "titulo": "The bill, the receipt and the city tax",
+        "corpo": "The hotel bill is printed as standard. If you need the formal receipt for expenses, ask for the 領収書 by name, and be ready to give a name to write on it. Watch for an accommodation tax — Tokyo, Osaka, Kyoto, Fukuoka and others add one per person per night, and it is easy to miss because it is rarely mentioned at check-in."
+      },
+      {
+        "titulo": "Cash, card and the two last-day helps",
+        "corpo": "Cash always settles the bill, and a small place may set a card minimum or take cash only. Two things smooth the final day: at licensed 免税 shops a visitor can buy tax-free on same-day purchases from 5,000 yen with a passport, and takkyubin luggage forwarding can send your suitcase from the hotel to the airport for the next day, so you spend the last hours with your hands free."
+      },
+      {
+        "titulo": "The sentence at the door",
+        "corpo": "Iroiro osewa ni narimashita, then arigatou gozaimashita and shitsurei shimasu. It takes a few seconds, it is the part of the week the desk actually remembers, and it costs nothing at all — which makes it the highest-return sentence in the whole module. There is no tip; the sentence is the thanks."
+      }
+    ]
+  },
+  "slot": "B18",
+  "permissao": "You are allowed to end the week with a sentence rather than a tip. Nobody at that desk finds thanks excessive, and the small closing greeting is the ordinary way an exchange is finished here, not an extra you are adding on top.",
+  "permissaoAudioKey": "fr-b18-n01",
+  "espelho": "Anyone who has ever been back to the same restaurant twice knows the mechanism: the second welcome is decided by how the first visit ended, not by how it started. The last few seconds are the ones you have full control over.",
+  "fichasCulturais": [
+    {
+      "sinal": "The driver names one number for the whole airport trip instead of starting the meter.",
+      "suaLeitura": "He has invented a price because I am a visitor with two suitcases.",
+      "oQueEAli": "Several cities run flat-fare airport taxis — a fixed price for the run set in advance — so the meter staying off can be the correct behaviour rather than a shortcut, and a receipt is owed to you at the end. Very often, though, the airport train is cheaper and faster than any taxi.",
+      "oQueVoceFaz": "Have the fare said out loud before the bags go in, ask for the receipt, and compare it in your head with the train before you commit.",
+      "oQueMelhora": "You know the number before you ride, and you often find the train was the better option anyway.",
+      "ondeNaoVale": "Flat airport fares are a city-by-city arrangement, not a national rule, and an ordinary town journey runs on the meter. Published figures change: take the number from the driver, never from a course written months earlier.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "fr-b18-n05"
+      ]
+    },
+    {
+      "sinal": "You settle the bill, pick up the bag and walk out without saying anything.",
+      "suaLeitura": "The transaction is over, so there is nothing left to say.",
+      "oQueEAli": "In Japan the opening and the closing are a matched pair of small rituals: the greeting steps into the exchange, and osewa ni narimashita, arigatou gozaimashita, shitsurei shimasu hands it back. Leaving without the second half ends the exchange on an unfinished beat, in the same way arriving without a greeting starts it on one.",
+      "oQueVoceFaz": "Say arigatou gozaimashita and add one more phrase — osewa ni narimashita after a stay, shitsurei shimasu as you go.",
+      "oQueMelhora": "The exchange closes where it is supposed to, and the next one you have in that building opens warmer.",
+      "ondeNaoVale": "This describes a routine, not anybody's feelings. It does not apply when the person is mid-phone-call or already serving someone else — then a nod and a quiet arigatou is the whole closing.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "fr-b18-n06"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,326 @@
+{
+  "id": "i08",
+  "nivel": "intermediario",
+  "numero": 26,
+  "parte": "I08",
+  "titulo": "Being invited to someone's table",
+  "subtitulo": "What to arrive with, where to sit, the toast that is a fixed word, and the moment when leaving stops being early",
+  "cena": "Someone you met three days ago has said «nichiyobi, uchi ni gohan ni kimasen ka» and you have no idea what any part of that means in practice.",
+  "moldura": "ganha",
+  "frasePiso": "Say yes first. Arrive with something for the table, wait to be placed, raise the glass with the one word, and go after the tea.",
+  "decisao": "aceitar o convite e chegar com a coisa certa na mão, em vez de recusar por não saber como funciona uma mesa japonesa",
+  "moldes": [],
+  "fatosDatados": [
+    {
+      "id": "fr-i08-jikan-chosa",
+      "afirmacao": "Japanese mealtimes are measured and relatively synchronised. NHK's national time-use survey (国民生活時間調査, 2020) records how much of the day is spent on meals and finds the daily rhythm concentrated at fairly fixed hours, with dinner clustered in the evening rather than spread across it. The practical consequence for a guest: an invitation that names an hour means that hour, and a home lunch or dinner is built to run long rather than to be fitted between other things.",
+      "fonte": "NHK 国民生活時間調査 (Pesquisa de Uso do Tempo), 2020 — tempo e horários das refeições no Japão",
+      "ano": 2020,
+      "revisarAte": "2028-08-05",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "fr-i08-n04"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-i08-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "An invitation home is the best thing this trip can hand you. The only reason to say no is not knowing its shape."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-i08-r01",
+      "receptivo": true,
+      "acao": "Say yes now. Work out the details afterwards.",
+      "es": "日曜日、うちに昼ごはんに来ませんか。一時ごろ。",
+      "pt": "Come to lunch at ours on Sunday. Around one.",
+      "tts": "日曜日、うちに昼ごはんに来ませんか。一時ごろ。"
+    },
+    {
+      "consulta": [
+        "conversa/convite"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-i08-p01",
+      "promptPt": "Accept, warmly and without hedging, in the same breath. Speak now.",
+      "audioKey": "fr-i08-t01",
+      "es": "喜んで。お招きありがとうございます。",
+      "pinyin": "yo-ro-KON-de. o-MA-ne-ki a-ri-ga-toh go-za-i-mas",
+      "pt": "With pleasure. Thank you for the invitation.",
+      "tts": "喜んで。お招きありがとうございます。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-i08-n02",
+      "bloco": "corpo",
+      "pt": "Then ask about bringing something. Rising voice at the end is the whole question — no extra words needed."
+    },
+    {
+      "consulta": [
+        "conversa/convite"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-i08-p02",
+      "promptPt": "You want to turn up with a box under your arm. Check first, voice rising at the end. Speak now.",
+      "audioKey": "fr-i08-t02",
+      "es": "何か持って行きましょうか？",
+      "pinyin": "NA-ni ka mot-te i-ki-ma-SHO-ka",
+      "pt": "Shall I bring something?",
+      "tts": "何か持って行きましょうか？"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-i08-r02",
+      "es": "いえいえ、手ぶらで来てくださいね！",
+      "pt": "No no, just come empty-handed!",
+      "tts": "いえいえ、手ぶらで来てくださいね！"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-i08-n03",
+      "pt": "Teburade is not an instruction. You arrive with a temiyage anyway — a boxed sweet or a bottle for the table."
+    },
+    {
+      "consulta": [
+        "conversa/convite",
+        "compras/presente"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "MASHITA",
+      "encaixe": "デザートを持ってきました",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-i08-p03",
+      "promptPt": "You are at the door holding a box from the sweet shop. Hand it over. Speak now.",
+      "audioKey": "fr-i08-t03",
+      "es": "デザートを持ってきました。お口に合うといいのですが。",
+      "pinyin": "de-ZAH-to o mot-te ki-MASH-ta. o-ku-chi ni a-u to i-i no des-ga",
+      "pt": "I brought a dessert, I hope you'll like it.",
+      "tts": "デザートを持ってきました。お口に合うといいのですが。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-i08-n04",
+      "bloco": "capsula",
+      "pt": "One o'clock is a real hour. Mealtimes here are measured and fairly fixed, and the meal is built to run long."
+    },
+    {
+      "consulta": [
+        "conversa/convite"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-i08-p04",
+      "promptPt": "Everyone is standing around the table and nobody has sat down. Ask rather than choose your own seat. Speak now.",
+      "audioKey": "fr-i08-t04",
+      "es": "どこに座ればいいですか？",
+      "pinyin": "DO-ko ni su-wa-re-ba i-i des-ka",
+      "pt": "Where should I sit?",
+      "tts": "どこに座ればいいですか？"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-i08-n05",
+      "pt": "The toast is one word, not a speech. Glasses up, kanpai, and that is genuinely the whole thing."
+    },
+    {
+      "consulta": [
+        "conversa/brinde"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-i08-p05",
+      "promptPt": "Glasses are up around the table and everyone is looking at each other. Speak now.",
+      "audioKey": "fr-i08-t05",
+      "es": "乾杯！",
+      "pinyin": "kan-PAI",
+      "pt": "Cheers!",
+      "tts": "乾杯！"
+    },
+    {
+      "consulta": [
+        "conversa/elogiar",
+        "comer/pedido"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-i08-p06",
+      "promptPt": "Praise the food to the person who cooked it, pointing at the dish itself. Speak now.",
+      "audioKey": "fr-i08-t06",
+      "es": "この料理、本当に美味しいですね。",
+      "pinyin": "ko-no RYOH-ri, hon-TOH ni o-i-shi-i des-ne",
+      "pt": "This dish is really delicious.",
+      "tts": "この料理、本当に美味しいですね。"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-i08-r03",
+      "receptivo": true,
+      "acao": "A second helping is the compliment. Take a token amount rather than refusing flat.",
+      "es": "もっと食べてください、たくさんありますから！",
+      "pt": "Have some more, there's plenty!",
+      "tts": "もっと食べてください、たくさんありますから！"
+    },
+    {
+      "consulta": [
+        "comer/pedido"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-i08-p07",
+      "promptPt": "You are full but the dish is going round again. Take a token amount. Speak now.",
+      "audioKey": "fr-i08-t07",
+      "es": "じゃあ、少しだけ。すごく美味しいので。",
+      "pinyin": "JAA, su-KO-shi da-ke. su-GO-ku o-i-shi-i no-de",
+      "pt": "Just a little then, it's so good.",
+      "tts": "じゃあ、少しだけ。すごく美味しいので。"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_f",
+      "audioKey": "fr-i08-r04",
+      "receptivo": true,
+      "acao": "The switch to casual speech is offered, never taken. If it comes, accept it; if it does not, stay on desu-masu.",
+      "es": "もう、敬語じゃなくていいですよ。",
+      "pt": "You don't need to be so formal with me.",
+      "tts": "もう、敬語じゃなくていいですよ。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-i08-n06",
+      "pt": "Tea is the signal. Once it has been served and drunk, leaving reads as normal rather than early."
+    },
+    {
+      "consulta": [
+        "conversa/despedir",
+        "conversa/agradecer"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-i08-p08",
+      "promptPt": "The tea cups are empty. Cover the whole afternoon in one sentence, still seated. Speak now.",
+      "audioKey": "fr-i08-t08",
+      "es": "今日は本当にありがとうございました。楽しい一日でした。",
+      "pinyin": "KYOH wa hon-TOH ni a-ri-ga-toh go-za-i-MASH-ta. ta-no-SHI-i i-chi-ni-chi de-shi-ta",
+      "pt": "Thank you so much for today. It's been a lovely day.",
+      "tts": "今日は本当にありがとうございました。楽しい一日でした。"
+    },
+    {
+      "consulta": [
+        "conversa/despedir"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-i08-p09",
+      "promptPt": "Now actually stand and go, with the sentence that makes leaving easy. Speak now.",
+      "audioKey": "fr-i08-t09",
+      "es": "そろそろ失礼します。ごちそうさまでした。",
+      "pinyin": "so-ro-so-ro shi-TSU-rei shi-mas. go-chi-soh-sa-ma-DESH-ta",
+      "pt": "I'll be heading off. Thank you for the meal.",
+      "tts": "そろそろ失礼します。ごちそうさまでした。"
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_fr_f",
+      "audioKey": "fr-i08-s01",
+      "es": "何か持って行きましょうか？ どこに座ればいいですか？ 乾杯！ そろそろ失礼します。",
+      "pinyin": "NA-ni ka mot-te i-ki-ma-SHO-ka. DO-ko ni su-wa-re-ba i-i des-ka. kan-PAI. so-ro-so-ro shi-TSU-rei shi-mas",
+      "pt": "Shadow the arc of the visit: offer, sit, toast, leave.",
+      "tts": "何か持って行きましょうか？ どこに座ればいいですか？ 乾杯！ そろそろ失礼します。",
+      "molde": "MASHITA"
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-i08-n07",
+      "bloco": "recap",
+      "pt": "I08 done. Say yes, arrive with a temiyage, wait to be placed, raise the glass, and go after the tea."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "The shape of a Sunday lunch",
+    "secoes": [
+      {
+        "titulo": "Teburade means bring something",
+        "corpo": "The refusal of your offer is part of the exchange rather than the answer to it. A boxed sweet from a good shop or a bottle both work as a temiyage; whatever it is, it is handed over for the table, and a small line like okuchi ni au to ii no desu ga carries the modesty the gift is expected to come with.",
+        "exemplos": [
+          {
+            "es": "何か持って行きましょうか？",
+            "pt": "Shall I bring something?"
+          },
+          {
+            "es": "デザートを持ってきました。",
+            "pt": "I brought a dessert."
+          }
+        ]
+      },
+      {
+        "titulo": "One o'clock is measured, not approximate",
+        "corpo": "NHK's time-use survey measures how the day's meals fall, and the timing is fairly fixed and shared across households. That is why an invitation names an hour, and why arriving well after it lands in the middle of a course rather than before it. Turn up on time, or a couple of minutes early."
+      },
+      {
+        "titulo": "Wait to be placed",
+        "corpo": "Where you sit is not yours to choose. A Japanese room has a kamiza and a shimoza — an honoured seat and a lower one — and a guest is usually shown to a place rather than picking one. Doko ni suwareba ii desu ka hands the decision back to the host, which is exactly where it belongs."
+      },
+      {
+        "titulo": "Desu-masu stays until it is dropped",
+        "corpo": "Polite speech is the default with any adult you did not grow up with, and the move to casual is normally proposed out loud — keigo ja nakute ii desu yo. Accepting is easy and instant. Going first is the part that costs something, so let the offer come to you."
+      }
+    ]
+  },
+  "slot": "I08",
+  "permissao": "You are allowed to accept an invitation from someone you barely know. Being asked to a table is the invitation working exactly as intended, yes is the expected answer, and the version of this trip where you decline because you are unsure of the etiquette is the poorer one by a wide margin.",
+  "permissaoAudioKey": "fr-i08-n01",
+  "espelho": "Anyone who has turned down a neighbour's invitation because accepting felt like an imposition knows this reflex. The hesitation is not about Japan — it is the suspicion that the offer was made out of politeness rather than because they meant it.",
+  "fichasCulturais": [
+    {
+      "sinal": "You say you are full, and the dish comes round again — and again, cheerfully, with «motto tabete».",
+      "suaLeitura": "They are not listening, and I will have to eat more to be polite.",
+      "oQueEAli": "At many tables the repeated offer is the hospitality doing its job, and a first refusal is read as a form of politeness rather than as a decision. The insistence is warmth aimed at the table, not pressure aimed at you.",
+      "oQueVoceFaz": "Take a token amount and pair it with praise — sukoshi dake, sugoku oishii node. Accepting a little closes the exchange in a way a flat no does not.",
+      "oQueMelhora": "You stop having the same negotiation every ten minutes, and the offer gets the acknowledgement it was actually asking for.",
+      "ondeNaoVale": "Not when an allergy or a real dietary limit is involved. There the firm sentence from the basics applies and a token amount is exactly the wrong move — the limit is stated once, clearly, and it is not negotiated at the table.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "fr-i08-n05"
+      ]
+    },
+    {
+      "sinal": "Lunch was called for one and at four o'clock nobody has moved, the tea has not appeared, and you have something booked.",
+      "suaLeitura": "This is running late and I am being kept.",
+      "oQueEAli": "The meal is a single long event rather than a course followed by free time. Time-use data puts mealtimes at fairly fixed hours and shows them running long at home — the length is the design, not a delay.",
+      "oQueVoceFaz": "Do not book anything for the afternoon. Wait for the tea, which is the practical signal that leaving is now normal, and then use the sentence for it.",
+      "oQueMelhora": "You stay for the part of the day the invitation was actually about, and you leave at a moment everyone reads the same way.",
+      "ondeNaoVale": "Not a claim that every household eats at exactly one o'clock — a house with small children, shift work or a long drive behind it will sit down when it sits down.",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "fr-i08-n04",
+        "fr-i08-n06"
+      ]
+    }
+  ]
+}

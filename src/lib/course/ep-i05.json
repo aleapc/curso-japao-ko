@@ -1,0 +1,353 @@
+{
+  "id": "i05",
+  "nivel": "intermediario",
+  "numero": 23,
+  "parte": "I05",
+  "titulo": "이번 주 내내 받게 될 다섯 가지 질문",
+  "subtitulo": "어디서 왔는지, 얼마나 있는지, 처음인지, 일본어는 어떤지 — 그리고 그대로 되돌려 주는 방식으로 답하는 질문 하나",
+  "cena": "카운터에 앉은 지 4분, 커피는 다 마셨고, 옆 스툴에 앉은 사람이 당신이 누군지 알아내기로 마음먹었다.",
+  "moldura": "ganha",
+  "frasePiso": "다섯 가지 답을 한 번 준비해 두면 스몰토크는 더 이상 벼락치기하지 못한 시험이 아니게 된다.",
+  "decisao": "fico na conversa ou saio dela — e o que respondo quando a pergunta pede que eu tome partido sobre uma rivalidade interna do país deles",
+  "moldes": [],
+  "fatosDatados": [
+    {
+      "id": "fr-i05-ef-epi",
+      "afirmacao": "EF 영어능력지수(EF English Proficiency Index) 2024에서 일본은 '낮은 능력' 등급에 속하며, 116개국 중 약 92위, 점수는 약 454점이고, 최근 판을 거치며 순위가 계속 내려갔다. EF 스스로가 표본이 자기 선택적이고 온라인으로 수집되어 인구 전체를 대표하는 통계적으로 타당한 표본이 아니라고 밝히고 있으니, 이 수치는 '이 방식으로 측정한 영어 능력은 낮고 나아지지 않고 있다'는 주장을 뒷받침할 뿐, 일본인 중 몇 퍼센트가 영어를 하는지에 대한 어떤 주장도 뒷받침하지 않는다. 지금 당신이 서 있는 카운터는 어쨌든 일본어로 돌아간다.",
+      "fonte": "EF EPI 2024 — Japão na faixa «low proficiency», ~92º de 116 países, pontuação ~454. Amostra auto-selecionada e online (declarado pela própria EF)",
+      "ano": 2024,
+      "revisarAte": "2027-08-05",
+      "evidencia": "FATO",
+      "risco": "medio",
+      "audioKeys": [
+        "fr-i05-n05"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-i05-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "같은 다섯 가지 질문이 이번 주 내내 날아온다. 한 번 제대로 답해 두면 그 주를 여섯 번째 질문에 쓸 수 있다."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-i05-r01",
+      "receptivo": true,
+      "acao": "질문 하나, 매번 반복된다. 도시로 답하고, 그다음 되돌려 보내라.",
+      "es": "どちらからですか？",
+      "pt": "어디서 오셨어요?",
+      "tts": "どちらからですか？"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-i05-n02",
+      "pt": "나라가 아니라 도시로 답하라. 도시는 상대에게 되받을 거리를 주지만, 나라는 대화를 끝내 버린다."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_f",
+      "audioKey": "fr-i05-t01",
+      "es": "ロンドンから来ました。そちらは？",
+      "pinyin": "RON-don ka-ra ki-MASH-ta. so-CHI-ra wa",
+      "pt": "런던에서 왔어요. 그쪽은요?",
+      "tts": "ロンドンから来ました。そちらは？"
+    },
+    {
+      "consulta": [
+        "simpatia/puxar-conversa"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-i05-p01",
+      "promptPt": "첫 질문이 왔다. 도시를 말하고 한숨에 차례를 되돌려 보내라. 지금 말하세요.",
+      "audioKey": "fr-i05-t01",
+      "es": "ロンドンから来ました。そちらは？",
+      "pinyin": "RON-don ka-ra ki-MASH-ta. so-CHI-ra wa",
+      "pt": "런던에서 왔어요. 그쪽은요?",
+      "tts": "ロンドンから来ました。そちらは？"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-i05-r02",
+      "es": "ああ、ロンドン！どのくらい滞在しますか？",
+      "pt": "아, 런던! 얼마나 계세요?",
+      "tts": "ああ、ロンドン！どのくらい滞在しますか？"
+    },
+    {
+      "consulta": [
+        "simpatia/puxar-conversa"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-i05-p02",
+      "promptPt": "질문 둘. 여행 기간을 짧은 숫자 하나로 말하라. 지금 말하세요.",
+      "audioKey": "fr-i05-t02",
+      "es": "五日間います。",
+      "pinyin": "i-tsu-ka-KAN i-mas",
+      "pt": "5일 있어요.",
+      "tts": "五日間います。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-i05-n03",
+      "bloco": "corpo",
+      "pt": "질문 셋은 전에 와 본 적 있냐는 것이다. 처음이라고 말하는 게 능숙해 보이는 것보다 훨씬 값어치가 있다."
+    },
+    {
+      "consulta": [
+        "simpatia/puxar-conversa"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-i05-p03",
+      "promptPt": "일본에 와 본 적 있냐고 묻는다. 어디쯤인지 말해라. 지금 말하세요.",
+      "audioKey": "fr-i05-t03",
+      "es": "日本は初めてです。",
+      "pinyin": "ni-HON wa ha-JI-me-te des",
+      "pt": "일본은 처음이에요.",
+      "tts": "日本は初めてです。"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-i05-r03",
+      "receptivo": true,
+      "acao": "이건 시험이 아니라 제안이다. 받아들여라: 어디를 추천하는지 물어라.",
+      "es": "初めてなんですね！じゃあ、どこに行くか教えないと。",
+      "pt": "처음이시구나! 그럼 어디로 가야 하는지 알려 드려야겠네요.",
+      "tts": "初めてなんですね！じゃあ、どこに行くか教えないと。"
+    },
+    {
+      "consulta": [
+        "simpatia/puxar-conversa",
+        "mesa/comida"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-i05-p04",
+      "promptPt": "그가 방금 당신을 어딘가로 안내해 주겠다고 했다. 제안을 받아들여 그를 가이드로 만들어라. 지금 말하세요.",
+      "audioKey": "fr-i05-t04",
+      "es": "おすすめはどこですか？",
+      "pinyin": "o-su-su-me wa DO-ko des-ka",
+      "pt": "추천해 주실 데 있어요?",
+      "tts": "おすすめはどこですか？"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-i05-n04",
+      "bloco": "capsula",
+      "pt": "질문 넷은 일 때문인지 휴가인지다. 당신을 검사하려는 게 아니라 자리매김하려는 것이고, 짧은 절 하나면 답이 된다."
+    },
+    {
+      "consulta": [
+        "simpatia/puxar-conversa"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-i05-p05",
+      "promptPt": "무엇 때문에 왔는지 알고 싶어 한다. 둘 중 어느 쪽인지 말하라. 지금 말하세요.",
+      "audioKey": "fr-i05-t05",
+      "es": "旅行で来ました。",
+      "pinyin": "ryo-KOH de ki-MASH-ta",
+      "pt": "여행으로 왔어요.",
+      "tts": "旅行で来ました。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-i05-n05",
+      "pt": "질문 다섯은 당신의 일본어에 관한 것이다. 여기서 측정된 영어 능력은 낮고 정체돼 있으며, 이 카운터는 여전히 일본어로 돌아간다."
+    },
+    {
+      "consulta": [
+        "reparo/ingles",
+        "simpatia/puxar-conversa"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-i05-p06",
+      "promptPt": "일본어가 어떠냐고 묻는다. 겸손하게 말하고, 나아가는 중이라고 하라. 지금 말하세요.",
+      "audioKey": "fr-i05-t06",
+      "es": "日本語はまだ下手ですが、勉強しています。",
+      "pinyin": "ni-HON-go wa ma-da he-TA des-ga, ben-KYOH shi-te-i-mas",
+      "pt": "일본어는 아직 서투르지만 공부하고 있어요.",
+      "tts": "日本語はまだ下手ですが、勉強しています。"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-i05-r04",
+      "receptivo": true,
+      "acao": "이건 평가가 아니라 격려다. 고맙다고 말하고 일본어로 계속하라.",
+      "es": "いやいや、日本語お上手ですね！",
+      "pt": "아니에요, 일본어 정말 잘하시네요!",
+      "tts": "いやいや、日本語お上手ですね！"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-i05-n06",
+      "pt": "이제 여섯 번째 질문, 편을 들라고 요구하는 질문이다. 좋은 답이 있고, 그건 의견이 아니다."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-i05-r05",
+      "receptivo": true,
+      "acao": "동의하지도 말고 반박하지도 마라. 지금까지 본 것만 말하고 질문을 되돌려라.",
+      "es": "東京なんて、もう日本じゃないですよ。本当の日本は関西です。",
+      "pt": "솔직히 도쿄는 이제 일본이 아니에요. 진짜 일본은 간사이죠.",
+      "tts": "東京なんて、もう日本じゃないですよ。本当の日本は関西です。"
+    },
+    {
+      "consulta": [
+        "simpatia/puxar-conversa"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-i05-p07",
+      "promptPt": "그들 나라의 두 지역 중 순위를 매기라는 초대를 받았다. 대화는 그대로 두고 순위 매기기만 사양하라. 지금 말하세요.",
+      "audioKey": "fr-i05-t07",
+      "es": "まだ来たばかりで、比べられません。",
+      "pinyin": "ma-da ki-ta ba-KA-ri de, ku-ra-be-ra-re-ma-sen",
+      "pt": "아직 온 지 얼마 안 돼서 비교가 안 돼요.",
+      "tts": "まだ来たばかりで、比べられません。"
+    },
+    {
+      "consulta": [
+        "simpatia/puxar-conversa"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-i05-p08",
+      "promptPt": "그 비교를 어차피 상대가 기다리고 있던 질문으로 되돌려라. 지금 말하세요.",
+      "audioKey": "fr-i05-t08",
+      "es": "こちらのご出身ですか？",
+      "pinyin": "ko-CHI-ra no go-SHUS-shin des-ka",
+      "pt": "여기 출신이세요?",
+      "tts": "こちらのご出身ですか？"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-i05-r06",
+      "es": "私？いや、東北の出です。もう二十年こっちにいますけどね。",
+      "pt": "저요? 아니요, 도호쿠 출신이에요. 여기 온 지 벌써 20년이지만요.",
+      "tts": "私？いや、東北の出です。もう二十年こっちにいますけどね。"
+    },
+    {
+      "consulta": [
+        "chegar/sair",
+        "simpatia/agradecer"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-i05-p09",
+      "promptPt": "대화는 즐거웠고 갈 곳이 있다. 자르지 말고 마무리하라. 지금 말하세요.",
+      "audioKey": "fr-i05-t09",
+      "es": "そろそろ失礼しますが、楽しかったです。",
+      "pinyin": "so-ro-so-ro shi-TSU-rei shi-mas-ga, ta-no-SHI-kat-ta des",
+      "pt": "이만 가 봐야겠지만, 즐거웠어요.",
+      "tts": "そろそろ失礼しますが、楽しかったです。"
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_fr_f",
+      "audioKey": "fr-i05-s01",
+      "es": "ロンドンから来ました。五日間います。日本は初めてです。",
+      "pinyin": "RON-don ka-ra ki-MASH-ta. i-tsu-ka-KAN i-mas. ni-HON wa ha-JI-me-te des",
+      "pt": "그 주 내내 대화를 여는 세 가지 답을 따라 말해 보라.",
+      "tts": "ロンドンから来ました。五日間います。日本は初めてです。"
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-i05-n07",
+      "bloco": "recap",
+      "pt": "I05 완료. 어디서 왔는지, 얼마나 있는지, 처음인지, 왜 왔는지, 일본어는 어떤지 — 그리고 순위 매기기를 거절하는 여섯 번째 답."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "다섯 가지 답, 그리고 하나의 거절",
+    "secoes": [
+      {
+        "titulo": "도시가 나라를 이긴다",
+        "corpo": "런던 카라 키마시타는 상대에게 걸 만한 고리를 준다 — 추억, 인연, 다녀온 여행. 이기리스 카라(영국에서)는 사실 하나를 줄 뿐이고, 사실은 대화 차례를 끝내 버린다. 거기에 소치라 와를 붙이면 단어 두 개로 인터뷰당하는 입장에서 대화하는 입장으로 넘어간다.",
+        "exemplos": [
+          {
+            "es": "ロンドンから来ました。そちらは？",
+            "pt": "런던에서 왔어요. 그쪽은요?"
+          },
+          {
+            "es": "こちらのご出身ですか？",
+            "pt": "여기 출신이세요?"
+          }
+        ]
+      },
+      {
+        "titulo": "처음이라는 건 자산이다",
+        "corpo": "니혼 와 하지메테데스라고 하면 대개 지시가 뒤따른다: 어디서 먹으라는 둥, 어느 동네가 좋다는 둥, 시장이 어느 요일에 열린다는 둥. 없는 친숙함을 내세우면 그 문을 스스로 닫는 셈이고, 그 문 뒤에는 얻을 만한 게 아무것도 없다."
+      },
+      {
+        "titulo": "칭찬은 계속하라는 신호다",
+        "corpo": "니혼고 오조즈데스네는 일본어 몇 마디라도 시도한 사람에게 하는 말이다. 평가도 아니고 반어법도 아니다 — 계속하라는 표준적인 격려일 뿐이다. 유일하게 틀린 답은 바로 그 순간 영어로 넘어가는 것이다."
+      },
+      {
+        "titulo": "편을 원하는 질문",
+        "corpo": "언젠가는 누군가가 그 나라의 두 지역을 맞세운다 — 간토와 간사이, 도쿄와 지방, 자기 지역과 옆 지역 — 그러고는 기다린다. 뭐라고 답하든 그건 그들의 고향에 대한 낯선 사람의 판결이 되어 버린다. 마다 키타 바카리데, 쿠라베라레마센은 회피가 아니다 — 사실이고, 다정하고, 실제로 그 얘기를 할 자격이 있는 사람에게 발언권을 넘겨준다."
+      },
+      {
+        "titulo": "동 나기 전에 떠나라",
+        "corpo": "소로소로 시츠레이시마스가, 타노시캇타데스는 대화가 여전히 잘 흘러가고 있을 때 마무리 지어서, 상대의 기억에도 그렇게 남는다. 아직 조립 중인 언어로 자연스러운 틈을 기다리다 보면 대개 그 틈을 이미 지나쳐 버린다."
+      }
+    ]
+  },
+  "slot": "I05",
+  "permissao": "당신은 다섯 단어로 답해도 된다. 그 카운터의 누구도 문단 하나짜리 대답을 기다리지 않고, 질문들은 당신을 검사하려는 게 아니라 자리매김하려는 것이며, 끝에 질문 하나가 붙은 짧은 답이 끝에 아무것도 없는 긴 답보다 더 값어치가 있다.",
+  "permissaoAudioKey": "fr-i05-n01",
+  "espelho": "새 직장에서 신입이었던 사람이라면 이 세트를 안다: 어디서 왔는지, 여기 온 지 얼마나 됐는지, 지내기는 어떤지. 당신은 이미 모국어로 이 리듬을 갖고 있다 — 줄이고, 살짝 비껴가고, 되받아 묻는다. 이 파트는 그 똑같은 리듬을, 미리 준비한 다섯 개의 일본어 문장으로 옮긴 것뿐이다.",
+  "fichasCulturais": [
+    {
+      "sinal": "누군가 진지하게 도쿄는 진짜 일본이 아니고 간사이가 — 혹은 지금 당신이 서 있는 그곳이 — 진짜라고 말한다.",
+      "suaLeitura": "동의를 구하는 거니까, 동의하는 게 친절한 거겠지.",
+      "oQueEAli": "간토-간사이 비교는 그걸 겪은 사람들끼리의 논쟁이고, 당신의 여행보다 훨씬 오래전부터 이어져 왔다. 여행자의 동의는 아무 무게도 없고, 반대로 느끼는 다른 누군가에게 나중에 그대로 전해질 수도 있다.",
+      "oQueVoceFaz": "이제 막 도착해서 비교할 수 없다고 말한 다음, 그들의 지역에 대해 물어라. 온기는 그대로 유지하면서 판결만 피할 수 있다.",
+      "oQueMelhora": "지금 있는 곳에 대한 길고 구체적인 답 — 정작 쓸모 있는 절반 — 을 얻게 되고, 대화를 식힐 뿐인 주제는 피하게 된다.",
+      "ondeNaoVale": "정말로 당신의 여정에 대해 묻는 질문일 때는 다르다 — 뭘 봤는지, 다음엔 어딜 가는지. 그런 질문은 진짜 답을 원하는 거고, 답을 주는 게 바로 그 대화의 요점이다.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "fr-i05-n06"
+      ]
+    },
+    {
+      "sinal": "더듬더듬 일본어 몇 마디를 했더니 정말 잘한다는 말을 듣는다.",
+      "suaLeitura": "예의상 하는 말이거나 살짝 놀리는 거니까, 솔직하게 영어로 바꾸는 게 맞겠지.",
+      "oQueEAli": "니혼고 오조즈데스네는 일본어로 시도한 사람에게 뒤따르는 표준적인 반응이다: 대부분의 여행자가 포기하려는 바로 그 순간에 계속하라고 건네는 격려다. 이곳에서 측정된 영어 능력은 낮고 오르지 않고 있는데, 그건 눈앞의 그 사람과는 아무 상관이 없고, 지금 당신이 있는 카운터는 여전히 일본어로 돌아간다.",
+      "oQueVoceFaz": "아리가토라고 말하고 한 문장 더, 서툴러도 일본어로 남아 있어라. 정말 영어가 필요하면 넘어가는 대신 요청하라.",
+      "oQueMelhora": "대화가 시작된 자리에 그대로 머무르고, 그 자리야말로 추천, 정정, 자잘한 도움이 오가는 곳이다.",
+      "ondeNaoVale": "상대가 먼저 영어로 넘어와서 그쪽이 훨씬 편해 보일 때는 다르다 — 그런 상황에서 일본어를 고집하면 대화의 초점이 당신이 필요했던 것이 아니라 당신 자신이 되어 버린다.",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "fr-i05-n05"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "id": "q-a01",
+  "nivel": "avancado",
+  "titulo": "Quiz — When it is not to you",
+  "subtitulo": "Five questions about what disappears and what is left",
+  "introAudioKey": "fr-a01-q-i",
+  "introPt": "Two people settle a plan at full speed, and a traveller catches the shape of it.",
+  "cenario": "A counter with a queue, and two friends deciding what happens next.",
+  "dialogo": [
+    {
+      "audioKey": "fr-a01-q01",
+      "voz": "target_fr_f",
+      "es": "さあ、わかんないなあ。もう遅いし。",
+      "pt": "Hmm, dunno. It's already late.",
+      "tts": "さあ、わかんないなあ。もう遅いし。"
+    },
+    {
+      "audioKey": "fr-a01-q02",
+      "voz": "target_fr_m",
+      "es": "そろそろ行かなきゃ。八時過ぎたら何もないよ。",
+      "pt": "We've got to go soon. After eight there's nothing left.",
+      "tts": "そろそろ行かなきゃ。八時過ぎたら何もないよ。"
+    },
+    {
+      "audioKey": "fr-a01-q03",
+      "voz": "target_fr_f",
+      "es": "まあ、じゃあ行こっか。それで決まりね。",
+      "pt": "Well, shall we go then. That's settled.",
+      "tts": "まあ、じゃあ行こっか。それで決まりね。"
+    },
+    {
+      "audioKey": "fr-a01-q04",
+      "voz": "target_fr_m",
+      "es": "すみません、わかりませんでした。もっとゆっくりお願いします。",
+      "pt": "Sorry, I didn't understand. More slowly, please.",
+      "tts": "すみません、わかりませんでした。もっとゆっくりお願いします。"
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "You hear wakannai. What was said?",
+      "opcoes": [
+        "大丈夫です",
+        "わからない",
+        "お宅",
+        "探してる"
+      ],
+      "correta": 1,
+      "explica": "Wakaranai loses its polite masen, then contracts to wakannai. Three sizes of one sentence, all ordinary."
+    },
+    {
+      "pergunta": "Someone says sorosoro ikanakya. What has just happened?",
+      "opcoes": [
+        "A question was asked",
+        "An apology was made",
+        "A decision to leave, now",
+        "A price was given"
+      ],
+      "correta": 2,
+      "explica": "Ikanakya is ikanakereba naranai worn down in speech. If it is aimed at your table, stand up."
+    },
+    {
+      "pergunta": "What job does de at the front of a turn do?",
+      "opcoes": [
+        "It apologises",
+        "It introduces the consequence, usually the decision",
+        "It asks for repetition",
+        "It means suddenly and nothing else"
+      ],
+      "correta": 1,
+      "explica": "Tune your ear to it: the useful half of the sentence tends to come right after."
+    },
+    {
+      "pergunta": "Sore de kimari lands at the end of the exchange. What does it tell you?",
+      "opcoes": [
+        "Something is about to be explained",
+        "Somebody disagreed",
+        "That is settled — the rest is politeness",
+        "A question is coming"
+      ],
+      "correta": 2,
+      "explica": "Sore de kimari marks the end of the part you needed."
+    },
+    {
+      "pergunta": "Should you start saying wakannai and miteru yourself?",
+      "opcoes": [
+        "Yes, it shows you are fluent",
+        "No — recognise it, produce the full form",
+        "Only with people your own age",
+        "Only in Kansai"
+      ],
+      "correta": 1,
+      "explica": "This module is receptive on purpose. In a visitor's mouth it reads as an impression of Japanese rather than as Japanese."
+    }
+  ]
+}

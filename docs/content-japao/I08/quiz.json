@@ -1,0 +1,96 @@
+{
+  "id": "q-i08",
+  "nivel": "intermediario",
+  "titulo": "Quiz — Being invited to someone's table",
+  "subtitulo": "Say yes, arrive with something, leave after the tea",
+  "introAudioKey": "fr-i08-q-i",
+  "introPt": "An invitation to Sunday lunch, accepted on the spot, and the offer to bring something.",
+  "cenario": "On the pavement outside a café, three days after meeting.",
+  "dialogo": [
+    {
+      "audioKey": "fr-i08-q01",
+      "voz": "target_fr_m",
+      "es": "日曜日、うちに昼ごはんに来ませんか。一時ごろ。",
+      "pt": "Come to lunch at ours on Sunday. Around one.",
+      "tts": "日曜日、うちに昼ごはんに来ませんか。一時ごろ。"
+    },
+    {
+      "audioKey": "fr-i08-q02",
+      "voz": "target_fr_f",
+      "es": "喜んで。お招きありがとうございます。何か持って行きましょうか？",
+      "pt": "With pleasure, thank you for the invitation. Shall I bring something?",
+      "tts": "喜んで。お招きありがとうございます。何か持って行きましょうか？"
+    },
+    {
+      "audioKey": "fr-i08-q03",
+      "voz": "target_fr_m",
+      "es": "いえいえ、手ぶらで来てくださいね！",
+      "pt": "No no, just come empty-handed!",
+      "tts": "いえいえ、手ぶらで来てくださいね！"
+    },
+    {
+      "audioKey": "fr-i08-q04",
+      "voz": "target_fr_f",
+      "es": "デザートを持ってきました。お口に合うといいのですが。",
+      "pt": "I brought a dessert, I hope you'll like it.",
+      "tts": "デザートを持ってきました。お口に合うといいのですが。"
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Teburade de kite kudasai — come empty-handed — means:",
+      "opcoes": [
+        "Arrive with nothing, they mean it literally",
+        "It is part of the exchange — you still arrive with a temiyage",
+        "Bring money instead",
+        "The invitation has been withdrawn"
+      ],
+      "correta": 1,
+      "explica": "The refusal of your offer is part of the form. A boxed sweet or a bottle works, handed over for the table."
+    },
+    {
+      "pergunta": "The invitation says ichiji goro — around one. How seriously is that hour meant?",
+      "opcoes": [
+        "Loosely — anything up to three is fine",
+        "It means the door opens at one and lunch is at three",
+        "Seriously — mealtimes are measured and fairly fixed, and the meal runs long",
+        "Hours are never named"
+      ],
+      "correta": 2,
+      "explica": "Time-use surveys show meals at fairly fixed hours; arrive on time, or a couple of minutes early."
+    },
+    {
+      "pergunta": "Everyone is standing round the table. What do you do?",
+      "opcoes": [
+        "Ask — doko ni suwareba ii desu ka",
+        "Take the nearest chair",
+        "Wait outside the room",
+        "Sit at the head, as the guest"
+      ],
+      "correta": 0,
+      "explica": "A room has a kamiza and a shimoza; a guest is shown to a place. Hand the decision back to the host."
+    },
+    {
+      "pergunta": "The toast is:",
+      "opcoes": [
+        "A short speech from the guest",
+        "A fixed word — glasses up, kanpai, done",
+        "Only for formal dinners",
+        "Something the host does alone"
+      ],
+      "correta": 1,
+      "explica": "No speech is expected of a guest, and none of the host either."
+    },
+    {
+      "pergunta": "Someone says keigo ja nakute ii desu yo. What has happened?",
+      "opcoes": [
+        "You were rude and are being corrected",
+        "You must now use casual speech with everyone in the room",
+        "The switch to casual speech is being offered — accept it, but never go first",
+        "It is a question about the food"
+      ],
+      "correta": 2,
+      "explica": "Desu-masu is the default with any adult you did not grow up with; the move to casual is proposed out loud."
+    }
+  ]
+}

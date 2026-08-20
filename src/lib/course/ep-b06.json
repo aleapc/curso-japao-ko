@@ -1,0 +1,340 @@
+{
+  "id": "b06",
+  "nivel": "basico",
+  "numero": 6,
+  "parte": "B06",
+  "titulo": "Wa arimasu ka — 그다음 필요한 건 뭐든지",
+  "subtitulo": "첫 한 시간 동안 네 개의 창구, 그리고 그 전부가 같은 어미로 답을 얻는다",
+  "cena": "도착장: 수하물 벨트는 멈췄고, eSIM은 아직 연결되지 않았고, 앉을 수 있게 되기까지 네 개의 창구가 남아 있다.",
+  "moldura": "ganha",
+  "frasePiso": "물건, 그다음 wa arimasu ka. 틀 하나면 도착장 전체가 물어볼 수 있는 곳이 된다.",
+  "moldes": [
+    "ARIMASU-KA"
+  ],
+  "clique": {
+    "contagem": [
+      "공항 카페",
+      "휴대폰 매장",
+      "편의점",
+      "안내 데스크"
+    ],
+    "desconto": "그 창구들마다 다른 문장을 준 사람은 없었다. 당신은 어미 하나를 유지하고 그 앞의 물건만 바꿨다.",
+    "piso": "다음에 뭔가 필요한데 그곳에 있는지 없는지 모를 때, 당신은 몸짓으로 흉내 내지 않을 것이다. 세 단어로 물어볼 것이다."
+  },
+  "fatosDatados": [
+    {
+      "id": "fr-b06-carte",
+      "afirmacao": "일본은 여전히 현금 위주로 돌아간다. 작고 가족 경영인 곳들은 대부분 현금만 받고, '현금만'이라고 붙여 놓은 표지판은 흔한 일이다 — 소규모 상점이 카드를 받아야 한다는 일반적인 규칙은 없다. 편의점, 역, 규모가 큰 매장은 카드와 Suica나 Pasmo 같은 IC 카드를 받으며, 이 카드들은 전철이나 대부분의 자판기에서도 쓰인다. 실용적인 결론: 엔화를 어느 정도 지니고 IC 카드를 충전해 두면 도착장의 거의 모든 창구가 해결된다.",
+      "fonte": "No Japão o dinheiro em espécie ainda é amplamente esperado, sobretudo em estabelecimentos pequenos e familiares, muitos deles somente-dinheiro; não há regra geral que obrigue o comerciante a aceitar cartão. Konbini, estações e lojas maiores aceitam cartão e cartões IC (Suica/Pasmo), que também rodam em trens e máquinas. Recomendação prática de guias de viagem oficiais (JNTO): levar iene em espécie e carregar um cartão IC.",
+      "ano": 2026,
+      "revisarAte": "2027-08-05",
+      "evidencia": "FATO",
+      "risco": "medio",
+      "audioKeys": [
+        "fr-b06-n06"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-b06-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "첫 한 시간은 창구 네 개와 작은 질문 네 개다. 일본에서는 이 전부가 같은 방식으로 끝난다."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-b06-n02",
+      "bloco": "molde",
+      "pt": "이 틀: 물건, 그다음 wa arimasu ka. ~있어요? — 그리고 여기 그게 아예 존재하는지."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_f",
+      "audioKey": "fr-b06-t01",
+      "es": "すみません、Wi‑Fiはありますか？",
+      "pinyin": "soo-mee-ma-SEN, WAI-fai wa a-ri-MAS-ka",
+      "pt": "실례합니다, 와이파이 있어요?",
+      "tts": "すみません、ワイファイはありますか？"
+    },
+    {
+      "consulta": [
+        "chegar/balcao"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "ARIMASU-KA",
+      "encaixe": "Wi‑Fi",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-b06-p01",
+      "promptPt": "공항 카페에서 당신의 eSIM은 아직 연결되지 않았고 인터넷이 필요하다. 물어보라. 지금 말하세요.",
+      "audioKey": "fr-b06-t01",
+      "es": "すみません、Wi‑Fiはありますか？",
+      "pinyin": "soo-mee-ma-SEN, WAI-fai wa a-ri-MAS-ka",
+      "pt": "실례합니다, 와이파이 있어요?",
+      "tts": "すみません、ワイファイはありますか？"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-b06-r01",
+      "es": "はい、パスワードはレシートに書いてあります。",
+      "pt": "네, 비밀번호는 영수증에 적혀 있어요.",
+      "tts": "はい、パスワードはレシートに書いてあります。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-b06-n03",
+      "bloco": "corpo",
+      "pt": "이 틀이 묻는 것을 눈여겨봐라: 문법이 아니라 이곳에 그 물건이 있는지만. 조사 は와 어미 ありますか는 절대 바뀌지 않는다."
+    },
+    {
+      "consulta": [
+        "chegar/balcao",
+        "compras/quanto"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "ARIMASU-KA",
+      "encaixe": "SIMカード",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-b06-p02",
+      "promptPt": "게이트를 지나 휴대폰 매장에서, 일주일 동안 쓸 현지 번호가 필요하다. 물어보라. 지금 말하세요.",
+      "audioKey": "fr-b06-t02",
+      "es": "SIMカードはありますか？",
+      "pinyin": "SHEE-moo KAH-do wa a-ri-MAS-ka",
+      "pt": "SIM 카드 있어요?",
+      "tts": "SIMカードはありますか？"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-b06-n04",
+      "pt": "sumimasen이 매번 먼저 나온다. 노크 없이 요청부터 들이미는 건 문을 노크 없이 여는 것과 같다."
+    },
+    {
+      "consulta": [
+        "chegar/balcao",
+        "reparo/apontar"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "ARIMASU-KA",
+      "encaixe": "充電器",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-b06-p03",
+      "promptPt": "다시 휴대폰 매장, 배터리는 4퍼센트이고 당신 것은 짐칸에 있다. 물어보라. 지금 말하세요.",
+      "audioKey": "fr-b06-t03",
+      "es": "充電器はありますか？",
+      "pinyin": "joo-DEN-kee wa a-ri-MAS-ka",
+      "pt": "충전기 있어요?",
+      "tts": "充電器はありますか？"
+    },
+    {
+      "consulta": [
+        "transporte/bilhete"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "ARIMASU-KA",
+      "encaixe": "ICカード",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-b06-p04",
+      "promptPt": "출구 근처 편의점에서 전철용 IC 카드를 원하는데, 발매기 줄이 길다. 물어보라. 지금 말하세요.",
+      "audioKey": "fr-b06-t04",
+      "es": "ICカードはありますか？",
+      "pinyin": "ai-SHEE KAH-do wa a-ri-MAS-ka",
+      "pt": "IC 카드 있어요?",
+      "tts": "ICカードはありますか？"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-b06-n05",
+      "bloco": "capsula",
+      "pt": "이 틀은 물건이 뭔지 신경 쓰지 않는다. 와이파이, SIM, 충전기, IC 카드, 잔돈, 지도."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-b06-n06",
+      "pt": "여기서 현금은 여전히 왕이다. 작은 가게는 현금만 받을 수 있고, 편의점과 역은 카드와 Suica를 받는다."
+    },
+    {
+      "consulta": [
+        "pagar/dinheiro"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "ARIMASU-KA",
+      "encaixe": "小銭",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-b06-p05",
+      "promptPt": "공항 카페의 음료 자판기는 동전만 받는데 당신에게는 지폐뿐이다. 편의점에서 물어보라. 지금 말하세요.",
+      "audioKey": "fr-b06-t05",
+      "es": "小銭はありますか？",
+      "pinyin": "ko-ZE-nee wa a-ri-MAS-ka",
+      "pt": "잔돈 있어요?",
+      "tts": "小銭はありますか？"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-b06-r02",
+      "es": "いいえ、ここにはありませんが、二階にありますよ。",
+      "pt": "아니요, 여긴 없는데, 2층에는 있어요.",
+      "tts": "いいえ、ここにはありませんが、二階にありますよ。",
+      "receptivo": true,
+      "acao": "뒷부분까지 들어라 — 아니오와 함께 그 있는 곳의 주소가 딸려 온다."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-b06-n07",
+      "pt": "아니오는 보통 있는 곳의 주소를 달고 온다. いいえ 뒤로 한 박자 더 머물러라."
+    },
+    {
+      "consulta": [
+        "chegar/balcao"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "ARIMASU-KA",
+      "encaixe": "地図",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-b06-p06",
+      "promptPt": "안내 데스크에서, 종이는 배터리가 꺼져도 살아남고 당신 배터리는 거의 다 됐다. 물어보라. 지금 말하세요.",
+      "audioKey": "fr-b06-t06",
+      "es": "地図はありますか？",
+      "pinyin": "CHEE-zoo wa a-ri-MAS-ka",
+      "pt": "지도 있어요?",
+      "tts": "地図はありますか？"
+    },
+    {
+      "consulta": [
+        "chegar/balcao"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "ARIMASU-KA",
+      "encaixe": "トイレ",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-b06-p07",
+      "promptPt": "다시 공항 카페, 열차와 시내까지의 긴 여정 전에. 물어보라. 지금 말하세요.",
+      "audioKey": "fr-b06-t07",
+      "es": "トイレはありますか？",
+      "pinyin": "TOH-ee-reh wa a-ri-MAS-ka",
+      "pt": "화장실 있어요?",
+      "tts": "トイレはありますか？"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-b06-r03",
+      "es": "はい、奥の右側です。",
+      "pt": "네, 안쪽 오른편이에요.",
+      "tts": "はい、奥の右側です。"
+    },
+    {
+      "consulta": [
+        "simpatia/agradecer"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-b06-p08",
+      "promptPt": "10초 만에 해결해 줬다. 여기서 사람들이 마무리하는 방식으로 마무리하라. 지금 말하세요.",
+      "audioKey": "fr-b06-t08",
+      "es": "どうもありがとうございます。",
+      "pinyin": "DOH-mo a-ri-ga-TOH go-za-i-mas",
+      "pt": "정말 감사합니다.",
+      "tts": "どうもありがとうございます。"
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_fr_f",
+      "audioKey": "fr-b06-s01",
+      "es": "Wi‑Fiはありますか？ SIMカードはありますか？ 小銭はありますか？",
+      "pinyin": "WAI-fai wa a-ri-MAS-ka. SHEE-moo KAH-do wa a-ri-MAS-ka. ko-ZE-nee wa a-ri-MAS-ka",
+      "pt": "완전히 다른 세 창구에서 같은 어미를 따라 말해 보라.",
+      "tts": "ワイファイはありますか？ SIMカードはありますか？ 小銭はありますか？",
+      "molde": "ARIMASU-KA"
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-b06-n08",
+      "bloco": "recap",
+      "pt": "B06 완료. 틀 하나, 창구 넷, 그리고 명사와 wa arimasu ka만으로 첫 한 시간 전체가 해결됐다."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "어미 하나, 문제 일곱",
+    "secoes": [
+      {
+        "titulo": "물건 더하기 wa arimasu ka",
+        "corpo": "wa arimasu ka는 그대로 유지하고, 카운터 뒤의 사람이 물리적으로 가지고 있을 만한 것이면 뭐든 그 앞에 넣어라. 아무것도 활용되지 않고, 조사 wa는 그 자리에 그대로 있으며, arimasu ka는 어느 창구에서나 똑같다 — 그래서 이 과정에서 가장 값싼 틀이다.",
+        "exemplos": [
+          {
+            "es": "Wi‑Fiはありますか？",
+            "pt": "와이파이 있어요?"
+          },
+          {
+            "es": "小銭はありますか？",
+            "pt": "잔돈 있어요?"
+          }
+        ]
+      },
+      {
+        "titulo": "그들이 뭘 가졌는지, 문법이 아니라",
+        "corpo": "영어는 두 질문을 따로 유지한다 — do you have와 is there — 일본어는 둘 다 aru라는 단어 하나로 접어 넣는다. 창구에서 wa arimasu ka는 '이거 있어요'와 '거기 있어요' 둘 다를 커버하니, 둘 중 무엇을 고를지 고민할 필요가 없다. 이 틀 하나가 도착장 대부분을 해결하고, 그게 회화책처럼 들리는 것과 이미 경험 있는 사람처럼 들리는 것의 차이다."
+      },
+      {
+        "titulo": "Sumimasen은 문이지 매트가 아니다",
+        "corpo": "Sumimasen은 하나의 의례다: 주의를 끌고, 불쑥 끼어드는 걸 양해받고, 심지어 감사를 대신하기도 하는 단어 하나. 틀 앞에 붙이면 틀이 작동하고, 빼먹으면 밋밋한 대답이 돌아오는데 그건 순서의 문제일 뿐인데도 꺼림으로 오해하기 쉽다."
+      },
+      {
+        "titulo": "현금, 카드, 그리고 IC 카드",
+        "corpo": "일본은 여전히 현금에 기댄다. 작고 가족 경영인 곳은 현금만 받을 수 있고, 그렇다는 표지판이 붙어 있는 건 흔한 일이지 무시가 아니다. 편의점, 역, 자판기는 카드와 Suica나 Pasmo 같은 IC 카드를 받는다. 엔화를 조금 챙기고 IC 카드를 충전해 두면 거의 모든 창구가 해결된다."
+      },
+      {
+        "titulo": "주소를 달고 오는 아니오",
+        "corpo": "いいえ、ここにはありませんが… 는 표준 형태다: 아니요, 여긴 없는데... 첫 단어에서 바로 돌아서 버리면 쓸모 있는 나머지 절반을 카운터에 남겨 두는 셈이다 — 위층, 다른 터미널, 지폐를 받는 그 기계."
+      }
+    ]
+  },
+  "slot": "B06",
+  "permissao": "그 도착장의 창구마다 다른 문장이 필요한 게 아니고, 아무도 당신의 문법을 채점하지 않는다. Sumimasen, 물건, wa arimasu ka, 그리고 올라가는 말투면 건물 어디서든 완전한 요청이 된다 — 그리고 더 그럴싸하게 들리려고 바꾸지 않고 네 창구 모두에서 똑같은 어미를 써도 괜찮다.",
+  "permissaoAudioKey": "fr-b06-n02",
+  "espelho": "고국의 낯선 공항에 도착한 사람이라면 이미 이름 붙이지 않은 채 이 정확한 우선순위를 실행하고 있다 — 신호, 돈, 표, 앉을 곳. 유일하게 새로운 건 그걸 절대 바뀌지 않는 세 단어로 한다는 것뿐이다.",
+  "fichasCulturais": [
+    {
+      "sinal": "카운터로 다가가 영어로 바로 요청을 여는데, 문이 닫히는 것처럼 느껴지는 짧고 밋밋한 대답이 돌아온다.",
+      "suaLeitura": "나한테 영어로 말하기 싫은가 보다.",
+      "oQueEAli": "일본에서 sumimasen은 카운터에서의 의례적인 시작이다 — 주의를 끌고, 불쑥 끼어드는 걸 양해받고, 상대의 영역에 들어가는 걸 허용받게 만든다. 요청부터 바로 시작하면 그 시작을 건너뛰는 것이고, 그 뒤에 오는 중립적이고 조심스러운 톤은 언어에 대한 꺼림으로 읽기 쉽지만 실제로는 순서의 문제다.",
+      "oQueVoceFaz": "sumimasen만 따로 말하고 반 박자 기다린 다음에야 물어보라 — 일본어가 되면 일본어로, 안 되면 영어로.",
+      "oQueMelhora": "대화가 기대하는 발판 위에서 시작되고, 실제로 영어를 어느 정도 하는 직원도 그 시작이 있고 난 뒤 훨씬 더 기꺼이 영어를 내준다.",
+      "ondeNaoVale": "이건 인사 의례가 어떻게 작동하는지에 대한 근거이지, 태도에 대한 측정된 결론이 아니고, 모든 냉랭한 카운터를 설명해 주지도 않는다. 긴 근무 끝에 뒤에 줄이 늘어선 채 서 있는 사람은 그냥 그런 상태일 때도 있다.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "fr-b06-n04"
+      ]
+    },
+    {
+      "sinal": "계산대에서 카드를 냈는데 거절당하거나 현금만 받는다는 말을 듣는다.",
+      "suaLeitura": "이건 허용돼서는 안 되는 일이거나, 나를 여행자라고 콕 집어 차별하는 거야.",
+      "oQueEAli": "일본은 여전히 현금 위주로 돌아가고, 작고 가족 경영인 곳은 현금만 받는 경우가 많다 — '현금만' 표지판은 흔하고 합법적이며, 소규모 상점이 카드를 받아야 한다는 일반적인 규칙은 없다. 편의점, 역, 규모가 큰 매장은 카드와 Suica나 Pasmo 같은 IC 카드를 받는다.",
+      "oQueVoceFaz": "작은 가게를 위해 소액 엔화를 챙기고, 편의점과 전철, 자판기를 위해 Suica나 Pasmo를 충전해 두어라. 계산대에서 결제하기 전에 카드나 IC 로고를 찾아봐라.",
+      "oQueMelhora": "바로 이런 순간을 위한 작은 현금 여유를 늘 갖게 되고, 게시된 정책을 개인적인 거절로 읽는 걸 멈추게 된다.",
+      "ondeNaoVale": "모든 곳이 현금만 받는 건 아니고, 큰 도시에서는 카드와 IC로의 흐름이 빠르게 바뀌고 있다. 이건 현금 여유를 챙길 이유이지, 카드가 절대 안 될 거라 가정할 이유가 아니다.",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "fr-b06-n06"
+      ]
+    }
+  ]
+}

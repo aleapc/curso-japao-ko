@@ -1,0 +1,96 @@
+{
+  "id": "q-i03",
+  "nivel": "intermediario",
+  "titulo": "Quiz — The plate you were not going to order",
+  "subtitulo": "Three words on the board, and what each one is worth",
+  "introAudioKey": "fr-i03-q-i",
+  "introPt": "A traveller gets off the laminated card and onto the board in three questions.",
+  "cenario": "Seated at a small place at half past twelve, board by the door, laminated card inside.",
+  "dialogo": [
+    {
+      "audioKey": "fr-i03-q01",
+      "voz": "target_fr_f",
+      "es": "日替わり定食はありますか？",
+      "pt": "Do you have a daily set?",
+      "tts": "日替わり定食はありますか？"
+    },
+    {
+      "audioKey": "fr-i03-q02",
+      "voz": "target_fr_m",
+      "es": "今日は、ぶりの照り焼きです。ご飯とお味噌汁がつきます。",
+      "pt": "Today it's yellowtail teriyaki. It comes with rice and miso soup.",
+      "tts": "今日は、ぶりの照り焼きです。ご飯とお味噌汁がつきます。"
+    },
+    {
+      "audioKey": "fr-i03-q03",
+      "voz": "target_fr_f",
+      "es": "これは何が入っていますか？",
+      "pt": "What is in this?",
+      "tts": "これは何が入っていますか？"
+    },
+    {
+      "audioKey": "fr-i03-q04",
+      "voz": "target_fr_f",
+      "es": "じゃあ、これをお願いします。",
+      "pt": "Then I'll have that.",
+      "tts": "じゃあ、これをお願いします。"
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Why is the best dish often not on the laminated card?",
+      "opcoes": [
+        "The card is out of date",
+        "The daily set and today's recommendation change every day, so they are not printed",
+        "Because it is always the cheapest thing",
+        "Marketing habit"
+      ],
+      "correta": 1,
+      "explica": "Nichigawari teishoku and honjitsu no osusume change daily; ask wa arimasu ka and nan desu ka to reach them."
+    },
+    {
+      "pergunta": "Jikasei or tezukuri — house-made, handmade — certifies:",
+      "opcoes": [
+        "The origin of the ingredients",
+        "Nothing legally — it is the kitchen's own selling claim",
+        "That the restaurant is family-owned",
+        "That the dish is a regional speciality"
+      ],
+      "correta": 1,
+      "explica": "They are marketing words, not defined terms, and carry no certificate."
+    },
+    {
+      "pergunta": "There are no allergen marks anywhere on the menu. That tells you:",
+      "opcoes": [
+        "Nothing — restaurants need not list allergens at all",
+        "The kitchen reheats deliveries",
+        "The place lost its certification",
+        "Everything is bought in"
+      ],
+      "correta": 0,
+      "explica": "Mandatory allergen labelling covers packaged food, not food service. State the allergy out loud and ask about the plate."
+    },
+    {
+      "pergunta": "A koosu or a setto is:",
+      "opcoes": [
+        "Legally defined as two courses",
+        "Legally defined as three courses",
+        "Commercial usage — each house sets its own",
+        "The same as the daily set"
+      ],
+      "correta": 2,
+      "explica": "No fixed national meaning. Ask what comes with it before you order."
+    },
+    {
+      "pergunta": "Which question opens a name you do not recognise?",
+      "opcoes": [
+        "Oishii desu ka?",
+        "Nani ga haitte imasu ka?",
+        "Takai desu ka?",
+        "Meibutsu desu ka?"
+      ],
+      "correta": 1,
+      "explica": "The answer comes back concrete, which is what you need to decide — and for an allergy it is what protects you."
+    }
+  ]
+}

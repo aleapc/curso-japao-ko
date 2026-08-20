@@ -1,0 +1,325 @@
+{
+  "id": "b08",
+  "nivel": "basico",
+  "numero": 8,
+  "parte": "B08",
+  "titulo": "Doko desu ka — the question whose answer fits in your head",
+  "subtitulo": "Name the place, then shape the follow-up so the reply comes back as a yes, a no or a pointed hand",
+  "cena": "You come out of the station with a name written on your phone, four exits in front of you, and the first person you ask is going to answer at full speed.",
+  "moldura": "ganha",
+  "frasePiso": "The place, then wa doko desu ka. Then one more question that can only be answered with a yes, a no or a hand.",
+  "moldes": [
+    "DOKO-DESU-KA"
+  ],
+  "clique": {
+    "contagem": [
+      "the station hall",
+      "the street outside the station",
+      "the café counter",
+      "the museum entrance"
+    ],
+    "desconto": "You did not learn a phrase for the station, another for the street and another for the museum. You kept one ending and changed the place before it.",
+    "piso": "Next time you are standing in front of four exits with a name in your hand, you will not open the map and hope. You will ask, and then you will make the answer small enough to carry."
+  },
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-b08-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "Asking is the easy half. The hard half is getting back an answer short enough to still be in your head at the corner."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-b08-n02",
+      "bloco": "molde",
+      "pt": "Here is the frame: the place, then wa doko desu ka. The place is the only thing you choose; the ending never moves."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_f",
+      "audioKey": "fr-b08-t01",
+      "es": "すみません、駅はどこですか？",
+      "pinyin": "soo-mee-ma-SEN, E-ki wa DO-ko des-ka",
+      "pt": "Excuse me, where is the station?",
+      "tts": "すみません、駅はどこですか？"
+    },
+    {
+      "consulta": [
+        "transporte/placas",
+        "reparo/apontar"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "DOKO-DESU-KA",
+      "encaixe": "駅",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-b08-p01",
+      "promptPt": "You have twenty minutes before a train and no idea which way the tracks are. Open, then ask. Speak now.",
+      "audioKey": "fr-b08-t01",
+      "es": "すみません、駅はどこですか？",
+      "pinyin": "soo-mee-ma-SEN, E-ki wa DO-ko des-ka",
+      "pt": "Excuse me, where is the station?",
+      "tts": "すみません、駅はどこですか？"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-b08-r01",
+      "receptivo": true,
+      "es": "二つ目の角を右に曲がって、まっすぐです。ここから五分くらいですよ。",
+      "pt": "Second corner, turn right, then straight on. About five minutes from here.",
+      "tts": "二つ目の角を右に曲がって、まっすぐです。ここから五分くらいですよ。",
+      "acao": "Catch three words and let the rest go: futatsume, migi, massugu. Second, right, straight on."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-b08-n03",
+      "bloco": "corpo",
+      "pt": "That came back faster than you can hold. So ask again in a shape that only allows a yes, a no or a hand."
+    },
+    {
+      "consulta": [
+        "reparo/apontar"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-b08-p02",
+      "promptPt": "You caught about half of that. Point down one street and make them confirm or correct you. Speak now.",
+      "audioKey": "fr-b08-t02",
+      "es": "こっちですか？",
+      "pinyin": "KOT-chi des-ka",
+      "pt": "Is it this way?",
+      "tts": "こっちですか？"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-b08-r02",
+      "es": "はい、そうです。まっすぐです。",
+      "pt": "Yes, that's it. Straight on.",
+      "tts": "はい、そうです。まっすぐです。"
+    },
+    {
+      "consulta": [
+        "transporte/placas"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "DOKO-DESU-KA",
+      "encaixe": "出口",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-b08-p03",
+      "promptPt": "You are underground in a station hall with corridors going four ways and no daylight anywhere. Speak now.",
+      "audioKey": "fr-b08-t03",
+      "es": "出口はどこですか？",
+      "pinyin": "de-GUCHI wa DO-ko des-ka",
+      "pt": "Where is the exit?",
+      "tts": "出口はどこですか？"
+    },
+    {
+      "consulta": [
+        "taxi/parar"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "DOKO-DESU-KA",
+      "encaixe": "タクシー乗り場",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-b08-p04",
+      "promptPt": "It is raining, you are outside the station, and cabs keep passing without stopping because they load at one spot. Speak now.",
+      "audioKey": "fr-b08-t04",
+      "es": "タクシー乗り場はどこですか？",
+      "pinyin": "ta-ku-SHII no-ri-ba wa DO-ko des-ka",
+      "pt": "Where is the taxi rank?",
+      "tts": "タクシー乗り場はどこですか？"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-b08-n04",
+      "bloco": "capsula",
+      "pt": "The place you will ask for most has two names: toire, and the politer otearai. Either one finds it, and it is the one you tend to ask in a hurry."
+    },
+    {
+      "consulta": [
+        "chegar/entrar"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "DOKO-DESU-KA",
+      "encaixe": "トイレ",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-b08-p05",
+      "promptPt": "You are inside a café and the back of the room has three unmarked doors. Ask the person at the counter. Speak now.",
+      "audioKey": "fr-b08-t05",
+      "es": "トイレはどこですか？",
+      "pinyin": "TOH-i-re wa DO-ko des-ka",
+      "pt": "Where is the toilet?",
+      "tts": "トイレはどこですか？"
+    },
+    {
+      "consulta": [
+        "transporte/placas"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-b08-p06",
+      "promptPt": "They have pointed. Now find out whether this is a two-minute walk or a bus ride, in three sounds. Speak now.",
+      "audioKey": "fr-b08-t06",
+      "es": "遠いですか？",
+      "pinyin": "TOH-i des-ka",
+      "pt": "Is it far?",
+      "tts": "遠いですか？"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-b08-r03",
+      "es": "いいえ、歩いて五分です。",
+      "pt": "No, it's five minutes on foot.",
+      "tts": "いいえ、歩いて五分です。"
+    },
+    {
+      "consulta": [
+        "chegar/entrar"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "DOKO-DESU-KA",
+      "encaixe": "入口",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-b08-p07",
+      "promptPt": "You have walked the whole side of the museum and every door so far has said groups only. Speak now.",
+      "audioKey": "fr-b08-t07",
+      "es": "入口はどこですか？",
+      "pinyin": "i-ri-GUCHI wa DO-ko des-ka",
+      "pt": "Where is the entrance?",
+      "tts": "入口はどこですか？"
+    },
+    {
+      "consulta": [
+        "transporte/placas",
+        "reparo/apontar"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "ARIMASU-KA",
+      "encaixe": "地図",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-b08-p08",
+      "promptPt": "At the museum ticket desk. Your phone is dead and there is a stack of folded paper behind the counter. Speak now.",
+      "audioKey": "fr-b08-t08",
+      "es": "地図はありますか？",
+      "pinyin": "CHI-zu wa a-ri-MAS-ka",
+      "pt": "Do you have a map?",
+      "tts": "地図はありますか？"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-b08-n05",
+      "pt": "And when it comes back too fast, you have one line that buys you the whole answer again, slower."
+    },
+    {
+      "consulta": [
+        "reparo/devagar"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "SUMIMASEN",
+      "encaixe": "もう一度お願いします",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-b08-p09",
+      "promptPt": "The whole reply went past you in about two seconds. Ask for it again. Speak now.",
+      "audioKey": "fr-b08-t09",
+      "es": "すみません、もう一度お願いします。",
+      "pinyin": "soo-mee-ma-SEN, MOH i-chi-do o-ne-gai-shi-mass",
+      "pt": "Sorry, once more, please.",
+      "tts": "すみません、もう一度お願いします。"
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_fr_f",
+      "audioKey": "fr-b08-s01",
+      "es": "駅はどこですか？ 出口はどこですか？ こっちですか？ 遠いですか？",
+      "pinyin": "E-ki wa DO-ko des-ka · de-GUCHI wa DO-ko des-ka · KOT-chi des-ka · TOH-i des-ka",
+      "pt": "Shadow the pair: the place first, then the answer made small.",
+      "tts": "駅はどこですか？ 出口はどこですか？ こっちですか？ 遠いですか？",
+      "molde": "DOKO-DESU-KA"
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-b08-n06",
+      "bloco": "recap",
+      "pt": "B08 done. The frame found the station, the exit, the rank, the toilet and the entrance — and two follow-ups kept the answers portable."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "Ask big, then ask small",
+    "secoes": [
+      {
+        "titulo": "Wa doko desu ka plus the place",
+        "corpo": "One ending, and the only thing you choose is the place. It is doko desu ka and not the longer dochira deshou ka for the same reason it is te mo ii desu ka and not the keigo version: the short form is the one that comes out under pressure, and the long one is the one people abandon halfway.",
+        "exemplos": [
+          {
+            "es": "出口はどこですか？",
+            "pt": "Where is the exit?"
+          },
+          {
+            "es": "タクシー乗り場はどこですか？",
+            "pt": "Where is the taxi rank?"
+          }
+        ]
+      },
+      {
+        "titulo": "Two words for one place",
+        "corpo": "The toilet has two names — toire, the everyday one, and otearai, a touch politer. Either one, dropped into the frame, finds it, and this is the version of the question you are most likely to ask in a hurry, so it is worth having ready before you need it."
+      },
+      {
+        "titulo": "Make the answer fit",
+        "corpo": "An open question buys an open answer, delivered at speed. So follow it with a closed one: kocchi desu ka, with your arm out, and tooi desu ka. Both can only come back as yes, no, or a hand — and a hand is an answer you can act on without understanding a single word around it."
+      },
+      {
+        "titulo": "Three words worth catching",
+        "corpo": "Directions in Japanese cluster around a small set: migi, hidari, massugu — right, left, straight on — plus hitotsume and futatsume for which turning. Everything else in the sentence is padding. Listening for five words instead of thirty is what turns a fast reply into a usable one."
+      }
+    ]
+  },
+  "slot": "B08",
+  "permissao": "You are allowed to not understand the answer. Asking again in a smaller shape is not a failure of the first attempt — it is the second half of the technique, and the person in front of you will simply point.",
+  "permissaoAudioKey": "fr-b08-n03",
+  "espelho": "Anyone who has given directions at home has watched the other person's eyes glaze at the third instruction and then said, look, it's that way. That reflex exists in every language; you are just arranging for it to happen sooner.",
+  "fichasCulturais": [
+    {
+      "sinal": "You ask where something is and the person does not just point — they set off walking and beckon you to follow.",
+      "suaLeitura": "I have put them out, and now they feel they have to escort the helpless tourist.",
+      "oQueEAli": "Walking a lost stranger part of the way, or right to the door, is a common courtesy in Japan rather than a sign of exasperation. Someone deciding that pointing will not be enough and simply taking you there is offering help, not registering a complaint about the trouble.",
+      "oQueVoceFaz": "Go with it a short way, and thank them warmly as you part — a clear doumo arigatou gozaimasu and a small bow.",
+      "oQueMelhora": "You arrive instead of getting half a direction, and you read the gesture as the kindness it is rather than as your own imposition.",
+      "ondeNaoVale": "Not something to expect or lean on — plenty of people will just point, especially when they are busy, and that is a complete answer too.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "fr-b08-n01"
+      ]
+    },
+    {
+      "sinal": "You ask where something is and get thirty words back at full speed, with street and landmark names you have never heard.",
+      "suaLeitura": "My Japanese is not good enough for this, so I should stop asking and use the phone.",
+      "oQueEAli": "A person giving directions gives the whole route, because that is what the question asked for. The length of the answer is a property of the question, not a verdict on your accent.",
+      "oQueVoceFaz": "Take the first two or three words, then close the question down: point and say kocchi desu ka, and follow with tooi desu ka.",
+      "oQueMelhora": "You get a hand and a yes instead of a paragraph, and you leave the conversation with something you can still hold at the next corner.",
+      "ondeNaoVale": "Not when the place genuinely needs a route rather than a direction — several turns, a change of line. There, the honest move is to ask them to show it on your map or to write the name down.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "fr-b08-n03"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "id": "q-i01",
+  "nivel": "intermediario",
+  "titulo": "Quiz — Their clock",
+  "subtitulo": "Two numbers and one gap",
+  "introAudioKey": "fr-i01-q-i",
+  "introPt": "A traveller finds out how much of the lunch window is left, and books the evening while standing there.",
+  "cenario": "At the door of a small restaurant at twenty past two in the afternoon.",
+  "dialogo": [
+    {
+      "audioKey": "fr-i01-q01",
+      "voz": "target_fr_f",
+      "es": "ラストオーダーは何時ですか？",
+      "pt": "What time is last order?",
+      "tts": "ラストオーダーは何時ですか？"
+    },
+    {
+      "audioKey": "fr-i01-q02",
+      "voz": "target_fr_m",
+      "es": "ランチは14時まで、夜は17時からです。",
+      "pt": "Lunch is until two, dinner from five.",
+      "tts": "ランチは14時まで、夜は17時からです。"
+    },
+    {
+      "audioKey": "fr-i01-q03",
+      "voz": "target_fr_f",
+      "es": "今夜の予約をお願いします。",
+      "pt": "A booking for tonight, please.",
+      "tts": "今夜の予約をお願いします。"
+    },
+    {
+      "audioKey": "fr-i01-q04",
+      "voz": "target_fr_m",
+      "es": "19時と20時、どちらがよろしいですか？",
+      "pt": "Seven or eight?",
+      "tts": "19時と20時、どちらがよろしいですか？"
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "What does the ラストオーダー (last order) mark?",
+      "opcoes": [
+        "The time the restaurant locks its doors",
+        "The time the last customer must leave",
+        "The time the kitchen stops taking food, often set well before closing",
+        "A cheaper late-night hour"
+      ],
+      "correta": 2,
+      "explica": "The room can be full of people finishing while the kitchen is already shut — they ordered before last order, you did not."
+    },
+    {
+      "pergunta": "Since JR East's 2021 revision, central Tokyo last trains typically stop:",
+      "opcoes": [
+        "Well after one in the morning",
+        "Around or before midnight",
+        "They run all night",
+        "Only at weekends"
+      ],
+      "correta": 1,
+      "explica": "The 終電 was pulled earlier across the Tokyo area; after it, the only way home is a taxi."
+    },
+    {
+      "pergunta": "You arrive at twenty past two and the room still has people eating. What is happening?",
+      "opcoes": [
+        "The kitchen has stopped taking orders; those plates were ordered earlier",
+        "They are refusing to serve you",
+        "The kitchen is simply slow today",
+        "Service is continuous, so you can order"
+      ],
+      "correta": 0,
+      "explica": "Between services the kitchen is shut, not slow — the naka-yasumi break is real. Family restaurants and chains are the exception."
+    },
+    {
+      "pergunta": "Which sentence gets you the useful answer at the door?",
+      "opcoes": [
+        "Oishii desu ka?",
+        "Rasuto oodaa wa nan-ji desu ka?",
+        "Aite imasu ka?",
+        "Takai desu ka?"
+      ],
+      "correta": 1,
+      "explica": "Ask about last order, not just whether they are open — the room can stay open long after the kitchen stops."
+    },
+    {
+      "pergunta": "You miss the 終電. How do you get home?",
+      "opcoes": [
+        "Wait ten minutes for the next train",
+        "By taxi at several times the fare — or wait for the first train",
+        "Night buses run the same route free",
+        "The line reopens at two in the morning"
+      ],
+      "correta": 1,
+      "explica": "The last train is a hard wall. Ask 終電は何時ですか early in the evening and set the night against it."
+    }
+  ]
+}

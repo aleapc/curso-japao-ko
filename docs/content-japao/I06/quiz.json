@@ -1,0 +1,96 @@
+{
+  "id": "q-i06",
+  "nivel": "intermediario",
+  "titulo": "Quiz — Yesterday, told out loud",
+  "subtitulo": "One ending, and a handful of verbs",
+  "introAudioKey": "fr-i06-q-i",
+  "introPt": "A traveller turns one day into an account the other person wants to continue.",
+  "cenario": "Standing at a counter, the morning after a day out.",
+  "dialogo": [
+    {
+      "audioKey": "fr-i06-q01",
+      "voz": "target_fr_m",
+      "es": "昨日は何をしましたか？",
+      "pt": "So, what did you do yesterday?",
+      "tts": "昨日は何をしましたか？"
+    },
+    {
+      "audioKey": "fr-i06-q02",
+      "voz": "target_fr_f",
+      "es": "京都に行って、小さいお店で食べました。",
+      "pt": "I went to Kyoto and ate at a tiny little place.",
+      "tts": "京都に行って、小さいお店で食べました。"
+    },
+    {
+      "audioKey": "fr-i06-q03",
+      "voz": "target_fr_m",
+      "es": "へえ、どうでしたか？",
+      "pt": "Oh really? And how was it?",
+      "tts": "へえ、どうでしたか？"
+    },
+    {
+      "audioKey": "fr-i06-q04",
+      "voz": "target_fr_f",
+      "es": "とても美味しかったです。明日は大阪に行きます。ご存知ですか？",
+      "pt": "It was really delicious. Tomorrow we're going to Osaka. Do you know it?",
+      "tts": "とても美味しかったです。明日は大阪に行きます。ご存知ですか？"
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "What puts a verb into the past?",
+      "opcoes": [
+        "A word in front of it",
+        "The -mashita ending — ikimashita, tabemashita, norimashita",
+        "Changing the whole verb",
+        "Nothing — you use the present"
+      ],
+      "correta": 1,
+      "explica": "Say the verb, land on -mashita, and the sentence is in the past. That is the whole mechanism."
+    },
+    {
+      "pergunta": "In Kyoto ni ikimashita, what does the particle ni mark?",
+      "opcoes": [
+        "The verb tense",
+        "Where you went — de marks where you did a thing, o marks what you did",
+        "The time of day",
+        "Who did it"
+      ],
+      "correta": 1,
+      "explica": "Get the particle roughly right and the verb ending stays identical — that is how one ending covers a whole trip."
+    },
+    {
+      "pergunta": "How should you treat oishikatta desu?",
+      "opcoes": [
+        "As a tense to learn and build",
+        "As one small block meaning it was delicious, kept whole",
+        "As formal writing only",
+        "As a question form"
+      ],
+      "correta": 1,
+      "explica": "Oishikatta, tanoshikatta, yokatta, saikou deshita — carry them whole and skip a grammar chapter."
+    },
+    {
+      "pergunta": "Hee or doo deshita ka in the middle of your story means:",
+      "opcoes": [
+        "They doubt you",
+        "Keep going — give me the next detail",
+        "The topic is closed",
+        "They disagree"
+      ],
+      "correta": 1,
+      "explica": "Answer with one specific, then put a question on the end."
+    },
+    {
+      "pergunta": "Why name one thing you did not like?",
+      "opcoes": [
+        "To seem discerning",
+        "Because an account with no low point gives the listener nothing to answer",
+        "It is expected of visitors",
+        "To get something taken off the bill"
+      ],
+      "correta": 1,
+      "explica": "Amari suki ja nakatta desu is soft, and it is what turns a report into a conversation."
+    }
+  ]
+}

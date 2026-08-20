@@ -1,0 +1,349 @@
+{
+  "id": "b03",
+  "nivel": "basico",
+  "numero": 3,
+  "parte": "B03",
+  "titulo": "Sumimasen, and then the thing you need",
+  "subtitulo": "One opener for every stranger — the word that does three jobs at once and turns a moment you did not catch into a moment you can still use",
+  "cena": "The answer came back at full speed, you caught one word of it, and the person is already looking at whoever is next.",
+  "moldura": "ganha",
+  "frasePiso": "Sumimasen, then the thing you need. One opener, and any stranger becomes someone you can ask.",
+  "moldes": [
+    "SUMIMASEN"
+  ],
+  "clique": {
+    "contagem": [
+      "the konbini counter",
+      "the ticket window",
+      "the packed train",
+      "the street outside"
+    ],
+    "desconto": "Nobody handed you a different opener for the clerk, the station staff, the passenger and the stranger on the street. You kept one word and changed only what came after it.",
+    "piso": "Next time the sentence goes past you, you will not smile and nod. You will open with sumimasen and ask for the half you missed."
+  },
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-b03-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "You will lose a sentence on day one. That is not something to avoid — it is a moment with one opener that fixes it."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-b03-n02",
+      "bloco": "molde",
+      "pt": "The frame: sumimasen, then the thing you need. Same opener for the clerk, the station staff and the person in the doorway."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_f",
+      "audioKey": "fr-b03-t01",
+      "es": "すみません、わかりませんでした。",
+      "pinyin": "soo-mee-ma-SEN, wa-ka-ri-ma-sen-DESH-ta",
+      "pt": "Sorry, I didn't understand.",
+      "tts": "すみません、わかりませんでした。"
+    },
+    {
+      "consulta": [
+        "reparo/devagar"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "SUMIMASEN",
+      "encaixe": "わかりませんでした",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-b03-p01",
+      "promptPt": "At the konbini counter she has just said a number and it went straight past you. Speak now.",
+      "audioKey": "fr-b03-t01",
+      "es": "すみません、わかりませんでした。",
+      "pinyin": "soo-mee-ma-SEN, wa-ka-ri-ma-sen-DESH-ta",
+      "pt": "Sorry, I didn't understand.",
+      "tts": "すみません、わかりませんでした。"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-b03-r01",
+      "receptivo": true,
+      "es": "あ、失礼しました。二百四十円です。",
+      "pt": "Oh, sorry — it's two hundred forty yen.",
+      "tts": "あ、失礼しました。二百四十円です。",
+      "acao": "The repeat usually comes back slower and stripped to the number. Wait for the figure at the end — that is the part you needed."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-b03-n03",
+      "bloco": "corpo",
+      "pt": "The frame holds and only the ending changes: ask for it again, ask for it slower, ask for it written down."
+    },
+    {
+      "consulta": [
+        "reparo/devagar"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "SUMIMASEN",
+      "encaixe": "もう一度お願いします",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-b03-p02",
+      "promptPt": "Same counter, and one more go at it would settle everything. Speak now.",
+      "audioKey": "fr-b03-t02",
+      "es": "すみません、もう一度お願いします。",
+      "pinyin": "soo-mee-ma-SEN, MOH i-chi-do o-ne-gai-shi-mass",
+      "pt": "Sorry, once more, please.",
+      "tts": "すみません、もう一度お願いします。"
+    },
+    {
+      "consulta": [
+        "reparo/devagar"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "SUMIMASEN",
+      "encaixe": "ゆっくりお願いします",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-b03-p03",
+      "promptPt": "At the ticket window the repeat came back at the same speed. Ask for the other thing. Speak now.",
+      "audioKey": "fr-b03-t03",
+      "es": "すみません、ゆっくりお願いします。",
+      "pinyin": "soo-mee-ma-SEN, YUK-ku-ri o-ne-gai-shi-mass",
+      "pt": "Sorry, slowly, please.",
+      "tts": "すみません、ゆっくりお願いします。"
+    },
+    {
+      "consulta": [
+        "reparo/escreve"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "SUMIMASEN",
+      "encaixe": "書いてもらえますか",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-b03-p04",
+      "promptPt": "Still at the ticket window, and it is a platform number you cannot afford to guess. Speak now.",
+      "audioKey": "fr-b03-t04",
+      "es": "すみません、書いてもらえますか？",
+      "pinyin": "soo-mee-ma-SEN, KAI-te mo-ra-e-mass-ka",
+      "pt": "Sorry, could you write it down?",
+      "tts": "すみません、書いてもらえますか？"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-b03-n04",
+      "pt": "One word does three jobs: sumimasen calls attention, apologises, and can even thank. You never change it for who you're talking to."
+    },
+    {
+      "consulta": [
+        "chegar/entrar"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "SUMIMASEN",
+      "encaixe": "通ります",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-b03-p05",
+      "promptPt": "The train is packed and your stop is next. Speak now.",
+      "audioKey": "fr-b03-t05",
+      "es": "すみません、通ります。",
+      "pinyin": "soo-mee-ma-SEN, TOH-ri-mass",
+      "pt": "Sorry, coming through.",
+      "tts": "すみません、通ります。"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-b03-r02",
+      "es": "あ、はい、どうぞ。",
+      "pt": "Oh, yes, go ahead.",
+      "tts": "あ、はい、どうぞ。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-b03-n05",
+      "bloco": "capsula",
+      "pt": "Two more endings for the frame, both used on the street: the time, and whether the person has English."
+    },
+    {
+      "consulta": [
+        "simpatia/puxar-conversa"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "SUMIMASEN",
+      "encaixe": "今何時ですか",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-b03-p06",
+      "promptPt": "On the street outside, phone dead, and someone is waiting at the crossing. Speak now.",
+      "audioKey": "fr-b03-t06",
+      "es": "すみません、今何時ですか？",
+      "pinyin": "soo-mee-ma-SEN, i-ma NAN-ji des-ka",
+      "pt": "Sorry, what time is it now?",
+      "tts": "すみません、今何時ですか？"
+    },
+    {
+      "consulta": [
+        "reparo/ingles"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "SUMIMASEN",
+      "encaixe": "英語は話せますか",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-b03-p07",
+      "promptPt": "Same street, and what you need next is longer than your Japanese. Open properly first. Speak now.",
+      "audioKey": "fr-b03-t07",
+      "es": "すみません、英語は話せますか？",
+      "pinyin": "soo-mee-ma-SEN, EE-go wa ha-na-se-mass-ka",
+      "pt": "Excuse me, do you speak English?",
+      "tts": "すみません、英語は話せますか？"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_f",
+      "audioKey": "fr-b03-r03",
+      "receptivo": true,
+      "es": "少しなら。何をお探しですか？",
+      "pt": "A little. What are you looking for?",
+      "tts": "少しなら。何をお探しですか？",
+      "acao": "Answer with the noun, not a sentence. One word plus a gesture gets you further than a full question here."
+    },
+    {
+      "consulta": [
+        "reparo/como-se-diz"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "SUMIMASEN",
+      "encaixe": "日本語で何と言いますか",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-b03-p08",
+      "promptPt": "Back at the konbini counter, holding up the thing you want to be able to name. Speak now.",
+      "audioKey": "fr-b03-t08",
+      "es": "すみません、これは日本語で何と言いますか？",
+      "pinyin": "soo-mee-ma-SEN, ko-re wa ni-HON-go de NAN to i-i-mass-ka",
+      "pt": "Sorry, how do you say this in Japanese?",
+      "tts": "すみません、これは日本語で何と言いますか？"
+    },
+    {
+      "consulta": [
+        "reparo/apontar"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "SUMIMASEN",
+      "encaixe": "これは何ですか",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-b03-p09",
+      "promptPt": "Same counter, pointing at the tray you cannot identify. Speak now.",
+      "audioKey": "fr-b03-t09",
+      "es": "すみません、これは何ですか？",
+      "pinyin": "soo-mee-ma-SEN, ko-re wa NAN des-ka",
+      "pt": "Excuse me, what's this?",
+      "tts": "すみません、これは何ですか？"
+    },
+    {
+      "consulta": [
+        "simpatia/agradecer"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-b03-p10",
+      "promptPt": "They slowed down, repeated it and wrote the number on the receipt. Close it warmly. Speak now.",
+      "audioKey": "fr-b03-t10",
+      "es": "ありがとうございます。助かりました。",
+      "pinyin": "a-ri-ga-TOH go-za-i-mass, tas-ka-ri-MASH-ta",
+      "pt": "Thank you, that really helped.",
+      "tts": "ありがとうございます。助かりました。"
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_fr_f",
+      "audioKey": "fr-b03-s01",
+      "es": "すみません、わかりませんでした。すみません、もう一度お願いします。すみません、ゆっくりお願いします。すみません、通ります。",
+      "pinyin": "soo-mee-ma-SEN wa-ka-ri-ma-sen-DESH-ta · soo-mee-ma-SEN MOH i-chi-do o-ne-gai-shi-mass · soo-mee-ma-SEN YUK-ku-ri o-ne-gai-shi-mass · soo-mee-ma-SEN TOH-ri-mass",
+      "pt": "Shadow the same opener across four different needs.",
+      "tts": "すみません、わかりませんでした。すみません、もう一度お願いします。すみません、ゆっくりお願いします。すみません、通ります。",
+      "molde": "SUMIMASEN"
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-b03-n06",
+      "bloco": "recap",
+      "pt": "B03 done. Sumimasen plus the need covers the repeat, the slow version, the written version, the way through and the time."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "One opener, every stranger",
+    "secoes": [
+      {
+        "titulo": "The open frame",
+        "corpo": "Keep sumimasen and change only what comes after it. Nothing in the opener bends: you never conjugate it, never adapt it to who you are talking to, and it works standing, sitting, in a queue or through a window.",
+        "exemplos": [
+          {
+            "es": "すみません、もう一度お願いします。",
+            "pt": "Sorry, once more, please."
+          },
+          {
+            "es": "すみません、通ります。",
+            "pt": "Sorry, coming through."
+          }
+        ]
+      },
+      {
+        "titulo": "One word, three jobs",
+        "corpo": "Sumimasen calls attention, excuses the intrusion, and can even stand in for thank you — one word doing the work that English splits across excuse me, sorry and thanks. It is also how you call staff over: you do not raise a hand alone or click your fingers, you say sumimasen. That single word is the condition for most exchanges even starting."
+      },
+      {
+        "titulo": "Ask for the version you can use",
+        "corpo": "There are three different requests hiding inside 'I didn't get that', and they get three different results. Mou ichido gets the same thing again. Yukkuri gets it stretched out and slow. Kaite moraemasu ka gets it on paper — the only one that survives a platform number or a place name."
+      },
+      {
+        "titulo": "The half-second that makes it work",
+        "corpo": "Say sumimasen, then stop. The pause, often with a small dip of the head, is what turns your sentence into a request rather than an interruption, and it gives the other person time to turn towards you. Running sumimasen straight into the question loses most of what the word is doing for you."
+      },
+      {
+        "titulo": "Repair comes before vocabulary",
+        "corpo": "This part sits third in the course on purpose. Every later part assumes you will mishear something, and the cost of mishearing drops to almost nothing once you own one opener that buys a second attempt. It is the cheapest insurance in the module and the one you will use most."
+      }
+    ]
+  },
+  "slot": "B03",
+  "permissao": "You are allowed to not understand, out loud, as many times as it takes. Asking for the slow version is a normal thing to say at a Japanese counter, and nobody there thinks worse of the person who asks than of the one who nods and walks off with the wrong answer.",
+  "permissaoAudioKey": "fr-b03-n01",
+  "espelho": "You already do this in your own language at every bad phone line and every noisy bar — sorry, say that again, sorry, slower. Nothing about the move is new. The only new part is that the opener is one fixed word and you never have to choose it.",
+  "fichasCulturais": [
+    {
+      "sinal": "You ask for a repeat and the second version comes back shorter and stripped down, just the number or the direction, with none of the padding.",
+      "suaLeitura": "They are irritated that I made them say it twice.",
+      "oQueEAli": "A repeat at a Japanese counter is usually cut to the part that carries the information — the figure, the yes or no, the place — with the softening removed. Shorter is the helpful version, not the annoyed one, and speed is the last thing people adjust because it is the hardest to notice about your own voice.",
+      "oQueVoceFaz": "If you still miss it, ask specifically for the slow version rather than another repeat: yukkuri onegai shimasu.",
+      "oQueMelhora": "You get the one word you were missing instead of the whole sentence a second time.",
+      "ondeNaoVale": "Not when the missing piece is a number, a platform or an address — there, asking for it in writing solves in one move what three repeats will not.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "fr-b03-r01",
+        "fr-b03-n03"
+      ]
+    },
+    {
+      "sinal": "You ask do you speak English and the person waves a hand, says chotto and looks away.",
+      "suaLeitura": "They can speak it and are refusing, or they find me a nuisance.",
+      "oQueEAli": "Chotto with a hand-wave here usually means 'only a little, and I am not confident', not 'no' and not 'go away'. Playing down your own ability is the polite default, so someone with useful school English will still open by disclaiming it. The reserve is modesty about the language, not a verdict on you.",
+      "oQueVoceFaz": "Stay a beat, drop to single words plus a gesture or a screen, and let them meet you there — most people who waved chotto will still get you to the platform.",
+      "oQueMelhora": "You stop reading a shy disclaimer as a refusal, and the exchange keeps going in the halting mix of both languages that actually works.",
+      "ondeNaoVale": "Not when the person is genuinely rushing for a train or clearly has no English at all — then the honest move is to point at a written address or ask someone else, not to press.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "fr-b03-n04"
+      ]
+    }
+  ]
+}

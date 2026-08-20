@@ -1,0 +1,96 @@
+{
+  "id": "q-i10",
+  "nivel": "intermediario",
+  "titulo": "Quiz — Money here",
+  "subtitulo": "Cash always works, the card is the one with conditions",
+  "introAudioKey": "fr-i10-q-i",
+  "introPt": "A traveller reads the sign at the register, pays cash without drama, and asks for the receipt.",
+  "cenario": "A small restaurant at lunch, a sticker by the register.",
+  "dialogo": [
+    {
+      "audioKey": "fr-i10-q01",
+      "voz": "target_fr_m",
+      "es": "カードは三千円からになります。",
+      "pt": "Card is from three thousand yen up.",
+      "tts": "カードは三千円からになります。"
+    },
+    {
+      "audioKey": "fr-i10-q02",
+      "voz": "target_fr_f",
+      "es": "じゃあ、現金で払います。",
+      "pt": "Then I'll pay cash.",
+      "tts": "じゃあ、現金で払います。"
+    },
+    {
+      "audioKey": "fr-i10-q03",
+      "voz": "target_fr_f",
+      "es": "サービス料はかかりますか？",
+      "pt": "Is there a service charge?",
+      "tts": "サービス料はかかりますか？"
+    },
+    {
+      "audioKey": "fr-i10-q04",
+      "voz": "target_fr_m",
+      "es": "いいえ、税込価格です。チップも要りませんよ。",
+      "pt": "No, the price includes tax. And no tip needed.",
+      "tts": "いいえ、税込価格です。チップも要りませんよ。"
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Can a shop in Japan set a minimum amount for card payment?",
+      "opcoes": [
+        "No — cards must be accepted at any amount",
+        "Yes, provided it is posted in advance and visibly",
+        "Only above ten thousand yen",
+        "Only in shops outside the big cities"
+      ],
+      "correta": 1,
+      "explica": "There is no obligation to accept cards at all. The obligation is only to post the condition where you can see it."
+    },
+    {
+      "pergunta": "Which payment can a shop never turn away?",
+      "opcoes": [
+        "A card",
+        "An IC card like Suica",
+        "Cash in yen — it is legal tender",
+        "A QR app like PayPay"
+      ],
+      "correta": 2,
+      "explica": "Yen is legal tender; carry enough of it for the places where the card answer is no."
+    },
+    {
+      "pergunta": "What does the price on the tag or menu include?",
+      "opcoes": [
+        "Nothing — tax is added at the register",
+        "Only the tax on food",
+        "The tax already, by law — so it is the figure you hand over",
+        "A service charge, always"
+      ],
+      "correta": 2,
+      "explica": "Total-price display has been required since April 2021; there is no arithmetic to do."
+    },
+    {
+      "pergunta": "How much do you add to a restaurant bill for service?",
+      "opcoes": [
+        "Fifteen percent",
+        "Ten percent",
+        "Nothing — there is no tipping; a service charge, where it exists, is disclosed in advance and already in the total",
+        "Whatever the terminal suggests"
+      ],
+      "correta": 2,
+      "explica": "The warm close is gochisousama deshita, not coins; a gratuity handed over is often declined."
+    },
+    {
+      "pergunta": "You bought a scarf and want the slip. What do you do?",
+      "opcoes": [
+        "Wait — nothing prints",
+        "Ask for it — reshiito o onegai shimasu",
+        "Photograph the display",
+        "Ask at the bank"
+      ],
+      "correta": 1,
+      "explica": "For a formal expense receipt ask instead for the 領収書 by name."
+    }
+  ]
+}

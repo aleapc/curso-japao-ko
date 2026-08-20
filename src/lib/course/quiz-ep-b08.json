@@ -1,0 +1,96 @@
+{
+  "id": "q-b08",
+  "nivel": "basico",
+  "titulo": "퀴즈 — Doko desu ka, 그리고 작게 줄인 대답",
+  "subtitulo": "장소를 말하고, 그다음 질문을 좁혀라",
+  "introAudioKey": "fr-b08-q-i",
+  "introPt": "여행자가 장소를 묻고, 서른 단어짜리 대답을 받고, 그걸 들고 다닐 수 있게 줄인다.",
+  "cenario": "역 밖, 휴대폰 속 이름 하나와 출구 네 개.",
+  "dialogo": [
+    {
+      "audioKey": "fr-b08-q01",
+      "voz": "target_fr_f",
+      "es": "すみません、駅はどこですか？",
+      "pt": "실례합니다, 역은 어디인가요?",
+      "tts": "すみません、駅はどこですか？"
+    },
+    {
+      "audioKey": "fr-b08-q02",
+      "voz": "target_fr_m",
+      "es": "二つ目の角を右に曲がって、まっすぐです。",
+      "pt": "두 번째 모퉁이에서 오른쪽으로 돌아서 쭉 가세요.",
+      "tts": "二つ目の角を右に曲がって、まっすぐです。"
+    },
+    {
+      "audioKey": "fr-b08-q03",
+      "voz": "target_fr_f",
+      "es": "こっちですか？遠いですか？",
+      "pt": "이쪽인가요? 먼가요?",
+      "tts": "こっちですか？遠いですか？"
+    },
+    {
+      "audioKey": "fr-b08-q04",
+      "voz": "target_fr_m",
+      "es": "いいえ、歩いて五分です。",
+      "pt": "아니요, 걸어서 5분이에요.",
+      "tts": "いいえ、歩いて五分です。"
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "«wa doko desu ka» 앞에서 당신이 고르는 유일한 것은?",
+      "opcoes": [
+        "동사",
+        "장소",
+        "시제",
+        "높임말 등급"
+      ],
+      "correta": 1,
+      "explica": "어미는 절대 안 바뀐다; 결정할 건 장소뿐이다."
+    },
+    {
+      "pergunta": "화장실을 가리키는 두 단어는?",
+      "opcoes": [
+        "Deguchi와 iriguchi",
+        "Eki와 basen",
+        "Toire와 otearai",
+        "Migi와 hidari"
+      ],
+      "correta": 2,
+      "explica": "Toire는 일상어이고 otearai는 조금 더 정중하다. 둘 중 뭘 틀에 넣어도 통한다."
+    },
+    {
+      "pergunta": "왜 «kocchi desu ka»로 이어서 물어보는가?",
+      "opcoes": [
+        "더 정중해서",
+        "예, 아니오, 손짓으로만 답할 수 있어서",
+        "더 유창하게 들려서",
+        "거리를 물어봐서"
+      ],
+      "correta": 1,
+      "explica": "열린 질문은 열린 대답을 부른다; 닫힌 질문은 모퉁이까지 계속 들고 갈 수 있는 대답을 준다."
+    },
+    {
+      "pergunta": "어떤 길 안내에서든 잡아둘 만한 세 단어는?",
+      "opcoes": [
+        "Sumimasen, arigatou, konnichiwa",
+        "Migi, hidari, massugu",
+        "Koko, asoko, hai",
+        "Hitotsume, eki, deguchi"
+      ],
+      "correta": 1,
+      "explica": "오른쪽, 왼쪽, 직진. 문장의 나머지는 다 여백이다."
+    },
+    {
+      "pergunta": "영어로 말을 걸었더니 대화가 뚝 끊긴다. 가장 그럴듯한 해석은?",
+      "opcoes": [
+        "영어로 말하기를 거부하는 것",
+        "대화를 여는 sumimasen을 건너뛴 것",
+        "관광객을 싫어해서",
+        "거기 아무도 영어를 못해서"
+      ],
+      "correta": 1,
+      "explica": "Sumimasen은 대화를 여는 의례로 작동한다. 이건 여는 말이 작동하는 방식에 대한 해석이지, 검증된 사실은 아니다."
+    }
+  ]
+}

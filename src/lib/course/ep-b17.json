@@ -1,0 +1,388 @@
+{
+  "id": "b17",
+  "nivel": "basico",
+  "numero": 17,
+  "parte": "B17",
+  "titulo": "약국, 통증, 그리고 어떤 전화로도 통하는 번호들",
+  "subtitulo": "아픈 곳을 말하고 카운터가 고르게 두라, 그리고 걸어야 할 번호를 알아 두라: 119와 110",
+  "cena": "일요일 저녁, 가장 가까운 약국은 셔터가 내려져 있고, 역 옆 드러그스토어는 두 블록 떨어진 곳에서 아직 불이 켜져 있다.",
+  "moldura": "protege",
+  "frasePiso": "아픈 곳을 말하고 카운터가 고르게 두라. 가장 가까운 드러그스토어가 작은 약국보다 훨씬 늦게까지 여는 경우가 많다.",
+  "moldes": [],
+  "fatosDatados": [
+    {
+      "id": "fr-b17-112",
+      "afirmacao": "일본에서는 화재와 구급차는 119, 경찰은 110에 건다. 둘 다 어떤 전화로도 무료이며, 하나로 통합된 112 번호는 없다. 응급이 아닌 의료 상담은 많은 지역에서 #7119(救急安心センター)가 운영되며, 병원에 가야 할지와 어디로 가야 할지 판단하는 데 도움을 준다. 영어로 도움이 필요할 때는 JNTO 재팬 비지터 핫라인이 050-3816-2787번으로 24시간 운영된다.",
+      "fonte": "Números de emergência do Japão: 119 (bombeiros/ambulância), 110 (polícia); #7119 (救急安心センター) para orientação médica não urgente em muitas regiões; JNTO Japan Visitor Hotline 050-3816-2787.",
+      "ano": 2026,
+      "revisarAte": "2028-08-05",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "fr-b17-n05"
+      ]
+    },
+    {
+      "id": "fr-b17-garde",
+      "afirmacao": "영업시간 이후에는 일본에서 몇 가지 경로가 있다: 도시의 대형 체인 드러그스토어는 늦게까지, 또는 24시간 여는 경우가 많고, 지역의 休日夜間急患センター(휴일·야간 응급 진료소)는 긴급한 경우를 다루며, #7119는 운영되는 지역에서 전화로 의료 상담을 제공한다. 처방전을 조제하는 전통적인 調剤薬局는 영업시간이 더 짧아서, 밤에 일반의약품이 필요할 때는 대개 드러그스토어가 더 나은 선택이다.",
+      "fonte": "Drogarias de rede abertas até tarde/24h nas cidades; 休日夜間急患センター para urgências fora do horário; #7119 para orientação; 調剤薬局 (farmácia de manipulação/receita) com horário mais curto.",
+      "ano": 2026,
+      "revisarAte": "2027-08-05",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "fr-b17-n04"
+      ]
+    },
+    {
+      "id": "fr-b17-ghic",
+      "afirmacao": "일본은 영국이나 EU와 상호 의료 협정이 없으므로, 여기서는 GHIC나 EHIC 보장이 적용되지 않는다: 여행자는 치료비 전액을 부담하며, 병원은 흔히 현금이나 카드로 선불을 요구한다. 비용이 클 수 있고, 구급차 이용 자체는 무료지만 결국 진료비 청구서로 이어진다. 일본을 보장하는 여행자 보험과 본국 송환 보장은 선택이 아니라 필수다.",
+      "fonte": "Japão não tem acordo recíproco de saúde com Reino Unido/UE; visitante paga o custo integral, muitas vezes adiantado; seguro-viagem com cobertura no Japão e repatriação é essencial.",
+      "ano": 2026,
+      "revisarAte": "2027-08-05",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "fr-b17-n06"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-b17-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "이 파트만은 하루가 꼬였을 때에 관한 것이다. 아무 일도 없는 지금 읽어 두라."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-b17-n02",
+      "bloco": "molde",
+      "pt": "병명을 번역하려 하지 마라. 어디가 언제부터 아픈지만 말하고, 카운터가 고르게 두라."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_f",
+      "audioKey": "fr-b17-t01",
+      "es": "開いている薬局を探しています。",
+      "pinyin": "ai-te i-ru yak-KYO-ku o sa-ga-shi-te i-MAS",
+      "pt": "지금 열려 있는 약국을 찾고 있어요.",
+      "tts": "開いている薬局を探しています。"
+    },
+    {
+      "consulta": [
+        "saude/farmacia",
+        "cidade/onde"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "SAGASHITE-IMASU",
+      "encaixe": "開いている薬局",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-b17-p01",
+      "promptPt": "일요일, 여덟 시 반, 셔터는 내려가 있고 한 남자가 개를 산책시키며 지나간다. 지금 말하세요.",
+      "audioKey": "fr-b17-t01",
+      "es": "開いている薬局を探しています。",
+      "pinyin": "ai-te i-ru yak-KYO-ku o sa-ga-shi-te i-MAS",
+      "pt": "지금 열려 있는 약국을 찾고 있어요."
+    },
+    {
+      "consulta": [
+        "saude/farmacia",
+        "cidade/onde"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "DOKO-DESU-KA",
+      "encaixe": "夜間の薬局",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-b17-p02",
+      "promptPt": "그가 고개를 끄덕이며 근처에 항상 늦게까지 여는 곳이 있다고 말한다. 어디인지 물어라. 지금 말하세요.",
+      "audioKey": "fr-b17-t02",
+      "es": "夜間の薬局はどこですか？",
+      "pinyin": "ya-KAN no yak-KYO-ku wa DO-ko des ka",
+      "pt": "야간 약국은 어디예요?",
+      "tts": "夜間の薬局はどこですか？"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-b17-r01",
+      "receptivo": true,
+      "es": "この辺だと、駅前のドラッグストアが遅くまで開いていますよ。",
+      "pt": "이 근처라면, 역 앞 드러그스토어가 늦게까지 열어요.",
+      "tts": "この辺だと、駅前のドラッグストアが遅くまで開いていますよ。",
+      "acao": "닫힌 약국을 하나하나 걸어 돌아다니는 대신, 역 옆의 늦게까지 여는 드러그스토어로 향하라."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-b17-n04",
+      "bloco": "corpo",
+      "pt": "밤늦게는 체인 드러그스토어나 야간 응급 진료소가 당신의 경로이며, 많은 지역이 어디로 갈지 전화 상담을 해 주는 #7119를 운영한다."
+    },
+    {
+      "consulta": [
+        "saude/sintoma",
+        "saude/farmacia"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "SAGASHITE-IMASU",
+      "encaixe": "咳の薬",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-b17-p03",
+      "promptPt": "늦게까지 여는 드러그스토어 카운터에 있다. 비행기를 탄 이후로 계속 기침을 하고 있다. 지금 말하세요.",
+      "audioKey": "fr-b17-t03",
+      "es": "咳の薬を探しています。",
+      "pinyin": "se-ki no ku-SU-ri o sa-ga-shi-te i-MAS",
+      "pt": "기침약을 찾고 있어요.",
+      "tts": "咳の薬を探しています。"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_f",
+      "audioKey": "fr-b17-r02",
+      "es": "いつからですか？ 夜も咳が出ますか？",
+      "pt": "언제부터인가요? 밤에도 기침이 나오나요?",
+      "tts": "いつからですか？ 夜も咳が出ますか？"
+    },
+    {
+      "consulta": [
+        "saude/sintoma"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-b17-p04",
+      "promptPt": "그녀가 방금 몇 가지를 한꺼번에 물었다. 숫자를 원하는 쪽에 답하고, 아픈 부위를 말하라. 지금 말하세요.",
+      "audioKey": "fr-b17-t04",
+      "es": "二日前から喉が痛いです。",
+      "pinyin": "fu-tsu-ka MAE ka-ra no-do ga i-TAI des",
+      "pt": "이틀 전부터 목이 아파요.",
+      "tts": "二日前から喉が痛いです。"
+    },
+    {
+      "consulta": [
+        "saude/sintoma",
+        "reparo/apontar"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-b17-p05",
+      "promptPt": "아픈 부위의 단어를 모른다. 손을 그 위에 대고 세 단어를 말하라. 지금 말하세요.",
+      "audioKey": "fr-b17-t05",
+      "es": "ここが痛いです。",
+      "pinyin": "ko-ko ga i-TAI des",
+      "pt": "여기가 아파요.",
+      "tts": "ここが痛いです。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-b17-n03",
+      "bloco": "capsula",
+      "pt": "Nuki de는 음식에서 썼던 것과 같은 틀이다. 여기서는 원치 않는 성분을 상자에서 빼 두는 역할을 한다."
+    },
+    {
+      "consulta": [
+        "saude/alergia",
+        "saude/farmacia"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "NUKI-DE",
+      "encaixe": "イブプロフェン",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-b17-p06",
+      "promptPt": "그녀가 상자 하나를 집는다. 고국의 의사가 피하라고 한 성분이 하나 있다. 지금 말하세요.",
+      "audioKey": "fr-b17-t06",
+      "es": "イブプロフェン抜きで、お願いします。",
+      "pinyin": "i-bu-pu-ro-FEN NU-ki de, o-ne-gai-shi-MAS",
+      "pt": "이부프로펜 빼고, 부탁드려요.",
+      "tts": "イブプロフェン抜きで、お願いします。"
+    },
+    {
+      "consulta": [
+        "saude/receita",
+        "saude/farmacia"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-b17-p07",
+      "promptPt": "그녀가 상자 두 개를 카운터에 올려놓는데 당신에게는 어떤 의사의 처방전도 없다. 계산되기 전에 확인하라. 지금 말하세요.",
+      "audioKey": "fr-b17-t07",
+      "es": "これは処方箋なしで買えますか？",
+      "pinyin": "ko-re wa sho-HOU-sen na-shi de ka-e-MAS ka",
+      "pt": "이건 처방전 없이 살 수 있나요?",
+      "tts": "これは処方箋なしで買えますか？"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_f",
+      "audioKey": "fr-b17-r03",
+      "es": "こちらは大丈夫です。もう一つは処方箋が必要です。",
+      "pt": "이건 괜찮아요. 다른 하나는 처방전이 필요해요.",
+      "tts": "こちらは大丈夫です。もう一つは処方箋が必要です。"
+    },
+    {
+      "consulta": [
+        "saude/alergia",
+        "comer/restricao"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-b17-p08",
+      "promptPt": "무언가를 봉투에 담기 전에, 기록에 남아야 할 것을 말하라. 그건 당신 지갑 속 카드에 적혀 있다. 지금 말하세요.",
+      "audioKey": "fr-b17-t08",
+      "es": "ペニシリンアレルギーがあります。",
+      "pinyin": "pe-ni-shi-rin a-re-ru-GII ga a-ri-MAS",
+      "pt": "저는 페니실린 알레르기가 있어요.",
+      "tts": "ペニシリンアレルギーがあります。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-b17-n06",
+      "pt": "여기엔 상호 의료 보장이 없다. 여행자는 비용 전액을 부담하고, 흔히 선불로 낸다. 그래서 일본을 보장하는 여행자 보험이 중요한 것이다."
+    },
+    {
+      "consulta": [
+        "saude/medico",
+        "reparo/ingles"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "SAGASHITE-IMASU",
+      "encaixe": "英語が話せる医者",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-b17-p09",
+      "promptPt": "약사가 이건 자기 카운터 밖의 일이라 진료를 받아야 한다고 말한다. 어떤 의사가 필요한지 말하라. 지금 말하세요.",
+      "audioKey": "fr-b17-t09",
+      "es": "英語が話せる医者を探しています。",
+      "pinyin": "ei-go ga ha-na-se-ru i-SHA o sa-ga-shi-te i-MAS",
+      "pt": "영어를 하는 의사를 찾고 있어요.",
+      "tts": "英語が話せる医者を探しています。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-b17-n05",
+      "pt": "기억해 둘 두 번호: 119는 소방과 구급차, 110은 경찰이다. 어떤 전화로도 걸리고, 여기엔 112가 없다."
+    },
+    {
+      "consulta": [
+        "saude/emergencia"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-b17-p10",
+      "promptPt": "누군가 로비 바닥에 쓰러져 있고, 전화기와 가장 가까운 사람은 얼어붙어 있다. 지시를 내려라. 지금 말하세요.",
+      "audioKey": "fr-b17-t10",
+      "es": "119番に電話してください。",
+      "pinyin": "i-chi i-chi KYUU ban ni den-wa-shi-te ku-da-sai",
+      "pt": "119에 전화해 주세요.",
+      "tts": "いちいちきゅうばんに電話してください。"
+    },
+    {
+      "consulta": [
+        "saude/emergencia",
+        "cidade/onde"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "DOKO-DESU-KA",
+      "encaixe": "一番近い病院",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-b17-p11",
+      "promptPt": "택시 안이고, 기사에게 목적지를 바꿔 달라고 해야 한다. 짧은 질문 하나. 지금 말하세요.",
+      "audioKey": "fr-b17-t11",
+      "es": "一番近い病院はどこですか？",
+      "pinyin": "i-chi-ban chi-KAI byoo-in wa DO-ko des ka",
+      "pt": "가장 가까운 병원은 어디예요?",
+      "tts": "一番近い病院はどこですか？"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-b17-r04",
+      "receptivo": true,
+      "es": "そのまま切らずにお待ちください。今、どちらにいますか？",
+      "pt": "끊지 말고 그대로 기다려 주세요. 지금 어디 계신가요?",
+      "tts": "そのまま切らずにお待ちください。今、どちらにいますか？",
+      "acao": "전화를 끊지 말고 거리 이름이나 가장 가까운 건물 이름, 그리고 문에 적힌 번호를 말하라."
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_fr_f",
+      "audioKey": "fr-b17-s01",
+      "es": "咳の薬を探しています。ここが痛いです。夜間の薬局はどこですか？",
+      "pinyin": "se-ki no ku-SU-ri o sa-ga-shi-te i-MAS. ko-ko ga i-TAI des. ya-KAN no yak-KYO-ku wa DO-ko des ka",
+      "pt": "카운터에서 가장 많은 일을 해내는 세 문장을 따라 말하라.",
+      "tts": "咳の薬を探しています。ここが痛いです。夜間の薬局はどこですか？"
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-b17-n07",
+      "bloco": "recap",
+      "pt": "B17 완료. Doko desu ka, sagashite imasu, nuki de, koko ga itai, 그리고 119 — 공통 언어 없이도 진료를 받기에 충분하다."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "진단해 주는 카운터, 불이 꺼지지 않는 드러그스토어",
+    "secoes": [
+      {
+        "titulo": "Itai에 부위를 더하기",
+        "corpo": "여기서 통증의 문법은 전부 단어 하나와 신체 부위다: nodo ga itai, atama ga itai, onaka ga itai. 그 단어가 떠오르지 않으면 koko ga itai desu라고 말하며 손이 같은 일을 해 준다. 일본의 어떤 카운터에서도 손으로 가리키는 것을 실패로 여기지 않는다.",
+        "exemplos": [
+          {
+            "es": "二日前から喉が痛いです。",
+            "pt": "이틀 전부터 목이 아파요."
+          },
+          {
+            "es": "ここが痛いです。",
+            "pt": "여기가 아파요."
+          }
+        ]
+      },
+      {
+        "titulo": "드러그스토어, 진료소, 그리고 #7119",
+        "corpo": "밤에는 도시의 체인 드러그스토어가 늦게까지, 혹은 24시간 여는 경우가 많고, 일반의약품을 사기에 적합한 곳이다. 긴급한 경우에는 休日夜間急患センター, 즉 휴일·야간 응급 진료소가 있고, 운영되는 지역에서는 #7119가 가야 할지와 어디로 가야 할지 전화로 조언해 준다. 처방전을 조제하는 전통적인 調剤薬局는 영업시간이 더 짧다."
+      },
+      {
+        "titulo": "119, 그리고 그 옆 번호",
+        "corpo": "119는 소방과 구급차로, 110은 경찰로 연결된다. 둘 다 어떤 전화로도 무료이며, 유럽처럼 하나로 통합된 112 번호는 없다. 전화를 걸면 당신이 어디에 있는지 물어볼 것이다 — 거리 이름, 또는 가장 가까운 건물 이름과 문에 적힌 번호를 미리 준비해 두라."
+      },
+      {
+        "titulo": "여기엔 GHIC가 없다",
+        "corpo": "일본은 영국이나 EU와 상호 의료 협정이 없으므로, 현지 조건으로 치료받게 해 주는 카드는 없다. 여행자는 비용 전액을 부담하고, 병원은 흔히 선불을 요구하며, 청구서는 클 수 있다 — 구급차 이용 자체는 무료지만 결국 진료비 청구로 이어진다. 일본과 본국 송환을 보장하는 여행자 보험이 이를 감당해 주는 것이며, 그것은 선택이 아니라 필수다."
+      }
+    ]
+  },
+  "slot": "B17",
+  "permissao": "당신에게는 의학 시험 수준의 어휘가 필요하지 않다. 신체 부위 하나, 며칠째인지, 그리고 아픈 곳에 얹은 손이면 일본 약국 카운터에서 완전한 설명이 되고, 그 카운터 뒤의 사람은 거기서부터 이어받도록 훈련되어 있다.",
+  "permissaoAudioKey": "fr-b17-n02",
+  "espelho": "고국의 약국에서 약 이름 대신 증상을 설명해 본 사람이라면 이미 이 동작을 알고 있다. 유일하게 새로운 부분은, 여기서는 드러그스토어가 마지막이 아니라 첫 번째로 찾는 곳이 되는 데 익숙하다는 것이다.",
+  "fichasCulturais": [
+    {
+      "sinal": "가장 가까운 약국은 셔터가 내려가 있고, 창문에는 어디로 가야 하는지 알려 주는 당번 안내문도 없다.",
+      "suaLeitura": "닫혔으니 열려 있는 곳을 찾을 때까지 돌아다녀야겠다.",
+      "oQueEAli": "일본은 유럽에서 기대할 법한 휴무 약국 당번제를 운영하지 않는다. 대신 대개 역 근처의 늦게까지 여는 체인 드러그스토어가 밤에 통하는 답이고, 많은 지역에서 #7119가 어디로 가야 할지, 갈 필요가 있는지를 전화로 조언해 준다.",
+      "oQueVoceFaz": "지나가는 사람이나 호텔에 가장 가까운 늦게까지 여는 드러그스토어를 물어보거나, 어디든 걷기 전에 #7119로 전화해 상담을 받아라. 긴급한 경우라면 休日夜間急患センター가 야간 진료소다.",
+      "oQueMelhora": "닫힌 셔터를 하나하나 돌아다니는 대신, 실제로 열려 있는 곳으로 한 번에 걸어간다.",
+      "ondeNaoVale": "지역마다 사정이 다르다 — #7119가 모든 곳에서 운영되는 것은 아니고, 작은 마을은 도시보다 야간 선택지가 훨씬 적을 수 있다. 긴급한 경우라면 답은 드러그스토어가 아니라 119다.",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "fr-b17-n04"
+      ]
+    }
+  ]
+}

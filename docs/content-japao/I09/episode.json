@@ -1,0 +1,322 @@
+{
+  "id": "i09",
+  "nivel": "intermediario",
+  "numero": 27,
+  "parte": "I09",
+  "titulo": "The closing day, and the places that keep their own calendar",
+  "subtitulo": "Each place picks its own rest day, museums mostly shut on Mondays, the morning market is a morning-only thing — and one question turns a stranger into a guide",
+  "cena": "It is Monday, the museum you built the day around is dark, and the day looks like a hole in the middle of the trip.",
+  "moldura": "ganha",
+  "frasePiso": "A shut door is not a dead day, it is a differently shaped one. Morning market early, the places that are open after, and a local's plan for the rest.",
+  "decisao": "trocar a lista de museus por um dia local — feira de manhã e o que está aberto à tarde — em vez de descobrir a cidade fechada por causa do dia de folga dela",
+  "moldes": [],
+  "fatosDatados": [
+    {
+      "id": "fr-i09-teikyubi",
+      "afirmacao": "Places in Japan keep their own rest day. Shops and restaurants post a teikyubi (regular closing day), and most museums close on Mondays as standard — when a Monday falls on a public holiday they typically stay open and close the following day instead. There is no single national day off the way some countries close on Sundays; the calendar is per-establishment. Practical consequence: on any given day the same street can have one door dark and the next one open, and the way to know is to check the closing day rather than to guess.",
+      "fonte": "定休日 (dia de folga fixo) por estabelecimento; 月曜休館 — fechamento de museus às segundas no Japão, com deslocamento quando a segunda é feriado",
+      "ano": 2026,
+      "revisarAte": "2028-08-05",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "fr-i09-n03"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-i09-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "A closed door here has a logic behind it. Knowing it turns the emptiest-looking day into the best one of the week."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-i09-n02",
+      "bloco": "corpo",
+      "pt": "Start at a morning market. It is where the neighbourhood is, and a few short conversations cost nothing there."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-i09-r01",
+      "receptivo": true,
+      "acao": "Go before noon. The stalls come down early and the street goes quiet after that.",
+      "es": "朝市は朝のうちですよ。お昼には終わります。",
+      "pt": "The morning market is early. It packs up by lunchtime.",
+      "tts": "朝市は朝のうちですよ。お昼には終わります。"
+    },
+    {
+      "consulta": [
+        "compras/mercado",
+        "cidade/evento"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "SAGASHITE-IMASU",
+      "encaixe": "朝市",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-i09-p01",
+      "promptPt": "You want the one thing that is definitely happening this morning. Open the search. Speak now.",
+      "audioKey": "fr-i09-t01",
+      "es": "朝市を探しています。",
+      "pinyin": "a-sa-i-chi o sa-ga-shi-te-i-mas",
+      "pt": "I'm looking for a morning market.",
+      "tts": "朝市を探しています。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-i09-n03",
+      "pt": "Each place keeps its own closing day, and museums mostly shut on Mondays. Check it before you walk twenty minutes to a dark door."
+    },
+    {
+      "consulta": [
+        "cidade/evento",
+        "compras/balcao"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-i09-p02",
+      "promptPt": "Before walking to a place you are not sure about, check the one thing that decides the day. Speak now.",
+      "audioKey": "fr-i09-t02",
+      "es": "今日は開いていますか？",
+      "pinyin": "KYOH wa a-i-te i-mas-ka",
+      "pt": "Is it open today?",
+      "tts": "今日は開いていますか？"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-i09-r02",
+      "receptivo": true,
+      "acao": "Take the other place as an address. That is where the afternoon happens.",
+      "es": "ここは今日は休みです。でも、隣町のは開いてますよ。",
+      "pt": "This one is closed today. But the next town's is open.",
+      "tts": "ここは今日は休みです。でも、隣町のは開いてますよ。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-i09-n04",
+      "bloco": "capsula",
+      "pt": "Two frames you own come back today: sagashite imasu for what might not exist here, te mo ii desu ka for what might not be allowed."
+    },
+    {
+      "consulta": [
+        "compras/mercado",
+        "conversa/perguntar"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-i09-p03",
+      "promptPt": "You are at a stall with no idea what is in season. Hand the choice to the person selling. Speak now.",
+      "audioKey": "fr-i09-t03",
+      "es": "何がおすすめですか？",
+      "pinyin": "NA-ni ga o-su-su-me des-ka",
+      "pt": "What do you recommend?",
+      "tts": "何がおすすめですか？"
+    },
+    {
+      "consulta": [
+        "compras/mercado",
+        "reparo/permissao"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "TE-MO-II",
+      "encaixe": "味見し",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-i09-p04",
+      "promptPt": "There is something on the stall you have never seen. Ask before committing to half a kilo of it. Speak now.",
+      "audioKey": "fr-i09-t04",
+      "es": "味見してもいいですか？",
+      "pinyin": "a-ji-mi shi-te mo i-i des-ka",
+      "pt": "Can I taste it?",
+      "tts": "味見してもいいですか？"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_f",
+      "audioKey": "fr-i09-r03",
+      "receptivo": true,
+      "acao": "Do not help yourself to the produce. Let them pick it up and cut it.",
+      "es": "どうぞ、味見してください。切りますね。",
+      "pt": "Go ahead, taste it. I'll cut you a piece.",
+      "tts": "どうぞ、味見してください。切りますね。"
+    },
+    {
+      "consulta": [
+        "compras/mercado"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-i09-p05",
+      "promptPt": "Order a small amount — lunch for two people, today, not a week of it. Speak now.",
+      "audioKey": "fr-i09-t05",
+      "es": "二百グラム、お願いします。",
+      "pinyin": "ni-hya-ku GU-ra-mu, o-ne-gai-shi-MAS",
+      "pt": "Two hundred grams, please.",
+      "tts": "二百グラム、お願いします。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-i09-n05",
+      "pt": "Then the afternoon. Ask a local what they do on a day off: the answer is a plan, and it beats the guidebook."
+    },
+    {
+      "consulta": [
+        "conversa/planos",
+        "conversa/perguntar"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-i09-p06",
+      "promptPt": "Ask the person behind the stall about their own day off, not about attractions. Speak now.",
+      "audioKey": "fr-i09-t06",
+      "es": "休みの日は何をしますか？",
+      "pinyin": "ya-su-mi no hi wa NA-ni o shi-mas-ka",
+      "pt": "What do you do on your day off?",
+      "tts": "休みの日は何をしますか？"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-i09-r04",
+      "receptivo": true,
+      "acao": "That is your afternoon. A park, a long lunch, and nothing booked.",
+      "es": "私は、昼を食べて、公園を散歩します。それだけ。",
+      "pt": "I have lunch, then take a walk in the park. That's it.",
+      "tts": "私は、昼を食べて、公園を散歩します。それだけ。"
+    },
+    {
+      "consulta": [
+        "cidade/passeio",
+        "chegar/lugar"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "SAGASHITE-IMASU",
+      "encaixe": "静かな場所",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-i09-p07",
+      "promptPt": "You have food from the market and a few free hours. Open the search for somewhere to put them. Speak now.",
+      "audioKey": "fr-i09-t07",
+      "es": "静かな場所を探しています。",
+      "pinyin": "shi-zu-ka na ba-SHO o sa-ga-shi-te-i-mas",
+      "pt": "I'm looking for a quiet spot.",
+      "tts": "静かな場所を探しています。"
+    },
+    {
+      "consulta": [
+        "cidade/passeio",
+        "reparo/permissao"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "TE-MO-II",
+      "encaixe": "ここに座っ",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-i09-p08",
+      "promptPt": "There is one free bench and somebody's bag on the next one. Ask. Speak now.",
+      "audioKey": "fr-i09-t08",
+      "es": "ここに座ってもいいですか？",
+      "pinyin": "ko-KO ni su-wat-te mo i-i des-ka",
+      "pt": "Can I sit here?",
+      "tts": "ここに座ってもいいですか？"
+    },
+    {
+      "consulta": [
+        "cidade/evento",
+        "compras/balcao"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "NAN-JI",
+      "encaixe": "閉店",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-i09-p09",
+      "promptPt": "The shop is open today but you do not know how late. Ask before you plan around it. Speak now.",
+      "audioKey": "fr-i09-t09",
+      "es": "今日は何時に閉まりますか？",
+      "pinyin": "KYOH wa nan-JI ni shi-ma-ri-mas-ka",
+      "pt": "What time does it close today?",
+      "tts": "今日は何時に閉まりますか？"
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_fr_f",
+      "audioKey": "fr-i09-s01",
+      "es": "朝市を探しています。今日は開いていますか？ 味見してもいいですか？ 休みの日は何をしますか？",
+      "pinyin": "a-sa-i-chi o sa-ga-shi-te-i-mas. KYOH wa a-i-te i-mas-ka. a-ji-mi shi-te mo i-i des-ka. ya-su-mi no hi wa NA-ni o shi-mas-ka",
+      "pt": "Shadow the whole day: find it, check it opens, taste it, ask what they do.",
+      "tts": "朝市を探しています。今日は開いていますか？ 味見してもいいですか？ 休みの日は何をしますか？",
+      "molde": "SAGASHITE-IMASU"
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-i09-n06",
+      "bloco": "recap",
+      "pt": "I09 done. Market before noon, the places open after, and one question that turns a stranger into a guide."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "The day with a calendar of its own",
+    "secoes": [
+      {
+        "titulo": "The closing day is per place",
+        "corpo": "There is no single national day off here. Shops and restaurants post a teikyubi, a fixed weekly closing day, and museums mostly close on Mondays — shifting to the next day when a Monday is a public holiday. So a dark door is usually a scheduled rest, not bad luck, and the openings around it follow each place's own calendar.",
+        "exemplos": [
+          {
+            "es": "今日は開いていますか？",
+            "pt": "Is it open today?"
+          },
+          {
+            "es": "今日は何時に閉まりますか？",
+            "pt": "What time does it close today?"
+          }
+        ]
+      },
+      {
+        "titulo": "The two frames doing the work",
+        "corpo": "Sagashite imasu opens a search for something that may not exist here — a morning market, a quiet spot, a place still serving. Te mo ii desu ka asks whether something is allowed in this particular place. Between them they cover most of an unplanned afternoon without a single new sentence shape."
+      },
+      {
+        "titulo": "At the stall, let them handle the produce",
+        "corpo": "The person selling chooses the item and cuts the piece. Ajimi shite mo ii desu ka is a normal request, and nani ga osusume desu ka hands them a job they enjoy — both get you a better basket than silent self-service would, and self-service is not the done thing at a stall anyway."
+      },
+      {
+        "titulo": "The best question of the module",
+        "corpo": "Yasumi no hi wa nani o shimasu ka asks about their day rather than about your itinerary, which is why it produces an answer with a place and an hour in it. Swap the frame of the day — a weekday, a festival — and the shape still works."
+      }
+    ]
+  },
+  "slot": "I09",
+  "permissao": "You are allowed to spend a whole day without an attraction in it. A morning market, a long lunch and a park is what a day like this is built for, and it is the part of the trip you will still be able to describe in five years.",
+  "espelho": "Anyone who has come home remembering an ordinary afternoon better than the monument they queued ninety minutes for already knows the argument. The itinerary is easier to justify to yourself; it is just rarely what stays.",
+  "permissaoAudioKey": "fr-i09-n01",
+  "fichasCulturais": [
+    {
+      "sinal": "You walk to a museum on a Monday and it is dark, and a shop you wanted has a small sign you cannot read by the door.",
+      "suaLeitura": "Things close here at random, and I have lost the day.",
+      "oQueEAli": "Closing days are scheduled, not random. Most museums shut on Mondays as standard, and shops post a teikyubi — their own fixed rest day. The dark door you are looking at is on its calendar; the sign you cannot read is usually that calendar.",
+      "oQueVoceFaz": "Check the closing day before you commit to the walk, and ask kyo wa aite imasu ka when you are not sure. Give the morning to a market and the afternoon to whatever keeps a different day off.",
+      "oQueMelhora": "You stop losing a day per trip to closed doors, and the openings start looking like a schedule instead of luck.",
+      "ondeNaoVale": "Not a rule you can carry unchanged — the Monday-museum pattern shifts when Monday is a holiday, and every shop sets its own teikyubi, so you ask locally rather than assuming a single day.",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "fr-i09-n03"
+      ]
+    }
+  ]
+}

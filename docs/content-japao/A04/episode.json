@@ -1,0 +1,317 @@
+{
+  "id": "a04",
+  "nivel": "avancado",
+  "numero": 32,
+  "parte": "A04",
+  "titulo": "The old argument",
+  "subtitulo": "Tokyo and everywhere else is the line that runs under a lot of it — and the only position that keeps you in the conversation is curiosity",
+  "cena": "Someone has just told you what Tokyo is like, with feeling, and left a gap where your opinion is supposed to go.",
+  "moldura": "ganha",
+  "frasePiso": "Ask, listen, and never rank. How does it look from here keeps you at the table; which side is right ends the evening.",
+  "moldes": [],
+  "fatosDatados": [
+    {
+      "id": "fr-zti-dimanche",
+      "afirmacao": "The concentration of people, jobs and decisions in and around Tokyo — 東京一極集中, the over-concentration in the capital — is documented rather than merely felt: the greater Tokyo area holds a very large share of the national population and economy, and the region has recorded sustained net in-migration for years. It is a policy target in its own right: the 2014 regional-revitalisation law (まち・ひと・しごと創生法) was written explicitly to counter it. That the imbalance exists is fact; what it means, and whether it should be corrected, is argued about with real heat.",
+      "fonte": "東京一極集中: concentração populacional/econômica na Grande Tóquio e saldo migratório positivo sustentado; まち・ひと・しごと創生法 (2014), criada para conter a concentração na capital",
+      "ano": 2026,
+      "revisarAte": "2027-08-04",
+      "evidencia": "FATO",
+      "risco": "medio",
+      "audioKeys": [
+        "fr-a04-n03"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-a04-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "Every country has one argument running underneath everything. Here, a lot of it runs between Tokyo and everywhere else."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-a04-r01",
+      "receptivo": true,
+      "acao": "Do not agree and do not object. Ask something, and let them keep going.",
+      "es": "東京は日本じゃないですよ。それは覚えといたほうがいい。",
+      "pt": "Tokyo isn't Japan. You should know that.",
+      "tts": "東京は日本じゃないですよ。それは覚えといたほうがいい。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-a04-n02",
+      "bloco": "corpo",
+      "pt": "You will hear it about trains, about jobs, about where things get decided, and about who gets listened to."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-a04-n03",
+      "bloco": "capsula",
+      "pt": "Part of it is documented. The concentration in Tokyo is real and measured, and a 2014 law was written specifically to push against it."
+    },
+    {
+      "consulta": [
+        "simpatia/puxar-conversa"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-a04-p01",
+      "promptPt": "Before anything else, place the person in front of you — grew up here, or came back from somewhere else? Ask them. Speak now.",
+      "audioKey": "fr-a04-t01",
+      "es": "ご出身はこちらですか？",
+      "pinyin": "go-shus-SHIN wa ko-chi-ra des-ka",
+      "pt": "Are you from here?",
+      "tts": "ご出身はこちらですか？"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-a04-r02",
+      "receptivo": true,
+      "acao": "That is a life history, not a political position. Hear it as one.",
+      "es": "私？二十歳で上京して、四十で地元に戻ってきました。",
+      "pt": "Me? I went up to Tokyo at twenty. I came back home at forty.",
+      "tts": "私？二十歳で上京して、四十で地元に戻ってきました。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-a04-n04",
+      "pt": "Joukyou — going up to Tokyo — and coming back home. The words carry the argument, and most families have a version of it."
+    },
+    {
+      "consulta": [
+        "simpatia/puxar-conversa"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-a04-p02",
+      "promptPt": "They have just given you twenty years of their own life in one sentence. Ask about the living of it, not the politics. Speak now.",
+      "audioKey": "fr-a04-t02",
+      "es": "ご自身は、どう感じましたか？",
+      "pinyin": "go-JI-shin wa, doh kan-JI-mash-ta ka",
+      "pt": "And you, how did you feel it?",
+      "tts": "ご自身は、どう感じましたか？"
+    },
+    {
+      "consulta": [
+        "simpatia/puxar-conversa"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-a04-p03",
+      "promptPt": "You want the town's own story rather than the national one. Ask about the last few years, here. Speak now.",
+      "audioKey": "fr-a04-t03",
+      "es": "この辺は、ここ数年で変わりましたか？",
+      "pinyin": "ko-no HEN wa, ko-ko soo-nen de ka-wa-ri-MASH-ta ka",
+      "pt": "Has this area changed in the last few years?",
+      "tts": "この辺は、ここ数年で変わりましたか？"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_f",
+      "audioKey": "fr-a04-r03",
+      "receptivo": true,
+      "acao": "A grievance with a real imbalance behind it. Take the information; leave the verdict alone.",
+      "es": "ここは終電が早いんですよ。東京とは違ってね。",
+      "pt": "The last train is early here. Not like Tokyo.",
+      "tts": "ここは終電が早いんですよ。東京とは違ってね。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-a04-n05",
+      "pt": "The wrong move is a verdict. Any sentence where you rank the two halves costs you the rest of the conversation."
+    },
+    {
+      "consulta": [
+        "simpatia/puxar-conversa"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-a04-p04",
+      "promptPt": "The table has turned to you for a ruling on their own argument. Say honestly where you stand on it. Speak now.",
+      "audioKey": "fr-a04-t04",
+      "es": "まだよく知らないので、何とも言えません。",
+      "pinyin": "ma-da yo-ku shee-ra-nai no-de, nan-to-mo ee-e-ma-sen",
+      "pt": "I don't know enough yet to say.",
+      "tts": "まだよく知らないので、何とも言えません。"
+    },
+    {
+      "consulta": [
+        "simpatia/puxar-conversa"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-a04-p05",
+      "promptPt": "They press you anyway, still smiling. Hand the floor back instead of taking a side. Speak now.",
+      "audioKey": "fr-a04-t05",
+      "es": "私は聞くほうがいいです。",
+      "pinyin": "wa-ta-shi wa kee-ku hoh ga ee des",
+      "pt": "I'd rather listen.",
+      "tts": "私は聞くほうがいいです。"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-a04-r04",
+      "receptivo": true,
+      "acao": "That worked. Declining the ruling reads as sensible here, not as evasion.",
+      "es": "ああ、慎重ですね。まあ、賢明ですよ。",
+      "pt": "Ah, you're being careful. That's wise, mind you.",
+      "tts": "ああ、慎重ですね。まあ、賢明ですよ。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-a04-n06",
+      "pt": "What is always allowed is your own trip. Experience is an account of your week; comparison is a ruling on their country."
+    },
+    {
+      "consulta": [
+        "simpatia/elogiar-lugar"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-a04-p06",
+      "promptPt": "Say how you were treated in this particular town, with no other place mentioned. Speak now.",
+      "audioKey": "fr-a04-t06",
+      "es": "ここでは、とてもよくしてもらいました。",
+      "pinyin": "ko-ko de wa, to-te-mo yo-ku shee-te mo-rai-MASH-ta",
+      "pt": "Here, I've been treated very well.",
+      "tts": "ここでは、とてもよくしてもらいました。"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_f",
+      "audioKey": "fr-a04-r05",
+      "receptivo": true,
+      "acao": "The experience was allowed. A comparison in the same slot would not have been.",
+      "es": "そうでしょう。こっちはのんびりしてますからね。",
+      "pt": "Right? We take things slower here.",
+      "tts": "そうでしょう。こっちはのんびりしてますからね。"
+    },
+    {
+      "consulta": [
+        "simpatia/puxar-conversa"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-a04-p07",
+      "promptPt": "Three weeks of travelling gave you something to say that is not a ruling on anybody. Say it as your own trip. Speak now.",
+      "audioKey": "fr-a04-t07",
+      "es": "三週間で、いろんな所を見ました。",
+      "pinyin": "san-shoo-kan de, ee-ron-na to-ko-ro o mee-MASH-ta",
+      "pt": "In three weeks, I've seen many different places.",
+      "tts": "三週間で、いろんな所を見ました。"
+    },
+    {
+      "consulta": [
+        "simpatia/puxar-conversa",
+        "simpatia/elogiar-lugar"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-a04-p08",
+      "promptPt": "Turn the whole argument into something useful to you: ask them where to go next. Speak now.",
+      "audioKey": "fr-a04-t08",
+      "es": "次はどこがおすすめですか？",
+      "pinyin": "tsu-gee wa DO-ko ga o-su-su-me des-ka",
+      "pt": "So where do you recommend I go next?",
+      "tts": "次はどこがおすすめですか？"
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_fr_f",
+      "audioKey": "fr-a04-s01",
+      "es": "まだよく知らないので、何とも言えません。私は聞くほうがいいです。次はどこがおすすめですか？",
+      "pinyin": "ma-da yo-ku shee-ra-nai no-de nan-to-mo ee-e-ma-sen · wa-ta-shi wa kee-ku hoh ga ee des · tsu-gee wa DO-ko ga o-su-su-me des-ka",
+      "pt": "Shadow the three that decline the ruling and keep the conversation moving.",
+      "tts": "まだよく知らないので、何とも言えません。私は聞くほうがいいです。次はどこがおすすめですか？"
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-a04-n07",
+      "bloco": "recap",
+      "pt": "A04 done. Part of the imbalance is documented, the meaning of it is argued about, and your job is a question."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "One line, running under everything",
+    "secoes": [
+      {
+        "titulo": "Fact and interpretation are different things",
+        "corpo": "That people, jobs and decisions concentrate in and around Tokyo is documented rather than felt — the greater Tokyo area holds a very large share of the national population and economy, and net migration into it has run positive for years. It is enough of a national concern that a 2014 law was written to counter it. Why the country is shaped that way, and whether it should be, is argued about with real heat, and that second half is where a visitor's opinion is not wanted.",
+        "exemplos": [
+          {
+            "es": "ご出身はこちらですか？",
+            "pt": "Are you from here?"
+          },
+          {
+            "es": "まだよく知らないので、何とも言えません。",
+            "pt": "I don't know enough yet to say."
+          }
+        ]
+      },
+      {
+        "titulo": "Joukyou and coming home",
+        "corpo": "People go up to Tokyo — joukyou — and come back home, whatever the map says. The words are ordinary and they carry the whole subject: a career, a rent, a family left behind, a return. When someone tells you what they think about the capital, you are very often hearing an account of their own twenties rather than a position on regional policy."
+      },
+      {
+        "titulo": "The question that keeps working",
+        "corpo": "Kono hen wa kawarimashita ka moves the conversation from the national argument, where you have no standing, to the local one, where the person in front of you is the only available expert. It is the same move as asking about a life history, and it never once reads as an intrusion."
+      },
+      {
+        "titulo": "Experience beats comparison",
+        "corpo": "Koko de wa totemo yoku shite moraimashita is an account of your week and is welcome anywhere. The version that ranks two places against each other is a ruling on somebody's country delivered by a guest of nine days. The first buys you the evening; the second costs it, and the drop is immediate and quiet."
+      }
+    ]
+  },
+  "slot": "A04",
+  "permissao": "You are allowed to have no opinion and to say it in one sentence. Mada yoku shiranai node, nantomo iemasen is not a dodge in this conversation — it is the accurate answer after three weeks in a country, and here it is heard as good sense rather than as reticence.",
+  "permissaoAudioKey": "fr-a04-n05",
+  "espelho": "Every country has the argument outsiders should stay out of, and everyone knows the feeling of hearing a visitor confidently settle theirs. Recognising the shape of it here is easier than it sounds, because you already know it from home.",
+  "fichasCulturais": [
+    {
+      "sinal": "Someone criticises the capital in front of you and pauses, apparently waiting for your view.",
+      "suaLeitura": "They want my opinion, and having one shows I have been paying attention.",
+      "oQueEAli": "The pause is usually rhetorical rather than a request for an outsider's ruling. The subject is an internal argument with a long history and, very often, personal stakes — a job, a rent, a move up to Tokyo, a return home.",
+      "oQueVoceFaz": "Replace the verdict with a question about their experience: go-jishin wa, dou kanjimashita ka. Or say plainly that you do not know enough yet to say.",
+      "oQueMelhora": "You get the real story, which is nearly always more interesting than the position, and the conversation carries on instead of stopping to place you.",
+      "ondeNaoVale": "Not a reason to stay silent about your own trip. Naming a place you liked is welcome; it only becomes a problem when it turns into a ranking of one part of the country against another.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "fr-a04-n05",
+        "fr-a04-n06"
+      ]
+    },
+    {
+      "sinal": "You are told the last train is early here while Tokyo runs late, said as evidence of something larger.",
+      "suaLeitura": "That's an exaggeration, or a local complaint with nothing behind it.",
+      "oQueEAli": "There is something behind it. The concentration of people, jobs, services and late-night infrastructure in and around Tokyo is real and documented, enough that a 2014 law targets it. The asymmetry is genuine; the argument is about what it means and what should be done.",
+      "oQueVoceFaz": "Take it as information about your own week — check the last-train time locally rather than assuming Tokyo hours — and ask about the town instead of assessing the policy.",
+      "oQueMelhora": "You stop planning an evening around service that only runs in the biggest cities, and you avoid arbitrating a live question at somebody's table.",
+      "ondeNaoVale": "Not a rule that everything outside Tokyo shuts early — big regional cities keep their own late services, and the imbalance is a tendency, not a wall.",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "fr-a04-n03"
+      ]
+    }
+  ]
+}

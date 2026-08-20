@@ -1,0 +1,349 @@
+{
+  "id": "b03",
+  "nivel": "basico",
+  "numero": 3,
+  "parte": "B03",
+  "titulo": "Sumimasen, 그리고 그다음 필요한 것",
+  "subtitulo": "낯선 사람 누구에게나 통하는 하나의 오프너 — 한 단어가 세 가지 역할을 동시에 하고, 놓친 순간을 여전히 써먹을 수 있는 순간으로 바꿔준다",
+  "cena": "대답이 전속력으로 돌아왔고 당신은 그중 단어 하나만 알아들었는데, 상대는 벌써 다음 사람을 보고 있다.",
+  "moldura": "ganha",
+  "frasePiso": "Sumimasen, 그다음 필요한 것. 오프너 하나면 낯선 사람 누구나 물어볼 수 있는 상대가 된다.",
+  "moldes": [
+    "SUMIMASEN"
+  ],
+  "clique": {
+    "contagem": [
+      "편의점 카운터",
+      "매표소 창구",
+      "만원 열차",
+      "바깥 거리"
+    ],
+    "desconto": "점원에게도, 역무원에게도, 열차 안 승객에게도, 길에서 마주친 낯선 사람에게도 서로 다른 오프너를 준 사람은 없다. 당신은 한 단어를 그대로 유지하고 그 뒤에 오는 말만 바꿨다.",
+    "piso": "다음에 문장이 당신을 스쳐 지나갈 때, 당신은 웃으며 고개만 끄덕이지 않을 것이다. sumimasen으로 말을 열고 놓친 부분을 물어볼 것이다."
+  },
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-b03-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "첫날부터 문장을 하나 놓치게 될 것이다. 피해야 할 일이 아니다 — 오프너 하나로 바로잡을 수 있는 순간일 뿐이다."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-b03-n02",
+      "bloco": "molde",
+      "pt": "이 틀은 이렇다: sumimasen, 그다음 필요한 것. 점원에게도, 역무원에게도, 문간에 선 사람에게도 같은 오프너를 쓴다."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_f",
+      "audioKey": "fr-b03-t01",
+      "es": "すみません、わかりませんでした。",
+      "pinyin": "soo-mee-ma-SEN, wa-ka-ri-ma-sen-DESH-ta",
+      "pt": "죄송해요, 이해하지 못했어요.",
+      "tts": "すみません、わかりませんでした。"
+    },
+    {
+      "consulta": [
+        "reparo/devagar"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "SUMIMASEN",
+      "encaixe": "わかりませんでした",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-b03-p01",
+      "promptPt": "편의점 카운터에서 그녀가 방금 숫자를 말했는데 그대로 흘려버렸다. 지금 말하세요.",
+      "audioKey": "fr-b03-t01",
+      "es": "すみません、わかりませんでした。",
+      "pinyin": "soo-mee-ma-SEN, wa-ka-ri-ma-sen-DESH-ta",
+      "pt": "죄송해요, 이해하지 못했어요.",
+      "tts": "すみません、わかりませんでした。"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-b03-r01",
+      "receptivo": true,
+      "es": "あ、失礼しました。二百四十円です。",
+      "pt": "아, 죄송해요 — 240엔입니다.",
+      "tts": "あ、失礼しました。二百四十円です。",
+      "acao": "다시 말해줄 때는 보통 더 천천히, 숫자만 남기고 돌아온다. 끝에 나오는 숫자를 기다려라 — 그게 당신이 필요했던 부분이다."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-b03-n03",
+      "bloco": "corpo",
+      "pt": "틀은 그대로이고 끝부분만 바뀐다: 다시 말해 달라고, 천천히 말해 달라고, 적어 달라고 요청하라."
+    },
+    {
+      "consulta": [
+        "reparo/devagar"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "SUMIMASEN",
+      "encaixe": "もう一度お願いします",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-b03-p02",
+      "promptPt": "같은 카운터, 한 번만 더 들으면 다 해결될 상황이다. 지금 말하세요.",
+      "audioKey": "fr-b03-t02",
+      "es": "すみません、もう一度お願いします。",
+      "pinyin": "soo-mee-ma-SEN, MOH i-chi-do o-ne-gai-shi-mass",
+      "pt": "죄송해요, 한 번만 더요.",
+      "tts": "すみません、もう一度お願いします。"
+    },
+    {
+      "consulta": [
+        "reparo/devagar"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "SUMIMASEN",
+      "encaixe": "ゆっくりお願いします",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-b03-p03",
+      "promptPt": "매표소 창구에서 다시 말해줬는데도 속도가 똑같았다. 다른 걸 요청하라. 지금 말하세요.",
+      "audioKey": "fr-b03-t03",
+      "es": "すみません、ゆっくりお願いします。",
+      "pinyin": "soo-mee-ma-SEN, YUK-ku-ri o-ne-gai-shi-mass",
+      "pt": "죄송해요, 천천히요.",
+      "tts": "すみません、ゆっくりお願いします。"
+    },
+    {
+      "consulta": [
+        "reparo/escreve"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "SUMIMASEN",
+      "encaixe": "書いてもらえますか",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-b03-p04",
+      "promptPt": "여전히 매표소 창구, 이번엔 플랫폼 번호라 대충 짐작할 수 없다. 지금 말하세요.",
+      "audioKey": "fr-b03-t04",
+      "es": "すみません、書いてもらえますか？",
+      "pinyin": "soo-mee-ma-SEN, KAI-te mo-ra-e-mass-ka",
+      "pt": "죄송해요, 적어 주시겠어요?",
+      "tts": "すみません、書いてもらえますか？"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-b03-n04",
+      "pt": "한 단어가 세 가지 역할을 한다: sumimasen은 주의를 끌고, 사과하고, 심지어 감사를 표하기도 한다. 상대가 누구든 이 말은 바꾸지 않는다."
+    },
+    {
+      "consulta": [
+        "chegar/entrar"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "SUMIMASEN",
+      "encaixe": "通ります",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-b03-p05",
+      "promptPt": "열차는 만원이고 다음이 당신 역이다. 지금 말하세요.",
+      "audioKey": "fr-b03-t05",
+      "es": "すみません、通ります。",
+      "pinyin": "soo-mee-ma-SEN, TOH-ri-mass",
+      "pt": "죄송해요, 지나갈게요.",
+      "tts": "すみません、通ります。"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-b03-r02",
+      "es": "あ、はい、どうぞ。",
+      "pt": "아, 네, 지나가세요.",
+      "tts": "あ、はい、どうぞ。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-b03-n05",
+      "bloco": "capsula",
+      "pt": "이 틀에 붙일 끝부분이 두 개 더 있고, 둘 다 길에서 쓴다: 시간을 묻는 것, 그리고 상대가 영어를 하는지 묻는 것."
+    },
+    {
+      "consulta": [
+        "simpatia/puxar-conversa"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "SUMIMASEN",
+      "encaixe": "今何時ですか",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-b03-p06",
+      "promptPt": "바깥 거리, 휴대폰은 꺼졌고, 횡단보도에서 누군가 기다리고 있다. 지금 말하세요.",
+      "audioKey": "fr-b03-t06",
+      "es": "すみません、今何時ですか？",
+      "pinyin": "soo-mee-ma-SEN, i-ma NAN-ji des-ka",
+      "pt": "죄송해요, 지금 몇 시예요?",
+      "tts": "すみません、今何時ですか？"
+    },
+    {
+      "consulta": [
+        "reparo/ingles"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "SUMIMASEN",
+      "encaixe": "英語は話せますか",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-b03-p07",
+      "promptPt": "같은 거리, 다음에 필요한 말이 당신의 일본어 실력보다 길다. 먼저 제대로 말을 걸어라. 지금 말하세요.",
+      "audioKey": "fr-b03-t07",
+      "es": "すみません、英語は話せますか？",
+      "pinyin": "soo-mee-ma-SEN, EE-go wa ha-na-se-mass-ka",
+      "pt": "실례합니다, 영어 하세요?",
+      "tts": "すみません、英語は話せますか？"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_f",
+      "audioKey": "fr-b03-r03",
+      "receptivo": true,
+      "es": "少しなら。何をお探しですか？",
+      "pt": "조금요. 뭘 찾으세요?",
+      "tts": "少しなら。何をお探しですか？",
+      "acao": "문장이 아니라 명사로 답하라. 여기서는 단어 하나와 몸짓이 완전한 문장보다 더 멀리 간다."
+    },
+    {
+      "consulta": [
+        "reparo/como-se-diz"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "SUMIMASEN",
+      "encaixe": "日本語で何と言いますか",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-b03-p08",
+      "promptPt": "다시 편의점 카운터, 이름을 알고 싶은 물건을 들고 있다. 지금 말하세요.",
+      "audioKey": "fr-b03-t08",
+      "es": "すみません、これは日本語で何と言いますか？",
+      "pinyin": "soo-mee-ma-SEN, ko-re wa ni-HON-go de NAN to i-i-mass-ka",
+      "pt": "죄송해요, 이건 일본어로 뭐라고 해요?",
+      "tts": "すみません、これは日本語で何と言いますか？"
+    },
+    {
+      "consulta": [
+        "reparo/apontar"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "SUMIMASEN",
+      "encaixe": "これは何ですか",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-b03-p09",
+      "promptPt": "같은 카운터, 정체를 알 수 없는 쟁반을 가리키고 있다. 지금 말하세요.",
+      "audioKey": "fr-b03-t09",
+      "es": "すみません、これは何ですか？",
+      "pinyin": "soo-mee-ma-SEN, ko-re wa NAN des-ka",
+      "pt": "실례합니다, 이게 뭐예요?",
+      "tts": "すみません、これは何ですか？"
+    },
+    {
+      "consulta": [
+        "simpatia/agradecer"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-b03-p10",
+      "promptPt": "상대가 천천히, 다시 말해주고 영수증에 숫자까지 적어줬다. 따뜻하게 마무리하라. 지금 말하세요.",
+      "audioKey": "fr-b03-t10",
+      "es": "ありがとうございます。助かりました。",
+      "pinyin": "a-ri-ga-TOH go-za-i-mass, tas-ka-ri-MASH-ta",
+      "pt": "감사합니다, 정말 도움이 됐어요.",
+      "tts": "ありがとうございます。助かりました。"
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_fr_f",
+      "audioKey": "fr-b03-s01",
+      "es": "すみません、わかりませんでした。すみません、もう一度お願いします。すみません、ゆっくりお願いします。すみません、通ります。",
+      "pinyin": "soo-mee-ma-SEN wa-ka-ri-ma-sen-DESH-ta · soo-mee-ma-SEN MOH i-chi-do o-ne-gai-shi-mass · soo-mee-ma-SEN YUK-ku-ri o-ne-gai-shi-mass · soo-mee-ma-SEN TOH-ri-mass",
+      "pt": "같은 오프너를 서로 다른 네 가지 상황에서 따라 말해 보라.",
+      "tts": "すみません、わかりませんでした。すみません、もう一度お願いします。すみません、ゆっくりお願いします。すみません、通ります。",
+      "molde": "SUMIMASEN"
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-b03-n06",
+      "bloco": "recap",
+      "pt": "B03 완료. Sumimasen에 필요한 것을 더하면 다시 말해 달라는 것, 천천히, 적어서, 지나가기, 시간 묻기까지 다 해결된다."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "오프너 하나, 낯선 사람 누구에게나",
+    "secoes": [
+      {
+        "titulo": "열려 있는 틀",
+        "corpo": "sumimasen은 그대로 두고 그 뒤에 오는 말만 바꿔라. 오프너 자체는 전혀 변하지 않는다 — 활용형을 만들 필요도, 상대에 맞게 바꿀 필요도 없고, 서 있든 앉아 있든, 줄을 서 있든 창구 너머든 그대로 통한다.",
+        "exemplos": [
+          {
+            "es": "すみません、もう一度お願いします。",
+            "pt": "죄송해요, 한 번만 더요."
+          },
+          {
+            "es": "すみません、通ります。",
+            "pt": "죄송해요, 지나갈게요."
+          }
+        ]
+      },
+      {
+        "titulo": "한 단어, 세 가지 역할",
+        "corpo": "Sumimasen은 주의를 끌고, 불쑥 끼어든 것에 대해 양해를 구하고, 심지어 고맙다는 말을 대신하기도 한다 — 영어라면 excuse me, sorry, thanks로 나뉘는 일을 한 단어가 다 해낸다. 직원을 부를 때도 마찬가지다: 손만 들거나 손가락을 튕기지 않고 sumimasen이라고 말한다. 이 한 단어가 있어야 대부분의 대화가 시작될 수 있다."
+      },
+      {
+        "titulo": "당신이 쓸 수 있는 버전을 요청하라",
+        "corpo": "'못 알아들었어요' 안에는 사실 서로 다른 요청 세 가지가 숨어 있고, 결과도 각각 다르다. Mou ichido는 같은 말을 다시 듣게 해준다. Yukkuri는 늘어뜨려서 천천히 듣게 해준다. Kaite moraemasu ka는 종이에 적어 받게 해준다 — 플랫폼 번호나 지명이 걸린 상황에서 살아남는 건 이것뿐이다."
+      },
+      {
+        "titulo": "이걸 작동시키는 0.5초",
+        "corpo": "sumimasen이라고 말하고 나서 멈춰라. 이 짧은 멈춤은, 흔히 가볍게 고개를 숙이는 동작과 함께, 당신의 말을 끼어듦이 아니라 요청으로 바꿔주고, 상대가 당신 쪽으로 돌아설 시간을 준다. sumimasen을 질문에 바로 이어 붙이면 이 단어가 해주는 일의 대부분을 잃는다."
+      },
+      {
+        "titulo": "복구가 어휘보다 먼저다",
+        "corpo": "이 파트가 코스에서 세 번째에 놓인 건 의도적이다. 이후의 모든 파트는 당신이 뭔가를 잘못 알아들을 거라고 전제하고, 두 번째 기회를 사주는 오프너 하나만 갖고 있으면 잘못 알아듣는 대가는 거의 사라진다. 이 모듈에서 가장 값싼 보험이자 가장 자주 쓰게 될 것이다."
+      }
+    ]
+  },
+  "slot": "B03",
+  "permissao": "몇 번이든 소리 내어 이해하지 못했다고 말해도 된다. 일본의 카운터에서 천천히 말해 달라고 요청하는 건 지극히 평범한 일이고, 그렇게 물어보는 사람을 고개만 끄덕이고 틀린 답을 들고 가버리는 사람보다 더 나쁘게 보는 사람은 아무도 없다.",
+  "permissaoAudioKey": "fr-b03-n01",
+  "espelho": "당신은 이미 모국어로도 이걸 하고 있다 — 전화가 잘 안 들릴 때마다, 시끄러운 바에서마다: 미안, 다시 말해줘, 미안, 천천히. 이 행동 자체는 새로울 게 없다. 유일하게 새로운 건 오프너가 고정된 한 단어라서 그걸 고민할 필요조차 없다는 것뿐이다.",
+  "fichasCulturais": [
+    {
+      "sinal": "다시 말해 달라고 했더니 두 번째 대답이 더 짧고 간결하게 돌아온다. 숫자나 방향만 남고 군더더기는 다 빠져 있다.",
+      "suaLeitura": "두 번 말하게 해서 짜증이 난 거구나.",
+      "oQueEAli": "일본의 카운터에서 다시 말해줄 때는 보통 정보를 담은 부분 — 숫자, 예/아니오, 장소 — 만 남기고 완충하는 말은 빠진다. 짧아진 건 짜증이 아니라 도와주려는 버전이고, 속도는 사람들이 마지막에야 조정하는 부분이다. 자기 말투에서 가장 알아차리기 어려운 게 속도이기 때문이다.",
+      "oQueVoceFaz": "그래도 못 알아들었다면, 또 반복해 달라고 하지 말고 구체적으로 천천히 버전을 요청하라: yukkuri onegai shimasu.",
+      "oQueMelhora": "문장 전체를 다시 듣는 대신, 놓쳤던 그 한 단어를 정확히 얻게 된다.",
+      "ondeNaoVale": "놓친 부분이 숫자나 플랫폼, 주소일 때는 얘기가 다르다 — 그럴 땐 적어 달라고 요청하는 것이 세 번 반복해도 안 되는 걸 한 번에 해결해준다.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "fr-b03-r01",
+        "fr-b03-n03"
+      ]
+    },
+    {
+      "sinal": "영어 하냐고 물었더니 상대가 손을 젓고 chotto라고 말하며 눈을 돌린다.",
+      "suaLeitura": "할 줄 알면서 거절하는 거거나, 나를 귀찮아하는 거구나.",
+      "oQueEAli": "여기서 손짓과 함께 나오는 chotto는 보통 '조금만, 자신은 없어'라는 뜻이지 '아니오'도 '저리 가'도 아니다. 자기 실력을 낮춰 말하는 게 예의의 기본값이라서, 학교에서 익힌 쓸 만한 영어 실력이 있는 사람도 일단은 그걸 부정하며 말문을 연다. 그 망설임은 언어에 대한 겸손이지 당신에 대한 판정이 아니다.",
+      "oQueVoceFaz": "잠깐 그 자리에 머물러라, 단어 하나와 몸짓이나 화면으로 낮춰서, 상대가 그 수준에서 만나게 하라 — chotto라며 손을 저었던 사람 대부분도 결국 당신을 플랫폼까지 데려다줄 것이다.",
+      "oQueMelhora": "수줍은 사양을 거절로 읽는 걸 멈추게 되고, 두 언어가 어설프게 섞인 대화가 실제로 통하면서 계속 이어진다.",
+      "ondeNaoVale": "상대가 정말로 열차를 놓칠까 봐 급하거나 영어를 전혀 못하는 게 분명할 때는 다르다 — 그럴 땐 밀어붙이지 말고 적힌 주소를 가리키거나 다른 사람에게 물어보는 게 정직한 대응이다.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "fr-b03-n04"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,297 @@
+{
+  "id": "b05",
+  "nivel": "basico",
+  "numero": 5,
+  "parte": "B05",
+  "titulo": "目的, 何日, どこ — 답 세 개면 통과다",
+  "subtitulo": "왜 왔는지, 얼마나 머무는지, 어디서 자는지 — 짧고 진실하게, 나머지는 예약서가 알아서 한다",
+  "cena": "입국 심사 줄, 심사관의 눈은 벌써 다음 여권으로 넘어가고 있다.",
+  "moldura": "ganha",
+  "frasePiso": "질문받은 것에만 답하고 멈춰라. 나머지는 예약서가 다 알아서 한다.",
+  "moldes": [],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-b05-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "이 창구는 질문 세 개일 뿐, 일본어 시험이 아니다. 왜 왔는지, 얼마나, 어디서 자는지."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-b05-r01",
+      "es": "こんにちは。旅行の目的は何ですか？",
+      "pt": "안녕하세요. 여행 목적이 뭔가요?",
+      "tts": "こんにちは。旅行の目的は何ですか？",
+      "receptivo": true,
+      "acao": "목적만 답하라. 일정은 빼라."
+    },
+    {
+      "consulta": [
+        "chegar/entrar"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-b05-p01",
+      "promptPt": "돌아다니고, 잘 먹고, 집으로 돌아가려고 왔다. 단어 하나로 말하라. 지금 말하세요.",
+      "audioKey": "fr-b05-t01",
+      "es": "観光です。",
+      "pinyin": "kan-KOH dess",
+      "pt": "관광이에요.",
+      "tts": "観光です。"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-b05-r02",
+      "es": "何日間、滞在しますか？",
+      "pt": "며칠 머무세요?",
+      "tts": "何日間、滞在しますか？"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-b05-n02",
+      "bloco": "corpo",
+      "pt": "이 수업의 숫자가 아니라 당신 자신의 숫자를 써라. 어느 쪽이든 문장의 모양은 똑같이 짧다."
+    },
+    {
+      "consulta": [
+        "chegar/entrar"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-b05-p02",
+      "promptPt": "체류 기간만 말하고 그 외엔 아무것도 말하지 마라. 두 단어. 지금 말하세요.",
+      "audioKey": "fr-b05-t02",
+      "es": "十日間です。",
+      "pinyin": "TOH-ka-kan dess",
+      "pt": "열흘이에요.",
+      "tts": "十日間です。"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-b05-r03",
+      "es": "どこに泊まりますか？",
+      "pt": "어디서 묵으세요?",
+      "tts": "どこに泊まりますか？",
+      "receptivo": true,
+      "acao": "도시와 숙소 종류만 말하라. 거기서 멈춰라."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-b05-n03",
+      "pt": "그 숙소를 어떻게 찾았는지 이야기가 아니다. 도시, 숙소 종류, 끝."
+    },
+    {
+      "consulta": [
+        "chegar/entrar",
+        "quarto/checkin"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-b05-p03",
+      "promptPt": "어디서 자는지 간단히 말하라 — 도시와 숙소 종류. 지금 말하세요.",
+      "audioKey": "fr-b05-t03",
+      "es": "東京の、ホテルです。",
+      "pinyin": "TOH-kyoh no, HO-te-ru dess",
+      "pt": "도쿄에 있는 호텔이에요.",
+      "tts": "東京の、ホテルです。"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-b05-r04",
+      "es": "予約はありますか？",
+      "pt": "예약이 있으세요?",
+      "tts": "予約はありますか？"
+    },
+    {
+      "consulta": [
+        "chegar/entrar"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-b05-p04",
+      "promptPt": "어젯밤 저장해 둔 오프라인 사본을 건네고, 그 서류가 말하게 하라. 지금 말하세요.",
+      "audioKey": "fr-b05-t04",
+      "es": "はい、これです。",
+      "pinyin": "HAI, ko-re dess",
+      "pt": "네, 여기 있어요.",
+      "tts": "はい、これです。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-b05-n04",
+      "bloco": "capsula",
+      "pt": "これです가 문장 전부다. 세 음절과 펼친 손이 어떤 장황한 설명보다 앞선다."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-b05-n05",
+      "pt": "질문을 못 알아들었으면 한 번, 분명하게 그렇게 말하라. 이 창구에서는 짐작보다 물어보는 게 낫다."
+    },
+    {
+      "consulta": [
+        "reparo/devagar"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "SUMIMASEN",
+      "encaixe": "わかりませんでした",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-b05-p05",
+      "promptPt": "너무 빨리 지나가서 못 잡았다. 두 번 사과하지 말고 깔끔하게 말하라. 지금 말하세요.",
+      "audioKey": "fr-b05-t05",
+      "es": "すみません、わかりませんでした。",
+      "pinyin": "soo-mee-ma-SEN, wa-ka-ri-ma-sen-DESH-ta",
+      "pt": "죄송해요, 못 알아들었어요.",
+      "tts": "すみません、わかりませんでした。"
+    },
+    {
+      "consulta": [
+        "chegar/entrar"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-b05-p06",
+      "promptPt": "이번 여행에 동행이 없다. 세 단어로 말하라. 지금 말하세요.",
+      "audioKey": "fr-b05-t06",
+      "es": "一人で旅行しています。",
+      "pinyin": "hi-TO-ri de ryo-KOH shi-te i-mass",
+      "pt": "혼자 여행하고 있어요.",
+      "tts": "一人で旅行しています。"
+    },
+    {
+      "consulta": [
+        "chegar/entrar",
+        "transporte/bilhete"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-b05-p07",
+      "promptPt": "다른 곳도 가는지 묻는다. 진실하고 간결하게 답하라. 지금 말하세요.",
+      "audioKey": "fr-b05-t07",
+      "es": "その後、京都に行きます。",
+      "pinyin": "so-no a-to, KYOH-to ni i-ki-mass",
+      "pt": "그다음엔 교토에 가요.",
+      "tts": "その後、京都に行きます。"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-b05-r05",
+      "es": "はい、大丈夫です。良いご旅行を。",
+      "pt": "네, 다 됐습니다. 좋은 여행 되세요.",
+      "tts": "はい、大丈夫です。良いご旅行を。"
+    },
+    {
+      "consulta": [
+        "simpatia/agradecer"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-b05-p08",
+      "promptPt": "세 단어, 여권을 받고, 걸어가라. 지금 말하세요.",
+      "audioKey": "fr-b05-t08",
+      "es": "ありがとうございます。",
+      "pinyin": "a-ri-ga-TOH go-za-i-mass",
+      "pt": "감사합니다.",
+      "tts": "ありがとうございます。"
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_fr_f",
+      "audioKey": "fr-b05-s01",
+      "es": "観光です。十日間です。東京の、ホテルです。はい、これです。",
+      "pinyin": "kan-KOH dess · TOH-ka-kan dess · TOH-kyoh no HO-te-ru dess · HAI ko-re dess",
+      "pt": "세 개의 답을 따라 말해 보라, 각각 끝나면 깔끔하게 멈춘다.",
+      "tts": "観光です。十日間です。東京の、ホテルです。はい、これです。"
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-b05-n06",
+      "bloco": "recap",
+      "pt": "B05 완료. 목적, 기간, 장소, これです. 짧다는 건 회피가 아니다 — 짧다는 건 답이 질문에 정확히 맞았다는 뜻이다."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "이 창구는 맞추기 과제다",
+    "secoes": [
+      {
+        "titulo": "유창함보다 진실이 이긴다",
+        "corpo": "당신의 실제 항공권이 다른 걸 말하고 있는데 이 수업의 열흘을 그대로 반복하지 마라. 숫자만 진실로 바꿔라; 문장의 길이와 모양은 그대로다."
+      },
+      {
+        "titulo": "질문 하나, 답 하나",
+        "corpo": "목적, 기간, 장소는 하나의 연설이 아니라 세 개의 서로 다른 답이다. 물어보기도 전에 셋을 다 쌓아 올리는 것이 30초짜리 대화를 3분짜리로 만드는 가장 흔한 방법이다."
+      },
+      {
+        "titulo": "서류가 말하게 하라",
+        "corpo": "これです는 대화를 당신의 기억에서 당신의 증거로 옮겨 준다. 이 모듈 전체에서 가장 짧고 쓸모 있는 문장이고, 압박 속에서 당신이 조립해 낼 수 있는 어떤 설명보다 더 많은 일을 해낸다.",
+        "exemplos": [
+          {
+            "es": "予約はありますか？",
+            "pt": "예약이 있으세요?"
+          },
+          {
+            "es": "はい、これです。",
+            "pt": "네, 여기 있어요."
+          }
+        ]
+      },
+      {
+        "titulo": "정중하면서 짧게, 동시에",
+        "corpo": "-です 어미는 답에 장식으로 덧붙인 게 아니다 — 한 단어짜리 대답을 정중하게 유지해 주는 바로 그것이다. 観光です는 완전하고 예의 바르지만, 観光 단독은 밋밋하다. 이 창구에서 예의를 갖추려고 더 긴 문장이 필요한 게 아니라, 그 어미와 가벼운 목례, 그리고 멈춤이 필요하다."
+      },
+      {
+        "titulo": "규정은 바뀌니 출발 직전에 확인하라",
+        "corpo": "이 파트는 창구에서의 대화를 가르치지, 그 뒤의 입국 규정 자체를 가르치지 않는다. 무비자 조건과 그것이 허용하는 체류 기간은 바뀌고, 강좌 파일은 그걸 확인할 곳이 아니다 — 출발 직전에 자신의 여권에 해당하는 공식 자료를 확인하라."
+      }
+    ]
+  },
+  "slot": "B05",
+  "permissao": "세 단어로 답하고 멈춰도 된다. 짧고 진실한 답은 회피가 아니다 — 과잉 설명, 아무도 묻지 않은 세부 사항으로 침묵을 채우는 것, 질문이 요구하는 것보다 더 다정하게 들리려는 시도, 그것이야말로 국경 창구를 실제로 늦추는 것이다 — 그리고 당신은 그냥 그러지 않아도 된다.",
+  "permissaoAudioKey": "fr-b05-n01",
+  "espelho": "고국에서 심사관에게 하룻밤 질문 하나에 일정 전체를 자진 신고해 본 사람이라면 이 파트가 고쳐 주는 그 본능을 안다. 이건 일본만의 현상이 아니다 — 질문이 필요로 하는 것보다 더 많은 말로 침묵을 채우는 긴장한 습관이고, 어느 나라 국경에서든 똑같이 읽힌다.",
+  "fichasCulturais": [
+    {
+      "sinal": "심사관이 짧은 질문 하나를 던졌는데, 나 자신이 아무도 요청하지 않은 설명을 덧붙이고 있다 — 왜 이 여행을 왔는지, 지난번엔 뭘 했는지, 얼마나 기대되는지.",
+      "suaLeitura": "정보를 더 주면 개방적이고 친근해 보이고, 숨기는 게 없다는 증명이 된다.",
+      "oQueEAli": "이 창구는 짧게 짝지어진 답들의 줄을 처리하고 있고, 당신 정보의 상당 부분은 이미 작성한 입국카드에 있다. 질문한 범위를 넘어서는 대답은 따뜻함이 아니라 확인해야 할 자료로 읽히고, 당신 뒤의 줄도 심사관의 오후 업무 일부다.",
+      "oQueVoceFaz": "실제로 받은 질문의 핵심에만 답하고, 멈춘 뒤 다음 질문을 기다려라.",
+      "oQueMelhora": "대화가 그 창구가 이미 맞춰진 리듬으로 흘러가고, 당신은 더 느려지는 게 아니라 더 빨리 통과한다.",
+      "ondeNaoVale": "심사관이 복합 질문을 하거나 명시적으로 더 말해 달라고 청할 때는 아니다. 그때는 물어본 모든 것에 답하는 게 맞는 짝이고, 짧게 자른 대답이 오히려 어긋난 것이다.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "fr-b05-n01"
+      ]
+    },
+    {
+      "sinal": "창구에 다가서자 심사관의 톤이 평평하고 형식적이고, 전체 대화가 예상보다 차갑게 느껴진다.",
+      "suaLeitura": "외국인을 상대하기 싫거나, 영어로 말을 거는 게 못마땅한 거야.",
+      "oQueEAli": "일본 입국 심사대는 기본적으로 중립적이고 절차적인 어투로 돌아간다 — 그 평평한 톤은 업무의 설정값이지 당신을 겨냥한 신호가 아니다. 여기서 정중함은 목소리의 따뜻함이 아니라 -です 어미와 가벼운 목례로 실린다, 그리고 직원은 줄 안의 모든 사람에게 같은 톤을 유지한다.",
+      "oQueVoceFaz": "그 톤에 맞춰라: 가벼운 목례, 답에 붙이는 정중한 어미, 그리고 심사관을 굳이 데우려 하지 마라. 観光です, 十日間です, 그리고 기다려라.",
+      "oQueMelhora": "절차를 적대감으로 읽는 걸 멈추게 되고, 대화는 원래 의도된 만큼 짧고 매끄럽게 유지된다.",
+      "ondeNaoVale": "이건 기본 어투에 대한 해석이지, 누군가의 감정에 대한 주장이 아니다 — 긴 근무 끝의 지친 창구는 그냥 지친 창구일 때도 있다.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "fr-b05-t01"
+      ]
+    }
+  ]
+}

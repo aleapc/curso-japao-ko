@@ -1,0 +1,373 @@
+{
+  "id": "i04",
+  "nivel": "intermediario",
+  "numero": 22,
+  "parte": "I04",
+  "titulo": "One drink named, and the small dish you did not order",
+  "subtitulo": "The izakaya hour, the otoshi that arrives with the seat, and the sentence that leaves a table so they want you back",
+  "cena": "Half past eight, the izakaya is full and loud, and someone at your table has just turned to ask what you are drinking.",
+  "moldura": "ganha",
+  "frasePiso": "Name one drink out loud and you are in the evening instead of watching it.",
+  "decisao": "onde me sento e o que peço primeiro num izakaya, o que é aquele pratinho que chega sem pedir, e como saio da mesa deixando a porta aberta",
+  "moldes": [],
+  "fatosDatados": [
+    {
+      "id": "fr-i04-otoshi",
+      "afirmacao": "At most izakaya a small dish you did not order arrives with your seat — the otoshi (also tsukidashi). It is not a mistake and not a free snack: it functions as a seat or cover charge, usually a few hundred yen per person, added to the bill whether you touch it or not. It is customary and generally treated as lawful when it is the house's standard practice. The useful reading for a visitor: the otoshi is the price of sitting down, the same way a table anywhere carries the cost of the chair.",
+      "fonte": "お通し／突き出し — cobrança de assento costumeira em izakaya no Japão (prática consuetudinária; alvo recorrente de dúvida de consumidor, geralmente lícita quando é praxe da casa)",
+      "ano": 2026,
+      "revisarAte": "2027-08-05",
+      "evidencia": "CONSENSO",
+      "risco": "medio",
+      "audioKeys": [
+        "fr-i04-n02",
+        "fr-i04-n03"
+      ]
+    },
+    {
+      "id": "fr-i04-genkin",
+      "afirmacao": "Cashless payment has spread fast in Japan, but many small and traditional izakaya still take cash only, and a posted genkin nomi (cash only) sign is ordinary. There is no general rule forcing a small business to accept cards, and splitting the bill (warikan) is the everyday norm rather than the exception. Practical corollary: carry enough yen for the evening, and expect to pay at the register on the way out rather than at the table.",
+      "fonte": "現金のみ (somente dinheiro) frequente em izakaya pequenos; 割り勘 (rateio) como norma social; pagamento no caixa na saída",
+      "ano": 2026,
+      "revisarAte": "2027-08-05",
+      "evidencia": "CONSENSO",
+      "risco": "medio",
+      "audioKeys": [
+        "fr-i04-n05"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-i04-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "The evening starts with one drink named out loud and ends with one sentence. Both halves are learnable tonight."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-i04-r01",
+      "receptivo": true,
+      "acao": "This is the opening. Answer with a drink, not with a smile.",
+      "es": "何か飲みますか？",
+      "pt": "Having something to drink?",
+      "tts": "何か飲みますか？"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-i04-n02",
+      "pt": "A small dish arrives that you did not order. That is the otoshi, the seat charge: not a gift and not an error."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_f",
+      "audioKey": "fr-i04-t01",
+      "es": "生ビールをお願いします。",
+      "pinyin": "NA-ma BII-ru o o-ne-gai-shi-MAS",
+      "pt": "A draught beer, please.",
+      "tts": "生ビールをお願いします。"
+    },
+    {
+      "consulta": [
+        "mesa/bebida",
+        "chegar/balcao"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-i04-p01",
+      "promptPt": "The staff looks up and waits. Order the thing everyone starts an evening with here. Speak now.",
+      "audioKey": "fr-i04-t01",
+      "es": "生ビールをお願いします。",
+      "pinyin": "NA-ma BII-ru o o-ne-gai-shi-MAS",
+      "pt": "A draught beer, please.",
+      "tts": "生ビールをお願いします。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-i04-n03",
+      "bloco": "corpo",
+      "pt": "The otoshi is a few hundred yen a head, on the bill whether you eat it or not. It is lawful practice: the price of the seat."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-i04-r02",
+      "es": "カウンター席もありますよ。",
+      "pt": "There are counter seats too, if you like.",
+      "tts": "カウンター席もありますよ。"
+    },
+    {
+      "consulta": [
+        "mesa/mesa"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-i04-p02",
+      "promptPt": "You would rather have a table than the counter. Ask whether one is free. Speak now.",
+      "audioKey": "fr-i04-t02",
+      "es": "テーブル席は空いていますか？",
+      "pinyin": "TEH-bu-ru se-ki wa a-i-te-i-mas-ka",
+      "pt": "Is there a table free?",
+      "tts": "テーブル席は空いていますか？"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-i04-n04",
+      "bloco": "capsula",
+      "pt": "Nama is beer from the tap. Toriaezu nama, a draught to start, is the ordinary opening order while everyone reads the menu."
+    },
+    {
+      "consulta": [
+        "mesa/bebida"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-i04-p03",
+      "promptPt": "Two of you, one on beer and one on wine. Put both in one go. Speak now.",
+      "audioKey": "fr-i04-t03",
+      "es": "生ビールを二つと、赤ワインを一つお願いします。",
+      "pinyin": "NA-ma BII-ru o fu-TA-tsu to, a-ka-WA-in o hi-TO-tsu o-ne-gai-shi-MAS",
+      "pt": "Two draught beers and a red wine, please.",
+      "tts": "生ビールを二つと、赤ワインを一つお願いします。"
+    },
+    {
+      "consulta": [
+        "mesa/bebida",
+        "chegar/balcao"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-i04-p04",
+      "promptPt": "The glasses are empty and the staff catches your eye. Ask for a repeat of exactly what was there. Speak now.",
+      "audioKey": "fr-i04-t04",
+      "es": "同じものをお願いします。",
+      "pinyin": "o-NA-ji mo-no o o-ne-gai-shi-MAS",
+      "pt": "The same again, please.",
+      "tts": "同じものをお願いします。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-i04-n05",
+      "pt": "Cards are not guaranteed here. Many small izakaya are cash only, and you usually pay at the register on the way out, not the table."
+    },
+    {
+      "consulta": [
+        "pagar/cartao"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-i04-p05",
+      "promptPt": "Small place, no card logo anywhere, and your pocket has plastic in it and little else. Check before the second round. Speak now.",
+      "audioKey": "fr-i04-t05",
+      "es": "カードは使えますか？",
+      "pinyin": "KAH-do wa tsu-ka-e-mas-ka",
+      "pt": "Can I use a card?",
+      "tts": "カードは使えますか？"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-i04-r03",
+      "receptivo": true,
+      "acao": "Cash only. Not a snub — plan to pay in yen at the register.",
+      "es": "すみません、現金のみなんです。",
+      "pt": "Sorry, we're cash only.",
+      "tts": "すみません、現金のみなんです。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-i04-n06",
+      "pt": "Koko wa watashi ga means this one is on me. Said early, it settles things and nobody counts, though splitting is just as normal."
+    },
+    {
+      "consulta": [
+        "pagar/rachar",
+        "simpatia/brindar"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-i04-p06",
+      "promptPt": "They have paid twice already and hands are reaching for wallets again. Claim it before anyone else does. Speak now.",
+      "audioKey": "fr-i04-t06",
+      "es": "ここは私が払います。",
+      "pinyin": "ko-KO wa wa-TA-shi ga ha-ra-i-mas",
+      "pt": "This one is on me.",
+      "tts": "ここは私が払います。"
+    },
+    {
+      "consulta": [
+        "pagar/rachar"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-i04-p07",
+      "promptPt": "Four people, four different orders, and the staff is at the register with one machine. Tell them how you want it handled. Speak now.",
+      "audioKey": "fr-i04-t07",
+      "es": "別々でお願いします。",
+      "pinyin": "be-TSU-be-tsu de o-ne-gai-shi-MAS",
+      "pt": "Separately, please.",
+      "tts": "別々でお願いします。"
+    },
+    {
+      "consulta": [
+        "pagar/pedir"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-i04-p08",
+      "promptPt": "Three rounds went by without anyone naming a number. Ask for the total before you reach for anything. Speak now.",
+      "audioKey": "fr-i04-t08",
+      "es": "全部でいくらですか？",
+      "pinyin": "ZEN-bu de i-ku-ra des-ka",
+      "pt": "How much is it altogether?",
+      "tts": "全部でいくらですか？"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-i04-r04",
+      "es": "いいから、最後は僕が出しますよ。",
+      "pt": "Go on, the last one's on me.",
+      "tts": "いいから、最後は僕が出しますよ。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-i04-n07",
+      "pt": "Leaving is its own move. You say you are heading off, you thank the evening, and you leave the table warm."
+    },
+    {
+      "consulta": [
+        "chegar/sair",
+        "simpatia/agradecer"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-i04-p09",
+      "promptPt": "It is late and you have an early start. Stand up and close the table warmly. Speak now.",
+      "audioKey": "fr-i04-t09",
+      "es": "そろそろ失礼します。今日はありがとうございました。",
+      "pinyin": "so-ro-so-ro shi-TSU-rei shi-mas. KYOH wa a-ri-ga-toh go-za-i-MASH-ta",
+      "pt": "I'll head off now. Thank you for today.",
+      "tts": "そろそろ失礼します。今日はありがとうございました。"
+    },
+    {
+      "consulta": [
+        "simpatia/agradecer",
+        "chegar/sair"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-i04-p10",
+      "promptPt": "You are at the door and the table is still full behind you. One last line over your shoulder. Speak now.",
+      "audioKey": "fr-i04-t10",
+      "es": "お疲れ様でした！",
+      "pinyin": "o-tsu-ka-re-sa-ma-DESH-ta",
+      "pt": "Thanks, good night!",
+      "tts": "お疲れ様でした！"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-i04-r05",
+      "es": "また来てくださいね！",
+      "pt": "Come back again, yeah!",
+      "tts": "また来てくださいね！"
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_fr_f",
+      "audioKey": "fr-i04-s01",
+      "es": "生ビールをお願いします。ここは私が払います。そろそろ失礼します。",
+      "pinyin": "NA-ma BII-ru o o-ne-gai-shi-MAS. ko-KO wa wa-TA-shi ga ha-ra-i-mas. so-ro-so-ro shi-TSU-rei shi-mas",
+      "pt": "Shadow the three moves of an evening: order, pay, leave.",
+      "tts": "生ビールをお願いします。ここは私が払います。そろそろ失礼します。"
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-i04-n08",
+      "bloco": "recap",
+      "pt": "I04 done. One drink named, the otoshi understood, one bill settled, and a goodbye that leaves the door open."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "The seat, the round, and the way out",
+    "secoes": [
+      {
+        "titulo": "The otoshi is the seat",
+        "corpo": "At most izakaya a small dish arrives with your seat, the otoshi, and it carries a per-person charge of a few hundred yen that goes on the bill whether or not you eat it. It is customary house practice, not a mistake and not a scam; think of it as the cover charge in edible form. Knowing it is coming turns a surprise line on the bill into a number you expected.",
+        "exemplos": [
+          {
+            "es": "生ビールをお願いします。",
+            "pt": "A draught beer, please."
+          },
+          {
+            "es": "全部でいくらですか？",
+            "pt": "How much is it altogether?"
+          }
+        ]
+      },
+      {
+        "titulo": "Toriaezu nama",
+        "corpo": "A draught to start with is the standard opening order while the table reads the menu; nobody expects you to have decided everything at once. Ordering a first nama buys you the time to look, and it is the single most ordinary thing said at that table."
+      },
+      {
+        "titulo": "Cash, and splitting",
+        "corpo": "Cashless has spread, but plenty of small izakaya remain cash only, and a genkin nomi sign is ordinary rather than pointed. Splitting the bill — warikan — is the everyday default, and paying happens at the register on the way out. Carry enough yen for the night and neither habit catches you out."
+      },
+      {
+        "titulo": "Claim or split, but do it out loud",
+        "corpo": "Koko wa watashi ga works best said early, before the reaching for wallets starts. Said late it becomes an argument about who owes what — the one part of the evening nobody wants. If splitting is the plan, betsubetsu de at the register handles it cleanly for everyone."
+      }
+    ]
+  },
+  "slot": "I04",
+  "permissao": "You are allowed to sit at the counter and order one draught. Standing or sitting at the counter with a nama is the most ordinary thing happening on that street, nobody reads it as thrift, and the otoshi that arrives is the price of the seat, not a trick played on a visitor.",
+  "permissaoAudioKey": "fr-i04-n03",
+  "espelho": "Anyone who has watched a friend quietly pay for everything all night and then felt the awkwardness of trying to square it up on the pavement afterwards already knows why paying gets settled out loud and early. That instinct transfers whole — only the words are new.",
+  "fichasCulturais": [
+    {
+      "sinal": "You sit down and a small dish you never ordered is placed in front of you, and later there is a charge on the bill for it.",
+      "suaLeitura": "They slipped a visitor an extra dish and billed me for something I did not ask for.",
+      "oQueEAli": "That dish is the otoshi, the izakaya's seat charge in edible form. It is customary, usually a few hundred yen a head, and it applies to everyone in the room, not just to you. It is the cost of the seat, the same way a table anywhere carries the cost of the chair.",
+      "oQueVoceFaz": "Expect it, factor a few hundred yen per person into the evening, and eat it or leave it — the charge is the same either way. If you want to know the figure, ask when you order.",
+      "oQueMelhora": "A surprise line on the bill becomes a number you already expected, and the otoshi stops reading as a trick.",
+      "ondeNaoVale": "Not everywhere charges one — many chain and lunch places do not, and a bar that adds a large unexplained charge with no otoshi custom is a different conversation. Ask if a figure looks off.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "fr-i04-n03"
+      ]
+    },
+    {
+      "sinal": "You reach the register with a card and are told the place is cash only.",
+      "suaLeitura": "That cannot be right in a country this modern, or they are singling me out.",
+      "oQueEAli": "There is no general rule forcing a small business to take cards, and many traditional izakaya remain cash only by choice. A genkin nomi sign is ordinary and lawful, and splitting the bill in cash is the social default rather than an imposition.",
+      "oQueVoceFaz": "Carry enough yen for the whole evening, ask kaado wa tsukaemasu ka before you settle in if it matters, and expect to pay at the register on the way out.",
+      "oQueMelhora": "You keep a cash cushion for exactly these places and stop reading a posted policy as a personal refusal.",
+      "ondeNaoVale": "Not a claim that cards never work — chains, hotels and city-centre bars increasingly take them and IC cards too. This is a reason to carry cash, not to assume plastic is useless.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "fr-i04-n05"
+      ]
+    }
+  ]
+}

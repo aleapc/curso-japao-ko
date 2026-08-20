@@ -1,0 +1,410 @@
+{
+  "id": "b14",
+  "nivel": "basico",
+  "numero": 14,
+  "parte": "B14",
+  "titulo": "O-kaikei —눈에 보이는 숫자가 이미 최종 숫자다",
+  "subtitulo": "세금은 일본 법에 따라 가격 안에 이미 포함되어 있고, 팁을 계산할 필요도 없으며, 대개 테이블이 아니라 나가는 길에 있는 계산대에서 결제한다",
+  "cena": "그릇은 이미 치워졌고, 뒤쪽 카운터는 손님으로 가득하며, 당신이 요청하기 전까지는 아무도 아무것도 가져다주지 않는다.",
+  "moldura": "ganha",
+  "frasePiso": "당신은 계산서를 요청하고, 결제 방법을 정하고, 영수증을 들고 나갈 것이다, 전부 일본어로. 그 테이블에 있는 대부분의 사람은 그냥 허공에 펜을 흔든다.",
+  "moldes": [],
+  "fatosDatados": [
+    {
+      "id": "fr-service-compris",
+      "afirmacao": "일본에서는 법에 따라(総額表示) 소비세가 표시 가격 안에 이미 포함되어 있어서, 메뉴에 적힌 숫자가 대개 당신이 낼 숫자이며, 팁 문화는 없다. 소수의 가게, 주로 호텔이나 고급 레스토랑은 게시된 서비스료(サービス料)를 추가로 받는데, 그럴 경우 미리 표시되어 있고, 당신이 알아서 정하는 팁이 아니다.",
+      "fonte": "総額表示義務 (obrigatório desde abr/2021); ausência de cultura de gorjeta; サービス料, quando existe, é informada previamente.",
+      "ano": 2026,
+      "revisarAte": "2028-08-01",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "fr-b14-n03"
+      ]
+    },
+    {
+      "id": "fr-note-25-euros",
+      "afirmacao": "대부분의 일본 식당과 카페에서는 테이블이 아니라 나가는 길에 있는 계산대에서 결제한다. 직원은 테이블 위나 근처에 전표(伝票)를 남겨 두고, 당신은 그것을 들고 계산대(レジ)까지 가서 결제한다. 테이블에서 결제하려 하거나 계산서를 달라고 손을 흔들면 대개 앞쪽으로 안내받을 뿐이다.",
+      "fonte": "Costume japonês: pagamento na レジ (caixa) na saída, levando o 伝票, em vez de pagar na mesa.",
+      "ano": 2026,
+      "revisarAte": "2028-08-01",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "fr-b14-n04"
+      ]
+    },
+    {
+      "id": "fr-ticket-caisse-2023",
+      "afirmacao": "종이는 두 종류다. レシート는 자동으로 인쇄되는 보통의 계산대 영수증이다. 領収書는 대개 경비 처리나 환급용으로, 이름을 대고 요청하는 정식 영수증이며, 직원이 적을 이름을 물어볼 수 있고(또는 플레이스홀더로 上様를 쓰기도 한다). 領収書를 요청하는 것은 완전히 일상적인 일이다.",
+      "fonte": "Distinção entre レシート (cupom fiscal comum) e 領収書 (recibo formal para despesas), pedido pelo nome; costume comum no Japão.",
+      "ano": 2026,
+      "revisarAte": "2027-08-01",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "fr-b14-n05"
+      ]
+    },
+    {
+      "id": "fr-cartao-recusavel",
+      "afirmacao": "일본에서는 여전히 현금이 널리 통용되며, 작은 가게나 가족 경영 가게는 현금만 받는 경우가 많고, 그렇게 게시된 표지판은 정상이고 합법이다. 사업체가 반드시 카드를 받아야 한다는 일반 규칙은 없다. 카드, Suica 같은 IC카드, PayPay 같은 QR코드를 포함한 비현금 결제는 도시와 체인점에서 빠르게 퍼지고 있지만, 엔화 현금은 언제나 계산을 끝내 준다.",
+      "fonte": "Dinheiro ainda amplamente esperado, muitos estabelecimentos somente-dinheiro; sem regra que obrigue aceitar cartão; pagamento sem contato (cartão, IC, QR) cresce nas cidades.",
+      "ano": 2026,
+      "revisarAte": "2027-08-01",
+      "evidencia": "CONSENSO",
+      "risco": "medio",
+      "audioKeys": [
+        "fr-b14-n06"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-b14-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "14부. 계산서 차례다, 그리고 좋은 소식은 계산은 당신이 앉기 전에 이미 끝나 있었다는 것이다."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-b14-n02",
+      "bloco": "cena",
+      "pt": "그릇은 사라졌고, 뒤쪽 카운터는 손님으로 가득하며, 당신이 요청할 때까지 다음 일은 일어나지 않는다."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_f",
+      "audioKey": "fr-b14-t01",
+      "es": "お会計をお願いします。",
+      "pinyin": "o-KAI-kei o o-ne-gai-shi-MAS",
+      "pt": "계산서 부탁드려요.",
+      "tts": "お会計をお願いします。"
+    },
+    {
+      "consulta": [
+        "pagar/pedir",
+        "mesa/conta"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "ONEGAI-SHIMASU",
+      "encaixe": "お会計",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-b14-p01",
+      "promptPt": "직원이 잔 두 개를 든 채 당신의 테이블을 지나가다가 반 초쯤 눈이 마주친다. 지금 말하세요.",
+      "audioKey": "fr-b14-t01",
+      "es": "お会計をお願いします。",
+      "pinyin": "o-KAI-kei o o-ne-gai-shi-MAS",
+      "pt": "계산서 부탁드려요."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-b14-r01",
+      "es": "かしこまりました。お会計はあちらのレジでお願いします。",
+      "pt": "알겠습니다. 계산은 저쪽 계산대에서 부탁드립니다.",
+      "tts": "かしこまりました。お会計はあちらのレジでお願いします。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-b14-n03",
+      "bloco": "corpo",
+      "pt": "세금은 여기서 법에 따라 가격 안에 이미 포함되어 있고, 팁은 없다. 서비스료가 있는 곳이라면 그건 미리 게시된 항목이지, 당신이 얹는 게 아니다."
+    },
+    {
+      "consulta": [
+        "pagar/gorjeta",
+        "mesa/conta"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-b14-p02",
+      "promptPt": "가게가 조금 격식 있어 보여서 위에 더 붙는 게 있는지 알고 싶다. 지금 말하세요.",
+      "audioKey": "fr-b14-t02",
+      "es": "サービス料は入っていますか？",
+      "pinyin": "SAA-bi-su ryoo wa hait-te i-MAS ka",
+      "pt": "서비스료가 포함되어 있나요?",
+      "tts": "サービス料は入っていますか？"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-b14-r02",
+      "receptivo": true,
+      "es": "うちはサービス料はありません。表示の金額だけです。",
+      "pt": "저희는 서비스료가 없습니다. 표시된 금액이 전부예요.",
+      "tts": "うちはサービス料はありません。表示の金額だけです。",
+      "acao": "그 말을 그대로 받아들여라. 눈앞의 총액이 진짜 총액이고, 그 위에 얹을 팁은 없다."
+    },
+    {
+      "consulta": [
+        "pagar/rachar",
+        "mesa/conta"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-b14-p03",
+      "promptPt": "넷이서 함께, 전표는 한 장, 누군가 총액을 소리 내어 알고 싶어 한다. 지금 말하세요.",
+      "audioKey": "fr-b14-t03",
+      "es": "全部でいくらですか？",
+      "pinyin": "ZEN-bu de i-ku-ra des ka",
+      "pt": "전부 합해서 얼마예요?",
+      "tts": "全部でいくらですか？"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-b14-n04",
+      "pt": "결제는 테이블이 아니라 계산대에서 한다. 테이블에 놓인 전표가 바로 伝票다 — 그걸 들고 앞쪽으로 가서 결제하라."
+    },
+    {
+      "consulta": [
+        "pagar/pedir",
+        "compras/pagar"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "ONEGAI-SHIMASU",
+      "encaixe": "領収書",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-b14-p04",
+      "promptPt": "셋이서 저녁을 먹었고, 회사에서 서류를 원할 것이다. 정식 영수증을 요청하라. 지금 말하세요.",
+      "audioKey": "fr-b14-t04",
+      "es": "領収書をお願いします。",
+      "pinyin": "ryoo-SHOO-sho o o-ne-gai-shi-MAS",
+      "pt": "정식 영수증 부탁드려요.",
+      "tts": "領収書をお願いします。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-b14-n05",
+      "pt": "종이는 두 가지다: レシート는 보통의 계산대 영수증, 領収書는 경비 처리용 정식 영수증이다. 領収書는 이름으로 요청하라."
+    },
+    {
+      "consulta": [
+        "pagar/cartao"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "ONEGAI-SHIMASU",
+      "encaixe": "カード",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-b14-p05",
+      "promptPt": "계산대 앞이고 지갑에는 카드밖에 없다. 어떻게 결제할지 말하라. 지금 말하세요.",
+      "audioKey": "fr-b14-t05",
+      "es": "カードでお願いします。",
+      "pinyin": "KAA-do de o-ne-gai-shi-MAS",
+      "pt": "카드로 부탁드려요.",
+      "tts": "カードでお願いします。"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-b14-r03",
+      "receptivo": true,
+      "es": "申し訳ありません、当店は現金のみです。",
+      "pt": "죄송합니다, 저희는 현금만 받습니다.",
+      "tts": "申し訳ありません、当店は現金のみです。",
+      "acao": "나갈 때 전표를 보지 말고, 들어갈 때 문과 계산대를 살펴라. 작은 가게는 현금만 받는 경우가 흔하고, 그건 합법이다."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-b14-n06",
+      "bloco": "capsula",
+      "pt": "현금은 언제나 통한다. 카드는 반드시 받아야 하는 의무가 아니다. 도시에서는 비현금 결제가 빠르게 퍼지고 있지만, 작은 가게는 여전히 현금만 받을 수 있다."
+    },
+    {
+      "consulta": [
+        "pagar/cartao",
+        "compras/pagar"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-b14-p06",
+      "promptPt": "작은 가게 문 앞, 주문 전에 어디에도 카드 스티커가 보이지 않는다. 지금 말하세요.",
+      "audioKey": "fr-b14-t06",
+      "es": "カードは使えますか？",
+      "pinyin": "KAA-do wa tsu-ka-e-MAS ka",
+      "pt": "카드 쓸 수 있나요?",
+      "tts": "カードは使えますか？"
+    },
+    {
+      "consulta": [
+        "pagar/rachar"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "ONEGAI-SHIMASU",
+      "encaixe": "別々",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-b14-p07",
+      "promptPt": "둘이서, 지갑도 둘, 전표는 한 장. 하나로 합쳐 계산하기 시작하기 전에 말하라. 지금 말하세요.",
+      "audioKey": "fr-b14-t07",
+      "es": "別々でお願いします。",
+      "pinyin": "be-tsu-BE-tsu de o-ne-gai-shi-MAS",
+      "pt": "따로따로 계산 부탁드려요.",
+      "tts": "別々でお願いします。"
+    },
+    {
+      "consulta": [
+        "pagar/pedir",
+        "mesa/bebida"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-b14-p08",
+      "promptPt": "전표의 한 줄이 마지막 한 잔치고는 예상 못 한 금액이다. 그 항목을 물어라. 지금 말하세요.",
+      "audioKey": "fr-b14-t08",
+      "es": "コーヒーはいくらですか？",
+      "pinyin": "KOH-hee wa i-ku-ra des ka",
+      "pt": "커피는 얼마예요?",
+      "tts": "コーヒーはいくらですか？"
+    },
+    {
+      "consulta": [
+        "compras/pagar",
+        "pagar/cartao"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-b14-p09",
+      "promptPt": "카드 단말기가 삑 소리를 내고, 직원이 작은 영수증을 버리려는 참이다. 지금 말하세요.",
+      "audioKey": "fr-b14-t09",
+      "es": "レシートをお願いします。",
+      "pinyin": "re-SHEE-to o o-ne-gai-shi-MAS",
+      "pt": "영수증 부탁드려요.",
+      "tts": "レシートをお願いします。",
+      "molde": "ONEGAI-SHIMASU",
+      "encaixe": "レシート"
+    },
+    {
+      "consulta": [
+        "pagar/gorjeta",
+        "simpatia/agradecer"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-b14-p10",
+      "promptPt": "그 테이블에서 두 시간, 맛있는 식사, 팁은 기대되지 않는다. 여기 사람들이 식사를 끝맺는 방식으로 마무리하라. 지금 말하세요.",
+      "audioKey": "fr-b14-t10",
+      "es": "ごちそうさまでした。",
+      "pinyin": "go-chi-soo-sa-ma-DE-shi-ta",
+      "pt": "잘 먹었습니다.",
+      "tts": "ごちそうさまでした。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-b14-n07",
+      "bloco": "permissao",
+      "pt": "계산할 퍼센트도 없고, 더 내야 할 것도 없다. 당신이 남기는 것은 동전이 아니라 한 문장이다."
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_fr_f",
+      "audioKey": "fr-b14-s01",
+      "es": "お会計をお願いします。全部でいくらですか？ カードでお願いします。",
+      "pinyin": "o-KAI-kei o o-ne-gai-shi-MAS. ZEN-bu de i-ku-ra des ka. KAA-do de o-ne-gai-shi-MAS",
+      "pt": "마무리의 세 동작을 순서대로 따라 말하라.",
+      "tts": "お会計をお願いします。全部でいくらですか？ カードでお願いします。",
+      "molde": "ONEGAI-SHIMASU"
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-b14-n08",
+      "bloco": "recap",
+      "pt": "B14 완료. 요청하고, 총액을 듣고, 결제 방법을 말하고, 영수증을 받는다 — 그리고 세금은 이미 그 숫자 안에 있었고, 그 위에 팁은 없다."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "총액은 당신이 앉기 전에 이미 끝나 있었다",
+    "secoes": [
+      {
+        "titulo": "세금은 포함, 팁은 없음",
+        "corpo": "법에 따라 표시 가격에는 이미 소비세가 포함되어 있으므로, 요리 옆에 적힌 숫자가 곧 당신이 낼 숫자이고, 더할 팁은 없다. サービス料를 받는 곳이라면 미리 게시되어 있다. 실질적인 결과는 한 문장으로 요약된다: 보이는 숫자가 곧 내야 할 숫자다.",
+        "exemplos": [
+          {
+            "es": "サービス料は入っていますか？",
+            "pt": "서비스료가 포함되어 있나요?"
+          },
+          {
+            "es": "全部でいくらですか？",
+            "pt": "전부 합해서 얼마예요?"
+          }
+        ]
+      },
+      {
+        "titulo": "결제는 테이블이 아니라 계산대에서",
+        "corpo": "테이블에 남겨진 전표가 바로 伝票다. 대부분의 식당과 카페에서는 그걸 들고 앞쪽 계산대까지 가서 결제한다. 테이블에서 계산서를 달라고 손을 흔들어 봐야 결국 계산대로 안내받을 때가 많다 — 그러니 일어나서 전표를 들고 나가는 길에 결제하는 게 맞는 동작이다."
+      },
+      {
+        "titulo": "두 가지 다른 종이",
+        "corpo": "レシート는 자동으로 인쇄되는 보통의 계산대 영수증이다. 領収書는 경비 처리용 정식 영수증으로, 이름을 대고 요청한다. 직원이 어떤 이름을 적을지 물어볼 수 있고, 上様라는 플레이스홀더도 쓸 수 있다. 필요한 쪽을 요청하라. 둘 다 요청해도 전혀 이상하지 않고 비용도 들지 않는다.",
+        "exemplos": [
+          {
+            "es": "領収書をお願いします。",
+            "pt": "정식 영수증 부탁드려요."
+          },
+          {
+            "es": "レシートをお願いします。",
+            "pt": "영수증 부탁드려요."
+          }
+        ]
+      },
+      {
+        "titulo": "카드, 현금, 그리고 문 옆의 표지판",
+        "corpo": "일본에서는 어떤 사업체도 카드를 반드시 받아야 할 의무가 없고, 작은 가게나 가족 경영 가게는 현금만 받는 경우가 흔하며, 그렇게 게시된 표지판은 정상이고 합법이다. 카드, Suica 같은 IC카드, PayPay 같은 QR 앱을 포함한 비현금 결제는 도시와 체인점을 중심으로 빠르게 퍼지고 있다. 유용한 습관은 들어갈 때 계산대를 슬쩍 보는 것이다 — 엔화 현금은 언제나 계산을 끝내 준다."
+      },
+      {
+        "titulo": "팁은 없고, 그것을 대신하는 문장",
+        "corpo": "일본에는 팁 퍼센트가 알려져 있지 않은데, 그 이유는 애초에 팁이 없기 때문이다 — 인터넷에서 보는 퍼센트는 모두 지어낸 것이고, 테이블에 남긴 동전은 잊어버린 잔돈이라며 당신을 쫓아와 돌려줄 것이다. 대신 식사를 마무리하는 말은 나가는 길에 하는 gochisousama deshita다. 비용은 전혀 들지 않고, 오히려 사람들이 기억하는 부분이다."
+      }
+    ]
+  },
+  "slot": "B14",
+  "permissao": "당신은 원하는 순간에 계산서를 요청해도 되고, 대부분의 가게는 서비스료가 없더라도 포함되어 있는지 물어봐도 된다. 어느 질문도 누군가에 대한 도전이 아니다. 테이블은 당신이 요청할 때까지 당신 것이므로, 요청하는 것은 당신이 통제할 수 있는 부분이다.",
+  "permissaoAudioKey": "fr-b14-n07",
+  "espelho": "주목할 만한 습관은 계산서가 테이블로 오기를 기다리는 것이다. 고국에서는 대개 마지막 접시와 함께 계산서가 오지만, 여기서는 당신이 직접 전표를 들고 계산대로 가야 하므로, 당신을 무시하는 듯 보이는 테이블은 사실 당신에게 맡겨진 테이블일 뿐이다.",
+  "fichasCulturais": [
+    {
+      "sinal": "계산대에 정확한 총액이 표시되고, 팁 항목은 없으며, 직원은 그저 당신이 돈을 건네기를 기다린다.",
+      "suaLeitura": "팁 옵션이 없으니, 내가 알아서 퍼센트를 계산해 동전을 얹어야 하는구나.",
+      "oQueEAli": "세금은 법에 따라 가격 안에 이미 포함되어 있어서 화면의 총액은 이미 완결된 것이며, 일본에는 팁 문화가 없다. 인터넷에 떠도는 퍼센트는 전부 지어낸 것이고, 계산대는 그런 것을 기다리고 있지 않다 — 남기고 간 동전은 잊어버린 잔돈으로 여겨져 당신에게 돌려질 것이다.",
+      "oQueVoceFaz": "표시된 금액만 내고 그 위에 더하지 마라. 감사를 표하고 싶다면 나가는 길에 gochisousama deshita라고 말하라 — 그것이 여기의 통화다.",
+      "oQueMelhora": "식사의 마무리가 계산이 아니라 인사가 되고, 그것이 다음번에 따뜻한 환대를 받게 해 주는 부분이다.",
+      "ondeNaoVale": "일부 호텔이나 고급 레스토랑처럼 サービス料가 게시된 곳에서는 해당하지 않는다 — 거기서는 더 높은 총액이 미리 명시된 요금이지, 팁도 오류도 아니다.",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "fr-b14-n03",
+        "fr-b14-n07"
+      ]
+    },
+    {
+      "sinal": "카드를 들고 계산대에 갔는데, 이 가게는 현금만 받는다고 정중히 안내받는다.",
+      "suaLeitura": "이런 게 허용될 리 없거나, 나를 여행자라서 차별하는 거겠지.",
+      "oQueEAli": "일본은 여전히 현금 중심으로 돌아가고, 작은 가게나 가족 경영 가게는 현금만 받는 경우가 많다 — 현금만이라는 게시는 정상이고 합법이며, 카드를 반드시 받아야 한다는 규칙은 없다. 도시와 체인점은 카드, IC카드, QR 앱을 점점 더 받아들이고 있지만, 작은 카운터는 그렇지 않을 때가 많다.",
+      "oQueVoceFaz": "작은 가게를 위해 엔화 현금을 여유 있게 챙기고, 주문 전에 계산대나 문에서 카드 로고를 확인하라. 확실치 않으면 주문 전에 kaado wa tsukaemasu ka라고 물어라.",
+      "oQueMelhora": "이런 순간을 위한 작은 현금 여유를 갖게 되고, 게시된 정책을 개인적인 거절로 읽는 일을 멈추게 된다.",
+      "ondeNaoVale": "모든 곳이 현금만 받는 것은 아니며, 대도시에서는 비현금 결제 비중이 빠르게 늘고 있다. 이는 현금 여유를 챙길 이유이지, 카드가 절대 안 통한다고 단정할 이유는 아니다.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "fr-b14-n06",
+        "fr-b14-r03"
+      ]
+    }
+  ]
+}

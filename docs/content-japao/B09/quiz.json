@@ -1,0 +1,96 @@
+{
+  "id": "q-b09",
+  "nivel": "basico",
+  "titulo": "Quiz — The ticket, and whether this one needs a second one",
+  "subtitulo": "One ticket, or two",
+  "introAudioKey": "fr-b09-q-i",
+  "introPt": "A traveller settles a platform in four minutes and five questions.",
+  "cenario": "A station concourse, ticket in hand, four minutes to departure.",
+  "dialogo": [
+    {
+      "audioKey": "fr-b09-q01",
+      "voz": "target_fr_f",
+      "es": "特急券は要りますか？",
+      "pt": "Do I need a limited-express ticket?",
+      "tts": "特急券は要りますか？"
+    },
+    {
+      "audioKey": "fr-b09-q02",
+      "voz": "target_fr_m",
+      "es": "新幹線は要ります。でも普通電車なら要りませんよ。",
+      "pt": "On the Shinkansen, yes. But on a local train, no.",
+      "tts": "新幹線は要ります。でも普通電車なら要りませんよ。"
+    },
+    {
+      "audioKey": "fr-b09-q03",
+      "voz": "target_fr_f",
+      "es": "十二番線はどこですか？",
+      "pt": "Where is platform twelve?",
+      "tts": "十二番線はどこですか？"
+    },
+    {
+      "audioKey": "fr-b09-q04",
+      "voz": "target_fr_m",
+      "es": "十二番線、十四時三十五分発です。",
+      "pt": "Platform twelve, departure at fourteen thirty-five.",
+      "tts": "十二番線、十四時三十五分発です。"
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "On JR, how many tickets does a Shinkansen or limited-express (tokkyuu) train need?",
+      "opcoes": [
+        "One — the fare ticket covers it",
+        "Two — a basic fare ticket (joushaken) plus a limited-express ticket (tokkyuuken)",
+        "None, if you have an IC card",
+        "Three"
+      ],
+      "correta": 1,
+      "explica": "At the gate the two tickets often go in together and both come back out. Take them both."
+    },
+    {
+      "pergunta": "What does an ordinary local or rapid train need?",
+      "opcoes": [
+        "Two tickets, same as the fast trains",
+        "Only the fare, or a tap of an IC card",
+        "A limited-express ticket only",
+        "A reserved seat"
+      ],
+      "correta": 1,
+      "explica": "The second ticket is only for the Shinkansen and tokkyuu — exactly the fast trains a visitor most wants."
+    },
+    {
+      "pergunta": "The exit gate will not open. What has happened?",
+      "opcoes": [
+        "You have been fined on the spot",
+        "Honest underpayment — settle the difference at the fare-adjustment machine (seisanki) and walk through",
+        "Your ticket is confiscated",
+        "The station is closed"
+      ],
+      "correta": 1,
+      "explica": "This is not a penalty. You top up the difference at the norikoshi seisan machine or the window, unlike a European on-the-spot fine."
+    },
+    {
+      "pergunta": "What does «bansen» mean in an announcement?",
+      "opcoes": [
+        "The carriage",
+        "The platform track",
+        "The line's name",
+        "The exit"
+      ],
+      "correta": 1,
+      "explica": "Catch the number and the word bansen and let the rest of the sentence go."
+    },
+    {
+      "pergunta": "With a Japan Rail Pass, can you ride the fastest Nozomi and Mizuho services?",
+      "opcoes": [
+        "Yes, the Pass covers everything",
+        "Only by paying a separate supplement — the Pass alone does not cover them",
+        "No, never",
+        "Only in non-reserved cars for free"
+      ],
+      "correta": 1,
+      "explica": "Since the October 2023 price rise, Pass holders ride Nozomi and Mizuho only with a paid supplement."
+    }
+  ]
+}

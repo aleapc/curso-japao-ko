@@ -1,0 +1,373 @@
+{
+  "id": "a01",
+  "nivel": "avancado",
+  "numero": 29,
+  "parte": "A01",
+  "titulo": "How they talk when it is not to you",
+  "subtitulo": "Ordinary speech drops the desu and masu you were taught, plain form takes over, particles fall away, and a handful of tiny words carry the load",
+  "cena": "Two people beside you are having a whole conversation and you cannot find a single word boundary in any of it.",
+  "moldura": "ganha",
+  "frasePiso": "If you take one thing from this part — that wakarimasen comes out of a real mouth as wakannai — you will already follow more Japanese than most visitors ever do.",
+  "moldes": [],
+  "fatosDatados": [
+    {
+      "id": "fr-ef-epi-2025",
+      "afirmacao": "In the EF English Proficiency Index, Japan has for years sat in EF's 'low proficiency' band, near the bottom of the East-Asian ranking, and the 2024 edition placed it around 90th of over 110 countries. The ranking carries a limitation EF itself states: the sample is self-selected and requires internet access — 'an online survey rather than a statistically valid sampling of the population' — which biases it. It supports saying that English at large in Japan is limited and unevenly distributed. It does not support any claim about what share of people in Japan speak English, nor about the next person you meet.",
+      "fonte": "EF English Proficiency Index (Japão historicamente na faixa 'low proficiency', ~90ª posição na edição de 2024); ressalva da própria EF: «an online survey rather than a statistically valid sampling of the population»",
+      "ano": 2025,
+      "revisarAte": "2027-02-05",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "fr-a01-n10"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-a01-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "So far, Japanese aimed at you. This part is Japanese aimed at somebody else — a different thing entirely."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-a01-n02",
+      "bloco": "corpo",
+      "pt": "Rule one: the desu and masu drop. Wakarimasen is what gets said to you. Wakannai is what they say to each other."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_f",
+      "audioKey": "fr-a01-r01",
+      "receptivo": true,
+      "acao": "Do not chase the words. Catch that it was a shrug, and move on.",
+      "es": "さあ、わかんないなあ。",
+      "pt": "Hmm, dunno.",
+      "tts": "さあ、わかんないなあ。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-a01-n03",
+      "pt": "Same idea, three sizes: wakarimasen, wakaranai, wakannai. All three are ordinary speech, and only the first is for you."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-a01-r02",
+      "receptivo": true,
+      "acao": "Miteru is mite iru with the i eaten. Nai closes it off. Recognise, never reproduce.",
+      "es": "見てないの？何もないよ、別に。",
+      "pt": "Haven't you seen? There's nothing, really.",
+      "tts": "見てないの？何もないよ、別に。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-a01-n04",
+      "pt": "The particles go too. Iru becomes teru, and the wo and the ga simply vanish. You only ever need to spot these, never to say them."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_f",
+      "audioKey": "fr-a01-r03",
+      "receptivo": true,
+      "acao": "Sorosoro ikanakya means we are leaving now. If it is aimed at your table, stand up.",
+      "es": "そろそろ行かなきゃ。もう遅いし。",
+      "pt": "We've got to go soon. It's already late.",
+      "tts": "そろそろ行かなきゃ。もう遅いし。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-a01-n05",
+      "bloco": "capsula",
+      "pt": "Rule two: a few very small words carry the traffic — ne, sa, maa, nanka, tte iu ka. Catch those and the rest opens."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-a01-r04",
+      "receptivo": true,
+      "acao": "Three fillers and one real word. That is a complete, easy answer meaning yeah, obviously.",
+      "es": "まあね、うん。そういうこと。",
+      "pt": "Well yeah. That's the thing.",
+      "tts": "まあね、うん。そういうこと。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-a01-n06",
+      "pt": "Ne checks you are still there. Sa keeps the floor. Maa softens. Nanka is a spoken um, and tte iu ka means or rather."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_f",
+      "audioKey": "fr-a01-r05",
+      "receptivo": true,
+      "acao": "Dou suru signals a decision is coming. That is the half you want — listen to what follows it.",
+      "es": "で、どうする？っていうか、まだ決めてないんだけど。",
+      "pt": "So what do we do? Or rather, I haven't decided yet.",
+      "tts": "で、どうする？っていうか、まだ決めてないんだけど。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-a01-n07",
+      "pt": "De at the front opens a consequence — so, then. Kedo at the end trails off and softens. Both are filler and both arrive constantly."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-a01-r06",
+      "receptivo": true,
+      "acao": "A price at full speed. Look at the register display; do not decode sanzen happyaku while he waits.",
+      "es": "えっと、全部で三千八百円ね。",
+      "pt": "Um, that's three thousand eight hundred yen altogether.",
+      "tts": "えっと、全部で三千八百円ね。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-a01-n08",
+      "pt": "Prices come out as one block. Watch the little screen instead of doing arithmetic in a second language."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_f",
+      "audioKey": "fr-a01-r07",
+      "receptivo": true,
+      "acao": "That is Kansai-ben — hona for so, suwarii for sit. Same language, different edges.",
+      "es": "元気にしてた？ほな、こっち座りいな。",
+      "pt": "How've you been? Go on, come sit over here.",
+      "tts": "元気にしてた？ほな、こっち座りいな。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-a01-n09",
+      "pt": "A regional accent is not another language. Name it as Kansai in your head and the worry about your own ear drops."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-a01-r08",
+      "receptivo": true,
+      "acao": "That was fast and it still had maa, de and sore de in it. You caught the shape — that is the skill.",
+      "es": "まあ、じゃあ行こっか。うん、それで決まりね。",
+      "pt": "Well, shall we go then. Yeah, that's settled.",
+      "tts": "まあ、じゃあ行こっか。うん、それで決まりね。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-a01-n10",
+      "pt": "English here is limited and patchy. Expect it at travel counters and big hotels, and expect to work in Japanese most other places."
+    },
+    {
+      "consulta": [
+        "reparo/devagar"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-a01-p01",
+      "promptPt": "You caught nothing at all. Say so once, cleanly, without apologising twice. Speak now.",
+      "audioKey": "fr-a01-x01",
+      "es": "すみません、わかりませんでした。",
+      "pinyin": "soo-mee-ma-SEN, wa-ka-ri-ma-sen-DESH-ta",
+      "pt": "Sorry, I didn't understand.",
+      "tts": "すみません、わかりませんでした。",
+      "molde": "SUMIMASEN",
+      "encaixe": "わかりませんでした"
+    },
+    {
+      "consulta": [
+        "reparo/devagar"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-a01-p02",
+      "promptPt": "Ask for the whole thing again, you just need a second pass. Speak now.",
+      "audioKey": "fr-a01-x02",
+      "es": "もう一度お願いします。",
+      "pinyin": "moh ee-chee-DO o-ne-gai-shee-mas",
+      "pt": "Once more, please.",
+      "tts": "もう一度お願いします。"
+    },
+    {
+      "consulta": [
+        "reparo/devagar"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-a01-p03",
+      "promptPt": "The second pass was the same speed as the first. Ask for the one thing that would fix it. Speak now.",
+      "audioKey": "fr-a01-x03",
+      "es": "もっとゆっくりお願いします。",
+      "pinyin": "MOT-to yook-KOO-ri o-ne-gai-shee-mas",
+      "pt": "More slowly, please.",
+      "tts": "もっとゆっくりお願いします。"
+    },
+    {
+      "consulta": [
+        "reparo/como-se-diz"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-a01-p04",
+      "promptPt": "One word in the middle did all the work and you missed it. Point at it and ask. Speak now.",
+      "audioKey": "fr-a01-x04",
+      "es": "それ、どういう意味ですか？",
+      "pinyin": "so-RE, doh-yoo EE-mee des-ka",
+      "pt": "What does that mean?",
+      "tts": "それ、どういう意味ですか？"
+    },
+    {
+      "consulta": [
+        "reparo/escreve"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-a01-p05",
+      "promptPt": "It is a place name and hearing it a third time will not help. Ask for it on paper. Speak now.",
+      "audioKey": "fr-a01-x05",
+      "es": "書いてもらえますか？",
+      "pinyin": "kai-te mo-ra-e-mas-ka",
+      "pt": "Could you write it down?",
+      "tts": "書いてもらえますか？"
+    },
+    {
+      "consulta": [
+        "reparo/devagar",
+        "reparo/apontar"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-a01-p06",
+      "promptPt": "You got the gist and lost the detail. Say exactly that, so they repeat the useful half. Speak now.",
+      "audioKey": "fr-a01-x06",
+      "es": "だいたいわかりましたが、全部は…",
+      "pinyin": "dai-tai wa-ka-ri-MASH-ta ga, ZEN-bu wa",
+      "pt": "I got the gist, but not all of it.",
+      "tts": "だいたいわかりましたが、全部は…"
+    },
+    {
+      "consulta": [
+        "reparo/ingles"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-a01-p07",
+      "promptPt": "They switched to English to help, the queue is empty and you would rather keep going. Ask. Speak now.",
+      "audioKey": "fr-a01-x07",
+      "es": "日本語で続けてもいいですか？",
+      "pinyin": "ni-HON-go de tsu-zu-ke-te mo ee des-ka",
+      "pt": "Can we carry on in Japanese?",
+      "tts": "日本語で続けてもいいですか？"
+    },
+    {
+      "consulta": [
+        "simpatia/puxar-conversa"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-a01-p08",
+      "promptPt": "The table has just turned from you to each other, and you lost the thread. Say what you noticed, cheerfully. Speak now.",
+      "audioKey": "fr-a01-x08",
+      "es": "お二人だと、ずっと速いですね！",
+      "pinyin": "o-foo-ta-ri da to, ZOOT-to ha-YAI des ne",
+      "pt": "Between the two of you, it's much faster!",
+      "tts": "お二人だと、ずっと速いですね！"
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_fr_f",
+      "audioKey": "fr-a01-s01",
+      "es": "すみません、わかりませんでした。もう一度お願いします。もっとゆっくりお願いします。",
+      "pinyin": "soo-mee-ma-SEN wa-ka-ri-ma-sen-DESH-ta · moh ee-chee-DO o-ne-gai-shee-mas · MOT-to yook-KOO-ri o-ne-gai-shee-mas",
+      "pt": "Shadow the three sentences that buy you a second pass at anything.",
+      "tts": "すみません、わかりませんでした。もう一度お願いします。もっとゆっくりお願いします。"
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-a01-n11",
+      "bloco": "recap",
+      "pt": "A01 done. The desu and masu go, plain form takes over, a few small words carry the meaning, and a third of the room is plenty."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "What goes missing, and what is left",
+    "secoes": [
+      {
+        "titulo": "Ne, sa, maa, nanka, tte iu ka",
+        "corpo": "None of the five translates cleanly and all five appear constantly. Ne at the end checks you are following. Sa holds the floor mid-sentence. Maa softens whatever is coming, roughly like well. Nanka is a spoken um, sitting in front of a word the speaker is still choosing. Tte iu ka means or rather, and it introduces a correction — which makes it a useful thing to have your ear tuned for, because the real point often follows it.",
+        "exemplos": [
+          {
+            "es": "まあね、うん。",
+            "pt": "Well yeah."
+          },
+          {
+            "es": "っていうか、まだ決めてない。",
+            "pt": "Or rather, I haven't decided."
+          }
+        ]
+      },
+      {
+        "titulo": "Where the words go",
+        "corpo": "The polite desu and masu you were taught are absent from ordinary speech: wakarimasen comes out as wakaranai and then as wakannai. Mite iru collapses to miteru. The wo and ga particles simply drop, and sentences end on a bare plain-form verb. None of this is careless — it is what the language sounds like when it is not being addressed to a stranger. Recognise all of it; produce none of it. A visitor in week one using plain form with someone they have just met lands as an impression of casualness rather than as Japanese."
+      },
+      {
+        "titulo": "De and kedo",
+        "corpo": "De at the front of a turn opens a consequence — so, then, in that case — and in conversation it introduces the decision, which makes it worth catching. Kedo at the end does not mean but so much as trail off: it softens the sentence and hands the floor back gently. Both are so frequent that a turn can be more than half filler and still be perfectly clear to everyone but you."
+      },
+      {
+        "titulo": "English is available, unevenly",
+        "corpo": "Japan sits in the lower band of EF's English index, and EF itself flags that the sample is self-selected and online, so the number reads as a rough national picture and never as a percentage of the population. In practice, expect some English at airports, big hotels and counters built for travellers, and expect to work in Japanese almost everywhere else. A regional accent like Kansai-ben is a further layer on top of speed — different edges on the same words, not a different language."
+      }
+    ]
+  },
+  "slot": "A01",
+  "permissao": "You are allowed to understand about a third of what you overhear and count it as a win. Nobody follows a fast conversation in a second language at full resolution — knowing whether a room is relaxed or tense is the real skill, and it takes far fewer words than you think.",
+  "permissaoAudioKey": "fr-a01-n01",
+  "espelho": "Anyone who has listened to two people from another part of their own country and lost half of it already knows this is not a foreign-language problem. Speed and shared context do most of the damage; the language is only part of it.",
+  "fichasCulturais": [
+    {
+      "sinal": "You open in Japanese, and the person answers you in English without a pause.",
+      "suaLeitura": "My Japanese was rejected, and they would rather not hear a visitor attempt it.",
+      "oQueEAli": "At a counter, the fastest route through the exchange usually wins, and someone with people waiting behind you switching to English is choosing speed — or is simply proud to use the English they have. It rarely says anything about your accent.",
+      "oQueVoceFaz": "Take the English when the queue is long. When it is not, nihongo de tsuzukete mo ii desu ka is a normal thing to ask, and it usually gets a yes.",
+      "oQueMelhora": "You stop reading a practical decision as a verdict on you, which is the reading that makes people give up trying by day three.",
+      "ondeNaoVale": "Not where the exchange is technical, urgent, or timed — a ticket window with a line behind you is not the place to practise, and insisting there costs both of you the thing you came for.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "fr-a01-n10"
+      ]
+    },
+    {
+      "sinal": "The conversation beside you is fast, overlapping and full of tiny words you cannot place, and it seems to end without a clear conclusion.",
+      "suaLeitura": "My ear is failing, and my Japanese is worse than I thought.",
+      "oQueEAli": "Ordinary speech drops the desu and masu, eats the particles, and runs on a handful of markers — ne, sa, maa, nanka, tte iu ka — that carry the structure while the content sits between them. The version you learned is the polite one; the version in the room is shorter and looser.",
+      "oQueVoceFaz": "Stop tracking words and track markers. De means a decision is arriving; kedo at the end means the speaker is softening and handing back the floor.",
+      "oQueMelhora": "You start following the shape of conversations you cannot transcribe, which is what actually tells you whether you are being invited, warned, or ignored.",
+      "ondeNaoVale": "Not a licence to use any of it yourself. Wakannai and plain form in the mouth of a visitor reads as an impression of Japanese rather than as Japanese, and it undoes the goodwill the effort earned.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "fr-a01-n02",
+        "fr-a01-n05"
+      ]
+    }
+  ]
+}

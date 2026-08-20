@@ -1,0 +1,96 @@
+{
+  "id": "q-a08",
+  "nivel": "avancado",
+  "titulo": "Quiz — The goodbye",
+  "subtitulo": "Five questions about the last minute and the pocket card",
+  "introAudioKey": "fr-a08-q-i",
+  "introPt": "The last morning, four counters, and a goodbye with a season inside it.",
+  "cenario": "A bakery, a reception desk, and a doorway on the way out.",
+  "dialogo": [
+    {
+      "audioKey": "fr-a08-q01",
+      "voz": "target_fr_f",
+      "es": "いろいろ、ありがとうございました。旅で一番のパンでした。",
+      "pt": "Thank you for everything. That was the best bread of the trip.",
+      "tts": "いろいろ、ありがとうございました。旅で一番のパンでした。"
+    },
+    {
+      "audioKey": "fr-a08-q02",
+      "voz": "target_fr_f",
+      "es": "あら、嬉しい。またぜひ来てくださいね。",
+      "pt": "Oh, how kind. Do come again, won't you.",
+      "tts": "あら、嬉しい。またぜひ来てくださいね。"
+    },
+    {
+      "audioKey": "fr-a08-q03",
+      "voz": "target_fr_f",
+      "es": "来年の春に。約束します。",
+      "pt": "Next year, in spring. That's a promise.",
+      "tts": "来年の春に。約束します。"
+    },
+    {
+      "audioKey": "fr-a08-q04",
+      "voz": "target_fr_m",
+      "es": "いえいえ、お上手ですよ！お気をつけて。",
+      "pt": "Not at all, you're very good! Take care on your way.",
+      "tts": "いえいえ、お上手ですよ！お気をつけて。"
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "The goodbye has three clauses. Which one do visitors leave out?",
+      "opcoes": [
+        "The thank-you",
+        "The specific thing they did",
+        "The greeting",
+        "The bow"
+      ],
+      "correta": 1,
+      "explica": "Without the middle clause it is ordinary politeness. Naming the bread is what proves you noticed."
+    },
+    {
+      "pergunta": "Mata zehi kite kudasai ne. Best answer?",
+      "opcoes": [
+        "Tabun, mata itsuka",
+        "A season and a promise — rainen no haru ni, yakusoku shimasu",
+        "An exact date in your diary",
+        "A polite smile and nothing else"
+      ],
+      "correta": 1,
+      "explica": "Nobody is booking anything. The loose commitment is the expected shape, and it is what gets remembered."
+    },
+    {
+      "pergunta": "Which sentence from the whole course has to be automatic?",
+      "opcoes": [
+        "Ikura desu ka?",
+        "Koohii o onegaishimasu",
+        "Wakarimasen deshita, mou ichido onegaishimasu",
+        "Deguchi wa doko desu ka?"
+      ],
+      "correta": 2,
+      "explica": "It is what keeps every other sentence usable when the answer comes back at full speed."
+    },
+    {
+      "pergunta": "Someone tells you o-jouzu desu yo. What do you do?",
+      "opcoes": [
+        "Explain how bad your Japanese really is",
+        "Take it, and hand a warm line straight back",
+        "Switch to English to make it easier",
+        "Say nothing"
+      ],
+      "correta": 1,
+      "explica": "Arguing with a compliment costs you the moment. Arigatou, sochira mo o-genki de finishes it properly."
+    },
+    {
+      "pergunta": "Mata kimasu, mata ne, mata itsuka. What do they have in common?",
+      "opcoes": [
+        "They are all formal",
+        "They all build the next meeting into the word",
+        "They are all regional",
+        "They are all used only at counters"
+      ],
+      "correta": 1,
+      "explica": "The everyday goodbyes here are open-ended by design; sayounara, the final one, has all but left casual use."
+    }
+  ]
+}

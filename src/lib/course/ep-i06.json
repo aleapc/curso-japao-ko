@@ -1,0 +1,340 @@
+{
+  "id": "i06",
+  "nivel": "intermediario",
+  "numero": 24,
+  "parte": "I06",
+  "titulo": "어제 있었던 일을 소리 내어 말하기",
+  "subtitulo": "과거형 어미 하나, 어떤 하루든 담아내는 동사 몇 개, 그리고 상대가 계속 듣고 싶어지는 여행 이야기",
+  "cena": "방금 어제 뭐 했냐는 질문을 받았는데, 알고 있는 모든 문장이 아직 현재형에 머물러 있다.",
+  "moldura": "ganha",
+  "frasePiso": "이 언어의 과거형 전체가 필요한 게 아니다. 이미 알고 있는 동사 몇 개, 모두 같은 어미로 끝나는 그것들만 있으면 된다.",
+  "decisao": "contar o dia de ontem em duas ou três frases no passado, em vez de responder no presente e virar a pessoa que só diz que sim",
+  "moldes": [],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-i06-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "어제 뭐 했는지 말할 수 있게 되는 순간, 당신은 주문만 하던 사람에서 여행 이야기를 가진 사람으로 바뀐다."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-i06-r01",
+      "receptivo": true,
+      "acao": "이번 주 모든 대화가 이렇게 시작한다. 그냥 네라고 하지 말고 어디 갔었는지로 대답하라.",
+      "es": "昨日は何をしましたか？",
+      "pt": "그래서, 어제 뭐 하셨어요?",
+      "tts": "昨日は何をしましたか？"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-i06-n02",
+      "bloco": "molde",
+      "pt": "틀은 동사가 -ました로 떨어지는 것이다. 行きました, 갔다. 食べました, 먹었다. 그 -ました 어미가 과거형의 전부다."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_f",
+      "audioKey": "fr-i06-t01",
+      "es": "昨日、京都に行きました。",
+      "pinyin": "ki-NOH, KYOH-to ni i-ki-MASH-ta",
+      "pt": "어제 교토에 갔어요.",
+      "tts": "昨日、京都に行きました。"
+    },
+    {
+      "consulta": [
+        "simpatia/puxar-conversa"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-i06-p01",
+      "promptPt": "이 움직임으로 시작하라: 도시 하나, 문장 하나, 그리고 어제라는 시점. 지금 말하세요.",
+      "audioKey": "fr-i06-t01",
+      "es": "昨日、京都に行きました。",
+      "pinyin": "ki-NOH, KYOH-to ni i-ki-MASH-ta",
+      "pt": "어제 교토에 갔어요.",
+      "tts": "昨日、京都に行きました。",
+      "molde": "MASHITA",
+      "encaixe": "京都に行きました"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-i06-n03",
+      "pt": "일은 조사가 다 한다: 어디로 갔는지는 に, 어디서 했는지는 で, 무엇을 했는지는 を. 동사는 그저 -ました로 끝날 뿐이다."
+    },
+    {
+      "consulta": [
+        "simpatia/puxar-conversa",
+        "compras/balcao"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-i06-p02",
+      "promptPt": "오늘 아침 어디에 갔는지 말하라, 장소 하나, 문장 하나로. 지금 말하세요.",
+      "audioKey": "fr-i06-t02",
+      "es": "今朝、市場に行きました。",
+      "pinyin": "KE-sa, i-CHI-ba ni i-ki-MASH-ta",
+      "pt": "오늘 아침에 시장에 갔어요.",
+      "tts": "今朝、市場に行きました。",
+      "molde": "MASHITA",
+      "encaixe": "市場に行きました"
+    },
+    {
+      "consulta": [
+        "mesa/comida",
+        "simpatia/puxar-conversa"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-i06-p03",
+      "promptPt": "이제 식사 차례다. 어디서 먹었는지 말하되, 유명한 곳이 아니라 작은 곳으로 만들어라. 지금 말하세요.",
+      "audioKey": "fr-i06-t03",
+      "es": "小さいお店で食べました。",
+      "pinyin": "chi-i-sa-i o-MI-se de ta-be-MASH-ta",
+      "pt": "작고 아담한 식당에서 먹었어요.",
+      "tts": "小さいお店で食べました。",
+      "molde": "MASHITA",
+      "encaixe": "小さいお店で食べました"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-i06-r02",
+      "receptivo": true,
+      "acao": "どうでしたか는 의심이 아니다. 한 가지 더 말해 달라는 초대다.",
+      "es": "へえ、どうでしたか？",
+      "pt": "오, 정말요? 그래서 어땠어요?",
+      "tts": "へえ、どうでしたか？"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-i06-n04",
+      "bloco": "capsula",
+      "pt": "어땠는지는 감정용 -かったです로 받는다: 美味しかった, 楽しかった. 이 어미들은 통째로 간직하라, 만들지 말고 그대로 옮겨라."
+    },
+    {
+      "consulta": [
+        "simpatia/elogiar-comida"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-i06-p04",
+      "promptPt": "어땠냐고 물었다. 음식에 대해 세 단어로 대답하되, 가운데 단어가 무게를 실어라. 지금 말하세요.",
+      "audioKey": "fr-i06-t04",
+      "es": "とても美味しかったです。",
+      "pinyin": "to-TE-mo o-i-shi-KAT-ta des",
+      "pt": "정말 맛있었어요.",
+      "tts": "とても美味しかったです。"
+    },
+    {
+      "consulta": [
+        "simpatia/elogiar-lugar"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-i06-p05",
+      "promptPt": "하루 전체를 두 단어로. 이 두 단어가 어떤 긴 문장보다 더 따뜻하게 전해진다. 지금 말하세요.",
+      "audioKey": "fr-i06-t05",
+      "es": "最高でした。",
+      "pinyin": "sai-KOH de-shi-ta",
+      "pt": "최고였어요.",
+      "tts": "最高でした。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-i06-n05",
+      "pt": "이야기가 되려면 일어난 일이 하나 이상 있어야 한다. 문장 두 개에 そして 하나면 이미 이야기처럼 들린다."
+    },
+    {
+      "consulta": [
+        "transporte/bilhete",
+        "simpatia/puxar-conversa"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-i06-p06",
+      "promptPt": "어떻게 이동했고 언제였는지, 짧은 한 줄로 말하라. 지금 말하세요.",
+      "audioKey": "fr-i06-t06",
+      "es": "今朝、電車に乗りました。",
+      "pinyin": "KE-sa, den-SHA ni no-ri-MASH-ta",
+      "pt": "오늘 아침에 기차를 탔어요.",
+      "tts": "今朝、電車に乗りました。",
+      "molde": "MASHITA",
+      "encaixe": "電車に乗りました"
+    },
+    {
+      "consulta": [
+        "simpatia/puxar-conversa"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-i06-p07",
+      "promptPt": "두 가지를 하나로 이어보라 — 걷고 먹으며 보낸 하루. 지금 말하세요.",
+      "audioKey": "fr-i06-t07",
+      "es": "一日中歩いて、美味しいものを食べました。",
+      "pinyin": "i-chi-ni-chi-JUU a-ru-i-te, o-i-shi-i mo-no o ta-be-MASH-ta",
+      "pt": "하루 종일 걷고, 맛있는 걸 먹었어요.",
+      "tts": "一日中歩いて、美味しいものを食べました。",
+      "molde": "MASHITA",
+      "encaixe": "一日中歩きました"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-i06-n06",
+      "pt": "잘 안 맞았던 것 하나가 나머지를 진짜처럼 만든다. 모든 게 다 좋았다는 하루는 짜맞춘 것처럼 들린다."
+    },
+    {
+      "consulta": [
+        "simpatia/puxar-conversa"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-i06-p08",
+      "promptPt": "그날 별로였던 부분을 가볍게 짚고 넘어가라. 지금 말하세요.",
+      "audioKey": "fr-i06-t08",
+      "es": "美術館は、あまり好きじゃなかったです。",
+      "pinyin": "bi-JU-tsu-kan wa, a-ma-ri su-ki ja-na-KAT-ta des",
+      "pt": "미술관은 그렇게 마음에 들진 않았어요.",
+      "tts": "美術館は、あまり好きじゃなかったです。",
+      "molde": "MASHITA",
+      "encaixe": "あまり好きじゃなかった"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-i06-r03",
+      "es": "ああ、そう言う人、多いですよ！",
+      "pt": "아, 그렇게 말하는 사람 많아요!",
+      "tts": "ああ、そう言う人、多いですよ！"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-i06-n07",
+      "pt": "내일 이야기로 마무리하라. 그러면 이야기가 앞으로 나아가고, 보고가 아니라 질문이 있는 대화가 된다."
+    },
+    {
+      "consulta": [
+        "simpatia/puxar-conversa"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-i06-p09",
+      "promptPt": "다음에 어디로 가는지 말하고 아는지 물어보라. 지금 말하세요.",
+      "audioKey": "fr-i06-t09",
+      "es": "明日は大阪に行きます。ご存知ですか？",
+      "pinyin": "a-SHI-ta wa OH-sa-ka ni i-ki-mas. go-ZON-ji des-ka",
+      "pt": "내일은 오사카에 가요. 아세요?",
+      "tts": "明日は大阪に行きます。ご存知ですか？"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-i06-r04",
+      "receptivo": true,
+      "acao": "추천이 곧 나온다. 받아 적을 준비를 하라.",
+      "es": "大阪ね！ちょっと待って、お店を教えますよ。",
+      "pt": "오사카요! 잠깐만요, 식당 하나 알려드릴게요.",
+      "tts": "大阪ね！ちょっと待って、お店を教えますよ。"
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_fr_f",
+      "audioKey": "fr-i06-s01",
+      "es": "昨日、京都に行きました。小さいお店で食べました。とても美味しかったです。",
+      "pinyin": "ki-NOH, KYOH-to ni i-ki-MASH-ta. chi-i-sa-i o-MI-se de ta-be-MASH-ta. to-TE-mo o-i-shi-KAT-ta des",
+      "pt": "이야기가 원하는 순서대로 세 문장을 따라 말하라: 어디로, 무엇을, 어땠는지.",
+      "tts": "昨日、京都に行きました。小さいお店で食べました。とても美味しかったです。",
+      "molde": "MASHITA"
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-i06-n08",
+      "bloco": "recap",
+      "pt": "I06 완료. 京都に行きました, 食べました, 美味しかったです, 그리고 마지막에 내일에 대한 질문 하나."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "어미 하나, 그리고 동사 몇 개",
+    "secoes": [
+      {
+        "titulo": "-ました 어미",
+        "corpo": "과거형은 적용해야 할 규칙이 아니라, 이미 반쯤 알고 있는 동사 세트다. 각각 끝에 -ました를 통째로 붙여서 나른다: 行きました, 食べました, 乗りました, 買いました, 見ました. 동사를 말하고 -ました로 떨어뜨리면 문장은 과거가 된다. 하루를 이야기하는 데 필요한 메커니즘은 그게 전부다.",
+        "exemplos": [
+          {
+            "es": "昨日、京都に行きました。",
+            "pt": "어제 교토에 갔어요."
+          },
+          {
+            "es": "今朝、電車に乗りました。",
+            "pt": "오늘 아침에 기차를 탔어요."
+          }
+        ]
+      },
+      {
+        "titulo": "의미를 나르는 조사",
+        "corpo": "京都に行きました, 小さいお店で食べました, 電車に乗りました. に는 어디로 갔는지, で는 무엇을 어디서 했는지, を는 무엇을 했는지를 표시한다. 조사만 대략 맞으면 동사 어미는 그대로다 — 그것이 어미 하나로 여행 전체를 커버할 수 있는 거래다."
+      },
+      {
+        "titulo": "-かったです, 통째로 간직하기",
+        "corpo": "어땠는지는 과거형 감정으로 답한다: 美味しかったです, 楽しかったです, よかったです. -かったです를 시제가 아니라 작은 덩어리 하나로 다루면 문법 챕터 하나를 통째로 건너뛰게 된다. どうでしたか에 대한 자연스러운 대답에 붙고, 最高でした 두 단어면 하루 전체를 커버한다."
+      },
+      {
+        "titulo": "잘 안 맞았던 것 하나",
+        "corpo": "あまり好きじゃなかったです는 부드럽다 — 불평이 아니라 그렇게까지 좋지는 않았다는 정도다. 그리고 그것이 나머지 이야기를 지어낸 것이 아니라 직접 겪은 것처럼 들리게 만든다. 이 부드러운 부정은 대개 가장 좋은 반응을 이끌어내는데, 상대에게 동의하거나 반박할 여지를 주기 때문이다."
+      },
+      {
+        "titulo": "내일로 마무리하기",
+        "corpo": "明日は…に行きます, ご存知ですか는 몇 마디로 대화의 차례를 넘긴다. 대개 이 순간에 수첩이 나오고, 인터넷에 안 나오는 장소를 얻게 된다."
+      }
+    ]
+  },
+  "slot": "I06",
+  "permissao": "동사를 약간 틀려도 괜찮다. 모든 어미가 완벽해질 때까지 기다리는 버전은 결국 아무에게도 자기 하루에 대해 말하지 못하는 버전이고, 그 거래는 어떤 정확도 수준에서도 손해다.",
+  "permissaoAudioKey": "fr-i06-n02",
+  "espelho": "다정하게 하루 어땠냐는 질문에 그냥 좋았다고만 답한 적 있는 사람이라면 — 진짜 답을 조립하는 게 그럴 가치보다 더 큰 수고처럼 느껴져서 그랬다면 — 이 파트가 겨냥하는 반사작용을 정확히 안다. 이건 문법 문제가 아니다. 문장을 만드는 비용이 보상보다 더 크게 느껴지는 것뿐이고, 그건 어느 순간부터 더는 사실이 아니게 된다.",
+  "fichasCulturais": [
+    {
+      "sinal": "당신이 하루에 대해 뭔가 말했는데 돌아오는 반응이 올라가는 어조의 へえ 또는 そうですか뿐이고, 그 이상은 없다.",
+      "suaLeitura": "내 말을 의심하는구나, 아니면 내가 이상한 소리를 했나 보다.",
+      "oQueEAli": "へえ와 どうでしたか는 표준적인 맞장구다: 방금 한 말을 받아들였다는 표시이고 다음 세부사항을 청하는 것이다. 좋은 소식에도 나쁜 소식에도 똑같이 나오고, 거기서 멈추면 대화가 절반만 지어진 채로 남는다.",
+      "oQueVoceFaz": "구체적인 것 하나로 답하라 — 음식, 거리, 시간, 가격. 그리고 마지막에 질문을 하나 붙여라.",
+      "oQueMelhora": "추천이 살아 있는 대화 후반부를 얻게 된다, 정중한 침묵을 거절로 읽는 대신에.",
+      "ondeNaoVale": "상대가 다시 자기 일로 돌아가면서 무덤덤하게 말할 때는 아니다 — 거기서는 화제를 닫는 것이고, 그럴 땐 그냥 닫히게 두는 게 맞는 답이다.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "fr-i06-n04"
+      ]
+    },
+    {
+      "sinal": "하루가 전부 훌륭했다고 묘사했더니 대화가 조용해진다.",
+      "suaLeitura": "열의가 잘못된 톤이었고, 내가 과했나 보다.",
+      "oQueEAli": "낮은 지점이 하나도 없는 이야기는 듣는 사람에게 대답할 거리를 주지 않는다. 별로였던 것 하나를 짚으면 문이 열린다 — 동의, 반박, 더 나은 제안까지, 셋 다 대화를 이어가게 한다.",
+      "oQueVoceFaz": "칭찬은 그대로 두고, 부드러운 부정 하나를 더하라: あまり好きじゃなかったです. 가볍게 말하고 바로 내일 이야기로 넘어가라.",
+      "oQueMelhora": "상대가 예의가 아니라 진짜 디테일로 자기 동네 이야기를 하기 시작한다 — 애초에 그 자리에 서 있는 이유가 바로 그거다.",
+      "ondeNaoVale": "지금 눈앞의 사람이 만들었거나 골라준 것에 대해서는 아니다 — 요리사, 초대한 주인, 추천해준 가게 주인. 그럴 땐 낮은 지점은 마음속에만 두고 칭찬만 소리 내어 말하라.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "fr-i06-n06"
+      ]
+    }
+  ]
+}

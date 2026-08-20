@@ -1,0 +1,386 @@
+{
+  "id": "b10",
+  "nivel": "basico",
+  "numero": 10,
+  "parte": "B10",
+  "titulo": "The katakana that looks English — サービス, マンション, コンセント",
+  "subtitulo": "Signs written in katakana read like borrowed English at a glance, which is exactly why a handful of them send you somewhere you did not mean to go",
+  "cena": "You are in front of a sign with three lines of katakana on it, all of which look like English words you know, and the next hour depends on which one you actually believe.",
+  "moldura": "ganha",
+  "frasePiso": "Read the word, not the English word it sounds like. When you are not sure it exists here, open with 〜を探しています.",
+  "moldes": [
+    "SAGASHITE-IMASU"
+  ],
+  "fatosDatados": [
+    {
+      "id": "fr-b10-midi",
+      "afirmacao": "Japan runs on convenience stores. The three big chains alone — Seven-Eleven, FamilyMart and Lawson — pass 55,000 branches nationwide, most of them open 24 hours, and they double as places to draw cash, pay bills, buy tickets and post parcels. For a traveller the useful corollary is that 'I cannot find one' is almost never the problem; the konbini is the default answer to a great many small searches.",
+      "fonte": "Japan Franchise Association (JFA), estatística de lojas de conveniência: as três maiores redes somam mais de 55 mil lojas no Japão, a maioria 24h, funcionando também como ponto de saque, pagamento de contas e retirada de encomendas.",
+      "ano": 2026,
+      "revisarAte": "2028-08-05",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "fr-b10-n05"
+      ]
+    },
+    {
+      "id": "fr-b10-dimanche",
+      "afirmacao": "The cash machine you want is usually inside a convenience store. Seven Bank ATMs, in Seven-Eleven stores, and Japan Post Bank ATMs accept many foreign-issued cards around the clock, with on-screen English, while a bank's own branch ATM often will not take an overseas card at all. The practical rule: for cash, look for the konbini or the post office, not the bank.",
+      "fonte": "Seven Bank e Japan Post Bank: caixas eletrônicos que aceitam cartões estrangeiros 24h com menu em inglês; ATMs de agências bancárias comuns frequentemente recusam cartões emitidos fora do Japão.",
+      "ano": 2026,
+      "revisarAte": "2028-08-05",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "fr-b10-n08"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-b10-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "Japan writes many signs in katakana, in words you think you know. Most are friendly. A few send you to the wrong place."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-b10-n02",
+      "bloco": "molde",
+      "pt": "The frame: the thing, then wo sagashite imasu — I'm looking for. The trap: a マンション is no mansion, just an apartment block."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_f",
+      "audioKey": "fr-b10-t01",
+      "es": "薬局を探しています。",
+      "pinyin": "yak-KYO-ku o sa-ga-shi-te i-MAS",
+      "pt": "I'm looking for a pharmacy.",
+      "tts": "薬局を探しています。"
+    },
+    {
+      "consulta": [
+        "compras/balcao"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "SAGASHITE-IMASU",
+      "encaixe": "薬局",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-b10-p01",
+      "promptPt": "You need a proper pharmacy for a prescription, not just a shelf of drinks. Say what you are after. Speak now.",
+      "audioKey": "fr-b10-t01",
+      "es": "薬局を探しています。",
+      "pinyin": "yak-KYO-ku o sa-ga-shi-te i-MAS",
+      "pt": "I'm looking for a pharmacy."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-b10-r01",
+      "receptivo": true,
+      "es": "薬局ですか？ この先のドラッグストアにもありますよ。",
+      "pt": "A pharmacy? There's also a drugstore just up ahead.",
+      "tts": "薬局ですか？ この先のドラッグストアにもありますよ。",
+      "acao": "Two different kinds of shop were just named. A 薬局 fills prescriptions; a ドラッグストア is the everyday one. Walk to the word that matches what you need."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-b10-n03",
+      "bloco": "corpo",
+      "pt": "Keep the frame, change the thing. And watch サービス: from a shopkeeper or receipt it means free, on the house — not a charge."
+    },
+    {
+      "consulta": [
+        "pagar/dinheiro"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "SAGASHITE-IMASU",
+      "encaixe": "ATM",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-b10-p02",
+      "promptPt": "Your wallet is empty and the only machine you passed refused a foreign card. Open the search at the counter. Speak now.",
+      "audioKey": "fr-b10-t02",
+      "es": "ATMを探しています。",
+      "pinyin": "ee-tee-EE-moo o sa-ga-shi-te i-MAS",
+      "pt": "I'm looking for a cash machine.",
+      "tts": "エーティーエムを探しています。"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-b10-r02",
+      "receptivo": true,
+      "es": "コンビニのATMなら海外のカードも使えますよ。すぐそこです。",
+      "pt": "The konbini ATM takes foreign cards too. It's just over there.",
+      "tts": "コンビニのエーティーエムなら海外のカードも使えますよ。すぐそこです。",
+      "acao": "This is about the machine inside the convenience store, not the bank branch. Head for the konbini, not the bank door."
+    },
+    {
+      "consulta": [
+        "pagar/dinheiro"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-b10-p03",
+      "promptPt": "The card went through and you want to be sure there was no hidden fee. Say what you have, plainly. Speak now.",
+      "audioKey": "fr-b10-t03",
+      "es": "すみません、現金しかないんです。",
+      "pinyin": "soo-mee-ma-SEN, gen-KIN shi-ka NAI-n des",
+      "pt": "Sorry, I only have cash.",
+      "tts": "すみません、現金しかないんです。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-b10-n04",
+      "pt": "コンセント is a power socket, not consent. Asking where the コンセント is means where can I plug in, nothing more."
+    },
+    {
+      "consulta": [
+        "transporte/placas"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "DOKO-DESU-KA",
+      "encaixe": "入口",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-b10-p04",
+      "promptPt": "Every door on this side of the building is marked 出口, exit. Ask for the other one. Speak now.",
+      "audioKey": "fr-b10-t04",
+      "es": "入口はどこですか？",
+      "pinyin": "i-ri-GU-chi wa DO-ko des ka",
+      "pt": "Where is the entrance?",
+      "tts": "入口はどこですか？"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-b10-n05",
+      "pt": "The convenience store answers half these searches. Three big chains pass fifty-five thousand branches, most open all hours."
+    },
+    {
+      "consulta": [
+        "transporte/placas"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-b10-p05",
+      "promptPt": "The small restaurant looks open but the lights are half down and it is three in the afternoon. Ask about the gap in the hours. Speak now.",
+      "audioKey": "fr-b10-t05",
+      "es": "お昼は休憩ですか？",
+      "pinyin": "o-HI-ru wa kyoo-KEI des ka",
+      "pt": "Do you close in the afternoon?",
+      "tts": "お昼は休憩ですか？"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-b10-r03",
+      "receptivo": true,
+      "es": "はい、二時から五時まで休憩です。夜は五時からです。",
+      "pt": "Yes, we break from two to five. We're open again from five in the evening.",
+      "tts": "はい、二時から五時まで休憩です。夜は五時からです。",
+      "acao": "Note the reopening time and come back then, or eat somewhere open now."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-b10-n06",
+      "bloco": "capsula",
+      "pt": "ビル is a building, not a bill. And バイキング on a restaurant sign is an all-you-can-eat buffet, nothing to do with Vikings."
+    },
+    {
+      "consulta": [
+        "saude/algo-para"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "SAGASHITE-IMASU",
+      "encaixe": "咳の薬",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-b10-p06",
+      "promptPt": "At the drugstore counter, you have a dry cough and no idea what the box is called. Speak now.",
+      "audioKey": "fr-b10-t06",
+      "es": "咳の薬を探しています。",
+      "pinyin": "se-ki no ku-SU-ri o sa-ga-shi-te i-MAS",
+      "pt": "I'm looking for something for a cough.",
+      "tts": "咳の薬を探しています。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-b10-n07",
+      "pt": "クレーム is a complaint, not a cream. If a sign points to the クレーム counter, that is where problems go, not desserts."
+    },
+    {
+      "consulta": [
+        "taxi/locadora"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "TE-MO-II",
+      "encaixe": "ここで充電し",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-b10-p07",
+      "promptPt": "There is a socket on the wall by your table and your phone is at four percent. Ask whether you may use it. Speak now.",
+      "audioKey": "fr-b10-t07",
+      "es": "ここで充電してもいいですか？",
+      "pinyin": "ko-ko de joo-DEN shi-te mo II des ka",
+      "pt": "Can I charge my phone here?",
+      "tts": "ここで充電してもいいですか？"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-b10-n08",
+      "pt": "For cash, use the konbini or post office, not the bank. Their machines take foreign cards in English, all hours; banks often won't."
+    },
+    {
+      "consulta": [
+        "reparo/apontar"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "SUMIMASEN",
+      "encaixe": "何時に開きますか",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-b10-p08",
+      "promptPt": "Someone is inside with the lights on and the shutter still down. Open politely and ask about opening time. Speak now.",
+      "audioKey": "fr-b10-t08",
+      "es": "すみません、何時に開きますか？",
+      "pinyin": "soo-mee-ma-SEN, NAN-ji ni a-ki-MAS ka",
+      "pt": "Excuse me, what time do you open?",
+      "tts": "すみません、何時に開きますか？"
+    },
+    {
+      "consulta": [
+        "compras/pagar"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "DOKO-DESU-KA",
+      "encaixe": "レジ",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-b10-p09",
+      "promptPt": "You are holding what you chose and there are three counters, none obviously the paying one. Speak now.",
+      "audioKey": "fr-b10-t09",
+      "es": "レジはどこですか？",
+      "pinyin": "RE-ji wa DO-ko des ka",
+      "pt": "Where is the till?",
+      "tts": "レジはどこですか？"
+    },
+    {
+      "consulta": [
+        "compras/so-olhando"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "TE-MO-II",
+      "encaixe": "見",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-b10-p10",
+      "promptPt": "Someone steps towards you the moment you walk in and you have not decided anything. Speak now.",
+      "audioKey": "fr-b10-t10",
+      "es": "ちょっと見てもいいですか？",
+      "pinyin": "chot-to MI-te mo II des ka",
+      "pt": "Can I just have a look?",
+      "tts": "ちょっと見てもいいですか？"
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_fr_f",
+      "audioKey": "fr-b10-s01",
+      "es": "薬局を探しています。入口はどこですか？ お昼は休憩ですか？",
+      "pinyin": "yak-KYO-ku o sa-ga-shi-te i-MAS. i-ri-GU-chi wa DO-ko des ka. o-HI-ru wa kyoo-KEI des ka",
+      "pt": "Shadow the three sentences that get you through a written sign.",
+      "tts": "薬局を探しています。入口はどこですか？ お昼は休憩ですか？",
+      "molde": "SAGASHITE-IMASU"
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-b10-n09",
+      "bloco": "recap",
+      "pt": "B10 done. マンション, サービス, コンセント, ビル, バイキング — five katakana words that now say what they actually say."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "Five katakana words that are not what they look like",
+    "secoes": [
+      {
+        "titulo": "The five that cost you an afternoon",
+        "corpo": "マンション is an ordinary apartment building, not a mansion. サービス means free, on the house, when a shopkeeper says it. コンセント is a power socket. ビル is a building. バイキング is an all-you-can-eat buffet. When you are not sure the thing exists nearby, open with 〜を探しています rather than asking straight for a place.",
+        "exemplos": [
+          {
+            "es": "薬局を探しています。",
+            "pt": "I'm looking for a pharmacy."
+          },
+          {
+            "es": "ATMを探しています。",
+            "pt": "I'm looking for a cash machine."
+          }
+        ]
+      },
+      {
+        "titulo": "探しています opens a search, どこですか asks for a place",
+        "corpo": "〜はどこですか asks for somewhere you already believe is there — 出口, トイレ, 駅. 〜を探しています opens a search that might come back empty, which is the honest shape when you do not yet know whether this street has a pharmacy at all. The particle を and the ending 探しています stay put; only the thing before them moves."
+      },
+      {
+        "titulo": "薬局, ドラッグストア and the cough",
+        "corpo": "A 薬局 has a pharmacist and fills prescriptions; a ドラッグストア is the big everyday shop with cosmetics, snacks and over-the-counter medicine. For a cough or a cold, either works and the counter will choose the box — you name the symptom, 咳の薬 or 風邪薬, not the drug."
+      },
+      {
+        "titulo": "For cash, the konbini and the post office",
+        "corpo": "Japan still runs heavily on cash, and the machine that will take your foreign card is usually inside a convenience store or a post office, not a bank branch. Seven Bank and Japan Post Bank ATMs work around the clock with an English menu. A bank's own branch ATM often refuses an overseas card outright, which is a quirk of the machine, not of your card."
+      }
+    ]
+  },
+  "slot": "B10",
+  "permissao": "You are allowed to misread a sign. Everyone who reads a second language reads it through the first one, and the fix is not vocabulary lists — it is knowing the handful of katakana words that lie, and asking out loud about the next one with 〜を探しています.",
+  "permissaoAudioKey": "fr-b10-n01",
+  "espelho": "Anyone who has stood in front of a closed shutter in the afternoon in their own country, phone in hand, trying to work out whether a place is shut for a break or shut for good, already knows this feeling. The only new part is that here the sign tells you, in words that look borrowed from English.",
+  "fichasCulturais": [
+    {
+      "sinal": "You ask for a 薬局 and are pointed to a big bright shop full of cosmetics and snacks with a medicine shelf at the back.",
+      "suaLeitura": "My accent got in the way and they misunderstood me.",
+      "oQueEAli": "The word landed. A 薬局 has a pharmacist and a prescription counter; a ドラッグストア is the everyday shop that also sells over-the-counter medicine. Nothing went wrong except which word you reached for, and for a cough the drugstore is often the right place anyway.",
+      "oQueVoceFaz": "Pick the word for what you need: 薬局 if you are filling a prescription, ドラッグストア or just 咳の薬を探しています for something over the counter. If you are not sure it is nearby, open with 探しています.",
+      "oQueMelhora": "You stop treating a clean answer as a failed one, and you arrive at the right counter the first time.",
+      "ondeNaoVale": "Not a hard line — many drugstores have a 薬局 counter inside them, and plenty of small pharmacies stock everyday items too. The word tells you whether a pharmacist is on duty, not whether they sell plasters.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "fr-b10-n02"
+      ]
+    },
+    {
+      "sinal": "You go to draw cash and the bank's machine on the corner rejects your card, but the one inside the convenience store works fine.",
+      "suaLeitura": "Something is wrong with my card, or with me as a foreigner.",
+      "oQueEAli": "Japan still leans on cash, and the machines set up for foreign cards are the konbini ones — Seven Bank inside Seven-Eleven, and Japan Post Bank — which run around the clock with an English menu. A bank branch's own ATM frequently does not accept overseas cards at all. It is a difference between machines, not a judgement about you.",
+      "oQueVoceFaz": "For cash, look for the convenience store or the post office, not the bank. Draw a little extra while you are there, because small places may be cash only.",
+      "oQueMelhora": "You keep a small cash cushion for exactly these moments and stop reading a machine's refusal as a personal one.",
+      "ondeNaoVale": "Not every bank ATM refuses foreign cards, and in the big cities cashless payment is spreading fast. This is a reason to know where the konbini machine is, not to assume banks never work.",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "fr-b10-n08"
+      ]
+    }
+  ],
+  "clique": {
+    "contagem": [
+      "the pharmacy",
+      "the drugstore",
+      "the cash machine"
+    ],
+    "desconto": "Nobody gave you a word for each thing you went looking for. You kept one opening and changed only what came after it — and the opening also survived the katakana words that lied to you.",
+    "piso": "Next time a sign looks like English, you will not trust the resemblance. You will say what you are looking for and let them correct the word."
+  }
+}

@@ -1,0 +1,373 @@
+{
+  "id": "a01",
+  "nivel": "avancado",
+  "numero": 29,
+  "parte": "A01",
+  "titulo": "당신에게 하는 말이 아닐 때 그들은 이렇게 말한다",
+  "subtitulo": "배운 데스와 마스는 사라지고 반말이 자리를 차지하며, 조사는 떨어져 나가고, 몇 개의 작은 말들이 의미를 실어 나른다",
+  "cena": "옆에 있는 두 사람이 대화를 통째로 나누고 있는데, 그 안에서 단어의 경계 하나도 찾을 수 없다.",
+  "moldura": "ganha",
+  "frasePiso": "이 파트에서 딱 하나만 가져간다면 — わかりません이 실제 입에서는 わかんない로 나온다는 것 — 그것만으로도 대부분의 방문객보다 이미 더 많은 일본어를 알아듣게 된다.",
+  "moldes": [],
+  "fatosDatados": [
+    {
+      "id": "fr-ef-epi-2025",
+      "afirmacao": "EF 영어 능력 지수(EF English Proficiency Index)에서 일본은 수년째 EF가 말하는 '낮은 능숙도' 구간에 머물러 있고, 동아시아 순위에서도 하위권이며, 2024년판에서는 110개국 이상 중 약 90위에 자리했다. 이 순위에는 EF 스스로 밝히는 한계가 있다: 표본이 자기선택적이고 인터넷 접속을 필요로 한다는 것 — 'an online survey rather than a statistically valid sampling of the population' — 이 편향을 만든다. 이 자료는 일본 전반의 영어가 제한적이고 고르지 않게 분포한다고 말하는 것을 뒷받침한다. 하지만 일본 인구 중 몇 퍼센트가 영어를 하는지, 혹은 당신이 다음에 만날 사람이 영어를 할지에 대해서는 아무것도 말해주지 않는다.",
+      "fonte": "EF English Proficiency Index (Japão historicamente na faixa 'low proficiency', ~90ª posição na edição de 2024); ressalva da própria EF: «an online survey rather than a statistically valid sampling of the population»",
+      "ano": 2025,
+      "revisarAte": "2027-02-05",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "fr-a01-n10"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-a01-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "지금까지는 전부 당신을 향한 일본어였다. 이 모듈은 다른 사람을 향한 일본어이고, 완전히 다른 것이다."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-a01-n02",
+      "bloco": "corpo",
+      "pt": "규칙 하나: 데스와 마스가 사라진다. わかりません은 당신에게 하는 말이다. わかんない는 서로에게 하는 말이다."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_f",
+      "audioKey": "fr-a01-r01",
+      "receptivo": true,
+      "acao": "단어를 쫓지 마라. 그저 어깨를 으쓱하는 반응이었다는 것만 잡고 넘어가라.",
+      "es": "さあ、わかんないなあ。",
+      "pt": "음, 몰라.",
+      "tts": "さあ、わかんないなあ。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-a01-n03",
+      "pt": "같은 뜻인데 크기가 셋이다: わかりません, わからない, わかんない. 셋 다 일상적인 말이고, 그중 첫 번째만 당신을 위한 것이다."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-a01-r02",
+      "receptivo": true,
+      "acao": "見てる는 見ている에서 い가 먹혀 없어진 것이다. ない가 문장을 닫는다. 알아보기만 하고, 절대 따라 하지 마라.",
+      "es": "見てないの？何もないよ、別に。",
+      "pt": "안 봤어? 진짜 아무것도 없어.",
+      "tts": "見てないの？何もないよ、別に。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-a01-n04",
+      "pt": "조사도 사라진다. いる는 てる가 되고, を와 が는 그냥 없어진다. 이건 알아채기만 하면 되지, 말할 필요는 전혀 없다."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_f",
+      "audioKey": "fr-a01-r03",
+      "receptivo": true,
+      "acao": "そろそろ行かなきゃ는 이제 가야 한다는 뜻이다. 당신 테이블을 향한 말이라면 일어서라.",
+      "es": "そろそろ行かなきゃ。もう遅いし。",
+      "pt": "이제 슬슬 가야 해. 벌써 늦었어.",
+      "tts": "そろそろ行かなきゃ。もう遅いし。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-a01-n05",
+      "bloco": "capsula",
+      "pt": "규칙 둘: 아주 작은 몇 마디가 대화의 흐름을 실어 나른다 — ね, さ, まあ, なんか, っていうか. 이것들을 잡아내면 나머지는 저절로 열린다."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-a01-r04",
+      "receptivo": true,
+      "acao": "군말이 셋, 진짜 단어가 하나. 이것만으로도 '응, 당연하지'라는 완결된, 쉬운 대답이 된다.",
+      "es": "まあね、うん。そういうこと。",
+      "pt": "뭐 그렇지. 그게 그거야.",
+      "tts": "まあね、うん。そういうこと。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-a01-n06",
+      "pt": "ね는 당신이 아직 듣고 있는지 확인한다. さ는 발언권을 유지한다. まあ는 부드럽게 만든다. なんか는 입으로 하는 '음' 같은 말이고, っていうか는 '아니 그보다는'이라는 뜻이다."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_f",
+      "audioKey": "fr-a01-r05",
+      "receptivo": true,
+      "acao": "どうする는 곧 결정이 나온다는 신호다. 당신이 원하는 건 바로 그 뒤에 오는 부분이니, 거기에 귀를 기울여라.",
+      "es": "で、どうする？っていうか、まだ決めてないんだけど。",
+      "pt": "그래서 어떻게 할까? 아니 그보다, 아직 못 정했어.",
+      "tts": "で、どうする？っていうか、まだ決めてないんだけど。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-a01-n07",
+      "pt": "문장 앞의 で는 결론을 여는 말이다 — 그래서, 그러면. 문장 끝의 けど는 말끝을 흐리며 부드럽게 만든다. 둘 다 군말이고, 둘 다 끊임없이 등장한다."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-a01-r06",
+      "receptivo": true,
+      "acao": "빠른 속도로 말하는 가격. 계산대 화면을 보라 — 그가 기다리는 동안 三千八百를 머릿속으로 계산하려 들지 마라.",
+      "es": "えっと、全部で三千八百円ね。",
+      "pt": "음, 전부 합쳐서 삼천팔백 엔이에요.",
+      "tts": "えっと、全部で三千八百円ね。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-a01-n08",
+      "pt": "가격은 한 덩어리로 쏟아져 나온다. 외국어로 암산하려 하지 말고 작은 화면을 보라."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_f",
+      "audioKey": "fr-a01-r07",
+      "receptivo": true,
+      "acao": "이건 간사이벤(관서 사투리)이다 — ほな는 '그럼'이고, すわりい는 '앉아'다. 같은 언어인데 가장자리가 다르다.",
+      "es": "元気にしてた？ほな、こっち座りいな。",
+      "pt": "잘 지냈어? 자, 이쪽으로 와서 앉아.",
+      "tts": "元気にしてた？ほな、こっち座りいな。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-a01-n09",
+      "pt": "지역 사투리는 다른 언어가 아니다. 머릿속으로 '이건 간사이 말이다'라고 이름 붙이면 자기 귀에 대한 걱정이 사라진다."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-a01-r08",
+      "receptivo": true,
+      "acao": "빨랐지만 그 안에도 まあ, で, それで가 다 있었다. 당신은 틀을 잡았다 — 그게 바로 실력이다.",
+      "es": "まあ、じゃあ行こっか。うん、それで決まりね。",
+      "pt": "자, 그럼 갈까. 응, 그걸로 정해졌어.",
+      "tts": "まあ、じゃあ行こっか。うん、それで決まりね。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-a01-n10",
+      "pt": "이곳의 영어는 제한적이고 곳에 따라 다르다. 여행자 창구와 큰 호텔에서는 기대해도 좋지만, 그 밖의 대부분은 일본어로 헤쳐 나가야 한다."
+    },
+    {
+      "consulta": [
+        "reparo/devagar"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-a01-p01",
+      "promptPt": "하나도 못 알아들었다. 두 번 사과하지 말고 깔끔하게 한 번만 그렇게 말하라. 지금 말하세요.",
+      "audioKey": "fr-a01-x01",
+      "es": "すみません、わかりませんでした。",
+      "pinyin": "soo-mee-ma-SEN, wa-ka-ri-ma-sen-DESH-ta",
+      "pt": "죄송해요, 이해하지 못했어요.",
+      "tts": "すみません、わかりませんでした。",
+      "molde": "SUMIMASEN",
+      "encaixe": "わかりませんでした"
+    },
+    {
+      "consulta": [
+        "reparo/devagar"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-a01-p02",
+      "promptPt": "전체를 다시 한번 부탁하라, 한 번만 더 들으면 된다. 지금 말하세요.",
+      "audioKey": "fr-a01-x02",
+      "es": "もう一度お願いします。",
+      "pinyin": "moh ee-chee-DO o-ne-gai-shee-mas",
+      "pt": "한 번 더 부탁드려요.",
+      "tts": "もう一度お願いします。"
+    },
+    {
+      "consulta": [
+        "reparo/devagar"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-a01-p03",
+      "promptPt": "두 번째도 첫 번째와 같은 속도였다. 문제를 해결해 줄 그 한 가지를 요청하라. 지금 말하세요.",
+      "audioKey": "fr-a01-x03",
+      "es": "もっとゆっくりお願いします。",
+      "pinyin": "MOT-to yook-KOO-ri o-ne-gai-shee-mas",
+      "pt": "더 천천히 부탁드려요.",
+      "tts": "もっとゆっくりお願いします。"
+    },
+    {
+      "consulta": [
+        "reparo/como-se-diz"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-a01-p04",
+      "promptPt": "중간의 단어 하나가 모든 일을 했는데 그걸 놓쳤다. 그것을 짚어서 물어보라. 지금 말하세요.",
+      "audioKey": "fr-a01-x04",
+      "es": "それ、どういう意味ですか？",
+      "pinyin": "so-RE, doh-yoo EE-mee des-ka",
+      "pt": "그게 무슨 뜻이에요?",
+      "tts": "それ、どういう意味ですか？"
+    },
+    {
+      "consulta": [
+        "reparo/escreve"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-a01-p05",
+      "promptPt": "지명이라서 세 번째로 들어도 도움이 안 된다. 종이에 적어 달라고 부탁하라. 지금 말하세요.",
+      "audioKey": "fr-a01-x05",
+      "es": "書いてもらえますか？",
+      "pinyin": "kai-te mo-ra-e-mas-ka",
+      "pt": "적어 주시겠어요?",
+      "tts": "書いてもらえますか？"
+    },
+    {
+      "consulta": [
+        "reparo/devagar",
+        "reparo/apontar"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-a01-p06",
+      "promptPt": "요지는 알아들었지만 세부는 놓쳤다. 정확히 그렇게 말해서, 도움이 되는 부분을 다시 말하게 하라. 지금 말하세요.",
+      "audioKey": "fr-a01-x06",
+      "es": "だいたいわかりましたが、全部は…",
+      "pinyin": "dai-tai wa-ka-ri-MASH-ta ga, ZEN-bu wa",
+      "pt": "요지는 알아들었는데, 전부는 아니에요.",
+      "tts": "だいたいわかりましたが、全部は…"
+    },
+    {
+      "consulta": [
+        "reparo/ingles"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-a01-p07",
+      "promptPt": "도와주려고 영어로 바꿨는데, 줄은 비어 있고 당신은 계속 일본어로 하고 싶다. 물어보라. 지금 말하세요.",
+      "audioKey": "fr-a01-x07",
+      "es": "日本語で続けてもいいですか？",
+      "pinyin": "ni-HON-go de tsu-zu-ke-te mo ee des-ka",
+      "pt": "일본어로 계속해도 될까요?",
+      "tts": "日本語で続けてもいいですか？"
+    },
+    {
+      "consulta": [
+        "simpatia/puxar-conversa"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-a01-p08",
+      "promptPt": "테이블의 대화가 당신에게서 서로에게로 넘어갔고, 당신은 흐름을 놓쳤다. 눈치챈 것을 유쾌하게 말하라. 지금 말하세요.",
+      "audioKey": "fr-a01-x08",
+      "es": "お二人だと、ずっと速いですね！",
+      "pinyin": "o-foo-ta-ri da to, ZOOT-to ha-YAI des ne",
+      "pt": "두 분끼리는 훨씬 빠르네요!",
+      "tts": "お二人だと、ずっと速いですね！"
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_fr_f",
+      "audioKey": "fr-a01-s01",
+      "es": "すみません、わかりませんでした。もう一度お願いします。もっとゆっくりお願いします。",
+      "pinyin": "soo-mee-ma-SEN wa-ka-ri-ma-sen-DESH-ta · moh ee-chee-DO o-ne-gai-shee-mas · MOT-to yook-KOO-ri o-ne-gai-shee-mas",
+      "pt": "무엇이든 한 번 더 들을 기회를 벌어 주는 세 문장을 따라 말해 보라.",
+      "tts": "すみません、わかりませんでした。もう一度お願いします。もっとゆっくりお願いします。"
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-a01-n11",
+      "bloco": "recap",
+      "pt": "A01 완료. 데스와 마스는 사라지고 반말이 자리를 차지하며, 몇 개의 작은 말이 의미를 실어 나른다. 그리고 방 안 대화의 3분의 1만 알아들어도 충분하다."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "무엇이 사라지고, 무엇이 남는가",
+    "secoes": [
+      {
+        "titulo": "ね, さ, まあ, なんか, っていうか",
+        "corpo": "다섯 개 중 어느 것도 깔끔하게 번역되지 않고, 다섯 개 모두 끊임없이 등장한다. 문장 끝의 ね는 당신이 잘 따라오고 있는지 확인한다. さ는 문장 중간에서 발언권을 유지한다. まあ는 이어질 말을 부드럽게 만든다, 대략 '뭐' 정도의 느낌이다. なんか는 입으로 하는 '음'이고, 화자가 아직 고르고 있는 단어 앞에 놓인다. っていうか는 '아니 그보다는'이라는 뜻이고 정정을 이끈다 — 그래서 귀를 잘 맞춰 두면 유용한데, 진짜 요점이 그 뒤에 오는 경우가 많기 때문이다.",
+        "exemplos": [
+          {
+            "es": "まあね、うん。",
+            "pt": "뭐 그렇지."
+          },
+          {
+            "es": "っていうか、まだ決めてない。",
+            "pt": "아니 그보다, 아직 못 정했어."
+          }
+        ]
+      },
+      {
+        "titulo": "말들은 어디로 사라지는가",
+        "corpo": "당신이 배운 정중한 데스와 마스는 일상적인 말에서는 없다: わかりません은 わからない가 되고 다시 わかんない가 된다. 見ている는 見てる로 줄어든다. を와 が 조사는 그냥 떨어져 나가고, 문장은 밋밋한 반말 동사로 끝난다. 이 중 어느 것도 대충 하는 말이 아니다 — 낯선 사람에게 하는 말이 아닐 때 이 언어가 실제로 내는 소리다. 이 모든 걸 알아보되, 절대 직접 쓰지는 마라. 방문 첫 주에 방금 만난 사람에게 반말을 쓰는 여행자는 일본어를 하는 것이 아니라 '캐주얼한 척'하는 인상만 남긴다."
+      },
+      {
+        "titulo": "で와 けど",
+        "corpo": "발언 앞의 で는 결론을 여는 말이다 — 그래서, 그러면, 그런 경우라면 — 그리고 대화에서는 결정을 이끌어내기 때문에 잡아 둘 가치가 있다. 문장 끝의 けど는 '하지만'이라기보다는 말끝을 흐리는 데 더 가깝다: 문장을 부드럽게 만들고 발언권을 조용히 넘겨준다. 둘 다 너무나 흔해서, 한 마디의 절반 이상이 군말이어도 당신을 뺀 모두에게는 완벽하게 명확할 수 있다."
+      },
+      {
+        "titulo": "영어는 있지만, 고르지 않다",
+        "corpo": "일본은 EF 영어 지수에서 하위권에 속하고, EF 스스로도 표본이 자기선택적이고 온라인 기반이라고 밝히기 때문에, 이 수치는 인구 비율이 아니라 국가 전체의 대략적인 그림으로 읽어야 한다. 실제로는 공항, 큰 호텔, 여행자용 창구에서는 어느 정도 영어를 기대할 수 있지만, 그 외 거의 모든 곳에서는 일본어로 헤쳐 나가야 한다. 간사이벤 같은 지역 사투리는 속도 위에 얹히는 또 하나의 층이다 — 같은 단어인데 가장자리만 다를 뿐, 다른 언어가 아니다."
+      }
+    ]
+  },
+  "slot": "A01",
+  "permissao": "당신은 엿들은 말의 3분의 1쯤만 이해하고도 그것을 성공으로 쳐도 된다. 제2언어로 빠른 대화를 완전한 해상도로 따라가는 사람은 아무도 없다 — 자리가 편안한지 긴장돼 있는지 아는 것이 진짜 실력이고, 그것은 생각보다 훨씬 적은 단어로 가능하다.",
+  "permissaoAudioKey": "fr-a01-n01",
+  "espelho": "자기 나라의 다른 지역 사람 둘이 나누는 이야기를 듣다가 절반을 놓쳐 본 사람은 이것이 외국어 문제가 아님을 안다. 속도와 공유된 맥락이 대부분의 손해를 만들고, 언어는 그중 일부일 뿐이다.",
+  "fichasCulturais": [
+    {
+      "sinal": "당신이 일본어로 말을 걸었는데, 상대는 조금도 망설이지 않고 영어로 답한다.",
+      "suaLeitura": "내 일본어가 거절당했고, 저 사람은 방문객이 서투르게 시도하는 걸 듣고 싶지 않은 거다.",
+      "oQueEAli": "창구에서는 대개 가장 빠른 방법이 이긴다. 당신 뒤에 줄이 있을 때 영어로 바꾸는 사람은 속도를 택한 것이거나, 아니면 그저 자기가 할 줄 아는 영어를 써보고 싶은 것뿐이다. 이는 당신의 발음과는 거의 상관이 없다.",
+      "oQueVoceFaz": "줄이 길 때는 영어를 받아들여라. 줄이 없을 때는 日本語で続けてもいいですか라고 묻는 게 자연스럽고, 대개 좋다는 대답이 돌아온다.",
+      "oQueMelhora": "실용적인 선택을 당신에 대한 평가로 읽지 않게 된다. 그런 오독이 사흘째 되는 날 포기하게 만드는 원인이다.",
+      "ondeNaoVale": "대화가 전문적이거나 급하거나 시간에 쫓길 때는 통하지 않는다 — 뒤에 줄이 선 매표소는 연습할 자리가 아니고, 거기서 고집을 부리면 둘 다 원하던 것을 놓치게 된다.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "fr-a01-n10"
+      ]
+    },
+    {
+      "sinal": "옆에서 오가는 대화는 빠르고, 서로 겹치고, 당신이 알아볼 수 없는 작은 말들로 가득하며, 뚜렷한 결론 없이 끝나는 것 같다.",
+      "suaLeitura": "내 귀가 문제이고, 내 일본어 실력은 생각보다 형편없다.",
+      "oQueEAli": "일상적인 말은 데스와 마스를 빼고, 조사를 먹어치우며, ね, さ, まあ, なんか, っていうか 같은 몇 개의 표지어로 굴러간다. 이 표지어들이 구조를 실어 나르고, 내용은 그 사이사이에 놓인다. 당신이 배운 버전은 정중한 버전이고, 실제 방 안의 버전은 더 짧고 더 느슨하다.",
+      "oQueVoceFaz": "단어를 쫓지 말고 표지어를 쫓아라. で는 결정이 다가온다는 뜻이고, 문장 끝의 けど는 화자가 부드럽게 발언권을 넘기고 있다는 뜻이다.",
+      "oQueMelhora": "받아쓸 수 없는 대화라도 그 틀을 따라가기 시작하게 된다. 그것이야말로 당신이 초대받고 있는지, 경고받고 있는지, 아니면 무시당하고 있는지를 실제로 알려주는 것이다.",
+      "ondeNaoVale": "이걸 직접 써도 된다는 허락은 아니다. 방문객의 입에서 나오는 わかんない와 반말은 일본어가 아니라 '일본어 흉내'로 들리고, 노력으로 얻은 호감을 무너뜨린다.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "fr-a01-n02",
+        "fr-a01-n05"
+      ]
+    }
+  ]
+}

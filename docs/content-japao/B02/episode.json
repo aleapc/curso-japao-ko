@@ -1,0 +1,315 @@
+{
+  "id": "b02",
+  "nivel": "basico",
+  "numero": 2,
+  "parte": "B02",
+  "titulo": "The greeting first, everything else second",
+  "subtitulo": "Ten words that fit in one breath — the ones that open a visit and close it, and the store-greeting you are not expected to answer",
+  "cena": "You step into a small shop, a voice calls out irasshaimase before you have said anything, and there is a half-second in which you either freeze or keep moving.",
+  "moldura": "ganha",
+  "frasePiso": "One greeting on the way in, one thanks on the way out, and eight more words cover the whole visit. The store-greeting is theirs, not yours to return.",
+  "moldes": [],
+  "fatosDatados": [
+    {
+      "id": "fr-ef-epi-2025",
+      "afirmacao": "Japan sits in EF's low-proficiency band on the EF English Proficiency Index 2024, scoring around 454 and ranking in the lower third of the countries measured, below most of East Asia. EF states the sample is self-selected and taken online, so the figure supports the claim that English proficiency in Japan is comparatively low on average — it does not support any claim about what share of people speak English, and it says nothing about the tourist-facing staff a visitor actually meets.",
+      "fonte": "EF EPI 2024 — Japão na faixa «low proficiency», ~454 pontos, terço inferior do ranking. Ressalva admitida pela própria EF: amostra online autosselecionada, não representativa da população. Uso: direção, não contagem.",
+      "ano": 2024,
+      "revisarAte": "2027-08-05",
+      "evidencia": "FATO",
+      "risco": "medio",
+      "audioKeys": [
+        "fr-b02-n04"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-b02-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "Ten words cover a whole shop. One opens the visit, one closes it, and one isn't yours — the greeting staff aim at you."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_f",
+      "audioKey": "fr-b02-t01",
+      "es": "こんにちは。",
+      "pinyin": "kon-ni-chi-WA",
+      "pt": "Hello. Said on the way in, before anything else happens.",
+      "tts": "こんにちは。"
+    },
+    {
+      "consulta": [
+        "chegar/entrar"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-b02-p01",
+      "promptPt": "You are crossing into a small shop with the owner behind the counter. Speak now.",
+      "audioKey": "fr-b02-t01",
+      "es": "こんにちは。",
+      "pinyin": "kon-ni-chi-WA",
+      "pt": "Hello.",
+      "tts": "こんにちは。"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-b02-r01",
+      "receptivo": true,
+      "es": "いらっしゃいませ！",
+      "pt": "Welcome! — the set store-greeting, called to every customer.",
+      "tts": "いらっしゃいませ！",
+      "acao": "That is aimed at you and needs no reply. A small nod is plenty. Just carry on to your request — in Japanese if you have it, in English if you do not."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-b02-n02",
+      "bloco": "corpo",
+      "pt": "The greeting shifts with the hour. Morning's full warm form is ohayou gozaimasu — the gozaimasu makes it polite."
+    },
+    {
+      "consulta": [
+        "chegar/entrar"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-b02-p02",
+      "promptPt": "Early morning, at the bakery, and the woman behind the counter looks up at you. Speak now.",
+      "audioKey": "fr-b02-t02",
+      "es": "おはようございます。",
+      "pinyin": "o-ha-YOH go-za-i-mass",
+      "pt": "Good morning.",
+      "tts": "おはようございます。"
+    },
+    {
+      "consulta": [
+        "chegar/entrar"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-b02-p03",
+      "promptPt": "It is dark outside and you are walking into a restaurant where a man is holding the door. Speak now.",
+      "audioKey": "fr-b02-t03",
+      "es": "こんばんは。",
+      "pinyin": "kon-ban-WA",
+      "pt": "Good evening.",
+      "tts": "こんばんは。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-b02-n03",
+      "pt": "No exact hour turns konnichiwa into konbanwa — it goes by the light and the room. Copy whichever one reaches you."
+    },
+    {
+      "consulta": [
+        "mesa/bebida"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-b02-p04",
+      "promptPt": "He tilts the bottle towards your glass for a second one, and you want it. Speak now.",
+      "audioKey": "fr-b02-t04",
+      "es": "はい、お願いします。",
+      "pinyin": "HAI, o-ne-gai-shi-mass",
+      "pt": "Yes, please.",
+      "tts": "はい、お願いします。"
+    },
+    {
+      "consulta": [
+        "compras/so-olhando"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-b02-p05",
+      "promptPt": "You are browsing and someone offers to help. Turn it down without closing the door. Speak now.",
+      "audioKey": "fr-b02-t05",
+      "es": "いいえ、結構です。",
+      "pinyin": "ii-e, KEK-koh dess",
+      "pt": "No, thank you.",
+      "tts": "いいえ、結構です。"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-b02-r02",
+      "es": "はい、どうぞごゆっくり。",
+      "pt": "Sure, take your time. It comes back at you constantly — douzo means 'go ahead', 'please do'.",
+      "tts": "はい、どうぞごゆっくり。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-b02-n04",
+      "bloco": "capsula",
+      "pt": "English is limited here — read it as a direction, not a count: some at hotels, stations and airports, far less at a small shop."
+    },
+    {
+      "consulta": [
+        "simpatia/agradecer"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-b02-p06",
+      "promptPt": "She has just wrapped the thing and handed it across. Speak now.",
+      "audioKey": "fr-b02-t06",
+      "es": "ありがとうございます。",
+      "pinyin": "a-ri-ga-TOH go-za-i-mass",
+      "pt": "Thank you very much.",
+      "tts": "ありがとうございます。"
+    },
+    {
+      "consulta": [
+        "chegar/entrar"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-b02-p07",
+      "promptPt": "The aisle is narrow and your bag has just caught someone's arm. Speak now.",
+      "audioKey": "fr-b02-t07",
+      "es": "すみません。",
+      "pinyin": "soo-mee-ma-SEN",
+      "pt": "Sorry.",
+      "tts": "すみません。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-b02-n05",
+      "pt": "On its own, sumimasen covers a bump or a squeeze past. Next part, it opens anything you need from a stranger."
+    },
+    {
+      "consulta": [
+        "chegar/sair"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-b02-p08",
+      "promptPt": "You are at the door on your way out and he is still behind the counter. Speak now.",
+      "audioKey": "fr-b02-t08",
+      "es": "ありがとうございました。",
+      "pinyin": "a-ri-ga-TOH go-za-i-mash-ta",
+      "pt": "Thank you (on the way out).",
+      "tts": "ありがとうございました。"
+    },
+    {
+      "consulta": [
+        "chegar/sair",
+        "simpatia/agradecer"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-b02-p09",
+      "promptPt": "You have just finished eating and you are getting up to leave. Say the thing people say after a meal here. Speak now.",
+      "audioKey": "fr-b02-t09",
+      "es": "ごちそうさまでした。",
+      "pinyin": "go-chi-SOH-sa-ma desh-ta",
+      "pt": "Thank you for the meal.",
+      "tts": "ごちそうさまでした。"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-b02-r03",
+      "es": "ありがとうございました。またお越しくださいませ。",
+      "pt": "Thank you. Please come again.",
+      "tts": "ありがとうございました。またお越しくださいませ。"
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_fr_f",
+      "audioKey": "fr-b02-s01",
+      "es": "こんにちは。はい、お願いします。ありがとうございます。ごちそうさまでした。",
+      "pinyin": "kon-ni-chi-WA · HAI o-ne-gai-shi-mass · a-ri-ga-TOH go-za-i-mass · go-chi-SOH-sa-ma desh-ta",
+      "pt": "Shadow the whole visit: in, ask, thank, out.",
+      "tts": "こんにちは。はい、お願いします。ありがとうございます。ごちそうさまでした。"
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-b02-n06",
+      "bloco": "recap",
+      "pt": "B02 done. Greeting in, gozaimasu, hai and iie, arigatou, sumimasen, arigatou gozaimashita and gochisousama out — irasshaimase is theirs."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "The ten words, and the order they go in",
+    "secoes": [
+      {
+        "titulo": "The list",
+        "corpo": "Ohayou gozaimasu, konnichiwa, konbanwa, sumimasen, arigatou gozaimasu, hai, iie, onegai shimasu, gochisousama, shitsurei shimasu. Ten words, one breath each, and between them they cover the entry, the request, the yes and no, the thanks and the exit of an ordinary shop or meal.",
+        "exemplos": [
+          {
+            "es": "こんにちは。",
+            "pt": "Hello — the entry"
+          },
+          {
+            "es": "ごちそうさまでした。",
+            "pt": "Thank you for the meal — the exit"
+          }
+        ]
+      },
+      {
+        "titulo": "Irasshaimase is theirs, not yours",
+        "corpo": "The voice that calls out as you enter — irasshaimase — is a set store-greeting aimed at every customer, and it does not ask for a reply. English speakers often freeze, feeling addressed and unsure what to say back. A small nod is the whole answer. Your own opener, when you need attention, is sumimasen — that is the word that asks for passage into someone's space, and it belongs to the next part."
+      },
+      {
+        "titulo": "Politeness is in the ending, not a title",
+        "corpo": "There is no madame or monsieur to add here. Politeness rides on the -desu and -masu endings and on gozaimasu, plus a slight bow of the head. You do not attach name-suffixes like -san to a stranger behind a counter, and you never need to guess anyone's status — the plain polite register is safe with everyone."
+      },
+      {
+        "titulo": "The exit has its own words",
+        "corpo": "Leaving a shop, arigatou gozaimashita — the past form — closes it. Leaving after a meal, gochisousama deshita thanks the kitchen and is unmistakably the right thing to say. Shitsurei shimasu, literally 'excuse the rudeness of my leaving', works for stepping out of an office or a more formal room. Any of them, said on the way out, closes the visit the way it opened."
+      },
+      {
+        "titulo": "About English",
+        "corpo": "English proficiency in Japan sits low on the international index, and the index is built from an online, self-selected sample, so it is evidence of a general level rather than a count of speakers — and it says nothing about the specific staff a traveller meets. Practically: expect some English at large hotels, major stations and airports, expect little of it at a neighbourhood shop, and do not build a plan on either. Pointing, a written address and the frames in this course carry the rest."
+      }
+    ]
+  },
+  "slot": "B02",
+  "permissao": "Ten words is a complete kit. You do not need a sentence to enter a shop in Japan — you need one greeting on the way in and one thanks on the way out, and everything between them is allowed to be in English, in gestures, or in pointing. You are also allowed to simply not answer irasshaimase.",
+  "permissaoAudioKey": "fr-b02-n01",
+  "espelho": "Anyone who has walked into a small local shop at home knows the difference between the customer who says hello and the one who opens with 'do you have'. The second one gets served just the same, and the room feels different. Japan runs that same difference, just with a greeting that shifts by the hour and a store-greeting you let pass.",
+  "fichasCulturais": [
+    {
+      "sinal": "A voice calls out irasshaimase the second you step in, and you freeze, sure you are expected to say something back.",
+      "suaLeitura": "I have been addressed and I am already failing by not answering.",
+      "oQueEAli": "Irasshaimase is a fixed store-greeting called to every customer who crosses the threshold. It is not a question and not an opening you are meant to complete — it asks for nothing verbal in return. Staff often say it to a whole doorway without even looking up.",
+      "oQueVoceFaz": "Give a small nod if anything, and keep moving to what you came for. When you need attention, sumimasen is your word, not a reply to theirs.",
+      "oQueMelhora": "You stop spending your first second in every shop bracing for a line you do not owe, and the entry feels ordinary instead of like a test.",
+      "ondeNaoVale": "Not at a counter where someone is clearly speaking to you directly and waiting — a yes-or-no question, a hand held out for a card. That is a real exchange, and it does want an answer.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "fr-b02-n01",
+        "fr-b02-r01"
+      ]
+    },
+    {
+      "sinal": "It is late afternoon and you cannot tell whether the room wants konnichiwa or konbanwa.",
+      "suaLeitura": "There must be an official cut-off and I am about to get it wrong.",
+      "oQueEAli": "There is no fixed hour. The switch is usage, it drifts with how dark it is and with the setting, and two people in the same room will pick differently. Ohayou gozaimasu is stranger still — some workplaces use it any time someone arrives for a shift.",
+      "oQueVoceFaz": "Listen to the one that reaches you first and return it. If you get there first, konnichiwa is the safe daylight default at almost any hour.",
+      "oQueMelhora": "You stop losing the half-second of hesitation that makes the whole entry look uncertain.",
+      "ondeNaoVale": "Not late at night in a bar or restaurant, where konbanwa is simply the word — and the greeting matters far less than the bow and the tone that carry it.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "fr-b02-n03"
+      ]
+    }
+  ]
+}

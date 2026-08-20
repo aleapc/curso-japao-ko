@@ -1,0 +1,374 @@
+{
+  "id": "b12",
+  "nivel": "basico",
+  "numero": 12,
+  "parte": "B12",
+  "titulo": "누키데 — 요리를 수정 가능하게 만드는 두 음절",
+  "subtitulo": "와사비 빼고, 얼음 빼고, 소스는 따로: 원하는 대로 요리가 나오고, nuki de 한마디만 더하면 된다",
+  "cena": "메뉴판의 요리는 주방이 써놓은 그대로 존재하고, 직원은 주문 패드를 들고 있고, 그 안에는 만나고 싶지 않은 재료가 하나 있다.",
+  "moldura": "ganha",
+  "frasePiso": "원하지 않는 것, 그다음 nuki de — 요리가 나온 뒤가 아니라 주문할 때 말해라.",
+  "moldes": [
+    "NUKI-DE"
+  ],
+  "clique": {
+    "contagem": [
+      "라멘집 카운터",
+      "스시집",
+      "아침의 카페"
+    ],
+    "desconto": "바꾸고 싶은 요리마다 문장을 배운 게 아니다. 재료 뒤에 nuki de를 붙였을 뿐, 나머지 주문은 그대로였다.",
+    "piso": "다음에 요리가 거의 다 맞는데 딱 하나 아쉬울 때, 그 부분을 피해가며 먹지 않는다. 만들어지기 전에 그 한마디를 말한다."
+  },
+  "fatosDatados": [
+    {
+      "id": "fr-b12-fait-maison",
+      "afirmacao": "가쓰오부시(かつおだし)와 다시마로 만든 육수 다시(だし)는 일본 요리의 아주 큰 부분을 이루는 기반이고, 순전히 채소로만 보이는 요리에도 들어간다: 미소국, 조림 채소, 여러 소스와 드레싱까지. 여행자에게 두 가지가 따라온다. '고기 없음'이 '생선 없음'을 뜻하지는 않는다, 가쓰오다시는 생선이기 때문이다; 그리고 '육수가 생선인가요?'(出汁は魚ですか)라고 묻는 게 눈에 보이는 고기를 훑어보는 것보다 믿을 만한 방법이다.",
+      "fonte": "O dashi de かつお (bonito) e 昆布 (kombu) é base ampla da culinária japonesa, presente em pratos aparentemente vegetais (missoshiru, legumes cozidos, molhos); 'sem carne' não implica 'sem peixe'.",
+      "ano": 2026,
+      "revisarAte": "2028-08-05",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "fr-b12-n05"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-b12-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "이미 주문은 할 줄 안다. 이건 실제로 나오는 걸 바꾸는 문구다."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-b12-n02",
+      "bloco": "molde",
+      "pt": "틀은 원하지 않는 것, 그다음 nuki de. 와사비, 얼음, 소스, 설탕 — 재료를 먼저, 그다음 nuki de를 붙여라."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_f",
+      "audioKey": "fr-b12-t01",
+      "es": "わさび抜きで、お願いします。",
+      "pinyin": "wa-SA-bi NU-ki de, o-ne-gai-shi-MAS",
+      "pt": "와사비는 빼고 부탁드려요.",
+      "tts": "わさび抜きで、お願いします。"
+    },
+    {
+      "consulta": [
+        "dieta/sem"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "NUKI-DE",
+      "encaixe": "わさび",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-b12-p01",
+      "promptPt": "스시 카운터에서 방금 주문했고, 와사비는 기본적으로 생선과 밥 사이에 들어간다. 지금 말하세요.",
+      "audioKey": "fr-b12-t01",
+      "es": "わさび抜きで、お願いします。",
+      "pinyin": "wa-SA-bi NU-ki de, o-ne-gai-shi-MAS",
+      "pt": "와사비는 빼고 부탁드려요."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-b12-r01",
+      "receptivo": true,
+      "es": "わさび抜きですね。承知しました。",
+      "pt": "와사비 빼기시죠. 알겠습니다.",
+      "tts": "わさび抜きですね。承知しました。",
+      "acao": "shouchi shimashita는 주문 패드에 잘 적혔다는 뜻이다. 더 이상 할 건 없다."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-b12-n03",
+      "bloco": "corpo",
+      "pt": "Nuki de는 주문 끝에 붙거나 그 자체로도 성립한다. Wasabi nuki de는 카운터에서 그 자체로 완전한 문장이다."
+    },
+    {
+      "consulta": [
+        "mesa/bebida"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "NUKI-DE",
+      "encaixe": "氷",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-b12-p02",
+      "promptPt": "아침 카페에서 콜라를 주문하는데, 컵이 얼음으로 반쯤 찬 채 나올 걸 안다. 지금 말하세요.",
+      "audioKey": "fr-b12-t02",
+      "es": "コーラを氷抜きで、お願いします。",
+      "pinyin": "KOH-ra o koo-ri NU-ki de, o-ne-gai-shi-MAS",
+      "pt": "콜라는 얼음 빼고 부탁드려요.",
+      "tts": "コーラを氷抜きで、お願いします。"
+    },
+    {
+      "consulta": [
+        "dieta/sem"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "NUKI-DE",
+      "encaixe": "マヨネーズ",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-b12-p03",
+      "promptPt": "카운터에서 직원이 마요네즈로 손을 뻗으려 한다, 여기선 거의 모든 것에 들어간다. 지금 말하세요.",
+      "audioKey": "fr-b12-t03",
+      "es": "マヨネーズ抜きで、お願いします。",
+      "pinyin": "ma-yo-NEE-zu NU-ki de, o-ne-gai-shi-MAS",
+      "pt": "마요네즈는 빼고 부탁드려요.",
+      "tts": "マヨネーズ抜きで、お願いします。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-b12-n04",
+      "pt": "주문할 때 말해라. 요리가 완성되고 나면, 주방은 재배치는 할 수 있어도 없앨 수는 없다."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-b12-r02",
+      "receptivo": true,
+      "es": "ソースはもう入っています。別のお皿にしましょうか？",
+      "pt": "소스는 이미 들어가 있어요. 다른 접시에 따로 드릴까요?",
+      "tts": "ソースはもう入っています。別のお皿にしましょうか？",
+      "acao": "이건 거절이 아니라 제안이다. 따로 담아주는 버전을 받아들이거나 괜찮다고 해라."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-b12-n06",
+      "bloco": "capsula",
+      "pt": "Betsu de는 그 나머지 절반이다. 소스 betsu de는 빼는 게 아니라 따로 담아 달라는 뜻이고, sukuname은 조금 덜 넣어 달라는 뜻이다."
+    },
+    {
+      "consulta": [
+        "mesa/comida"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-b12-p04",
+      "promptPt": "방금 따로 담아주겠다고 제안했고, 그 제안을 받아들이고 싶다. 지금 말하세요.",
+      "audioKey": "fr-b12-t04",
+      "es": "ソースは別でお願いします。",
+      "pinyin": "SOH-su wa BE-tsu de o-ne-gai-shi-MAS",
+      "pt": "소스는 따로 부탁드려요.",
+      "tts": "ソースは別でお願いします。"
+    },
+    {
+      "consulta": [
+        "mesa/bebida"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "NUKI-DE",
+      "encaixe": "砂糖",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-b12-p05",
+      "promptPt": "아침, 카페에서, 차는 아무것도 안 넣고 마신다. 지금 말하세요.",
+      "audioKey": "fr-b12-t05",
+      "es": "紅茶を砂糖抜きで、お願いします。",
+      "pinyin": "koo-CHA o sa-TOH NU-ki de, o-ne-gai-shi-MAS",
+      "pt": "홍차는 설탕 빼고 부탁드려요.",
+      "tts": "紅茶を砂糖抜きで、お願いします。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-b12-n05",
+      "pt": "육수를 조심해라. 다시는 생선이고, 순전히 채소처럼 보이는 요리에도 숨어 있으니, 고기 없음이 생선 없음과 같은 게 아니다."
+    },
+    {
+      "consulta": [
+        "dieta/sem"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "NUKI-DE",
+      "encaixe": "ねぎ",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-b12-p06",
+      "promptPt": "다시 라멘집 카운터에서, 그릇에 대파가 잔뜩 쌓여 나오는데 빼고 싶다. 지금 말하세요.",
+      "audioKey": "fr-b12-t06",
+      "es": "ねぎ抜きで、お願いします。",
+      "pinyin": "ne-gi NU-ki de, o-ne-gai-shi-MAS",
+      "pt": "파는 빼고 부탁드려요.",
+      "tts": "ねぎ抜きで、お願いします。"
+    },
+    {
+      "consulta": [
+        "dieta/sem"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "NUKI-DE",
+      "encaixe": "豚肉",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-b12-p07",
+      "promptPt": "정식 메뉴판을 훑어보는데 한 계열 전체가 당신에게는 안 맞는다. 지금 말하세요.",
+      "audioKey": "fr-b12-t07",
+      "es": "豚肉抜きで、お願いします。",
+      "pinyin": "bu-ta-NI-ku NU-ki de, o-ne-gai-shi-MAS",
+      "pt": "돼지고기는 빼고 부탁드려요.",
+      "tts": "豚肉抜きで、お願いします。"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-b12-r03",
+      "receptivo": true,
+      "es": "それでしたら、鶏肉の定食はいかがですか？",
+      "pt": "그러시다면, 닭고기 정식은 어떠세요?",
+      "tts": "それでしたら、鶏肉の定食はいかがですか？",
+      "acao": "거절이 아니라 대안을 받은 것이다. 받아들이거나 다른 게 뭐 있는지 물어봐라."
+    },
+    {
+      "consulta": [
+        "dieta/o-que-tem"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "NUKI-DE",
+      "encaixe": "グルテン",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-b12-p08",
+      "promptPt": "밀을 먹을 수 없다. 요리 하나를 가리키고 있고 주문 전에 확인해야 한다. 지금 말하세요.",
+      "audioKey": "fr-b12-t08",
+      "es": "グルテン抜きはできますか？",
+      "pinyin": "gu-RU-ten NU-ki wa de-ki-MAS ka",
+      "pt": "글루텐 빼고 될까요?",
+      "tts": "グルテン抜きはできますか？"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-b12-n07",
+      "pt": "Okawari는 리필이라는 뜻이다. 새 문장을 만들지 않고도 밥을 더 받을 수 있고, 종종 무료다."
+    },
+    {
+      "consulta": [
+        "mesa/agua-pao"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-b12-p09",
+      "promptPt": "밥그릇은 비었는데 접시엔 아직 반찬이 남아 있다. 지금 말하세요.",
+      "audioKey": "fr-b12-t09",
+      "es": "ご飯のおかわり、お願いします。",
+      "pinyin": "go-HAN no o-KA-wa-ri, o-ne-gai-shi-MAS",
+      "pt": "밥 한 그릇 더 부탁드려요.",
+      "tts": "ご飯のおかわり、お願いします。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-b12-n08",
+      "pt": "이건 선호이지 알레르기가 아니다. 알레르기는 다음 파트에서 그 자체의 문장과 그 자체의 서면 카드를 갖는다."
+    },
+    {
+      "consulta": [
+        "mesa/bebida"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "NUKI-DE",
+      "encaixe": "乳製品",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-b12-p10",
+      "promptPt": "카페 카운터에서 우유가 들어간 음료를 원하지만 유제품은 빼고 싶다. 가능한지 물어봐라. 지금 말하세요.",
+      "audioKey": "fr-b12-t10",
+      "es": "乳製品抜きはできますか？",
+      "pinyin": "nyoo-SEI-hin NU-ki wa de-ki-MAS ka",
+      "pt": "유제품 빼고 될까요?",
+      "tts": "乳製品抜きはできますか？"
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_fr_f",
+      "audioKey": "fr-b12-s01",
+      "es": "わさび抜きで、お願いします。コーラを氷抜きで。紅茶を砂糖抜きで。",
+      "pinyin": "wa-SA-bi NU-ki de, o-ne-gai-shi-MAS. KOH-ra o koo-ri NU-ki de. koo-CHA o sa-TOH NU-ki de",
+      "pt": "같은 문구를 세 가지 다른 재료 뒤에 붙여 따라 말해봐라.",
+      "tts": "わさび抜きで、お願いします。コーラを氷抜きで。紅茶を砂糖抜きで。",
+      "molde": "NUKI-DE"
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-b12-n09",
+      "bloco": "recap",
+      "pt": "B12 완료. Nuki de가 와사비, 얼음, 마요네즈, 설탕, 대파를 다 빼줬다 — 매번 같은 두 음절로."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "설명하는 대신 빼기",
+    "secoes": [
+      {
+        "titulo": "재료 더하기 nuki de",
+        "corpo": "재료는 그대로 놓고 nuki de가 변형 없이 뒤따른다: wasabi nuki de, koori nuki de, satou nuki de. 주문에 붙여 써도 되고, 그 자체로 대답이 돼도 되고, dekimasu ka를 붙여 질문으로 바꿔도 된다 — '빼고 될까요?'",
+        "exemplos": [
+          {
+            "es": "コーラを氷抜きで、お願いします。",
+            "pt": "콜라는 얼음 빼고 부탁드려요."
+          },
+          {
+            "es": "グルテン抜きはできますか？",
+            "pt": "글루텐 빼고 될까요?"
+          }
+        ]
+      },
+      {
+        "titulo": "Betsu de, sukuname, okawari",
+        "corpo": "nuki de의 세 동반자다. Betsu de는 뭔가를 빼는 대신 접시 옆으로 옮겨준다; sukuname은 아예 없애는 대신 덜 넣어달라고 한다; okawari는 이미 있는 것 — 대개 밥 — 을 리필해 달라는 요청이고, 종종 무료다. 이 셋을 합치면 여행자가 하고 싶은 수정의 거의 전부가 커버된다."
+      },
+      {
+        "titulo": "표현보다 타이밍",
+        "corpo": "같은 요청이라도 주문하는 순간엔 쉽고, 요리가 눈앞에 놓인 뒤엔 어색하다. 주문받고 조리하는 주방은 재료를 뺄 수 있지만, 이미 완성돼 나온 요리는 대개 옮길 수만 있지 없앨 수는 없다. 스시 카운터에서 만들어지기 전에 wasabi nuki de라고 하는 건 힘들이지 않아도 되지만, 만들어진 뒤에 골라내는 건 그렇지 않다."
+      },
+      {
+        "titulo": "채소 속에 숨어 있는 생선 육수",
+        "corpo": "가쓰오부시와 다시마로 만든 육수 다시는 일본 요리의 아주 큰 부분을 떠받친다 — 미소국, 조림 채소, 드레싱, 찍어 먹는 소스까지 — 완전히 채소처럼 보이는 요리도 포함해서다. 그래서 '고기 없음'이 '생선 없음'과 같지 않다. 믿을 만한 질문은 육수 그 자체에 대한 것이다: dashi wa sakana desu ka, 육수가 생선인가요?"
+      }
+    ]
+  },
+  "slot": "B12",
+  "permissao": "요리를 바꿔도 괜찮다. nuki de라고 말하는 건 주문의 자연스러운 일부이지 요구나 번거로운 일이 아니고, 받아 적는 사람은 이번 주에만 이미 쉰 번은 아무 생각 없이 이 말을 적었다.",
+  "espelho": "고향의 카운터에서 피클 빼주세요, 소스는 따로요, 얼음 빼주세요라고 말해본 사람이라면 이미 자기 언어로 똑같은 일을 해본 것이다. 새로운 건 여기서는 그 수정 전체가 재료 뒤에 붙는 두 음절 안에 다 들어간다는 점뿐이다.",
+  "permissaoAudioKey": "fr-b12-n02",
+  "fichasCulturais": [
+    {
+      "sinal": "재료 하나 빼달라고 요청했는데 다른 완충 표현 없이 딱 잘라 dekimasen이라는 대답이 돌아온다.",
+      "suaLeitura": "귀찮아서 그런 거거나, 일부러 나를 힘들게 하려는 것 같다.",
+      "oQueEAli": "이 단어는 대개 당신이 아니라 주방 사정에 대한 진술이다. 주문받고 조리하는 요리는 재료를 뺄 수 있지만, 미리 만들어져 나오거나 통째로 데워 나오는 요리는 물리적으로 그럴 수 없다. 딱딱한 어조는 바쁜 서비스의 말투일 뿐, 요청에 대한 평가가 아니다.",
+      "oQueVoceFaz": "주문하는 순간에 물어보고, 대안을 함께 챙겨라: betsu de. 빼는 게 불가능해도 따로 담는 건 되는 경우가 많고, 스스로 그걸 제안하면 거절이 타협으로 바뀐다.",
+      "oQueMelhora": "대치 상태 대신 원하던 요리나 더 나은 대안을 들고 자리를 뜨게 된다.",
+      "ondeNaoVale": "알레르기에는 해당하지 않는다. 알레르기는 선호가 아니고, '아마도'를 허용하지 않으며, nuki de 하나만으로는 전달되지 않는다 — 그건 서면 카드를 동반한 다른 대화이고, 이 과정의 다음 파트에서 다룬다.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "fr-b12-n04"
+      ]
+    },
+    {
+      "sinal": "고기를 피하려고 순수해 보이는 채소 요리를 주문했는데, 나중에 그게 생선 육수로 조려졌다는 걸 알게 된다.",
+      "suaLeitura": "채식 요리에 몰래 고기를 넣었거나, 내 말을 안 들은 것 같다.",
+      "oQueEAli": "몰래 넣은 건 아무것도 없다. 가쓰오부시와 다시마로 만든 다시는 눈에 보이는 고기나 생선이 전혀 없는 요리를 포함해 일본 요리의 아주 큰 부분을 떠받친다. 일본 주방 입장에선 이건 배경 풍미일 뿐, 누구도 굳이 언급할 생각을 하는 재료가 아니라서, 생선 육수가 들어간 채소 요리는 속이는 게 아니라 흔한 일이다.",
+      "oQueVoceFaz": "토핑이 아니라 육수에 대해 물어봐라: dashi wa sakana desu ka. 생선을 완전히 피한다면 그렇게 분명히 말하고 그것 없는 버전이 있는지 물어봐라.",
+      "oQueMelhora": "요리가 나오기 전에 보이지 않는 재료를 미리 알아채게 되고, 위에 보이는 것만으로 요리를 판단하지 않게 된다.",
+      "ondeNaoVale": "모든 요리가 생선 다시를 쓰는 건 아니다 — 다시마만 쓴 육수와 채식 사찰음식(쇼진 요리)도 존재한다 — 하지만 기본 가정으로는 육수를 생선으로 여기는 편이 안전하다.",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "fr-b12-n05"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,328 @@
+{
+  "id": "i03",
+  "nivel": "intermediario",
+  "numero": 21,
+  "parte": "I03",
+  "titulo": "The plate you were not going to order",
+  "subtitulo": "Honjitsu no osusume is today's dish and it moves fast, jikasei means house-made but proves nothing on its own, and what a set includes is whatever this house says it is",
+  "cena": "A small board by the door with two lines on it, a laminated card inside with forty, and the good thing is on the board.",
+  "moldura": "ganha",
+  "frasePiso": "Ask what today is and what is in it. Two questions, and you order the thing you could not have picked off a laminated card.",
+  "decisao": "pedir a recomendação do dia ou a do balcão em vez do prato cujo nome eu já reconheço — e perguntar o que entra na coisa antes de pedir, porque no Japão nem origem nem alérgeno é obrigatório na carta do restaurante",
+  "moldes": [],
+  "fatosDatados": [
+    {
+      "id": "fr-i03-sanchi",
+      "afirmacao": "Origin labelling on a restaurant menu is not mandatory in Japan. The Consumer Affairs Agency issued a voluntary guideline on displaying the origin of ingredients in food service in 2005, but for restaurants it is guidance rather than a rule, so a menu that names a prefecture is making a choice and a menu that says nothing is not breaking one. The corollary for a visitor: where a dish comes from is something you ask about, not something the card guarantees.",
+      "fonte": "消費者庁 (Agência de Assuntos do Consumidor) — «外食における原産地表示に関するガイドライン», de 2005 (原agência: 農林水産省); exibição voluntária no 外食",
+      "ano": 2005,
+      "revisarAte": "2028-08-05",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "fr-i03-n02"
+      ]
+    },
+    {
+      "id": "fr-i03-allergen",
+      "afirmacao": "Allergen labelling is mandatory only on prepackaged food, not in restaurants. Under the Food Labelling Act (食品表示法, in force since April 2015) a closed list of designated allergens (特定原材料) must be declared on packaged products — the list numbers eight items after walnut (くるみ) was made mandatory in the 2023 revision, with the transition running to 2025. Food service is outside this obligation: a restaurant menu with no allergen marks is not concealing anything, it is simply not required to carry them, which is exactly why a person with an allergy states it out loud rather than reading for it.",
+      "fonte": "食品表示法 (Lei de Rotulagem de Alimentos), em vigor desde abr/2015; 特定原材料 — 8 itens após くるみ tornar-se obrigatório (revisão de 2023, transição até 2025); 外食 fora da obrigação",
+      "ano": 2015,
+      "revisarAte": "2027-08-05",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "fr-i03-n04"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-i03-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "The best plate in the room is usually the one that is not printed on the card."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-i03-r01",
+      "receptivo": true,
+      "acao": "That is a recommendation with a reason attached. Take it, or at least ask what it is before you decide.",
+      "es": "今日のおすすめ、よく出ますよ。",
+      "pt": "Today's recommendation, it's going fast.",
+      "tts": "今日のおすすめ、よく出ますよ。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-i03-n02",
+      "bloco": "corpo",
+      "pt": "Where a dish is from is not printed by law here. Origin on a menu is voluntary, so if it matters, you ask rather than read."
+    },
+    {
+      "consulta": [
+        "mesa/carta",
+        "mesa/comida"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "ARIMASU-KA",
+      "encaixe": "日替わり定食",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-i03-p01",
+      "promptPt": "You are seated and the laminated card has just landed in front of you. Find the other option first. Speak now.",
+      "audioKey": "fr-i03-t01",
+      "es": "日替わり定食はありますか？",
+      "pinyin": "hi-ga-WA-ri tei-SHO-ku wa a-ri-MAS-ka",
+      "pt": "Do you have a daily set?",
+      "tts": "日替わり定食はありますか？"
+    },
+    {
+      "consulta": [
+        "mesa/comida"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-i03-p02",
+      "promptPt": "They said yes. Now find out what today actually is. Speak now.",
+      "audioKey": "fr-i03-t02",
+      "es": "本日のおすすめは何ですか？",
+      "pinyin": "HON-jitsu no o-su-su-me wa NAN des-ka",
+      "pt": "What is today's recommendation?",
+      "tts": "本日のおすすめは何ですか？"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-i03-r02",
+      "es": "今日は、ぶりの照り焼きです。ご飯とお味噌汁がつきます。",
+      "pt": "Today it's yellowtail teriyaki. It comes with rice and miso soup.",
+      "tts": "今日は、ぶりの照り焼きです。ご飯とお味噌汁がつきます。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-i03-n03",
+      "pt": "The frame from your first hour still works. Wa arimasu ka, then whatever you want them to have."
+    },
+    {
+      "consulta": [
+        "mesa/comida",
+        "simpatia/puxar-conversa"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-i03-p03",
+      "promptPt": "Forty lines on the card and you recognise six of them. Hand the choice to the person who knows. Speak now.",
+      "audioKey": "fr-i03-t03",
+      "es": "何がおすすめですか？",
+      "pinyin": "NA-ni ga o-su-su-me des-ka",
+      "pt": "What would you recommend?",
+      "tts": "何がおすすめですか？"
+    },
+    {
+      "consulta": [
+        "mesa/comida",
+        "dieta/o-que-tem"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-i03-p04",
+      "promptPt": "A name on the board that means nothing to you. One question opens it. Speak now.",
+      "audioKey": "fr-i03-t04",
+      "es": "これは何が入っていますか？",
+      "pinyin": "ko-RE wa NA-ni ga hait-te-i-mas-ka",
+      "pt": "What is in this?",
+      "tts": "これは何が入っていますか？"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-i03-n04",
+      "bloco": "capsula",
+      "pt": "Jikasei means house-made, a selling word not a legal one. Restaurants need not list allergens, so its absence proves nothing: you ask."
+    },
+    {
+      "consulta": [
+        "mesa/comida",
+        "dieta/o-que-tem"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-i03-p05",
+      "promptPt": "You are curious whether the kitchen behind you actually cooks. Ask about the plate, not about the place. Speak now.",
+      "audioKey": "fr-i03-t05",
+      "es": "これは手作りですか？",
+      "pinyin": "ko-RE wa te-ZU-ku-ri des-ka",
+      "pt": "Is this made here?",
+      "tts": "これは手作りですか？"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-i03-r03",
+      "receptivo": true,
+      "acao": "No label on the card is not an answer either way. The answer is the sentence you just got by asking.",
+      "es": "はい、全部うちで作っています。",
+      "pt": "Yes, we make everything here.",
+      "tts": "はい、全部うちで作っています。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-i03-n05",
+      "pt": "A koosu or a setto has no fixed definition. Whatever this house means by it is the definition today, so you ask what comes with it."
+    },
+    {
+      "consulta": [
+        "mesa/carta",
+        "pagar/pedir"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-i03-p06",
+      "promptPt": "The board says a set and a number, and nothing else. Find out what the number buys. Speak now.",
+      "audioKey": "fr-i03-t06",
+      "es": "このコースには何がつきますか？",
+      "pinyin": "ko-no KOH-su ni wa NA-ni ga tsu-ki-mas-ka",
+      "pt": "What comes with this course?",
+      "tts": "このコースには何がつきますか？"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-i03-r04",
+      "receptivo": true,
+      "acao": "That is this house's definition, not a national one. The next place down the street may draw the line elsewhere.",
+      "es": "コースは、前菜とメインとデザートで、三千円です。",
+      "pt": "The course is starter, main and dessert, three thousand yen.",
+      "tts": "コースは、前菜とメインとデザートで、三千円です。"
+    },
+    {
+      "consulta": [
+        "mesa/comida",
+        "simpatia/elogiar-comida"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "ARIMASU-KA",
+      "encaixe": "この辺の名物",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-i03-p07",
+      "promptPt": "You are far from where you landed and want the thing that only exists here. Speak now.",
+      "audioKey": "fr-i03-t07",
+      "es": "この辺の名物はありますか？",
+      "pinyin": "ko-no HEN no mei-BUTSU wa a-ri-MAS-ka",
+      "pt": "Do you have a local speciality?",
+      "tts": "この辺の名物はありますか？"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-i03-n06",
+      "pt": "Then commit. Kore, the thing you just heard described, plus onegai shimasu is a complete order, and the whole point of this part."
+    },
+    {
+      "consulta": [
+        "mesa/comida",
+        "pagar/pedir"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-i03-p08",
+      "promptPt": "They have finished describing it and are waiting, pen up. Close it in one short sentence. Speak now.",
+      "audioKey": "fr-i03-t08",
+      "es": "じゃあ、これをお願いします。",
+      "pinyin": "JAA, ko-RE o o-ne-gai-shi-MAS",
+      "pt": "Then I'll have that.",
+      "tts": "じゃあ、これをお願いします。"
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_fr_f",
+      "audioKey": "fr-i03-s01",
+      "es": "日替わり定食はありますか？ これは何が入っていますか？ じゃあ、これをお願いします。",
+      "pinyin": "hi-ga-WA-ri tei-SHO-ku wa a-ri-MAS-ka. ko-RE wa NA-ni ga hait-te-i-mas-ka. JAA, ko-RE o o-ne-gai-shi-MAS",
+      "pt": "Shadow the three moves that get you off the laminated card and onto the board.",
+      "tts": "日替わり定食はありますか？ これは何が入っていますか？ じゃあ、これをお願いします。",
+      "molde": "ARIMASU-KA"
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-i03-n07",
+      "bloco": "recap",
+      "pt": "I03 done. The daily set, what is in it, whether it is made here, and what a course actually includes at this house."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "Three words on the board, and what each one is worth",
+    "secoes": [
+      {
+        "titulo": "The daily set and the recommendation",
+        "corpo": "Nichigawari teishoku is the day's set meal and honjitsu no osusume the day's pick; both change and neither is printed on the laminated card. Asking wa arimasu ka for the set and nan desu ka for the recommendation gets you the two things the card cannot show — and the set usually arrives with rice and miso soup attached, which is the point of ordering it.",
+        "exemplos": [
+          {
+            "es": "日替わり定食はありますか？",
+            "pt": "Do you have a daily set?"
+          },
+          {
+            "es": "本日のおすすめは何ですか？",
+            "pt": "What is today's recommendation?"
+          }
+        ]
+      },
+      {
+        "titulo": "Jikasei and tezukuri are selling words",
+        "corpo": "Jikasei (house-made) and tezukuri (handmade) describe a kitchen's own claim; they are not defined terms and carry no certificate. And a restaurant menu is under no obligation to list allergens at all — the Food Labelling Act covers packaged food, not food service. So a card without any of these marks tells you nothing, and the reliable move is a question about the specific plate rather than a hunt for badges."
+      },
+      {
+        "titulo": "A course is whatever they say it is",
+        "corpo": "Koosu and setto have no fixed national meaning. The common usage — a set as a main with rice and soup, a course as several plates at a fixed price — is convention, and houses draw the line differently. One question before ordering removes the whole ambiguity, and it is a question people are used to being asked."
+      },
+      {
+        "titulo": "The question that opens a name",
+        "corpo": "Nani ga haitte imasu ka works on anything: a regional name, a board scrawl, a word you half recognise. It is more useful than asking whether something is good, because the answer is concrete and you can decide from it — and for an allergy it is the question that actually protects you, since the card will not."
+      }
+    ]
+  },
+  "slot": "I03",
+  "permissao": "You are allowed to order something you cannot picture. Asking what is in it and then saying yes is not a gamble you are taking on your own — it is the sequence the person serving you is expecting, and the reason they mentioned the recommendation in the first place.",
+  "permissaoAudioKey": "fr-i03-n06",
+  "espelho": "Anyone who has eaten in a place at home with a specials board and ordered off the laminated menu anyway knows this trade. The printed card is safe because it is the same everywhere, which is also precisely what is wrong with it.",
+  "fichasCulturais": [
+    {
+      "sinal": "There are no allergen marks anywhere on the menu, so you assume the kitchen either has none of your allergen or is hiding it.",
+      "suaLeitura": "No marks means the information is not available here.",
+      "oQueEAli": "Restaurants are outside the mandatory allergen-labelling rule, which covers packaged food. Plenty of kitchens that know exactly what is in every dish print nothing, because they are not required to, and the absence of a mark carries no information either way.",
+      "oQueVoceFaz": "State the allergy out loud and ask about the specific plate: nani ga haitte imasu ka, and name what you cannot eat. Do not read the card for badges that are not obliged to be there.",
+      "oQueMelhora": "You get a straight sentence about the actual dish instead of an inference from a blank, which is the only version of this that keeps you safe.",
+      "ondeNaoVale": "Not a reason to relax if the answer is vague — where the kitchen genuinely does not know, a firm no to that dish is the right call, exactly as the hammer sentence from the basics does it.",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "fr-i03-n04"
+      ]
+    },
+    {
+      "sinal": "A set cost one number and came with three things yesterday, so you order the set today and get two.",
+      "suaLeitura": "The second place cut something out of a standard deal.",
+      "oQueEAli": "Setto and koosu have no fixed definition. Each house sets its own, and the widespread convention is commercial usage rather than a rule anyone is bound by.",
+      "oQueVoceFaz": "Ask what the set includes before ordering it, in one sentence, the way you would ask about anything else on the board.",
+      "oQueMelhora": "The number on the board becomes comparable between two places, which it was not before you asked.",
+      "ondeNaoVale": "Not for a posted price itself, which the house does have to honour — there the board is telling you something binding about cost, even if what it buys is up to them to describe.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "fr-i03-n05"
+      ]
+    }
+  ]
+}

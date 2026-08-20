@@ -1,0 +1,161 @@
+{
+  "versao": 1,
+  "sku": "KO → Japão",
+  "_regras": {
+    "vocabulario_molde": {
+      "termo": "the frame",
+      "porque": "Termo canônico da linha EN (guia inglesa), idêntico ao do EN → França / EN → Itália / EN → México. Não muda entre SKUs da mesma língua-guia: é o que faz o aluno que comprou dois cursos reconhecer a mesma peça."
+    },
+    "criterio": "Um molde entra se, e só se: (1) o buraco é uma COISA DO MUNDO que o aluno escolhe sob pressão, nunca uma categoria gramatical que ele teria que calcular; (2) o abridor é invariável, ou seja, o aluno nunca conjuga nada para usá-lo; (3) ele atravessa a jornada — nasce numa casa e volta em pelo menos duas outras partes. No japonês o abridor é invariável de outra maneira que no francês: a partícula (は, を, が) e o fecho polido (です／ます／ください／お願いします) ficam FIXOS na moldura, e só o substantivo antes deles troca. A conjugação verbal, quando aparece (て-form, ～ました), entra como pedaço memorizado, nunca como regra a aplicar.",
+    "recusados": [
+      {
+        "candidato": "keigo / 敬語 (níveis de fala honorífica)",
+        "porque": "É a recusa mais importante deste roster. O buraco não se preenche com uma coisa do mundo: preenche-se com uma LEITURA SOCIAL do interlocutor (status, dentro/fora do grupo) feita sob pressão — exatamente o que o aluno não consegue fazer em tempo real. O curso inteiro roda no registro ～です／～ます (teineigo), que é universalmente seguro com estranhos e balcões. Reconhecer keigo do funcionário é RECEPTIVO (A07); produzi-lo, não."
+      },
+      {
+        "candidato": "は vs が (partícula de tópico vs sujeito)",
+        "porque": "Tentador porque é a dúvida clássica do anglófono, mas o buraco é uma REGRA gramatical que ele teria que calcular, não uma coisa que ele escolhe. As molduras já trazem a partícula fixada (〜はありますか, 〜をお願いします): o aluno diz a moldura inteira e nunca decide a partícula. Ensinar a escolha viraria o método do avesso."
+      },
+      {
+        "candidato": "contadores / 助数詞 (一つ, 一枚, 一本, 一人…)",
+        "porque": "O sistema de contadores japonês é enorme e muda com a forma do objeto. Vira regra a calcular sob pressão. O curso resolve com o contador universal ～つ (ひとつ, ふたつ) e com apontar, que cobrem o balcão sem obrigar o aluno a classificar o objeto. Fica como inventário fixo em B15/B18, não como molde."
+      },
+      {
+        "candidato": "です／だ (polido vs simples)",
+        "porque": "O registro simples (だ/plain) é o que o aluno OUVE mas nunca deve produzir com estranhos. Escolher o registro é leitura social, não coisa do mundo. Toda a produção do curso fica em ～です／～ます. Reconhecer o registro simples do interlocutor é sinal receptivo, não molde."
+      }
+    ]
+  },
+  "moldes": [
+    {
+      "id": "ARIMASU-KA",
+      "categoria": "operacional",
+      "forma": "〜 は ありますか？",
+      "encaixe": "qualquer coisa que o outro possa TER ou que exista ali",
+      "tipo": "aberto",
+      "tipoBuraco": "coisa",
+      "casa": "B06",
+      "redisparos": ["B08", "B11", "B15", "B16", "I03"],
+      "tiles": ["comprar", "comer", "quarto", "chegar"],
+      "exemplos": ["席", "メニュー", "もっと静かな部屋", "私のサイズ", "Wi-Fi", "英語のメニュー"],
+      "nota": "O de maior alcance do SKU. 〜はありますか cobre tanto «vocês têm?» quanto «existe/há?», que no balcão japonês é a mesma pergunta de disponibilidade. A partícula は e o fecho ありますか ficam fixos; só o substantivo troca. Nasce em B06 junto com a primeira hora, não na parte de comer."
+    },
+    {
+      "id": "TE-MO-II",
+      "categoria": "operacional",
+      "forma": "〜 てもいいですか？",
+      "encaixe": "qualquer coisa que EU quero fazer e preciso que seja permitida",
+      "tipo": "aberto",
+      "tipoBuraco": "acao",
+      "casa": "B07",
+      "redisparos": ["B10", "B15", "B16", "B18", "I09"],
+      "tiles": ["pagar", "compras", "quarto", "chegar"],
+      "exemplos": ["カードで払っ", "ここに座っ", "試着し", "荷物を置い", "写真を撮っ", "充電し"],
+      "nota": "Cobre a categoria de improviso mais comum do viajante — «isto aqui pode?» — que existe porque a regra muda de estabelecimento para estabelecimento. O aluno aprende a て-form como PEDAÇO colado ao 〜もいいですか, nunca como regra: as tiles vêm com o verbo já em て. Deliberadamente 〜てもいいですか e não o keigo 〜てもよろしいでしょうか: a forma curta é a que sai sob pressão."
+    },
+    {
+      "id": "DOKO-DESU-KA",
+      "categoria": "operacional",
+      "forma": "〜 は どこですか？",
+      "encaixe": "qualquer lugar que ele precisa alcançar",
+      "tipo": "aberto",
+      "tipoBuraco": "lugar",
+      "casa": "B08",
+      "redisparos": ["B09", "B10", "B17"],
+      "tiles": ["chegar", "transporte", "cidade"],
+      "exemplos": ["タクシー乗り場", "出口", "駅", "トイレ", "入口", "コンビニ"],
+      "nota": "O que move os pés. 〜はどこですか e não o mais longo 〜はどちらでしょうか pelo mesmo motivo do resto: a forma curta é a que sai sob pressão e a longa é a que o aluno abandona no meio. どこ é a palavra-lugar que o balcão devolve com um gesto, o que resolve mesmo quando a resposta falada passa batido."
+    },
+    {
+      "id": "ONEGAI-SHIMASU",
+      "categoria": "operacional",
+      "forma": "〜 を お願いします",
+      "encaixe": "o que ele quer pedir, dito com a delicadeza que o balcão japonês espera",
+      "tipo": "aberto",
+      "tipoBuraco": "coisa",
+      "casa": "B11",
+      "redisparos": ["B14", "B15", "I01"],
+      "tiles": ["comer", "pagar", "compras"],
+      "exemplos": ["コーヒー", "お会計", "これ", "切符", "水", "これを二つ"],
+      "nota": "〜をお願いします é o pedido universal do balcão: aponta e nomeia, e お願いします faz todo o trabalho de cortesia que o francês pede com «je voudrais». O encaixe é produto (aponta a carta e diz o nome + をお願いします). O que ele NÃO pode é ocupar o lugar do ARIMASU-KA na primeira hora — daí a casa ser B11. Para o pedido-ação («queria reservar») o curso usa 〜たいです em I01, sem status de molde aqui."
+    },
+    {
+      "id": "NUKI-DE",
+      "categoria": "operacional",
+      "forma": "〜 抜きで",
+      "encaixe": "qualquer ingrediente ou elemento que ele não quer",
+      "tipo": "aberto",
+      "tipoBuraco": "coisa",
+      "casa": "B12",
+      "redisparos": ["B13", "B17"],
+      "tiles": ["comer", "saude"],
+      "exemplos": ["わさび", "にんにく", "氷", "ねぎ", "肉"],
+      "nota": "Subtrair em vez de descrever. 〜抜きで («sem ~, por favor») transforma a tigela num objeto editável: わさび抜きで, 氷抜きで. É o núcleo gerador mais denso do módulo básico e o que dá ao aluno com alergia ou restrição uma frase curta e inequívoca — mais segura que qualquer descrição."
+    },
+    {
+      "id": "IKURA",
+      "categoria": "operacional",
+      "forma": "〜 は いくらですか？",
+      "encaixe": "qualquer coisa antes de se comprometer com ela",
+      "tipo": "aberto",
+      "tipoBuraco": "coisa",
+      "casa": "B15",
+      "redisparos": ["B18", "I10"],
+      "tiles": ["pagar", "compras", "transporte"],
+      "exemplos": ["これ", "全部で", "一泊", "席", "これ全部で"],
+      "nota": "Nasce onde o erro custa dinheiro. いくらですか é a pergunta que o comprador anglófono esquece de fazer antes de sentar. O encaixe mais valioso não é um produto: é confirmar ANTES — a taxa de assento (お通し/席料 num izakaya, cobrada e lícita) é o «en terrasse» japonês, a diferença de preço que só aparece na conta se você não perguntou. B14 usa a fórmula fixa antes desta casa e por isso não é redisparo."
+    },
+    {
+      "id": "SAGASHITE-IMASU",
+      "categoria": "operacional",
+      "forma": "〜 を 探しています",
+      "encaixe": "o que ele está procurando, quando ainda não sabe se existe ali",
+      "tipo": "aberto",
+      "tipoBuraco": "coisa",
+      "casa": "B10",
+      "redisparos": ["B16", "B17", "I09"],
+      "tiles": ["compras", "chegar", "cidade"],
+      "exemplos": ["薬局", "ATM", "咳の薬", "出口", "お土産"],
+      "nota": "Cobre o buraco que o DOKO-DESU-KA deixa: DOKO-DESU-KA pergunta por um lugar conhecido, 〜を探しています abre a busca de algo que talvez não exista ali. A casa é B10, onde ele nasce junto com o falso amigo (サービス = «de graça/atenção», não «service charge»; マンション = apartamento, não mansão), e «薬局を探しています» ensina o abridor e a armadilha na mesma frase."
+    },
+    {
+      "id": "SUMIMASEN",
+      "categoria": "social",
+      "forma": "すみません、〜",
+      "encaixe": "o que ele precisa de um estranho — e o próprio ato de abrir",
+      "tipo": "aberto",
+      "tipoBuraco": "acao",
+      "casa": "B03",
+      "redisparos": ["B05", "B08", "B10", "I02", "I07", "A07", "A08"],
+      "tiles": ["reparo", "chegar", "conversa"],
+      "exemplos": ["わかりませんでした", "もう一度お願いします", "通ります", "写真をお願いします"],
+      "nota": "Molde social, e neste par ele pesa mais que em qualquer outro SKU do catálogo. すみません faz TRÊS trabalhos com uma palavra — chamar a atenção, pedir licença e agradecer — e é a condição ritual de a conversa acontecer. É também como se chama o garçom (não se estala o dedo nem se ergue a mão sozinha). O anglófono que abre em inglês sem ela lê a reserva resultante como recusa; a leitura correta é ritual, não recusa."
+    },
+    {
+      "id": "NAN-JI",
+      "categoria": "operacional",
+      "forma": "〜 は 何時ですか？",
+      "encaixe": "qualquer coisa que abre, fecha, começa ou é servida",
+      "tipo": "aberto",
+      "tipoBuraco": "acao",
+      "casa": "I01",
+      "redisparos": ["I09", "A03", "A06"],
+      "tiles": ["comer", "transporte", "cidade", "compras"],
+      "exemplos": ["開店", "ラストオーダー", "チェックアウト", "終電", "朝ごはん"],
+      "nota": "O horário é a única variável que o aluno não consegue adivinhar e que reorganiza o resto do dia. 〜は何時ですか vira leitura do relógio deles: a ラストオーダー (last order) fecha a cozinha bem antes do salão, o 終電 (último trem) é uma parede rígida, e a janela do almoço é estreita. A casa é I01 porque é ali que a pergunta deixa de ser avulsa e vira leitura do dia japonês. Os usos de B01 e B10 vêm antes e por isso não são redisparo."
+    },
+    {
+      "id": "MASHITA",
+      "categoria": "operacional",
+      "forma": "〜 ました",
+      "encaixe": "qualquer coisa que ele fez ontem",
+      "tipo": "aberto",
+      "tipoBuraco": "acao",
+      "casa": "I06",
+      "redisparos": ["I08"],
+      "tiles": ["conversa", "comer", "cidade"],
+      "exemplos": ["京都に行きました", "小さいお店で食べました", "電車に乗りました", "一日中歩きました", "お土産を買いました"],
+      "nota": "O passado não entra como tempo verbal a conjugar, entra como um punhado de verbos que carregam qualquer dia, cada um já em ～ました: 行きました, 食べました, 乗りました. É o molde que tira o aluno do presente permanente e o transforma de alguém que pede coisas em alguém que tem uma viagem para contar — o que, num par onde o silêncio é confortável, é justamente o que abre a conversa com o anfitrião."
+    }
+  ]
+}

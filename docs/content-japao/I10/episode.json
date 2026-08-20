@@ -1,0 +1,372 @@
+{
+  "id": "i10",
+  "nivel": "intermediario",
+  "numero": 28,
+  "parte": "I10",
+  "titulo": "Money here: cash always works, the card is the one with conditions",
+  "subtitulo": "The displayed price is tax-included by law, a card minimum or a cash-only sign is lawful when it is posted, and tipping is simply not the custom",
+  "cena": "There is a small sign beside the register that you walked straight past, and the card in your hand is about to find out what it says.",
+  "moldura": "ganha",
+  "frasePiso": "Read the sign before you order, not after. Almost everything about paying here is posted somewhere in advance, and the tag price already has the tax in it.",
+  "decisao": "ler a plaquinha e decidir na porta como vou pagar — espécie ou cartão — em vez de descobrir a condição com a conta na mão e tratar a condição como golpe",
+  "moldes": [],
+  "fatosDatados": [
+    {
+      "id": "fr-i10-card",
+      "afirmacao": "There is no legal obligation in Japan to accept card payment. A business may take cash only, or accept cards under conditions it sets — including a minimum amount — and cashless payment, while spreading fast, is far from universal in small and traditional places. A genkin nomi (cash only) sign at the door or register is ordinary and lawful. Corollary: cash in yen is always accepted, so the reliable move is to carry enough of it and to read the sign before ordering rather than after.",
+      "fonte": "Sem obrigação legal de aceitar cartão no Japão; 現金のみ frequente em estabelecimentos pequenos; cashless em expansão mas não universal",
+      "ano": 2026,
+      "revisarAte": "2027-08-05",
+      "evidencia": "FATO",
+      "risco": "medio",
+      "audioKeys": [
+        "fr-i10-n04",
+        "fr-i10-n05"
+      ]
+    },
+    {
+      "id": "fr-i10-sougaku",
+      "afirmacao": "Prices shown to consumers must be tax-included. The sougaku hyoji (total-price display) obligation under the Consumption Tax Act became fully required again from 1 April 2021, so the figure on the tag or menu is the figure you pay — the 10 percent standard rate, or 8 percent reduced on takeaway food, is already inside it. There is no separate tax added at the register on a displayed price. The practical reading: the number you see is the number to hand over, and you do not need to do arithmetic on it.",
+      "fonte": "総額表示義務 (exibição do preço com imposto incluído), Lei do Imposto sobre o Consumo — obrigatória desde 01/04/2021",
+      "ano": 2021,
+      "revisarAte": "2028-08-05",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "fr-i10-n07"
+      ]
+    },
+    {
+      "id": "fr-i10-chip",
+      "afirmacao": "Tipping is not the custom in Japan and there is no percentage norm for one. Handing cash to staff is often declined or causes confusion, and rounding up is not expected. What does exist, at some ryokan and higher-end restaurants, is a disclosed service charge (サービス料, commonly around 10-15 percent) added to the bill and shown in advance — distinct from a tip and part of the posted price. The warm close here is words, not coins: gochisosama deshita rather than a gratuity.",
+      "fonte": "Ausência de cultura de gorjeta no Japão; サービス料 (taxa de serviço) divulgada em ryokan/restaurantes de alto padrão, ~10-15%, distinta de gorjeta",
+      "ano": 2026,
+      "revisarAte": "2028-08-05",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "fr-i10-n02",
+        "fr-i10-n03"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-i10-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "Four money questions come up on every trip, and all four are answered by a sign on a wall or a number on the tag."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-i10-n02",
+      "bloco": "corpo",
+      "pt": "First: there is no tip. Cash handed over on top is usually declined, and no percentage is waiting at the end."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_f",
+      "audioKey": "fr-i10-t01",
+      "es": "サービス料はかかりますか？",
+      "pinyin": "SAH-bi-su-ryo wa ka-ka-ri-mas-ka",
+      "pt": "Is there a service charge?",
+      "tts": "サービス料はかかりますか？"
+    },
+    {
+      "consulta": [
+        "mesa/conta",
+        "pagar/gorjeta"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-i10-p01",
+      "promptPt": "The bill is in front of you and you are wondering whether anything gets added on top. Ask instead. Speak now.",
+      "audioKey": "fr-i10-t01",
+      "es": "サービス料はかかりますか？",
+      "pinyin": "SAH-bi-su-ryo wa ka-ka-ri-mas-ka",
+      "pt": "Is there a service charge?",
+      "tts": "サービス料はかかりますか？"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-i10-r01",
+      "receptivo": true,
+      "acao": "That is the standard answer at most places. The price is the price; there is no tip line.",
+      "es": "いいえ、税込価格です。チップも要りませんよ。",
+      "pt": "No, the price includes tax. And no tip needed.",
+      "tts": "いいえ、税込価格です。チップも要りませんよ。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-i10-n03",
+      "pt": "The warm close is words, not coins. Gochisosama deshita does the work a tip does elsewhere; a gratuity is often refused."
+    },
+    {
+      "consulta": [
+        "pagar/gorjeta"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-i10-p02",
+      "promptPt": "Lunch was long and good and you have paid the exact figure. Close it warmly, the way people do here. Speak now.",
+      "audioKey": "fr-i10-t02",
+      "es": "ごちそうさまでした。美味しかったです。",
+      "pinyin": "go-chi-soh-sa-ma-DESH-ta. o-i-shi-KAT-ta des",
+      "pt": "Thank you for the meal. It was delicious.",
+      "tts": "ごちそうさまでした。美味しかったです。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-i10-n04",
+      "bloco": "capsula",
+      "pt": "Second: nobody must take your card, and a cash-only sign or a minimum is lawful. Cashless is spreading, but not everywhere."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-i10-r02",
+      "receptivo": true,
+      "acao": "Look at the register, not at his face. If a minimum is posted, it is lawful and the conversation is over.",
+      "es": "カードは三千円からになります。",
+      "pt": "Card is from three thousand yen up.",
+      "tts": "カードは三千円からになります。"
+    },
+    {
+      "consulta": [
+        "pagar/cartao",
+        "compras/quanto"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "IKURA",
+      "encaixe": "最低金額",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-i10-p03",
+      "promptPt": "There is a sticker by the register and you cannot read the figure on it. Ask for the number. Speak now.",
+      "audioKey": "fr-i10-t03",
+      "es": "最低金額はいくらですか？",
+      "pinyin": "sai-TEI-kin-gaku wa i-ku-ra des-ka",
+      "pt": "What is the minimum amount?",
+      "tts": "最低金額はいくらですか？"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-i10-n05",
+      "pt": "The condition is posted before you order: a sign at the door, at the register, or on the ticket machine."
+    },
+    {
+      "consulta": [
+        "pagar/cartao",
+        "chegar/entrar"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-i10-p04",
+      "promptPt": "You are still in the doorway with nothing ordered yet. Settle it now. Speak now.",
+      "audioKey": "fr-i10-t04",
+      "es": "カードで払えますか？",
+      "pinyin": "KAH-do de ha-ra-e-mas-ka",
+      "pt": "Can I pay by card?",
+      "tts": "カードで払えますか？"
+    },
+    {
+      "consulta": [
+        "pagar/dinheiro",
+        "pagar/cartao"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-i10-p05",
+      "promptPt": "He has just pointed at the sign. Give him the easy answer and keep the meal. Speak now.",
+      "audioKey": "fr-i10-t05",
+      "es": "じゃあ、現金で払います。",
+      "pinyin": "JAA, gen-KIN de ha-ra-i-mas",
+      "pt": "Then I'll pay cash.",
+      "tts": "じゃあ、現金で払います。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-i10-n06",
+      "pt": "Cash is the one they cannot turn down. Yen is legal tender, and that part is not the shop's to decide."
+    },
+    {
+      "consulta": [
+        "pagar/dinheiro"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-i10-p06",
+      "promptPt": "The purchase is three hundred yen and the machine only gave you ten-thousand notes. Say so before the drawer opens. Speak now.",
+      "audioKey": "fr-i10-t06",
+      "es": "一万円札でもいいですか？",
+      "pinyin": "i-chi-man-EN-sa-tsu de mo i-i des-ka",
+      "pt": "Is a ten-thousand note all right?",
+      "tts": "一万円札でもいいですか？"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-i10-n07",
+      "bloco": "capsula",
+      "pt": "Third: the tag price is the price you pay. Since 2021 it must be shown tax-included, so nothing is added at the register."
+    },
+    {
+      "consulta": [
+        "pagar/pedir",
+        "compras/quanto"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "molde": "IKURA",
+      "encaixe": "全部で",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-i10-p07",
+      "promptPt": "Three of you ordered, one of you is paying, and you want the whole figure first. Speak now.",
+      "audioKey": "fr-i10-t07",
+      "es": "全部でいくらですか？",
+      "pinyin": "ZEN-bu de i-ku-ra des-ka",
+      "pt": "How much is it all together?",
+      "tts": "全部でいくらですか？"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "fr-i10-n08",
+      "pt": "Fourth: splitting. Betsubetsu at the register is ordinary here, and asking for it costs you nothing."
+    },
+    {
+      "consulta": [
+        "pagar/rachar"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "fr-i10-p08",
+      "promptPt": "Two of you at the register, two cards out, one bill on the tray. Speak now.",
+      "audioKey": "fr-i10-t08",
+      "es": "別々で払えますか？",
+      "pinyin": "be-TSU-be-tsu de ha-ra-e-mas-ka",
+      "pt": "Can we pay separately?",
+      "tts": "別々で払えますか？"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_fr_m",
+      "audioKey": "fr-i10-r03",
+      "receptivo": true,
+      "acao": "Yes arrives as an action, not as a word. He is already splitting it.",
+      "es": "はい、別々にしますね。",
+      "pt": "Of course, I'll split it for you.",
+      "tts": "はい、別々にしますね。"
+    },
+    {
+      "consulta": [
+        "compras/pagar",
+        "mesa/conta"
+      ],
+      "tipo": "responde",
+      "voz": "target_fr_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "fr-i10-p09",
+      "promptPt": "The register beeps, the drawer shuts, and nothing prints. You need proof for the expense claim. Speak now.",
+      "audioKey": "fr-i10-t09",
+      "es": "レシートをお願いします。",
+      "pinyin": "re-SHII-to o o-ne-gai-shi-MAS",
+      "pt": "The receipt, please.",
+      "tts": "レシートをお願いします。"
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_fr_f",
+      "audioKey": "fr-i10-s01",
+      "es": "カードで払えますか？ 最低金額はいくらですか？ じゃあ、現金で払います。",
+      "pinyin": "KAH-do de ha-ra-e-mas-ka · sai-TEI-kin-gaku wa i-ku-ra des-ka · JAA, gen-KIN de ha-ra-i-mas",
+      "pt": "Shadow the three sentences that settle almost any register in Japan.",
+      "tts": "カードで払えますか？ 最低金額はいくらですか？ じゃあ、現金で払います。",
+      "molde": "IKURA"
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_en_us_f",
+      "audioKey": "fr-i10-n09",
+      "bloco": "recap",
+      "pt": "I10 done, and the intermediate run with it. No tip, cash always works, the card has a posted condition, and the tag price is final."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "Four money questions, all answered on a wall",
+    "secoes": [
+      {
+        "titulo": "The card is theirs to condition",
+        "corpo": "There is no obligation in Japan to accept card payment. A shop may take cash only, or set a minimum, as long as it tells you — a sign at the door, at the register, on the ticket machine. Cashless is spreading fast in the cities but is far from universal in small and traditional places, so a genkin nomi sign is ordinary rather than pointed. Carry enough yen and read the sign before you order.",
+        "exemplos": [
+          {
+            "es": "カードで払えますか？",
+            "pt": "Can I pay by card?"
+          },
+          {
+            "es": "最低金額はいくらですか？",
+            "pt": "What is the minimum amount?"
+          }
+        ]
+      },
+      {
+        "titulo": "Cash always works",
+        "corpo": "Yen is legal tender and cash is the payment nobody may turn away. Whether a shop will happily change a ten-thousand note for a three-hundred-yen purchase is a separate matter of practice — many will, some would rather you had it closer, and asking ichiman-en satsu de mo ii desu ka first is thirty seconds cheaper than the awkward pause. At many small restaurants you pay first at a ticket machine, so the money question comes before the meal, not after it."
+      },
+      {
+        "titulo": "The tag price is the price",
+        "corpo": "Since April 2021 prices shown to consumers must be tax-included, so the figure on the tag or menu is the figure you hand over — the standard 10 percent, or the reduced 8 percent on takeaway food, is already inside it. There is no separate tax added at the register on a displayed price, and no arithmetic for you to do."
+      },
+      {
+        "titulo": "No tip, and the service charge is disclosed",
+        "corpo": "Tipping is not the custom and there is no percentage norm; cash pressed on staff is often declined. The warm close is gochisosama deshita, not a gratuity. Where a service charge does exist — some ryokan and higher-end restaurants add roughly 10 to 15 percent — it is disclosed in advance and shown on the bill, which is a posted price rather than a tip you are expected to calculate."
+      }
+    ]
+  },
+  "slot": "I10",
+  "permissao": "You are allowed to ask how a place takes money before you order anything. Nobody at a Japanese register reads kaado de haraemasu ka as suspicion — it is the same question the person in front of you asked, and asking it in the doorway is thirty seconds cheaper than asking it with a bill in your hand.",
+  "permissaoAudioKey": "fr-i10-n05",
+  "espelho": "Anyone who has stood at a corner shop at home reading a hand-written CARD MINIMUM sign by the till knows this exact shape. The rule is not hidden, it is just written small, and the only skill is looking before you commit rather than after.",
+  "fichasCulturais": [
+    {
+      "sinal": "You hand your card over for a small purchase and the person points at a sign by the register instead of taking it.",
+      "suaLeitura": "They are steering me to cash because they do not want to pay the fee, and I am being handled as a tourist.",
+      "oQueEAli": "There is no legal obligation in Japan to accept card payment, and a minimum or a cash-only policy is lawful — on the condition it is announced beforehand and visibly. The sign is the announcement. It was there before you walked in and it applies to the person behind you too.",
+      "oQueVoceFaz": "Look at the door, the register and the ticket machine before you order, and keep enough yen in notes for the places where the answer is no. If the figure is not legible, ask saitei kingaku wa ikura desu ka.",
+      "oQueMelhora": "The moment stops being a small confrontation and becomes a fact you checked, and you keep the meal instead of walking to an ATM.",
+      "ondeNaoVale": "Not everywhere — chains, department stores and city-centre places increasingly take cards and IC cards for any amount. This is a reason to carry cash, not to assume plastic never works.",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "fr-i10-n04",
+        "fr-i10-n05"
+      ]
+    },
+    {
+      "sinal": "The bill has no tip line, the card reader never asks about one, and you paid the exact figure on the menu.",
+      "suaLeitura": "Something was left off and I am expected to add a percentage myself.",
+      "oQueEAli": "Tipping is not the custom, and the displayed price is tax-included by law since 2021, so the menu figure is the whole figure. No source publishes a percentage for a tip because there is no norm to publish, and a gratuity handed over is often declined.",
+      "oQueVoceFaz": "Pay the number. Close it warmly with gochisosama deshita rather than coins. If a bill shows a service charge, it was disclosed in advance and is already in the total.",
+      "oQueMelhora": "You stop adding fifteen percent to every meal out of unease, which over a week is a whole other dinner, and the thanks lands better than money would.",
+      "ondeNaoVale": "Not a claim that no place ever charges for service — some ryokan and high-end restaurants add a disclosed service charge, so read the bill, which will show it as a line rather than expect you to calculate it.",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "fr-i10-n02",
+        "fr-i10-n03"
+      ]
+    }
+  ]
+}
