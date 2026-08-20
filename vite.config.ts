@@ -33,10 +33,10 @@ export default defineConfig({
         base: `${base}/`
       },
       manifest: {
-        name: 'Sumimasen! — Survival Japanese for Japan',
+        name: 'Sumimasen! — 일본 여행 생존 일본어',
         short_name: 'Sumimasen!',
-        description: 'Survival Japanese + culture for Japan · audio-first, works offline',
-        lang: 'en-GB',
+        description: '일본 여행을 위한 생존 일본어와 문화 · 오디오 우선, 오프라인 작동',
+        lang: 'ko',
         theme_color: '#C84B31',
         background_color: '#FFF7EC',
         display: 'standalone',
