@@ -152,8 +152,13 @@ if (erros.length) {
   process.exit(1);
 }
 
+// O sku vem de moldes.json — é a fonte que a derivação já atualiza corretamente
+// para o par comprador×destino atual. Hardcoded aqui, ficava preso no SKU de
+// origem do clone (sempre "EN → Espanha") e nunca acompanhava a derivação.
+const { sku } = JSON.parse(readFileSync(join(dir, 'moldes.json'), 'utf8'));
+
 writeFileSync(
   join(dir, 'consulta.json'),
-  JSON.stringify({ versao: 1, sku: 'EN → Espanha', taxonomia: folhas, tiles, cards }, null, 2) + '\n'
+  JSON.stringify({ versao: 1, sku, taxonomia: folhas, tiles, cards }, null, 2) + '\n'
 );
 console.log(`\n✓ consulta.json gerado · ${cards.length} cards · ${Object.keys(porFolha).length}/${folhas.length} folhas preenchidas\n`);
