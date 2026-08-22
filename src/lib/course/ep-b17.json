@@ -74,8 +74,7 @@
     },
     {
       "consulta": [
-        "saude/farmacia",
-        "cidade/onde"
+        "saude/guardia"
       ],
       "tipo": "responde",
       "voz": "target_fr_f",
@@ -91,8 +90,7 @@
     },
     {
       "consulta": [
-        "saude/farmacia",
-        "cidade/onde"
+        "saude/guardia"
       ],
       "tipo": "responde",
       "voz": "target_fr_f",
@@ -126,8 +124,7 @@
     },
     {
       "consulta": [
-        "saude/sintoma",
-        "saude/farmacia"
+        "saude/algo-para"
       ],
       "tipo": "responde",
       "voz": "target_fr_f",
@@ -152,7 +149,7 @@
     },
     {
       "consulta": [
-        "saude/sintoma"
+        "saude/algo-para"
       ],
       "tipo": "responde",
       "voz": "target_fr_f",
@@ -167,7 +164,7 @@
     },
     {
       "consulta": [
-        "saude/sintoma",
+        "saude/algo-para",
         "reparo/apontar"
       ],
       "tipo": "responde",
@@ -190,8 +187,7 @@
     },
     {
       "consulta": [
-        "saude/alergia",
-        "saude/farmacia"
+        "saude/minha-alergia"
       ],
       "tipo": "responde",
       "voz": "target_fr_f",
@@ -208,8 +204,7 @@
     },
     {
       "consulta": [
-        "saude/receita",
-        "saude/farmacia"
+        "saude/receita"
       ],
       "tipo": "responde",
       "voz": "target_fr_f",
@@ -232,8 +227,7 @@
     },
     {
       "consulta": [
-        "saude/alergia",
-        "comer/restricao"
+        "saude/minha-alergia"
       ],
       "tipo": "responde",
       "voz": "target_fr_f",
@@ -278,7 +272,7 @@
     },
     {
       "consulta": [
-        "saude/emergencia"
+        "saude/112"
       ],
       "tipo": "responde",
       "voz": "target_fr_f",
@@ -293,8 +287,7 @@
     },
     {
       "consulta": [
-        "saude/emergencia",
-        "cidade/onde"
+        "saude/112"
       ],
       "tipo": "responde",
       "voz": "target_fr_f",

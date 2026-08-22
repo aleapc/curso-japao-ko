@@ -52,8 +52,7 @@
     },
     {
       "consulta": [
-        "compras/mercado",
-        "cidade/evento"
+        "compras/mercado"
       ],
       "tipo": "responde",
       "voz": "target_fr_f",
@@ -76,7 +75,7 @@
     },
     {
       "consulta": [
-        "cidade/evento",
+        "compras/mercado",
         "compras/balcao"
       ],
       "tipo": "responde",
@@ -109,8 +108,7 @@
     },
     {
       "consulta": [
-        "compras/mercado",
-        "conversa/perguntar"
+        "compras/mercado"
       ],
       "tipo": "responde",
       "voz": "target_fr_f",
@@ -125,8 +123,7 @@
     },
     {
       "consulta": [
-        "compras/mercado",
-        "reparo/permissao"
+        "compras/mercado"
       ],
       "tipo": "responde",
       "voz": "target_fr_f",
@@ -174,8 +171,7 @@
     },
     {
       "consulta": [
-        "conversa/planos",
-        "conversa/perguntar"
+        "simpatia/puxar-conversa"
       ],
       "tipo": "responde",
       "voz": "target_fr_f",
@@ -200,7 +196,6 @@
     },
     {
       "consulta": [
-        "cidade/passeio",
         "chegar/lugar"
       ],
       "tipo": "responde",
@@ -218,8 +213,7 @@
     },
     {
       "consulta": [
-        "cidade/passeio",
-        "reparo/permissao"
+        "chegar/lugar"
       ],
       "tipo": "responde",
       "voz": "target_fr_f",
@@ -236,7 +230,7 @@
     },
     {
       "consulta": [
-        "cidade/evento",
+        "compras/mercado",
         "compras/balcao"
       ],
       "tipo": "responde",

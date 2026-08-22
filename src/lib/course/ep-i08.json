@@ -45,7 +45,7 @@
     },
     {
       "consulta": [
-        "conversa/convite"
+        "simpatia/convite"
       ],
       "tipo": "responde",
       "voz": "target_fr_f",
@@ -67,7 +67,7 @@
     },
     {
       "consulta": [
-        "conversa/convite"
+        "simpatia/convite"
       ],
       "tipo": "responde",
       "voz": "target_fr_f",
@@ -96,7 +96,7 @@
     },
     {
       "consulta": [
-        "conversa/convite",
+        "simpatia/convite",
         "compras/presente"
       ],
       "tipo": "responde",
@@ -121,7 +121,7 @@
     },
     {
       "consulta": [
-        "conversa/convite"
+        "simpatia/convite"
       ],
       "tipo": "responde",
       "voz": "target_fr_f",
@@ -142,7 +142,7 @@
     },
     {
       "consulta": [
-        "conversa/brinde"
+        "simpatia/brindar"
       ],
       "tipo": "responde",
       "voz": "target_fr_f",
@@ -157,8 +157,8 @@
     },
     {
       "consulta": [
-        "conversa/elogiar",
-        "comer/pedido"
+        "simpatia/elogiar-comida",
+        "mesa/comida"
       ],
       "tipo": "responde",
       "voz": "target_fr_f",
@@ -183,7 +183,7 @@
     },
     {
       "consulta": [
-        "comer/pedido"
+        "mesa/comida"
       ],
       "tipo": "responde",
       "voz": "target_fr_f",
@@ -214,8 +214,7 @@
     },
     {
       "consulta": [
-        "conversa/despedir",
-        "conversa/agradecer"
+        "simpatia/agradecer"
       ],
       "tipo": "responde",
       "voz": "target_fr_f",
@@ -230,7 +229,7 @@
     },
     {
       "consulta": [
-        "conversa/despedir"
+        "simpatia/agradecer"
       ],
       "tipo": "responde",
       "voz": "target_fr_f",

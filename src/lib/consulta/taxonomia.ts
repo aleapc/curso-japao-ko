@@ -49,6 +49,7 @@ export const FOLHAS: Folha[] = [
   { id: 'chegar/ultimo', tile: 'chegar', rotulo: '"Who\'s last?"' },
   { id: 'chegar/sair', tile: 'chegar', rotulo: 'Leaving' },
   { id: 'chegar/tu-usted', tile: 'chegar', rotulo: 'Formal or casual, in one line' },
+  { id: 'chegar/lugar', tile: 'chegar', rotulo: 'Finding a quiet spot' },
 
   // 2 · mesa
   { id: 'mesa/mesa', tile: 'mesa', rotulo: 'A table' },
@@ -104,6 +105,8 @@ export const FOLHAS: Folha[] = [
   { id: 'compras/quanto', tile: 'compras', rotulo: 'How much / what size' },
   { id: 'compras/so-olhando', tile: 'compras', rotulo: 'Just looking' },
   { id: 'compras/pagar', tile: 'compras', rotulo: 'Paying & the receipt' },
+  { id: 'compras/mercado', tile: 'compras', rotulo: 'At the food market' },
+  { id: 'compras/presente', tile: 'compras', rotulo: 'A gift to bring' },
   { id: 'compras/devolver', tile: 'compras', rotulo: 'Taking it back', reativa: true },
 
   // 9 · saude
@@ -111,6 +114,7 @@ export const FOLHAS: Folha[] = [
   { id: 'saude/receita', tile: 'saude', rotulo: 'With or without a prescription' },
   { id: 'saude/minha-alergia', tile: 'saude', rotulo: 'My allergy, my medicine' },
   { id: 'saude/guardia', tile: 'saude', rotulo: 'The 24-hour pharmacy' },
+  { id: 'saude/medico', tile: 'saude', rotulo: 'Finding a doctor' },
   { id: 'saude/112', tile: 'saude', rotulo: 'Emergency number & the hospital', reativa: true },
 
   // 10 · simpatia — a folha que o G8 protege com um piso de 8 cards.

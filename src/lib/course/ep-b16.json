@@ -86,8 +86,7 @@
     },
     {
       "consulta": [
-        "quarto/mala",
-        "reparo/permissao"
+        "quarto/mala"
       ],
       "tipo": "responde",
       "voz": "target_fr_f",
@@ -119,8 +118,7 @@
     },
     {
       "consulta": [
-        "quarto/pedir",
-        "chegar/conexao"
+        "quarto/pedir"
       ],
       "tipo": "responde",
       "voz": "target_fr_f",
@@ -137,8 +135,7 @@
     },
     {
       "consulta": [
-        "quarto/pedir",
-        "cidade/onde"
+        "quarto/pedir"
       ],
       "tipo": "responde",
       "voz": "target_fr_f",
@@ -161,8 +158,7 @@
     },
     {
       "consulta": [
-        "quarto/pedir",
-        "reparo/permissao"
+        "quarto/pedir"
       ],
       "tipo": "responde",
       "voz": "target_fr_f",
@@ -205,7 +201,6 @@
     },
     {
       "consulta": [
-        "cidade/onde",
         "pagar/dinheiro"
       ],
       "tipo": "responde",
@@ -223,8 +218,7 @@
     },
     {
       "consulta": [
-        "quarto/pedir",
-        "chegar/conexao"
+        "quarto/pedir"
       ],
       "tipo": "responde",
       "voz": "target_fr_f",
@@ -241,7 +235,7 @@
     },
     {
       "consulta": [
-        "conversa/agradecer"
+        "simpatia/agradecer"
       ],
       "tipo": "responde",
       "voz": "target_fr_f",

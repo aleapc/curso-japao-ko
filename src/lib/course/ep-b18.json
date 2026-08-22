@@ -46,8 +46,7 @@
     },
     {
       "consulta": [
-        "quarto/mala",
-        "reparo/permissao"
+        "quarto/mala"
       ],
       "tipo": "responde",
       "voz": "target_fr_f",
@@ -79,7 +78,7 @@
     },
     {
       "consulta": [
-        "pagar/conta",
+        "pagar/pedir",
         "quarto/checkout"
       ],
       "tipo": "responde",
@@ -103,8 +102,7 @@
     },
     {
       "consulta": [
-        "pagar/cartao",
-        "reparo/permissao"
+        "pagar/cartao"
       ],
       "tipo": "responde",
       "voz": "target_fr_f",
@@ -138,8 +136,7 @@
     },
     {
       "consulta": [
-        "pagar/conta",
-        "reparo/permissao"
+        "pagar/pedir"
       ],
       "tipo": "responde",
       "voz": "target_fr_f",
@@ -156,8 +153,7 @@
     },
     {
       "consulta": [
-        "taxi/destino",
-        "reparo/permissao"
+        "taxi/destino"
       ],
       "tipo": "responde",
       "voz": "target_fr_f",
@@ -189,7 +185,7 @@
     {
       "consulta": [
         "taxi/destino",
-        "pagar/conta"
+        "pagar/pedir"
       ],
       "tipo": "responde",
       "voz": "target_fr_f",
@@ -206,8 +202,7 @@
     },
     {
       "consulta": [
-        "conversa/elogiar",
-        "conversa/agradecer"
+        "simpatia/agradecer"
       ],
       "tipo": "responde",
       "voz": "target_fr_f",
@@ -230,7 +225,7 @@
     },
     {
       "consulta": [
-        "conversa/despedir"
+        "simpatia/agradecer"
       ],
       "tipo": "responde",
       "voz": "target_fr_f",
@@ -245,7 +240,7 @@
     },
     {
       "consulta": [
-        "conversa/despedir"
+        "simpatia/agradecer"
       ],
       "tipo": "responde",
       "voz": "target_fr_f",
